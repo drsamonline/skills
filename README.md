@@ -1,5 +1,14 @@
-# skills — a reusable knowledge base of drsamonline project methods
-**All projects:** <https://drsamonline.github.io/>
+# skills
+
+**A machine-consumable knowledge base of the working methods behind the drsamonline projects.**
+
+[![Landing page](https://img.shields.io/badge/landing%20page-open-2e7d32?style=flat-square)](https://drsamonline.github.io/skills/)
+[![All projects](https://img.shields.io/badge/All%20projects-hub-2e7d32?style=flat-square)](https://drsamonline.github.io/)
+[![Type: knowledge base](https://img.shields.io/badge/type-knowledge%20base-586069?style=flat-square)](https://drsamonline.github.io/skills/)
+[![Format: Markdown + JSON](https://img.shields.io/badge/format-Markdown%20%2B%20JSON-586069?style=flat-square)](https://github.com/drsamonline/skills)
+
+**Landing page:** <https://drsamonline.github.io/skills/> &nbsp;·&nbsp; **All projects:** <https://drsamonline.github.io/>
+
 
 This repository is a **machine-consumable knowledge base**. Each of the
 projects under [`drsamonline`](https://github.com/drsamonline) has its working
