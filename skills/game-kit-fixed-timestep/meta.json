@@ -1,0 +1,21 @@
+{
+  "id": "game-kit-fixed-timestep",
+  "name": "A fixed-timestep game loop",
+  "category": "game-engine",
+  "description": "Advance browser-game logic in equal fixed steps with an accumulator, clamping a huge frame so a backgrounded tab never spirals; plus input, scenes, save/load and maths.",
+  "tags": [
+    "game-loop",
+    "fixed-timestep",
+    "canvas",
+    "input",
+    "no-dependencies"
+  ],
+  "source_repos": [
+    "neon-engine",
+    "Aethelgard-Engine",
+    "game-kit"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {}
+}
