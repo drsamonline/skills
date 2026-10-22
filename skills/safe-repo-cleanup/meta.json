@@ -14,12 +14,28 @@
     "build-artifacts"
   ],
   "source_repos": [
-    "skills"
+    "skills",
+    "NEO",
+    "HMS",
+    "BLINKTRANSFER",
+    "conqueror-os",
+    "mnemosyne-companion",
+    "retro-strike",
+    "idle-city-ages-of-growth",
+    "SmartNotes"
   ],
   "version": "1.0.0",
   "updated": "2026-10-22",
   "source_snapshot": {
-    "skills": "d6d343635953461b68ea3b9313757185f7c6f4aa"
+    "skills": "b777778884e40a197b0b9291cb58fb67a31164db",
+    "NEO": "76c46f1bd117d48aaa1ea762dce2c8d4135e5b07",
+    "HMS": "f57f72bb009fb04e14753a1daa28307d9f1581d0",
+    "BLINKTRANSFER": "04a197eb01377c824988d90b14c3ad3085c89d6f",
+    "conqueror-os": "f01d63bbdffa5f178098b270015601a69041ea7f",
+    "mnemosyne-companion": "8f01521d542e1bab470e36fd7c359ae4069b649a",
+    "retro-strike": "e693d0352a5d8bee62fe0ef35ad97ec2d58fc6a5",
+    "idle-city-ages-of-growth": "02855d6bba7f672fb0d867191f1d7aaf22396168",
+    "SmartNotes": "0064db6f0d5352204ce93485d2da2b70cd60f1b3"
   },
   "subskills": [
     "reusable-build-release-workflow",

@@ -66,3 +66,11 @@ A repository that has been built and rebuilt for years collects two kinds of mes
 ## Source projects
 
 - [skills](https://github.com/drsamonline/skills) — the knowledge base that documents this procedure and applies it to its own tree.
+- [NEO](https://github.com/drsamonline/NEO) — a committed Rust `target/` build tree removed.
+- [HMS](https://github.com/drsamonline/HMS) — committed PyInstaller build output (`build/dist/HHMS-Server`, `build/dist/VERSION`) removed.
+- [BLINKTRANSFER](https://github.com/drsamonline/BLINKTRANSFER) — a stale Vite `dist/` build removed.
+- [conqueror-os](https://github.com/drsamonline/conqueror-os) — `dist/` audited and kept (a referenced, CI-enforced committed single-file build).
+- [mnemosyne-companion](https://github.com/drsamonline/mnemosyne-companion) — `dist/` audited and kept (a referenced standalone download).
+- [retro-strike](https://github.com/drsamonline/retro-strike) — `dist/` audited and kept (referenced by a README badge/link).
+- [idle-city-ages-of-growth](https://github.com/drsamonline/idle-city-ages-of-growth) — `build/` audited and kept (`build/build.js` is a source script).
+- [SmartNotes](https://github.com/drsamonline/SmartNotes) — a committed `node_modules/` removed.
