@@ -1,0 +1,29 @@
+{
+  "id": "bmi-bmr-tdee-macros-fluid-calculator",
+  "name": "Clinical Health Calculator",
+  "category": "health-tools",
+  "description": "A single-file, offline clinical calculator for adult outpatients: BMI, BMR (Mifflin-St Jeor), TDEE, macros, fluid requirement and body composition, with Indian/WHO cut-offs and EN/HI/GU UI.",
+  "tags": [
+    "calculator",
+    "clinical",
+    "bmi",
+    "tdee",
+    "single-file",
+    "offline",
+    "i18n",
+    "csv",
+    "mit"
+  ],
+  "source_repos": [
+    "bmi-bmr-tdee-macros-fluid-calculator"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "bmi-bmr-tdee-macros-fluid-calculator": "407229a6d872ba9f84d5dc8d92ef869f6c9719bf"
+  },
+  "subskills": [
+    "offline-first-single-file-web-app",
+    "static-landing-page-seo"
+  ]
+}

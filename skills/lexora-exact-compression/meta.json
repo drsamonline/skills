@@ -1,0 +1,26 @@
+{
+  "id": "lexora-exact-compression",
+  "name": "LEXORA — exact-text compression architecture",
+  "category": "windows-desktop",
+  "description": "A text-cleaning and exact-compression system: canonicalize documents conservatively, then compress with guaranteed byte-exact recovery (decode(encode(C)) == C), on low-resource hardware.",
+  "tags": [
+    "compression",
+    "python",
+    "zstd",
+    "canonicalization",
+    "round-trip",
+    "benchmarks",
+    "prototype"
+  ],
+  "source_repos": [
+    "lexora"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "lexora": "50dc437e279a4c564071bbc1bad00bf9761f9b92"
+  },
+  "subskills": [
+    "static-landing-page-seo"
+  ]
+}

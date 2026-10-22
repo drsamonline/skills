@@ -1,0 +1,26 @@
+{
+  "id": "neon-engine-open-world",
+  "name": "Neon Engine — code-only open-world engine",
+  "category": "game-engine",
+  "description": "A code-only WebGL engine for open-world browser shooters: no asset files, every texture/mesh/sound generated at runtime, ES modules with a vendored three.js, so a full game ships under 1 MB.",
+  "tags": [
+    "game-engine",
+    "webgl",
+    "threejs",
+    "procedural",
+    "es-modules",
+    "offline",
+    "mit"
+  ],
+  "source_repos": [
+    "neon-engine"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "neon-engine": "ae7faa784e63b7233ade2e080f427033c3da8608"
+  },
+  "subskills": [
+    "neon-games-arcade"
+  ]
+}

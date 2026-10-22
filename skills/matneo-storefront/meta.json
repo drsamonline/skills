@@ -1,0 +1,26 @@
+{
+  "id": "matneo-storefront",
+  "name": "Matneo — static storefront",
+  "category": "landing-and-seo",
+  "description": "A static storefront served from docs/ with no build step: a single data file (docs/data/products.json) drives the catalogue, so new products are added by editing JSON, not markup.",
+  "tags": [
+    "storefront",
+    "static-site",
+    "json-driven",
+    "github-pages",
+    "no-build",
+    "blog",
+    "landing-page"
+  ],
+  "source_repos": [
+    "Matneo"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "Matneo": "cdf4b928b454c38cb30b6772e13ff928080430be"
+  },
+  "subskills": [
+    "static-landing-page-seo"
+  ]
+}

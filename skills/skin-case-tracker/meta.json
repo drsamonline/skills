@@ -1,0 +1,28 @@
+{
+  "id": "skin-case-tracker",
+  "name": "Skin Case Tracker",
+  "category": "health-tools",
+  "description": "A private, offline PWA that tracks a skin case over time on the HHMS model — History, Habits, Mapping, Symptoms logged daily and read as a 90-day pattern engine; it records, it does not diagnose.",
+  "tags": [
+    "dermatology",
+    "tracker",
+    "pwa",
+    "offline",
+    "hhms",
+    "patterns",
+    "privacy",
+    "book-companion"
+  ],
+  "source_repos": [
+    "skin-case-tracker"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "skin-case-tracker": "8848699811463fe966ac83d1107bff0fad569694"
+  },
+  "subskills": [
+    "offline-first-single-file-web-app",
+    "reusable-build-release-workflow"
+  ]
+}

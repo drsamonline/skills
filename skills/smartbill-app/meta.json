@@ -1,0 +1,29 @@
+{
+  "id": "smartbill-app",
+  "name": "SmartBill India — serverless billing",
+  "category": "web-app-patterns",
+  "description": "A fast, serverless single-page billing and invoicing app for Indian businesses: GST-ready (HSN/SAC, CGST/SGST, state codes, reverse charge), 100% local IndexedDB storage and A4 print layout.",
+  "tags": [
+    "billing",
+    "gst",
+    "vue",
+    "tailwind",
+    "indexeddb",
+    "serverless",
+    "offline",
+    "india",
+    "printing"
+  ],
+  "source_repos": [
+    "smartbill-app"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "smartbill-app": "e46c96fc6e3ba057e83f3fef896422ef76da73bc"
+  },
+  "subskills": [
+    "offline-first-single-file-web-app",
+    "static-landing-page-seo"
+  ]
+}

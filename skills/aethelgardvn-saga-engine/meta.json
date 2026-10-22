@@ -1,0 +1,27 @@
+{
+  "id": "aethelgardvn-saga-engine",
+  "name": "AethelgardVN — Saga visual-novel engine",
+  "category": "game-engine",
+  "description": "Saga: a small, dependency-free visual-novel engine for the browser — plain JavaScript, one stylesheet, no build step, works offline — built to make Aethelgard: The Books.",
+  "tags": [
+    "visual-novel",
+    "engine",
+    "vanilla-js",
+    "no-build",
+    "offline",
+    "sprites",
+    "mit"
+  ],
+  "source_repos": [
+    "AethelgardVN"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "AethelgardVN": "6c18692d5226d9444081eab08498db91bb3b6d49"
+  },
+  "subskills": [
+    "offline-first-single-file-web-app",
+    "reusable-build-release-workflow"
+  ]
+}

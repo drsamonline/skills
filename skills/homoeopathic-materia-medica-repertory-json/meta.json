@@ -1,0 +1,27 @@
+{
+  "id": "homoeopathic-materia-medica-repertory-json",
+  "name": "Homoeopathic Materia Medica & Repertory JSON",
+  "category": "data-and-schema",
+  "description": "13 public-domain homoeopathic classics (1840–1906, ~108k rubrics) extracted into clean, app-ready, verbatim JSON with a self-describing schema, per-book QC and a reproducible pipeline (CC0).",
+  "tags": [
+    "dataset",
+    "json",
+    "cc0",
+    "open-data",
+    "repertory",
+    "materia-medica",
+    "ocr",
+    "pipeline"
+  ],
+  "source_repos": [
+    "homoeopathic-materia-medica-repertory-json"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "homoeopathic-materia-medica-repertory-json": "8476ed1cbdcdc1a44e64463d19f1e7f961e1e73e"
+  },
+  "subskills": [
+    "open-data-extraction-pipeline"
+  ]
+}

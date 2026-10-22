@@ -1,0 +1,27 @@
+{
+  "id": "read-live-transform-app",
+  "name": "Read. Live. Transform. — companion",
+  "category": "health-tools",
+  "description": "An offline PWA companion to the book Read. Live. Transform. — a practical reading of the Qur'an in 74 chapters: read the verse, live the practice, keep the change.",
+  "tags": [
+    "quran",
+    "pwa",
+    "offline",
+    "single-file",
+    "reading",
+    "journal",
+    "all-rights-reserved"
+  ],
+  "source_repos": [
+    "read-live-transform-app"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "read-live-transform-app": "b58bab09eb71b89d5db6a3a972c53aa836b26161"
+  },
+  "subskills": [
+    "offline-first-single-file-web-app",
+    "reusable-build-release-workflow"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "app-builder-kit",
+  "name": "app-builder — shared build kit",
+  "category": "ci-and-release",
+  "description": "The shared kit that turns a static web app into a single-file portable Windows EXE (PyInstaller) and an Android WebView APK (Gradle), consumed by app repos through one reusable GitHub Actions workflow.",
+  "tags": [
+    "build-kit",
+    "pyinstaller",
+    "android",
+    "gradle",
+    "github-actions",
+    "reusable-workflow",
+    "portable-exe",
+    "apk"
+  ],
+  "source_repos": [
+    "app-builder"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "app-builder": "a7277907684a0f0e17b05d4328380ccf8541d836"
+  },
+  "subskills": [
+    "pyinstaller-portable-exe-launcher",
+    "android-webview-apk-packaging",
+    "reusable-build-release-workflow"
+  ]
+}

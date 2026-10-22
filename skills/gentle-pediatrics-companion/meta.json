@@ -1,0 +1,27 @@
+{
+  "id": "gentle-pediatrics-companion",
+  "name": "Gentle Pediatrics — home companion",
+  "category": "health-tools",
+  "description": "A triage-first offline companion app for a parent at the cot side: nine common childhood situations, an always-visible red-flag check, and gentle remedy orientation from the book Gentle Pediatrics.",
+  "tags": [
+    "pediatrics",
+    "triage",
+    "pwa",
+    "single-file",
+    "offline",
+    "red-flags",
+    "book-companion"
+  ],
+  "source_repos": [
+    "gentle-pediatrics-companion"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "gentle-pediatrics-companion": "d1dc54f6913ef4971dbc2171bc05a50e69471c8b"
+  },
+  "subskills": [
+    "offline-first-single-file-web-app",
+    "reusable-build-release-workflow"
+  ]
+}

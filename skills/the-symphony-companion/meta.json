@@ -1,0 +1,27 @@
+{
+  "id": "the-symphony-companion",
+  "name": "The Symphony Companion",
+  "category": "health-tools",
+  "description": "A pocket PWA companion to The Symphony of the Present: the book's ideas as cards, its practices as a checklist, a breathing timer, a gratitude journal and attributed quotations — pure CSS tabs, offline.",
+  "tags": [
+    "mindfulness",
+    "pwa",
+    "offline",
+    "css-only-tabs",
+    "journal",
+    "breathing",
+    "book-companion"
+  ],
+  "source_repos": [
+    "the-symphony-companion"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "the-symphony-companion": "d365182708f9e7eb73ac970287279e4a73284142"
+  },
+  "subskills": [
+    "offline-first-single-file-web-app",
+    "reusable-build-release-workflow"
+  ]
+}

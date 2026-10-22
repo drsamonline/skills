@@ -1,0 +1,28 @@
+{
+  "id": "aethelgard-games-deployment",
+  "name": "Aethelgard — two games (deployment)",
+  "category": "game-engine",
+  "description": "A deployment repo holding the built, playable copies of two Aethelgard browser games — The Books (a 36-chapter visual novel) and Chronicles of Fate (a deep single-player RPG) — so GitHub Pages can serve them.",
+  "tags": [
+    "game",
+    "deployment",
+    "visual-novel",
+    "rpg",
+    "github-pages",
+    "offline",
+    "no-build"
+  ],
+  "source_repos": [
+    "aethelgard-games"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "aethelgard-games": "dc27a4ce04e490eb209aa2f303afbdc6f48344f0"
+  },
+  "subskills": [
+    "aethelgard-engine-rpg",
+    "aethelgardvn-saga-engine",
+    "reusable-build-release-workflow"
+  ]
+}

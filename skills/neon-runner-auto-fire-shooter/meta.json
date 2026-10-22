@@ -1,0 +1,28 @@
+{
+  "id": "neon-runner-auto-fire-shooter",
+  "name": "Neon Runner — auto-fire shooter",
+  "category": "game-engine",
+  "description": "A retro auto-fire side-scrolling shooter in one self-contained HTML file (vanilla JS + canvas): move, jump, duck — the gun fires itself — with 60+ assertions, minified to ~176 KB.",
+  "tags": [
+    "game",
+    "canvas",
+    "vanilla-js",
+    "single-file",
+    "offline",
+    "pixel-art",
+    "web-audio",
+    "mit"
+  ],
+  "source_repos": [
+    "neon-runner"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "neon-runner": "b5b04fd8c5081a1316ac4f72eb457e340e296185"
+  },
+  "subskills": [
+    "offline-first-single-file-web-app",
+    "reusable-build-release-workflow"
+  ]
+}

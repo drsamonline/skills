@@ -1,0 +1,27 @@
+{
+  "id": "neo-nova-compiler",
+  "name": "NEO — NOVA language and compiler",
+  "category": "windows-desktop",
+  "description": "A statically-typed compiled systems language: a Rust compiler lowers NOVA through lexer, parser, semantic analyser, SIR and a lowerer to four backends (C, JavaScript, Rust, WebAssembly), with runtime, package manager, LSP and debugger.",
+  "tags": [
+    "compiler",
+    "language",
+    "rust",
+    "webassembly",
+    "lsp",
+    "package-manager",
+    "sir",
+    "backends"
+  ],
+  "source_repos": [
+    "NEO"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "NEO": "5bfe829f7d27e4103a3c5a362a62dcfba52b46f1"
+  },
+  "subskills": [
+    "static-landing-page-seo"
+  ]
+}

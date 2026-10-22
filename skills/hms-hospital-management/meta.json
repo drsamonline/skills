@@ -1,0 +1,28 @@
+{
+  "id": "hms-hospital-management",
+  "name": "HMS — Homeopathic Hospital Management System",
+  "category": "health-tools",
+  "description": "HHMS: a LAN-based hospital management system for homeopathic hospitals — a Python server owns the SQLite database, a WebView2 client talks HTTP/JSON, and the server is found by UDP discovery; no internet, no cloud.",
+  "tags": [
+    "hospital",
+    "lan",
+    "fastapi",
+    "sqlite",
+    "webview2",
+    "udp-discovery",
+    "alembic",
+    "proprietary"
+  ],
+  "source_repos": [
+    "HMS"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "HMS": "3d33c71e76e18bf984369eced0d0555c4920918e"
+  },
+  "subskills": [
+    "lan-single-server-architecture",
+    "reusable-build-release-workflow"
+  ]
+}

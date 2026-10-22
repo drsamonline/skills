@@ -1,0 +1,27 @@
+{
+  "id": "the-browser-aetheris",
+  "name": "The_Browser — Aetheris experimental browser",
+  "category": "windows-desktop",
+  "description": "An experimental C++20 browser engine derived from Ladybird/SerenityOS, built with CMake + vcpkg and tested with CTest; explicitly not production-ready and honest about provenance.",
+  "tags": [
+    "c++",
+    "browser-engine",
+    "cmake",
+    "vcpkg",
+    "experimental",
+    "ladybird",
+    "devcontainer",
+    "ctest"
+  ],
+  "source_repos": [
+    "The_Browser"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "The_Browser": "9bb7c6ecee13a511e32ec64589e5a57181191f99"
+  },
+  "subskills": [
+    "static-landing-page-seo"
+  ]
+}

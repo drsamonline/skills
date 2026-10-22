@@ -1,0 +1,28 @@
+{
+  "id": "lockhtml-file-encryption",
+  "name": "LockHTML — PIN-protected documents",
+  "category": "windows-desktop",
+  "description": "Encrypt any file into a single self-contained .html that asks for a PIN (AES-256-GCM + Argon2id), with one-time view, expiry, recipient keys, hidden volumes, Shamir shares and age interop — via a Python CLI and a browser GUI.",
+  "tags": [
+    "encryption",
+    "aes-256-gcm",
+    "argon2id",
+    "python",
+    "cli",
+    "webcrypto",
+    "privacy",
+    "pwa"
+  ],
+  "source_repos": [
+    "lockhtml"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "lockhtml": "d1aecbc2c9be23bc2f2f5ea5f097684437ce2d63"
+  },
+  "subskills": [
+    "offline-first-single-file-web-app",
+    "reusable-build-release-workflow"
+  ]
+}

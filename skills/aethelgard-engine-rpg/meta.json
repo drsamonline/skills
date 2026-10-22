@@ -1,0 +1,28 @@
+{
+  "id": "aethelgard-engine-rpg",
+  "name": "Aethelgard Engine — vanilla-JS RPG engine",
+  "category": "game-engine",
+  "description": "The vanilla-JavaScript engine behind Aethelgard: Chronicles of Fate — small modules loaded in script order behind one global (window.Game), no build step, no dependencies, fully offline, moddable.",
+  "tags": [
+    "game-engine",
+    "rpg",
+    "vanilla-js",
+    "no-build",
+    "global-namespace",
+    "mods",
+    "pwa",
+    "mit"
+  ],
+  "source_repos": [
+    "Aethelgard-Engine"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "Aethelgard-Engine": "0aa3cdde24911ec08c30a873640383aed9bf1661"
+  },
+  "subskills": [
+    "aethelgard-games-deployment",
+    "reusable-build-release-workflow"
+  ]
+}

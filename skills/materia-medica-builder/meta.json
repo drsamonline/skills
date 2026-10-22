@@ -1,0 +1,28 @@
+{
+  "id": "materia-medica-builder",
+  "name": "Materia Medica Builder",
+  "category": "data-and-schema",
+  "description": "An offline, no-dependency PWA that lets a practitioner build a personal materia medica and repertory — remedies, symptoms, rubrics, a custom marking scale — and export it in eight formats.",
+  "tags": [
+    "pwa",
+    "materia-medica",
+    "repertory",
+    "export",
+    "indexeddb",
+    "vanilla-js",
+    "offline",
+    "authoring"
+  ],
+  "source_repos": [
+    "MATERIA-MEDICA-BUILDER"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "MATERIA-MEDICA-BUILDER": "78d782780bd758ae62917379b7cc566b1865db55"
+  },
+  "subskills": [
+    "open-data-extraction-pipeline",
+    "offline-first-single-file-web-app"
+  ]
+}

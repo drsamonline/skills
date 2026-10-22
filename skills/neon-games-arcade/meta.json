@@ -1,0 +1,28 @@
+{
+  "id": "neon-games-arcade",
+  "name": "Neon Games — open-world browser arcade",
+  "category": "game-engine",
+  "description": "A deployment repo holding two open-world games built on the Neon Engine — Dead Zone (zombie survival) and Neon Police (crime response) — each a self-contained playable folder with a mod loader.",
+  "tags": [
+    "game",
+    "open-world",
+    "neon-engine",
+    "deployment",
+    "mods",
+    "pwa",
+    "offline",
+    "cc-by-nc-sa"
+  ],
+  "source_repos": [
+    "neon-games"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "neon-games": "2749d08a3d9993288268a9e96f4808d60dccdb39"
+  },
+  "subskills": [
+    "neon-engine-open-world",
+    "reusable-build-release-workflow"
+  ]
+}

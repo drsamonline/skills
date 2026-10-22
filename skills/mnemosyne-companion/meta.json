@@ -1,0 +1,27 @@
+{
+  "id": "mnemosyne-companion",
+  "name": "Mnemosyne Companion",
+  "category": "health-tools",
+  "description": "A single offline HTML study companion for Mnemosyne Materia Medica: 100 polycrest remedies as poetic pearls, keynotes and spaced-repetition drills, in three drill modes.",
+  "tags": [
+    "homeopathy",
+    "study",
+    "spaced-repetition",
+    "flashcards",
+    "single-file",
+    "offline",
+    "proprietary"
+  ],
+  "source_repos": [
+    "mnemosyne-companion"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "mnemosyne-companion": "7cc7190d301a747db9633eebc2f34c34e37df2c4"
+  },
+  "subskills": [
+    "offline-first-single-file-web-app",
+    "reusable-build-release-workflow"
+  ]
+}

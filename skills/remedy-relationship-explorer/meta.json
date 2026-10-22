@@ -1,0 +1,28 @@
+{
+  "id": "remedy-relationship-explorer",
+  "name": "Remedy Relationship Explorer",
+  "category": "health-tools",
+  "description": "An offline single-file explorer for homeopathic remedy relationships — 686 remedies, 7,786 links from four public-domain materia medicas — visualised as an interactive graph with keynotes, quizzes and a Tauri desktop build.",
+  "tags": [
+    "homeopathy",
+    "graph",
+    "single-file",
+    "offline",
+    "tauri",
+    "keynotes",
+    "accessibility",
+    "provenance"
+  ],
+  "source_repos": [
+    "remedy-relationship-explorer"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "remedy-relationship-explorer": "59731058c84dc46979a53bac514c224f7a696057"
+  },
+  "subskills": [
+    "offline-first-single-file-web-app",
+    "open-data-extraction-pipeline"
+  ]
+}

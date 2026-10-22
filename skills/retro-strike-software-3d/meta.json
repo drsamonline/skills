@@ -1,0 +1,27 @@
+{
+  "id": "retro-strike-software-3d",
+  "name": "Retro Strike — software 3D shooter",
+  "category": "game-engine",
+  "description": "A complete retro third-person shooter in one HTML file with a custom software 3D renderer, a live chiptune synth and procedural arenas — no engine, no build step, no dependencies.",
+  "tags": [
+    "game",
+    "3d",
+    "software-renderer",
+    "chiptune",
+    "web-audio",
+    "single-file",
+    "mit"
+  ],
+  "source_repos": [
+    "retro-strike"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "retro-strike": "e6d7bd5233a21006fcfd8ce59760b0c8e288575f"
+  },
+  "subskills": [
+    "offline-first-single-file-web-app",
+    "reusable-build-release-workflow"
+  ]
+}

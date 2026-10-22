@@ -1,0 +1,28 @@
+{
+  "id": "conqueror-os-workspace",
+  "name": "Conqueror OS — resilience workspace",
+  "category": "web-app-patterns",
+  "description": "A private, offline resilience workspace in a single HTML file — read, reflect, journal, track and review — with no server, no account and no dependencies.",
+  "tags": [
+    "journal",
+    "habits",
+    "single-file",
+    "offline",
+    "privacy",
+    "local-first",
+    "spaced-repetition",
+    "mit"
+  ],
+  "source_repos": [
+    "conqueror-os"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "conqueror-os": "aac292e51ce554472b6dc102b722aa4ec5c5e778"
+  },
+  "subskills": [
+    "offline-first-single-file-web-app",
+    "static-landing-page-seo"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "boericke-repertory",
+  "name": "Boericke's Repertory (offline app)",
+  "category": "health-tools",
+  "description": "A free, offline digital edition of Boericke's Repertory in one HTML file: instant search across 6,110 rubrics, a repertorisation chart over 1,461 remedies, a remedy browser, cases and print/export.",
+  "tags": [
+    "homeopathy",
+    "repertory",
+    "repertorisation",
+    "single-file",
+    "offline",
+    "search",
+    "attribution"
+  ],
+  "source_repos": [
+    "boericke-repertory"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "boericke-repertory": "fabd77e5c88a38bb55975c94b7c116fc70a0b73c"
+  },
+  "subskills": [
+    "offline-first-single-file-web-app",
+    "open-data-extraction-pipeline"
+  ]
+}

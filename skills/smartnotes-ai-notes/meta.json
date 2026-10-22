@@ -1,0 +1,27 @@
+{
+  "id": "smartnotes-ai-notes",
+  "name": "SmartNotes — AI note scheduler",
+  "category": "web-app-patterns",
+  "description": "An AI-powered note capture, categorisation and reminder-scheduling app with a brutalist UI: write in plain English and an LLM classifies, prioritises, titles and extracts dates.",
+  "tags": [
+    "react",
+    "trpc",
+    "drizzle",
+    "llm",
+    "notes",
+    "brutalist",
+    "typescript",
+    "mit"
+  ],
+  "source_repos": [
+    "SmartNotes"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "SmartNotes": "44de60e992f2ef45e6ce4701799df9e0d24c8b5c"
+  },
+  "subskills": [
+    "static-landing-page-seo"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "unstoppable-mind-companion",
+  "name": "The Unstoppable Mind — companion",
+  "category": "health-tools",
+  "description": "An offline companion app to The Unstoppable Mind: the book's key points and exercises, a 7-day challenge and flashcards — in a single ~30 KB file with no JavaScript at all.",
+  "tags": [
+    "self-help",
+    "offline",
+    "no-javascript",
+    "single-file",
+    "flashcards",
+    "css",
+    "book-companion"
+  ],
+  "source_repos": [
+    "unstoppable-mind-companion"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "unstoppable-mind-companion": "38b30e0be791f5948f69763de13e1b865f03fdde"
+  },
+  "subskills": [
+    "offline-first-single-file-web-app",
+    "reusable-build-release-workflow"
+  ]
+}

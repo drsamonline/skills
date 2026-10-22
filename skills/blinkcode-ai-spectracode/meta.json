@@ -1,0 +1,28 @@
+{
+  "id": "blinkcode-ai-spectracode",
+  "name": "BlinkCode AI — SpectraCode optical transfer",
+  "category": "web-app-patterns",
+  "description": "Optical file transfer as a vanilla-JS PWA: a file becomes a 'File DNA' container painted as SpectraCode colour matrices, decoded by camera with marker detection, homography and Reed-Solomon error correction.",
+  "tags": [
+    "optical",
+    "spectracode",
+    "reed-solomon",
+    "arithmetic-coding",
+    "camera",
+    "pwa",
+    "no-build",
+    "workers"
+  ],
+  "source_repos": [
+    "blinkcode-ai"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "blinkcode-ai": "a49c5efaf462249fa1c51103b6f3029b2d374a8f"
+  },
+  "subskills": [
+    "optical-file-transfer",
+    "offline-first-single-file-web-app"
+  ]
+}

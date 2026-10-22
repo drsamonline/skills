@@ -1,0 +1,28 @@
+{
+  "id": "whispering-body-first-aid",
+  "name": "The Whispering Body — first-aid box",
+  "category": "health-tools",
+  "description": "A free, offline home first-aid companion (EN/HI/GU) with 30 commonly used homeopathic first-aid remedies, a plain-language symptom finder, dosing and handling guidance, and emergency signs.",
+  "tags": [
+    "first-aid",
+    "homeopathy",
+    "pwa",
+    "offline",
+    "i18n",
+    "hindi",
+    "gujarati",
+    "book-companion"
+  ],
+  "source_repos": [
+    "whispering-body-first-aid"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "whispering-body-first-aid": "2b001af68390a59916269565e757333af85336a3"
+  },
+  "subskills": [
+    "offline-first-single-file-web-app",
+    "reusable-build-release-workflow"
+  ]
+}

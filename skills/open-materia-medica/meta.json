@@ -1,0 +1,27 @@
+{
+  "id": "open-materia-medica",
+  "name": "Open Materia Medica",
+  "category": "health-tools",
+  "description": "A plain-language homeopathic materia medica — 344 remedy portraits, each beside the substance's real pharmacology and toxicology — as a static web edition plus a hand-written Android companion app.",
+  "tags": [
+    "homeopathy",
+    "materia-medica",
+    "static-site",
+    "android",
+    "gradle",
+    "offline",
+    "book-companion"
+  ],
+  "source_repos": [
+    "open-materia-medica"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "open-materia-medica": "76d0154a14f0846b6d1f6ab5c51fad017f1cbf1d"
+  },
+  "subskills": [
+    "android-webview-apk-packaging",
+    "static-landing-page-seo"
+  ]
+}

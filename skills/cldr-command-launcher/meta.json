@@ -1,0 +1,27 @@
+{
+  "id": "cldr-command-launcher",
+  "name": "CLDR — command launcher",
+  "category": "windows-desktop",
+  "description": "A single dependency-free Rust binary that sits in the system tray, pops up on a hotkey, and routes whatever you type — maths, unit conversion, a path, an app, or a web search.",
+  "tags": [
+    "rust",
+    "launcher",
+    "tray",
+    "hotkey",
+    "windows",
+    "linux",
+    "single-binary",
+    "no-electron"
+  ],
+  "source_repos": [
+    "CLDR"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "CLDR": "a723578e0b1613da2e114c9a3586bbc921f669c6"
+  },
+  "subskills": [
+    "static-landing-page-seo"
+  ]
+}

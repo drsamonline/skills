@@ -1,0 +1,29 @@
+{
+  "id": "all4one-utility-suite",
+  "name": "All4ONE — portable Windows utility suite",
+  "category": "windows-desktop",
+  "description": "551 Windows tools across 45 plugin packs compiled into one portable utility_suite.exe (Python, tkinter GUI + CLI), with lazy metadata-registered handlers and an audit that verifies every tool.",
+  "tags": [
+    "windows",
+    "portable",
+    "exe",
+    "python",
+    "tkinter",
+    "cli",
+    "plugin-packs",
+    "single-file",
+    "mit"
+  ],
+  "source_repos": [
+    "All4ONE"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "All4ONE": "feae216498ee2cf69fc2c78669f4c4a0c8d8bae4"
+  },
+  "subskills": [
+    "pyinstaller-portable-exe-launcher",
+    "reusable-build-release-workflow"
+  ]
+}

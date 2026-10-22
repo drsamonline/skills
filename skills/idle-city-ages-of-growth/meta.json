@@ -1,0 +1,28 @@
+{
+  "id": "idle-city-ages-of-growth",
+  "name": "Idle City — Ages of Growth",
+  "category": "game-engine",
+  "description": "A single-file idle city-builder that grows from a Stone Age village to a Fusion Age world-city: roads, zoning, power and happiness, running itself while you plan and expand.",
+  "tags": [
+    "game",
+    "idle",
+    "city-builder",
+    "canvas",
+    "single-file",
+    "offline",
+    "mobile",
+    "noncommercial"
+  ],
+  "source_repos": [
+    "idle-city-ages-of-growth"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "idle-city-ages-of-growth": "244c3fac36a51bc6076ea6229134e2830fc341c5"
+  },
+  "subskills": [
+    "offline-first-single-file-web-app",
+    "reusable-build-release-workflow"
+  ]
+}
