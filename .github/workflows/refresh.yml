@@ -1,0 +1,155 @@
+name: Refresh catalogue (mechanical)
+
+# Weekly MECHANICAL refresh of the knowledge base.
+#
+# It re-reads the repository list from the GitHub API, updates each skill's
+# meta.json `updated` and `source_snapshot` fields (and reconciles the
+# source-repo metadata that meta.json carries — the source_repos names and the
+# per-repo commit SHAs), regenerates catalog.json, and commits ONLY if
+# something changed.
+#
+# It does NOT rewrite the skill prose (When to use / Method / Key files /
+# Gotchas / Source projects). Rewriting a method from a diff is a judgement
+# call, so it is done separately, by hand or with an AI — never by this
+# scheduled job. See the "Keeping the catalogue current" section of README.md.
+
+on:
+  schedule:
+    - cron: "23 3 * * 1"   # every Monday, 03:23 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write          # least privilege: only enough to commit the refresh
+
+concurrency:
+  group: refresh-catalogue
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Refresh meta.json SHAs and catalog.json
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 - <<'PY'
+          import json, os, re, urllib.request
+          from datetime import date, datetime, timezone
+
+          OWNER = "drsamonline"
+          TOKEN = os.environ.get("GH_TOKEN", "")
+          TODAY = date.today().isoformat()
+          API = "https://api.github.com"
+
+          def api(path):
+              req = urllib.request.Request(API + path, headers={
+                  "Accept": "application/vnd.github+json",
+                  "User-Agent": "drsamonline-skills-refresh",
+                  "Authorization": "Bearer " + TOKEN,
+              })
+              with urllib.request.urlopen(req, timeout=60) as r:
+                  return json.load(r)
+
+          # 1. Re-read the repo list from the API (default branch + existence).
+          repos = {}
+          page = 1
+          while True:
+              batch = api(f"/users/{OWNER}/repos?per_page=100&page={page}&sort=full_name")
+              if not batch:
+                  break
+              for x in batch:
+                  repos[x["name"]] = x.get("default_branch") or "main"
+              if len(batch) < 100:
+                  break
+              page += 1
+
+          head_cache = {}
+          def head_sha(name):
+              if name in head_cache:
+                  return head_cache[name]
+              sha = None
+              if name in repos:
+                  try:
+                      c = api(f"/repos/{OWNER}/{name}/commits?per_page=1")
+                      sha = c[0]["sha"] if c else None
+                  except Exception as e:
+                      print(f"  ! could not read HEAD of {name}: {e}")
+              head_cache[name] = sha
+              return sha
+
+          # 2. Load the existing catalogue to preserve skill order.
+          cat_path = "catalog.json"
+          cat = json.load(open(cat_path, encoding="utf-8"))
+          order = [s["id"] for s in cat.get("skills", [])]
+
+          # 3. Walk skills/*/meta.json.
+          skill_ids = sorted(
+              d for d in os.listdir("skills")
+              if os.path.isfile(os.path.join("skills", d, "meta.json"))
+          )
+          for sid in skill_ids:
+              if sid not in order:
+                  order.append(sid)
+
+          changed_skills = []
+          metas = {}
+          for sid in order:
+              mp = os.path.join("skills", sid, "meta.json")
+              if not os.path.isfile(mp):
+                  print(f"  ! {sid} listed in catalog.json but meta.json is missing")
+                  continue
+              meta = json.load(open(mp, encoding="utf-8"))
+              metas[sid] = meta
+
+              # Recompute source_snapshot for every listed source repo.
+              snap = dict(meta.get("source_snapshot") or {})
+              for r in meta.get("source_repos", []):
+                  sha = head_sha(r)
+                  if sha:
+                      snap[r] = sha
+                  elif r not in repos:
+                      print(f"  ! {sid}: source repo '{r}' is no longer in the repo list")
+              # Keep only the repos this skill declares.
+              snap = {r: snap[r] for r in meta.get("source_repos", []) if r in snap}
+
+              if snap != (meta.get("source_snapshot") or {}):
+                  meta["source_snapshot"] = snap
+                  meta["updated"] = TODAY
+                  changed_skills.append(sid)
+                  json.dump(meta, open(mp, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
+                  open(mp, "a", encoding="utf-8").write("\n")
+
+          # 4. Regenerate catalog.json (mirrors each meta.json, keeps order).
+          new_cat = {
+              "generated": cat.get("generated", TODAY),
+              "count": len(metas),
+              "categories": cat.get("categories", []),
+              "skills": [metas[s] for s in order if s in metas],
+          }
+          if changed_skills:
+              new_cat["generated"] = TODAY
+
+          old_text = json.dumps(cat, indent=2, ensure_ascii=False)
+          new_text = json.dumps(new_cat, indent=2, ensure_ascii=False)
+          if new_text != old_text:
+              open(cat_path, "w", encoding="utf-8").write(new_text + "\n")
+
+          print(f"repos read: {len(repos)} | skills: {len(metas)} | "
+                f"changed: {len(changed_skills)} -> {changed_skills}")
+          PY
+
+      - name: Commit the refresh (only if something changed)
+        run: |
+          if git diff --quiet; then
+            echo "No catalogue change to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "chore: mechanical refresh of skill snapshots and catalog.json"
+          git push
