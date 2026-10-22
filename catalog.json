@@ -1,6 +1,6 @@
 {
   "generated": "2026-10-22",
-  "count": 0,
+  "count": 48,
   "categories": [
     "web-app-patterns",
     "android-packaging",
@@ -11,5 +11,1359 @@
     "landing-and-seo",
     "ci-and-release"
   ],
-  "skills": []
+  "skills": [
+    {
+      "id": "offline-first-single-file-web-app",
+      "name": "Offline-first single-file web app",
+      "category": "web-app-patterns",
+      "description": "Build a whole app as one self-contained index.html — inline CSS/JS, no CDN, no build step — that runs from file:// or GitHub Pages, works offline, and persists data locally.",
+      "tags": [
+        "offline-first",
+        "single-file",
+        "vanilla-js",
+        "pwa",
+        "indexeddb",
+        "localstorage",
+        "no-dependencies"
+      ],
+      "source_repos": [
+        "conqueror-os",
+        "ambient-sound-studio",
+        "neon-runner",
+        "boericke-repertory",
+        "bmi-bmr-tdee-macros-fluid-calculator",
+        "retro-strike",
+        "idle-city-ages-of-growth"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "conqueror-os": "aac292e51ce554472b6dc102b722aa4ec5c5e778",
+        "ambient-sound-studio": "ced1fa36aab7540bdda70093cbc09fc0f5983ef5",
+        "neon-runner": "b5b04fd8c5081a1316ac4f72eb457e340e296185",
+        "boericke-repertory": "fabd77e5c88a38bb55975c94b7c116fc70a0b73c",
+        "bmi-bmr-tdee-macros-fluid-calculator": "407229a6d872ba9f84d5dc8d92ef869f6c9719bf",
+        "retro-strike": "e6d7bd5233a21006fcfd8ce59760b0c8e288575f",
+        "idle-city-ages-of-growth": "244c3fac36a51bc6076ea6229134e2830fc341c5"
+      },
+      "subskills": [
+        "static-landing-page-seo",
+        "android-webview-apk-packaging",
+        "pyinstaller-portable-exe-launcher"
+      ]
+    },
+    {
+      "id": "android-webview-apk-packaging",
+      "name": "Android WebView APK packaging",
+      "category": "android-packaging",
+      "description": "Wrap a static single-file web app into a dependency-free Android WebView APK (platform framework only, no AndroidX), signed with a shared debug key, built by Gradle in CI.",
+      "tags": [
+        "android",
+        "apk",
+        "webview",
+        "gradle",
+        "kotlin",
+        "sideload",
+        "offline",
+        "ci"
+      ],
+      "source_repos": [
+        "app-builder",
+        "open-materia-medica"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "app-builder": "a7277907684a0f0e17b05d4328380ccf8541d836",
+        "open-materia-medica": "76d0154a14f0846b6d1f6ab5c51fad017f1cbf1d"
+      },
+      "subskills": [
+        "reusable-build-release-workflow",
+        "offline-first-single-file-web-app"
+      ]
+    },
+    {
+      "id": "pyinstaller-portable-exe-launcher",
+      "name": "PyInstaller portable EXE launcher",
+      "category": "windows-desktop",
+      "description": "Turn a static web app into one double-clickable portable Windows .exe: a tiny Python launcher serves the bundled app/ over 127.0.0.1 and opens the browser, frozen by PyInstaller --onefile.",
+      "tags": [
+        "pyinstaller",
+        "portable",
+        "exe",
+        "windows",
+        "launcher",
+        "http-server",
+        "offline",
+        "single-file"
+      ],
+      "source_repos": [
+        "app-builder",
+        "All4ONE"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "app-builder": "a7277907684a0f0e17b05d4328380ccf8541d836",
+        "All4ONE": "feae216498ee2cf69fc2c78669f4c4a0c8d8bae4"
+      },
+      "subskills": [
+        "reusable-build-release-workflow",
+        "offline-first-single-file-web-app"
+      ]
+    },
+    {
+      "id": "reusable-build-release-workflow",
+      "name": "Shared build/release workflow with stable download URLs",
+      "category": "ci-and-release",
+      "description": "One GitHub Actions workflow per app repo builds the portable EXE and Android APK, publishes them to a fixed-tag release, and gives permanent /releases/latest/download/<asset> URLs.",
+      "tags": [
+        "github-actions",
+        "release",
+        "ci",
+        "stable-url",
+        "artifacts",
+        "reusable",
+        "app-builder"
+      ],
+      "source_repos": [
+        "app-builder",
+        "HMS"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "app-builder": "a7277907684a0f0e17b05d4328380ccf8541d836",
+        "HMS": "3d33c71e76e18bf984369eced0d0555c4920918e"
+      },
+      "subskills": [
+        "pyinstaller-portable-exe-launcher",
+        "android-webview-apk-packaging"
+      ]
+    },
+    {
+      "id": "static-landing-page-seo",
+      "name": "Static landing page, SEO and accessibility conventions",
+      "category": "landing-and-seo",
+      "description": "The house landing-page recipe: a bespoke self-contained docs/index.html with a distinct theme, a full SEO head (canonical, OG, Twitter, JSON-LD, robots), robots.txt, sitemap.xml, .nojekyll and a themed 404.",
+      "tags": [
+        "landing-page",
+        "seo",
+        "accessibility",
+        "open-graph",
+        "json-ld",
+        "github-pages",
+        "responsive",
+        "no-emoji"
+      ],
+      "source_repos": [
+        "app-builder",
+        "homoeopathic-materia-medica-repertory-json",
+        "neon-runner",
+        "conqueror-os"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "app-builder": "a7277907684a0f0e17b05d4328380ccf8541d836",
+        "homoeopathic-materia-medica-repertory-json": "8476ed1cbdcdc1a44e64463d19f1e7f961e1e73e",
+        "neon-runner": "b5b04fd8c5081a1316ac4f72eb457e340e296185",
+        "conqueror-os": "aac292e51ce554472b6dc102b722aa4ec5c5e778"
+      },
+      "subskills": [
+        "auto-updating-showcase-hub",
+        "offline-first-single-file-web-app"
+      ]
+    },
+    {
+      "id": "auto-updating-showcase-hub",
+      "name": "Auto-updating showcase hub",
+      "category": "landing-and-seo",
+      "description": "A single static page that lists every repository by reading the GitHub API at runtime, with an embedded JSON snapshot fallback, a curated map for hand-written copy, and a scheduled workflow that refreshes the snapshot.",
+      "tags": [
+        "github-api",
+        "snapshot-fallback",
+        "showcase",
+        "self-updating",
+        "landing-page",
+        "github-pages",
+        "csp"
+      ],
+      "source_repos": [
+        "drsamonline.github.io"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "drsamonline.github.io": "not recorded"
+      },
+      "subskills": [
+        "static-landing-page-seo"
+      ]
+    },
+    {
+      "id": "open-data-extraction-pipeline",
+      "name": "Open data-extraction pipeline and JSON schema",
+      "category": "data-and-schema",
+      "description": "Turn raw OCR'd source texts into clean, app-ready JSON with a verbatim-fidelity rule: nothing invented, unknowns null, per-book QC, a self-describing schema and a reproducible pipeline.",
+      "tags": [
+        "json",
+        "schema",
+        "ocr",
+        "open-data",
+        "pipeline",
+        "verbatim",
+        "validation",
+        "repertory",
+        "materia-medica"
+      ],
+      "source_repos": [
+        "homoeopathic-materia-medica-repertory-json",
+        "MATERIA-MEDICA-BUILDER"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "homoeopathic-materia-medica-repertory-json": "8476ed1cbdcdc1a44e64463d19f1e7f961e1e73e",
+        "MATERIA-MEDICA-BUILDER": "78d782780bd758ae62917379b7cc566b1865db55"
+      },
+      "subskills": [
+        "offline-first-single-file-web-app"
+      ]
+    },
+    {
+      "id": "lan-single-server-architecture",
+      "name": "LAN single-server architecture",
+      "category": "web-app-patterns",
+      "description": "A multi-user system that runs entirely on a hospital LAN: a Python server owns the SQLite database, a vanilla-JS UI runs in a WebView2 client, and the server is discovered by UDP broadcast — no internet, no cloud.",
+      "tags": [
+        "lan",
+        "sqlite",
+        "fastapi",
+        "webview2",
+        "udp-discovery",
+        "offline",
+        "alembic",
+        "multi-client",
+        "hospital"
+      ],
+      "source_repos": [
+        "HMS"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "HMS": "3d33c71e76e18bf984369eced0d0555c4920918e"
+      },
+      "subskills": [
+        "reusable-build-release-workflow"
+      ]
+    },
+    {
+      "id": "optical-file-transfer",
+      "name": "Optical file transfer (QR and colour-matrix)",
+      "category": "web-app-patterns",
+      "description": "Move a file between two devices with no network, Bluetooth or cable, by rendering it as animated QR codes or colour-matrix frames and reading them back with a camera.",
+      "tags": [
+        "qr",
+        "optical",
+        "camera",
+        "offline",
+        "compression",
+        "reed-solomon",
+        "crc",
+        "pwa",
+        "file-transfer"
+      ],
+      "source_repos": [
+        "BLINKTRANSFER",
+        "blinkcode-ai"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "BLINKTRANSFER": "21329a3a3dbc3c30f0cb8773e6b8091d20330894",
+        "blinkcode-ai": "a49c5efaf462249fa1c51103b6f3029b2d374a8f"
+      },
+      "subskills": [
+        "offline-first-single-file-web-app"
+      ]
+    },
+    {
+      "id": "all4one-utility-suite",
+      "name": "All4ONE — portable Windows utility suite",
+      "category": "windows-desktop",
+      "description": "551 Windows tools across 45 plugin packs compiled into one portable utility_suite.exe (Python, tkinter GUI + CLI), with lazy metadata-registered handlers and an audit that verifies every tool.",
+      "tags": [
+        "windows",
+        "portable",
+        "exe",
+        "python",
+        "tkinter",
+        "cli",
+        "plugin-packs",
+        "single-file",
+        "mit"
+      ],
+      "source_repos": [
+        "All4ONE"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "All4ONE": "feae216498ee2cf69fc2c78669f4c4a0c8d8bae4"
+      },
+      "subskills": [
+        "pyinstaller-portable-exe-launcher",
+        "reusable-build-release-workflow"
+      ]
+    },
+    {
+      "id": "ultimate-windows-optimizer",
+      "name": "Ultimate Windows Optimizer",
+      "category": "windows-desktop",
+      "description": "A PowerShell + batch toolkit that applies documented, fully reversible Windows 10/11 debloat and performance tweaks, with real logging, real registry/service backups and a one-shot undo.",
+      "tags": [
+        "windows",
+        "powershell",
+        "debloat",
+        "reversible",
+        "backup",
+        "pester",
+        "batch",
+        "no-telemetry"
+      ],
+      "source_repos": [
+        "ULTIMATE-WINDOWS-OPTIMIZER"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "ULTIMATE-WINDOWS-OPTIMIZER": "48d4051c60cbd5f571702c9a5cbd3a64e4a2aad5"
+      },
+      "subskills": [
+        "static-landing-page-seo"
+      ]
+    },
+    {
+      "id": "ttb-tiny-toolbox-extension",
+      "name": "TTB — Tiny Toolbox browser extension",
+      "category": "web-app-patterns",
+      "description": "A Manifest V3 browser extension bundling 590 small utilities across 18 categories into one offline-first popup, with one source tree assembled per browser by a small build.",
+      "tags": [
+        "browser-extension",
+        "manifest-v3",
+        "chrome",
+        "firefox",
+        "safari",
+        "offline-first",
+        "no-telemetry",
+        "javascript"
+      ],
+      "source_repos": [
+        "TTB"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "TTB": "75dacf459c21bacab55e4148bf338664814f5b6f"
+      },
+      "subskills": [
+        "offline-first-single-file-web-app"
+      ]
+    },
+    {
+      "id": "cldr-command-launcher",
+      "name": "CLDR — command launcher",
+      "category": "windows-desktop",
+      "description": "A single dependency-free Rust binary that sits in the system tray, pops up on a hotkey, and routes whatever you type — maths, unit conversion, a path, an app, or a web search.",
+      "tags": [
+        "rust",
+        "launcher",
+        "tray",
+        "hotkey",
+        "windows",
+        "linux",
+        "single-binary",
+        "no-electron"
+      ],
+      "source_repos": [
+        "CLDR"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "CLDR": "a723578e0b1613da2e114c9a3586bbc921f669c6"
+      },
+      "subskills": [
+        "static-landing-page-seo"
+      ]
+    },
+    {
+      "id": "lockhtml-file-encryption",
+      "name": "LockHTML — PIN-protected documents",
+      "category": "windows-desktop",
+      "description": "Encrypt any file into a single self-contained .html that asks for a PIN (AES-256-GCM + Argon2id), with one-time view, expiry, recipient keys, hidden volumes, Shamir shares and age interop — via a Python CLI and a browser GUI.",
+      "tags": [
+        "encryption",
+        "aes-256-gcm",
+        "argon2id",
+        "python",
+        "cli",
+        "webcrypto",
+        "privacy",
+        "pwa"
+      ],
+      "source_repos": [
+        "lockhtml"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "lockhtml": "d1aecbc2c9be23bc2f2f5ea5f097684437ce2d63"
+      },
+      "subskills": [
+        "offline-first-single-file-web-app",
+        "reusable-build-release-workflow"
+      ]
+    },
+    {
+      "id": "lexora-exact-compression",
+      "name": "LEXORA — exact-text compression architecture",
+      "category": "windows-desktop",
+      "description": "A text-cleaning and exact-compression system: canonicalize documents conservatively, then compress with guaranteed byte-exact recovery (decode(encode(C)) == C), on low-resource hardware.",
+      "tags": [
+        "compression",
+        "python",
+        "zstd",
+        "canonicalization",
+        "round-trip",
+        "benchmarks",
+        "prototype"
+      ],
+      "source_repos": [
+        "lexora"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "lexora": "50dc437e279a4c564071bbc1bad00bf9761f9b92"
+      },
+      "subskills": [
+        "static-landing-page-seo"
+      ]
+    },
+    {
+      "id": "blinktransfer-animated-qr",
+      "name": "BlinkTransfer — animated QR file transfer",
+      "category": "web-app-patterns",
+      "description": "Offline file transfer over animated QR codes at ~20 FPS: a Vite-built PWA compresses files, renders a header plus a data stream of 1600-byte frames, and reassembles them on a receiver camera.",
+      "tags": [
+        "qr",
+        "vite",
+        "pwa",
+        "camera",
+        "file-transfer",
+        "offline",
+        "crc",
+        "compression",
+        "mit"
+      ],
+      "source_repos": [
+        "BLINKTRANSFER"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "BLINKTRANSFER": "21329a3a3dbc3c30f0cb8773e6b8091d20330894"
+      },
+      "subskills": [
+        "optical-file-transfer",
+        "offline-first-single-file-web-app"
+      ]
+    },
+    {
+      "id": "blinkcode-ai-spectracode",
+      "name": "BlinkCode AI — SpectraCode optical transfer",
+      "category": "web-app-patterns",
+      "description": "Optical file transfer as a vanilla-JS PWA: a file becomes a 'File DNA' container painted as SpectraCode colour matrices, decoded by camera with marker detection, homography and Reed-Solomon error correction.",
+      "tags": [
+        "optical",
+        "spectracode",
+        "reed-solomon",
+        "arithmetic-coding",
+        "camera",
+        "pwa",
+        "no-build",
+        "workers"
+      ],
+      "source_repos": [
+        "blinkcode-ai"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "blinkcode-ai": "a49c5efaf462249fa1c51103b6f3029b2d374a8f"
+      },
+      "subskills": [
+        "optical-file-transfer",
+        "offline-first-single-file-web-app"
+      ]
+    },
+    {
+      "id": "the-browser-aetheris",
+      "name": "The_Browser — Aetheris experimental browser",
+      "category": "windows-desktop",
+      "description": "An experimental C++20 browser engine derived from Ladybird/SerenityOS, built with CMake + vcpkg and tested with CTest; explicitly not production-ready and honest about provenance.",
+      "tags": [
+        "c++",
+        "browser-engine",
+        "cmake",
+        "vcpkg",
+        "experimental",
+        "ladybird",
+        "devcontainer",
+        "ctest"
+      ],
+      "source_repos": [
+        "The_Browser"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "The_Browser": "9bb7c6ecee13a511e32ec64589e5a57181191f99"
+      },
+      "subskills": [
+        "static-landing-page-seo"
+      ]
+    },
+    {
+      "id": "neo-nova-compiler",
+      "name": "NEO — NOVA language and compiler",
+      "category": "windows-desktop",
+      "description": "A statically-typed compiled systems language: a Rust compiler lowers NOVA through lexer, parser, semantic analyser, SIR and a lowerer to four backends (C, JavaScript, Rust, WebAssembly), with runtime, package manager, LSP and debugger.",
+      "tags": [
+        "compiler",
+        "language",
+        "rust",
+        "webassembly",
+        "lsp",
+        "package-manager",
+        "sir",
+        "backends"
+      ],
+      "source_repos": [
+        "NEO"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "NEO": "5bfe829f7d27e4103a3c5a362a62dcfba52b46f1"
+      },
+      "subskills": [
+        "static-landing-page-seo"
+      ]
+    },
+    {
+      "id": "neon-runner-auto-fire-shooter",
+      "name": "Neon Runner — auto-fire shooter",
+      "category": "game-engine",
+      "description": "A retro auto-fire side-scrolling shooter in one self-contained HTML file (vanilla JS + canvas): move, jump, duck — the gun fires itself — with 60+ assertions, minified to ~176 KB.",
+      "tags": [
+        "game",
+        "canvas",
+        "vanilla-js",
+        "single-file",
+        "offline",
+        "pixel-art",
+        "web-audio",
+        "mit"
+      ],
+      "source_repos": [
+        "neon-runner"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "neon-runner": "b5b04fd8c5081a1316ac4f72eb457e340e296185"
+      },
+      "subskills": [
+        "offline-first-single-file-web-app",
+        "reusable-build-release-workflow"
+      ]
+    },
+    {
+      "id": "neon-games-arcade",
+      "name": "Neon Games — open-world browser arcade",
+      "category": "game-engine",
+      "description": "A deployment repo holding two open-world games built on the Neon Engine — Dead Zone (zombie survival) and Neon Police (crime response) — each a self-contained playable folder with a mod loader.",
+      "tags": [
+        "game",
+        "open-world",
+        "neon-engine",
+        "deployment",
+        "mods",
+        "pwa",
+        "offline",
+        "cc-by-nc-sa"
+      ],
+      "source_repos": [
+        "neon-games"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "neon-games": "2749d08a3d9993288268a9e96f4808d60dccdb39"
+      },
+      "subskills": [
+        "neon-engine-open-world",
+        "reusable-build-release-workflow"
+      ]
+    },
+    {
+      "id": "retro-strike-software-3d",
+      "name": "Retro Strike — software 3D shooter",
+      "category": "game-engine",
+      "description": "A complete retro third-person shooter in one HTML file with a custom software 3D renderer, a live chiptune synth and procedural arenas — no engine, no build step, no dependencies.",
+      "tags": [
+        "game",
+        "3d",
+        "software-renderer",
+        "chiptune",
+        "web-audio",
+        "single-file",
+        "mit"
+      ],
+      "source_repos": [
+        "retro-strike"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "retro-strike": "e6d7bd5233a21006fcfd8ce59760b0c8e288575f"
+      },
+      "subskills": [
+        "offline-first-single-file-web-app",
+        "reusable-build-release-workflow"
+      ]
+    },
+    {
+      "id": "dance-fight-rhythm-game",
+      "name": "Dance Fight — rhythm fighting game",
+      "category": "game-engine",
+      "description": "A single-file browser rhythm game where every fight move is a dance move: the track's beat is analysed up front into an offline beat grid, and on-beat hits score PERFECT for 60% extra damage.",
+      "tags": [
+        "game",
+        "rhythm",
+        "web-audio",
+        "beat-detection",
+        "single-file",
+        "offline",
+        "mobile",
+        "mit"
+      ],
+      "source_repos": [
+        "dance-fight"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "dance-fight": "931094438c4f6208ff90a4f569058b2dd4bd7609"
+      },
+      "subskills": [
+        "offline-first-single-file-web-app",
+        "reusable-build-release-workflow"
+      ]
+    },
+    {
+      "id": "idle-city-ages-of-growth",
+      "name": "Idle City — Ages of Growth",
+      "category": "game-engine",
+      "description": "A single-file idle city-builder that grows from a Stone Age village to a Fusion Age world-city: roads, zoning, power and happiness, running itself while you plan and expand.",
+      "tags": [
+        "game",
+        "idle",
+        "city-builder",
+        "canvas",
+        "single-file",
+        "offline",
+        "mobile",
+        "noncommercial"
+      ],
+      "source_repos": [
+        "idle-city-ages-of-growth"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "idle-city-ages-of-growth": "244c3fac36a51bc6076ea6229134e2830fc341c5"
+      },
+      "subskills": [
+        "offline-first-single-file-web-app",
+        "reusable-build-release-workflow"
+      ]
+    },
+    {
+      "id": "aethelgard-games-deployment",
+      "name": "Aethelgard — two games (deployment)",
+      "category": "game-engine",
+      "description": "A deployment repo holding the built, playable copies of two Aethelgard browser games — The Books (a 36-chapter visual novel) and Chronicles of Fate (a deep single-player RPG) — so GitHub Pages can serve them.",
+      "tags": [
+        "game",
+        "deployment",
+        "visual-novel",
+        "rpg",
+        "github-pages",
+        "offline",
+        "no-build"
+      ],
+      "source_repos": [
+        "aethelgard-games"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "aethelgard-games": "dc27a4ce04e490eb209aa2f303afbdc6f48344f0"
+      },
+      "subskills": [
+        "aethelgard-engine-rpg",
+        "aethelgardvn-saga-engine",
+        "reusable-build-release-workflow"
+      ]
+    },
+    {
+      "id": "aethelgardvn-saga-engine",
+      "name": "AethelgardVN — Saga visual-novel engine",
+      "category": "game-engine",
+      "description": "Saga: a small, dependency-free visual-novel engine for the browser — plain JavaScript, one stylesheet, no build step, works offline — built to make Aethelgard: The Books.",
+      "tags": [
+        "visual-novel",
+        "engine",
+        "vanilla-js",
+        "no-build",
+        "offline",
+        "sprites",
+        "mit"
+      ],
+      "source_repos": [
+        "AethelgardVN"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "AethelgardVN": "6c18692d5226d9444081eab08498db91bb3b6d49"
+      },
+      "subskills": [
+        "offline-first-single-file-web-app",
+        "reusable-build-release-workflow"
+      ]
+    },
+    {
+      "id": "neon-engine-open-world",
+      "name": "Neon Engine — code-only open-world engine",
+      "category": "game-engine",
+      "description": "A code-only WebGL engine for open-world browser shooters: no asset files, every texture/mesh/sound generated at runtime, ES modules with a vendored three.js, so a full game ships under 1 MB.",
+      "tags": [
+        "game-engine",
+        "webgl",
+        "threejs",
+        "procedural",
+        "es-modules",
+        "offline",
+        "mit"
+      ],
+      "source_repos": [
+        "neon-engine"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "neon-engine": "ae7faa784e63b7233ade2e080f427033c3da8608"
+      },
+      "subskills": [
+        "neon-games-arcade"
+      ]
+    },
+    {
+      "id": "aethelgard-engine-rpg",
+      "name": "Aethelgard Engine — vanilla-JS RPG engine",
+      "category": "game-engine",
+      "description": "The vanilla-JavaScript engine behind Aethelgard: Chronicles of Fate — small modules loaded in script order behind one global (window.Game), no build step, no dependencies, fully offline, moddable.",
+      "tags": [
+        "game-engine",
+        "rpg",
+        "vanilla-js",
+        "no-build",
+        "global-namespace",
+        "mods",
+        "pwa",
+        "mit"
+      ],
+      "source_repos": [
+        "Aethelgard-Engine"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "Aethelgard-Engine": "0aa3cdde24911ec08c30a873640383aed9bf1661"
+      },
+      "subskills": [
+        "aethelgard-games-deployment",
+        "reusable-build-release-workflow"
+      ]
+    },
+    {
+      "id": "open-materia-medica",
+      "name": "Open Materia Medica",
+      "category": "health-tools",
+      "description": "A plain-language homeopathic materia medica — 344 remedy portraits, each beside the substance's real pharmacology and toxicology — as a static web edition plus a hand-written Android companion app.",
+      "tags": [
+        "homeopathy",
+        "materia-medica",
+        "static-site",
+        "android",
+        "gradle",
+        "offline",
+        "book-companion"
+      ],
+      "source_repos": [
+        "open-materia-medica"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "open-materia-medica": "76d0154a14f0846b6d1f6ab5c51fad017f1cbf1d"
+      },
+      "subskills": [
+        "android-webview-apk-packaging",
+        "static-landing-page-seo"
+      ]
+    },
+    {
+      "id": "boericke-repertory",
+      "name": "Boericke's Repertory (offline app)",
+      "category": "health-tools",
+      "description": "A free, offline digital edition of Boericke's Repertory in one HTML file: instant search across 6,110 rubrics, a repertorisation chart over 1,461 remedies, a remedy browser, cases and print/export.",
+      "tags": [
+        "homeopathy",
+        "repertory",
+        "repertorisation",
+        "single-file",
+        "offline",
+        "search",
+        "attribution"
+      ],
+      "source_repos": [
+        "boericke-repertory"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "boericke-repertory": "fabd77e5c88a38bb55975c94b7c116fc70a0b73c"
+      },
+      "subskills": [
+        "offline-first-single-file-web-app",
+        "open-data-extraction-pipeline"
+      ]
+    },
+    {
+      "id": "materia-medica-builder",
+      "name": "Materia Medica Builder",
+      "category": "data-and-schema",
+      "description": "An offline, no-dependency PWA that lets a practitioner build a personal materia medica and repertory — remedies, symptoms, rubrics, a custom marking scale — and export it in eight formats.",
+      "tags": [
+        "pwa",
+        "materia-medica",
+        "repertory",
+        "export",
+        "indexeddb",
+        "vanilla-js",
+        "offline",
+        "authoring"
+      ],
+      "source_repos": [
+        "MATERIA-MEDICA-BUILDER"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "MATERIA-MEDICA-BUILDER": "78d782780bd758ae62917379b7cc566b1865db55"
+      },
+      "subskills": [
+        "open-data-extraction-pipeline",
+        "offline-first-single-file-web-app"
+      ]
+    },
+    {
+      "id": "homoeopathic-materia-medica-repertory-json",
+      "name": "Homoeopathic Materia Medica & Repertory JSON",
+      "category": "data-and-schema",
+      "description": "13 public-domain homoeopathic classics (1840–1906, ~108k rubrics) extracted into clean, app-ready, verbatim JSON with a self-describing schema, per-book QC and a reproducible pipeline (CC0).",
+      "tags": [
+        "dataset",
+        "json",
+        "cc0",
+        "open-data",
+        "repertory",
+        "materia-medica",
+        "ocr",
+        "pipeline"
+      ],
+      "source_repos": [
+        "homoeopathic-materia-medica-repertory-json"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "homoeopathic-materia-medica-repertory-json": "8476ed1cbdcdc1a44e64463d19f1e7f961e1e73e"
+      },
+      "subskills": [
+        "open-data-extraction-pipeline"
+      ]
+    },
+    {
+      "id": "remedy-relationship-explorer",
+      "name": "Remedy Relationship Explorer",
+      "category": "health-tools",
+      "description": "An offline single-file explorer for homeopathic remedy relationships — 686 remedies, 7,786 links from four public-domain materia medicas — visualised as an interactive graph with keynotes, quizzes and a Tauri desktop build.",
+      "tags": [
+        "homeopathy",
+        "graph",
+        "single-file",
+        "offline",
+        "tauri",
+        "keynotes",
+        "accessibility",
+        "provenance"
+      ],
+      "source_repos": [
+        "remedy-relationship-explorer"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "remedy-relationship-explorer": "59731058c84dc46979a53bac514c224f7a696057"
+      },
+      "subskills": [
+        "offline-first-single-file-web-app",
+        "open-data-extraction-pipeline"
+      ]
+    },
+    {
+      "id": "gentle-pediatrics-companion",
+      "name": "Gentle Pediatrics — home companion",
+      "category": "health-tools",
+      "description": "A triage-first offline companion app for a parent at the cot side: nine common childhood situations, an always-visible red-flag check, and gentle remedy orientation from the book Gentle Pediatrics.",
+      "tags": [
+        "pediatrics",
+        "triage",
+        "pwa",
+        "single-file",
+        "offline",
+        "red-flags",
+        "book-companion"
+      ],
+      "source_repos": [
+        "gentle-pediatrics-companion"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "gentle-pediatrics-companion": "d1dc54f6913ef4971dbc2171bc05a50e69471c8b"
+      },
+      "subskills": [
+        "offline-first-single-file-web-app",
+        "reusable-build-release-workflow"
+      ]
+    },
+    {
+      "id": "skin-case-tracker",
+      "name": "Skin Case Tracker",
+      "category": "health-tools",
+      "description": "A private, offline PWA that tracks a skin case over time on the HHMS model — History, Habits, Mapping, Symptoms logged daily and read as a 90-day pattern engine; it records, it does not diagnose.",
+      "tags": [
+        "dermatology",
+        "tracker",
+        "pwa",
+        "offline",
+        "hhms",
+        "patterns",
+        "privacy",
+        "book-companion"
+      ],
+      "source_repos": [
+        "skin-case-tracker"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "skin-case-tracker": "8848699811463fe966ac83d1107bff0fad569694"
+      },
+      "subskills": [
+        "offline-first-single-file-web-app",
+        "reusable-build-release-workflow"
+      ]
+    },
+    {
+      "id": "whispering-body-first-aid",
+      "name": "The Whispering Body — first-aid box",
+      "category": "health-tools",
+      "description": "A free, offline home first-aid companion (EN/HI/GU) with 30 commonly used homeopathic first-aid remedies, a plain-language symptom finder, dosing and handling guidance, and emergency signs.",
+      "tags": [
+        "first-aid",
+        "homeopathy",
+        "pwa",
+        "offline",
+        "i18n",
+        "hindi",
+        "gujarati",
+        "book-companion"
+      ],
+      "source_repos": [
+        "whispering-body-first-aid"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "whispering-body-first-aid": "2b001af68390a59916269565e757333af85336a3"
+      },
+      "subskills": [
+        "offline-first-single-file-web-app",
+        "reusable-build-release-workflow"
+      ]
+    },
+    {
+      "id": "hms-hospital-management",
+      "name": "HMS — Homeopathic Hospital Management System",
+      "category": "health-tools",
+      "description": "HHMS: a LAN-based hospital management system for homeopathic hospitals — a Python server owns the SQLite database, a WebView2 client talks HTTP/JSON, and the server is found by UDP discovery; no internet, no cloud.",
+      "tags": [
+        "hospital",
+        "lan",
+        "fastapi",
+        "sqlite",
+        "webview2",
+        "udp-discovery",
+        "alembic",
+        "proprietary"
+      ],
+      "source_repos": [
+        "HMS"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "HMS": "3d33c71e76e18bf984369eced0d0555c4920918e"
+      },
+      "subskills": [
+        "lan-single-server-architecture",
+        "reusable-build-release-workflow"
+      ]
+    },
+    {
+      "id": "bmi-bmr-tdee-macros-fluid-calculator",
+      "name": "Clinical Health Calculator",
+      "category": "health-tools",
+      "description": "A single-file, offline clinical calculator for adult outpatients: BMI, BMR (Mifflin-St Jeor), TDEE, macros, fluid requirement and body composition, with Indian/WHO cut-offs and EN/HI/GU UI.",
+      "tags": [
+        "calculator",
+        "clinical",
+        "bmi",
+        "tdee",
+        "single-file",
+        "offline",
+        "i18n",
+        "csv",
+        "mit"
+      ],
+      "source_repos": [
+        "bmi-bmr-tdee-macros-fluid-calculator"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "bmi-bmr-tdee-macros-fluid-calculator": "407229a6d872ba9f84d5dc8d92ef869f6c9719bf"
+      },
+      "subskills": [
+        "offline-first-single-file-web-app",
+        "static-landing-page-seo"
+      ]
+    },
+    {
+      "id": "conqueror-os-workspace",
+      "name": "Conqueror OS — resilience workspace",
+      "category": "web-app-patterns",
+      "description": "A private, offline resilience workspace in a single HTML file — read, reflect, journal, track and review — with no server, no account and no dependencies.",
+      "tags": [
+        "journal",
+        "habits",
+        "single-file",
+        "offline",
+        "privacy",
+        "local-first",
+        "spaced-repetition",
+        "mit"
+      ],
+      "source_repos": [
+        "conqueror-os"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "conqueror-os": "aac292e51ce554472b6dc102b722aa4ec5c5e778"
+      },
+      "subskills": [
+        "offline-first-single-file-web-app",
+        "static-landing-page-seo"
+      ]
+    },
+    {
+      "id": "mnemosyne-companion",
+      "name": "Mnemosyne Companion",
+      "category": "health-tools",
+      "description": "A single offline HTML study companion for Mnemosyne Materia Medica: 100 polycrest remedies as poetic pearls, keynotes and spaced-repetition drills, in three drill modes.",
+      "tags": [
+        "homeopathy",
+        "study",
+        "spaced-repetition",
+        "flashcards",
+        "single-file",
+        "offline",
+        "proprietary"
+      ],
+      "source_repos": [
+        "mnemosyne-companion"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "mnemosyne-companion": "7cc7190d301a747db9633eebc2f34c34e37df2c4"
+      },
+      "subskills": [
+        "offline-first-single-file-web-app",
+        "reusable-build-release-workflow"
+      ]
+    },
+    {
+      "id": "the-symphony-companion",
+      "name": "The Symphony Companion",
+      "category": "health-tools",
+      "description": "A pocket PWA companion to The Symphony of the Present: the book's ideas as cards, its practices as a checklist, a breathing timer, a gratitude journal and attributed quotations — pure CSS tabs, offline.",
+      "tags": [
+        "mindfulness",
+        "pwa",
+        "offline",
+        "css-only-tabs",
+        "journal",
+        "breathing",
+        "book-companion"
+      ],
+      "source_repos": [
+        "the-symphony-companion"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "the-symphony-companion": "d365182708f9e7eb73ac970287279e4a73284142"
+      },
+      "subskills": [
+        "offline-first-single-file-web-app",
+        "reusable-build-release-workflow"
+      ]
+    },
+    {
+      "id": "unstoppable-mind-companion",
+      "name": "The Unstoppable Mind — companion",
+      "category": "health-tools",
+      "description": "An offline companion app to The Unstoppable Mind: the book's key points and exercises, a 7-day challenge and flashcards — in a single ~30 KB file with no JavaScript at all.",
+      "tags": [
+        "self-help",
+        "offline",
+        "no-javascript",
+        "single-file",
+        "flashcards",
+        "css",
+        "book-companion"
+      ],
+      "source_repos": [
+        "unstoppable-mind-companion"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "unstoppable-mind-companion": "38b30e0be791f5948f69763de13e1b865f03fdde"
+      },
+      "subskills": [
+        "offline-first-single-file-web-app",
+        "reusable-build-release-workflow"
+      ]
+    },
+    {
+      "id": "read-live-transform-app",
+      "name": "Read. Live. Transform. — companion",
+      "category": "health-tools",
+      "description": "An offline PWA companion to the book Read. Live. Transform. — a practical reading of the Qur'an in 74 chapters: read the verse, live the practice, keep the change.",
+      "tags": [
+        "quran",
+        "pwa",
+        "offline",
+        "single-file",
+        "reading",
+        "journal",
+        "all-rights-reserved"
+      ],
+      "source_repos": [
+        "read-live-transform-app"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "read-live-transform-app": "b58bab09eb71b89d5db6a3a972c53aa836b26161"
+      },
+      "subskills": [
+        "offline-first-single-file-web-app",
+        "reusable-build-release-workflow"
+      ]
+    },
+    {
+      "id": "smartnotes-ai-notes",
+      "name": "SmartNotes — AI note scheduler",
+      "category": "web-app-patterns",
+      "description": "An AI-powered note capture, categorisation and reminder-scheduling app with a brutalist UI: write in plain English and an LLM classifies, prioritises, titles and extracts dates.",
+      "tags": [
+        "react",
+        "trpc",
+        "drizzle",
+        "llm",
+        "notes",
+        "brutalist",
+        "typescript",
+        "mit"
+      ],
+      "source_repos": [
+        "SmartNotes"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "SmartNotes": "44de60e992f2ef45e6ce4701799df9e0d24c8b5c"
+      },
+      "subskills": [
+        "static-landing-page-seo"
+      ]
+    },
+    {
+      "id": "ambient-sound-studio",
+      "name": "Ambient Sound Studio",
+      "category": "web-app-patterns",
+      "description": "A private, offline ambient sound mixer in a single HTML file: 25 synthesised layers, 36 presets, EN/HI/GU, WAV and Opus export, installable PWA.",
+      "tags": [
+        "audio",
+        "web-audio",
+        "synthesis",
+        "single-file",
+        "pwa",
+        "offline",
+        "wav",
+        "opus",
+        "i18n"
+      ],
+      "source_repos": [
+        "ambient-sound-studio"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "ambient-sound-studio": "ced1fa36aab7540bdda70093cbc09fc0f5983ef5"
+      },
+      "subskills": [
+        "offline-first-single-file-web-app",
+        "reusable-build-release-workflow"
+      ]
+    },
+    {
+      "id": "smartbill-app",
+      "name": "SmartBill India — serverless billing",
+      "category": "web-app-patterns",
+      "description": "A fast, serverless single-page billing and invoicing app for Indian businesses: GST-ready (HSN/SAC, CGST/SGST, state codes, reverse charge), 100% local IndexedDB storage and A4 print layout.",
+      "tags": [
+        "billing",
+        "gst",
+        "vue",
+        "tailwind",
+        "indexeddb",
+        "serverless",
+        "offline",
+        "india",
+        "printing"
+      ],
+      "source_repos": [
+        "smartbill-app"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "smartbill-app": "e46c96fc6e3ba057e83f3fef896422ef76da73bc"
+      },
+      "subskills": [
+        "offline-first-single-file-web-app",
+        "static-landing-page-seo"
+      ]
+    },
+    {
+      "id": "matneo-storefront",
+      "name": "Matneo — static storefront",
+      "category": "landing-and-seo",
+      "description": "A static storefront served from docs/ with no build step: a single data file (docs/data/products.json) drives the catalogue, so new products are added by editing JSON, not markup.",
+      "tags": [
+        "storefront",
+        "static-site",
+        "json-driven",
+        "github-pages",
+        "no-build",
+        "blog",
+        "landing-page"
+      ],
+      "source_repos": [
+        "Matneo"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "Matneo": "cdf4b928b454c38cb30b6772e13ff928080430be"
+      },
+      "subskills": [
+        "static-landing-page-seo"
+      ]
+    },
+    {
+      "id": "app-builder-kit",
+      "name": "app-builder — shared build kit",
+      "category": "ci-and-release",
+      "description": "The shared kit that turns a static web app into a single-file portable Windows EXE (PyInstaller) and an Android WebView APK (Gradle), consumed by app repos through one reusable GitHub Actions workflow.",
+      "tags": [
+        "build-kit",
+        "pyinstaller",
+        "android",
+        "gradle",
+        "github-actions",
+        "reusable-workflow",
+        "portable-exe",
+        "apk"
+      ],
+      "source_repos": [
+        "app-builder"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "app-builder": "a7277907684a0f0e17b05d4328380ccf8541d836"
+      },
+      "subskills": [
+        "pyinstaller-portable-exe-launcher",
+        "android-webview-apk-packaging",
+        "reusable-build-release-workflow"
+      ]
+    }
+  ]
 }
