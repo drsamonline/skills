@@ -1,0 +1,21 @@
+{
+  "id": "crypto-kit-aes-gcm",
+  "name": "Browser crypto with AES-256-GCM",
+  "category": "web-app-patterns",
+  "description": "Encrypt app data in the browser with the Web Crypto API - AES-256-GCM for authenticated encryption and PBKDF2 for passphrase keys - behind a small shared wrapper instead of hand-rolled crypto.",
+  "tags": [
+    "crypto",
+    "aes-gcm",
+    "pbkdf2",
+    "web-crypto",
+    "encryption",
+    "offline"
+  ],
+  "source_repos": [
+    "lockhtml",
+    "crypto-kit"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {}
+}
