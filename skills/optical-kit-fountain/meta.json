@@ -1,0 +1,23 @@
+{
+  "id": "optical-kit-fountain",
+  "name": "Optical file transfer with a fountain code",
+  "category": "web-app-patterns",
+  "description": "Transfer files over a screen-to-camera link using a systematic LT fountain code, so any ~k frames reconstruct the file and a dropped frame costs time, not correctness.",
+  "tags": [
+    "optical",
+    "fountain-code",
+    "qr",
+    "offline-transfer",
+    "lt-code",
+    "no-backchannel"
+  ],
+  "source_repos": [
+    "helioprism",
+    "blinkcode-ai",
+    "BLINKTRANSFER",
+    "optical-kit"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {}
+}
