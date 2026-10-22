@@ -1,6 +1,6 @@
 {
   "generated": "2026-10-22",
-  "count": 48,
+  "count": 50,
   "categories": [
     "web-app-patterns",
     "android-packaging",
@@ -1363,6 +1363,67 @@
         "pyinstaller-portable-exe-launcher",
         "android-webview-apk-packaging",
         "reusable-build-release-workflow"
+      ]
+    },
+    {
+      "id": "profile-kit",
+      "name": "profile-kit — reusable GitHub-profile kit",
+      "category": "landing-and-seo",
+      "description": "A small, reusable kit for a theme-aware, self-updating GitHub profile — a hero banner, a metrics card and a README generator — extracted from the drsamonline profile so another account can adopt the whole thing instead of rebuilding it.",
+      "tags": [
+        "github-profile",
+        "kit",
+        "template",
+        "light-dark",
+        "lowlighter-metrics",
+        "self-updating",
+        "github-actions",
+        "landing-page"
+      ],
+      "source_repos": [
+        "profile-kit"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "profile-kit": "b35f330f53d2ca18a3836e06ff426bb5bc84ac4f"
+      },
+      "subskills": [
+        "theme-aware-github-profile",
+        "static-landing-page-seo"
+      ]
+    },
+    {
+      "id": "theme-aware-github-profile",
+      "name": "Theme-aware GitHub profile",
+      "category": "landing-and-seo",
+      "description": "A professional, self-updating GitHub profile README — a bespoke light/dark hero served through <picture>, a lowlighter/metrics card rendered twice with extras_css palettes, and a daily workflow that regenerates a badge row and a categorised project list from the GitHub API between HTML comment markers.",
+      "tags": [
+        "github-profile",
+        "readme",
+        "light-dark",
+        "prefers-color-scheme",
+        "picture-element",
+        "lowlighter-metrics",
+        "self-updating",
+        "github-actions",
+        "no-emoji"
+      ],
+      "source_repos": [
+        "drsamonline",
+        "drsamonline.github.io",
+        "profile-kit"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "drsamonline": "5c562c2bc5728af971b18febdaecdf703754b993",
+        "drsamonline.github.io": "f0e0d5897520875ccca6575f284683b868a617d0",
+        "profile-kit": "b35f330f53d2ca18a3836e06ff426bb5bc84ac4f"
+      },
+      "subskills": [
+        "profile-kit",
+        "auto-updating-showcase-hub"
       ]
     }
   ]

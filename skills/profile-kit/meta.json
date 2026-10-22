@@ -1,0 +1,28 @@
+{
+  "id": "profile-kit",
+  "name": "profile-kit — reusable GitHub-profile kit",
+  "category": "landing-and-seo",
+  "description": "A small, reusable kit for a theme-aware, self-updating GitHub profile — a hero banner, a metrics card and a README generator — extracted from the drsamonline profile so another account can adopt the whole thing instead of rebuilding it.",
+  "tags": [
+    "github-profile",
+    "kit",
+    "template",
+    "light-dark",
+    "lowlighter-metrics",
+    "self-updating",
+    "github-actions",
+    "landing-page"
+  ],
+  "source_repos": [
+    "profile-kit"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "profile-kit": "b35f330f53d2ca18a3836e06ff426bb5bc84ac4f"
+  },
+  "subskills": [
+    "theme-aware-github-profile",
+    "static-landing-page-seo"
+  ]
+}

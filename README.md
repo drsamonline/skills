@@ -12,11 +12,12 @@ There are two kinds of skill:
   projects: the offline-first single-file web app, Android WebView packaging,
   the portable EXE launcher, the shared build/release workflow, the landing-page
   + SEO conventions, the auto-updating showcase hub, the open-data pipeline, the
-  LAN single-server architecture, and optical file transfer.
+  LAN single-server architecture, the theme-aware GitHub profile, and optical
+  file transfer.
 - **Project skills** — one per repository: what the project is, how it is built,
   how it is released, and what makes its workflow distinctive.
 
-**Catalogue:** `48` skills across 8 categories. The machine-readable index is [`catalog.json`](catalog.json); the landing page is <https://drsamonline.github.io/skills/>.
+**Catalogue:** `50` skills across 8 categories. The machine-readable index is [`catalog.json`](catalog.json); the landing page is <https://drsamonline.github.io/skills/>.
 
 ## Repository layout
 
@@ -167,7 +168,9 @@ matches the code it describes.
 |---|---|---|---|
 | [`auto-updating-showcase-hub`](skills/auto-updating-showcase-hub/SKILL.md) | A single static page that lists every repository by reading the GitHub API at runtime, with an embedded JSON snapshot fallback, a curated map for hand-written copy, and a scheduled workflow that refreshes the snapshot. | [drsamonline.github.io](https://github.com/drsamonline/drsamonline.github.io) | 1.0.0 |
 | [`matneo-storefront`](skills/matneo-storefront/SKILL.md) | A static storefront served from docs/ with no build step: a single data file (docs/data/products.json) drives the catalogue, so new products are added by editing JSON, not markup. | [Matneo](https://github.com/drsamonline/Matneo) | 1.0.0 |
+| [`profile-kit`](skills/profile-kit/SKILL.md) | A small, reusable kit for a theme-aware, self-updating GitHub profile — a hero banner, a metrics card and a README generator — extracted from the drsamonline profile so another account can adopt the whole thing instead of rebuilding it. | [profile-kit](https://github.com/drsamonline/profile-kit) | 1.0.0 |
 | [`static-landing-page-seo`](skills/static-landing-page-seo/SKILL.md) | The house landing-page recipe: a bespoke self-contained docs/index.html with a distinct theme, a full SEO head (canonical, OG, Twitter, JSON-LD, robots), robots.txt, sitemap.xml, .nojekyll and a themed 404. | [app-builder](https://github.com/drsamonline/app-builder), [homoeopathic-materia-medica-repertory-json](https://github.com/drsamonline/homoeopathic-materia-medica-repertory-json), [neon-runner](https://github.com/drsamonline/neon-runner), [conqueror-os](https://github.com/drsamonline/conqueror-os) | 1.0.0 |
+| [`theme-aware-github-profile`](skills/theme-aware-github-profile/SKILL.md) | A professional, self-updating GitHub profile README — a bespoke light/dark hero served through <picture>, a lowlighter/metrics card rendered twice with extras_css palettes, and a daily workflow that regenerates a badge row and a categorised project list from the GitHub API between HTML comment markers. | [drsamonline](https://github.com/drsamonline/drsamonline), [drsamonline.github.io](https://github.com/drsamonline/drsamonline.github.io), [profile-kit](https://github.com/drsamonline/profile-kit) | 1.0.0 |
 
 ### CI & release (`ci-and-release`)
 
