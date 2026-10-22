@@ -142,6 +142,31 @@ jobs:
                 f"changed: {len(changed_skills)} -> {changed_skills}")
           PY
 
+      - name: Refresh the embedded fallback snapshot in docs/index.html
+        run: |
+          python3 - <<'PY'
+          import json, re, sys
+
+          cat = json.load(open("catalog.json", encoding="utf-8"))
+          snap = json.dumps(cat, ensure_ascii=False, separators=(",", ":"))
+
+          path = "docs/index.html"
+          html = open(path, encoding="utf-8").read()
+          new, n = re.subn(
+              r'(<script id="catalog-snapshot" type="application/json">).*?(</script>)',
+              lambda m: m.group(1) + snap + m.group(2),
+              html, count=1, flags=re.S,
+          )
+          if n != 1:
+              print("::warning::catalog-snapshot marker not found in docs/index.html; skipping")
+              sys.exit(0)
+          if new != html:
+              open(path, "w", encoding="utf-8").write(new)
+              print(f"embedded snapshot refreshed ({len(cat['skills'])} skills)")
+          else:
+              print("embedded snapshot already current")
+          PY
+
       - name: Commit the refresh (only if something changed)
         run: |
           if git diff --quiet; then
