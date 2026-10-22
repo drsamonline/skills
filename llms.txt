@@ -1,0 +1,24 @@
+# drsamonline/skills
+
+A machine-consumable knowledge base of reusable skills extracted from the
+projects of Dr. Sohil Momin (github.com/drsamonline).
+
+Catalogue (machine-readable, the single source of truth):
+https://raw.githubusercontent.com/drsamonline/skills/main/catalog.json
+
+Landing page:
+https://drsamonline.github.io/skills/
+
+## Format
+- One skill per directory: skills/<skill-id>/SKILL.md and skills/<skill-id>/meta.json
+- SKILL.md: YAML front-matter (name, description), then sections:
+  When to use / Method / Key files or entry points / Gotchas / Source projects.
+- meta.json: id, name, category, description, tags[], source_repos[], version,
+  updated (ISO date), source_snapshot (repo -> commit SHA), subskills[].
+- Categories: web-app-patterns, android-packaging, windows-desktop, game-engine,
+  data-and-schema, health-tools, landing-and-seo, ci-and-release.
+
+## How to use
+1. Fetch catalog.json and choose a skill by id / category / tags.
+2. Fetch skills/<id>/SKILL.md for the method.
+3. Check source_snapshot against the source repo's HEAD for freshness.
