@@ -1,0 +1,21 @@
+{
+  "id": "case-kit-clinical",
+  "name": "Clinical case tracking",
+  "category": "Health",
+  "description": "Record a case as sections, dated symptoms with severity, and follow-ups - with a timeline, a summary and JSON round-trip.",
+  "tags": [
+    "case",
+    "clinical",
+    "symptoms",
+    "timeline",
+    "health"
+  ],
+  "source_repos": [
+    "skin-case-tracker",
+    "HMS",
+    "case-kit"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {}
+}

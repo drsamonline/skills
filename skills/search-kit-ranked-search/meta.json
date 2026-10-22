@@ -1,0 +1,22 @@
+{
+  "id": "search-kit-ranked-search",
+  "name": "Ranked search over a large corpus",
+  "category": "Search",
+  "description": "Build an inverted index once and query it with exact, prefix and fuzzy matching, ranked by field weight.",
+  "tags": [
+    "search",
+    "index",
+    "fuzzy",
+    "ranking",
+    "offline"
+  ],
+  "source_repos": [
+    "kent-repertory-explorer",
+    "open-materia-medica",
+    "SmartNotes",
+    "search-kit"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {}
+}

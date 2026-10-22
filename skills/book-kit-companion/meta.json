@@ -1,0 +1,22 @@
+{
+  "id": "book-kit-companion",
+  "name": "A companion app from a book",
+  "category": "Study",
+  "description": "Model a book as chapters, key points, practices and flashcards, with search and persisted reading progress - the shape six companion apps repeat.",
+  "tags": [
+    "companion",
+    "book",
+    "chapters",
+    "flashcards",
+    "progress"
+  ],
+  "source_repos": [
+    "whispering-body-first-aid",
+    "gentle-pediatrics-companion",
+    "the-symphony-companion",
+    "book-kit"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {}
+}

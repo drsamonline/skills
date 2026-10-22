@@ -1,0 +1,22 @@
+{
+  "id": "repertory-kit-repertorisation",
+  "name": "Homeopathic repertorisation (rubric grading)",
+  "category": "Homeopathy",
+  "description": "Score remedies by weighted rubric grades - the repertorisation a homeopath actually does - with must-have and exclude filters.",
+  "tags": [
+    "repertory",
+    "homeopathy",
+    "rubric",
+    "grading",
+    "materia-medica"
+  ],
+  "source_repos": [
+    "kent-repertory-explorer",
+    "boericke-repertory",
+    "remedy-relationship-explorer",
+    "repertory-kit"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {}
+}

@@ -1,0 +1,21 @@
+{
+  "id": "srs-kit-sm2",
+  "name": "Spaced repetition with SM-2",
+  "category": "Study",
+  "description": "Schedule flashcards with the SM-2 algorithm: ease, interval, reps, lapses, due cards and stats.",
+  "tags": [
+    "srs",
+    "spaced-repetition",
+    "sm-2",
+    "flashcards",
+    "study"
+  ],
+  "source_repos": [
+    "mnemosyne-companion",
+    "unstoppable-mind-companion",
+    "srs-kit"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {}
+}
