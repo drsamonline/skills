@@ -23,11 +23,11 @@ There are two kinds of skill:
   the portable EXE launcher, the shared build/release workflow, the landing-page
   + SEO conventions, the auto-updating showcase hub, the open-data pipeline, the
   LAN single-server architecture, the theme-aware GitHub profile, optical file
-  transfer, and safe repository cleanup.
+  transfer, embedded-bundle feature gating, and safe repository cleanup.
 - **Project skills** — one per repository: what the project is, how it is built,
   how it is released, and what makes its workflow distinctive.
 
-**Catalogue:** `51` skills across 8 categories. The machine-readable index is [`catalog.json`](catalog.json); the landing page is <https://drsamonline.github.io/skills/>.
+**Catalogue:** `52` skills across 8 categories. The machine-readable index is [`catalog.json`](catalog.json); the landing page is <https://drsamonline.github.io/skills/>.
 
 ## Repository layout
 
@@ -124,8 +124,9 @@ matches the code it describes.
 
 | Skill | Description | Source repos | Ver |
 |---|---|---|---|
-| [`all4one-utility-suite`](skills/all4one-utility-suite/SKILL.md) | 551 Windows tools across 45 plugin packs compiled into one portable utility_suite.exe (Python, tkinter GUI + CLI), with lazy metadata-registered handlers and an audit that verifies every tool. | [All4ONE](https://github.com/drsamonline/All4ONE) | 1.0.0 |
+| [`all4one-utility-suite`](skills/all4one-utility-suite/SKILL.md) | 551 Windows tools across 45 plugin packs compiled into one self-contained portable utility_suite.exe (Python, tkinter GUI + CLI) — an embedded bundle with per-pack enable/disable, guided dependency gating and an audit that verifies every tool. | [All4ONE](https://github.com/drsamonline/All4ONE) | 2.0.0 |
 | [`cldr-command-launcher`](skills/cldr-command-launcher/SKILL.md) | A single dependency-free Rust binary that sits in the system tray, pops up on a hotkey, and routes whatever you type — maths, unit conversion, a path, an app, or a web search. | [CLDR](https://github.com/drsamonline/CLDR) | 1.0.0 |
+| [`embedded-bundle-feature-gating`](skills/embedded-bundle-feature-gating/SKILL.md) | Ship many features in one self-contained binary, compile them into a single embedded archive, and let users turn each feature on or off — while telling them honestly when one needs something the machine does not have. | [All4ONE](https://github.com/drsamonline/All4ONE) | 1.0.0 |
 | [`lexora-exact-compression`](skills/lexora-exact-compression/SKILL.md) | A text-cleaning and exact-compression system: canonicalize documents conservatively, then compress with guaranteed byte-exact recovery (decode(encode(C)) == C), on low-resource hardware. | [lexora](https://github.com/drsamonline/lexora) | 1.0.0 |
 | [`lockhtml-file-encryption`](skills/lockhtml-file-encryption/SKILL.md) | Encrypt any file into a single self-contained .html that asks for a PIN (AES-256-GCM + Argon2id), with one-time view, expiry, recipient keys, hidden volumes, Shamir shares and age interop — via a Python CLI and a browser GUI. | [lockhtml](https://github.com/drsamonline/lockhtml) | 1.0.0 |
 | [`neo-nova-compiler`](skills/neo-nova-compiler/SKILL.md) | A statically-typed compiled systems language: a Rust compiler lowers NOVA through lexer, parser, semantic analyser, SIR and a lowerer to four backends (C, JavaScript, Rust, WebAssembly), with runtime, package manager, LSP and debugger. | [NEO](https://github.com/drsamonline/NEO) | 1.0.0 |

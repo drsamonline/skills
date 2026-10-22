@@ -1,0 +1,29 @@
+{
+  "id": "embedded-bundle-feature-gating",
+  "name": "Embedded bundle with feature gating",
+  "category": "windows-desktop",
+  "description": "Ship many features in one self-contained binary, compile them into a single embedded archive, and let users turn each feature on or off — while telling them honestly when one needs something the machine does not have.",
+  "tags": [
+    "embedded-bundle",
+    "feature-gating",
+    "enable-disable",
+    "dependency-gating",
+    "single-file",
+    "zipimport",
+    "pyinstaller",
+    "user-preferences",
+    "no-auto-download"
+  ],
+  "source_repos": [
+    "All4ONE"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "All4ONE": "9818297035b82c219ed776a78381703a61bf1772"
+  },
+  "subskills": [
+    "all4one-utility-suite",
+    "pyinstaller-portable-exe-launcher"
+  ]
+}

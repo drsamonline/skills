@@ -41,5 +41,5 @@ The desktop counterpart of the APK wrap. `exe/launcher.py` picks a free loopback
 ## Source projects
 
 - [app-builder](https://github.com/drsamonline/app-builder) — `exe/launcher.py`, `exe/build.py` and the workflow that consumes them.
-- [All4ONE](https://github.com/drsamonline/All4ONE) — a large Python toolkit shipped as one portable `utility_suite.exe` built in CI (`build-windows-exe.yml`).
+- [All4ONE](https://github.com/drsamonline/All4ONE) — a large Python toolkit shipped as one self-contained portable `utility_suite.exe`, released as a single zip that contains only the exe (no separate pack downloads), built in CI (`build-windows-exe.yml`).
 

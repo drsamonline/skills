@@ -20,8 +20,8 @@
   "version": "1.0.0",
   "updated": "2026-10-22",
   "source_snapshot": {
-    "app-builder": "a7277907684a0f0e17b05d4328380ccf8541d836",
-    "All4ONE": "feae216498ee2cf69fc2c78669f4c4a0c8d8bae4"
+    "app-builder": "c68cbb5cc58a9ed7d1f3205522e95480e2763253",
+    "All4ONE": "9818297035b82c219ed776a78381703a61bf1772"
   },
   "subskills": [
     "reusable-build-release-workflow",
