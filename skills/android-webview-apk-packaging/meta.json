@@ -1,0 +1,30 @@
+{
+  "id": "android-webview-apk-packaging",
+  "name": "Android WebView APK packaging",
+  "category": "android-packaging",
+  "description": "Wrap a static single-file web app into a dependency-free Android WebView APK (platform framework only, no AndroidX), signed with a shared debug key, built by Gradle in CI.",
+  "tags": [
+    "android",
+    "apk",
+    "webview",
+    "gradle",
+    "kotlin",
+    "sideload",
+    "offline",
+    "ci"
+  ],
+  "source_repos": [
+    "app-builder",
+    "open-materia-medica"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "app-builder": "a7277907684a0f0e17b05d4328380ccf8541d836",
+    "open-materia-medica": "76d0154a14f0846b6d1f6ab5c51fad017f1cbf1d"
+  },
+  "subskills": [
+    "reusable-build-release-workflow",
+    "offline-first-single-file-web-app"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "lan-single-server-architecture",
+  "name": "LAN single-server architecture",
+  "category": "web-app-patterns",
+  "description": "A multi-user system that runs entirely on a hospital LAN: a Python server owns the SQLite database, a vanilla-JS UI runs in a WebView2 client, and the server is discovered by UDP broadcast — no internet, no cloud.",
+  "tags": [
+    "lan",
+    "sqlite",
+    "fastapi",
+    "webview2",
+    "udp-discovery",
+    "offline",
+    "alembic",
+    "multi-client",
+    "hospital"
+  ],
+  "source_repos": [
+    "HMS"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "HMS": "3d33c71e76e18bf984369eced0d0555c4920918e"
+  },
+  "subskills": [
+    "reusable-build-release-workflow"
+  ]
+}

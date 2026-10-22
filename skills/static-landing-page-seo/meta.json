@@ -1,0 +1,34 @@
+{
+  "id": "static-landing-page-seo",
+  "name": "Static landing page, SEO and accessibility conventions",
+  "category": "landing-and-seo",
+  "description": "The house landing-page recipe: a bespoke self-contained docs/index.html with a distinct theme, a full SEO head (canonical, OG, Twitter, JSON-LD, robots), robots.txt, sitemap.xml, .nojekyll and a themed 404.",
+  "tags": [
+    "landing-page",
+    "seo",
+    "accessibility",
+    "open-graph",
+    "json-ld",
+    "github-pages",
+    "responsive",
+    "no-emoji"
+  ],
+  "source_repos": [
+    "app-builder",
+    "homoeopathic-materia-medica-repertory-json",
+    "neon-runner",
+    "conqueror-os"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "app-builder": "a7277907684a0f0e17b05d4328380ccf8541d836",
+    "homoeopathic-materia-medica-repertory-json": "8476ed1cbdcdc1a44e64463d19f1e7f961e1e73e",
+    "neon-runner": "b5b04fd8c5081a1316ac4f72eb457e340e296185",
+    "conqueror-os": "aac292e51ce554472b6dc102b722aa4ec5c5e778"
+  },
+  "subskills": [
+    "auto-updating-showcase-hub",
+    "offline-first-single-file-web-app"
+  ]
+}

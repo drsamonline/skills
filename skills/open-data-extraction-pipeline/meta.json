@@ -1,0 +1,30 @@
+{
+  "id": "open-data-extraction-pipeline",
+  "name": "Open data-extraction pipeline and JSON schema",
+  "category": "data-and-schema",
+  "description": "Turn raw OCR'd source texts into clean, app-ready JSON with a verbatim-fidelity rule: nothing invented, unknowns null, per-book QC, a self-describing schema and a reproducible pipeline.",
+  "tags": [
+    "json",
+    "schema",
+    "ocr",
+    "open-data",
+    "pipeline",
+    "verbatim",
+    "validation",
+    "repertory",
+    "materia-medica"
+  ],
+  "source_repos": [
+    "homoeopathic-materia-medica-repertory-json",
+    "MATERIA-MEDICA-BUILDER"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "homoeopathic-materia-medica-repertory-json": "8476ed1cbdcdc1a44e64463d19f1e7f961e1e73e",
+    "MATERIA-MEDICA-BUILDER": "78d782780bd758ae62917379b7cc566b1865db55"
+  },
+  "subskills": [
+    "offline-first-single-file-web-app"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "auto-updating-showcase-hub",
+  "name": "Auto-updating showcase hub",
+  "category": "landing-and-seo",
+  "description": "A single static page that lists every repository by reading the GitHub API at runtime, with an embedded JSON snapshot fallback, a curated map for hand-written copy, and a scheduled workflow that refreshes the snapshot.",
+  "tags": [
+    "github-api",
+    "snapshot-fallback",
+    "showcase",
+    "self-updating",
+    "landing-page",
+    "github-pages",
+    "csp"
+  ],
+  "source_repos": [
+    "drsamonline.github.io"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "drsamonline.github.io": "not recorded"
+  },
+  "subskills": [
+    "static-landing-page-seo"
+  ]
+}

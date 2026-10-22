@@ -1,0 +1,30 @@
+{
+  "id": "optical-file-transfer",
+  "name": "Optical file transfer (QR and colour-matrix)",
+  "category": "web-app-patterns",
+  "description": "Move a file between two devices with no network, Bluetooth or cable, by rendering it as animated QR codes or colour-matrix frames and reading them back with a camera.",
+  "tags": [
+    "qr",
+    "optical",
+    "camera",
+    "offline",
+    "compression",
+    "reed-solomon",
+    "crc",
+    "pwa",
+    "file-transfer"
+  ],
+  "source_repos": [
+    "BLINKTRANSFER",
+    "blinkcode-ai"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "BLINKTRANSFER": "21329a3a3dbc3c30f0cb8773e6b8091d20330894",
+    "blinkcode-ai": "a49c5efaf462249fa1c51103b6f3029b2d374a8f"
+  },
+  "subskills": [
+    "offline-first-single-file-web-app"
+  ]
+}

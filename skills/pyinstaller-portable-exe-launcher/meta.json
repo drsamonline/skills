@@ -1,0 +1,30 @@
+{
+  "id": "pyinstaller-portable-exe-launcher",
+  "name": "PyInstaller portable EXE launcher",
+  "category": "windows-desktop",
+  "description": "Turn a static web app into one double-clickable portable Windows .exe: a tiny Python launcher serves the bundled app/ over 127.0.0.1 and opens the browser, frozen by PyInstaller --onefile.",
+  "tags": [
+    "pyinstaller",
+    "portable",
+    "exe",
+    "windows",
+    "launcher",
+    "http-server",
+    "offline",
+    "single-file"
+  ],
+  "source_repos": [
+    "app-builder",
+    "All4ONE"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "app-builder": "a7277907684a0f0e17b05d4328380ccf8541d836",
+    "All4ONE": "feae216498ee2cf69fc2c78669f4c4a0c8d8bae4"
+  },
+  "subskills": [
+    "reusable-build-release-workflow",
+    "offline-first-single-file-web-app"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "offline-first-single-file-web-app",
+  "name": "Offline-first single-file web app",
+  "category": "web-app-patterns",
+  "description": "Build a whole app as one self-contained index.html — inline CSS/JS, no CDN, no build step — that runs from file:// or GitHub Pages, works offline, and persists data locally.",
+  "tags": [
+    "offline-first",
+    "single-file",
+    "vanilla-js",
+    "pwa",
+    "indexeddb",
+    "localstorage",
+    "no-dependencies"
+  ],
+  "source_repos": [
+    "conqueror-os",
+    "ambient-sound-studio",
+    "neon-runner",
+    "boericke-repertory",
+    "bmi-bmr-tdee-macros-fluid-calculator",
+    "retro-strike",
+    "idle-city-ages-of-growth"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {
+    "conqueror-os": "aac292e51ce554472b6dc102b722aa4ec5c5e778",
+    "ambient-sound-studio": "ced1fa36aab7540bdda70093cbc09fc0f5983ef5",
+    "neon-runner": "b5b04fd8c5081a1316ac4f72eb457e340e296185",
+    "boericke-repertory": "fabd77e5c88a38bb55975c94b7c116fc70a0b73c",
+    "bmi-bmr-tdee-macros-fluid-calculator": "407229a6d872ba9f84d5dc8d92ef869f6c9719bf",
+    "retro-strike": "e6d7bd5233a21006fcfd8ce59760b0c8e288575f",
+    "idle-city-ages-of-growth": "244c3fac36a51bc6076ea6229134e2830fc341c5"
+  },
+  "subskills": [
+    "static-landing-page-seo",
+    "android-webview-apk-packaging",
+    "pyinstaller-portable-exe-launcher"
+  ]
+}
