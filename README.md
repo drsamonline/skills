@@ -1,4 +1,5 @@
 # skills — a reusable knowledge base of drsamonline project methods
+**All projects:** <https://drsamonline.github.io/>
 
 This repository is a **machine-consumable knowledge base**. Each of the
 projects under [`drsamonline`](https://github.com/drsamonline) has its working
