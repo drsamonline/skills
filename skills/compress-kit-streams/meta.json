@@ -1,0 +1,20 @@
+{
+  "id": "compress-kit-streams",
+  "name": "Compression with the platform's Compression Streams",
+  "category": "web-app-patterns",
+  "description": "Compress and decompress data in a web app or Node without bundling a compression library, using the built-in CompressionStream / DecompressionStream (gzip, deflate, deflate-raw).",
+  "tags": [
+    "compression",
+    "gzip",
+    "deflate",
+    "compression-streams",
+    "no-dependencies"
+  ],
+  "source_repos": [
+    "lexora",
+    "compress-kit"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {}
+}
