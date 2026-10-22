@@ -22,12 +22,12 @@ There are two kinds of skill:
   projects: the offline-first single-file web app, Android WebView packaging,
   the portable EXE launcher, the shared build/release workflow, the landing-page
   + SEO conventions, the auto-updating showcase hub, the open-data pipeline, the
-  LAN single-server architecture, the theme-aware GitHub profile, and optical
-  file transfer.
+  LAN single-server architecture, the theme-aware GitHub profile, optical file
+  transfer, and safe repository cleanup.
 - **Project skills** — one per repository: what the project is, how it is built,
   how it is released, and what makes its workflow distinctive.
 
-**Catalogue:** `50` skills across 8 categories. The machine-readable index is [`catalog.json`](catalog.json); the landing page is <https://drsamonline.github.io/skills/>.
+**Catalogue:** `51` skills across 8 categories. The machine-readable index is [`catalog.json`](catalog.json); the landing page is <https://drsamonline.github.io/skills/>.
 
 ## Repository layout
 
@@ -188,6 +188,7 @@ matches the code it describes.
 |---|---|---|---|
 | [`app-builder-kit`](skills/app-builder-kit/SKILL.md) | The shared kit that turns a static web app into a single-file portable Windows EXE (PyInstaller) and an Android WebView APK (Gradle), consumed by app repos through one reusable GitHub Actions workflow. | [app-builder](https://github.com/drsamonline/app-builder) | 1.0.0 |
 | [`reusable-build-release-workflow`](skills/reusable-build-release-workflow/SKILL.md) | One GitHub Actions workflow per app repo builds the portable EXE and Android APK, publishes them to a fixed-tag release, and gives permanent /releases/latest/download/<asset> URLs. | [app-builder](https://github.com/drsamonline/app-builder), [HMS](https://github.com/drsamonline/HMS) | 1.0.0 |
+| [`safe-repo-cleanup`](skills/safe-repo-cleanup/SKILL.md) | An audit-first procedure for removing build junk, caches, temp files, stale archives and duplicated README content from a repository without deleting anything that is referenced, committed source or a landing-page asset. | [skills](https://github.com/drsamonline/skills) | 1.0.0 |
 
 ## How an AI agent should consume this repo
 

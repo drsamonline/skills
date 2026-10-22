@@ -1,6 +1,6 @@
 {
   "generated": "2026-10-22",
-  "count": 50,
+  "count": 51,
   "categories": [
     "web-app-patterns",
     "android-packaging",
@@ -1424,6 +1424,34 @@
       "subskills": [
         "profile-kit",
         "auto-updating-showcase-hub"
+      ]
+    },
+    {
+      "id": "safe-repo-cleanup",
+      "name": "Safe repository cleanup",
+      "category": "ci-and-release",
+      "description": "An audit-first procedure for removing build junk, caches, temp files, stale archives and duplicated README content from a repository without deleting anything that is referenced, committed source or a landing-page asset.",
+      "tags": [
+        "cleanup",
+        "repository-hygiene",
+        "audit-first",
+        "git",
+        "readme",
+        "deduplication",
+        "safe-delete",
+        "build-artifacts"
+      ],
+      "source_repos": [
+        "skills"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-22",
+      "source_snapshot": {
+        "skills": "d6d343635953461b68ea3b9313757185f7c6f4aa"
+      },
+      "subskills": [
+        "reusable-build-release-workflow",
+        "static-landing-page-seo"
       ]
     }
   ]
