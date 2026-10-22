@@ -1,0 +1,21 @@
+{
+  "id": "lan-kit-sse-room",
+  "name": "A LAN room with Server-Sent Events and POST",
+  "category": "web-app-patterns",
+  "description": "Give a local-network app a real-time multi-client room without a WebSocket library or any dependency, using Server-Sent Events for server-to-client and plain POST for client-to-server.",
+  "tags": [
+    "lan",
+    "sse",
+    "server-sent-events",
+    "offline",
+    "real-time",
+    "no-dependencies"
+  ],
+  "source_repos": [
+    "HMS",
+    "lan-kit"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "source_snapshot": {}
+}
