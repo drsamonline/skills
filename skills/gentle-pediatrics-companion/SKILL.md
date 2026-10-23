@@ -1,6 +1,8 @@
 ---
-name: Gentle Pediatrics — home companion
+name: gentle-pediatrics-companion
 description: A triage-first offline companion app for a parent at the cot side: nine common childhood situations, an always-visible red-flag check, and gentle remedy orientation from the book Gentle Pediatrics.
+metadata:
+  title: "Gentle Pediatrics — home companion"
 ---
 
 # Gentle Pediatrics — home companion

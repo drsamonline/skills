@@ -1,6 +1,8 @@
 ---
-name: Clinical case tracking
+name: case-kit-clinical
 description: Record a case as sections, dated symptoms with severity, and follow-ups - with a timeline, a summary and JSON round-trip.
+metadata:
+  title: "Clinical case tracking"
 ---
 
 # Clinical case tracking

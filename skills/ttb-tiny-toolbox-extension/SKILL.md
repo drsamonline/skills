@@ -1,6 +1,8 @@
 ---
-name: TTB — Tiny Toolbox browser extension
+name: ttb-tiny-toolbox-extension
 description: A Manifest V3 browser extension bundling 590 small utilities across 18 categories into one offline-first popup, with one source tree assembled per browser by a small build.
+metadata:
+  title: "TTB — Tiny Toolbox browser extension"
 ---
 
 # TTB — Tiny Toolbox browser extension

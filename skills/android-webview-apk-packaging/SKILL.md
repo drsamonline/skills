@@ -1,6 +1,8 @@
 ---
-name: Android WebView APK packaging
+name: android-webview-apk-packaging
 description: Wrap a static single-file web app into a dependency-free Android WebView APK (platform framework only, no AndroidX), signed with a shared debug key, built by Gradle in CI.
+metadata:
+  title: "Android WebView APK packaging"
 ---
 
 # Android WebView APK packaging

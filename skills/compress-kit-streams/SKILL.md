@@ -1,6 +1,8 @@
 ---
-name: Compression with the platform's Compression Streams
+name: compress-kit-streams
 description: Compress and decompress data in a web app or Node without bundling a compression library, using the built-in CompressionStream / DecompressionStream (gzip, deflate, deflate-raw).
+metadata:
+  title: "Compression with the platform's Compression Streams"
 ---
 
 # Compression with the platform's Compression Streams

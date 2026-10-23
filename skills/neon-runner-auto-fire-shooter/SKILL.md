@@ -1,6 +1,8 @@
 ---
-name: Neon Runner — auto-fire shooter
+name: neon-runner-auto-fire-shooter
 description: A retro auto-fire side-scrolling shooter in one self-contained HTML file (vanilla JS + canvas): move, jump, duck — the gun fires itself — with 60+ assertions, minified to ~176 KB.
+metadata:
+  title: "Neon Runner — auto-fire shooter"
 ---
 
 # Neon Runner — auto-fire shooter

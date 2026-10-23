@@ -1,6 +1,8 @@
 ---
-name: PyInstaller portable EXE launcher
+name: pyinstaller-portable-exe-launcher
 description: Turn a static web app into one double-clickable portable Windows .exe: a tiny Python launcher serves the bundled app/ over 127.0.0.1 and opens the browser, frozen by PyInstaller --onefile.
+metadata:
+  title: "PyInstaller portable EXE launcher"
 ---
 
 # PyInstaller portable EXE launcher

@@ -1,6 +1,8 @@
 ---
-name: LEXORA — exact-text compression architecture
+name: lexora-exact-compression
 description: A text-cleaning and exact-compression system: canonicalize documents conservatively, then compress with guaranteed byte-exact recovery (decode(encode(C)) == C), on low-resource hardware.
+metadata:
+  title: "LEXORA — exact-text compression architecture"
 ---
 
 # LEXORA — exact-text compression architecture

@@ -1,6 +1,8 @@
 ---
-name: Mnemosyne Companion
+name: mnemosyne-companion
 description: A single offline HTML study companion for Mnemosyne Materia Medica: 100 polycrest remedies as poetic pearls, keynotes and spaced-repetition drills, in three drill modes.
+metadata:
+  title: "Mnemosyne Companion"
 ---
 
 # Mnemosyne Companion

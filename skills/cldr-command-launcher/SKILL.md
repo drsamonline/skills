@@ -1,6 +1,8 @@
 ---
-name: CLDR — command launcher
+name: cldr-command-launcher
 description: A single dependency-free Rust binary that sits in the system tray, pops up on a hotkey, and routes whatever you type — maths, unit conversion, a path, an app, or a web search.
+metadata:
+  title: "CLDR — command launcher"
 ---
 
 # CLDR — command launcher

@@ -1,6 +1,8 @@
 ---
-name: Matneo — static storefront
+name: matneo-storefront
 description: A static storefront served from docs/ with no build step: a single data file (docs/data/products.json) drives the catalogue, so new products are added by editing JSON, not markup.
+metadata:
+  title: "Matneo — static storefront"
 ---
 
 # Matneo — static storefront

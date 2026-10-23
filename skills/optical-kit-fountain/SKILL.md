@@ -1,6 +1,8 @@
 ---
-name: Optical file transfer with a fountain code
+name: optical-kit-fountain
 description: Transfer files over a screen-to-camera (or speaker-to-mic) link using a systematic LT fountain code, so any ~k frames reconstruct the file and a dropped frame costs time, never correctness.
+metadata:
+  title: "Optical file transfer with a fountain code"
 ---
 
 # Optical file transfer with a fountain code

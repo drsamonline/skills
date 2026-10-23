@@ -1,6 +1,8 @@
 ---
-name: Dance Fight — rhythm fighting game
+name: dance-fight-rhythm-game
 description: A single-file browser rhythm game where every fight move is a dance move: the track's beat is analysed up front into an offline beat grid, and on-beat hits score PERFECT for 60% extra damage.
+metadata:
+  title: "Dance Fight — rhythm fighting game"
 ---
 
 # Dance Fight — rhythm fighting game

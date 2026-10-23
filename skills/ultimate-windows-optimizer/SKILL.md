@@ -1,6 +1,8 @@
 ---
-name: Ultimate Windows Optimizer
+name: ultimate-windows-optimizer
 description: A PowerShell + batch toolkit that applies documented, fully reversible Windows 10/11 debloat and performance tweaks, with real logging, real registry/service backups and a one-shot undo.
+metadata:
+  title: "Ultimate Windows Optimizer"
 ---
 
 # Ultimate Windows Optimizer

@@ -1,6 +1,8 @@
 ---
-name: Aethelgard — two games (deployment)
+name: aethelgard-games-deployment
 description: A deployment repo holding the built, playable copies of two Aethelgard browser games — The Books (a 36-chapter visual novel) and Chronicles of Fate (a deep single-player RPG) — so GitHub Pages can serve them.
+metadata:
+  title: "Aethelgard — two games (deployment)"
 ---
 
 # Aethelgard — two games (deployment)

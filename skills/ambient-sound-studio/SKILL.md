@@ -1,6 +1,8 @@
 ---
-name: Ambient Sound Studio
+name: ambient-sound-studio
 description: A private, offline ambient sound mixer in a single HTML file: 25 synthesised layers, 36 presets, EN/HI/GU, WAV and Opus export, installable PWA.
+metadata:
+  title: "Ambient Sound Studio"
 ---
 
 # Ambient Sound Studio

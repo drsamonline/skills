@@ -1,6 +1,8 @@
 ---
-name: Neon Engine — code-only open-world engine
+name: neon-engine-open-world
 description: A code-only WebGL engine for open-world browser shooters: no asset files, every texture/mesh/sound generated at runtime, ES modules with a vendored three.js, so a full game ships under 1 MB.
+metadata:
+  title: "Neon Engine — code-only open-world engine"
 ---
 
 # Neon Engine — code-only open-world engine

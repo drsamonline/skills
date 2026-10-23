@@ -1,6 +1,8 @@
 ---
-name: profile-kit — reusable GitHub-profile kit
+name: profile-kit
 description: A small, reusable kit for a theme-aware, self-updating GitHub profile — a hero banner, a metrics card and a README generator — extracted from the drsamonline profile so another account can adopt the whole thing instead of rebuilding it.
+metadata:
+  title: "profile-kit — reusable GitHub-profile kit"
 ---
 
 # profile-kit — reusable GitHub-profile kit

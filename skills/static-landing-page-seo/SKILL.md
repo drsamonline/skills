@@ -1,6 +1,8 @@
 ---
-name: Static landing page, SEO and accessibility conventions
+name: static-landing-page-seo
 description: The house landing-page recipe: a bespoke self-contained docs/index.html with a distinct theme, a full SEO head (canonical, OG, Twitter, JSON-LD, robots), robots.txt, sitemap.xml, .nojekyll and a themed 404.
+metadata:
+  title: "Static landing page, SEO and accessibility conventions"
 ---
 
 # Static landing page, SEO and accessibility conventions

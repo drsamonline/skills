@@ -1,6 +1,8 @@
 ---
-name: Spaced repetition with SM-2
+name: srs-kit-sm2
 description: Schedule flashcards with the SM-2 algorithm: ease, interval, reps, lapses, due cards and stats.
+metadata:
+  title: "Spaced repetition with SM-2"
 ---
 
 # Spaced repetition with SM-2

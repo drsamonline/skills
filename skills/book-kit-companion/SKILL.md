@@ -1,6 +1,8 @@
 ---
-name: A companion app from a book
+name: book-kit-companion
 description: Model a book as chapters, key points, practices and flashcards, with search and persisted reading progress - the shape six companion apps repeat.
+metadata:
+  title: "A companion app from a book"
 ---
 
 # A companion app from a book

@@ -1,6 +1,8 @@
 ---
-name: The_Browser — Aetheris experimental browser
+name: the-browser-aetheris
 description: An experimental C++20 browser engine derived from Ladybird/SerenityOS, built with CMake + vcpkg and tested with CTest; explicitly not production-ready and honest about provenance.
+metadata:
+  title: "The_Browser — Aetheris experimental browser"
 ---
 
 # The_Browser — Aetheris experimental browser

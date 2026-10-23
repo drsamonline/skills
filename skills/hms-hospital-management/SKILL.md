@@ -1,6 +1,8 @@
 ---
-name: HMS — Homeopathic Hospital Management System
+name: hms-hospital-management
 description: HHMS: a LAN-based hospital management system for homeopathic hospitals — a Python server owns the SQLite database, a WebView2 client talks HTTP/JSON, and the server is found by UDP discovery; no internet, no cloud.
+metadata:
+  title: "HMS — Homeopathic Hospital Management System"
 ---
 
 # HMS — Homeopathic Hospital Management System

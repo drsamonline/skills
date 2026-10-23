@@ -1,6 +1,8 @@
 ---
-name: Astronomical primitives for a panchang
+name: astro-kit-panchang
 description: Compute the sun and moon longitude, ayanamsa, sunrise/sunset and the panchang limbs (tithi, nakshatra, yoga, karana) from Meeus's series, and verify them against published ephemeris values.
+metadata:
+  title: "Astronomical primitives for a panchang"
 ---
 
 # Astronomical primitives for a panchang

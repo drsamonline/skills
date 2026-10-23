@@ -1,6 +1,8 @@
 ---
-name: A LAN room with Server-Sent Events and POST
+name: lan-kit-sse-room
 description: Give a local-network app a real-time multi-client room without a WebSocket library or any dependency, using Server-Sent Events for server-to-client and plain POST for client-to-server.
+metadata:
+  title: "A LAN room with Server-Sent Events and POST"
 ---
 
 # A LAN room with Server-Sent Events and POST

@@ -1,6 +1,8 @@
 ---
-name: Open Materia Medica
+name: open-materia-medica
 description: A plain-language homeopathic materia medica — 344 remedy portraits, each beside the substance's real pharmacology and toxicology — as a static web edition plus a hand-written Android companion app.
+metadata:
+  title: "Open Materia Medica"
 ---
 
 # Open Materia Medica

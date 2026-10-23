@@ -1,6 +1,8 @@
 ---
-name: Retro Strike — software 3D shooter
+name: retro-strike-software-3d
 description: A complete retro third-person shooter in one HTML file with a custom software 3D renderer, a live chiptune synth and procedural arenas — no engine, no build step, no dependencies.
+metadata:
+  title: "Retro Strike — software 3D shooter"
 ---
 
 # Retro Strike — software 3D shooter

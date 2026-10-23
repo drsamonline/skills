@@ -1,6 +1,8 @@
 ---
-name: Safe repository cleanup
+name: safe-repo-cleanup
 description: An audit-first procedure for removing build junk, caches, temp files, stale archives and duplicated README content from a repository without deleting anything that is referenced, committed source or a landing-page asset.
+metadata:
+  title: "Safe repository cleanup"
 ---
 
 # Safe repository cleanup

@@ -1,6 +1,8 @@
 ---
-name: All4ONE — portable Windows utility suite
+name: all4one-utility-suite
 description: 551 Windows tools across 45 plugin packs compiled into one self-contained portable utility_suite.exe (Python, tkinter GUI + CLI) — an embedded bundle with per-pack enable/disable, guided dependency gating and an audit that verifies every tool.
+metadata:
+  title: "All4ONE — portable Windows utility suite"
 ---
 
 # All4ONE — portable Windows utility suite

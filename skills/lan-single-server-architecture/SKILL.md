@@ -1,6 +1,8 @@
 ---
-name: LAN single-server architecture
+name: lan-single-server-architecture
 description: A multi-user system that runs entirely on a hospital LAN: a Python server owns the SQLite database, a vanilla-JS UI runs in a WebView2 client, and the server is discovered by UDP broadcast — no internet, no cloud.
+metadata:
+  title: "LAN single-server architecture"
 ---
 
 # LAN single-server architecture

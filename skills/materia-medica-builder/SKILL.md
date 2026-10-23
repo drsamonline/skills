@@ -1,6 +1,8 @@
 ---
-name: Materia Medica Builder
+name: materia-medica-builder
 description: An offline, no-dependency PWA that lets a practitioner build a personal materia medica and repertory — remedies, symptoms, rubrics, a custom marking scale — and export it in eight formats.
+metadata:
+  title: "Materia Medica Builder"
 ---
 
 # Materia Medica Builder

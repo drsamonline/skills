@@ -1,6 +1,8 @@
 ---
-name: Optical file transfer (QR and colour-matrix)
+name: optical-file-transfer
 description: Move a file between two devices with no network, Bluetooth or cable, by rendering it as animated QR codes or colour-matrix frames and reading them back with a camera.
+metadata:
+  title: "Optical file transfer (QR and colour-matrix)"
 ---
 
 # Optical file transfer (QR and colour-matrix)

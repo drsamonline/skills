@@ -1,6 +1,8 @@
 ---
-name: Ranked search over a large corpus
+name: search-kit-ranked-search
 description: Build an inverted index once and query it with exact, prefix and fuzzy matching, ranked by field weight.
+metadata:
+  title: "Ranked search over a large corpus"
 ---
 
 # Ranked search over a large corpus

@@ -1,6 +1,8 @@
 ---
-name: BlinkTransfer — animated QR file transfer
+name: blinktransfer-animated-qr
 description: Offline file transfer over animated QR codes at ~20 FPS: a Vite-built PWA compresses files, renders a header plus a data stream of 1600-byte frames, and reassembles them on a receiver camera.
+metadata:
+  title: "BlinkTransfer — animated QR file transfer"
 ---
 
 # BlinkTransfer — animated QR file transfer

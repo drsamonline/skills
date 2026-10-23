@@ -1,6 +1,8 @@
 ---
-name: BlinkCode AI — SpectraCode optical transfer
+name: blinkcode-ai-spectracode
 description: Optical file transfer as a vanilla-JS PWA: a file becomes a 'File DNA' container painted as SpectraCode colour matrices, decoded by camera with marker detection, homography and Reed-Solomon error correction.
+metadata:
+  title: "BlinkCode AI — SpectraCode optical transfer"
 ---
 
 # BlinkCode AI — SpectraCode optical transfer

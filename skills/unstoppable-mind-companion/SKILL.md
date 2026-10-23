@@ -1,6 +1,8 @@
 ---
-name: The Unstoppable Mind — companion
+name: unstoppable-mind-companion
 description: An offline companion app to The Unstoppable Mind: the book's key points and exercises, a 7-day challenge and flashcards — in a single ~30 KB file with no JavaScript at all.
+metadata:
+  title: "The Unstoppable Mind — companion"
 ---
 
 # The Unstoppable Mind — companion

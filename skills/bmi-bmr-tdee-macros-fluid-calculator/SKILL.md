@@ -1,6 +1,8 @@
 ---
-name: Clinical Health Calculator
+name: bmi-bmr-tdee-macros-fluid-calculator
 description: A single-file, offline clinical calculator for adult outpatients: BMI, BMR (Mifflin-St Jeor), TDEE, macros, fluid requirement and body composition, with Indian/WHO cut-offs and EN/HI/GU UI.
+metadata:
+  title: "Clinical Health Calculator"
 ---
 
 # Clinical Health Calculator

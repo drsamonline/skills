@@ -1,6 +1,8 @@
 ---
-name: The Whispering Body — first-aid box
+name: whispering-body-first-aid
 description: A free, offline home first-aid companion (EN/HI/GU) with 30 commonly used homeopathic first-aid remedies, a plain-language symptom finder, dosing and handling guidance, and emergency signs.
+metadata:
+  title: "The Whispering Body — first-aid box"
 ---
 
 # The Whispering Body — first-aid box

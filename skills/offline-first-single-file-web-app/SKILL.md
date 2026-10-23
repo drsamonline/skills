@@ -1,6 +1,8 @@
 ---
-name: Offline-first single-file web app
+name: offline-first-single-file-web-app
 description: Build a whole app as one self-contained index.html — inline CSS/JS, no CDN, no build step — that runs from file:// or GitHub Pages, works offline, and persists data locally.
+metadata:
+  title: "Offline-first single-file web app"
 ---
 
 # Offline-first single-file web app

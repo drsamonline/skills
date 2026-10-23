@@ -1,6 +1,8 @@
 ---
-name: The Symphony Companion
+name: the-symphony-companion
 description: A pocket PWA companion to The Symphony of the Present: the book's ideas as cards, its practices as a checklist, a breathing timer, a gratitude journal and attributed quotations — pure CSS tabs, offline.
+metadata:
+  title: "The Symphony Companion"
 ---
 
 # The Symphony Companion

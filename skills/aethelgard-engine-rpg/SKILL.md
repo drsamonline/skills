@@ -1,6 +1,8 @@
 ---
-name: Aethelgard Engine — vanilla-JS RPG engine
+name: aethelgard-engine-rpg
 description: The vanilla-JavaScript engine behind Aethelgard: Chronicles of Fate — small modules loaded in script order behind one global (window.Game), no build step, no dependencies, fully offline, moddable.
+metadata:
+  title: "Aethelgard Engine — vanilla-JS RPG engine"
 ---
 
 # Aethelgard Engine — vanilla-JS RPG engine

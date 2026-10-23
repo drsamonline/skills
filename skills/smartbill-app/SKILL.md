@@ -1,6 +1,8 @@
 ---
-name: SmartBill India — serverless billing
+name: smartbill-app
 description: A fast, serverless single-page billing and invoicing app for Indian businesses: GST-ready (HSN/SAC, CGST/SGST, state codes, reverse charge), 100% local IndexedDB storage and A4 print layout.
+metadata:
+  title: "SmartBill India — serverless billing"
 ---
 
 # SmartBill India — serverless billing

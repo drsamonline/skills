@@ -1,6 +1,8 @@
 ---
-name: AethelgardVN — Saga visual-novel engine
+name: aethelgardvn-saga-engine
 description: Saga: a small, dependency-free visual-novel engine for the browser — plain JavaScript, one stylesheet, no build step, works offline — built to make Aethelgard: The Books.
+metadata:
+  title: "AethelgardVN — Saga visual-novel engine"
 ---
 
 # AethelgardVN — Saga visual-novel engine

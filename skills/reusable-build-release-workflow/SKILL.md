@@ -1,6 +1,8 @@
 ---
-name: Shared build/release workflow with stable download URLs
+name: reusable-build-release-workflow
 description: One GitHub Actions workflow per app repo builds the portable EXE and Android APK, publishes them to a fixed-tag release, and gives permanent /releases/latest/download/<asset> URLs.
+metadata:
+  title: "Shared build/release workflow with stable download URLs"
 ---
 
 # Shared build/release workflow with stable download URLs

@@ -1,6 +1,8 @@
 ---
-name: Homoeopathic Materia Medica & Repertory JSON
+name: homoeopathic-materia-medica-repertory-json
 description: 13 public-domain homoeopathic classics (1840–1906, ~108k rubrics) extracted into clean, app-ready, verbatim JSON with a self-describing schema, per-book QC and a reproducible pipeline (CC0).
+metadata:
+  title: "Homoeopathic Materia Medica & Repertory JSON"
 ---
 
 # Homoeopathic Materia Medica & Repertory JSON

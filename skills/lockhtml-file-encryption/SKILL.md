@@ -1,6 +1,8 @@
 ---
-name: LockHTML — PIN-protected documents
+name: lockhtml-file-encryption
 description: Encrypt any file into a single self-contained .html that asks for a PIN (AES-256-GCM + Argon2id), with one-time view, expiry, recipient keys, hidden volumes, Shamir shares and age interop — via a Python CLI and a browser GUI.
+metadata:
+  title: "LockHTML — PIN-protected documents"
 ---
 
 # LockHTML — PIN-protected documents

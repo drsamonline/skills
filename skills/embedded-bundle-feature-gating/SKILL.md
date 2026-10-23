@@ -1,6 +1,8 @@
 ---
-name: Embedded bundle with feature gating
+name: embedded-bundle-feature-gating
 description: Ship many features in one self-contained binary, compile them into a single embedded archive, and let users turn each feature on or off — while telling them honestly when one needs something the machine does not have.
+metadata:
+  title: "Embedded bundle with feature gating"
 ---
 
 # Embedded bundle with feature gating

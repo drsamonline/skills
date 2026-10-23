@@ -1,6 +1,8 @@
 ---
-name: Auto-updating showcase hub
+name: auto-updating-showcase-hub
 description: A single static page that lists every repository by reading the GitHub API at runtime, with an embedded JSON snapshot fallback, a curated map for hand-written copy, and a scheduled workflow that refreshes the snapshot.
+metadata:
+  title: "Auto-updating showcase hub"
 ---
 
 # Auto-updating showcase hub

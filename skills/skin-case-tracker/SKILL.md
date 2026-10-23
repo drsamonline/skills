@@ -1,6 +1,8 @@
 ---
-name: Skin Case Tracker
+name: skin-case-tracker
 description: A private, offline PWA that tracks a skin case over time on the HHMS model — History, Habits, Mapping, Symptoms logged daily and read as a 90-day pattern engine; it records, it does not diagnose.
+metadata:
+  title: "Skin Case Tracker"
 ---
 
 # Skin Case Tracker

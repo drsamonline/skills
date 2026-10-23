@@ -1,6 +1,8 @@
 ---
-name: Idle City — Ages of Growth
+name: idle-city-ages-of-growth
 description: A single-file idle city-builder that grows from a Stone Age village to a Fusion Age world-city: roads, zoning, power and happiness, running itself while you plan and expand.
+metadata:
+  title: "Idle City — Ages of Growth"
 ---
 
 # Idle City — Ages of Growth

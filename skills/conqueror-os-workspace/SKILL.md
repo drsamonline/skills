@@ -1,6 +1,8 @@
 ---
-name: Conqueror OS — resilience workspace
+name: conqueror-os-workspace
 description: A private, offline resilience workspace in a single HTML file — read, reflect, journal, track and review — with no server, no account and no dependencies.
+metadata:
+  title: "Conqueror OS — resilience workspace"
 ---
 
 # Conqueror OS — resilience workspace

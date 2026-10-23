@@ -1,6 +1,8 @@
 ---
-name: Boericke's Repertory (offline app)
+name: boericke-repertory
 description: A free, offline digital edition of Boericke's Repertory in one HTML file: instant search across 6,110 rubrics, a repertorisation chart over 1,461 remedies, a remedy browser, cases and print/export.
+metadata:
+  title: "Boericke's Repertory (offline app)"
 ---
 
 # Boericke's Repertory (offline app)

@@ -1,6 +1,8 @@
 ---
-name: Read. Live. Transform. — companion
+name: read-live-transform-app
 description: An offline PWA companion to the book Read. Live. Transform. — a practical reading of the Qur'an in 74 chapters: read the verse, live the practice, keep the change.
+metadata:
+  title: "Read. Live. Transform. — companion"
 ---
 
 # Read. Live. Transform. — companion

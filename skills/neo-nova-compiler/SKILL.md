@@ -1,6 +1,8 @@
 ---
-name: NEO — NOVA language and compiler
+name: neo-nova-compiler
 description: A statically-typed compiled systems language: a Rust compiler lowers NOVA through lexer, parser, semantic analyser, SIR and a lowerer to four backends (C, JavaScript, Rust, WebAssembly), with runtime, package manager, LSP and debugger.
+metadata:
+  title: "NEO — NOVA language and compiler"
 ---
 
 # NEO — NOVA language and compiler

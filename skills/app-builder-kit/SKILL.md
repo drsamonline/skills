@@ -1,6 +1,8 @@
 ---
-name: app-builder — shared build kit
+name: app-builder-kit
 description: The shared kit that turns a static web app into a single-file portable Windows EXE (PyInstaller) and an Android WebView APK (Gradle), consumed by app repos through one reusable GitHub Actions workflow.
+metadata:
+  title: "app-builder — shared build kit"
 ---
 
 # app-builder — shared build kit

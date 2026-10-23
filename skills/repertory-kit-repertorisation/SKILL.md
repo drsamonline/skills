@@ -1,6 +1,8 @@
 ---
-name: Homeopathic repertorisation (rubric grading)
+name: repertory-kit-repertorisation
 description: Score remedies by weighted rubric grades - the repertorisation a homeopath actually does - with must-have and exclude filters.
+metadata:
+  title: "Homeopathic repertorisation (rubric grading)"
 ---
 
 # Homeopathic repertorisation (rubric grading)

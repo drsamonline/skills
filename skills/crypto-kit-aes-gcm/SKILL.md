@@ -1,6 +1,8 @@
 ---
-name: Browser crypto with AES-256-GCM
+name: crypto-kit-aes-gcm
 description: Encrypt app data in the browser with the Web Crypto API — AES-256-GCM for authenticated encryption and PBKDF2 for passphrase keys — behind a small shared wrapper instead of hand-rolled crypto.
+metadata:
+  title: "Browser crypto with AES-256-GCM"
 ---
 
 # Browser crypto with AES-256-GCM

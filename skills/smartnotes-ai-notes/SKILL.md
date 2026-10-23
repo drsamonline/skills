@@ -1,6 +1,8 @@
 ---
-name: SmartNotes — AI note scheduler
+name: smartnotes-ai-notes
 description: An AI-powered note capture, categorisation and reminder-scheduling app with a brutalist UI: write in plain English and an LLM classifies, prioritises, titles and extracts dates.
+metadata:
+  title: "SmartNotes — AI note scheduler"
 ---
 
 # SmartNotes — AI note scheduler

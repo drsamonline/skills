@@ -1,6 +1,8 @@
 ---
-name: Remedy Relationship Explorer
+name: remedy-relationship-explorer
 description: An offline single-file explorer for homeopathic remedy relationships — 686 remedies, 7,786 links from four public-domain materia medicas — visualised as an interactive graph with keynotes, quizzes and a Tauri desktop build.
+metadata:
+  title: "Remedy Relationship Explorer"
 ---
 
 # Remedy Relationship Explorer

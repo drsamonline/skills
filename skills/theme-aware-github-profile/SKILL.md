@@ -1,6 +1,8 @@
 ---
-name: Theme-aware GitHub profile
+name: theme-aware-github-profile
 description: A professional, self-updating GitHub profile README — a bespoke light/dark hero served through <picture>, a lowlighter/metrics card rendered twice with extras_css palettes, and a daily workflow that regenerates a badge row and a categorised project list from the GitHub API between HTML comment markers.
+metadata:
+  title: "Theme-aware GitHub profile"
 ---
 
 # Theme-aware GitHub profile

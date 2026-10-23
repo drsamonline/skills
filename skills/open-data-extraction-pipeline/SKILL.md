@@ -1,6 +1,8 @@
 ---
-name: Open data-extraction pipeline and JSON schema
+name: open-data-extraction-pipeline
 description: Turn raw OCR'd source texts into clean, app-ready JSON with a verbatim-fidelity rule: nothing invented, unknowns null, per-book QC, a self-describing schema and a reproducible pipeline.
+metadata:
+  title: "Open data-extraction pipeline and JSON schema"
 ---
 
 # Open data-extraction pipeline and JSON schema

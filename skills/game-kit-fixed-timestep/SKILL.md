@@ -1,6 +1,8 @@
 ---
-name: A fixed-timestep game loop
+name: game-kit-fixed-timestep
 description: Advance browser-game logic in equal fixed steps with an accumulator, clamping a huge frame so a backgrounded tab never spirals into thousands of updates; plus input, scenes, save/load and maths.
+metadata:
+  title: "A fixed-timestep game loop"
 ---
 
 # A fixed-timestep game loop
