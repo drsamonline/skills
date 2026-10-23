@@ -1,0 +1,24 @@
+name: validate skills
+
+# Gates every skill against the Agent Skills specification (FORMAT.md).
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - "skills/**"
+      - "scripts/validate.py"
+      - ".github/workflows/validate.yml"
+  schedule:
+    - cron: "20 4 * * 1"   # Mondays, 04:20 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/validate.py
