@@ -1,0 +1,23 @@
+{
+  "id": "ml-kit",
+  "name": "ml-kit — classic algorithms from scratch",
+  "category": "data-and-schema",
+  "description": "The classic ML algorithms from scratch for offline features — tf-idf ranking, Naive Bayes, k-NN, k-means, PCA, ID3, linear regression, Markov chains and grammar generation. Zero dependencies, single file.",
+  "tags": [
+    "machine-learning",
+    "algorithms",
+    "tf-idf",
+    "naive-bayes",
+    "k-means",
+    "markov",
+    "grammar",
+    "zero-dependency"
+  ],
+  "source_repos": [
+    "ml-kit",
+    "search-kit"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-24",
+  "source_snapshot": {}
+}
