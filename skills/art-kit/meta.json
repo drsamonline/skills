@@ -1,0 +1,21 @@
+{
+  "id": "art-kit",
+  "name": "art-kit — art primitives from scratch",
+  "category": "game-engine",
+  "description": "The art primitives for offline apps — an indexed palette, a pixel canvas with nearest-neighbour scaling, draw ops, a delta undo stack, dithering (Bayer + Floyd-Steinberg), median-cut quantisation, sprite sheets, the isometric mapping and a sketch loop. Zero dependencies, single file, no assets.",
+  "tags": [
+    "pixel-art",
+    "palette",
+    "dithering",
+    "sprite-sheet",
+    "isometric",
+    "zero-dependency"
+  ],
+  "source_repos": [
+    "art-kit",
+    "game-kit"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-24",
+  "source_snapshot": {}
+}
