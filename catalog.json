@@ -1,6 +1,6 @@
 {
   "generated": "2026-10-22",
-  "count": 58,
+  "count": 59,
   "categories": [
     "web-app-patterns",
     "android-packaging",
@@ -1621,6 +1621,27 @@
       "source_repos": [
         "audio-kit",
         "game-kit"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-10-24",
+      "source_snapshot": {}
+    },
+    {
+      "id": "ui-kit",
+      "name": "ui-kit — reactive UI with no build step",
+      "category": "web-app-patterns",
+      "description": "A reactive UI layer small enough for a single file — signals, computed, reactive effects, hyperscript, a keyed list, events, a hash router and two-way form binding. Zero runtime dependencies, no build step.",
+      "tags": [
+        "reactive",
+        "signals",
+        "hyperscript",
+        "ui",
+        "zero-dependency",
+        "no-build"
+      ],
+      "source_repos": [
+        "ui-kit",
+        "web-kit"
       ],
       "version": "1.0.0",
       "updated": "2026-10-24",
