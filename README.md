@@ -16,6 +16,30 @@ projects under [`drsamonline`](https://github.com/drsamonline) has its working
 *method* extracted into a reusable **skill**, so the same approach can be
 reused, extended or branched from instead of being rediscovered.
 
+## Conforms to the Agent Skills standard
+
+This repository conforms to the **Agent Skills** standard — see
+[agentskills.io/specification](https://agentskills.io/specification). That is a
+claim we can make and did not, which is free credibility we had already earned.
+
+Run `python3 validate.py` to check it. The validator enforces the standard's rules
+for `name` and `description`, and the folder layout:
+
+- **name** — 1-64 characters; lowercase letters, digits and single hyphens only; no
+  leading, trailing or doubled hyphen; and equal to the folder name.
+- **description** — 1-1024 characters, present.
+- **layout** — a directory holding `SKILL.md` with YAML frontmatter.
+
+**What the claim does and does not mean.** We conform on the fields the standard
+defines for `name` and `description`, and on the layout. We do **not** claim support
+for every optional field: where one is unused it is *absent*, not present-and-empty,
+which is what the standard allows. Anything more specific than that would be
+inventing a compatibility we have not tested.
+
+Non-directory entries are **skipped** rather than failed — this repository holds a
+`.gitkeep`, and a validator that calls a placeholder file a broken skill is a
+validator people stop running.
+
 There are two kinds of skill:
 
 - **Technique skills** — the cross-cutting methods that recur across many
