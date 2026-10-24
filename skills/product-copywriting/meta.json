@@ -1,0 +1,19 @@
+{
+  "id": "product-copywriting",
+  "name": "Product copywriting",
+  "category": "marketing",
+  "description": "Write honest product copy for a landing page, a README or a store listing — a headline, a value line, a CTA — that reads like a person wrote it and a competitor could not.",
+  "tags": [
+    "copywriting",
+    "landing-page",
+    "readme",
+    "store-listing",
+    "anti-hype",
+    "voice"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-24",
+  "source_snapshot": {},
+  "subskills": []
+}
