@@ -1,0 +1,21 @@
+{
+  "id": "audio-kit",
+  "name": "audio-kit — sound from code, not files",
+  "category": "game-engine",
+  "description": "Synthesis, theory, patterns and notation for offline apps — a pure ADSR envelope, oscillator voices, filters, noise and a mixer; notes, scales and chords; a pattern sequencer; a staff layout; byte sonification; and honest mastering helpers. Zero dependencies, single file, no audio assets.",
+  "tags": [
+    "audio",
+    "webaudio",
+    "synthesis",
+    "music-theory",
+    "sequencer",
+    "zero-dependency"
+  ],
+  "source_repos": [
+    "audio-kit",
+    "game-kit"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-24",
+  "source_snapshot": {}
+}
