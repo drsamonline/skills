@@ -1,0 +1,18 @@
+{
+  "id": "free-tool-marketing",
+  "name": "Free tools as marketing (engineering as marketing)",
+  "category": "marketing",
+  "description": "Plan and judge a free, genuinely useful tool as the way people find the paid work — engineering as marketing.",
+  "tags": [
+    "engineering-as-marketing",
+    "free-tools",
+    "growth",
+    "distribution",
+    "no-trackers"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-24",
+  "source_snapshot": {},
+  "subskills": []
+}

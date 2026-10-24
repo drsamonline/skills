@@ -1,6 +1,6 @@
 {
   "generated": "2026-10-22",
-  "count": 52,
+  "count": 55,
   "categories": [
     "web-app-patterns",
     "android-packaging",
@@ -9,7 +9,8 @@
     "data-and-schema",
     "health-tools",
     "landing-and-seo",
-    "ci-and-release"
+    "ci-and-release",
+    "marketing"
   ],
   "skills": [
     {
@@ -1503,6 +1504,62 @@
         "all4one-utility-suite",
         "pyinstaller-portable-exe-launcher"
       ]
+    },
+    {
+      "id": "product-copywriting",
+      "name": "Product copywriting",
+      "category": "marketing",
+      "description": "Write honest product copy for a landing page, a README or a store listing — a headline, a value line, a CTA — that reads like a person wrote it and a competitor could not.",
+      "tags": [
+        "copywriting",
+        "landing-page",
+        "readme",
+        "store-listing",
+        "anti-hype",
+        "voice"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-10-24",
+      "source_snapshot": {},
+      "subskills": []
+    },
+    {
+      "id": "directory-submissions",
+      "name": "Directory submissions",
+      "category": "marketing",
+      "description": "Submit a project to a directory or an \"awesome\" list — a link, not a storefront — so people and AI engines can find it.",
+      "tags": [
+        "distribution",
+        "directories",
+        "backlinks",
+        "topics",
+        "positioning",
+        "launch"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-10-24",
+      "source_snapshot": {},
+      "subskills": []
+    },
+    {
+      "id": "free-tool-marketing",
+      "name": "Free tools as marketing (engineering as marketing)",
+      "category": "marketing",
+      "description": "Plan and judge a free, genuinely useful tool as the way people find the paid work — engineering as marketing.",
+      "tags": [
+        "engineering-as-marketing",
+        "free-tools",
+        "growth",
+        "distribution",
+        "no-trackers"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-10-24",
+      "source_snapshot": {},
+      "subskills": []
     }
   ]
 }

@@ -51,7 +51,7 @@ There are two kinds of skill:
 - **Project skills** — one per repository: what the project is, how it is built,
   how it is released, and what makes its workflow distinctive.
 
-**Catalogue:** `52` skills across 8 categories. The machine-readable index is [`catalog.json`](catalog.json); the landing page is <https://drsamonline.github.io/skills/>.
+**Catalogue:** `55` skills across 9 categories. The machine-readable index is [`catalog.json`](catalog.json); the landing page is <https://drsamonline.github.io/skills/>.
 
 ## Repository layout
 
@@ -66,7 +66,7 @@ docs/                         # the landing page (its own sub-website)
 
 Skill ids are lowercase-hyphenated and stable. Categories are a fixed set:
 
-`web-app-patterns`, `android-packaging`, `windows-desktop`, `game-engine`, `data-and-schema`, `health-tools`, `landing-and-seo`, `ci-and-release`.
+`web-app-patterns`, `android-packaging`, `windows-desktop`, `game-engine`, `data-and-schema`, `health-tools`, `landing-and-seo`, `ci-and-release`, `marketing`.
 
 ## The skill format
 
@@ -215,6 +215,16 @@ matches the code it describes.
 | [`reusable-build-release-workflow`](skills/reusable-build-release-workflow/SKILL.md) | One GitHub Actions workflow per app repo builds the portable EXE and Android APK, publishes them to a fixed-tag release, and gives permanent /releases/latest/download/<asset> URLs. | [app-builder](https://github.com/drsamonline/app-builder), [HMS](https://github.com/drsamonline/HMS) | 1.0.0 |
 | [`safe-repo-cleanup`](skills/safe-repo-cleanup/SKILL.md) | An audit-first procedure for removing build junk, caches, temp files, stale archives and duplicated README content from a repository without deleting anything that is referenced, committed source or a landing-page asset. | [skills](https://github.com/drsamonline/skills) | 1.0.0 |
 
+### Marketing (`marketing`)
+
+How a project is written about and how people find it — the discipline the system was missing. Adapted from the MIT-licensed [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) pack and rewritten to this system's rules (offline-first, no ads, no trackers).
+
+| Skill | Description | Source repos | Ver |
+|---|---|---|---|
+| [`directory-submissions`](skills/directory-submissions/SKILL.md) | Submit a project to a directory or an "awesome" list — a link, not a storefront — after checking its criteria, setting the repo's topics and writing a description per audience. | [drsamonline.github.io](https://github.com/drsamonline/drsamonline.github.io), [forge](https://github.com/drsamonline/forge) | 1.0.0 |
+| [`free-tool-marketing`](skills/free-tool-marketing/SKILL.md) | Engineering as marketing: plan and judge a free, genuinely useful tool as the way people find the paid work — honestly, with no ads and no trackers. | [All4ONE](https://github.com/drsamonline/All4ONE), [TTB](https://github.com/drsamonline/TTB), [bmi-bmr-tdee-macros-fluid-calculator](https://github.com/drsamonline/bmi-bmr-tdee-macros-fluid-calculator) | 1.0.0 |
+| [`product-copywriting`](skills/product-copywriting/SKILL.md) | Honest product copy for a landing page, README or store listing: diagnose first, lead with the reader's problem, gate every line, and cut the AI tells. | [open-materia-medica](https://github.com/drsamonline/open-materia-medica), [neon-runner](https://github.com/drsamonline/neon-runner), [Matneo](https://github.com/drsamonline/Matneo) | 1.0.0 |
+
 ## How an AI agent should consume this repo
 
 1. Read **`catalog.json`** first — it is the single source of truth. It carries
@@ -250,3 +260,9 @@ It does **not** rewrite the skill prose. That split is deliberate:
 
 This repository's text (the skills) is © 2026 Dr. Sohil Momin. The projects it
 describes retain their own licences — see each `SKILL.md`'s source links.
+
+The three `marketing` skills (`product-copywriting`, `directory-submissions`,
+`free-tool-marketing`) are adapted from
+[coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)
+(MIT, © its authors); the shape and the ideas are theirs, the text and the
+situation are ours. Their MIT licence is retained.

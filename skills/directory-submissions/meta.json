@@ -1,0 +1,19 @@
+{
+  "id": "directory-submissions",
+  "name": "Directory submissions",
+  "category": "marketing",
+  "description": "Submit a project to a directory or an \"awesome\" list — a link, not a storefront — so people and AI engines can find it.",
+  "tags": [
+    "distribution",
+    "directories",
+    "backlinks",
+    "topics",
+    "positioning",
+    "launch"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-24",
+  "source_snapshot": {},
+  "subskills": []
+}
