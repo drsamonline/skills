@@ -6,7 +6,7 @@
 [![All projects](https://img.shields.io/badge/All%20projects-hub-2e7d32?style=flat-square)](https://drsamonline.github.io/)
 [![Type: knowledge base](https://img.shields.io/badge/type-knowledge%20base-586069?style=flat-square)](https://drsamonline.github.io/skills/)
 [![Format: Markdown + JSON](https://img.shields.io/badge/format-Markdown%20%2B%20JSON-586069?style=flat-square)](https://github.com/drsamonline/skills)
-[![License: MIT](https://img.shields.io/badge/license-MIT-2e7d32?style=flat-square)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/license-PolyForm Noncommercial-2e7d32?style=flat-square)](LICENSE)
 
 **Landing page:** <https://drsamonline.github.io/skills/> &nbsp;·&nbsp; **All projects:** <https://drsamonline.github.io/>
 
@@ -217,7 +217,7 @@ matches the code it describes.
 
 ### Marketing (`marketing`)
 
-How a project is written about and how people find it — the discipline the system was missing. Adapted from the MIT-licensed [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) pack and rewritten to this system's rules (offline-first, no ads, no trackers).
+How a project is written about and how people find it — the discipline the system was missing. Adapted from the PolyForm Noncommercial-licensed [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) pack and rewritten to this system's rules (offline-first, no ads, no trackers).
 
 | Skill | Description | Source repos | Ver |
 |---|---|---|---|
@@ -265,4 +265,4 @@ The three `marketing` skills (`product-copywriting`, `directory-submissions`,
 `free-tool-marketing`) are adapted from
 [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)
 (MIT, © its authors); the shape and the ideas are theirs, the text and the
-situation are ours. Their MIT licence is retained.
+situation are ours. Their PolyForm Noncommercial licence is retained.
