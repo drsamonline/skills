@@ -22,7 +22,7 @@ CLDR (Command Line Dispatch & Route) is a single-binary command launcher for Win
 3. Avoid heavy dependencies on purpose — no Electron, no Qt/GTK, no async runtime, no clipboard access — to keep idle CPU near 0% and the binary small.
 4. Build and release with `.github/workflows/build-release.yml` for Windows and Linux.
 5. Document usage in `docs/USER_GUIDE.md`, `docs/SETUP_GUIDE.md` and `docs/SHORTCUTS.md`; ship the landing page in `docs/`.
-6. Retain the attribution watermark required by the MIT + attribution licence.
+6. Retain the attribution watermark required by the PolyForm Noncommercial + attribution licence.
 
 ## Key files / entry points
 
