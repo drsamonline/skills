@@ -22,20 +22,20 @@ Aethelgard Engine is the vanilla-JavaScript engine behind *Aethelgard: Chronicle
 3. Support drop-in mods (plain JS files) documented in `mods/README.md`.
 4. Make it PWA-installable and offline-first; no server, no build step.
 5. Test with `.github/workflows/ci.yml` and build EXE + APK with `.github/workflows/build-apps.yml`.
-6. Keep the code MIT and the art under a separate reserved licence (`LICENSE-ASSETS.md`); keep AI art prompts (`*_ICON_PROMPTS.md`) alongside.
+6. Keep the code PolyForm Noncommercial and the art under a separate reserved licence (`LICENSE-ASSETS.md`); keep AI art prompts (`*_ICON_PROMPTS.md`) alongside.
 
 ## Key files / entry points
 
 - Ordered engine modules behind `window.Game`; `index.html` loader.
 - `mods/README.md`, `HOW_TO_PLAY.md`, `CHANGELOG.md`.
-- `LICENSE` (MIT code) and `LICENSE-ASSETS.md` (art reserved).
+- `LICENSE` (PolyForm Noncommercial code) and `LICENSE-ASSETS.md` (art reserved).
 - `.github/workflows/ci.yml`, `.github/workflows/build-apps.yml`.
 
 ## Gotchas
 
 - Script load order is the module system — a reordered tag silently breaks the engine.
 - One global namespace is deliberate (works from `file://`); keep names namespaced under `window.Game` to avoid collisions.
-- Code licence (MIT) and art licence (reserved) are different — do not conflate them.
+- Code licence (PolyForm Noncommercial) and art licence (reserved) are different — do not conflate them.
 - Mods run in the same context as the game; document that trust boundary.
 
 ## Source projects
