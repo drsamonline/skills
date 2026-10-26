@@ -7,7 +7,7 @@ metadata:
 
 # Retro Strike — software 3D shooter
 
-Retro Strike is a complete retro-styled third-person shooter that lives inside a single HTML file. It has a **custom software 3D renderer** (no WebGL), a live chiptune synthesiser and procedural arenas — no engine, no build step, no dependencies. ~99 KB minified. MIT licensed.
+Retro Strike is a complete retro-styled third-person shooter that lives inside a single HTML file. It has a **custom software 3D renderer** (no WebGL), a live chiptune synthesiser and procedural arenas — no engine, no build step, no dependencies. ~99 KB minified. PolyForm Noncommercial licensed.
 
 ## When to use
 
