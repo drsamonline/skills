@@ -38,10 +38,10 @@ A consuming repo does not only take the workflow. In the estate as measured it
 also vendors the kit's shared files, and every copy is a byte-identical duplicate
 of the kit's own file:
 
-- `web-kit.js` — present in 17 apps (plus the built mirror where the app has one).
-- `export-kit.js` — 7 apps; `frame-kit.js` and `optical-kit.js` — 3 apps each;
-  `crypto-kit.js` — 2; `case-kit.js`, `search-kit.js`, `astro-kit.js`,
-  `lan-kit.js` — 1 each.
+- `web-kit.js` — 18 apps (plus the built mirror where the app has one).
+- `export-kit.js` — 7 apps; `frame-kit.js` and `optical-kit.js` — 3 each;
+  `crypto-kit.js`, `search-kit.js`, `lan-kit.js` — 2 each; `case-kit.js`,
+  `astro-kit.js` — 1 each.
 
 A kit fix therefore has to be re-vendored in every consumer; that is the real
 cost of vendoring rather than fetching at build time.
