@@ -7,7 +7,7 @@ metadata:
 
 # All4ONE — portable Windows utility suite
 
-Utility Suite is a free, portable Windows toolbox: file ops, hashing, PDF/Office batch, image/audio/video, network diagnostics, registry helpers, disk cleaning and security audits — 551 tools across 45 plugin packs, shipped as a single self-contained `utility_suite.exe` you can keep on a USB stick. Zero installs, zero telemetry, MIT licensed, with a tkinter GUI and a CLI over one engine. The release is **one** download, `UtilitySuite-<v>-windows.zip` (the exe plus a short `README-FIRST.txt`); there are deliberately no separate pack downloads, no lite/full split and no pack manifest.
+Utility Suite is a free, portable Windows toolbox: file ops, hashing, PDF/Office batch, image/audio/video, network diagnostics, registry helpers, disk cleaning and security audits — 551 tools across 45 plugin packs, shipped as a single self-contained `utility_suite.exe` you can keep on a USB stick. Zero installs, zero telemetry, PolyForm Noncommercial licensed, with a tkinter GUI and a CLI over one engine. The release is **one** download, `UtilitySuite-<v>-windows.zip` (the exe plus a short `README-FIRST.txt`); there are deliberately no separate pack downloads, no lite/full split and no pack manifest.
 
 ## When to use
 
