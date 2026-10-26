@@ -17,9 +17,9 @@
     "conqueror-os"
   ],
   "version": "1.0.0",
-  "updated": "2026-10-22",
+  "updated": "2026-10-26",
   "source_snapshot": {
-    "conqueror-os": "aac292e51ce554472b6dc102b722aa4ec5c5e778"
+    "conqueror-os": "c2682ece9051cf887dbe95df2d9b063c8f77cf9c"
   },
   "subskills": [
     "offline-first-single-file-web-app",

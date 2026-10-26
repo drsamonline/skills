@@ -17,9 +17,9 @@
     "whispering-body-first-aid"
   ],
   "version": "1.0.0",
-  "updated": "2026-10-22",
+  "updated": "2026-10-26",
   "source_snapshot": {
-    "whispering-body-first-aid": "2b001af68390a59916269565e757333af85336a3"
+    "whispering-body-first-aid": "31082f38a316f55f429150b0875d4c4f4fce9432"
   },
   "subskills": [
     "offline-first-single-file-web-app",

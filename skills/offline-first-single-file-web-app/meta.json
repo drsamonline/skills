@@ -22,15 +22,15 @@
     "idle-city-ages-of-growth"
   ],
   "version": "1.0.0",
-  "updated": "2026-10-22",
+  "updated": "2026-10-26",
   "source_snapshot": {
-    "conqueror-os": "aac292e51ce554472b6dc102b722aa4ec5c5e778",
-    "ambient-sound-studio": "ced1fa36aab7540bdda70093cbc09fc0f5983ef5",
-    "neon-runner": "b5b04fd8c5081a1316ac4f72eb457e340e296185",
-    "boericke-repertory": "fabd77e5c88a38bb55975c94b7c116fc70a0b73c",
-    "bmi-bmr-tdee-macros-fluid-calculator": "407229a6d872ba9f84d5dc8d92ef869f6c9719bf",
-    "retro-strike": "e6d7bd5233a21006fcfd8ce59760b0c8e288575f",
-    "idle-city-ages-of-growth": "244c3fac36a51bc6076ea6229134e2830fc341c5"
+    "conqueror-os": "c2682ece9051cf887dbe95df2d9b063c8f77cf9c",
+    "ambient-sound-studio": "02cf9cba986c0d4ffbae489e5304ee34df406393",
+    "neon-runner": "4d64bbff686367d8708c22549ad4e33ce8610dfc",
+    "boericke-repertory": "1dd9ac8a18e0033a2d616010fd49c722251ed4bf",
+    "bmi-bmr-tdee-macros-fluid-calculator": "9d92662aa26255a1ba6bc587bdbd2d7793632749",
+    "retro-strike": "650a59ec86175b77f469617f5b70e67fca1cfd6a",
+    "idle-city-ages-of-growth": "a36325bead2140600e421c7f371365bce721b1e5"
   },
   "subskills": [
     "static-landing-page-seo",

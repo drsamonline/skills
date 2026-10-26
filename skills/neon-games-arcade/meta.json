@@ -17,9 +17,9 @@
     "neon-games"
   ],
   "version": "1.0.0",
-  "updated": "2026-10-22",
+  "updated": "2026-10-26",
   "source_snapshot": {
-    "neon-games": "2749d08a3d9993288268a9e96f4808d60dccdb39"
+    "neon-games": "14c892dc8914671ba43ca4ce874b110fd152c5de"
   },
   "subskills": [
     "neon-engine-open-world",

@@ -16,9 +16,9 @@
     "the-symphony-companion"
   ],
   "version": "1.0.0",
-  "updated": "2026-10-22",
+  "updated": "2026-10-26",
   "source_snapshot": {
-    "the-symphony-companion": "d365182708f9e7eb73ac970287279e4a73284142"
+    "the-symphony-companion": "bb3c54ccaff81d7cf6433cdd88eb2db0724782e8"
   },
   "subskills": [
     "offline-first-single-file-web-app",

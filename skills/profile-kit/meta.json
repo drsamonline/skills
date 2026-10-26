@@ -17,9 +17,9 @@
     "profile-kit"
   ],
   "version": "1.0.0",
-  "updated": "2026-10-22",
+  "updated": "2026-10-26",
   "source_snapshot": {
-    "profile-kit": "b35f330f53d2ca18a3836e06ff426bb5bc84ac4f"
+    "profile-kit": "d7908913d822200f5d9d65d98632b49b3a46db34"
   },
   "subskills": [
     "theme-aware-github-profile",
