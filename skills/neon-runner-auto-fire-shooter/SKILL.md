@@ -7,7 +7,7 @@ metadata:
 
 # Neon Runner — auto-fire shooter
 
-Neon Runner is a retro auto-fire side-scrolling shooter where you never press fire: move, jump, duck, and the gun shoots anything in range. It is one self-contained HTML file (vanilla JS + canvas, Web Audio), ~176 KB minified / ~61 KB gzipped, works offline, and has 60+ test assertions. MIT licensed.
+Neon Runner is a retro auto-fire side-scrolling shooter where you never press fire: move, jump, duck, and the gun shoots anything in range. It is one self-contained HTML file (vanilla JS + canvas, Web Audio), ~176 KB minified / ~61 KB gzipped, works offline, and has 60+ test assertions. PolyForm Noncommercial licensed.
 
 ## When to use
 
