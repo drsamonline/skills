@@ -1,21 +1,39 @@
 {
   "id": "game-kit-fixed-timestep",
-  "name": "A fixed-timestep game loop",
+  "name": "Fixed-timestep game loop",
   "category": "game-engine",
-  "description": "Advance browser-game logic in equal fixed steps with an accumulator, clamping a huge frame so a backgrounded tab never spirals; plus input, scenes, save/load and maths.",
+  "description": "A fixed-timestep game loop with input, scenes and save/load in one dependency-free file — the shared game core the browser games should run on.",
   "tags": [
+    "game",
     "game-loop",
     "fixed-timestep",
-    "canvas",
     "input",
-    "no-dependencies"
+    "scenes",
+    "save-load",
+    "kit"
   ],
   "source_repos": [
-    "neon-engine",
-    "Aethelgard-Engine",
-    "game-kit"
+    "game-kit",
+    "neon-runner",
+    "retro-strike",
+    "dance-fight",
+    "Scrap-and-Gun",
+    "idle-city-ages-of-growth",
+    "neon-games"
   ],
   "version": "1.0.0",
-  "updated": "2026-10-22",
-  "source_snapshot": {}
+  "updated": "2026-10-26",
+  "source_snapshot": {
+    "game-kit": "e7f4e295e8d76a04279601f159e70355a4f9386a",
+    "neon-runner": "4d64bbff686367d8708c22549ad4e33ce8610dfc",
+    "retro-strike": "650a59ec86175b77f469617f5b70e67fca1cfd6a",
+    "dance-fight": "296e62a48d51d02151b602e58199e26757565fd6",
+    "Scrap-and-Gun": "415dfb2bad8b56416f844737c365ea82412d2513",
+    "idle-city-ages-of-growth": "ee6f87dcd8b8401f8f90942794038f96e5c22d61",
+    "neon-games": "14c892dc8914671ba43ca4ce874b110fd152c5de"
+  },
+  "subskills": [
+    "art-kit",
+    "audio-kit"
+  ]
 }

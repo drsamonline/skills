@@ -1,0 +1,35 @@
+{
+  "id": "kit-adoption-audit",
+  "name": "Kit adoption audit",
+  "category": "ci-and-release",
+  "description": "Measure which apps actually consume each shared kit and which hand-roll the same capability, from repository trees and blob SHAs alone, before proposing a kit create, update or retire.",
+  "tags": [
+    "audit",
+    "kits",
+    "adoption",
+    "duplication",
+    "measurement",
+    "fleet",
+    "retrofit"
+  ],
+  "source_repos": [
+    "skills",
+    "web-kit",
+    "forge",
+    "repertory-kit",
+    "srs-kit"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-26",
+  "source_snapshot": {
+    "skills": "1d2db3a6c197514e5f3611af69f0a7ac6e242e3e",
+    "web-kit": "795053d9a22088182545686f8b68cae60e1a47ca",
+    "forge": "926d6c8f38a423153556746c403b215a3ca1abe2",
+    "repertory-kit": "45011b785fb0a3129d51116ecd70064d598469bd",
+    "srs-kit": "e436cc4fefe781ccdacc333a4a8f3b4ee024b782"
+  },
+  "subskills": [
+    "safe-repo-cleanup",
+    "app-builder-kit"
+  ]
+}

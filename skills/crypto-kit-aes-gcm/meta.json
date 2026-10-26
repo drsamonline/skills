@@ -1,21 +1,33 @@
 {
   "id": "crypto-kit-aes-gcm",
-  "name": "Browser crypto with AES-256-GCM",
+  "name": "AES-256-GCM with PBKDF2 passphrases",
   "category": "web-app-patterns",
-  "description": "Encrypt app data in the browser with the Web Crypto API - AES-256-GCM for authenticated encryption and PBKDF2 for passphrase keys - behind a small shared wrapper instead of hand-rolled crypto.",
+  "description": "AES-256-GCM encryption with PBKDF2-SHA256 passphrase keys, a sealed envelope and a one-time-view helper on the Web Crypto API — the one place crypto lives.",
   "tags": [
     "crypto",
-    "aes-gcm",
+    "aes-256-gcm",
     "pbkdf2",
-    "web-crypto",
+    "webcrypto",
     "encryption",
-    "offline"
+    "privacy",
+    "kit"
   ],
   "source_repos": [
+    "crypto-kit",
     "lockhtml",
-    "crypto-kit"
+    "app-encrypted-case-log",
+    "seance"
   ],
   "version": "1.0.0",
-  "updated": "2026-10-22",
-  "source_snapshot": {}
+  "updated": "2026-10-26",
+  "source_snapshot": {
+    "crypto-kit": "ee63f2e4260642faa3e49adac35e87dc9575afc6",
+    "lockhtml": "50a3ddb1bc7d243325fa8631f279021a0ea90fb5",
+    "app-encrypted-case-log": "74c2ffe549d1e6dcff9ff0c32bd7ab498ebe36f3",
+    "seance": "aedaafdf6a6e53d4e0a557f3ab139a3d18284682"
+  },
+  "subskills": [
+    "offline-first-single-file-web-app",
+    "case-kit-clinical"
+  ]
 }

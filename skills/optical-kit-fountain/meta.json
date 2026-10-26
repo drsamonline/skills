@@ -1,23 +1,36 @@
 {
   "id": "optical-kit-fountain",
-  "name": "Optical file transfer with a fountain code",
+  "name": "Optical transfer: fountain code and frames",
   "category": "web-app-patterns",
-  "description": "Transfer files over a screen-to-camera link using a systematic LT fountain code, so any ~k frames reconstruct the file and a dropped frame costs time, not correctness.",
+  "description": "A systematic LT fountain code with self-describing frames and a pluggable codec — the shared optical-transfer core behind the QR and colour-matrix senders.",
   "tags": [
     "optical",
     "fountain-code",
-    "qr",
-    "offline-transfer",
     "lt-code",
-    "no-backchannel"
+    "frames",
+    "qr",
+    "colour-matrix",
+    "offline",
+    "kit"
   ],
   "source_repos": [
-    "helioprism",
-    "blinkcode-ai",
+    "optical-kit",
+    "frame-kit",
     "BLINKTRANSFER",
-    "optical-kit"
+    "blinkcode-ai",
+    "helioprism"
   ],
   "version": "1.0.0",
-  "updated": "2026-10-22",
-  "source_snapshot": {}
+  "updated": "2026-10-26",
+  "source_snapshot": {
+    "optical-kit": "3e604503b8770eb8800577fa5da8b408a0029ac0",
+    "frame-kit": "e5d31568673f8c9523c19ac7ecc3bb239076a145",
+    "BLINKTRANSFER": "fd2aafdedf63de56d57b031fa43d26ff243fa441",
+    "blinkcode-ai": "9d2ca03486170c4736a5a358ab7a7580bf5aaee0",
+    "helioprism": "fd5a87838d5a80e8c9eb5d224c3ef295eddeccfc"
+  },
+  "subskills": [
+    "optical-file-transfer",
+    "qr-code-encoder"
+  ]
 }

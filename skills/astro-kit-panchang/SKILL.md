@@ -1,50 +1,53 @@
 ---
 name: astro-kit-panchang
-description: Compute the sun and moon longitude, ayanamsa, sunrise/sunset and the panchang limbs (tithi, nakshatra, yoga, karana) from Meeus's series, and verify them against published ephemeris values.
+description: Sun and moon longitude (Meeus), Lahiri ayanamsa, sunrise/sunset/transit and the derived tithi, nakshatra, yoga and karana — the astronomy core for an offline panchang.
 metadata:
-  title: "Astronomical primitives for a panchang"
+  title: "Panchang astronomy core"
 ---
 
-# Astronomical primitives for a panchang
+# Panchang astronomy core
+
+`Astro` computes what an Indian almanac needs, from the maths in the file: solar
+and lunar longitude (Meeus), the Lahiri ayanamsa, sunrise, sunset and solar
+transit, the moon's phase and illumination, and the derived tithi, nakshatra,
+yoga and karana. Zero dependencies, no ephemeris file.
 
 ## When to use
 
-When an app needs an Indian almanac — tithi, nakshatra, muhurat, sunrise — or any
-solar/lunar position. Do this in a **kit**, not in the app: the app should stay a
-calendar and a UI.
+- An app must show today's panchang, a muhurat, or rahu-kaal, offline.
+- You need sunrise/sunset or the moon's phase for a place and a date.
+- You are about to embed an ephemeris table — the maths here is smaller.
 
 ## Method
 
-1. **Julian day** from the date (UTC), then work in Julian centuries `T` from J2000.
-2. **Solar apparent longitude** (Meeus ch. 25): mean longitude `L0`, mean anomaly
-   `M`, equation of centre `C`, then subtract `0.00569 + 0.00478·sin(Ω)` for
-   aberration and nutation.
-3. **Lunar longitude** (Meeus ch. 47): `L′` plus a periodic series. The first
-   ~25 terms give ~0.005°, plenty for a panchang.
-4. **Ayanamsa** (Lahiri, linear approximation) to convert tropical → sidereal.
-5. **Sunrise/sunset**: the standard sunrise equation — mean solar noon `J*`,
-   solar transit, declination, hour angle `ω`, then `J_transit ± ω/360`.
-6. **Panchang limbs** from the elongation `e = (moonLong − sunLong) mod 360`:
-   `tithi = ⌊e/12⌋`, `nakshatra` from sidereal moon longitude `/ (360/27)`,
-   `yoga` from `(sunLong + moonLong) mod 360`, `karana` from `⌊e/6⌋`.
+1. Call `Astro.panchang({ y, m, d, h }, { lat, lon })` for one instant and place.
+2. Read the derived limbs — `p.tithi.name`, `p.nakshatra.name`, `p.paksha`,
+   `p.pada` — and the solar data at `p.sun.sunriseUTC`, `sunsetUTC`,
+   `transitUTC`.
+3. Convert UTC to the user's offset yourself; the kit is deliberately
+   timezone-free.
+4. Use `elongation`, `illumination` and the phase for anything about the moon.
+5. Cache one computation per day per place rather than recomputing per render.
 
 ## Key files
 
-- `astro-kit.js` — `Astro.jd`, `sunLongitude`, `moonLongitude`, `ayanamsa`,
-  `sunriseSunset`, `tithi`, `nakshatra`, `yoga`, `karana`, `moonPhase`, `panchang`.
-- `test-node.js` — verified against the Meeus worked examples.
+- `astro-kit.js` — `panchang`, longitude, elongation, ayanamsa, sunrise/sunset/
+  transit, illumination.
+- `test-node.js` — reference values cross-checked against an independent
+  ephemeris (PyEphem), agreeing to better than 0.05° on elongation.
 
 ## Gotchas
 
-- **Verify against published values, not intuition.** Meeus example 25.b (sun,
-  JDE 2448908.5 → 199.90895°) and 47.a (moon, JDE 2448724.5 → 133.162655°) are
-  the anchors. A wrong constant shows up immediately.
-- **The sunrise `n` term is an integer.** `n = ceil(J − 2451545 + 0.0008)`, not the
-  raw JD — using the raw JD puts the transit at midnight and sunrise negative.
-- **State the precision.** ~0.01–0.05° ⇒ a boundary within about a minute. Never
-  present panchang timings as exact; local tradition differs too.
-- **Timezone is the app's job.** The kit returns UTC; the app adds the offset.
+- `sunriseUTC` is **UTC**. Adding the offset is the caller's job, and getting it
+  wrong shifts rahu-kaal by whole hours without any error.
+- The ayanamsa is Lahiri and approximate. Do not present the output as an
+  observatory-grade ephemeris.
+- `app-panchang` is the only adopter and it vendors `astro-kit.js`, so a fix here
+  has to be re-vendored there.
+- Accuracy is the kit's own; there is no external library to blame. The test
+  file's tolerances are the honest statement of what it claims.
 
 ## Source projects
 
-`astro-kit` (the shared core); `app-panchang` / `panchang` (the thin apps).
+- [astro-kit](https://github.com/drsamonline/astro-kit) — the astronomy core.
+- [app-panchang](https://github.com/drsamonline/app-panchang) — tithi, nakshatra, yoga, karana, rahu-kaal and muhurat, computed offline.

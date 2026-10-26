@@ -1,22 +1,33 @@
 {
   "id": "repertory-kit-repertorisation",
-  "name": "Homeopathic repertorisation (rubric grading)",
-  "category": "Homeopathy",
-  "description": "Score remedies by weighted rubric grades - the repertorisation a homeopath actually does - with must-have and exclude filters.",
+  "name": "Repertorisation with grade-weighted scoring",
+  "category": "health-tools",
+  "description": "Grade-weighted homeopathic repertorisation in one zero-dependency file: rubric grading 1/2/3, remedy scoring, must-have and exclude filters, ranked results.",
   "tags": [
-    "repertory",
     "homeopathy",
+    "repertory",
+    "repertorisation",
     "rubric",
     "grading",
-    "materia-medica"
+    "scoring",
+    "kit"
   ],
   "source_repos": [
-    "kent-repertory-explorer",
+    "repertory-kit",
     "boericke-repertory",
-    "remedy-relationship-explorer",
-    "repertory-kit"
+    "kent-repertory-explorer",
+    "homoeopathic-materia-medica-repertory-json"
   ],
   "version": "1.0.0",
-  "updated": "2026-10-22",
-  "source_snapshot": {}
+  "updated": "2026-10-26",
+  "source_snapshot": {
+    "repertory-kit": "45011b785fb0a3129d51116ecd70064d598469bd",
+    "boericke-repertory": "1dd9ac8a18e0033a2d616010fd49c722251ed4bf",
+    "kent-repertory-explorer": "03a3907fb3f126f4ff49168e0d754ef6d5621a2f",
+    "homoeopathic-materia-medica-repertory-json": "7fb119cea31e49348b0d0637c7fad36c7e0501bc"
+  },
+  "subskills": [
+    "open-data-extraction-pipeline",
+    "search-kit-ranked-search"
+  ]
 }

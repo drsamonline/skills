@@ -1,7 +1,7 @@
 # drsamonline/skills
 
 A machine-consumable knowledge base of reusable skills extracted from the
-projects of Dr. Sohil Momin (github.com/drsamonline). 52 skills.
+projects of Dr. Sohil Momin (github.com/drsamonline). 72 skills.
 
 Catalogue (machine-readable, the single source of truth):
 https://raw.githubusercontent.com/drsamonline/skills/main/catalog.json
@@ -15,7 +15,7 @@ https://drsamonline.github.io/skills/
   When to use / Method / Key files or entry points / Gotchas / Source projects.
 - meta.json: id, name, category, description, tags[], source_repos[], version,
   updated (ISO date), source_snapshot (repo -> commit SHA), subskills[].
-- Categories: web-app-patterns, android-packaging, windows-desktop, game-engine,
+- Categories: web-app-patterns, android-packaging, windows-desktop, game-engine, data-and-schema, health-tools, landing-and-seo, ci-and-release, marketing.
   data-and-schema, health-tools, landing-and-seo, ci-and-release.
 
 ## How to use

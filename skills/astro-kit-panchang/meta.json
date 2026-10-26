@@ -1,22 +1,29 @@
 {
   "id": "astro-kit-panchang",
-  "name": "Astronomical primitives for a panchang",
-  "category": "science",
-  "description": "Compute the sun and moon longitude, ayanamsa, sunrise/sunset and the panchang limbs (tithi, nakshatra, yoga, karana) from Meeus's series, and verify them against published ephemeris values.",
+  "name": "Panchang astronomy core",
+  "category": "web-app-patterns",
+  "description": "Sun and moon longitude (Meeus), Lahiri ayanamsa, sunrise/sunset/transit and the derived tithi, nakshatra, yoga and karana — the astronomy core for an offline panchang.",
   "tags": [
     "astronomy",
     "panchang",
     "tithi",
     "nakshatra",
+    "ayanamsa",
     "meeus",
-    "sunrise",
-    "no-dependencies"
+    "offline",
+    "kit"
   ],
   "source_repos": [
     "astro-kit",
     "app-panchang"
   ],
   "version": "1.0.0",
-  "updated": "2026-10-22",
-  "source_snapshot": {}
+  "updated": "2026-10-26",
+  "source_snapshot": {
+    "astro-kit": "b0f2f1b0c33c737ebeaec2c48f8015c6fe0f1135",
+    "app-panchang": "1bc1daf4d220f048d32800b2bf18f97d896bbe7d"
+  },
+  "subskills": [
+    "offline-first-single-file-web-app"
+  ]
 }

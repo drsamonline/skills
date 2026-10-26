@@ -1,21 +1,31 @@
 {
   "id": "srs-kit-sm2",
   "name": "Spaced repetition with SM-2",
-  "category": "Study",
-  "description": "Schedule flashcards with the SM-2 algorithm: ease, interval, reps, lapses, due cards and stats.",
+  "category": "web-app-patterns",
+  "description": "Schedule flashcards with SM-2 in one zero-dependency file: ease, interval, reps, lapses, due cards, stats and a configurable cadence.",
   "tags": [
-    "srs",
     "spaced-repetition",
     "sm-2",
     "flashcards",
-    "study"
+    "scheduling",
+    "study",
+    "kit",
+    "zero-dependency"
   ],
   "source_repos": [
-    "mnemosyne-companion",
-    "unstoppable-mind-companion",
-    "srs-kit"
+    "srs-kit",
+    "conqueror-os",
+    "mnemosyne-companion"
   ],
   "version": "1.0.0",
-  "updated": "2026-10-22",
-  "source_snapshot": {}
+  "updated": "2026-10-26",
+  "source_snapshot": {
+    "srs-kit": "e436cc4fefe781ccdacc333a4a8f3b4ee024b782",
+    "conqueror-os": "c2682ece9051cf887dbe95df2d9b063c8f77cf9c",
+    "mnemosyne-companion": "aecfd93f80bec7e15eb03c678a0bbc48a7441547"
+  },
+  "subskills": [
+    "mnemosyne-companion",
+    "book-kit-companion"
+  ]
 }

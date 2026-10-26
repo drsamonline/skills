@@ -1,21 +1,33 @@
 {
   "id": "lan-kit-sse-room",
-  "name": "A LAN room with Server-Sent Events and POST",
+  "name": "A LAN room over SSE and POST",
   "category": "web-app-patterns",
-  "description": "Give a local-network app a real-time multi-client room without a WebSocket library or any dependency, using Server-Sent Events for server-to-client and plain POST for client-to-server.",
+  "description": "A LAN room in the browser: a client over Server-Sent Events for server-to-client and POST for client-to-server, with a host URL helper — no internet, no accounts.",
   "tags": [
     "lan",
     "sse",
     "server-sent-events",
+    "room",
     "offline",
-    "real-time",
-    "no-dependencies"
+    "multi-client",
+    "kit"
   ],
   "source_repos": [
-    "HMS",
-    "lan-kit"
+    "lan-kit",
+    "canteen-lan",
+    "chalk-lan",
+    "app-companion-forge"
   ],
   "version": "1.0.0",
-  "updated": "2026-10-22",
-  "source_snapshot": {}
+  "updated": "2026-10-26",
+  "source_snapshot": {
+    "lan-kit": "c933ac8ba0cdcf556060435dc9d2000177295972",
+    "canteen-lan": "6f0ea7e33c20139d9c09a39308a72c9b83908b54",
+    "chalk-lan": "ae14de8ab1a24e6133f0ac562c7b785716514e03",
+    "app-companion-forge": "ef564b55f566f7cbc7465ec4e509315a28a4d257"
+  },
+  "subskills": [
+    "lan-single-server-architecture",
+    "offline-first-single-file-web-app"
+  ]
 }

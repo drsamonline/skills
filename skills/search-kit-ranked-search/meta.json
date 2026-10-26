@@ -1,22 +1,33 @@
 {
   "id": "search-kit-ranked-search",
-  "name": "Ranked search over a large corpus",
-  "category": "Search",
-  "description": "Build an inverted index once and query it with exact, prefix and fuzzy matching, ranked by field weight.",
+  "name": "Ranked search over a big corpus",
+  "category": "data-and-schema",
+  "description": "Ranked search over a big corpus in one zero-dependency file: an inverted index with prefix and fuzzy matching, scored hits and a vocabulary size.",
   "tags": [
     "search",
-    "index",
-    "fuzzy",
+    "inverted-index",
     "ranking",
-    "offline"
+    "fuzzy",
+    "prefix",
+    "offline",
+    "kit"
   ],
   "source_repos": [
-    "kent-repertory-explorer",
-    "open-materia-medica",
-    "SmartNotes",
-    "search-kit"
+    "search-kit",
+    "app-poets-studio",
+    "app-encrypted-case-log",
+    "open-materia-medica"
   ],
   "version": "1.0.0",
-  "updated": "2026-10-22",
-  "source_snapshot": {}
+  "updated": "2026-10-26",
+  "source_snapshot": {
+    "search-kit": "5c313157f2a63415bfb7a7b7da6bb7ac54055030",
+    "app-poets-studio": "aedaf2e559b0b6d2434aec5c0c8620ed9066571b",
+    "app-encrypted-case-log": "74c2ffe549d1e6dcff9ff0c32bd7ab498ebe36f3",
+    "open-materia-medica": "f6734d24841fb645a09408e14dd44b48f66f137e"
+  },
+  "subskills": [
+    "ml-kit",
+    "open-materia-medica"
+  ]
 }

@@ -11,13 +11,15 @@
     "github-actions",
     "reusable-workflow",
     "portable-exe",
-    "apk"
+    "apk",
+    "docs-play-mirror",
+    "vendored-kits"
   ],
   "source_repos": [
     "app-builder"
   ],
-  "version": "1.0.0",
-  "updated": "2026-10-22",
+  "version": "1.1.0",
+  "updated": "2026-10-26",
   "source_snapshot": {
     "app-builder": "a7277907684a0f0e17b05d4328380ccf8541d836"
   },

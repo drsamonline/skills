@@ -1,51 +1,61 @@
 ---
 name: crypto-kit-aes-gcm
-description: Encrypt app data in the browser with the Web Crypto API — AES-256-GCM for authenticated encryption and PBKDF2 for passphrase keys — behind a small shared wrapper instead of hand-rolled crypto.
+description: AES-256-GCM encryption with PBKDF2-SHA256 passphrase keys, a sealed envelope and a one-time-view helper on the Web Crypto API — the one place crypto lives.
 metadata:
-  title: "Browser crypto with AES-256-GCM"
+  title: "AES-256-GCM with PBKDF2 passphrases"
 ---
 
-# Browser crypto with AES-256-GCM
+# AES-256-GCM with PBKDF2 passphrases
+
+`CK` wraps the Web Crypto API so an app never hand-rolls cryptography:
+authenticated AES-256-GCM, passphrase keys through PBKDF2-SHA256, a portable
+sealed envelope, and a one-time-view helper. One file, no dependencies.
 
 ## When to use
 
-When a web app needs to protect data on the device — a sealed note, a locked
-page, a one-time-view message — and you want **authenticated** encryption without
-shipping a crypto library or rolling your own primitives.
+- A record has to be encrypted at rest on the device, or sealed before it is
+  exported.
+- You need "open once, then it is gone" for a note or a file.
+- You are about to write `crypto.subtle.importKey` by hand — don't; call this.
 
 ## Method
 
-1. Use **Web Crypto** (`crypto.subtle`) — never implement AES or PBKDF2 yourself.
-2. **AES-256-GCM** for encryption: it authenticates, so tampering throws instead
-   of silently returning garbage.
-3. **PBKDF2-SHA256** to turn a passphrase into a key (250,000 iterations by
-   default; allow an override for tests).
-4. **A sealed envelope** carries everything needed to open it: version, iteration
-   count, salt, iv, ciphertext — as bytes or base64, so it is portable.
-5. **One-time view:** seal with a random key, hand the key out of band, and delete
-   it after the first `open`. The kit gives primitives; the app owns the "used
-   once" state.
-6. **AAD** (associated data) binds extra context to the ciphertext without
-   encrypting it — useful for binding an id or a purpose.
+1. Check the platform: `CK.available()` is false when there is no
+   `crypto.subtle`, which is the case for a page opened over `file://`.
+2. Turn bytes into text/base64 with `CK.bytes.*` so a payload can be stored as a
+   string.
+3. Derive a key from a passphrase with PBKDF2-SHA256 (the kit's default is
+   250,000 iterations) and seal the plaintext into an envelope of
+   `salt + iv + ciphertext`.
+4. Store or transmit the envelope as bytes or base64; open it with the same
+   passphrase.
+5. For one-time view, seal with a random key, keep the key only in memory, and
+   delete it after the first successful open.
 
 ## Key files
 
-- `crypto-kit.js` — `CryptoKit.seal/open`, `sealString/openString`, `deriveKey`,
-  `encrypt/decrypt`, `newKey/exportKey/importKey`, `randomBytes`.
-- `test-node.js` — the verified round-trip (7 checks).
+- `crypto-kit.js` — `available`, `bytes.*`, passphrase key derivation, seal/open,
+  one-time view.
+- `test-node.js` — round-trip and tamper behaviour.
 
 ## Gotchas
 
-- **Secure context required.** Web Crypto needs **https or localhost**; a page
-  opened from `file://` may not have it. GitHub Pages is https, so deployed apps
-  are fine.
-- **Wrong passphrase and tampering both throw** — treat both as "cannot open".
-- **Iterations cost time.** High is safer; allow a low value in tests so they
-  stay fast.
-- **Don't roll your own.** If you find yourself writing AES round functions or a
-  hash, stop and use the platform.
+- **Secure context only.** `crypto.subtle` exists over https or localhost and is
+  absent on `file://`. The same single file that works on GitHub Pages throws
+  when the user double-clicks it — guard with `available()` and say so plainly.
+- The PBKDF2 iteration count is a compatibility constant, not a tuning knob:
+  raising it makes every existing envelope unopenable.
+- `lockhtml` uses **Argon2id**, not PBKDF2, and also ships Shamir shares, hidden
+  volumes and recipient keys. Its envelopes and the kit's are not
+  interchangeable, and those extras are not in the kit.
+- `conqueror-os` and `lockhtml` both implement AES-GCM themselves in more than
+  one file. Those are the duplicates this kit exists to retire.
+- Authenticated encryption detects tampering — it does not hide that a file is
+  encrypted, and it does not protect a weak passphrase.
 
 ## Source projects
 
-`lockhtml` (command-line counterpart), and the browser apps `seance` / `vault`
-that build on `crypto-kit`.
+- [crypto-kit](https://github.com/drsamonline/crypto-kit) — the wrapper.
+- [lockhtml](https://github.com/drsamonline/lockhtml) — PIN-protected HTML with Argon2id, Shamir shares and one-time view.
+- [app-encrypted-case-log](https://github.com/drsamonline/app-encrypted-case-log) — the app that vendors the kit.
+- [seance](https://github.com/drsamonline/seance) — sealed notes, opened once.

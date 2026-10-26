@@ -1,20 +1,31 @@
 {
   "id": "compress-kit-streams",
-  "name": "Compression with the platform's Compression Streams",
+  "name": "Compression with Compression Streams",
   "category": "web-app-patterns",
-  "description": "Compress and decompress data in a web app or Node without bundling a compression library, using the built-in CompressionStream / DecompressionStream (gzip, deflate, deflate-raw).",
+  "description": "gzip, deflate and deflate-raw over the platform's Compression Streams, with byte and base64 helpers — the browser counterpart to lexora.",
   "tags": [
     "compression",
     "gzip",
     "deflate",
     "compression-streams",
-    "no-dependencies"
+    "base64",
+    "kit"
   ],
   "source_repos": [
+    "compress-kit",
     "lexora",
-    "compress-kit"
+    "kent-repertory-explorer",
+    "offline-pdf-toolkit"
   ],
   "version": "1.0.0",
-  "updated": "2026-10-22",
-  "source_snapshot": {}
+  "updated": "2026-10-26",
+  "source_snapshot": {
+    "compress-kit": "193bff87fa9ebe3bb6c9f2e9590f122d34bcc018",
+    "lexora": "2ebf0ebea0f18b7adc775b8cdba7def9e9c46840",
+    "kent-repertory-explorer": "03a3907fb3f126f4ff49168e0d754ef6d5621a2f",
+    "offline-pdf-toolkit": "49cd8abc56fe185bf19e5debf27c6580c69253b4"
+  },
+  "subskills": [
+    "offline-first-single-file-web-app"
+  ]
 }

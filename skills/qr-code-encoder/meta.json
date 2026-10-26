@@ -1,0 +1,33 @@
+{
+  "id": "qr-code-encoder",
+  "name": "Self-contained QR encoder",
+  "category": "web-app-patterns",
+  "description": "A QR encoder in one dependency-free file: byte mode, ECC L/M/Q/H, versions 1-40, Reed-Solomon over GF(256) and the ISO/IEC 18004 block tables — for rendering a code offline without shipping a QR library.",
+  "tags": [
+    "qr",
+    "encoder",
+    "reed-solomon",
+    "iso-18004",
+    "binary-safe",
+    "offline",
+    "no-dependencies"
+  ],
+  "source_repos": [
+    "TTB",
+    "BLINKTRANSFER",
+    "helioprism",
+    "optical-kit"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-10-26",
+  "source_snapshot": {
+    "TTB": "b86d9c2eb7e60d88c6fa8b4e141e95ae03bc25e4",
+    "BLINKTRANSFER": "fd2aafdedf63de56d57b031fa43d26ff243fa441",
+    "helioprism": "fd5a87838d5a80e8c9eb5d224c3ef295eddeccfc",
+    "optical-kit": "3e604503b8770eb8800577fa5da8b408a0029ac0"
+  },
+  "subskills": [
+    "optical-kit-fountain",
+    "optical-file-transfer"
+  ]
+}

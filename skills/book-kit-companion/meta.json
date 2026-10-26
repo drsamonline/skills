@@ -1,22 +1,37 @@
 {
   "id": "book-kit-companion",
-  "name": "A companion app from a book",
-  "category": "Study",
-  "description": "Model a book as chapters, key points, practices and flashcards, with search and persisted reading progress - the shape six companion apps repeat.",
+  "name": "Companion app from a book",
+  "category": "web-app-patterns",
+  "description": "The companion-app-from-a-book pattern in one zero-dependency file: chapters, key points, practices, flashcards, in-book search and reading progress with notes.",
   "tags": [
-    "companion",
-    "book",
+    "book-companion",
     "chapters",
     "flashcards",
-    "progress"
+    "progress",
+    "notes",
+    "search",
+    "kit"
   ],
   "source_repos": [
+    "book-kit",
     "whispering-body-first-aid",
     "gentle-pediatrics-companion",
     "the-symphony-companion",
-    "book-kit"
+    "unstoppable-mind-companion",
+    "read-live-transform-app"
   ],
   "version": "1.0.0",
-  "updated": "2026-10-22",
-  "source_snapshot": {}
+  "updated": "2026-10-26",
+  "source_snapshot": {
+    "book-kit": "8b7a0372658cf6cb787ac0234b22ae410fd48373",
+    "whispering-body-first-aid": "31082f38a316f55f429150b0875d4c4f4fce9432",
+    "gentle-pediatrics-companion": "8ec2cd24840afc29e7627972bc19977cc2ba3091",
+    "the-symphony-companion": "bb3c54ccaff81d7cf6433cdd88eb2db0724782e8",
+    "unstoppable-mind-companion": "1b7c98a4bc3c77a8fa8290ec9f82705de5edbac5",
+    "read-live-transform-app": "a64facd3f689fc4825d22654434086e7ed6e1c8f"
+  },
+  "subskills": [
+    "srs-kit-sm2",
+    "offline-first-single-file-web-app"
+  ]
 }
