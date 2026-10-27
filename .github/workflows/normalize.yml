@@ -30,7 +30,13 @@ jobs:
           git config user.email "bot@users.noreply.github.com"
           git add skills
           git commit -m "chore: normalise SKILL.md names to the Agent Skills spec [skip ci]"
-          # retry: a bare `git push` loses the race when anything else commits first
+          # F-97: a push that exited 0 is not proof the normalised names reached the
+          # branch. commit-and-verify.sh is NOT used here on purpose: this step stages a
+          # DIRECTORY (`git add skills`) and the script hashes regular files, so it would
+          # skip it and then report that nothing was produced.
+          #
+          # The verdict compares the COMMIT TREE instead: if origin/main's tree is this
+          # commit's tree, every normalised file is there.
           BR="${GITHUB_REF_NAME:-main}"
           pushed=0
           for attempt in 1 2 3 4; do
@@ -40,4 +46,17 @@ jobs:
             echo "::warning::push rejected on attempt $attempt - the branch moved again"
             sleep 4
           done
-          [ "$pushed" = 1 ] || { echo "::error::could not push after 4 attempts - another workflow keeps moving the branch"; exit 1; }
+          if [ "$pushed" != 1 ]; then
+            echo "::error::could not push after 4 attempts - another workflow keeps moving the branch"
+            exit 1
+          fi
+          git fetch origin "$BR" --quiet
+          want="$(git rev-parse 'HEAD^{tree}')"
+          got="$(git rev-parse "origin/$BR^{tree}" 2>/dev/null || echo absent)"
+          if [ "$want" = "$got" ]; then
+            echo "VERIFIED: origin/$BR has this commit's tree - every normalised file landed"
+            exit 0
+          fi
+          echo "::error::the branch tree does not match this commit (want $want, found $got)"
+          echo "::error::the normalisation did not land"
+          exit 1
