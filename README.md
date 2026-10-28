@@ -6,7 +6,7 @@
 [![All projects](https://img.shields.io/badge/All%20projects-hub-2e7d32?style=flat-square)](https://drsamonline.github.io/)
 [![Type: knowledge base](https://img.shields.io/badge/type-knowledge%20base-586069?style=flat-square)](https://drsamonline.github.io/skills/)
 [![Format: Markdown + JSON](https://img.shields.io/badge/format-Markdown%20%2B%20JSON-586069?style=flat-square)](https://github.com/drsamonline/skills)
-[![License: MIT](https://img.shields.io/badge/license-PolyForm Noncommercial-2e7d32?style=flat-square)](LICENSE)
+[![License: PolyForm Noncommercial 1.0.0](https://img.shields.io/badge/license-PolyForm%20Noncommercial%201.0.0-2e7d32?style=flat-square)](LICENSE)
 
 **Landing page:** <https://drsamonline.github.io/skills/> &nbsp;·&nbsp; **All projects:** <https://drsamonline.github.io/>
 
