@@ -16,16 +16,32 @@ name: Refresh catalogue (mechanical)
 on:
   schedule:
     - cron: "23 3 * * 1"   # every Monday, 03:23 UTC
+  # The validate job used to be its own workflow, triggered on a push that touches a
+  # skill or the validator. Those paths now live here, so the trigger moves here too -
+  # but the refresh job is guarded to schedule/dispatch only, because refresh COMMITS to
+  # skills/** and would otherwise re-trigger itself on its own push.
+  push:
+    branches: [ main ]
+    paths:
+      - "skills/**"
+      - "scripts/validate.py"
+      - ".github/workflows/refresh.yml"
   workflow_dispatch: {}
 
+# Least privilege at the workflow level is READ: the validate job needs nothing more.
+# Only the refresh job is given write, because only it commits.
 permissions:
-  contents: write          # least privilege: only enough to commit the refresh
+  contents: read
 
 concurrency:
   group: refresh-catalogue
   cancel-in-progress: false   # this workflow pushes; never cancel it mid-commit
 jobs:
   refresh:
+    # Schedule and manual only. See the push trigger above: refresh commits to skills/**.
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
@@ -208,3 +224,20 @@ jobs:
           fi
           echo "::error::the branch tree does not match this commit (want $want, found $got)"
           exit 1
+
+  # Was its own workflow (validate.yml). Merged here so there is one schedule and one
+  # file. It keeps its own runner and its own job name deliberately: a required status
+  # check is matched on the job name, and `needs:` + `always()` means it still reports
+  # when the refresh fails - which is exactly what it did as a separate workflow.
+  validate:
+    needs: refresh
+    if: always()
+    permissions:
+      contents: read
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262   # was @v4
+        with:
+          fetch-depth: 1
+      - run: python3 scripts/validate.py
