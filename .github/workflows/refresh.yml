@@ -31,6 +31,8 @@ jobs:
     steps:
       - name: Check out the repository
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262   # was @v4
+        with:
+          fetch-depth: 1
 
       - name: Refresh meta.json SHAs and catalog.json
         env:
