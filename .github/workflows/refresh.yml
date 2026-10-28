@@ -15,7 +15,7 @@ name: Refresh catalogue (mechanical)
 
 on:
   schedule:
-    - cron: "23 3 * * 1"   # every Monday, 03:23 UTC
+    - cron: "23 3 * * 1"   # weekly, Monday 03:23 UTC
   # The validate job used to be its own workflow, triggered on a push that touches a
   # skill or the validator. Those paths now live here, so the trigger moves here too -
   # but the refresh job is guarded to schedule/dispatch only, because refresh COMMITS to
