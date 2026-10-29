@@ -25,17 +25,17 @@
     "SmartNotes"
   ],
   "version": "1.0.0",
-  "updated": "2026-10-26",
+  "updated": "2026-10-29",
   "source_snapshot": {
-    "skills": "ece733e9b251b16eea6c36bbdcbda94166ff989c",
-    "NEO": "bc19e4aa30aa4e7d802a74ef3ce6fac63e5c116a",
-    "HMS": "1763467db5405109d49fa4ae6a1a0d48a1e8524e",
-    "BLINKTRANSFER": "fd2aafdedf63de56d57b031fa43d26ff243fa441",
-    "conqueror-os": "c2682ece9051cf887dbe95df2d9b063c8f77cf9c",
-    "mnemosyne-companion": "aecfd93f80bec7e15eb03c678a0bbc48a7441547",
-    "retro-strike": "650a59ec86175b77f469617f5b70e67fca1cfd6a",
-    "idle-city-ages-of-growth": "a36325bead2140600e421c7f371365bce721b1e5",
-    "SmartNotes": "4d501020fd19a19f2c31a5a22d01509ce9f51acd"
+    "skills": "7739c022458cc15dce0e43a73462ccc57f49768e",
+    "NEO": "5e89cdd47ce0a5112ccfdf409c01919fb4d414dc",
+    "HMS": "1110a354971d5d222dc191968a50102e9e737a63",
+    "BLINKTRANSFER": "2c4564d5c1af8bd0534f9800a23276969cdf3ca4",
+    "conqueror-os": "5b84157faea8f8750ed3b02d644f61b4d45b1b04",
+    "mnemosyne-companion": "5669a97181d8882dcc101347ebd18418fb7f0cfe",
+    "retro-strike": "f72edf75edb295fa517fcbb1f45971fc329bed11",
+    "idle-city-ages-of-growth": "226d802e9dccda1fa51c44cec8025b72b4daa29b",
+    "SmartNotes": "152db404a6fbd5587ce66d28584e84a05e8cc538"
   },
   "subskills": [
     "reusable-build-release-workflow",

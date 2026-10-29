@@ -22,15 +22,15 @@
     "neon-games"
   ],
   "version": "1.0.0",
-  "updated": "2026-10-26",
+  "updated": "2026-10-29",
   "source_snapshot": {
-    "game-kit": "e7f4e295e8d76a04279601f159e70355a4f9386a",
-    "neon-runner": "4d64bbff686367d8708c22549ad4e33ce8610dfc",
-    "retro-strike": "650a59ec86175b77f469617f5b70e67fca1cfd6a",
-    "dance-fight": "296e62a48d51d02151b602e58199e26757565fd6",
-    "Scrap-and-Gun": "415dfb2bad8b56416f844737c365ea82412d2513",
-    "idle-city-ages-of-growth": "a36325bead2140600e421c7f371365bce721b1e5",
-    "neon-games": "14c892dc8914671ba43ca4ce874b110fd152c5de"
+    "game-kit": "de4754cfaf8abe57c5adb1f5f3bda4bdfbe91b74",
+    "neon-runner": "e0de1119d5f5cf539b59e72bb789bbe6acf81aea",
+    "retro-strike": "f72edf75edb295fa517fcbb1f45971fc329bed11",
+    "dance-fight": "6b07d3fed1c3043b65e283152d4c23b9540ddcc6",
+    "Scrap-and-Gun": "2bc9210b5bdade218bef3805865a440edc9b7c53",
+    "idle-city-ages-of-growth": "226d802e9dccda1fa51c44cec8025b72b4daa29b",
+    "neon-games": "541db0f726e5d8426d196c98f5e3b8cd140be9d2"
   },
   "subskills": [
     "art-kit",

@@ -18,11 +18,11 @@
     "mnemosyne-companion"
   ],
   "version": "1.0.0",
-  "updated": "2026-10-26",
+  "updated": "2026-10-29",
   "source_snapshot": {
-    "srs-kit": "e436cc4fefe781ccdacc333a4a8f3b4ee024b782",
-    "conqueror-os": "c2682ece9051cf887dbe95df2d9b063c8f77cf9c",
-    "mnemosyne-companion": "aecfd93f80bec7e15eb03c678a0bbc48a7441547"
+    "srs-kit": "5f6ceaeca7abca7aaf3260751d314407190eb77e",
+    "conqueror-os": "5b84157faea8f8750ed3b02d644f61b4d45b1b04",
+    "mnemosyne-companion": "5669a97181d8882dcc101347ebd18418fb7f0cfe"
   },
   "subskills": [
     "mnemosyne-companion",

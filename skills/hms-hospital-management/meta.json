@@ -17,9 +17,9 @@
     "HMS"
   ],
   "version": "1.0.0",
-  "updated": "2026-10-26",
+  "updated": "2026-10-29",
   "source_snapshot": {
-    "HMS": "1763467db5405109d49fa4ae6a1a0d48a1e8524e"
+    "HMS": "1110a354971d5d222dc191968a50102e9e737a63"
   },
   "subskills": [
     "lan-single-server-architecture",

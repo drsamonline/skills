@@ -18,9 +18,9 @@
     "search-kit"
   ],
   "version": "1.0.0",
-  "updated": "2026-10-26",
+  "updated": "2026-10-29",
   "source_snapshot": {
-    "ml-kit": "aef2889c44d7c660dda2a0b9048668018db5ffad",
-    "search-kit": "5c313157f2a63415bfb7a7b7da6bb7ac54055030"
+    "ml-kit": "860467b1944069d1df91b8e3710ecc3e4c3ec76e",
+    "search-kit": "e67521240bac4b6de5dfc32e1140ee0359a17190"
   }
 }

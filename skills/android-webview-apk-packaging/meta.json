@@ -18,10 +18,10 @@
     "open-materia-medica"
   ],
   "version": "1.0.0",
-  "updated": "2026-10-26",
+  "updated": "2026-10-29",
   "source_snapshot": {
-    "app-builder": "c2522e7ef27c24a385b8716b91e986b33c3265b5",
-    "open-materia-medica": "f6734d24841fb645a09408e14dd44b48f66f137e"
+    "app-builder": "a9a8c000276b365af20f253a81fd60bacc9af61d",
+    "open-materia-medica": "e513f4af96531b3c6da8cb3bb736a8eec3c6a8ed"
   },
   "subskills": [
     "reusable-build-release-workflow",

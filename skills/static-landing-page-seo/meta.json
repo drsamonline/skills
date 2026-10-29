@@ -20,12 +20,12 @@
     "conqueror-os"
   ],
   "version": "1.0.0",
-  "updated": "2026-10-26",
+  "updated": "2026-10-29",
   "source_snapshot": {
-    "app-builder": "c2522e7ef27c24a385b8716b91e986b33c3265b5",
-    "homoeopathic-materia-medica-repertory-json": "7fb119cea31e49348b0d0637c7fad36c7e0501bc",
-    "neon-runner": "4d64bbff686367d8708c22549ad4e33ce8610dfc",
-    "conqueror-os": "c2682ece9051cf887dbe95df2d9b063c8f77cf9c"
+    "app-builder": "a9a8c000276b365af20f253a81fd60bacc9af61d",
+    "homoeopathic-materia-medica-repertory-json": "4f4fe70499b92b0b2812bed4e6d9871344dbe637",
+    "neon-runner": "e0de1119d5f5cf539b59e72bb789bbe6acf81aea",
+    "conqueror-os": "5b84157faea8f8750ed3b02d644f61b4d45b1b04"
   },
   "subskills": [
     "auto-updating-showcase-hub",

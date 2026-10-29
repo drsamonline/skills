@@ -18,9 +18,9 @@
     "BLINKTRANSFER"
   ],
   "version": "1.0.0",
-  "updated": "2026-10-26",
+  "updated": "2026-10-29",
   "source_snapshot": {
-    "BLINKTRANSFER": "fd2aafdedf63de56d57b031fa43d26ff243fa441"
+    "BLINKTRANSFER": "2c4564d5c1af8bd0534f9800a23276969cdf3ca4"
   },
   "subskills": [
     "optical-file-transfer",

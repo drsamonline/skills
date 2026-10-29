@@ -17,9 +17,9 @@
     "CLDR"
   ],
   "version": "1.0.0",
-  "updated": "2026-10-26",
+  "updated": "2026-10-29",
   "source_snapshot": {
-    "CLDR": "4372fc3fc9a29a08c2cbbfa23c41aca6d9ab970c"
+    "CLDR": "daf03cc578049cb63166144c809cd1e5865b6c85"
   },
   "subskills": [
     "static-landing-page-seo"

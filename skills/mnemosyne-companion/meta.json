@@ -16,9 +16,9 @@
     "mnemosyne-companion"
   ],
   "version": "1.0.0",
-  "updated": "2026-10-26",
+  "updated": "2026-10-29",
   "source_snapshot": {
-    "mnemosyne-companion": "aecfd93f80bec7e15eb03c678a0bbc48a7441547"
+    "mnemosyne-companion": "5669a97181d8882dcc101347ebd18418fb7f0cfe"
   },
   "subskills": [
     "offline-first-single-file-web-app",
