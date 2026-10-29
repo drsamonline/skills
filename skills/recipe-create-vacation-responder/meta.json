@@ -1,0 +1,23 @@
+{
+  "id": "recipe-create-vacation-responder",
+  "name": "recipe create vacation responder",
+  "category": "google-workspace",
+  "description": "Enable a Gmail out-of-office auto-reply with a custom message and date range.",
+  "tags": [
+    "recipe",
+    "create",
+    "vacation",
+    "responder"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "googleworkspace/cli",
+    "path": "skills/recipe-create-vacation-responder/SKILL.md",
+    "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
+  }
+}

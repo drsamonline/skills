@@ -1,0 +1,22 @@
+{
+  "id": "roblox-networking",
+  "name": "roblox networking",
+  "category": "game-dev",
+  "description": "Build explicit request and replication contracts in which the server decides authoritative game state and clients provide input or intent. Targets Roblox's rolling platform APIs. This skill goes deeper than the networking primer in roblox-luau.",
+  "tags": [
+    "roblox",
+    "networking"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/other-engines/roblox-networking/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

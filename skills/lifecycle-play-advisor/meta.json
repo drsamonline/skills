@@ -1,0 +1,22 @@
+{
+  "id": "lifecycle-play-advisor",
+  "name": "lifecycle play advisor",
+  "category": "product-management",
+  "description": "Diagnose where a product sits in its lifecycle and which play fits — extend, replace, or retire. Use when a product is fading and you need the call, not just the worry.",
+  "tags": [
+    "lifecycle",
+    "play",
+    "advisor"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "see LICENSE",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "deanpeters/Product-Manager-Skills",
+    "path": "skills/lifecycle-play-advisor/SKILL.md",
+    "commit": "cfcb697f14b8891d8b3ec43c16c3547df3e70e13"
+  }
+}

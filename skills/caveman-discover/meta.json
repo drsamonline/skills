@@ -1,0 +1,22 @@
+{
+  "id": "caveman-discover",
+  "name": "caveman discover",
+  "category": "engineering-workflow",
+  "description": "You are labeling this repository's LLM workflows for Caveman Cloud. A workflow is a job the code performs — \"answer a support ticket\", \"build the nightly digest\", \"run the eval suite\" — not a technology. Every gateway request can carry a workflow label; unlabeled traffic all lands in one unlabeled-workflow bucket. Your job: find the workflows, name them well, wire the labels, and verify nothing br",
+  "tags": [
+    "caveman",
+    "discover"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "JuliusBrussee/caveman",
+    "path": "skills/caveman-discover/SKILL.md",
+    "commit": "9b68f7ed12b05e7efaff18e65c5a3fc2849fd0a4"
+  },
+  "description_source": "derived-from-body"
+}

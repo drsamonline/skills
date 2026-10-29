@@ -1,0 +1,23 @@
+{
+  "id": "openapi-spec-generator",
+  "name": "openapi spec generator",
+  "category": "testing-qa",
+  "description": "Generate complete, valid OpenAPI 3.x or Swagger 2.0 specifications from descriptions, code, or partial specs.",
+  "tags": [
+    "openapi",
+    "spec",
+    "generator"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "LambdaTest/agent-skills",
+    "path": "api-skill/openapi-spec-generator/SKILL.md",
+    "commit": "992638bccbc311f42c0bd8b2b3387a0d1ce6288d"
+  },
+  "description_source": "derived-from-body"
+}

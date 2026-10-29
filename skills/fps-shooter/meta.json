@@ -1,0 +1,22 @@
+{
+  "id": "fps-shooter",
+  "name": "fps shooter",
+  "category": "game-dev",
+  "description": "A playbook for first-person shooters — the look/move controller, the shooting model, weapon feel, and combat. This is a compositional skill: it wires a 3D controller, input, and AI into a shooter. It does not re-teach 3D nodes or raycasts; it defines the shooting model and the feel knobs (TTK, recoil, spread) that decide whether the guns feel good.",
+  "tags": [
+    "fps",
+    "shooter"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/genres/fps-shooter/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

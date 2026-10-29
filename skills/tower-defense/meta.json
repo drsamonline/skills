@@ -1,0 +1,22 @@
+{
+  "id": "tower-defense",
+  "name": "tower defense",
+  "category": "game-dev",
+  "description": "A playbook for tower defense — enemy pathing, wave spawning, tower targeting, and the economy that ties them together. This is a compositional skill: it orchestrates pathing, AI, and UI into a TD loop. It does not re-teach pathfinding; it defines the systems and the balance levers (DPS vs. HP vs. income) that decide whether a TD is tense or trivial.",
+  "tags": [
+    "tower",
+    "defense"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/genres/tower-defense/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

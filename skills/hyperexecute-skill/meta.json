@@ -1,0 +1,22 @@
+{
+  "id": "hyperexecute-skill",
+  "name": "hyperexecute skill",
+  "category": "testing-qa",
+  "description": "1. Locate the HyperExecute CLI. If missing, ask before downloading it unless the user explicitly approved an autonomous HyperExecute session. 2. Run hyperexecute analyze when the CLI is available; use local inspection only as fallback. 3. Create or repair hyperexecute.yaml from the analyze output, project test commands, and templates in reference/. 4. Run node scripts/doctor.js --config hyperexecu",
+  "tags": [
+    "hyperexecute",
+    "skill"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "LambdaTest/agent-skills",
+    "path": "hyperexecute-skill/SKILL.md",
+    "commit": "992638bccbc311f42c0bd8b2b3387a0d1ce6288d"
+  },
+  "description_source": "derived-from-body"
+}

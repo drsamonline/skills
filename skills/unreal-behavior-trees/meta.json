@@ -1,0 +1,23 @@
+{
+  "id": "unreal-behavior-trees",
+  "name": "unreal behavior trees",
+  "category": "game-dev",
+  "description": "Author NPC decision-making in UE5 with Behavior Trees driven by a Blackboard: structure the tree with composites, gate branches with decorators, keep state current with services, and run it from an AIController. Targets UE 5.8.",
+  "tags": [
+    "unreal",
+    "behavior",
+    "trees"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/unreal/unreal-behavior-trees/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

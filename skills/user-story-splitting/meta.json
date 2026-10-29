@@ -1,0 +1,22 @@
+{
+  "id": "user-story-splitting",
+  "name": "user story splitting",
+  "category": "product-management",
+  "description": "Break a large story or epic into smaller deliverable stories using proven split patterns. Use when backlog items are too big for estimation, sequencing, or independent release.",
+  "tags": [
+    "user",
+    "story",
+    "splitting"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "see LICENSE",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "deanpeters/Product-Manager-Skills",
+    "path": "skills/user-story-splitting/SKILL.md",
+    "commit": "cfcb697f14b8891d8b3ec43c16c3547df3e70e13"
+  }
+}

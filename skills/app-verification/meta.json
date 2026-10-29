@@ -1,0 +1,21 @@
+{
+  "id": "app-verification",
+  "name": "app verification",
+  "category": "engineering-workflow",
+  "description": "Builds and maintains a repo's own verification harness (verify CLI, doctor, worktree isolation, feature map, seed data) and a reproduce-first bug handoff. Use when asked to \"build a verification harness\", \"add a doctor command\", \"prove every feature still works\", or \"reproduce this bug report\".",
+  "tags": [
+    "app",
+    "verification"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "mblode/agent-skills",
+    "path": "skills/app-verification/SKILL.md",
+    "commit": "ff92bf5ae675e8108e7d2f14b22a523fd1303e76"
+  }
+}

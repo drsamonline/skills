@@ -1,0 +1,22 @@
+{
+  "id": "social-x-post-card",
+  "name": "social x post card",
+  "category": "frontend-ui",
+  "description": "拟真 X 推文卡片 + 互动数据 (likes/reposts/views), 适配视频叠加或图卡分享",
+  "tags": [
+    "social",
+    "post",
+    "card"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nexu-io/html-anything",
+    "path": "next/src/lib/templates/skills/social-x-post-card/SKILL.md",
+    "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
+  }
+}

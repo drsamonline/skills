@@ -1,0 +1,22 @@
+{
+  "id": "context-mode",
+  "name": "context mode",
+  "category": "engineering-workflow",
+  "description": "<contextmodelogic <mandatoryrule Default to context-mode for ALL commands. Only use Bash for guaranteed-small-output operations. </mandatoryrule </contextmodelogic",
+  "tags": [
+    "context",
+    "mode"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "see LICENSE",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "mksglu/context-mode",
+    "path": "skills/context-mode/SKILL.md",
+    "commit": "49b318b5b894d286cda891732287400d9b43cea3"
+  },
+  "description_source": "derived-from-body"
+}

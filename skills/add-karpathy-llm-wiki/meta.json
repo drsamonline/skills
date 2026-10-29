@@ -1,0 +1,23 @@
+{
+  "id": "add-karpathy-llm-wiki",
+  "name": "add karpathy llm wiki",
+  "category": "engineering-workflow",
+  "description": "Add a persistent wiki knowledge base to a NanoClaw group. Based on Karpathy's LLM Wiki pattern. Triggers on \"add wiki\", \"wiki\", \"knowledge base\", \"llm wiki\", \"karpathy wiki\".",
+  "tags": [
+    "add",
+    "karpathy",
+    "llm",
+    "wiki"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nanocoai/nanoclaw",
+    "path": ".claude/skills/add-karpathy-llm-wiki/SKILL.md",
+    "commit": "acc2b1c8f52a954368cfaf04b61c32f9a1efc280"
+  }
+}

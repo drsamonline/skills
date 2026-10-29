@@ -1,0 +1,23 @@
+{
+  "id": "api-fuzzing-bug-bounty",
+  "name": "api fuzzing bug bounty",
+  "category": "engineering-workflow",
+  "description": "This skill should be used when the user asks to \"test API security\", \"fuzz APIs\", \"find IDOR vulnerabilities\", \"test REST API\", \"test GraphQL\", \"API penetration testing\", \"bug bounty API testing\", or needs guidance on API security assessment techniques.",
+  "tags": [
+    "api",
+    "fuzzing",
+    "bug",
+    "bounty"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "zebbern/claude-code-guide",
+    "path": "skills/api-fuzzing-bug-bounty/SKILL.md",
+    "commit": "b50a31ad52510d148709b1eb61406952a02c3d19"
+  }
+}

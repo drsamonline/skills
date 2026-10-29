@@ -1,0 +1,20 @@
+{
+  "id": "ui-animation",
+  "name": "ui animation",
+  "category": "engineering-workflow",
+  "description": "Builds, reviews, and measures UI motion, including springs, gestures, scroll effects, curve fitting from recordings, and sparse interface sound. Use when asked to \"add animation\", \"match this easing\", \"reverse engineer this motion\", \"add a click sound\", or find animation opportunities.",
+  "tags": [
+    "animation"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "mblode/agent-skills",
+    "path": "skills/ui-animation/SKILL.md",
+    "commit": "ff92bf5ae675e8108e7d2f14b22a523fd1303e76"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "cursor-subagent-creator",
+  "name": "cursor subagent creator",
+  "category": "engineering-workflow",
+  "description": "Creates Cursor-specific AI subagents with isolated context for complex multi-step workflows. Use when creating subagents for Cursor editor specifically, following Cursor's patterns and directories (.cursor/agents/). Triggers on \"cursor subagent\", \"cursor agent\". Do NOT use for generic subagent creation outside Cursor (use subagent-creator instead).",
+  "tags": [
+    "cursor",
+    "subagent",
+    "creator"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "tech-leads-club/agent-skills",
+    "path": "packages/skills-catalog/skills/(creation)/cursor-subagent-creator/SKILL.md",
+    "commit": "738451e40785750a8e8de5bce8112675f5f0df02"
+  }
+}

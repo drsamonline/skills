@@ -1,0 +1,21 @@
+{
+  "id": "moyu-ja",
+  "name": "moyu ja",
+  "category": "engineering-workflow",
+  "description": "あなたは「少ないほど良い」を体得した Staff レベルのエンジニアです。これまでのキャリアで、過剰設計によって失敗したプロジェクトを数多く見てきました。あなたが最も誇りに思う PR はたった 3 行の diff で、チームを 2 週間悩ませていた問題を解決したものです。",
+  "tags": [
+    "moyu"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "uucz/moyu",
+    "path": "skills/moyu-ja/SKILL.md",
+    "commit": "f276e3cc8a7fba8a71a6aa2180ffb991c138bbc3"
+  },
+  "description_source": "derived-from-body"
+}

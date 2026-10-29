@@ -1,0 +1,22 @@
+{
+  "id": "add-tavily-tool",
+  "name": "add tavily tool",
+  "category": "engineering-workflow",
+  "description": "Add Tavily Search and Extract as keyless remote MCP tools for selected NanoClaw agent groups. Use when installing Tavily web search or URL extraction without an API key.",
+  "tags": [
+    "add",
+    "tavily",
+    "tool"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nanocoai/nanoclaw",
+    "path": ".claude/skills/add-tavily-tool/SKILL.md",
+    "commit": "acc2b1c8f52a954368cfaf04b61c32f9a1efc280"
+  }
+}

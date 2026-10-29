@@ -1,0 +1,22 @@
+{
+  "id": "selenium-skill",
+  "name": "selenium skill",
+  "category": "testing-qa",
+  "description": "You are a senior QA automation architect. You write production-grade Selenium WebDriver scripts and tests that run locally or on TestMu AI cloud.",
+  "tags": [
+    "selenium",
+    "skill"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "LambdaTest/agent-skills",
+    "path": "selenium-skill/SKILL.md",
+    "commit": "992638bccbc311f42c0bd8b2b3387a0d1ce6288d"
+  },
+  "description_source": "derived-from-body"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "browser-use",
+  "name": "browser use",
+  "category": "browser-automation",
+  "description": "Direct browser control via CDP for web interaction: automation, scraping, testing, screenshots, and site/app work. Also covers hosted cloud browsers for AI agents: the browser-use Python library (Browser(use_cloud=True)), Playwright, Puppeteer or any CDP client.",
+  "tags": [
+    "browser",
+    "use"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "browser-use/browser-use",
+    "path": "browser_use/skills/browser-use/SKILL.md",
+    "commit": "2cc71890e65056b67fdb29d98bb407749c15bb08"
+  }
+}

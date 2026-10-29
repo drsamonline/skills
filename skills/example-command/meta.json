@@ -1,0 +1,21 @@
+{
+  "id": "example-command",
+  "name": "example command",
+  "category": "engineering-workflow",
+  "description": "An example user-invoked skill that demonstrates frontmatter options and the skills/<name>/SKILL.md layout",
+  "tags": [
+    "example",
+    "command"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "anthropics/claude-plugins-official",
+    "path": "plugins/example-plugin/skills/example-command/SKILL.md",
+    "commit": "f8c5e7a1dcb71b10cb74586224b5401f3de5db28"
+  }
+}

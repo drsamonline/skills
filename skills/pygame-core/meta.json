@@ -1,0 +1,22 @@
+{
+  "id": "pygame-core",
+  "name": "pygame core",
+  "category": "game-dev",
+  "description": "Build the foundation of a pygame game in Python: the main loop, delta-time movement, drawing with Surface/Rect, input, and Sprite/Group management. Targets pygame-ce 2.5.8 (the actively maintained community fork; same import pygame), which supports Python 3.10–3.15.",
+  "tags": [
+    "pygame",
+    "core"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/other-engines/pygame-core/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

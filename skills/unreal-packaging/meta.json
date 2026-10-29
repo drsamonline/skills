@@ -1,0 +1,22 @@
+{
+  "id": "unreal-packaging",
+  "name": "unreal packaging",
+  "category": "game-dev",
+  "description": "Turn a UE5 project into a runnable, distributable build: choose the right build configuration, cook content, set the launch map, and package — from the editor or the command line. Targets UE 5.8.",
+  "tags": [
+    "unreal",
+    "packaging"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/unreal/unreal-packaging/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

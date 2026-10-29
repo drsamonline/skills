@@ -1,8 +1,8 @@
 {
   "id": "requesting-code-review",
   "name": "requesting code review",
-  "category": "engineering-workflow",
-  "description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
+  "category": "security-audit",
+  "description": "Use when requesting independent code review, after implementation slices, before merging high-risk work, or when verification exposes evidence, baseline, architecture, compatibility, or retirement uncertainty.",
   "tags": [
     "requesting",
     "code",
@@ -15,8 +15,8 @@
   "license": "MIT",
   "origin": "third-party",
   "upstream": {
-    "repo": "obra/superpowers",
+    "repo": "GanyuanRan/Aegis",
     "path": "skills/requesting-code-review/SKILL.md",
-    "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b"
+    "commit": "0461c211e4d812f0b215fab240a68a25c1e22424"
   }
 }

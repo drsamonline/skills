@@ -1,0 +1,21 @@
+{
+  "id": "button-states",
+  "name": "button states",
+  "category": "frontend-ui",
+  "description": "Rest, hover, active, focus, disabled and loading states, derived from the base colour. Use when designing buttons, links, inputs or any clickable component.",
+  "tags": [
+    "button",
+    "states"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "dembrandt/dembrandt-skills",
+    "path": "skills/button-states/SKILL.md",
+    "commit": "c4ad177dea5b864f779f8c722f28cf04f760cb22"
+  }
+}

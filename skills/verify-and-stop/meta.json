@@ -1,0 +1,22 @@
+{
+  "id": "verify-and-stop",
+  "name": "verify and stop",
+  "category": "engineering-workflow",
+  "description": "Prove existing work meets acceptance conditions without expanding scope. Use for validation-only tasks, completion checks, focused gate runs, and last-mile proof.",
+  "tags": [
+    "verify",
+    "and",
+    "stop"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "JuliusBrussee/caveman",
+    "path": "skills/verify-and-stop/SKILL.md",
+    "commit": "9b68f7ed12b05e7efaff18e65c5a3fc2849fd0a4"
+  }
+}

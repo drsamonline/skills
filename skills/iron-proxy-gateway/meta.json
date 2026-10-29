@@ -1,0 +1,22 @@
+{
+  "id": "iron-proxy-gateway",
+  "name": "iron proxy gateway",
+  "category": "engineering-workflow",
+  "description": "Use Iron Proxy for external accounts and APIs, including GitHub through gh. Connect credentials through the operator console and diagnose blocked requests without exposing tokens or adding unnecessary MCP servers.",
+  "tags": [
+    "iron",
+    "proxy",
+    "gateway"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nanocoai/nanoclaw",
+    "path": ".claude/skills/add-iron-proxy/payload/container/skills/iron-proxy-gateway/SKILL.md",
+    "commit": "acc2b1c8f52a954368cfaf04b61c32f9a1efc280"
+  }
+}

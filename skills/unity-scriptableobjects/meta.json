@@ -1,0 +1,22 @@
+{
+  "id": "unity-scriptableobjects",
+  "name": "unity scriptableobjects",
+  "category": "game-dev",
+  "description": "Use ScriptableObject assets to store shared data and decouple systems in Unity 6.3 LTS — configuration, event channels, and registries that live as project assets instead of being hard-wired into scenes or singletons. Targets Unity 6.3 LTS (6000.3).",
+  "tags": [
+    "unity",
+    "scriptableobjects"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/unity/unity-scriptableobjects/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

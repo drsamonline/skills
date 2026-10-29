@@ -1,0 +1,22 @@
+{
+  "id": "coordinated-data-views",
+  "name": "coordinated data views",
+  "category": "frontend-ui",
+  "description": "Show a table and its map, diagram, timeline or chart together, with selection synced both ways. Use when data appears in two representations at once.",
+  "tags": [
+    "coordinated",
+    "data",
+    "views"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "dembrandt/dembrandt-skills",
+    "path": "skills/coordinated-data-views/SKILL.md",
+    "commit": "c4ad177dea5b864f779f8c722f28cf04f760cb22"
+  }
+}

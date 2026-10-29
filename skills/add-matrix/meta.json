@@ -1,0 +1,21 @@
+{
+  "id": "add-matrix",
+  "name": "add matrix",
+  "category": "engineering-workflow",
+  "description": "Add Matrix channel integration via Chat SDK. Works with any Matrix homeserver.",
+  "tags": [
+    "add",
+    "matrix"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nanocoai/nanoclaw",
+    "path": ".claude/skills/add-matrix/SKILL.md",
+    "commit": "acc2b1c8f52a954368cfaf04b61c32f9a1efc280"
+  }
+}

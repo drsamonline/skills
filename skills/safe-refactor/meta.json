@@ -1,0 +1,21 @@
+{
+  "id": "safe-refactor",
+  "name": "safe refactor",
+  "category": "engineering-workflow",
+  "description": "Restructure code while preserving behavior. Use for extraction, consolidation, ownership moves, or cleanup where verification must bracket structural edits.",
+  "tags": [
+    "safe",
+    "refactor"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "JuliusBrussee/caveman",
+    "path": "skills/safe-refactor/SKILL.md",
+    "commit": "9b68f7ed12b05e7efaff18e65c5a3fc2849fd0a4"
+  }
+}

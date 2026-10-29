@@ -1,0 +1,21 @@
+{
+  "id": "social-selling",
+  "name": "social selling",
+  "category": "engineering-workflow",
+  "description": "When the user wants to sell through social media, optimize LinkedIn for sales, build DM sequences, or convert content engagement into pipeline. Also use when the user mentions 'social selling,' 'LinkedIn selling,' 'LinkedIn DMs,' 'social prospecting,' 'LinkedIn Sales Navigator,' 'DM sequences,' 'LinkedIn outreach,' 'social pipeline,' or 'LinkedIn optimization.' This skill covers social selling strategy from profile optimization through DM-to-deal conversion. Do NOT use for technical implementation, code review, or software architecture.",
+  "tags": [
+    "social",
+    "selling"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "tech-leads-club/agent-skills",
+    "path": "packages/skills-catalog/skills/(gtm)/social-selling/SKILL.md",
+    "commit": "738451e40785750a8e8de5bce8112675f5f0df02"
+  }
+}

@@ -16,5 +16,11 @@
     "repo": "testdino-hq/playwright-skill",
     "path": "ci/SKILL.md",
     "commit": "178d1cb537604279d7b54500c4823a6db42b9de6"
-  }
+  },
+  "variants": [
+    {
+      "repo": "zebbern__claude-code-guide",
+      "path": "skills/playwright/ci/SKILL.md"
+    }
+  ]
 }

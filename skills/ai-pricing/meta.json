@@ -1,0 +1,20 @@
+{
+  "id": "ai-pricing",
+  "name": "ai pricing",
+  "category": "engineering-workflow",
+  "description": "When the user wants to price an AI product, choose a charge metric, design pricing tiers, or optimize margins. Also use when the user mentions 'AI pricing,' 'usage-based pricing,' 'consumption pricing,' 'outcome pricing,' 'BYOK,' 'bring your own key,' 'per-seat pricing,' 'pricing tiers,' 'AI margins,' 'cost per token,' or 'pricing model.' This skill covers pricing strategy, packaging, and margin management for AI-native products. Do NOT use for technical implementation, code review, or software architecture.",
+  "tags": [
+    "pricing"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "tech-leads-club/agent-skills",
+    "path": "packages/skills-catalog/skills/(gtm)/ai-pricing/SKILL.md",
+    "commit": "738451e40785750a8e8de5bce8112675f5f0df02"
+  }
+}

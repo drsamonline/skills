@@ -1,0 +1,21 @@
+{
+  "id": "chart-image",
+  "name": "chart image",
+  "category": "engineering-workflow",
+  "description": "Generate publication-quality PNG chart images from data, supporting line, bar, area, candlestick, pie, and heatmap charts. Triggers when the user asks to visualize data, create a graph, plot a time series, or generate a chart for a report, alert, or dashboard. Runs as a lightweight, headless Node.js process without a browser.",
+  "tags": [
+    "chart",
+    "image"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "zebbern/claude-code-guide",
+    "path": "skills/chart-image/SKILL.md",
+    "commit": "b50a31ad52510d148709b1eb61406952a02c3d19"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "caveman-commit",
+  "name": "caveman commit",
+  "category": "engineering-workflow",
+  "description": "Write commit messages terse and exact. Conventional Commits format. No fluff. Why over what.",
+  "tags": [
+    "caveman",
+    "commit"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "JuliusBrussee/caveman",
+    "path": "skills/caveman-commit/SKILL.md",
+    "commit": "9b68f7ed12b05e7efaff18e65c5a3fc2849fd0a4"
+  },
+  "description_source": "derived-from-body"
+}

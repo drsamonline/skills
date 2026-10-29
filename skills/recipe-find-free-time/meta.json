@@ -1,0 +1,23 @@
+{
+  "id": "recipe-find-free-time",
+  "name": "recipe find free time",
+  "category": "google-workspace",
+  "description": "Query Google Calendar free/busy status for multiple users to find a meeting slot.",
+  "tags": [
+    "recipe",
+    "find",
+    "free",
+    "time"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "googleworkspace/cli",
+    "path": "skills/recipe-find-free-time/SKILL.md",
+    "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
+  }
+}

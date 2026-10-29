@@ -1,0 +1,22 @@
+{
+  "id": "add-iron-proxy",
+  "name": "add iron proxy",
+  "category": "engineering-workflow",
+  "description": "Install or refresh Iron Proxy and its official Iron Control web console for NanoClaw. Use when selecting the Iron gateway, adding its management UI, configuring credentials and grants, or restoring the proxy, approval bridge, and agent guidance.",
+  "tags": [
+    "add",
+    "iron",
+    "proxy"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nanocoai/nanoclaw",
+    "path": ".claude/skills/add-iron-proxy/SKILL.md",
+    "commit": "acc2b1c8f52a954368cfaf04b61c32f9a1efc280"
+  }
+}

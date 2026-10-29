@@ -1,0 +1,20 @@
+{
+  "id": "agents-md",
+  "name": "agents md",
+  "category": "engineering-workflow",
+  "description": "Audits and edits agent instruction files, verifies repository commands, and migrates repositories to AGENTS.md as the single shared source. Use when asked to \"improve my AGENTS.md\", \"migrate CLAUDE.md to AGENTS.md\", or make instructions work across agents.",
+  "tags": [
+    "agents"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "mblode/agent-skills",
+    "path": "skills/agents-md/SKILL.md",
+    "commit": "ff92bf5ae675e8108e7d2f14b22a523fd1303e76"
+  }
+}

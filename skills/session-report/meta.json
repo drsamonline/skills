@@ -1,0 +1,21 @@
+{
+  "id": "session-report",
+  "name": "session report",
+  "category": "engineering-workflow",
+  "description": "Generate an explorable HTML report of Claude Code session usage (tokens, cache, subagents, skills, expensive prompts) from ~/.claude/projects transcripts.",
+  "tags": [
+    "session",
+    "report"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "anthropics/claude-plugins-official",
+    "path": "plugins/session-report/skills/session-report/SKILL.md",
+    "commit": "f8c5e7a1dcb71b10cb74586224b5401f3de5db28"
+  }
+}

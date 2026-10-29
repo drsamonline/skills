@@ -1,0 +1,22 @@
+{
+  "id": "problem-framing-canvas",
+  "name": "problem framing canvas",
+  "category": "product-management",
+  "description": "Guide teams through MITRE's Problem Framing Canvas. Use when you need a clearer problem statement before jumping to solutions.",
+  "tags": [
+    "problem",
+    "framing",
+    "canvas"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "see LICENSE",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "deanpeters/Product-Manager-Skills",
+    "path": "skills/problem-framing-canvas/SKILL.md",
+    "commit": "cfcb697f14b8891d8b3ec43c16c3547df3e70e13"
+  }
+}

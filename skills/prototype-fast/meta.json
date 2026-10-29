@@ -1,0 +1,22 @@
+{
+  "id": "prototype-fast",
+  "name": "prototype fast",
+  "category": "game-dev",
+  "description": "Get a mechanic into a player's hands fast to learn whether it's worth building. The output of a prototype is a decision (keep / kill / refactor), not a product. Optimize for learning speed, and decide up front whether the code is throwaway or load-bearing.",
+  "tags": [
+    "prototype",
+    "fast"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/workflows/prototype-fast/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

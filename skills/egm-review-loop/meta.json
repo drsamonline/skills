@@ -1,0 +1,23 @@
+{
+  "id": "egm-review-loop",
+  "name": "egm review loop",
+  "category": "docs-and-planning",
+  "description": "When running in Codex or ChatGPT Work, first read Codex integration(../../docs/codex.md). In Claude Code or Cowork, read ${CLAUDEPLUGINROOT}/docs/claude.md first.",
+  "tags": [
+    "egm",
+    "review",
+    "loop"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/elephant-goldfish-model",
+    "path": "distributions/claude/skills/egm-review-loop/SKILL.md",
+    "commit": "f0ba151b252c9abf1318d9fe857a43265d06de89"
+  },
+  "description_source": "derived-from-body"
+}

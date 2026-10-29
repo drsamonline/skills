@@ -1,0 +1,22 @@
+{
+  "id": "social-spotify-card",
+  "name": "social spotify card",
+  "category": "frontend-ui",
+  "description": "Spotify Now Playing 风格卡: 专辑封面 + 进度条 + 播放控制, 适配视频叠加 / 个人主页",
+  "tags": [
+    "social",
+    "spotify",
+    "card"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nexu-io/html-anything",
+    "path": "next/src/lib/templates/skills/social-spotify-card/SKILL.md",
+    "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
+  }
+}

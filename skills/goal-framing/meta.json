@@ -1,0 +1,21 @@
+{
+  "id": "goal-framing",
+  "name": "goal framing",
+  "category": "security-audit",
+  "description": "Use when the user explicitly sets an Aegis goal with /aegis-goal, Aegis goal:, or asks to define goal, success evidence, stop condition, or task boundaries before work.",
+  "tags": [
+    "goal",
+    "framing"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "GanyuanRan/Aegis",
+    "path": "skills/goal-framing/SKILL.md",
+    "commit": "0461c211e4d812f0b215fab240a68a25c1e22424"
+  }
+}

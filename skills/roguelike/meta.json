@@ -1,0 +1,21 @@
+{
+  "id": "roguelike",
+  "name": "roguelike",
+  "category": "game-dev",
+  "description": "A playbook for roguelikes — the turn engine, procedural dungeons, field-of-view, permadeath, and run economy. This is a compositional skill: it orchestrates procedural generation, tilemaps, save handling, and AI into a run-based game. It does not re-teach noise/RNG or tilemap APIs; it defines the loop and the systems that make a run compelling.",
+  "tags": [
+    "roguelike"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/genres/roguelike/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

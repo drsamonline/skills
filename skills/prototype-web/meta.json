@@ -1,0 +1,21 @@
+{
+  "id": "prototype-web",
+  "name": "prototype web",
+  "category": "frontend-ui",
+  "description": "可点击的功能性 Web 原型, 含导航、英雄区、特性区、CTA",
+  "tags": [
+    "prototype",
+    "web"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nexu-io/html-anything",
+    "path": "next/src/lib/templates/skills/prototype-web/SKILL.md",
+    "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
+  }
+}

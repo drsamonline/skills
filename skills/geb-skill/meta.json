@@ -1,0 +1,22 @@
+{
+  "id": "geb-skill",
+  "name": "geb skill",
+  "category": "testing-qa",
+  "description": "For TestMu AI cloud execution, see reference/cloud-integration.md(reference/cloud-integration.md) and shared/testmu-cloud-reference.md(../shared/testmu-cloud-reference.md).",
+  "tags": [
+    "geb",
+    "skill"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "LambdaTest/agent-skills",
+    "path": "geb-skill/SKILL.md",
+    "commit": "992638bccbc311f42c0bd8b2b3387a0d1ce6288d"
+  },
+  "description_source": "derived-from-body"
+}

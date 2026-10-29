@@ -1,0 +1,22 @@
+{
+  "id": "three-best-practices",
+  "name": "three best practices",
+  "category": "engineering-workflow",
+  "description": "Three.js performance optimization and best practices guidelines. Use when writing, reviewing, or optimizing Three.js code. Triggers on tasks involving 3D scenes, WebGL/WebGPU rendering, geometries, materials, textures, lighting, shaders, or TSL.",
+  "tags": [
+    "three",
+    "best",
+    "practices"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "zebbern/claude-code-guide",
+    "path": "skills/three-best-practices/SKILL.md",
+    "commit": "b50a31ad52510d148709b1eb61406952a02c3d19"
+  }
+}

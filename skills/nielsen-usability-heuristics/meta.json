@@ -1,0 +1,22 @@
+{
+  "id": "nielsen-usability-heuristics",
+  "name": "nielsen usability heuristics",
+  "category": "frontend-ui",
+  "description": "Nielsen's 10 usability heuristics. Use when auditing an interface, designing interaction flows, writing error messages or reviewing usability.",
+  "tags": [
+    "nielsen",
+    "usability",
+    "heuristics"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "dembrandt/dembrandt-skills",
+    "path": "skills/nielsen-usability-heuristics/SKILL.md",
+    "commit": "c4ad177dea5b864f779f8c722f28cf04f760cb22"
+  }
+}

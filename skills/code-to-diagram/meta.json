@@ -1,0 +1,21 @@
+{
+  "id": "code-to-diagram",
+  "name": "code to diagram",
+  "category": "engineering-workflow",
+  "description": "Analyze codebases and automatically generate architecture diagrams, flowcharts, and org charts. Uses AST parsing to map import dependencies for Python, JS/TS, Go, and Java, outputting Mermaid or SVG files. Triggered when users ask to visualize code architecture, understand dependencies, draw a flowchart, or create a module diagram from source code.",
+  "tags": [
+    "code",
+    "diagram"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "zebbern/claude-code-guide",
+    "path": "skills/code-to-diagram/SKILL.md",
+    "commit": "b50a31ad52510d148709b1eb61406952a02c3d19"
+  }
+}

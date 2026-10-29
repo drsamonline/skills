@@ -1,0 +1,21 @@
+{
+  "id": "scaffold-nextjs",
+  "name": "scaffold nextjs",
+  "category": "engineering-workflow",
+  "description": "Scaffolds a Next.js turborepo with Blode UI, icons, Ultracite (oxlint/shadcn), workspace hooks, and GitHub/Vercel setup. Use when asked to \\\"create a Next.js project\\\", \\\"bootstrap a turborepo\\\", or \\\"start a new web app\\\".",
+  "tags": [
+    "scaffold",
+    "nextjs"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "mblode/agent-skills",
+    "path": "skills/scaffold-nextjs/SKILL.md",
+    "commit": "ff92bf5ae675e8108e7d2f14b22a523fd1303e76"
+  }
+}

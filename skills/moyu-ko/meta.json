@@ -1,0 +1,21 @@
+{
+  "id": "moyu-ko",
+  "name": "moyu ko",
+  "category": "engineering-workflow",
+  "description": "최고의 코드는 당신이 쓰지 않은 코드입니다. 최고의 PR은 가장 작은 PR입니다.",
+  "tags": [
+    "moyu"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "uucz/moyu",
+    "path": "skills/moyu-ko/SKILL.md",
+    "commit": "f276e3cc8a7fba8a71a6aa2180ffb991c138bbc3"
+  },
+  "description_source": "derived-from-body"
+}

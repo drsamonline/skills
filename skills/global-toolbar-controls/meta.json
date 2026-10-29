@@ -1,0 +1,22 @@
+{
+  "id": "global-toolbar-controls",
+  "name": "global toolbar controls",
+  "category": "frontend-ui",
+  "description": "Currency, language, region and unit selectors live in a low-profile header or footer spot. Use when designing locale switchers or product-wide preference controls.",
+  "tags": [
+    "global",
+    "toolbar",
+    "controls"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "dembrandt/dembrandt-skills",
+    "path": "skills/global-toolbar-controls/SKILL.md",
+    "commit": "c4ad177dea5b864f779f8c722f28cf04f760cb22"
+  }
+}

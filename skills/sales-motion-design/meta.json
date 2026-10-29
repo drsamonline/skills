@@ -1,0 +1,22 @@
+{
+  "id": "sales-motion-design",
+  "name": "sales motion design",
+  "category": "engineering-workflow",
+  "description": "When the user wants to choose between PLG and sales-led, design a sales motion, optimize time-to-first-value, or build a value-before-purchase experience. Also use when the user mentions 'PLG,' 'product-led growth,' 'sales-led,' 'sales motion,' 'free trial,' 'freemium,' 'self-serve,' 'demo-first,' 'time-to-first-value,' 'TTFV,' or 'agent-led sales.' This skill covers sales motion selection, value delivery design, and go-to-market motion architecture. Do NOT use for technical implementation, code review, or software architecture.",
+  "tags": [
+    "sales",
+    "motion",
+    "design"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "tech-leads-club/agent-skills",
+    "path": "packages/skills-catalog/skills/(gtm)/sales-motion-design/SKILL.md",
+    "commit": "738451e40785750a8e8de5bce8112675f5f0df02"
+  }
+}

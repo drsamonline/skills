@@ -1,0 +1,23 @@
+{
+  "id": "api-health-monitoring",
+  "name": "api health monitoring",
+  "category": "testing-qa",
+  "description": "Design complete observability stacks for any API: health checks, metrics, alerting, and dashboards.",
+  "tags": [
+    "api",
+    "health",
+    "monitoring"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "LambdaTest/agent-skills",
+    "path": "api-skill/api-health-monitoring/SKILL.md",
+    "commit": "992638bccbc311f42c0bd8b2b3387a0d1ce6288d"
+  },
+  "description_source": "derived-from-body"
+}

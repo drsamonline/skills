@@ -1,0 +1,20 @@
+{
+  "id": "eli5",
+  "name": "eli5",
+  "category": "engineering-workflow",
+  "description": "Picks the form that explains best and applies the house explanation style: plain prose, controlled English modelled on ASD-STE100, a diagram, an interactive HTML page, or a narrated explainer video. Use when asked for \\\"ELI5\\\", \\\"plain English\\\", \\\"re-pitch that\\\", \\\"stop using jargon\\\", \\\"explain it in STE100\\\", \\\"draw me a diagram of how this works\\\", \\\"make an interactive explainer\\\", or \\\"make a 3b1b style video on X\\\".",
+  "tags": [
+    "eli5"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "mblode/agent-skills",
+    "path": "skills/eli5/SKILL.md",
+    "commit": "ff92bf5ae675e8108e7d2f14b22a523fd1303e76"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "postman-collection-generator",
+  "name": "postman collection generator",
+  "category": "testing-qa",
+  "description": "Generates a valid, import-ready Postman Collection v2.1 JSON from: - Natural language API descriptions - cURL commands (one or many) - Mixed input (some endpoints described, some as cURL)",
+  "tags": [
+    "postman",
+    "collection",
+    "generator"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "LambdaTest/agent-skills",
+    "path": "api-skill/postman/postman-collection-generator/SKILL.md",
+    "commit": "992638bccbc311f42c0bd8b2b3387a0d1ce6288d"
+  },
+  "description_source": "derived-from-body"
+}

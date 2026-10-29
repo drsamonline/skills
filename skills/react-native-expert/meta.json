@@ -1,0 +1,22 @@
+{
+  "id": "react-native-expert",
+  "name": "react native expert",
+  "category": "engineering-workflow",
+  "description": "Senior React Native and Expo engineer for building production-ready cross-platform mobile apps. Use when building React Native components, implementing navigation with Expo Router, optimizing list and scroll performance, working with animations via Reanimated, handling platform-specific code (iOS/Android), integrating native modules, or structuring Expo projects. Triggers on React Native, Expo, mobile app, iOS app, Android app, cross-platform, native module, FlatList, FlashList, LegendList, Reanimated, Expo Router, mobile performance, app store. Do NOT use for Flutter, web-only React, or backend Node.js tasks.",
+  "tags": [
+    "react",
+    "native",
+    "expert"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "tech-leads-club/agent-skills",
+    "path": "packages/skills-catalog/skills/(development)/react-native-expert/SKILL.md",
+    "commit": "738451e40785750a8e8de5bce8112675f5f0df02"
+  }
+}

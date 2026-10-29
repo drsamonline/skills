@@ -1,0 +1,21 @@
+{
+  "id": "skill-development",
+  "name": "skill development",
+  "category": "engineering-workflow",
+  "description": "This skill should be used when the user wants to \"create a skill\", \"add a skill to plugin\", \"write a new skill\", \"improve skill description\", \"organize skill content\", or needs guidance on skill structure, progressive disclosure, or skill development best practices for Claude Code plugins.",
+  "tags": [
+    "skill",
+    "development"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "anthropics/claude-plugins-official",
+    "path": "plugins/plugin-dev/skills/skill-development/SKILL.md",
+    "commit": "f8c5e7a1dcb71b10cb74586224b5401f3de5db28"
+  }
+}

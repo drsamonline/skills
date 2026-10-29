@@ -1,0 +1,22 @@
+{
+  "id": "design-system-builder",
+  "name": "design system builder",
+  "category": "engineering-workflow",
+  "description": "Extract design systems from reference UI images and generate implementation-ready UI design prompts. Use when users provide UI screenshots/mockups and want to create consistent designs, generate design systems, or build MVP UIs matching reference aesthetics.",
+  "tags": [
+    "design",
+    "system",
+    "builder"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "zebbern/claude-code-guide",
+    "path": "skills/design-system-builder/SKILL.md",
+    "commit": "b50a31ad52510d148709b1eb61406952a02c3d19"
+  }
+}

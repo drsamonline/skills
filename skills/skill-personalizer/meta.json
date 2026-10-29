@@ -1,0 +1,21 @@
+{
+  "id": "skill-personalizer",
+  "name": "skill personalizer",
+  "category": "engineering-workflow",
+  "description": "Use when auditing or adapting newly created, downloaded, forked, installed, or community Agent Skills to the user's tools, habits, directories, session history, and preferred workflows, especially when triggers feel wrong, noisy, or too generic.",
+  "tags": [
+    "skill",
+    "personalizer"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "hqhq1025/skill-optimizer",
+    "path": "skills/skill-personalizer/SKILL.md",
+    "commit": "b9ffd1513e84136b72e2b6f041dc1ebfd9e23a84"
+  }
+}

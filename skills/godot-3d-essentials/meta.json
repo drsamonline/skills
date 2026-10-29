@@ -1,0 +1,22 @@
+{
+  "id": "godot-3d-essentials",
+  "name": "godot 3d essentials",
+  "category": "game-dev",
+  "description": "Assemble a working 3D scene: transforms, camera, lights, environment/post, materials, and GridMap blockouts. Targets Godot 4.7.",
+  "tags": [
+    "godot",
+    "essentials"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/godot/godot-3d-essentials/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "ui-density",
+  "name": "ui density",
+  "category": "frontend-ui",
+  "description": "Match information density to platform and user type. Use when designing data tables, dashboards or toolbars, or adapting a desktop product for mobile.",
+  "tags": [
+    "density"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "dembrandt/dembrandt-skills",
+    "path": "skills/ui-density/SKILL.md",
+    "commit": "c4ad177dea5b864f779f8c722f28cf04f760cb22"
+  }
+}

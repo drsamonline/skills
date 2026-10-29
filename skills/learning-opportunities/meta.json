@@ -1,0 +1,21 @@
+{
+  "id": "learning-opportunities",
+  "name": "learning opportunities",
+  "category": "engineering-workflow",
+  "description": "Facilitates deliberate skill development during AI-assisted coding. Offers interactive learning exercises after architectural work (new files, schema changes, refactors). Use when completing features, making design decisions, or when user asks to understand code better. Triggers on \"learning exercise\", \"help me understand\", \"teach me\", \"why does this work\", or after creating new files/modules. Do NOT use for urgent debugging, quick fixes, or when user says \"just ship it\".",
+  "tags": [
+    "learning",
+    "opportunities"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "tech-leads-club/agent-skills",
+    "path": "packages/skills-catalog/skills/(learning)/learning-opportunities/SKILL.md",
+    "commit": "738451e40785750a8e8de5bce8112675f5f0df02"
+  }
+}

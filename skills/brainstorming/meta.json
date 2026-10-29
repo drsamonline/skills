@@ -1,8 +1,8 @@
 {
   "id": "brainstorming",
   "name": "brainstorming",
-  "category": "engineering-workflow",
-  "description": "You MUST use this before any creative work - creating features, building components, adding functionality, modifying behavior, or planning anything new, in software or out of it (a talk, a business, a renovation).",
+  "category": "security-audit",
+  "description": "Use when defining ambiguous or high-complexity new features, product behavior, UI/component design, architecture choices, contract changes, or when grilling/pressure-testing a plan or design. Routine small requests stay on the fast path.",
   "tags": [
     "brainstorming"
   ],
@@ -13,8 +13,14 @@
   "license": "MIT",
   "origin": "third-party",
   "upstream": {
-    "repo": "obra/superpowers",
+    "repo": "GanyuanRan/Aegis",
     "path": "skills/brainstorming/SKILL.md",
-    "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b"
-  }
+    "commit": "0461c211e4d812f0b215fab240a68a25c1e22424"
+  },
+  "variants": [
+    {
+      "repo": "GanyuanRan__Aegis",
+      "path": "skills/brainstorming/SKILL.md"
+    }
+  ]
 }

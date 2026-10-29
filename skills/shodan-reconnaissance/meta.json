@@ -1,0 +1,21 @@
+{
+  "id": "shodan-reconnaissance",
+  "name": "shodan reconnaissance",
+  "category": "engineering-workflow",
+  "description": "This skill should be used when the user asks to \"search for exposed devices on the internet,\" \"perform Shodan reconnaissance,\" \"find vulnerable services using Shodan,\" \"scan IP ranges with Shodan,\" or \"discover IoT devices and open ports.\" It provides comprehensive guidance for using Shodan's search engine, CLI, and API for penetration testing reconnaissance.",
+  "tags": [
+    "shodan",
+    "reconnaissance"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "zebbern/claude-code-guide",
+    "path": "skills/shodan-reconnaissance/SKILL.md",
+    "commit": "b50a31ad52510d148709b1eb61406952a02c3d19"
+  }
+}

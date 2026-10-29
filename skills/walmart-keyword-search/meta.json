@@ -1,0 +1,22 @@
+{
+  "id": "walmart-keyword-search",
+  "name": "walmart keyword search",
+  "category": "browser-automation",
+  "description": "Walmart keyword search scraper: input a search keyword and page number, navigate to walmart.com search results, extract paginated product listings with itemId, url, title, brand, image, price, wasPrice, rating, reviewCount, availability, seller info, fulfillmentBadge, classType, and shortDescription. Use when user mentions walmart search, walmart keyword search, search walmart products, scrape walmart search results, walmart search scraper, walmart product search, search items on walmart, walmart search by keyword, walmart product listing, get walmart search data, extract walmart products, walmart search results scraper, walmart shop search, walmart catalog search, walmart product list by keyword, walmart browse by keyword. Also applies to price comparison research on walmart, finding walmart product URLs in bulk, monitoring walmart search rankings, collecting walmart product data by category keyword.",
+  "tags": [
+    "walmart",
+    "keyword",
+    "search"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "browser-act/skills",
+    "path": "solutions/ecommerce/walmart-keyword-search/SKILL.md",
+    "commit": "11c057b03f92101642cadc9f840564574120d184"
+  }
+}

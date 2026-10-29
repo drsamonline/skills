@@ -1,0 +1,27 @@
+{
+  "id": "agent-browser",
+  "name": "agent browser",
+  "category": "engineering-workflow",
+  "description": "Browse the web for any task — research topics, read articles, interact with web apps, fill forms, take screenshots, extract data, and test web pages. Use whenever a browser would be useful, not just when the user explicitly asks.",
+  "tags": [
+    "agent",
+    "browser"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nanocoai/nanoclaw",
+    "path": "container/skills/agent-browser/SKILL.md",
+    "commit": "acc2b1c8f52a954368cfaf04b61c32f9a1efc280"
+  },
+  "variants": [
+    {
+      "repo": "vercel-labs/agent-browser",
+      "path": "skills/agent-browser/SKILL.md"
+    }
+  ]
+}

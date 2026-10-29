@@ -1,0 +1,22 @@
+{
+  "id": "n8n-multi-instance",
+  "name": "n8n multi instance",
+  "category": "engineering-workflow",
+  "description": "Use when an n8n-mcp account targets more than one n8n instance — i.e. the `n8n_instances` tool is available, the user mentions multiple n8n instances or environments (prod vs staging, several teams or clients), several agents or chats work on one account in parallel, a workflow / datatable / credential / execution call returns an unexpected NOT_FOUND or reads data you don't recognize, or a call is refused with `INSTANCE_AMBIGUOUS` or `INSTANCE_NOT_FOUND`. Covers naming the target instance on each call with the `instance` argument, setting the default with `switch`, verifying the target before high-stakes work — credential writes above all — and recovering from misroutes and fail-closes. Always consult this skill before operating on a specific instance, before any credential create/update/delete on a multi-instance account, or when a call hits the wrong/empty data or an instance error.",
+  "tags": [
+    "n8n",
+    "multi",
+    "instance"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "czlonkowski/n8n-skills",
+    "path": "skills/n8n-multi-instance/SKILL.md",
+    "commit": "e037563e101749e630e6688d121d04529fe6ee7b"
+  }
+}

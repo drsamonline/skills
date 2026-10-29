@@ -1,0 +1,22 @@
+{
+  "id": "nightwatchjs-skill",
+  "name": "nightwatchjs skill",
+  "category": "testing-qa",
+  "description": "├─ \"cloud\", \"TestMu\", \"LambdaTest\" → Cloud: nightwatch.conf.js with LT env ├─ \"local\" → Local: ChromeDriver/GeckoDriver └─ Default → Local, mention cloud option",
+  "tags": [
+    "nightwatchjs",
+    "skill"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "LambdaTest/agent-skills",
+    "path": "nightwatchjs-skill/SKILL.md",
+    "commit": "992638bccbc311f42c0bd8b2b3387a0d1ce6288d"
+  },
+  "description_source": "derived-from-body"
+}

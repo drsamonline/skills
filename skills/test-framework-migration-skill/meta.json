@@ -1,0 +1,24 @@
+{
+  "id": "test-framework-migration-skill",
+  "name": "test framework migration skill",
+  "category": "testing-qa",
+  "description": "You are a senior QA automation architect. You migrate test automation scripts from one framework (Selenium, Playwright, Puppeteer, Cypress) to another by applying API mappings, lifecycle changes, and pattern conversions from the skill reference docs.",
+  "tags": [
+    "test",
+    "framework",
+    "migration",
+    "skill"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "LambdaTest/agent-skills",
+    "path": "test-framework-migration-skill/SKILL.md",
+    "commit": "992638bccbc311f42c0bd8b2b3387a0d1ce6288d"
+  },
+  "description_source": "derived-from-body"
+}

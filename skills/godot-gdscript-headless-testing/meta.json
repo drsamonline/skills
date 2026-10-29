@@ -1,0 +1,24 @@
+{
+  "id": "godot-gdscript-headless-testing",
+  "name": "godot gdscript headless testing",
+  "category": "game-dev",
+  "description": "Run GDScript tests from the command line, without the editor GUI, and get a real process exit code CI can act on. Targets Godot 4.7 headless CLI.",
+  "tags": [
+    "godot",
+    "gdscript",
+    "headless",
+    "testing"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/godot/godot-gdscript-headless-testing/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

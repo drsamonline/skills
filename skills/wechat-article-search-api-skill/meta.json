@@ -1,0 +1,24 @@
+{
+  "id": "wechat-article-search-api-skill",
+  "name": "wechat article search api skill",
+  "category": "browser-automation",
+  "description": "This skill helps users extract full article contents from WeChat using the BrowserAct API. The Agent should proactively apply this skill when users express needs like finding full WeChat articles for specific keywords, tracking WeChat public accounts for industry trends, extracting WeChat article contents for media research, monitoring public relations on WeChat platforms, collecting competitor updates from WeChat, getting full article body from WeChat links, monitoring brand exposure on WeChat articles, retrieving structured WeChat data for sentiment analysis, summarizing daily news from WeChat, getting author and publication date for WeChat articles, or automating WeChat content extraction without scraping.",
+  "tags": [
+    "wechat",
+    "article",
+    "search",
+    "api",
+    "skill"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "browser-act/skills",
+    "path": "solutions/social-listening/wechat-article-search-api-skill/SKILL.md",
+    "commit": "11c057b03f92101642cadc9f840564574120d184"
+  }
+}

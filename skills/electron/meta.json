@@ -1,0 +1,20 @@
+{
+  "id": "electron",
+  "name": "electron",
+  "category": "browser-automation",
+  "description": "Automate Electron desktop apps (VS Code, Slack, Discord, Figma, Notion, Spotify, etc.) using agent-browser via Chrome DevTools Protocol. Use when the user needs to interact with an Electron app, automate a desktop app, connect to a running app, control a native app, or test an Electron application. Triggers include \"automate Slack app\", \"control VS Code\", \"interact with Discord app\", \"test this Electron app\", \"connect to desktop app\", or any task requiring automation of a native Electron application.",
+  "tags": [
+    "electron"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "vercel-labs/agent-browser",
+    "path": "skill-data/electron/SKILL.md",
+    "commit": "1453dd37a40c730fe00f592bc32198a896ff8747"
+  }
+}

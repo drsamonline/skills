@@ -1,0 +1,22 @@
+{
+  "id": "caveman-manage",
+  "name": "caveman manage",
+  "category": "engineering-workflow",
+  "description": "Treat every lifecycle change as a production control action. Read current state and results, then report one supported recommendation or block. Current agent MCP is intentionally read-only: control-api does not yet enforce a complete lifecycle transition table and evidence gate atomically.",
+  "tags": [
+    "caveman",
+    "manage"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "JuliusBrussee/caveman",
+    "path": "skills/caveman-manage/SKILL.md",
+    "commit": "9b68f7ed12b05e7efaff18e65c5a3fc2849fd0a4"
+  },
+  "description_source": "derived-from-body"
+}

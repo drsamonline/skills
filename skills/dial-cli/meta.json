@@ -1,0 +1,21 @@
+{
+  "id": "dial-cli",
+  "name": "dial cli",
+  "category": "engineering-workflow",
+  "description": "Reference for the `dial` CLI — gives you a real phone number to send SMS, place AI voice calls, and receive inbound texts/codes via the Dial platform (getdial.ai). Use when the user mentions phones, calls, texts, SMS, voice, OTP, 2FA, or verification codes; when they ask to text, call, ring, or wait for a code from someone; before running any `dial …` command for the first time in a session; or when investigating what the Dial platform can do. Load this skill before invoking the CLI — `dial --help` alone will not surface the workflows, the `--json` conventions, or the docs-lookup pattern needed to use Dial correctly.",
+  "tags": [
+    "dial",
+    "cli"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nanocoai/nanoclaw",
+    "path": ".claude/skills/add-dial-tool/container-skills/dial-cli/SKILL.md",
+    "commit": "acc2b1c8f52a954368cfaf04b61c32f9a1efc280"
+  }
+}

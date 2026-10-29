@@ -1,0 +1,22 @@
+{
+  "id": "etsy-keyword-search",
+  "name": "etsy keyword search",
+  "category": "browser-automation",
+  "description": "Etsy keyword search scraper: given a search keyword and optional page number, returns paginated product listings with listingId, shopId, title, url, image, salePrice, originalPrice, currency, rating, reviewCount, shopName, isAd, freeShipping, badge from etsy.com search results. Use when user mentions Etsy, etsy.com, Etsy search, search Etsy by keyword, scrape Etsy listings, extract Etsy products, Etsy product search, Etsy marketplace search, find products on Etsy, Etsy handmade search, Etsy vintage search, Etsy craft search, bulk Etsy product export, Etsy price monitoring, Etsy competitor research, Etsy top listings, Etsy bestseller extraction, Etsy sales data, Etsy shop discovery via keyword. Also applies to trend research on handmade or craft niches, competitor keyword ranking on Etsy, sourcing Etsy suppliers by product type, and any paginated bulk product collection driven by a search keyword.",
+  "tags": [
+    "etsy",
+    "keyword",
+    "search"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "browser-act/skills",
+    "path": "solutions/ecommerce/etsy-keyword-search/SKILL.md",
+    "commit": "11c057b03f92101642cadc9f840564574120d184"
+  }
+}

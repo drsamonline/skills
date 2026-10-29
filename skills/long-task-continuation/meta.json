@@ -1,0 +1,22 @@
+{
+  "id": "long-task-continuation",
+  "name": "long task continuation",
+  "category": "security-audit",
+  "description": "Use when a task is multi-step, may span context resets or sessions, uses subagents, or risks losing state before completion.",
+  "tags": [
+    "long",
+    "task",
+    "continuation"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "GanyuanRan/Aegis",
+    "path": "skills/long-task-continuation/SKILL.md",
+    "commit": "0461c211e4d812f0b215fab240a68a25c1e22424"
+  }
+}

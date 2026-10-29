@@ -1,0 +1,22 @@
+{
+  "id": "add-ollama-tool",
+  "name": "add ollama tool",
+  "category": "engineering-workflow",
+  "description": "Add Ollama MCP server so the container agent can call local models and optionally manage the Ollama model library.",
+  "tags": [
+    "add",
+    "ollama",
+    "tool"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nanocoai/nanoclaw",
+    "path": ".claude/skills/add-ollama-tool/SKILL.md",
+    "commit": "acc2b1c8f52a954368cfaf04b61c32f9a1efc280"
+  }
+}

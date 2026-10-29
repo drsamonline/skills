@@ -1,0 +1,22 @@
+{
+  "id": "audio-design",
+  "name": "audio design",
+  "category": "game-dev",
+  "description": "Game audio is a mixing graph plus a music system. Route every sound through a small set of buses so you can balance and process groups; make music react to play through layering and re-sequencing rather than looping one track. This skill teaches the portable practice; bind it to godot-audio, Unity's AudioMixer, or middleware (FMOD/Wwise) for concrete APIs.",
+  "tags": [
+    "audio",
+    "design"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/disciplines/audio-design/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

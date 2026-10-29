@@ -1,0 +1,22 @@
+{
+  "id": "migrate-slack-agents",
+  "name": "migrate slack agents",
+  "category": "engineering-workflow",
+  "description": "Migrate a classic single-bot Slack install to one provisioned Slack app per existing agent group while preserving agent identities, workspaces, memory, and wiring behavior — or record the operator's choice to stay on classic, which remains supported. Use when /update-nanoclaw surfaces the Slack agents requirement, or standalone any time later.",
+  "tags": [
+    "migrate",
+    "slack",
+    "agents"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nanocoai/nanoclaw",
+    "path": ".claude/skills/migrate-slack-agents/SKILL.md",
+    "commit": "acc2b1c8f52a954368cfaf04b61c32f9a1efc280"
+  }
+}

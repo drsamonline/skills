@@ -1,0 +1,20 @@
+{
+  "id": "brand",
+  "name": "brand",
+  "category": "frontend-ui",
+  "description": "Brand voice, visual identity, messaging frameworks, asset management, brand consistency. Activate for branded content, tone of voice, marketing assets, brand compliance, style guides.",
+  "tags": [
+    "brand"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+    "path": ".claude/skills/brand/SKILL.md",
+    "commit": "28b3b8dee8c976df4fa3e94aed4e092ad43fcb03"
+  }
+}

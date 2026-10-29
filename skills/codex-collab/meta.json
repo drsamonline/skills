@@ -1,0 +1,21 @@
+{
+  "id": "codex-collab",
+  "name": "codex collab",
+  "category": "engineering-workflow",
+  "description": "Use when the user asks to invoke, delegate to, or collaborate with Codex on any task. Also use PROACTIVELY when an independent, non-Claude perspective from Codex would add value — second opinions on code, plans, architecture, or design decisions.",
+  "tags": [
+    "codex",
+    "collab"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "Kevin7Qi/codex-collab",
+    "path": "SKILL.md",
+    "commit": "1212a0e0447f93b25f934e5e485c5f40fae16ed8"
+  }
+}

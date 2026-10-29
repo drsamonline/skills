@@ -1,0 +1,23 @@
+{
+  "id": "tam-sam-som-calculator",
+  "name": "tam sam som calculator",
+  "category": "product-management",
+  "description": "Calculate TAM, SAM, and SOM with explicit assumptions, methods, and caveats. Use when sizing a market for a product idea, business case, or executive review.",
+  "tags": [
+    "tam",
+    "sam",
+    "som",
+    "calculator"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "see LICENSE",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "deanpeters/Product-Manager-Skills",
+    "path": "skills/tam-sam-som-calculator/SKILL.md",
+    "commit": "cfcb697f14b8891d8b3ec43c16c3547df3e70e13"
+  }
+}

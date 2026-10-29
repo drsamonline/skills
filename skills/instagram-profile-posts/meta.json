@@ -1,0 +1,22 @@
+{
+  "id": "instagram-profile-posts",
+  "name": "instagram profile posts",
+  "category": "browser-automation",
+  "description": "Scrapes posts from an Instagram user's profile feed including captions, media URLs, like/comment counts, timestamps and location tags. Use when user mentions scraping Instagram posts, download Instagram feed, get posts from Instagram account, IG profile posts, Instagram user posts, pull posts from Instagram, Instagram post list, get someone's Instagram content, batch download Instagram, Instagram media scraper.",
+  "tags": [
+    "instagram",
+    "profile",
+    "posts"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "browser-act/skills",
+    "path": "solutions/social-listening/instagram-profile-posts/SKILL.md",
+    "commit": "11c057b03f92101642cadc9f840564574120d184"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chrome-devtools",
+  "name": "chrome devtools",
+  "category": "engineering-workflow",
+  "description": "Browser debugging, performance profiling, and automation via Chrome DevTools MCP. Use when user says \"debug this page\", \"take a screenshot\", \"check network requests\", \"profile performance\", \"inspect console errors\", or \"analyze page load\". Do NOT use for full E2E test suites (use playwright-skill) or non-browser debugging.",
+  "tags": [
+    "chrome",
+    "devtools"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "tech-leads-club/agent-skills",
+    "path": "packages/skills-catalog/skills/(tooling)/chrome-devtools/SKILL.md",
+    "commit": "738451e40785750a8e8de5bce8112675f5f0df02"
+  }
+}

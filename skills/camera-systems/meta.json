@@ -1,0 +1,22 @@
+{
+  "id": "camera-systems",
+  "name": "camera systems",
+  "category": "game-dev",
+  "description": "The camera is the player's window; bad camera work makes a good game feel awful. This skill covers the engine-neutral camera techniques — smooth follow, deadzones, look-ahead, bounds clamping, third-person orbit with collision, first-person look, and multi-target framing — and maps them onto each engine's camera node or rig.",
+  "tags": [
+    "camera",
+    "systems"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/disciplines/camera-systems/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

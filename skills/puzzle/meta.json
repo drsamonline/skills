@@ -1,0 +1,21 @@
+{
+  "id": "puzzle",
+  "name": "puzzle",
+  "category": "game-dev",
+  "description": "A playbook for grid/board puzzle games — the board model, move input, rule resolution (matching, pushing, logic), scoring, undo, and level progression. This is a compositional skill: it models board state and rules and presents them through a tilemap/UI. It does not re-teach tilemaps; it defines the resolution loop and the correctness rules (clean state, deterministic resolution, undo) that keep a",
+  "tags": [
+    "puzzle"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/genres/puzzle/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "linkedin-employee-advocacy",
+  "name": "linkedin employee advocacy",
+  "category": "marketing",
+  "description": "Stand up and run a LinkedIn employee advocacy program for a marketing or sales team. Covers 14-day launch playbook, brand-guideline governance, per-post time budget, cadence benchmarks, and team ROI (reach, engagement, pipeline). Triggers on \\\"employee advocacy\\\", \\\"get the team posting\\\", \\\"scale LinkedIn across team\\\", \\\"advocacy ROI\\\". Not for planning one person's own calendar (use linkedin-content-planner).",
+  "tags": [
+    "linkedin",
+    "employee",
+    "advocacy"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "sergebulaev/linkedin-skills",
+    "path": ".codex-marketplace/linkedin-skills/skills/linkedin-employee-advocacy/SKILL.md",
+    "commit": "8f8bc4b40a2d5419b2dcf898772b85712cfbdf41"
+  }
+}

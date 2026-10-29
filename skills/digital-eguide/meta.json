@@ -1,0 +1,21 @@
+{
+  "id": "digital-eguide",
+  "name": "digital eguide",
+  "category": "frontend-ui",
+  "description": "两页跨页电子指南, 封面 + 课程页 + pull-quote + 步骤列表",
+  "tags": [
+    "digital",
+    "eguide"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nexu-io/html-anything",
+    "path": "next/src/lib/templates/skills/digital-eguide/SKILL.md",
+    "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "dating-web",
+  "name": "dating web",
+  "category": "frontend-ui",
+  "description": "消费感配对仪表板: 信号 ticker + KPI + 30 天柱状 + 趋势",
+  "tags": [
+    "dating",
+    "web"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nexu-io/html-anything",
+    "path": "next/src/lib/templates/skills/dating-web/SKILL.md",
+    "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
+  }
+}

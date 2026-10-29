@@ -1,0 +1,20 @@
+{
+  "id": "siege",
+  "name": "siege",
+  "category": "engineering-workflow",
+  "description": "Work on one hard mathematics problem in rounds: each round a judge writes a few self-contained questions, independent workers answer them, and the judge keeps a ledger of what is proved, refuted and open, until the judge concludes or the rounds run out, and then a proof.md says plainly what is and is not proved. A run takes hours and dozens of worker runs. Usage: /math-proof:siege [NAME=value settings] <the problem, stated in full, or the path of a file holding it>.",
+  "tags": [
+    "siege"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "anthropics/claude-plugins-official",
+    "path": "plugins/math-proof/skills/siege/SKILL.md",
+    "commit": "f8c5e7a1dcb71b10cb74586224b5401f3de5db28"
+  }
+}

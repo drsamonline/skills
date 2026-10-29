@@ -1,0 +1,21 @@
+{
+  "id": "the-fool",
+  "name": "the fool",
+  "category": "engineering-workflow",
+  "description": "Use when challenging ideas, plans, decisions, or proposals. Invoke to play devil's advocate, run a pre-mortem, red team, stress test assumptions, audit evidence quality, or find blind spots before committing. Do NOT use for building plans, making decisions, or generating solutions — this skill only challenges and critiques. For a multi-agent panel that challenges and then commits to a verdict, use the-jury.",
+  "tags": [
+    "the",
+    "fool"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "tech-leads-club/agent-skills",
+    "path": "packages/skills-catalog/skills/(decision-making)/the-fool/SKILL.md",
+    "commit": "738451e40785750a8e8de5bce8112675f5f0df02"
+  }
+}

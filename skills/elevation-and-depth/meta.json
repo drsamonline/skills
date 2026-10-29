@@ -1,0 +1,22 @@
+{
+  "id": "elevation-and-depth",
+  "name": "elevation and depth",
+  "category": "frontend-ui",
+  "description": "Shadows and layering that lift elements above the surface. Use when designing cards, dropdowns, modals, tooltips or any floating element.",
+  "tags": [
+    "elevation",
+    "and",
+    "depth"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "dembrandt/dembrandt-skills",
+    "path": "skills/elevation-and-depth/SKILL.md",
+    "commit": "c4ad177dea5b864f779f8c722f28cf04f760cb22"
+  }
+}

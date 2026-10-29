@@ -1,0 +1,21 @@
+{
+  "id": "agent-development",
+  "name": "agent development",
+  "category": "engineering-workflow",
+  "description": "This skill should be used when the user asks to \"create an agent\", \"add an agent\", \"write a subagent\", \"agent frontmatter\", \"when to use description\", \"agent examples\", \"agent tools\", \"agent colors\", \"autonomous agent\", or needs guidance on agent structure, system prompts, triggering conditions, or agent development best practices for Claude Code plugins.",
+  "tags": [
+    "agent",
+    "development"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "anthropics/claude-plugins-official",
+    "path": "plugins/plugin-dev/skills/agent-development/SKILL.md",
+    "commit": "f8c5e7a1dcb71b10cb74586224b5401f3de5db28"
+  }
+}

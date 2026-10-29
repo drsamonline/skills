@@ -1,0 +1,21 @@
+{
+  "id": "agent-ready",
+  "name": "agent ready",
+  "category": "engineering-workflow",
+  "description": "Implements agent-readiness on public sites and docs from Mintlify Agent Score, AFDocs, Is Agentic, Is It Agent Ready, or url-discovery-bench reports, or from server logs of agents 404ing on guessed URLs. Use when asked to \"make our site agent-ready\", \"improve Agent Score\", \"fix llms.txt coverage\", \"agents keep 404ing on our docs\", or when a pasted scorecard is the brief.",
+  "tags": [
+    "agent",
+    "ready"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "mblode/agent-skills",
+    "path": "skills/agent-ready/SKILL.md",
+    "commit": "ff92bf5ae675e8108e7d2f14b22a523fd1303e76"
+  }
+}

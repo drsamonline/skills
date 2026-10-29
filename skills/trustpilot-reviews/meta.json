@@ -1,0 +1,21 @@
+{
+  "id": "trustpilot-reviews",
+  "name": "trustpilot reviews",
+  "category": "browser-automation",
+  "description": "Trustpilot customer reviews scraper for any company listed on trustpilot.com — given a company domain (e.g. shopify.com, apple.com, shopwagandtail.com) plus optional filters (page number, single star rating 1-5, single language ISO code, verified-only flag, has-company-reply flag, date period last30days/last3months/last6months/last12months, free-text keyword search, and reviewer countryCode client-side filter), extracts paginated reviews with 20+ fields per review: reviewId, reviewUrl, reviewTitle, reviewDescription, reviewRatingScore (1-5), reviewDate (ISO publishedDate), reviewDateOfExperience, reviewLabel, isReviewVerified, reviewer (display name), reviewerId, reviewersCountry (ISO Alpha-2), reviewLanguage, reviewCompanyResponse (the company reply text), plus pagination metadata (currentPage, totalPages, totalCount). Optional flags add reviewer profile metadata (reviewerNumberOfReviews, reviewerProfileIsVerified), reply analysis dates (companyReplyPublishedDate, companyReplyUpdatedDate), extended metadata ",
+  "tags": [
+    "trustpilot",
+    "reviews"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "browser-act/skills",
+    "path": "solutions/social-listening/trustpilot-reviews/SKILL.md",
+    "commit": "11c057b03f92101642cadc9f840564574120d184"
+  }
+}

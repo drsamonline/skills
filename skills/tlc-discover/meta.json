@@ -1,0 +1,21 @@
+{
+  "id": "tlc-discover",
+  "name": "tlc discover",
+  "category": "engineering-workflow",
+  "description": "Interviews an unshaped idea into a verdict and a design document - decisions, flows, schema, contracts - that anyone can plan from without having been in the room. Use when the user says \"research this\", \"help me understand this problem\", \"should we build this\", \"discovery\", \"explore this problem\", or \"tlc-discover\". Do NOT use to cut a finished design into tasks, or to implement.",
+  "tags": [
+    "tlc",
+    "discover"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "tech-leads-club/agent-skills",
+    "path": "packages/skills-catalog/skills/(development)/tlc-discover/SKILL.md",
+    "commit": "738451e40785750a8e8de5bce8112675f5f0df02"
+  }
+}

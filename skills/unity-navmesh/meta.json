@@ -1,0 +1,22 @@
+{
+  "id": "unity-navmesh",
+  "name": "unity navmesh",
+  "category": "game-dev",
+  "description": "Give NPCs pathfinding in Unity 6.3 LTS: bake walkable surfaces and move agents around obstacles. Targets Unity 6.3 LTS (6000.3) with the AI Navigation package 2.0 (2.0.16 at last check).",
+  "tags": [
+    "unity",
+    "navmesh"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/unity/unity-navmesh/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

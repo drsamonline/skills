@@ -1,0 +1,21 @@
+{
+  "id": "design-system",
+  "name": "design system",
+  "category": "frontend-ui",
+  "description": "Token architecture, component specifications, and slide generation. Three-layer tokens (primitive→semantic→component), CSS variables, spacing/typography scales, component specs, strategic slide creation. Use for design tokens, systematic design, brand-compliant presentations.",
+  "tags": [
+    "design",
+    "system"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+    "path": ".claude/skills/design-system/SKILL.md",
+    "commit": "28b3b8dee8c976df4fa3e94aed4e092ad43fcb03"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "amazon-best-selling-products-finder-api-skill",
+  "name": "amazon best selling products finder api skill",
+  "category": "browser-automation",
+  "description": "This skill helps users extract structured best-selling product data from Amazon via the BrowserAct API. Agent should proactively apply this skill when users express needs like search for best selling products on Amazon, extract Amazon product data based on keywords, find top rated Amazon products, monitor Amazon competitor prices and sales, discover trending products on Amazon marketplace, extract Amazon product titles prices and ratings, gather Amazon product sales volume for market research, search Amazon best sellers in specific region, collect Amazon product reviews and promotion details, analyze Amazon product availability and badges, get Amazon product data for market analysis.",
+  "tags": [
+    "amazon",
+    "best",
+    "selling",
+    "products",
+    "finder",
+    "api"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "browser-act/skills",
+    "path": "solutions/ecommerce/amazon-best-selling-products-finder-api-skill/SKILL.md",
+    "commit": "11c057b03f92101642cadc9f840564574120d184"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "skill-miner",
+  "name": "skill miner",
+  "category": "engineering-workflow",
+  "description": "Use when mining coding-agent session history, archived transcripts, memories, or repeated local work to discover recurring workflows that should become new Agent Skills.",
+  "tags": [
+    "skill",
+    "miner"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "hqhq1025/skill-optimizer",
+    "path": "skills/skill-miner/SKILL.md",
+    "commit": "b9ffd1513e84136b72e2b6f041dc1ebfd9e23a84"
+  }
+}

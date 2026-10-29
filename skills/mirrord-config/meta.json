@@ -1,0 +1,21 @@
+{
+  "id": "mirrord-config",
+  "name": "mirrord config",
+  "category": "cloud-and-deploy",
+  "description": "Helps users generate, edit, and validate mirrord.json configuration files for mirrord (MetalBear). Use when the user wants to connect their local process to a Kubernetes environment, configure features (env/fs/network), or needs feedback on an existing mirrord.json. Always ensures output JSON is valid and schema-conformant.",
+  "tags": [
+    "mirrord",
+    "config"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "metalbear-co/skills",
+    "path": "skills/mirrord-config/SKILL.md",
+    "commit": "ff44181162fe6e76e503781a6d20bbdb4bbbcc5c"
+  }
+}

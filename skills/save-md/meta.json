@@ -1,0 +1,20 @@
+{
+  "id": "save-md",
+  "name": "save md",
+  "category": "engineering-workflow",
+  "description": "Saves a named source to Markdown with provenance and faithful extraction through direct export endpoints. Use when asked to \"save this article\", \"get the markdown\", \"transcribe this\", or \"keep this source\". A URL supplied as task context alone does not trigger conversion; a chat summary stays in chat.",
+  "tags": [
+    "save"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "mblode/agent-skills",
+    "path": "skills/save-md/SKILL.md",
+    "commit": "ff92bf5ae675e8108e7d2f14b22a523fd1303e76"
+  }
+}

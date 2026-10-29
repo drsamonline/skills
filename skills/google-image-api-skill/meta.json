@@ -1,0 +1,23 @@
+{
+  "id": "google-image-api-skill",
+  "name": "google image api skill",
+  "category": "browser-automation",
+  "description": "This skill helps users automatically extract structured image data from Google Images via BrowserAct API. Agent should proactively apply this skill when users express needs like finding images for specific keywords, gathering product style images for competitors, building visual datasets at scale, scanning visual search results for market research, tracking localized image trends by country, compiling related image thumbnails and links, extracting image titles and source logos, fetching click through URLs from image results, monitoring competitor visual assets, sourcing creative content for specific topics, looking up product pictures in different regions, collecting structured image metadata without opening detail pages.",
+  "tags": [
+    "google",
+    "image",
+    "api",
+    "skill"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "browser-act/skills",
+    "path": "solutions/search-research/google-image-api-skill/SKILL.md",
+    "commit": "11c057b03f92101642cadc9f840564574120d184"
+  }
+}

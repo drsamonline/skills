@@ -1,0 +1,20 @@
+{
+  "id": "caching",
+  "name": "caching",
+  "category": "engineering-workflow",
+  "description": "Caching strategies — invalidation, TTL guidelines, cache keys, cache layers, and when not to cache. Use when implementing or reviewing caching logic.",
+  "tags": [
+    "caching"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "zebbern/claude-code-guide",
+    "path": "skills/caching/SKILL.md",
+    "commit": "b50a31ad52510d148709b1eb61406952a02c3d19"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "incoming-request-advisor",
+  "name": "incoming request advisor",
+  "category": "product-management",
+  "description": "Decode an incoming message into a structured breakdown separating the literal ask from the job-to-be-done. Use when a loaded Slack ping, email, mandate, or escalation needs a reply.",
+  "tags": [
+    "incoming",
+    "request",
+    "advisor"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "see LICENSE",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "deanpeters/Product-Manager-Skills",
+    "path": "skills/incoming-request-advisor/SKILL.md",
+    "commit": "cfcb697f14b8891d8b3ec43c16c3547df3e70e13"
+  }
+}

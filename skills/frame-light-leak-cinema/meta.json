@@ -1,0 +1,23 @@
+{
+  "id": "frame-light-leak-cinema",
+  "name": "frame light leak cinema",
+  "category": "frontend-ui",
+  "description": "胶片漏光 + 颗粒噪点 + 16:9 letterbox + 衬线大字, 电影感开场 / 章节卡",
+  "tags": [
+    "frame",
+    "light",
+    "leak",
+    "cinema"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nexu-io/html-anything",
+    "path": "next/src/lib/templates/skills/frame-light-leak-cinema/SKILL.md",
+    "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
+  }
+}

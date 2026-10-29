@@ -1,0 +1,22 @@
+{
+  "id": "gws-events-subscribe",
+  "name": "gws events subscribe",
+  "category": "google-workspace",
+  "description": "Google Workspace Events: Subscribe to Workspace events and stream them as NDJSON.",
+  "tags": [
+    "gws",
+    "events",
+    "subscribe"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "googleworkspace/cli",
+    "path": "skills/gws-events-subscribe/SKILL.md",
+    "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
+  }
+}

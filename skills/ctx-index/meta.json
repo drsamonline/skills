@@ -1,0 +1,22 @@
+{
+  "id": "ctx-index",
+  "name": "ctx index",
+  "category": "engineering-workflow",
+  "description": "Index local project content for later search.",
+  "tags": [
+    "ctx",
+    "index"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "see LICENSE",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "mksglu/context-mode",
+    "path": "skills/ctx-index/SKILL.md",
+    "commit": "49b318b5b894d286cda891732287400d9b43cea3"
+  },
+  "description_source": "derived-from-body"
+}

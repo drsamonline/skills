@@ -1,0 +1,21 @@
+{
+  "id": "linkedin-interviewer",
+  "name": "linkedin interviewer",
+  "category": "marketing",
+  "description": "Interview the user for the raw material their posts are made of. Builds a lasting Story Bank of roles, numbers, turning points, scars and positions, or runs a focused interview that turns one topic into a post spine. Use when a draft has nothing concrete to draw on, or the user says interview me. Not for learning how they write (use linkedin-humanizer --mode profile).",
+  "tags": [
+    "linkedin",
+    "interviewer"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "sergebulaev/linkedin-skills",
+    "path": ".codex-marketplace/linkedin-skills/skills/linkedin-interviewer/SKILL.md",
+    "commit": "8f8bc4b40a2d5419b2dcf898772b85712cfbdf41"
+  }
+}

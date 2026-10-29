@@ -1,0 +1,22 @@
+{
+  "id": "scholarly-writing-refiner",
+  "name": "scholarly writing refiner",
+  "category": "engineering-workflow",
+  "description": "Polishes academic English paragraph by paragraph, reviewing grammar, word choice, voice, coherence, and sentence structure. Outputs revision suggestions alongside polished text. Triggered by phrases like 'polish this paragraph,' 'check the grammar,' 'rewrite in academic English,' or keywords like manuscript editing, SCI polishing, and journal submission editing.",
+  "tags": [
+    "scholarly",
+    "writing",
+    "refiner"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "zebbern/claude-code-guide",
+    "path": "skills/scholarly-writing-refiner/SKILL.md",
+    "commit": "b50a31ad52510d148709b1eb61406952a02c3d19"
+  }
+}

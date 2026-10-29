@@ -1,0 +1,21 @@
+{
+  "id": "derive-client",
+  "name": "derive client",
+  "category": "browser-automation",
+  "description": "Reverse-engineer a website's internal API by recording browser traffic into a HAR file, then generate a standalone client or CLI that calls the endpoints directly, with no browser needed after the first recording. Use when asked to \"derive a client\", \"build a CLI for <site>\", \"reverse engineer this site's API\", \"record network requests\", \"turn this site into an API\", or when the same site will be automated repeatedly and direct HTTP calls would beat driving the browser every time.",
+  "tags": [
+    "derive",
+    "client"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "vercel-labs/agent-browser",
+    "path": "skill-data/derive-client/SKILL.md",
+    "commit": "1453dd37a40c730fe00f592bc32198a896ff8747"
+  }
+}

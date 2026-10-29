@@ -1,294 +1,218 @@
 ---
 name: systematic-debugging
-description: Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes
+description: Use when encountering a bug, test failure, or unexpected behavior, before proposing fixes
 license: MIT
 metadata:
   title: "systematic debugging"
-  origin: "obra/superpowers"
+  origin: "GanyuanRan/Aegis"
   upstream-path: "skills/systematic-debugging/SKILL.md"
-  upstream-commit: "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b"
-  category: "engineering-workflow"
+  upstream-commit: "0461c211e4d812f0b215fab240a68a25c1e22424"
+  category: "security-audit"
 ---
 
-# Systematic Debugging
+# Execute
 
-## Overview
+Bug, failure, or unexpected behavior:
 
-**Core principle:** ALWAYS find root cause before attempting fixes. Symptom fixes are failure.
+1. **Isolate** — read error, reproduce, inspect the diff, and drill upward through diagnostic layers:
+   L1 symptom → L2 logic → L3 system → L4 architecture → L5 cross-system
+   contract → L6 platform → L7 spec gap. Layers are observation altitudes,
+   not one causal chain; the causal shape at the stop altitude is classified
+   explicitly before any root claim. Stop only when causal proof accounts
+   for the recurrence generator or reaches a T-class boundary.
+2. **Identify owner** — compare working behavior, trace the bad value, locate the
+   canonical owner, and treat duplicate owners as a finding.
+3. **Decide before editing** — Before fixing, run Patch-Shape Triage and Ripple Signal Triage when shared logic,
+   contracts, fallbacks, adapters, producer/consumer seams, or source-of-truth
+   boundaries are involved. Surface Change Necessity for any new source-code
+   path or non-trivial source edit. Run Minimality Check for a new branch,
+   fallback, adapter, owner, or compatibility path, and Pre-Edit Complexity
+   Check for an overloaded owner or complexity growth. After Change Necessity
+   selects `code-change` and before the first repair edit, own the TDD Route for
+   the repair slice per `test-driven-development` (`off` default; `strict` on
+   behavior/bugfix/shared/contract/persistence/permission/migration risk).
+4. **Prove** — test one hypothesis with the smallest reproduction or
+   verification. A failing test first is required only by a recorded
+   `TDD Route: strict`; with `TDD Mode: off`, do not require a failing test or
+   RED/GREEN cycle. Three failed fixes means stop and question architecture.
+5. **Repair and close** — fix minimally at the canonical owner, verify in
+   proportion to risk, review architecture, and close both repair and
+   retirement tracks. If a symptom remains or shifts, reopen the causal model;
+   do not assume it is a separate defect.
 
-**Violating the letter of this process is violating the spirit of debugging.**
+Done: confidence ≥ B, causal status matches recurrence evidence or an external
+terminal, tracks explicit, no H signal, and required D evidence passes.
 
-## The Iron Law
+## Core invariant
 
+Find root cause and fix the bug class at its canonical owner. A minimal fix is
+not the smallest textual diff; it is the smallest sufficient owner-level repair.
+Apply the same causal-sufficiency standard to every bug. Trace relevant
+influences and justify exclusions; resolve repair-changing unknowns before
+retaining a solution. Experiments may precede closure. Evidence gaps, not
+apparent size or risk, determine investigation depth.
+
+## Quick bug lane
+
+For an evidenced local, reproducible, single-owner bug with no patch-shape signal, keep
+the readback compact: `Symptom`, `Reproduction`, `Root Cause`, `Change
+Necessity`, `Fix Boundary`, and `Verification`. Skip the causal card only when
+the causal-proof owner's `Quick Exit Proof` passes. This reduces readback, not
+the causal coverage or evidence standard.
+Quick bug lane must surface Change Necessity before source edits. One sentence
+may cover the user-visible need, no-change/non-code option, why code must
+change, minimum boundary, and an explicit decision token such as
+`Decision: code-change`. If shared logic, a contract, fallback, duplicate
+owner, consumer patch, or cross-module behavior appears, leave this lane.
+
+`Aegis Visibility` names the evidence/owner/patch-shape/verification effect.
+Pass root cause, avoided misfix, boundary, evidence, complexity, and risk to
+`verification-before-completion`; no separate receipt.
+
+## Diagnose before repair
+
+For UI/interaction defects, compose `ui-ux-governance` for relevant state and
+recovery rules at the user-visible seam. Keep reproduction/root-cause ownership
+here; a proposed manual check is not executed evidence.
+
+1. Read the complete error/stack and record inputs, environment, versions, and
+   success criteria. Reproduce the user's failed outcome on the correct object,
+   through final delivery; successful parsing or green internal checks may hide
+   the failure. Verify the repaired behavior and a relevant neighboring case,
+   not a hardcoded example. Read-only diagnosis does not authorize repair.
+2. Reproduce consistently. If unstable, read
+   `feedback-loop-construction.md` **only when evidence shows intermittent or
+   timing-dependent reproduction** and build a bounded loop. Shrink the repro
+   to load-bearing elements as the test input, never the fix scope: still drill
+   upward; test at the correct seam.
+3. Inspect recent changes and compare a working example. Code is evidence; if
+   authority, glossary, code, and tests disagree, compose
+   `establishing-project-context` rather than silently redefining a term.
+4. Instrument component boundaries, then trace the bad value toward its source.
+   Read `root-cause-tracing.md` **only when the observed bad value is several
+   calls or components downstream from its origin**.
+   For task distortion, follow source → understanding → expression → execution
+   → delivery to the first evidenced change in meaning. This identifies where
+   divergence is observed, not a proven root; reuse sufficient current evidence.
+5. State one hypothesis and falsify it with one-variable evidence. Do not stack
+   speculative fixes. End each loop with `Goal | DeeperCause | Evidence |
+   Risk/Unknown | Decision`.
+
+### Canonical-owner and patch-shape gate
+
+Before editing, continue upward unless evidence proves the local site is the
+canonical owner when the candidate is any of these signals:
+
+- keyword, phrase, regex, negation-word list, or sample-text exception;
+- local guard, extra conditional, `try`/`catch`, early return, or one-off branch;
+- fallback, adapter, compatibility branch, prompt branch, or legacy path expansion;
+- consumer/caller/readiness/presentation-layer patch;
+- downstream logic re-parses raw text or re-infers action/state while typed intent, normalized state, contract, or another source-of-truth exists;
+- artifact/download/export/readback/cache patch without producer/owner proof.
+
+```text
+PatchShape:
+CanonicalOwner:
+UpwardDrillSignal:
+Decision: fix owner | continue investigation | escalate
 ```
-NO FIXES WITHOUT ROOT CAUSE INVESTIGATION FIRST
-```
-
-If you haven't completed Phase 1, you cannot propose fixes.
 
-## When to Use
-
-Use for ANY technical issue:
-- Test failures
-- Bugs in production
-- Unexpected behavior
-- Performance problems
-- Build failures
-- Integration issues
-
-**Use this ESPECIALLY when:**
-- Under time pressure (emergencies make guessing tempting)
-- "Just one quick fix" seems obvious
-- You've already tried multiple fixes
-- Previous fix didn't work
-- You don't fully understand the issue
-
-**Don't skip when:**
-- Issue seems simple (simple bugs have root causes too)
-- You're in a hurry (rushing guarantees rework)
-- Manager wants it fixed NOW (systematic is faster than thrashing)
-
-## The Four Phases
-
-You MUST complete each phase before proceeding to the next.
-
-### Phase 1: Root Cause Investigation
-
-**BEFORE attempting ANY fix:**
-
-1. **Read Error Messages Carefully**
-   - Don't skip past errors or warnings
-   - They often contain the exact solution
-   - Read stack traces completely
-   - Note line numbers, file paths, error codes
-
-2. **Reproduce Consistently**
-   - Can you trigger it reliably?
-   - What are the exact steps?
-   - Does it happen every time?
-   - If not reproducible → gather more data, don't guess
-
-3. **Check Recent Changes**
-   - What changed that could cause this?
-   - Git diff, recent commits
-   - New dependencies, config changes
-   - Environmental differences
-
-4. **Gather Evidence in Multi-Component Systems**
-
-   **WHEN system has multiple components (CI → build → signing, API → service → database):**
-
-   **BEFORE proposing fixes, add diagnostic instrumentation:**
-   ```
-   For EACH component boundary:
-     - Log what data enters component
-     - Log what data exits component
-     - Verify environment/config propagation
-     - Check state at each layer
-
-   Run once to gather evidence showing WHERE it breaks
-   THEN analyze evidence to identify failing component
-   THEN investigate that specific component
-   ```
-
-   **Example (multi-layer system):**
-   ```bash
-   # Layer 1: Workflow
-   echo "=== Secrets available in workflow: ==="
-   echo "IDENTITY: $([ -n "${IDENTITY:-}" ] && echo SET || echo UNSET)"
-
-   # Layer 2: Build script
-   echo "=== Env vars in build script: ==="
-   printenv IDENTITY >/dev/null 2>&1 && echo "IDENTITY in environment" || echo "IDENTITY not in environment"
-
-   # Layer 3: Signing script
-   echo "=== Keychain state: ==="
-   security list-keychains
-   security find-identity -v
-
-   # Layer 4: Actual signing
-   codesign --sign "$IDENTITY" --verbose=4 "$APP"
-   ```
-
-   **This reveals:** Which layer fails (secrets → workflow ✓, workflow → build ✗)
-
-5. **Trace Data Flow**
-
-   **WHEN error is deep in call stack:**
-
-   See `root-cause-tracing.md` in this directory for the complete backward tracing technique.
-
-   **Quick version:**
-   - Where does bad value originate?
-   - What called this with bad value?
-   - Keep tracing up until you find the source
-   - Fix at source, not at symptom
-
-### Phase 2: Pattern Analysis
-
-**Find the pattern before fixing:**
-
-1. **Find Working Examples**
-   - Locate similar working code in same codebase
-   - What works that's similar to what's broken?
-
-2. **Compare Against References**
-   - If implementing pattern, read reference implementation COMPLETELY
-   - Don't skim - read every line
-   - Understand the pattern fully before applying
-
-3. **Identify Differences**
-   - What's different between working and broken?
-   - List every difference, however small
-   - Don't assume "that can't matter"
-
-4. **Understand Dependencies**
-   - What other components does this need?
-   - What settings, config, environment?
-   - What assumptions does it make?
-
-### Phase 3: Hypothesis and Testing
-
-**Scientific method:**
-
-1. **Form Single Hypothesis**
-   - State clearly: "I think X is the root cause because Y"
-   - Write it down
-   - Be specific, not vague
-
-2. **Test Minimally**
-   - Make the SMALLEST possible change to test hypothesis
-   - One variable at a time
-   - Don't fix multiple things at once
-
-3. **Verify Before Continuing**
-   - Did it work? Yes → Phase 4
-   - Didn't work? Form NEW hypothesis
-   - DON'T add more fixes on top
-
-4. **When You Don't Know**
-   - Say "I don't understand X"
-   - Don't pretend to know
-   - Ask for help
-   - Research more
-
-### Phase 4: Implementation
-
-**Fix the root cause, not the symptom:**
-
-1. **Create Failing Test Case**
-   - Simplest possible reproduction
-   - Automated test if possible
-   - One-off test script if no framework
-   - MUST have before fixing
-   - Use the `superpowers:test-driven-development` skill for writing proper failing tests
-
-2. **Implement Single Fix**
-   - Address the root cause identified
-   - ONE change at a time
-   - No "while I'm here" improvements
-   - No bundled refactoring
-
-3. **Verify Fix**
-   - Test passes now?
-   - No other tests broken?
-   - Issue actually resolved?
-   - Use the `superpowers:verification-before-completion` skill before claiming success
-
-4. **If Fix Doesn't Work**
-   - STOP
-   - Count: How many fixes have you tried?
-   - If < 3: Return to Phase 1, re-analyze with new information
-   - **If ≥ 3: STOP and question the architecture (step 5 below)**
-   - DON'T attempt Fix #4 without architectural discussion
-
-5. **If 3+ Fixes Failed: Question Architecture**
-
-   **Pattern indicating architectural problem:**
-   - Each fix reveals new shared state/coupling/problem in different place
-   - Fixes require "massive refactoring" to implement
-   - Each fix creates new symptoms elsewhere
-
-   **STOP and question fundamentals:**
-   - Is this pattern fundamentally sound?
-   - Are we "sticking with it through sheer inertia"?
-   - Should we refactor architecture vs. continue fixing symptoms?
-
-   **Discuss with your human partner before attempting more fixes**
-
-   This is NOT a failed hypothesis - this is a wrong architecture.
-
-## Red Flags - STOP and Follow Process
-
-If you catch yourself thinking:
-- "Quick fix for now, investigate later"
-- "Just try changing X and see if it works"
-- "Add multiple changes, run tests"
-- "Skip the test, I'll manually verify"
-- "It's probably X, let me fix that"
-- "I don't fully understand but this might work"
-- "Pattern says X but I'll adapt it differently"
-- "Here are the main problems: [lists fixes without investigation]"
-- Proposing solutions before tracing data flow
-- **"One more fix attempt" (when already tried 2+)**
-- **Each fix reveals new problem in different place**
-
-**ALL of these mean: STOP. Return to Phase 1.**
-
-**If 3+ fixes failed:** Question the architecture (see Phase 4.5)
-
-## your human partner's Signals You're Doing It Wrong
-
-**Watch for these redirections:**
-- "Is that not happening?" - You assumed without verifying
-- "Will it show us...?" - You should have added evidence gathering
-- "Stop guessing" - You're proposing fixes without understanding
-- "Ultra-think this" - Question fundamentals, not just symptoms
-- "We're stuck?" (frustrated) - Your approach isn't working
-
-**When you see these:** STOP. Return to Phase 1.
-
-## Common Rationalizations
-
-| Excuse | Reality |
-|--------|---------|
-| "Issue is simple, don't need process" | Simple issues have root causes too. Process is fast for simple bugs. |
-| "Emergency, no time for process" | Systematic debugging is FASTER than guess-and-check thrashing. |
-| "Just try this first, then investigate" | First fix sets the pattern. Do it right from the start. |
-| "I'll write test after confirming fix works" | Untested fixes don't stick. Test first proves it. |
-| "Multiple fixes at once saves time" | Can't isolate what worked. Causes new bugs. |
-| "Reference too long, I'll adapt the pattern" | Partial understanding guarantees bugs. Read it completely. |
-| "I see the problem, let me fix it" | Seeing symptoms ≠ understanding root cause. |
-| "One more fix attempt" (after 2+ failures) | 3+ failures = architectural problem. Question pattern, don't fix again. |
-
-## Quick Reference
-
-| Phase | Key Activities | Success Criteria |
-|-------|---------------|------------------|
-| **1. Root Cause** | Read errors, reproduce, check changes, gather evidence | Understand WHAT and WHY |
-| **2. Pattern** | Find working examples, compare | Identify differences |
-| **3. Hypothesis** | Form theory, test minimally | Confirmed or new hypothesis |
-| **4. Implementation** | Create test, fix, verify | Bug resolved, tests pass |
-
-## When Process Reveals "No Root Cause"
-
-If systematic investigation reveals issue is truly environmental, timing-dependent, or external:
-
-1. You've completed the process
-2. Document what you investigated
-3. Implement appropriate handling (retry, timeout, error message)
-4. Add monitoring/logging for future investigation
-
-**But:** 95% of "no root cause" cases are incomplete investigation.
-
-## Supporting Techniques
-
-These techniques are part of systematic debugging and available in this directory:
-
-- **`root-cause-tracing.md`** - Trace bugs backward through call stack to find original trigger
-- **`defense-in-depth.md`** - Add validation at multiple layers after finding root cause
-- **`condition-based-waiting.md`** - Replace arbitrary timeouts with condition polling
+A locally green test does not erase triage; a renamed carrier is not a new direction.
+
+When a repair may reinterpret or retire existing semantics, responsibility,
+contract, or relationship, name the behavior to preserve, highest-risk
+counterexample, and material unknown. For each known explicit anchor or
+upstream/downstream reference, state its role and disposition: preserve, rebind
+to the canonical owner, retire with reason, or reject because of conflict.
+Leave unresolved relationships unknown; do not re-infer them downstream.
+Bind role before value and retire invalid responsibility, not evidenced carrier
+capability. This bounded reminder is not a behavior matrix, relationship graph,
+referential-integrity proof, or exhaustive discovery claim. It adds no artifact,
+TDD risk signal, or regression scope; the existing TDD route owner and
+configured/default mode still apply.
+
+If the diagnosis crosses L3, a patch-shape signal fires, a user disputes the
+root claim, a prior fix leaves a symptom, compound/root topology is plausible,
+two or more anchored manifestations of one incident exist, reproduction
+conditions diverge across occurrences, or an
+upstream producer/config/default/contract/spec remains unexcluded, read
+`root-cause-claim-contract.md` **before claiming a root cause**. It is the sole
+owner of the Pre-Claim Gate, causal-closure/falsifier proof, layer-ceiling
+proof, and Causal Topology Gate.
+
+### Change Necessity
+
+This decision is behavior-triggered, not prompt-triggered. It applies to any new source-code path. Before that path or a non-trivial source edit, expose the `Change Necessity` decision (`no-change | docs/config-only | code-change | needs-clarification`); field detail lives in `advanced-debugging-governance.md`.
+
+### Minimality and owner fit
+
+For any proposed branch, fallback, adapter, compatibility path, or new owner, run `Minimality Check` (fields in `advanced-debugging-governance.md`) with verdict `sufficient repair | local patch | needs first-principles review`, and retire invalid responsibility: a `local patch` needs a retention reason and retirement trigger. For a new non-ordinary repair surface, run the `Existence Check` in `docs/current/AEGIS_MINIMALITY_REFERENCE.md`. If retirement involves old code,
+external compatibility, or persistent-state risk, compose
+`anti-entropy-governance`; it chooses the retirement path but never grants
+destructive authority.
+
+Before editing an overloaded or mixed-purpose owner, complete `Pre-Edit Complexity Check` and `Pre-Edit Owner-Fit Decision` (templates in `advanced-debugging-governance.md`).
+
+Use `using-aegis/references/complexity-governance.md` for pressure signals.
+Do not add `new-responsibility` in place by default. If the safer boundary
+changes the approved shape, update the plan/spec first.
+
+## Repair and proportional verification
+
+Repair each evidenced cause needed for the scoped outcome at its responsible
+owner; do not force independent causes into one owner or bundle “while here” work. Under strict TDD, create
+the smallest failing test first. With TDD off, a reproduction is diagnostic
+evidence, not a RED gate or a prerequisite for production edits.
+
+Verification must match the risk:
+
+- local single-owner repair: original reproduction plus focused regression;
+- shared/contract/cross-module repair: canonical owner plus affected consumers
+  and compatibility boundary;
+- fallback/owner retirement: main-path, lingering-reference, negative, and
+  boundary checks;
+- timing/concurrency repair: read `condition-based-waiting.md` **only when
+  evidence identifies polling, sleeps, or race timing as part of the cause**;
+- invalid state crossing several trusted boundaries: read
+  `defense-in-depth.md` **only after the root repair is known and evidence shows
+  a second independent validation boundary is required**.
+
+Read `advanced-debugging-governance.md` **before another fix** for failed/
+persistent / divergent repair or three failures; for unclear/disputed stop /
+Layer Stop Card / intervention; or plausible compound root. Closeout triggers:
+repair-added patch-shape; multi-site/one-regression;
+remaining pattern/anomaly/duplicate/wrong-owner/downstream repair;
+uninspected same-symptom fix; open recurrence/unsupported root status;
+missing compound topology-specific member/anti-disguise proof;
+outside-repo authority; unmigrated
+published-contract break; undefined spec; missing permission/info. They route H/T/D;
+detail is not causal proof.
+
+For non-trivial debugging with configured workspace support, use
+`<aegis-workspace-helper>` to `init`, `new-work`, `add-evidence`, and `check`
+the target project. Command details belong to long-task-continuation.
+
+Failed attempts use `<aegis-workspace-helper> add-attempt`; `add-evidence` is terminal-only.
+
+Fast bug fix or quick bug fix pressure does not skip this: if Ripple Signal
+Triage fires, record it before editing and verify the canonical owner plus
+affected downstream path. Records are advisory, not completion authority.
+
+## Closure
+
+Always report:
+
+- **Repair** — cause, owner, smallest change, compatibility, verification.
+- **Retirement** — invalid responsibility status, carrier/capability
+  disposition, retention reason/trigger, removal check.
+
+Confirm the reproduction, same-pattern handling, authority, complexity, and
+retirement. Prefix debug logs (e.g. `[DEBUG-a4f2]`); confirm one-grep removal before close. Confidence: A = direct regression evidence; B = strong evidence
+with bounded unknowns; C = partial and not resolved.
+
+`Trace Digest` may summarize audit evidence; never expose chain-of-thought or
+replace root-cause, rule-effect, and verification evidence.
 
 ## Provenance
 
-Imported from [obra/superpowers](https://github.com/obra/superpowers) at commit `2ce8aa1`, path `skills/systematic-debugging/SKILL.md`. Licensed MIT by its authors — the full text is in `LICENSE`.
+Imported from [GanyuanRan/Aegis](https://github.com/GanyuanRan/Aegis) at commit `0461c21`, path `skills/systematic-debugging/SKILL.md`. Licensed MIT — the full text is in `LICENSE`.

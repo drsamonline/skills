@@ -1,0 +1,21 @@
+{
+  "id": "rpg",
+  "name": "rpg",
+  "category": "game-dev",
+  "description": "A playbook for role-playing games — stats and progression, inventory/equipment, quests, dialogue, and combat. This is a compositional skill: it ties data-driven content, dialogue, and saving together. It does not re-teach those primitives; it defines the systems that make growth and choice feel meaningful, and points to the skills that implement each.",
+  "tags": [
+    "rpg"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/genres/rpg/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "shader-programming",
+  "name": "shader programming",
+  "category": "game-dev",
+  "description": "Shaders are small programs that run per vertex and per pixel on the GPU. The concepts — the pipeline, coordinate spaces, UVs, and how common effects are built — port across engines; only the language dialect and built-in variable names change. This skill teaches those portable fundamentals in GLSL with HLSL equivalents; use godot-shaders (or Unity/Unreal material docs) for the exact engine syntax ",
+  "tags": [
+    "shader",
+    "programming"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/disciplines/shader-programming/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

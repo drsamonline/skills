@@ -1,0 +1,21 @@
+{
+  "id": "browser-relay",
+  "name": "browser relay",
+  "category": "browser-automation",
+  "description": "Operate the user's existing, logged-in Chrome locally or on an explicitly connected remote machine. Read complete page content with actionable refs and links, perform grouped actions, and use screenshots in persistent browser sessions. Skip static public pages and pure REST APIs.",
+  "tags": [
+    "browser",
+    "relay"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "reliefeai/browser-relay",
+    "path": "skills/browser-relay/SKILL.md",
+    "commit": "973434bc6b339dd56d831b1ebd089a8465850844"
+  }
+}

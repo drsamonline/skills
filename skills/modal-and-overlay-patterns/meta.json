@@ -1,0 +1,23 @@
+{
+  "id": "modal-and-overlay-patterns",
+  "name": "modal and overlay patterns",
+  "category": "frontend-ui",
+  "description": "Modals, drawers, bottom sheets and popovers, each with its scope and blocking level. Use when designing dialogs, confirmations, side panels or action sheets.",
+  "tags": [
+    "modal",
+    "and",
+    "overlay",
+    "patterns"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "dembrandt/dembrandt-skills",
+    "path": "skills/modal-and-overlay-patterns/SKILL.md",
+    "commit": "c4ad177dea5b864f779f8c722f28cf04f760cb22"
+  }
+}

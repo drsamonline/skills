@@ -1,0 +1,21 @@
+{
+  "id": "add-deltachat",
+  "name": "add deltachat",
+  "category": "engineering-workflow",
+  "description": "Add DeltaChat channel integration via @deltachat/stdio-rpc-server. Native adapter — no Chat SDK bridge. Email-based messaging with end-to-end encryption.",
+  "tags": [
+    "add",
+    "deltachat"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nanocoai/nanoclaw",
+    "path": ".claude/skills/add-deltachat/SKILL.md",
+    "commit": "acc2b1c8f52a954368cfaf04b61c32f9a1efc280"
+  }
+}

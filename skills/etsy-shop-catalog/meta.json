@@ -1,0 +1,22 @@
+{
+  "id": "etsy-shop-catalog",
+  "name": "etsy shop catalog",
+  "category": "browser-automation",
+  "description": "Etsy shop catalog scraper: given an Etsy shop URL (e.g. https://www.etsy.com/shop/{shop-name}) and optional page number, returns paginated product listings from that shop's own storefront with listingId, shopId, title, url, image, salePrice, originalPrice, currency, rating, reviewCount, shopName, isAd, freeShipping, badge. Use when user mentions Etsy shop, Etsy seller, Etsy store, etsy.com/shop, scrape Etsy shop, extract all products from Etsy shop, Etsy shop catalog, Etsy seller catalog, list all Etsy shop items, Etsy storefront scraper, Etsy vendor products, Etsy competitor shop, Etsy shop monitoring, get inventory of an Etsy shop, dump Etsy shop products, Etsy seller product export, seller product benchmarking, Etsy shop bulk export. Also applies to competitor shop tracking, supplier catalog collection, price monitoring for a specific shop, new-item detection on a shop, and any paginated bulk collection driven by a single Etsy shop URL.",
+  "tags": [
+    "etsy",
+    "shop",
+    "catalog"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "browser-act/skills",
+    "path": "solutions/ecommerce/etsy-shop-catalog/SKILL.md",
+    "commit": "11c057b03f92101642cadc9f840564574120d184"
+  }
+}

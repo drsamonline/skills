@@ -1,0 +1,22 @@
+{
+  "id": "roblox-characters",
+  "name": "roblox characters",
+  "category": "game-dev",
+  "description": "Treat a Player as the durable identity and each Character as a replaceable session with its own references, connections, animation tracks, and cleanup. Targets Roblox's rolling platform APIs.",
+  "tags": [
+    "roblox",
+    "characters"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/other-engines/roblox-characters/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

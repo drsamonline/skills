@@ -1,0 +1,21 @@
+{
+  "id": "tab-navigation",
+  "name": "tab navigation",
+  "category": "frontend-ui",
+  "description": "Tabs swap views under a shared context. Use when designing tabbed layouts, settings pages, detail views or dashboards with several data views.",
+  "tags": [
+    "tab",
+    "navigation"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "dembrandt/dembrandt-skills",
+    "path": "skills/tab-navigation/SKILL.md",
+    "commit": "c4ad177dea5b864f779f8c722f28cf04f760cb22"
+  }
+}

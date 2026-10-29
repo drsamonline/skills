@@ -32,6 +32,7 @@
     "node",
     "nodejs-core",
     "oauth",
+    "rails-conventions",
     "snipgrapher",
     "tinystruct-patterns",
     "typescript-magician"

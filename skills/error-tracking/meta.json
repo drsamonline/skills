@@ -1,0 +1,21 @@
+{
+  "id": "error-tracking",
+  "name": "error tracking",
+  "category": "engineering-workflow",
+  "description": "Add Sentry v8 error tracking and performance monitoring to your services. Use this skill when adding error handling, creating new controllers, instrumenting cron jobs, or tracking database performance. ALL ERRORS MUST BE CAPTURED TO SENTRY - no exceptions.",
+  "tags": [
+    "error",
+    "tracking"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "diet103/claude-code-infrastructure-showcase",
+    "path": ".agents/skills/error-tracking/SKILL.md",
+    "commit": "07f75ce3c301259e857343596e7883b8ce5a9f50"
+  }
+}

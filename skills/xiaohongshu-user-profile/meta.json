@@ -1,0 +1,22 @@
+{
+  "id": "xiaohongshu-user-profile",
+  "name": "xiaohongshu user profile",
+  "category": "browser-automation",
+  "description": "Fetch Xiaohongshu (RedNote / xhs) user profile information and their published notes list by user ID, returning nickname, bio, follower/following counts, engagement totals, tags, and paginated notes with engagement stats. Use when user mentions user profile xiaohongshu, rednote creator profile, xhs influencer data, scrape xiaohongshu user, get blogger notes, xiaohongshu author info, KOL discovery xiaohongshu, rednote user stats, creator profile rednote, xiaohongshu blogger analysis, get xhs user followers, rednote influencer profile, xiaohongshu account info, xhs creator data, user notes list xiaohongshu, rednote account scrape, xiaohongshu KOL research.",
+  "tags": [
+    "xiaohongshu",
+    "user",
+    "profile"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "browser-act/skills",
+    "path": "solutions/social-listening/xiaohongshu-user-profile/SKILL.md",
+    "commit": "11c057b03f92101642cadc9f840564574120d184"
+  }
+}

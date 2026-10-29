@@ -1,0 +1,23 @@
+{
+  "id": "unreal-cpp-gameplay",
+  "name": "unreal cpp gameplay",
+  "category": "game-dev",
+  "description": "Write correct UE5 gameplay C++: the reflection macros that connect C++ to the editor and Blueprints, the Gameplay Framework class roles, and module dependencies. Targets UE 5.8.",
+  "tags": [
+    "unreal",
+    "cpp",
+    "gameplay"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/unreal/unreal-cpp-gameplay/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

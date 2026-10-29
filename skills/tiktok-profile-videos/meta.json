@@ -1,0 +1,22 @@
+{
+  "id": "tiktok-profile-videos",
+  "name": "tiktok profile videos",
+  "category": "browser-automation",
+  "description": "TikTok user profile video scraper: input a TikTok username → output the user's profile info plus paginated video list with full metadata (engagement stats, music, video meta). Use when user mentions TikTok profile scraping, scrape TikTok user videos, get TikTok creator videos, extract TikTok profile data, TikTok user posts, TikTok account video collection, collect TikTok profile page videos, TikTok creator video list, TikTok creator data, TikTok profile scraper, tiktok user scraper, tiktok creator scraper. Also applies to influencer research, competitor analysis, content archiving for a specific TikTok creator, or extracting all posts from a TikTok account.",
+  "tags": [
+    "tiktok",
+    "profile",
+    "videos"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "browser-act/skills",
+    "path": "solutions/video-platforms/tiktok-profile-videos/SKILL.md",
+    "commit": "11c057b03f92101642cadc9f840564574120d184"
+  }
+}

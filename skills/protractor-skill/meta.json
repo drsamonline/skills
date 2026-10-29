@@ -1,0 +1,22 @@
+{
+  "id": "protractor-skill",
+  "name": "protractor skill",
+  "category": "testing-qa",
+  "description": "Protractor reached end-of-life in 2023. Angular team recommends Playwright or Cypress.",
+  "tags": [
+    "protractor",
+    "skill"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "LambdaTest/agent-skills",
+    "path": "protractor-skill/SKILL.md",
+    "commit": "992638bccbc311f42c0bd8b2b3387a0d1ce6288d"
+  },
+  "description_source": "derived-from-body"
+}

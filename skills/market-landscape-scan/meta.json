@@ -1,0 +1,22 @@
+{
+  "id": "market-landscape-scan",
+  "name": "market landscape scan",
+  "category": "product-management",
+  "description": "Map a market's segments, players, substitutes, and whitespace with cited evidence. Use when entering or re-evaluating a market before sizing, positioning, or picking competitors to study.",
+  "tags": [
+    "market",
+    "landscape",
+    "scan"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "see LICENSE",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "deanpeters/Product-Manager-Skills",
+    "path": "skills/market-landscape-scan/SKILL.md",
+    "commit": "cfcb697f14b8891d8b3ec43c16c3547df3e70e13"
+  }
+}

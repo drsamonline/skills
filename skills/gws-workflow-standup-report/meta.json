@@ -1,0 +1,23 @@
+{
+  "id": "gws-workflow-standup-report",
+  "name": "gws workflow standup report",
+  "category": "google-workspace",
+  "description": "Google Workflow: Today's meetings + open tasks as a standup summary.",
+  "tags": [
+    "gws",
+    "workflow",
+    "standup",
+    "report"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "googleworkspace/cli",
+    "path": "skills/gws-workflow-standup-report/SKILL.md",
+    "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
+  }
+}

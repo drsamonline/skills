@@ -1,0 +1,22 @@
+{
+  "id": "social-media-dashboard",
+  "name": "social media dashboard",
+  "category": "frontend-ui",
+  "description": "平台切换 + 粉丝/互动 KPI + 增长曲线 + Top post + 热门话题",
+  "tags": [
+    "social",
+    "media",
+    "dashboard"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nexu-io/html-anything",
+    "path": "next/src/lib/templates/skills/social-media-dashboard/SKILL.md",
+    "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
+  }
+}

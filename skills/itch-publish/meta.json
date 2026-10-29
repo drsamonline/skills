@@ -1,0 +1,22 @@
+{
+  "id": "itch-publish",
+  "name": "itch publish",
+  "category": "game-dev",
+  "description": "Get a build onto an itch.io page and keep it updated. The page is created in the browser; all uploads go through butler, itch.io's command-line tool, with one command you'll use forever: butler push. butler diffs against the previous build and uploads only what changed. Deep CI/CD and flag detail lives in references/butler-ci.md.",
+  "tags": [
+    "itch",
+    "publish"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/workflows/itch-publish/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

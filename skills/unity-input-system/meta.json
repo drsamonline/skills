@@ -1,0 +1,23 @@
+{
+  "id": "unity-input-system",
+  "name": "unity input system",
+  "category": "game-dev",
+  "description": "Read input through Unity's Input System package (com.unity.inputsystem 1.x; Unity 6.3 LTS ships 1.20) — action-based, device-agnostic, rebindable. Targets Unity 6.3 LTS. This is the modern replacement for the legacy Input.GetAxis/Input.GetKey Input Manager.",
+  "tags": [
+    "unity",
+    "input",
+    "system"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/unity/unity-input-system/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

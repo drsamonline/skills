@@ -1,0 +1,22 @@
+{
+  "id": "defold-core",
+  "name": "defold core",
+  "category": "game-dev",
+  "description": "Structure, wire and verify a Defold game: editor resource files, the Lua script lifecycle, addressing and messages, runtime spawning and world loading, and a Bob build-and-run check. Examples target Defold 1.14.0; they were built with Bob 1.14.0 and run on the 1.14.0 headless engine. An existing project keeps its Defold version (see Version(#version)).",
+  "tags": [
+    "defold",
+    "core"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/other-engines/defold-core/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

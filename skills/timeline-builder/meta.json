@@ -1,0 +1,21 @@
+{
+  "id": "timeline-builder",
+  "name": "timeline builder",
+  "category": "engineering-workflow",
+  "description": "Generate beautiful interactive timeline HTML pages from JSON data, with vertical, horizontal, or dual-side layouts, collapsible details, and custom colors. Ideal for project milestones, company histories, or resumes. Triggered when a user mentions 'timeline', 'history of events', 'project milestones', 'release log', or asks to visualize a chronological sequence of data.",
+  "tags": [
+    "timeline",
+    "builder"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "zebbern/claude-code-guide",
+    "path": "skills/timeline-builder/SKILL.md",
+    "commit": "b50a31ad52510d148709b1eb61406952a02c3d19"
+  }
+}

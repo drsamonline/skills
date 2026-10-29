@@ -1,0 +1,21 @@
+{
+  "id": "skill-developer",
+  "name": "skill developer",
+  "category": "engineering-workflow",
+  "description": "Create and manage Claude Code skills following Anthropic best practices. Use when creating new skills, modifying skill-rules.json, understanding trigger patterns, working with hooks, debugging skill activation, or implementing progressive disclosure. Covers skill structure, YAML frontmatter, trigger types (keywords, intent patterns, file paths, content patterns), enforcement levels (block, suggest, warn), hook mechanisms (UserPromptSubmit, PreToolUse), session tracking, and the 500-line rule.",
+  "tags": [
+    "skill",
+    "developer"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "diet103/claude-code-infrastructure-showcase",
+    "path": ".agents/skills/skill-developer/SKILL.md",
+    "commit": "07f75ce3c301259e857343596e7883b8ce5a9f50"
+  }
+}

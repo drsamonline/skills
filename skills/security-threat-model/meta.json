@@ -1,0 +1,22 @@
+{
+  "id": "security-threat-model",
+  "name": "security threat model",
+  "category": "engineering-workflow",
+  "description": "Repository-grounded threat modeling that enumerates trust boundaries, assets, attacker capabilities, abuse paths, and mitigations, and writes a concise Markdown threat model. Use when the user asks to threat model a codebase or path, enumerate threats or abuse paths, or perform AppSec threat modeling. Do NOT use for general architecture summaries, code review, security best practices (use security-best-practices), or non-security design work.",
+  "tags": [
+    "security",
+    "threat",
+    "model"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "tech-leads-club/agent-skills",
+    "path": "packages/skills-catalog/skills/(security)/security-threat-model/SKILL.md",
+    "commit": "738451e40785750a8e8de5bce8112675f5f0df02"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "tiktok-search-videos",
+  "name": "tiktok search videos",
+  "category": "browser-automation",
+  "description": "TikTok keyword search video scraper: input search keyword → output paginated video list with full metadata (author, engagement stats, music, video meta). Use when user mentions TikTok search scraping, search TikTok by keyword, TikTok search results, extract TikTok search data, scrape TikTok videos by keyword, TikTok keyword videos, TikTok keyword search, TikTok search results collection, find TikTok videos by topic, tiktok search scraper, tiktok keyword scraper. Also applies to market research on TikTok content for specific topics, competitor content monitoring, or discovering videos and creators around a keyword.",
+  "tags": [
+    "tiktok",
+    "search",
+    "videos"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "browser-act/skills",
+    "path": "solutions/video-platforms/tiktok-search-videos/SKILL.md",
+    "commit": "11c057b03f92101642cadc9f840564574120d184"
+  }
+}

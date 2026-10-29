@@ -1,0 +1,21 @@
+{
+  "id": "create-design-md",
+  "name": "create design md",
+  "category": "frontend-ui",
+  "description": "Create or update a DESIGN.md from an existing product repository or public website. Use when asked to document an interface's design language, reconstruct its visual system, extract design tokens and guidance from current evidence, or give coding agents persistent UI context. Do not modify product source or promote accidental implementation patterns into design decisions.",
+  "tags": [
+    "create",
+    "design"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "ibelick/ui-skills",
+    "path": "skills/create-design-md/SKILL.md",
+    "commit": "59193a75432e5f41c6980f53b9e6a7bd56919947"
+  }
+}

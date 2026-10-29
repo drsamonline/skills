@@ -1,0 +1,20 @@
+{
+  "id": "notebooklm",
+  "name": "notebooklm",
+  "category": "notes-knowledge",
+  "description": "Use this skill to query your Google NotebookLM notebooks directly from Claude Code for source-grounded, citation-backed answers from Gemini. Browser automation, library management, persistent auth. Drastically reduced hallucinations through document-only responses.",
+  "tags": [
+    "notebooklm"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "PleasePrompto/notebooklm-skill",
+    "path": "SKILL.md",
+    "commit": "c80722d3f27d65e06b6579add201bf69b99101d0"
+  }
+}

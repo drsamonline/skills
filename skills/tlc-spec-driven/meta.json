@@ -1,0 +1,22 @@
+{
+  "id": "tlc-spec-driven",
+  "name": "tlc spec driven",
+  "category": "engineering-workflow",
+  "description": "Feature planning and implementation with 4 adaptive phases (Specify, Design, Tasks, Execute). Auto-sizes depth by complexity. Asks every product decision before the spec is approved, writes testable requirements in EARS notation, atomic tasks with a gate and a commit each, and one check per criterion with the test that proves it. Captures that come with the request bind, and each screen is judged against them. Ships deterministic Python scripts so the gates are enforced by code, not memory; the proofs run once at the end, and an independent Verifier (author != verifier) spends its time on mutations and judgement. Use when (1) planning features, (2) implementing with verification and atomic commits, (3) validating an implementation against a spec. Triggers on \"specify feature\", \"discuss feature\", \"design\", \"tasks\", \"implement\", \"validate\", \"verify work\", \"UAT\", \"record decision\", \"pause work\", \"resume work\". Do NOT use for pure architecture decomposition analysis or standalone technical design documents.",
+  "tags": [
+    "tlc",
+    "spec",
+    "driven"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "tech-leads-club/agent-skills",
+    "path": "packages/skills-catalog/skills/(development)/tlc-spec-driven/SKILL.md",
+    "commit": "738451e40785750a8e8de5bce8112675f5f0df02"
+  }
+}

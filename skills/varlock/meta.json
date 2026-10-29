@@ -1,0 +1,20 @@
+{
+  "id": "varlock",
+  "name": "varlock",
+  "category": "security-audit",
+  "description": "Secure environment variable management with Varlock. Use when handling secrets, API keys, credentials, or any sensitive configuration. Ensures secrets are never exposed in terminals, logs, traces, or Claude's context. Trigger phrases include \"environment variables\", \"secrets\", \".env\", \"API key\", \"credentials\", \"sensitive\", \"Varlock\".",
+  "tags": [
+    "varlock"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "wrsmith108/varlock-claude-skill",
+    "path": "skills/varlock/SKILL.md",
+    "commit": "348a435345b7ddafb4d1002d41d9e2ef3f5b6992"
+  }
+}

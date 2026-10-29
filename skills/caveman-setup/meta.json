@@ -1,0 +1,22 @@
+{
+  "id": "caveman-setup",
+  "name": "caveman setup",
+  "category": "engineering-workflow",
+  "description": "You are wiring this repository through the Caveman gateway. Caveman is a byte-preserving LLM proxy: in record mode it measures what your app sends and what it costs, and changes nothing else. Your job is a minimal, verified integration — not a refactor.",
+  "tags": [
+    "caveman",
+    "setup"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "JuliusBrussee/caveman",
+    "path": "skills/caveman-setup/SKILL.md",
+    "commit": "9b68f7ed12b05e7efaff18e65c5a3fc2849fd0a4"
+  },
+  "description_source": "derived-from-body"
+}

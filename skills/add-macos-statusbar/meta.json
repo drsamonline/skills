@@ -1,0 +1,22 @@
+{
+  "id": "add-macos-statusbar",
+  "name": "add macos statusbar",
+  "category": "engineering-workflow",
+  "description": "Add a macOS menu bar status indicator for NanoClaw. Shows a bolt icon with a green/red dot indicating whether NanoClaw is running, with Start, Stop, and Restart controls. macOS only.",
+  "tags": [
+    "add",
+    "macos",
+    "statusbar"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nanocoai/nanoclaw",
+    "path": ".claude/skills/add-macos-statusbar/SKILL.md",
+    "commit": "acc2b1c8f52a954368cfaf04b61c32f9a1efc280"
+  }
+}

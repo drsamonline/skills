@@ -1,0 +1,22 @@
+{
+  "id": "component-family-consistency",
+  "name": "component family consistency",
+  "category": "frontend-ui",
+  "description": "Buttons, inputs, badges and pills share radius, colour logic, shadow, border and spacing. Use when building or reviewing a component library.",
+  "tags": [
+    "component",
+    "family",
+    "consistency"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "dembrandt/dembrandt-skills",
+    "path": "skills/component-family-consistency/SKILL.md",
+    "commit": "c4ad177dea5b864f779f8c722f28cf04f760cb22"
+  }
+}

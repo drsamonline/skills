@@ -1,0 +1,22 @@
+{
+  "id": "godot-physics",
+  "name": "godot physics",
+  "category": "game-dev",
+  "description": "Pick the right physics body, wire up collision layers/masks, detect overlaps, and cast rays. Concepts apply to both 2D and 3D (swap the 2D/3D suffix). Targets Godot 4.7. In 3D, projects created with Godot 4.6 or later run Jolt Physics by default; older projects keep GodotPhysics3D unless someone switched them. 2D always uses Godot's own 2D engine.",
+  "tags": [
+    "godot",
+    "physics"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/godot/godot-physics/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

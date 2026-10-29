@@ -1,0 +1,22 @@
+{
+  "id": "skill-authoring-workflow",
+  "name": "skill authoring workflow",
+  "category": "product-management",
+  "description": "Turn raw PM content into a compliant, publish-ready skill. Use when creating or updating a repo skill without breaking standards.",
+  "tags": [
+    "skill",
+    "authoring",
+    "workflow"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "see LICENSE",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "deanpeters/Product-Manager-Skills",
+    "path": "skills/skill-authoring-workflow/SKILL.md",
+    "commit": "cfcb697f14b8891d8b3ec43c16c3547df3e70e13"
+  }
+}

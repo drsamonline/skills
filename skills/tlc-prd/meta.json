@@ -1,0 +1,21 @@
+{
+  "id": "tlc-prd",
+  "name": "tlc prd",
+  "category": "engineering-workflow",
+  "description": "Interviews an idea into a PRD file covering situation, problem, success, boundary, and journey states, and stops before any technical design. Use when the user says \"write the PRD\", \"create the PRD\", \"PRD\", \"product spec\", \"product requirements\", \"tlc-prd\", or \"what does the product need to decide\". Do NOT use for designing a solution, choosing technology, publishing the document, or cutting the PRD into tasks.",
+  "tags": [
+    "tlc",
+    "prd"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "tech-leads-club/agent-skills",
+    "path": "packages/skills-catalog/skills/(development)/tlc-prd/SKILL.md",
+    "commit": "738451e40785750a8e8de5bce8112675f5f0df02"
+  }
+}

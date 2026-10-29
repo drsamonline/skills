@@ -1,0 +1,22 @@
+{
+  "id": "godot-shaders",
+  "name": "godot shaders",
+  "category": "game-dev",
+  "description": "Write canvasitem (2D) and spatial (3D) shaders in the Godot Shading Language, animate with TIME/UV, expose uniforms, and read the screen. Targets Godot 4.7.",
+  "tags": [
+    "godot",
+    "shaders"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/godot/godot-shaders/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

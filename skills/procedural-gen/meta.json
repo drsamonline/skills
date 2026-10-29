@@ -1,0 +1,22 @@
+{
+  "id": "procedural-gen",
+  "name": "procedural gen",
+  "category": "game-dev",
+  "description": "Generate levels, terrain, and loot from compact rules and a seed. The throughline of good procgen is determinism: a single seed reproduces the same world, so bugs are repeatable and players can share seeds. This skill owns the core algorithms — noise, seeded RNG, dungeon layout, weighted tables; genres like roguelike and survival-crafting consume it.",
+  "tags": [
+    "procedural",
+    "gen"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/disciplines/procedural-gen/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "webdriverio-skill",
+  "name": "webdriverio skill",
+  "category": "testing-qa",
+  "description": "Default local. If mentions \"cloud\", \"TestMu\", \"LambdaTest\" → cloud via WDIO LambdaTest service.",
+  "tags": [
+    "webdriverio",
+    "skill"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "LambdaTest/agent-skills",
+    "path": "webdriverio-skill/SKILL.md",
+    "commit": "992638bccbc311f42c0bd8b2b3387a0d1ce6288d"
+  },
+  "description_source": "derived-from-body"
+}

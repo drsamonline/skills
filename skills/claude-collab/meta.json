@@ -1,0 +1,21 @@
+{
+  "id": "claude-collab",
+  "name": "claude collab",
+  "category": "engineering-workflow",
+  "description": "Use when the user asks to invoke, delegate to, or collaborate with Claude (Claude Code) on any task. Also use PROACTIVELY when handing part of the work to Claude, or an independent non-Codex perspective, would add value — implementation, review, second opinions on code, plans, architecture, or design decisions.",
+  "tags": [
+    "claude",
+    "collab"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "Kevin7Qi/codex-collab",
+    "path": "codex-skill/SKILL.md",
+    "commit": "1212a0e0447f93b25f934e5e485c5f40fae16ed8"
+  }
+}

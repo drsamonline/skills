@@ -1,0 +1,22 @@
+{
+  "id": "physics-tuning",
+  "name": "physics tuning",
+  "category": "game-dev",
+  "description": "Most \"bad physics\" is not a bug in the engine — it's a mismatch between the fixed-timestep simulation and the variable-rate render loop, or untuned mass/drag/CCD/layer settings. This skill covers the engine-neutral knobs that make physics stable and responsive; pair it with godot-physics or unity-physics for the concrete APIs.",
+  "tags": [
+    "physics",
+    "tuning"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/disciplines/physics-tuning/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

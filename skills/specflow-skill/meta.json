@@ -1,0 +1,22 @@
+{
+  "id": "specflow-skill",
+  "name": "specflow skill",
+  "category": "testing-qa",
+  "description": "Scenario: Successful login Given I am on the login page When I enter \"user@test.com\" as email And I enter \"password123\" as password And I click the login button Then I should see the dashboard And the welcome message should contain \"Welcome\"",
+  "tags": [
+    "specflow",
+    "skill"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "LambdaTest/agent-skills",
+    "path": "specflow-skill/SKILL.md",
+    "commit": "992638bccbc311f42c0bd8b2b3387a0d1ce6288d"
+  },
+  "description_source": "derived-from-body"
+}

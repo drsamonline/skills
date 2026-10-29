@@ -5,12 +5,12 @@ license: see each member
 metadata:
   title: "Backend and services pack"
   kind: "index pack"
-  members: "14"
+  members: "15"
 ---
 
 # Backend and services pack
 
-14 skills, each kept as its own skill in `skills/<id>/` — this pack is the index that tells you which one to read. Drawn from 6 upstream repositories (MiniMax-AI/skills, addyosmani/agent-skills, affaan-m/ECC, anthropics/skills, mcollina/skills, sickn33/agentic-awesome-skills).
+15 skills, each kept as its own skill in `skills/<id>/` — this pack is the index that tells you which one to read. Drawn from 7 upstream repositories.
 
 ## When to use
 
@@ -34,6 +34,7 @@ metadata:
 | [`node`](../node/SKILL.md) | Provides domain-specific best practices for Node.js development with TypeScript, covering type stripping, async patterns, error handling, streams, modules, testing,… | mcollina/skills | MIT |
 | [`nodejs-core`](../nodejs-core/SKILL.md) | Contributes to and debugs Node.js core, including nodejs/node commit and PR tone, contribution workflows, native crashes, V8 performance, node-gyp builds, N-API bindings, and… | mcollina/skills | MIT |
 | [`oauth`](../oauth/SKILL.md) | Implements OAuth 2.0/2.1 authorization flows in Fastify applications — configures authorization code with PKCE, client credentials, device flow, refresh token rotation, JWT… | mcollina/skills | MIT |
+| [`rails-conventions`](../rails-conventions/SKILL.md) | Modern Ruby and Rails application architecture, implementation, and review guidance for production codebases. Use when building or reviewing Ruby on Rails 8 features across… | ethos-link/rails-conventions | MIT |
 | [`snipgrapher`](../snipgrapher/SKILL.md) | Configures and uses snipgrapher to generate polished code snippet images, including syntax-highlighted PNGs, SVGs, and WebP exports with custom themes, profiles, and styling… | mcollina/skills | MIT |
 | [`tinystruct-patterns`](../tinystruct-patterns/SKILL.md) | Expert guidance for developing with the tinystruct Java framework. Use when working on the tinystruct codebase or any project built on tinystruct — including generating the… | affaan-m/ECC | MIT |
 | [`typescript-magician`](../typescript-magician/SKILL.md) | Designs complex generic types, refactors `any` types to strict alternatives, creates type guards and utility types, and resolves TypeScript compiler errors. Use when the user… | mcollina/skills | MIT |
@@ -46,4 +47,3 @@ Read the table, pick the one skill that matches the situation, then open `../<id
 
 - The licences differ inside this pack (Apache-2.0, MIT). Each member carries its own `LICENSE` file; nothing here is relicensed.
 - These are upstream skills, imported as written. Where one assumes a tool or service you do not use, the method still applies — the commands do not.
-- Skills marked as mined from an aggregator have incomplete upstream attribution; check `meta.json` before republishing them elsewhere.

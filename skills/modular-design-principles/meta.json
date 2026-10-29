@@ -1,0 +1,23 @@
+{
+  "id": "modular-design-principles",
+  "name": "modular design principles",
+  "category": "engineering-workflow",
+  "description": "Use this skill when reasoning about structure and boundaries in any codebase. It intentionally avoids framework names, folder conventions, and tooling — map principles to your stack locally.",
+  "tags": [
+    "modular",
+    "design",
+    "principles"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "tech-leads-club/agent-skills",
+    "path": "packages/skills-catalog/skills/(architecture)/modular-design-principles/SKILL.md",
+    "commit": "738451e40785750a8e8de5bce8112675f5f0df02"
+  },
+  "description_source": "derived-from-body"
+}

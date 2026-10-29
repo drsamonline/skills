@@ -1,0 +1,22 @@
+{
+  "id": "pricing-packaging-tracker",
+  "name": "pricing packaging tracker",
+  "category": "product-management",
+  "description": "Track competitor pricing and packaging as a diffable time series. Use when monitoring tiers, gates, limits, and price moves on a monthly or quarterly cadence.",
+  "tags": [
+    "pricing",
+    "packaging",
+    "tracker"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "see LICENSE",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "deanpeters/Product-Manager-Skills",
+    "path": "skills/pricing-packaging-tracker/SKILL.md",
+    "commit": "cfcb697f14b8891d8b3ec43c16c3547df3e70e13"
+  }
+}

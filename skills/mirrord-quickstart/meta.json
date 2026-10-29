@@ -1,0 +1,21 @@
+{
+  "id": "mirrord-quickstart",
+  "name": "mirrord quickstart",
+  "category": "cloud-and-deploy",
+  "description": "Guide users from zero to their first working mirrord session — check system requirements, install mirrord via CLI, VS Code, or IntelliJ, run a first session against a Kubernetes target, and verify the connection. Use when a user is new to mirrord, wants to install it, needs help running their first session, or wants to debug or test a local process against their Kubernetes cluster.",
+  "tags": [
+    "mirrord",
+    "quickstart"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "metalbear-co/skills",
+    "path": "skills/mirrord-quickstart/SKILL.md",
+    "commit": "ff44181162fe6e76e503781a6d20bbdb4bbbcc5c"
+  }
+}

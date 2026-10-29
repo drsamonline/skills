@@ -21,14 +21,29 @@
     "commit": ""
   },
   "subskills": [
+    "anti-entropy-governance",
+    "communicating-concisely",
     "constraint-driven-development",
     "doubt-driven-development",
+    "establishing-project-context",
+    "first-principles-review",
     "flutter-dart-code-review",
     "git-guardrails-claude-code",
+    "goal-framing",
     "laravel-security",
+    "long-task-continuation",
     "mle-workflow",
+    "recording-architecture-decisions",
+    "requesting-code-review",
     "security-and-hardening",
     "security-audit",
+    "systematic-debugging",
+    "ui-ux-governance",
+    "update-aegis",
+    "using-aegis",
+    "varlock",
+    "verification-before-completion",
+    "writing-plans",
     "zeroize-audit"
   ]
 }

@@ -1,0 +1,21 @@
+{
+  "id": "vercel-cli",
+  "name": "vercel cli",
+  "category": "engineering-workflow",
+  "description": "Deploy apps to Vercel. Use when asked to deploy, ship, or publish a web application, or manage Vercel projects, domains, and environment variables.",
+  "tags": [
+    "vercel",
+    "cli"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nanocoai/nanoclaw",
+    "path": ".claude/skills/add-vercel/container-skills/vercel-cli/SKILL.md",
+    "commit": "acc2b1c8f52a954368cfaf04b61c32f9a1efc280"
+  }
+}

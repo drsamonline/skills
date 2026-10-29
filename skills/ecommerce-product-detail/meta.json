@@ -1,0 +1,22 @@
+{
+  "id": "ecommerce-product-detail",
+  "name": "ecommerce product detail",
+  "category": "browser-automation",
+  "description": "Extract complete product information from any e-commerce product page. Returns name, price, currency, brand, images, description, SKU/ASIN/EAN/UPC/GTIN/MPN identifiers, stock availability, rating, review count, variants, and seller. Works on Shopify, Amazon, WooCommerce, eBay, Walmart, Etsy, AliExpress, Alibaba, Target, Best Buy, Rakuten, Magento, BigCommerce, PrestaShop, and any public e-commerce site. Accepts product URL, keyword, or product identifier (SKU/ASIN/EAN/UPC). Use when: scrape product page, get product details, extract price and availability, product info extraction, check product data, product detail scraping, get product from URL, keyword product search, ASIN lookup, EAN search, UPC lookup, price check, product research, compare products, monitor product price, get product images, product brand and description, ecommerce data extraction, product catalog scraping, product page scraper, get item price, fetch product info.",
+  "tags": [
+    "ecommerce",
+    "product",
+    "detail"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "browser-act/skills",
+    "path": "solutions/ecommerce/ecommerce-product-detail/SKILL.md",
+    "commit": "11c057b03f92101642cadc9f840564574120d184"
+  }
+}

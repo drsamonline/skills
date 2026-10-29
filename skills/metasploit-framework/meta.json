@@ -1,0 +1,21 @@
+{
+  "id": "metasploit-framework",
+  "name": "metasploit framework",
+  "category": "engineering-workflow",
+  "description": "This skill should be used when the user asks to \"use Metasploit for penetration testing\", \"exploit vulnerabilities with msfconsole\", \"create payloads with msfvenom\", \"perform post-exploitation\", \"use auxiliary modules for scanning\", or \"develop custom exploits\". It provides comprehensive guidance for leveraging the Metasploit Framework in security assessments.",
+  "tags": [
+    "metasploit",
+    "framework"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "zebbern/claude-code-guide",
+    "path": "skills/metasploit-framework/SKILL.md",
+    "commit": "b50a31ad52510d148709b1eb61406952a02c3d19"
+  }
+}

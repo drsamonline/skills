@@ -1,0 +1,22 @@
+{
+  "id": "component-flattening-analysis",
+  "name": "component flattening analysis",
+  "category": "engineering-workflow",
+  "description": "Detects misplaced classes and fixes component hierarchy problems — finds code that should belong inside a component but sits at the root level. Use when asking \"clean up component structure\", \"find orphaned classes\", \"fix module hierarchy\", \"flatten nested components\", or analyzing why namespaces have misplaced code. Do NOT use for dependency analysis (use coupling-analysis) or domain grouping (use domain-identification-grouping).",
+  "tags": [
+    "component",
+    "flattening",
+    "analysis"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "tech-leads-club/agent-skills",
+    "path": "packages/skills-catalog/skills/(architecture)/component-flattening-analysis/SKILL.md",
+    "commit": "738451e40785750a8e8de5bce8112675f5f0df02"
+  }
+}

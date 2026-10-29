@@ -1,0 +1,22 @@
+{
+  "id": "survival-crafting",
+  "name": "survival crafting",
+  "category": "game-dev",
+  "description": "A playbook for survival-crafting games — the gather → craft → build loop, survival needs, the crafting/tech progression, and base building. This is a compositional skill: it orchestrates inventory data, world content, persistence, and threats. It does not re-teach those primitives; it defines the loop and the pressure systems (needs, scarcity, escalation) that make survival tense rather than tedio",
+  "tags": [
+    "survival",
+    "crafting"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/genres/survival-crafting/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

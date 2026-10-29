@@ -1,0 +1,22 @@
+{
+  "id": "level-design",
+  "name": "level design",
+  "category": "game-dev",
+  "description": "A level is a sequence of intentional experiences delivered through space. Good level design is a process: define the metrics movement is built on, block out geometry with primitives, play it, then dress it — never the reverse. This skill is the engine-neutral practice; use godot-tilemap/unity-tilemap-2d to lay out 2D grids and gridmaps for 3D.",
+  "tags": [
+    "level",
+    "design"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/disciplines/level-design/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "godot-multiplayer",
+  "name": "godot multiplayer",
+  "category": "game-dev",
+  "description": "Connect peers, call functions remotely with @rpc, assign authority, and replicate state with MultiplayerSpawner/MultiplayerSynchronizer. Targets Godot 4.7 (ENet). Treat all client input as untrusted; keep the server authoritative.",
+  "tags": [
+    "godot",
+    "multiplayer"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/godot/godot-multiplayer/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "ghostwriter",
+  "name": "ghostwriter",
+  "category": "engineering-workflow",
+  "description": "Writes, rewrites, and critiques messages, posts, review comments, tickets, PRDs, design docs, talk scripts, docs, READMEs, and copy as the user or their company, in a private profile's voice with machine tells stripped. Use when asked to \"write this in my voice\", \"draft a Slack reply\", \"make this sound less like AI\", \"write the README\", \"critique my draft\", or \"write my Slack profile\".",
+  "tags": [
+    "ghostwriter"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "mblode/agent-skills",
+    "path": "skills/ghostwriter/SKILL.md",
+    "commit": "ff92bf5ae675e8108e7d2f14b22a523fd1303e76"
+  }
+}

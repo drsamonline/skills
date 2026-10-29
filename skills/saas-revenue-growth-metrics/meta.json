@@ -1,0 +1,23 @@
+{
+  "id": "saas-revenue-growth-metrics",
+  "name": "saas revenue growth metrics",
+  "category": "product-management",
+  "description": "Calculate SaaS revenue, retention, and growth metrics. Use when diagnosing momentum, churn, expansion, or product-market-fit signals.",
+  "tags": [
+    "saas",
+    "revenue",
+    "growth",
+    "metrics"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "see LICENSE",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "deanpeters/Product-Manager-Skills",
+    "path": "skills/saas-revenue-growth-metrics/SKILL.md",
+    "commit": "cfcb697f14b8891d8b3ec43c16c3547df3e70e13"
+  }
+}

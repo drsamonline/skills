@@ -1,0 +1,25 @@
+{
+  "id": "amazon-buy-box-monitor-api-skill",
+  "name": "amazon buy box monitor api skill",
+  "category": "browser-automation",
+  "description": "This skill helps users extract basic product details other sellers prices and seller ratings from Amazon via ASIN automatically using the BrowserAct API. Agent should proactively apply this skill when users express needs like query Amazon buy box information, monitor Amazon product prices, extract Amazon product details by ASIN, check other sellers prices on Amazon, get Amazon seller ratings and feedback count, monitor buy box ownership for a specific ASIN, track Amazon fulfillment methods for competitors, compare Amazon product prices across different sellers, retrieve Amazon buy box availability status, analyze Amazon seller profile details.",
+  "tags": [
+    "amazon",
+    "buy",
+    "box",
+    "monitor",
+    "api",
+    "skill"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "browser-act/skills",
+    "path": "solutions/ecommerce/amazon-buy-box-monitor-api-skill/SKILL.md",
+    "commit": "11c057b03f92101642cadc9f840564574120d184"
+  }
+}

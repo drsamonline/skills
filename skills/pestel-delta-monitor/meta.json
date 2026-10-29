@@ -1,0 +1,22 @@
+{
+  "id": "pestel-delta-monitor",
+  "name": "pestel delta monitor",
+  "category": "product-management",
+  "description": "Quarterly re-scan of a prior PESTEL analysis. Use when checking which macro factors moved, which assumptions broke, and what's new — turning PESTEL from a workshop artifact into a radar.",
+  "tags": [
+    "pestel",
+    "delta",
+    "monitor"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "see LICENSE",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "deanpeters/Product-Manager-Skills",
+    "path": "skills/pestel-delta-monitor/SKILL.md",
+    "commit": "cfcb697f14b8891d8b3ec43c16c3547df3e70e13"
+  }
+}

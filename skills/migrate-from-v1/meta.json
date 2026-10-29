@@ -1,0 +1,21 @@
+{
+  "id": "migrate-from-v1",
+  "name": "migrate from v1",
+  "category": "engineering-workflow",
+  "description": "Finish migrating a NanoClaw v1 install into v2. Run after `bash migrate-v2.sh` completes. Seeds the owner, migrates legacy memory, reconciles container configs, and helps port custom v1 code. Triggers on \"migrate from v1\", \"finish migration\", \"v1 migration\".",
+  "tags": [
+    "migrate",
+    "from"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nanocoai/nanoclaw",
+    "path": ".claude/skills/migrate-from-v1/SKILL.md",
+    "commit": "acc2b1c8f52a954368cfaf04b61c32f9a1efc280"
+  }
+}

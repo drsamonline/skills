@@ -1,0 +1,23 @@
+{
+  "id": "layout-paradigms-and-consistency",
+  "name": "layout paradigms and consistency",
+  "category": "frontend-ui",
+  "description": "Choose a layout paradigm (feed, board, table, canvas, master-detail, dashboard) and reuse it across screens. Includes a landing page narrative framework. Use when structuring a screen, page template or landing page.",
+  "tags": [
+    "layout",
+    "paradigms",
+    "and",
+    "consistency"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "dembrandt/dembrandt-skills",
+    "path": "skills/layout-paradigms-and-consistency/SKILL.md",
+    "commit": "c4ad177dea5b864f779f8c722f28cf04f760cb22"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "daily-news-caster",
+  "name": "daily news caster",
+  "category": "media-design",
+  "description": "Fetches the latest news using news-aggregator-skill, formats it into a podcast script in Markdown format, and uses the tts skill to generate a podcast audio file. Use when the user asks to get the latest news and read it out as a podcast.",
+  "tags": [
+    "daily",
+    "news",
+    "caster"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "NOASSERTION",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "NoizAI/skills",
+    "path": "skills/daily-news-caster/SKILL.md",
+    "commit": "779f30af588ebf4dd17fc0acaa590ae147a0d3f5"
+  }
+}

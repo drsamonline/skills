@@ -1,0 +1,22 @@
+{
+  "id": "instagram-place-posts",
+  "name": "instagram place posts",
+  "category": "browser-automation",
+  "description": "Scrapes Instagram posts tagged at a specific location or place, returning media items with captions, like/comment counts, media URLs and user info. Use when user mentions Instagram location posts, posts from a place on Instagram, Instagram geotag scraping, posts tagged at location, Instagram place feed, get posts from a venue on Instagram, Instagram location data, posts near me Instagram, place-based Instagram content, tagged location posts.",
+  "tags": [
+    "instagram",
+    "place",
+    "posts"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "browser-act/skills",
+    "path": "solutions/social-listening/instagram-place-posts/SKILL.md",
+    "commit": "11c057b03f92101642cadc9f840564574120d184"
+  }
+}

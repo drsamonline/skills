@@ -1,0 +1,22 @@
+{
+  "id": "game-feel",
+  "name": "game feel",
+  "category": "game-dev",
+  "description": "The difference between a mechanic that works and one that feels good is feedback: the layered, slightly-exaggerated response an action provokes. This skill covers the engine- neutral techniques — screen shake, hit-stop, easing, squash & stretch, knockback, and stacked feedback — and tells you how to apply them without burying the underlying simulation. It adds polish on top of an existing mechanic",
+  "tags": [
+    "game",
+    "feel"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/disciplines/game-feel/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

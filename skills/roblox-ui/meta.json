@@ -1,0 +1,21 @@
+{
+  "id": "roblox-ui",
+  "name": "roblox ui",
+  "category": "game-dev",
+  "description": "Implement deliberate, editable Roblox UI that preserves the experience's visual language and works across supported devices. Targets Roblox's rolling platform APIs. Pair with game-ui-ux for engine-neutral information architecture and UX; this skill owns Roblox Instances and APIs.",
+  "tags": [
+    "roblox"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/other-engines/roblox-ui/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

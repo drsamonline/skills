@@ -1,0 +1,22 @@
+{
+  "id": "walmart-product-detail",
+  "name": "walmart product detail",
+  "category": "browser-automation",
+  "description": "Walmart product detail page extractor: given a walmart.com product URL (walmart.com/ip/...), extract full product data including itemId, title, brand, model, UPC, price, wasPrice, currency, availability, category path, seller info, all images, shortDescription, longDescription, product highlights, full specifications as key-value map, color/size variants with item IDs, fulfillment options (shipping/pickup/delivery with dates), return policy, and review summary with rating breakdown. Use when user mentions walmart product detail, walmart item page, walmart product page, scrape walmart product, extract walmart item, walmart product data, walmart item details, walmart product info, walmart product scraper, walmart item scraper, walmart product URL, walmart ip URL, walmart.com/ip, walmart specifications, walmart product specs, walmart product images, walmart variants, walmart color options, walmart size options, walmart seller info, walmart return policy, walmart fulfillment options, walmart shipping info, walmar",
+  "tags": [
+    "walmart",
+    "product",
+    "detail"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "browser-act/skills",
+    "path": "solutions/ecommerce/walmart-product-detail/SKILL.md",
+    "commit": "11c057b03f92101642cadc9f840564574120d184"
+  }
+}

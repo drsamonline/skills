@@ -1,0 +1,22 @@
+{
+  "id": "academic-paper-reviewer",
+  "name": "academic paper reviewer",
+  "category": "engineering-workflow",
+  "description": "Simulates academic peer review, evaluating papers across Originality, Methodology, Results, and Writing to provide Major/Minor Revision recommendations with actionable feedback. Triggers when a user asks to \\\"review my paper,\\\" \\\"simulate peer review,\\\" or \\\"give my paper a peer review.",
+  "tags": [
+    "academic",
+    "paper",
+    "reviewer"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "zebbern/claude-code-guide",
+    "path": "skills/academic-paper-reviewer/SKILL.md",
+    "commit": "b50a31ad52510d148709b1eb61406952a02c3d19"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "video-translation",
+  "name": "video translation",
+  "category": "media-design",
+  "description": "Translate and dub videos from one language to another, replacing the original audio with TTS while keeping the video intact.",
+  "tags": [
+    "video",
+    "translation"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "NOASSERTION",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "NoizAI/skills",
+    "path": "skills/video-translation/SKILL.md",
+    "commit": "779f30af588ebf4dd17fc0acaa590ae147a0d3f5"
+  }
+}

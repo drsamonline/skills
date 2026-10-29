@@ -1,0 +1,22 @@
+{
+  "id": "accessibility-skill",
+  "name": "accessibility skill",
+  "category": "testing-qa",
+  "description": "Accessibility testing on TestMu AI is layered onto an existing automation suite. You do not install a separate tool: you enable a capability on your driver and either trigger scans at chosen points or let every navigation scan automatically. Results appear on the Accessibility dashboard.",
+  "tags": [
+    "accessibility",
+    "skill"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "LambdaTest/agent-skills",
+    "path": "accessibility-skill/SKILL.md",
+    "commit": "992638bccbc311f42c0bd8b2b3387a0d1ce6288d"
+  },
+  "description_source": "derived-from-body"
+}

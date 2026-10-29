@@ -1,0 +1,24 @@
+{
+  "id": "postman-test-script-generator",
+  "name": "postman test script generator",
+  "category": "testing-qa",
+  "description": "Writes and embeds Postman JavaScript test scripts — both prerequest and test scripts — into collection requests. Works from an existing collection JSON or a plain description.",
+  "tags": [
+    "postman",
+    "test",
+    "script",
+    "generator"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "LambdaTest/agent-skills",
+    "path": "api-skill/postman/postman-testcase-generator/SKILL.md",
+    "commit": "992638bccbc311f42c0bd8b2b3387a0d1ce6288d"
+  },
+  "description_source": "derived-from-body"
+}

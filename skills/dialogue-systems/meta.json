@@ -1,0 +1,22 @@
+{
+  "id": "dialogue-systems",
+  "name": "dialogue systems",
+  "category": "game-dev",
+  "description": "Model conversations as a graph: nodes hold lines, choices branch the flow, conditions gate options, and variables remember what the player did. The first real decision is build vs. buy — adopt a proven authoring tool (Ink or Yarn Spinner) or write a small data-driven runner. This skill owns both Ink and Yarn; the visual-novel and rpg genres consume it.",
+  "tags": [
+    "dialogue",
+    "systems"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/disciplines/dialogue-systems/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

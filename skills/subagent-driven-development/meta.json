@@ -18,5 +18,11 @@
     "repo": "obra/superpowers",
     "path": "skills/subagent-driven-development/SKILL.md",
     "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b"
-  }
+  },
+  "variants": [
+    {
+      "repo": "GanyuanRan__Aegis",
+      "path": "skills/subagent-driven-development/SKILL.md"
+    }
+  ]
 }

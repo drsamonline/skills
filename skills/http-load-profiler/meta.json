@@ -1,0 +1,22 @@
+{
+  "id": "http-load-profiler",
+  "name": "http load profiler",
+  "category": "engineering-workflow",
+  "description": "Run stepped HTTP load tests with ab/wrk, ramping concurrency levels to collect p50/p90/p99 latency, detect performance inflection points, and recommend optimal concurrency. Triggered by requests like 'load test this URL', 'benchmark my API', 'find the max concurrency', or mentions of p99 latency, throughput saturation, or capacity planning.",
+  "tags": [
+    "http",
+    "load",
+    "profiler"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "zebbern/claude-code-guide",
+    "path": "skills/http-load-profiler/SKILL.md",
+    "commit": "b50a31ad52510d148709b1eb61406952a02c3d19"
+  }
+}

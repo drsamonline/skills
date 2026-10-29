@@ -1,0 +1,23 @@
+{
+  "id": "mirrord-propagation-discovery",
+  "name": "mirrord propagation discovery",
+  "category": "cloud-and-deploy",
+  "description": "mirrord routes a request to a developer's local process when the request matches an HTTP filter. On a shared cluster that filter has to pick out one developer's requests at every service the request passes through, so the value it matches on must already travel with the request across all hops. This skill finds that value in a live environment instead of assuming one: it dumps the traffic arriving",
+  "tags": [
+    "mirrord",
+    "propagation",
+    "discovery"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "metalbear-co/skills",
+    "path": "skills/mirrord-propagation-discovery/SKILL.md",
+    "commit": "ff44181162fe6e76e503781a6d20bbdb4bbbcc5c"
+  },
+  "description_source": "derived-from-body"
+}

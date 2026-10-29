@@ -1,0 +1,21 @@
+{
+  "id": "add-mattermost",
+  "name": "add mattermost",
+  "category": "engineering-workflow",
+  "description": "Add a self-hosted or cloud Mattermost bot channel through the Chat SDK bridge, reusing a healthy server when available and linking to official server setup guidance when needed.",
+  "tags": [
+    "add",
+    "mattermost"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nanocoai/nanoclaw",
+    "path": ".claude/skills/add-mattermost/SKILL.md",
+    "commit": "acc2b1c8f52a954368cfaf04b61c32f9a1efc280"
+  }
+}

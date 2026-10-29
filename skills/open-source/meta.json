@@ -1,0 +1,22 @@
+{
+  "id": "open-source",
+  "name": "open source",
+  "category": "browser-automation",
+  "description": "Reference docs for writing Python code against the browser-use library. Read the relevant file based on what the user needs.",
+  "tags": [
+    "open",
+    "source"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "browser-use/browser-use",
+    "path": "skills/open-source/SKILL.md",
+    "commit": "2cc71890e65056b67fdb29d98bb407749c15bb08"
+  },
+  "description_source": "derived-from-body"
+}

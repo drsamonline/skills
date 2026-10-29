@@ -1,0 +1,23 @@
+{
+  "id": "api-to-testcase-generator",
+  "name": "api to testcase generator",
+  "category": "testing-qa",
+  "description": "Converts API definitions into production-ready test suites covering happy paths, edge cases, error handling, and boundary conditions.",
+  "tags": [
+    "api",
+    "testcase",
+    "generator"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "LambdaTest/agent-skills",
+    "path": "api-skill/api-to-testcase-generator/SKILL.md",
+    "commit": "992638bccbc311f42c0bd8b2b3387a0d1ce6288d"
+  },
+  "description_source": "derived-from-body"
+}

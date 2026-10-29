@@ -1,0 +1,22 @@
+{
+  "id": "backend-dev-guidelines",
+  "name": "backend dev guidelines",
+  "category": "engineering-workflow",
+  "description": "Comprehensive backend development guide for Node.js/Express/TypeScript microservices. Use when creating routes, controllers, services, repositories, middleware, or working with Express APIs, Prisma database access, Sentry error tracking, Zod validation, unifiedConfig, dependency injection, or async patterns. Covers layered architecture (routes → controllers → services → repositories), BaseController pattern, error handling, performance monitoring, testing strategies, and migration from legacy patterns.",
+  "tags": [
+    "backend",
+    "dev",
+    "guidelines"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "diet103/claude-code-infrastructure-showcase",
+    "path": ".agents/skills/backend-dev-guidelines/SKILL.md",
+    "commit": "07f75ce3c301259e857343596e7883b8ce5a9f50"
+  }
+}

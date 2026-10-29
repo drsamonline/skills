@@ -1,0 +1,22 @@
+{
+  "id": "exec-briefing-memo",
+  "name": "exec briefing memo",
+  "category": "frontend-ui",
+  "description": "Decision needed + recommendation + evidence + tradeoffs, 把复杂材料压成可拍板的一页",
+  "tags": [
+    "exec",
+    "briefing",
+    "memo"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nexu-io/html-anything",
+    "path": "next/src/lib/templates/skills/exec-briefing-memo/SKILL.md",
+    "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
+  }
+}

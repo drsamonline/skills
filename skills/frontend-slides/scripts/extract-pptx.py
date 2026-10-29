@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Extract supported text, pictures and notes from a PowerPoint file (.pptx).
+Extract all content from a PowerPoint file (.pptx).
 Returns a JSON structure with slides, text, and images.
 
 Usage:
@@ -12,37 +12,14 @@ Requires: pip install python-pptx
 import json
 import os
 import sys
-from zipfile import ZipFile
 from pptx import Presentation
-from pathlib import Path
 
 
-def safe_user_path(path_value, base_dir="."):
-    """Resolve a CLI path under the current workspace."""
-    if base_dir != ".":
-        raise ValueError("Custom base directories are not supported for CLI paths")
-    base_path = Path.cwd().resolve()
-    resolved_path = Path(path_value).expanduser().resolve()
-    try:
-        resolved_path.relative_to(base_path)
-    except ValueError as exc:
-        raise ValueError(f"Path escapes allowed directory: {path_value}") from exc
-    return resolved_path
-
-
-def extract_pptx(file_path, output_dir="extracted-pptx"):
+def extract_pptx(file_path, output_dir="."):
     """
-    Extract supported text, pictures and notes from a PowerPoint file.
+    Extract all content from a PowerPoint file.
     Returns a list of slide data dicts with text, images, and notes.
     """
-    file_path = safe_user_path(file_path)
-    output_dir = safe_user_path(output_dir)
-    # Bound advertised archive contents before parsing; this is not a hostile-file sandbox.
-    with ZipFile(file_path) as archive:
-        entries = archive.infolist()
-        if len(entries) > 10000 or sum(e.file_size for e in entries) > 100 * 1024 * 1024:
-            raise ValueError("PPTX exceeds extraction limits")
-    output_dir.mkdir(parents=True, exist_ok=False)  # never overwrite an existing extraction
     prs = Presentation(file_path)
     slides_data = []
 
@@ -77,7 +54,7 @@ def extract_pptx(file_path, output_dir="extracted-pptx"):
                 image_name = f"slide{slide_num + 1}_img{len(slide_data['images']) + 1}.{image_ext}"
                 image_path = os.path.join(assets_dir, image_name)
 
-                with safe_user_path(image_path).open("wb") as f:
+                with open(image_path, "wb") as f:
                     f.write(image_bytes)
 
                 slide_data["images"].append(
@@ -104,14 +81,14 @@ if __name__ == "__main__":
         sys.exit(1)
 
     input_file = sys.argv[1]
-    output_dir = safe_user_path(sys.argv[2]) if len(sys.argv) > 2 else "extracted-pptx"
+    output_dir = sys.argv[2] if len(sys.argv) > 2 else "."
 
     slides = extract_pptx(input_file, output_dir)
 
     # Write extracted data as JSON
     output_path = os.path.join(output_dir, "extracted-slides.json")
-    with safe_user_path(output_path).open("w") as f:
-        f.write(json.dumps(slides, indent=2))
+    with open(output_path, "w") as f:
+        json.dump(slides, f, indent=2)
 
     print(f"Extracted {len(slides)} slides to {output_path}")
     for s in slides:

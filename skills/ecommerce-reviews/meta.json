@@ -1,0 +1,21 @@
+{
+  "id": "ecommerce-reviews",
+  "name": "ecommerce reviews",
+  "category": "browser-automation",
+  "description": "Extract customer reviews from any e-commerce product page or reviews page. Returns reviewer name, star rating, date, review title, review body, verified purchase status, and helpful votes per review. Works on Amazon, WooCommerce, Shopify, and any site with standard review markup. Supports pagination for multi-page review sections. Use when: product reviews, customer feedback, review scraping, get reviews, sentiment analysis data, review extraction, customer ratings, extract customer opinions, product feedback, user reviews, review mining, bulk review collection, review analysis, scrape ratings and comments, ecommerce review data.",
+  "tags": [
+    "ecommerce",
+    "reviews"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "browser-act/skills",
+    "path": "solutions/ecommerce/ecommerce-reviews/SKILL.md",
+    "commit": "11c057b03f92101642cadc9f840564574120d184"
+  }
+}

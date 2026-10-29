@@ -1,0 +1,22 @@
+{
+  "id": "linux-shell-scripting",
+  "name": "linux shell scripting",
+  "category": "engineering-workflow",
+  "description": "This skill should be used when the user asks to \"create bash scripts\", \"automate Linux tasks\", \"monitor system resources\", \"backup files\", \"manage users\", or \"write production shell scripts\". It provides ready-to-use shell script templates for system administration.",
+  "tags": [
+    "linux",
+    "shell",
+    "scripting"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "zebbern/claude-code-guide",
+    "path": "skills/linux-shell-scripting/SKILL.md",
+    "commit": "b50a31ad52510d148709b1eb61406952a02c3d19"
+  }
+}

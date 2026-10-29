@@ -1,0 +1,21 @@
+{
+  "id": "chat-history",
+  "name": "chat history",
+  "category": "engineering-workflow",
+  "description": "Recovers decisions, previous fixes, research, and what followed a prompt from past AI conversations, with source evidence. Use when asked to \"search past chats\", \"we fixed this before\", \"what followed this prompt\", or \"why did the plan change\". Reads local Claude Code, Codex, Grok, and Cursor history plus explicit ChatGPT or Claude exports.",
+  "tags": [
+    "chat",
+    "history"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "mblode/agent-skills",
+    "path": "skills/chat-history/SKILL.md",
+    "commit": "ff92bf5ae675e8108e7d2f14b22a523fd1303e76"
+  }
+}

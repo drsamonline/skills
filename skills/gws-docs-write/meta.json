@@ -1,0 +1,22 @@
+{
+  "id": "gws-docs-write",
+  "name": "gws docs write",
+  "category": "google-workspace",
+  "description": "Google Docs: Append text to a document.",
+  "tags": [
+    "gws",
+    "docs",
+    "write"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "googleworkspace/cli",
+    "path": "skills/gws-docs-write/SKILL.md",
+    "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
+  }
+}

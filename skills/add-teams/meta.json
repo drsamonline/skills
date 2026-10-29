@@ -1,0 +1,21 @@
+{
+  "id": "add-teams",
+  "name": "add teams",
+  "category": "engineering-workflow",
+  "description": "Add Microsoft Teams channel integration via Chat SDK.",
+  "tags": [
+    "add",
+    "teams"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nanocoai/nanoclaw",
+    "path": ".claude/skills/add-teams/SKILL.md",
+    "commit": "acc2b1c8f52a954368cfaf04b61c32f9a1efc280"
+  }
+}

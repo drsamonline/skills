@@ -1,0 +1,22 @@
+{
+  "id": "voice-of-customer-miner",
+  "name": "voice of customer miner",
+  "category": "product-management",
+  "description": "Mine public reviews, app stores, and forums for unmet needs, competitor weaknesses, and switching triggers — with quoted evidence. Use when you want customer voice without waiting on interviews.",
+  "tags": [
+    "voice",
+    "customer",
+    "miner"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "see LICENSE",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "deanpeters/Product-Manager-Skills",
+    "path": "skills/voice-of-customer-miner/SKILL.md",
+    "commit": "cfcb697f14b8891d8b3ec43c16c3547df3e70e13"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "fractal",
+  "name": "fractal",
+  "category": "engineering-workflow",
+  "description": "Hierarchical agent loops with recursive self-organization.",
+  "tags": [
+    "fractal"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "plasma-ai/fractal",
+    "path": "fractal/skills/fractal/SKILL.md",
+    "commit": "5e1c65c0a5dc367d3d4f223a997b5f010d568722"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "remotion-multimedia",
+  "name": "remotion multimedia",
+  "category": "media-design",
+  "description": "Interacting with Mediabunny",
+  "tags": [
+    "remotion",
+    "multimedia"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "NOASSERTION",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "remotion-dev/skills",
+    "path": "skills/remotion-multimedia/SKILL.md",
+    "commit": "30d4553ecd46fbc5212fd0ff006ae43af522158b"
+  }
+}

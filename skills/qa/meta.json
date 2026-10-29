@@ -1,0 +1,18 @@
+{
+  "id": "qa",
+  "name": "qa",
+  "category": "browser-automation",
+  "description": "QA-test a website or web app and return a 1-5 quality score (5 = flawless, 1 = broken) with evidence. Use when the user wants to test, QA, evaluate, score, or \"check how good\" a site, page, flow, or app — including a local dev server (e.g. \"qa test localhost:5173\", \"does the checkout work?\", \"rate this landing page\"). Drives a real Browser Use cloud browser, tunneling localhost automatically.",
+  "tags": [],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "browser-use/browser-use",
+    "path": "skills/qa/SKILL.md",
+    "commit": "2cc71890e65056b67fdb29d98bb407749c15bb08"
+  }
+}

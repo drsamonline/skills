@@ -1,0 +1,22 @@
+{
+  "id": "regulatory-audit-generator",
+  "name": "regulatory audit generator",
+  "category": "engineering-workflow",
+  "description": "Builds compliance checklists for business scenarios involving GDPR, PIPL, or advertising/data laws. Outputs a structured checklist with check items, legal basis, risk levels, and actionable recommendations. Triggered by requests like \\\"run a compliance check,\\\" \\\"GDPR/PIPL compliance,\\\" \\\"pre-launch review,\\\" \\\"privacy impact assessment (PIA/DPIA),\\\" or asking if a feature is compliant.",
+  "tags": [
+    "regulatory",
+    "audit",
+    "generator"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "zebbern/claude-code-guide",
+    "path": "skills/regulatory-audit-generator/SKILL.md",
+    "commit": "b50a31ad52510d148709b1eb61406952a02c3d19"
+  }
+}

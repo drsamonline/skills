@@ -1,0 +1,23 @@
+{
+  "id": "threejs-materials-lighting",
+  "name": "threejs materials lighting",
+  "category": "game-dev",
+  "description": "Make three.js surfaces look right: pick the correct material, light the scene, enable shadows, and add image-based lighting. Patterns target r186, verified against r186 (lighting is physically based by default since r155).",
+  "tags": [
+    "threejs",
+    "materials",
+    "lighting"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/web-engines/threejs-materials-lighting/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

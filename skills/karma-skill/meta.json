@@ -1,0 +1,22 @@
+{
+  "id": "karma-skill",
+  "name": "karma skill",
+  "category": "testing-qa",
+  "description": "javascript module.exports = function(config) { config.set({ basePath: '', frameworks: 'jasmine', files: 'src//.js', 'test//.spec.js' , preprocessors: { 'src//.js': 'coverage' }, reporters: 'progress', 'coverage', coverageReporter: { type: 'html', dir: 'coverage/' }, port: 9876, colors: true, logLevel: config.LOGINFO, autoWatch: true, browsers: 'Chrome', 'Firefox', singleRun: false, concurrency: In",
+  "tags": [
+    "karma",
+    "skill"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "LambdaTest/agent-skills",
+    "path": "karma-skill/SKILL.md",
+    "commit": "992638bccbc311f42c0bd8b2b3387a0d1ce6288d"
+  },
+  "description_source": "derived-from-body"
+}

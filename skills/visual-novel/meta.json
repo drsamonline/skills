@@ -1,0 +1,22 @@
+{
+  "id": "visual-novel",
+  "name": "visual novel",
+  "category": "game-dev",
+  "description": "A playbook for visual novels — the branching script, the presentation (text box, characters, backgrounds), choices, and the quality-of-life systems players expect (save anywhere, backlog, skip, auto). This is a compositional skill: it drives a dialogue engine and a UI layer. It does not re-teach the dialogue engine or UI nodes; it defines the script model and the player conveniences that make a VN",
+  "tags": [
+    "visual",
+    "novel"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/genres/visual-novel/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

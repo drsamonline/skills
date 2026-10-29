@@ -1,0 +1,23 @@
+{
+  "id": "status-colors-and-errors",
+  "name": "status colors and errors",
+  "category": "frontend-ui",
+  "description": "Few semantic colours, each meaning one thing, and errors with a way forward. Use when designing status indicators, validation, alerts or error states.",
+  "tags": [
+    "status",
+    "colors",
+    "and",
+    "errors"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "dembrandt/dembrandt-skills",
+    "path": "skills/status-colors-and-errors/SKILL.md",
+    "commit": "c4ad177dea5b864f779f8c722f28cf04f760cb22"
+  }
+}

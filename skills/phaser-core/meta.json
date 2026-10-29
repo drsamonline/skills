@@ -1,0 +1,22 @@
+{
+  "id": "phaser-core",
+  "name": "phaser core",
+  "category": "game-dev",
+  "description": "Set up the foundation of a Phaser game: the Game config, the Scene lifecycle, asset loading, cameras, and passing data between scenes. Targets Phaser 4.2 for new projects; keep an existing Phaser 3.90 project on its pinned major unless the user explicitly asks for a migration.",
+  "tags": [
+    "phaser",
+    "core"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/web-engines/phaser-core/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

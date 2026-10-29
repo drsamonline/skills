@@ -1,0 +1,22 @@
+{
+  "id": "competitive-research-snapshot",
+  "name": "competitive research snapshot",
+  "category": "product-management",
+  "description": "Research a competitive landscape with cited snapshots, a comparison matrix, and so-what implications. Use when a product decision needs competitive grounding, not a market report.",
+  "tags": [
+    "competitive",
+    "research",
+    "snapshot"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "see LICENSE",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "deanpeters/Product-Manager-Skills",
+    "path": "skills/competitive-research-snapshot/SKILL.md",
+    "commit": "cfcb697f14b8891d8b3ec43c16c3547df3e70e13"
+  }
+}

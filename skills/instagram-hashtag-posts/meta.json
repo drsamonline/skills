@@ -1,0 +1,22 @@
+{
+  "id": "instagram-hashtag-posts",
+  "name": "instagram hashtag posts",
+  "category": "browser-automation",
+  "description": "Scrapes Instagram posts by hashtag, returning media items with captions, like/comment counts, media URLs and user info from the hashtag explore feed. Use when user mentions Instagram hashtag scraping, get posts by hashtag, IG hashtag feed, scrape Instagram by tag, hashtag posts Instagram, search Instagram hashtag, pull posts from hashtag, Instagram topic posts, trending hashtag content, Instagram tag posts.",
+  "tags": [
+    "instagram",
+    "hashtag",
+    "posts"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "browser-act/skills",
+    "path": "solutions/social-listening/instagram-hashtag-posts/SKILL.md",
+    "commit": "11c057b03f92101642cadc9f840564574120d184"
+  }
+}

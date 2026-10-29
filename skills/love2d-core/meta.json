@@ -1,0 +1,22 @@
+{
+  "id": "love2d-core",
+  "name": "love2d core",
+  "category": "game-dev",
+  "description": "Set up and debug the foundation of a LÖVE game in Lua: the callback loop, frame-rate- independent movement, input, and screen states. Targets LÖVE 11.5.",
+  "tags": [
+    "love2d",
+    "core"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/other-engines/love2d-core/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

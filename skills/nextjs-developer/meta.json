@@ -1,0 +1,21 @@
+{
+  "id": "nextjs-developer",
+  "name": "nextjs developer",
+  "category": "engineering-workflow",
+  "description": "Use when building Next.js 14+ applications with App Router, server components, or server actions. Invoke for full-stack features, performance optimization, SEO implementation, production deployment.",
+  "tags": [
+    "nextjs",
+    "developer"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "zebbern/claude-code-guide",
+    "path": "skills/nextjs-developer/SKILL.md",
+    "commit": "b50a31ad52510d148709b1eb61406952a02c3d19"
+  }
+}

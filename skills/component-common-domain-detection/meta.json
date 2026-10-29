@@ -1,0 +1,23 @@
+{
+  "id": "component-common-domain-detection",
+  "name": "component common domain detection",
+  "category": "engineering-workflow",
+  "description": "Finds duplicate business logic spread across multiple components and suggests consolidation. Use when asking \"where is this logic duplicated?\", \"find common code between services\", \"what can be consolidated?\", \"detect shared domain logic\", or analyzing component overlap before refactoring. Do NOT use for code-level duplication detection (use linters) or dependency analysis (use coupling-analysis).",
+  "tags": [
+    "component",
+    "common",
+    "domain",
+    "detection"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "tech-leads-club/agent-skills",
+    "path": "packages/skills-catalog/skills/(architecture)/component-common-domain-detection/SKILL.md",
+    "commit": "738451e40785750a8e8de5bce8112675f5f0df02"
+  }
+}

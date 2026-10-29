@@ -1,0 +1,21 @@
+{
+  "id": "test-audit",
+  "name": "test audit",
+  "category": "engineering-workflow",
+  "description": "Prunes low-value tests across a whole suite to a measured target while holding coverage. Use when asked to \"remove useless tests\", \"prune the test suite\", \"we have too many tests\", \"agents keep writing pointless tests\", or \"cut 20% of tests without losing coverage\".",
+  "tags": [
+    "test",
+    "audit"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "mblode/agent-skills",
+    "path": "skills/test-audit/SKILL.md",
+    "commit": "ff92bf5ae675e8108e7d2f14b22a523fd1303e76"
+  }
+}

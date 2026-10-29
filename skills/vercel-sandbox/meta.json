@@ -1,0 +1,21 @@
+{
+  "id": "vercel-sandbox",
+  "name": "vercel sandbox",
+  "category": "browser-automation",
+  "description": "Run agent-browser + Chrome inside Vercel Sandbox microVMs for browser automation from any Vercel-deployed app. Use when the user needs browser automation in a Vercel app (Next.js, SvelteKit, Nuxt, Remix, Astro, etc.), wants to run headless Chrome without binary size limits, needs persistent browser sessions across commands, or wants ephemeral isolated browser environments. Triggers include \"Vercel Sandbox browser\", \"microVM Chrome\", \"agent-browser in sandbox\", \"browser automation on Vercel\", or any task requiring Chrome in a Vercel Sandbox.",
+  "tags": [
+    "vercel",
+    "sandbox"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "vercel-labs/agent-browser",
+    "path": "skill-data/vercel-sandbox/SKILL.md",
+    "commit": "1453dd37a40c730fe00f592bc32198a896ff8747"
+  }
+}

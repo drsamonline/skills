@@ -1,0 +1,20 @@
+{
+  "id": "dembrandt",
+  "name": "dembrandt",
+  "category": "frontend-ui",
+  "description": "Orchestrator that routes a UI/UX task through brand, tokens, layout, components, polish and accessibility. Use for multi-concern work such as a design review, UI build or interface audit.",
+  "tags": [
+    "dembrandt"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "dembrandt/dembrandt-skills",
+    "path": "skills/dembrandt/SKILL.md",
+    "commit": "c4ad177dea5b864f779f8c722f28cf04f760cb22"
+  }
+}

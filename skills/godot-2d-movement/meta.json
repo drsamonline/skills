@@ -1,0 +1,22 @@
+{
+  "id": "godot-2d-movement",
+  "name": "godot 2d movement",
+  "category": "game-dev",
+  "description": "Build responsive 2D character controllers with CharacterBody2D and the argument-less moveandslide(). Targets Godot 4.7.",
+  "tags": [
+    "godot",
+    "movement"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/godot/godot-2d-movement/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

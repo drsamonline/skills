@@ -1,0 +1,22 @@
+{
+  "id": "authentic-product-representation",
+  "name": "authentic product representation",
+  "category": "frontend-ui",
+  "description": "Product visuals must show the real product with real data. Use when building landing pages, hero sections, screenshots or demo panels.",
+  "tags": [
+    "authentic",
+    "product",
+    "representation"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "dembrandt/dembrandt-skills",
+    "path": "skills/authentic-product-representation/SKILL.md",
+    "commit": "c4ad177dea5b864f779f8c722f28cf04f760cb22"
+  }
+}

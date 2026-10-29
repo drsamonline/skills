@@ -1,0 +1,22 @@
+{
+  "id": "ui-context-and-scope",
+  "name": "ui context and scope",
+  "category": "frontend-ui",
+  "description": "Show where the user is and what their actions affect — breadcrumbs, regions, scope labels. Use when designing deep navigation or multi-section layouts.",
+  "tags": [
+    "context",
+    "and",
+    "scope"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "dembrandt/dembrandt-skills",
+    "path": "skills/ui-context-and-scope/SKILL.md",
+    "commit": "c4ad177dea5b864f779f8c722f28cf04f760cb22"
+  }
+}

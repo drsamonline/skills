@@ -1,0 +1,21 @@
+{
+  "id": "add-mnemon",
+  "name": "add mnemon",
+  "category": "engineering-workflow",
+  "description": "Add persistent graph-based memory via mnemon. Agents recall past context before responding and remember insights after each turn.",
+  "tags": [
+    "add",
+    "mnemon"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nanocoai/nanoclaw",
+    "path": ".claude/skills/add-mnemon/SKILL.md",
+    "commit": "acc2b1c8f52a954368cfaf04b61c32f9a1efc280"
+  }
+}

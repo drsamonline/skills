@@ -1,0 +1,21 @@
+{
+  "id": "content-to-pipeline",
+  "name": "content to pipeline",
+  "category": "engineering-workflow",
+  "description": "When the user wants to turn content into revenue, build a content-led GTM motion, reverse engineer distribution, or repurpose content across platforms. Also use when the user mentions 'content marketing,' 'content-led growth,' 'content to pipeline,' 'distribution,' 'content repurposing,' 'content strategy,' 'thought leadership,' 'newsletter,' 'content flywheel,' 'organic growth.' This skill covers content-to-revenue systems from creation through pipeline attribution. Do NOT use for technical implementation, code review, or software architecture.",
+  "tags": [
+    "content",
+    "pipeline"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "tech-leads-club/agent-skills",
+    "path": "packages/skills-catalog/skills/(gtm)/content-to-pipeline/SKILL.md",
+    "commit": "738451e40785750a8e8de5bce8112675f5f0df02"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "agentcore",
+  "name": "agentcore",
+  "category": "browser-automation",
+  "description": "Run agent-browser on AWS Bedrock AgentCore cloud browsers. Use when the user wants to use AgentCore, run browser automation on AWS, use a cloud browser with AWS credentials, or needs a managed browser session backed by AWS infrastructure. Triggers include \"use agentcore\", \"run on AWS\", \"cloud browser with AWS\", \"bedrock browser\", \"agentcore session\", or any task requiring AWS-hosted browser automation.",
+  "tags": [
+    "agentcore"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "vercel-labs/agent-browser",
+    "path": "skill-data/agentcore/SKILL.md",
+    "commit": "1453dd37a40c730fe00f592bc32198a896ff8747"
+  }
+}

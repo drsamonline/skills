@@ -1,0 +1,21 @@
+{
+  "id": "technical-writer",
+  "name": "technical writer",
+  "category": "browser-automation",
+  "description": "Write, review, and edit developer documentation for SDKs, libraries, and frameworks, including sites such as agent-browser.dev and portless.sh. Use for getting-started guides, tutorials, API references, conceptual explanations, integration guides, migration guides, troubleshooting, and code examples.",
+  "tags": [
+    "technical",
+    "writer"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "vercel-labs/agent-browser",
+    "path": ".agents/skills/technical-writer/SKILL.md",
+    "commit": "1453dd37a40c730fe00f592bc32198a896ff8747"
+  }
+}

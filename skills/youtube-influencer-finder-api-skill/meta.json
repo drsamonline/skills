@@ -1,0 +1,24 @@
+{
+  "id": "youtube-influencer-finder-api-skill",
+  "name": "youtube influencer finder api skill",
+  "category": "browser-automation",
+  "description": "This skill helps users extract YouTube influencer profiles including social links, subscriber counts, and channel stats via the BrowserAct API. Agent should proactively apply this skill when users express needs like finding YouTube creators for specific keywords, discovering influencers for a marketing campaign, extracting YouTube channel contact emails, scraping YouTube influencer social media links, gathering subscriber counts for YouTube creators, researching top YouTube channels in a specific niche, compiling a list of YouTube content creators with recent uploads, collecting YouTube creator profiles for outreach, extracting total views and video counts for specific YouTube influencers, building a database of YouTube partners for market research, finding YouTube influencers who uploaded videos this month, or monitoring competitor influencer activities on YouTube.",
+  "tags": [
+    "youtube",
+    "influencer",
+    "finder",
+    "api",
+    "skill"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "browser-act/skills",
+    "path": "solutions/video-platforms/youtube-influencer-finder-api-skill/SKILL.md",
+    "commit": "11c057b03f92101642cadc9f840564574120d184"
+  }
+}

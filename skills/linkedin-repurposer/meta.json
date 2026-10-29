@@ -1,0 +1,21 @@
+{
+  "id": "linkedin-repurposer",
+  "name": "linkedin repurposer",
+  "category": "marketing",
+  "description": "Repurpose existing content into a native LinkedIn post. Take a tweet, thread, YouTube video, blog, or newsletter and rebuild it for LinkedIn: re-hook before the fold, expand to the 900 to 1300 char sweet spot, add whitespace and a CTA, move links to the first comment, run the humanizer, publish via Publora on approval. Not for writing from scratch (use linkedin-post-writer), not for auditing a draft (use linkedin-humanizer --mode audit).",
+  "tags": [
+    "linkedin",
+    "repurposer"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "sergebulaev/linkedin-skills",
+    "path": ".codex-marketplace/linkedin-skills/skills/linkedin-repurposer/SKILL.md",
+    "commit": "8f8bc4b40a2d5419b2dcf898772b85712cfbdf41"
+  }
+}

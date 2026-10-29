@@ -1,0 +1,22 @@
+{
+  "id": "slack-a2a-rooms",
+  "name": "slack a2a rooms",
+  "category": "engineering-workflow",
+  "description": "Agent-to-agent Slack rooms — a group DM (MPIM) holding a human plus two or more NanoClaw sibling bots, where each bot hears the room over its own Socket Mode connection. Registers the admission policy on the Slack channel's bot-inbound guard so bot-authored inbound is admitted only for rooms allowlisted in SLACK_A2A_ROOMS (re-attributed as slack:bot:<botId>, hop-limited via SLACK_A2A_MAX_HOPS), plus scripts/open-a2a-room.ts to open a room and register it.",
+  "tags": [
+    "slack",
+    "a2a",
+    "rooms"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nanocoai/nanoclaw",
+    "path": ".claude/skills/slack-a2a-rooms/SKILL.md",
+    "commit": "acc2b1c8f52a954368cfaf04b61c32f9a1efc280"
+  }
+}

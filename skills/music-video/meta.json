@@ -1,0 +1,21 @@
+{
+  "id": "music-video",
+  "name": "music video",
+  "category": "media-design",
+  "description": "Build a music video from an existing song and lyrics, either as p5.js/p5.brush animation or by assembling local images and clips. Use when the user mentions a music video, MV, lyric video, visualizer, storyboard, 音乐视频, 歌词动画, or MV合成. Do not use it to compose the song, generate sound effects, or call an image or video generation API.",
+  "tags": [
+    "music",
+    "video"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "NOASSERTION",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "NoizAI/skills",
+    "path": "skills/music-video/SKILL.md",
+    "commit": "779f30af588ebf4dd17fc0acaa590ae147a0d3f5"
+  }
+}

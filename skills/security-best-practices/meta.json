@@ -1,0 +1,22 @@
+{
+  "id": "security-best-practices",
+  "name": "security best practices",
+  "category": "engineering-workflow",
+  "description": "Perform language and framework specific security best-practice reviews and suggest improvements. Use when the user explicitly requests security best practices guidance, a security review or report, or secure-by-default coding help. Supports Python, JavaScript/TypeScript, and Go. Do NOT use for general code review, debugging, threat modeling (use security-threat-model), or non-security tasks.",
+  "tags": [
+    "security",
+    "best",
+    "practices"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "tech-leads-club/agent-skills",
+    "path": "packages/skills-catalog/skills/(security)/security-best-practices/SKILL.md",
+    "commit": "738451e40785750a8e8de5bce8112675f5f0df02"
+  }
+}

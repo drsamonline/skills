@@ -1,0 +1,22 @@
+{
+  "id": "ctx-upgrade",
+  "name": "ctx upgrade",
+  "category": "engineering-workflow",
+  "description": "Pull latest from GitHub and reinstall the plugin.",
+  "tags": [
+    "ctx",
+    "upgrade"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "see LICENSE",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "mksglu/context-mode",
+    "path": "skills/ctx-upgrade/SKILL.md",
+    "commit": "49b318b5b894d286cda891732287400d9b43cea3"
+  },
+  "description_source": "derived-from-body"
+}

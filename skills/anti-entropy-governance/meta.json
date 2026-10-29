@@ -1,0 +1,22 @@
+{
+  "id": "anti-entropy-governance",
+  "name": "anti entropy governance",
+  "category": "security-audit",
+  "description": "Use when touching retiring old logic, collapsing duplicate owners, removing fallbacks, or schema/persistence/source-of-truth boundaries; identify opportunities automatically; destructive execution requires explicit confirmation.",
+  "tags": [
+    "anti",
+    "entropy",
+    "governance"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "GanyuanRan/Aegis",
+    "path": "skills/anti-entropy-governance/SKILL.md",
+    "commit": "0461c211e4d812f0b215fab240a68a25c1e22424"
+  }
+}

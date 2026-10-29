@@ -1,0 +1,21 @@
+{
+  "id": "linkedin-marketing",
+  "name": "linkedin marketing",
+  "category": "marketing",
+  "description": "Plan, draft, audit, and publish LinkedIn posts and comments. Use when the user wants to write a viral LinkedIn post, draft a comment or reply on any LinkedIn post URL, audit a draft against 2026 algorithm heuristics, remove AI tells, extract hook formulas from viral posts, or plan a week of content. Powered by the Publora API for publishing. User provides post/comment URLs, skill drafts content, user approves, then publishes.",
+  "tags": [
+    "linkedin",
+    "marketing"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "sergebulaev/linkedin-skills",
+    "path": "SKILL.md",
+    "commit": "8f8bc4b40a2d5419b2dcf898772b85712cfbdf41"
+  }
+}

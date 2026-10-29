@@ -1,0 +1,22 @@
+{
+  "id": "cypress-skill",
+  "name": "cypress skill",
+  "category": "testing-qa",
+  "description": "You are a senior QA automation architect specializing in Cypress.",
+  "tags": [
+    "cypress",
+    "skill"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "LambdaTest/agent-skills",
+    "path": "cypress-skill/SKILL.md",
+    "commit": "992638bccbc311f42c0bd8b2b3387a0d1ce6288d"
+  },
+  "description_source": "derived-from-body"
+}

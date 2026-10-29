@@ -1,0 +1,21 @@
+{
+  "id": "codebase-architecture",
+  "name": "codebase architecture",
+  "category": "engineering-workflow",
+  "description": "Designs module interfaces, deepens shallow modules, and installs enforceable repository guardrails and agent wayfinding. Use when asked to \"design the architecture\", \"simplify our modules\", \"find shallow modules\", \"harden the repo\", \"gate an unattended agent fix job\", or \"triage alerts with an agent\".",
+  "tags": [
+    "codebase",
+    "architecture"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "mblode/agent-skills",
+    "path": "skills/codebase-architecture/SKILL.md",
+    "commit": "ff92bf5ae675e8108e7d2f14b22a523fd1303e76"
+  }
+}

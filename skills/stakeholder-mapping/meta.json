@@ -1,0 +1,21 @@
+{
+  "id": "stakeholder-mapping",
+  "name": "stakeholder mapping",
+  "category": "product-management",
+  "description": "Prioritize stakeholders using two complementary grids. Use when setting engagement strategy and surfacing whose voice needs elevating after stakeholder identification.",
+  "tags": [
+    "stakeholder",
+    "mapping"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "see LICENSE",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "deanpeters/Product-Manager-Skills",
+    "path": "skills/stakeholder-mapping/SKILL.md",
+    "commit": "cfcb697f14b8891d8b3ec43c16c3547df3e70e13"
+  }
+}

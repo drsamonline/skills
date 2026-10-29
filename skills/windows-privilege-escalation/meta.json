@@ -1,0 +1,22 @@
+{
+  "id": "windows-privilege-escalation",
+  "name": "windows privilege escalation",
+  "category": "engineering-workflow",
+  "description": "This skill should be used when the user asks to \"escalate privileges on Windows,\" \"find Windows privesc vectors,\" \"enumerate Windows for privilege escalation,\" \"exploit Windows misconfigurations,\" or \"perform post-exploitation privilege escalation.\" It provides comprehensive guidance for discovering and exploiting privilege escalation vulnerabilities in Windows environments.",
+  "tags": [
+    "windows",
+    "privilege",
+    "escalation"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "zebbern/claude-code-guide",
+    "path": "skills/windows-privilege-escalation/SKILL.md",
+    "commit": "b50a31ad52510d148709b1eb61406952a02c3d19"
+  }
+}

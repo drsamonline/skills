@@ -1,0 +1,22 @@
+{
+  "id": "linkedin-content-planner",
+  "name": "linkedin content planner",
+  "category": "marketing",
+  "description": "Generate a 7-day LinkedIn content plan from a theme, audience, and pillars. Produces per-day post pillar, format, hook type, CTA, posting time, daily comment targets, and a weekly inbound-readiness check. Use when the user wants to plan a week or month of content, not draft a single post (use linkedin-post-writer).",
+  "tags": [
+    "linkedin",
+    "content",
+    "planner"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "sergebulaev/linkedin-skills",
+    "path": ".codex-marketplace/linkedin-skills/skills/linkedin-content-planner/SKILL.md",
+    "commit": "8f8bc4b40a2d5419b2dcf898772b85712cfbdf41"
+  }
+}

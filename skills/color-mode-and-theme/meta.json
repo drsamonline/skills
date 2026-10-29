@@ -1,0 +1,23 @@
+{
+  "id": "color-mode-and-theme",
+  "name": "color mode and theme",
+  "category": "frontend-ui",
+  "description": "Light, dark or both, and when a theme selector is worth it. Use when defining a base palette or deciding on dark mode support.",
+  "tags": [
+    "color",
+    "mode",
+    "and",
+    "theme"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "dembrandt/dembrandt-skills",
+    "path": "skills/color-mode-and-theme/SKILL.md",
+    "commit": "c4ad177dea5b864f779f8c722f28cf04f760cb22"
+  }
+}

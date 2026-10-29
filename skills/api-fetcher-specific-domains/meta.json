@@ -1,0 +1,24 @@
+{
+  "id": "api-fetcher-specific-domains",
+  "name": "api fetcher specific domains",
+  "category": "testing-qa",
+  "description": "Provide real-world API patterns and examples from well-known domains and platforms.",
+  "tags": [
+    "api",
+    "fetcher",
+    "specific",
+    "domains"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "LambdaTest/agent-skills",
+    "path": "api-skill/popular-api-fetcher/SKILL.md",
+    "commit": "992638bccbc311f42c0bd8b2b3387a0d1ce6288d"
+  },
+  "description_source": "derived-from-body"
+}

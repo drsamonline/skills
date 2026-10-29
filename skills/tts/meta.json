@@ -1,0 +1,20 @@
+{
+  "id": "tts",
+  "name": "tts",
+  "category": "media-design",
+  "description": "Use this skill whenever the user wants to convert text into speech, generate audio from text, or produce voiceovers. Triggers include: any mention of 'TTS', 'text to speech', 'speak', 'say', 'voice', 'read aloud', 'audio narration', 'voiceover', 'dubbing', or requests to turn written content into spoken audio. Also use when converting EPUB/PDF/SRT/articles to audio, cloning voices from reference audio, controlling emotion or speed in speech, aligning speech to subtitle timelines, or producing per-segment voice-mapped audio.",
+  "tags": [
+    "tts"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "NOASSERTION",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "NoizAI/skills",
+    "path": "skills/tts/SKILL.md",
+    "commit": "779f30af588ebf4dd17fc0acaa590ae147a0d3f5"
+  }
+}

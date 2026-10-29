@@ -1,0 +1,22 @@
+{
+  "id": "article-sketchnote-editorial",
+  "name": "article sketchnote editorial",
+  "category": "frontend-ui",
+  "description": "把一个概念铸成杂志专题档案——真问题→失败→转折→顿悟→命名, 6 个 layout 模具 + 4 字族对比 + 探案档案细节",
+  "tags": [
+    "article",
+    "sketchnote",
+    "editorial"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nexu-io/html-anything",
+    "path": "next/src/lib/templates/skills/article-sketchnote-editorial/SKILL.md",
+    "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
+  }
+}

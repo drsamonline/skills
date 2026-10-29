@@ -1,0 +1,20 @@
+{
+  "id": "pr-babysitter",
+  "name": "pr babysitter",
+  "category": "engineering-workflow",
+  "description": "Monitors or repairs an open GitHub PR: CI failures, conflicts, review threads, and merge readiness, reporting state changes. Use when asked to \\\"watch this PR\\\", \\\"fix CI\\\", \\\"resolve conflicts\\\", or \\\"address review comments\\\".",
+  "tags": [
+    "babysitter"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "mblode/agent-skills",
+    "path": "skills/pr-babysitter/SKILL.md",
+    "commit": "ff92bf5ae675e8108e7d2f14b22a523fd1303e76"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "communicating-concisely",
+  "name": "communicating concisely",
+  "category": "security-audit",
+  "description": "Use when the user asks for caveman mode, fewer tokens, brief responses, compressed communication, or otherwise explicitly requests a much shorter answer.",
+  "tags": [
+    "communicating",
+    "concisely"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "GanyuanRan/Aegis",
+    "path": "skills/communicating-concisely/SKILL.md",
+    "commit": "0461c211e4d812f0b215fab240a68a25c1e22424"
+  }
+}

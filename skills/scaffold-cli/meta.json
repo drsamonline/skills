@@ -1,0 +1,21 @@
+{
+  "id": "scaffold-cli",
+  "name": "scaffold cli",
+  "category": "engineering-workflow",
+  "description": "Scaffolds a TypeScript CLI and npm package with the house toolchain, dual tsdown outputs, CLI contracts, changesets, and publishing templates. Use when asked to \"scaffold a CLI\" or \"start an npm package\".",
+  "tags": [
+    "scaffold",
+    "cli"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "mblode/agent-skills",
+    "path": "skills/scaffold-cli/SKILL.md",
+    "commit": "ff92bf5ae675e8108e7d2f14b22a523fd1303e76"
+  }
+}

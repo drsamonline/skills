@@ -1,0 +1,21 @@
+{
+  "id": "remote-browser",
+  "name": "remote browser",
+  "category": "browser-automation",
+  "description": "Controls an isolated Browser Use Cloud browser from a sandboxed machine with the current Browser Use CLI.",
+  "tags": [
+    "remote",
+    "browser"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "browser-use/browser-use",
+    "path": "skills/remote-browser/SKILL.md",
+    "commit": "2cc71890e65056b67fdb29d98bb407749c15bb08"
+  }
+}

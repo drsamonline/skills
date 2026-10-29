@@ -1,0 +1,21 @@
+{
+  "id": "sizing-units",
+  "name": "sizing units",
+  "category": "frontend-ui",
+  "description": "rem, px or relative units for each kind of value. Use when defining spacing and sizing tokens, control heights or media queries, or when a layout breaks under enlarged text.",
+  "tags": [
+    "sizing",
+    "units"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "dembrandt/dembrandt-skills",
+    "path": "skills/sizing-units/SKILL.md",
+    "commit": "c4ad177dea5b864f779f8c722f28cf04f760cb22"
+  }
+}

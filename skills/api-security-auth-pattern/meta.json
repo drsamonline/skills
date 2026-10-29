@@ -1,0 +1,24 @@
+{
+  "id": "api-security-auth-pattern",
+  "name": "api security auth pattern",
+  "category": "testing-qa",
+  "description": "Design complete authentication and security layers for any API.",
+  "tags": [
+    "api",
+    "security",
+    "auth",
+    "pattern"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "LambdaTest/agent-skills",
+    "path": "api-skill/api-security-patterns/SKILL.md",
+    "commit": "992638bccbc311f42c0bd8b2b3387a0d1ce6288d"
+  },
+  "description_source": "derived-from-body"
+}

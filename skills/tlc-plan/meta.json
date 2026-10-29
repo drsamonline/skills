@@ -1,0 +1,21 @@
+{
+  "id": "tlc-plan",
+  "name": "tlc plan",
+  "category": "engineering-workflow",
+  "description": "Turns a request, ticket, PRD, design or thread into one plan a human approves and a builder can act on without the conversation: asks every gray area until no product decision is left to the builder, then writes the problem, EARS criteria with concrete values, the path and the data it touches (drawn in mermaid), the interface, and only the decisions that are hard to reverse. Captures that come with the request bind. Use when the user says \"plan this\", \"plan feature\", \"specify feature\", \"write the plan\", \"cut this PRD into tasks\", or \"tlc-plan\". Do NOT use to implement (that is tlc-implement), for a standalone design document, or when nobody has decided what to build.",
+  "tags": [
+    "tlc",
+    "plan"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "tech-leads-club/agent-skills",
+    "path": "packages/skills-catalog/skills/(development)/tlc-plan/SKILL.md",
+    "commit": "738451e40785750a8e8de5bce8112675f5f0df02"
+  }
+}

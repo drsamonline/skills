@@ -1,0 +1,21 @@
+{
+  "id": "create-adr",
+  "name": "create adr",
+  "category": "engineering-workflow",
+  "description": "Creates Architecture Decision Records (ADRs) to document significant architectural choices and their rationale for future team members. Use when the user says \"write an ADR\", \"document this decision\", \"record why we chose X\", \"add an architecture decision record\", \"create an ADR for\", or wants to capture the reasoning behind a technical choice so the team understands it later. Do NOT use when the decision hasn't been made yet (use create-rfc instead), for implementation planning (use technical-design-doc-creator), or for general documentation.",
+  "tags": [
+    "create",
+    "adr"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "tech-leads-club/agent-skills",
+    "path": "packages/skills-catalog/skills/(creation)/create-adr/SKILL.md",
+    "commit": "738451e40785750a8e8de5bce8112675f5f0df02"
+  }
+}

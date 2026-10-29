@@ -1,0 +1,21 @@
+{
+  "id": "update-nanoclaw",
+  "name": "update nanoclaw",
+  "category": "engineering-workflow",
+  "description": "Transactionally update a customized NanoClaw checkout from official upstream without exposing live mounted source, with fork-safe skill refresh, mutable-state snapshots, migration gates, exact-code upgrade markers, detected service restart, health verification, and automatic local rollback. Use for routine merge, rebase, or selective upstream updates.",
+  "tags": [
+    "update",
+    "nanoclaw"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nanocoai/nanoclaw",
+    "path": ".claude/skills/update-nanoclaw/SKILL.md",
+    "commit": "acc2b1c8f52a954368cfaf04b61c32f9a1efc280"
+  }
+}

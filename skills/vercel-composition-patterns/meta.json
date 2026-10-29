@@ -19,5 +19,11 @@
     "path": "skills/composition-patterns/SKILL.md",
     "commit": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62"
   },
-  "description_source": "derived-from-body"
+  "description_source": "derived-from-body",
+  "variants": [
+    {
+      "repo": "zebbern__claude-code-guide",
+      "path": "skills/composition-patterns/SKILL.md"
+    }
+  ]
 }

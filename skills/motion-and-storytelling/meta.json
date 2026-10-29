@@ -1,0 +1,22 @@
+{
+  "id": "motion-and-storytelling",
+  "name": "motion and storytelling",
+  "category": "frontend-ui",
+  "description": "Disney's animation principles and cinematic technique applied to UI motion. Use when designing transitions, scroll animations or onboarding motion.",
+  "tags": [
+    "motion",
+    "and",
+    "storytelling"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "dembrandt/dembrandt-skills",
+    "path": "skills/motion-and-storytelling/SKILL.md",
+    "commit": "c4ad177dea5b864f779f8c722f28cf04f760cb22"
+  }
+}

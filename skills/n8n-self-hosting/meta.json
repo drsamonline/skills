@@ -1,0 +1,22 @@
+{
+  "id": "n8n-self-hosting",
+  "name": "n8n self hosting",
+  "category": "engineering-workflow",
+  "description": "Deploy a production self-hosted n8n end-to-end to a fresh Linux VM over SSH, using Docker Compose behind a Caddy reverse proxy with automatic HTTPS. Use whenever the user wants to self-host, install, provision, or deploy n8n on their own server/VPS (Hetzner, DigitalOcean, AWS EC2, bare metal) — single/regular mode or queue mode with workers — or to update, back up, restore, or harden such an instance, or make Python Code nodes run on it (task runners). For SELF-HOSTED n8n (Docker), not n8n Cloud and not building workflows. The skill makes the agent ask single-vs-queue first, collect domain/SSH/timezone inputs, generate fresh secrets on the box, and bring the stack up with TLS. Trigger on \"deploy n8n\", \"self-host n8n\", \"n8n docker compose\", \"n8n queue mode / workers\", \"n8n reverse proxy / SSL\", \"back up / update my n8n\", \"Python runner unavailable\" / \"n8nio/runners sidecar\", or \"we don't want to give every user the OAuth client secret\" / \"enable Sign in with Google\" (credential overwrites).",
+  "tags": [
+    "n8n",
+    "self",
+    "hosting"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "czlonkowski/n8n-skills",
+    "path": "skills/n8n-self-hosting/SKILL.md",
+    "commit": "e037563e101749e630e6688d121d04529fe6ee7b"
+  }
+}

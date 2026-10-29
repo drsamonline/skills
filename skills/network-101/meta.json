@@ -1,0 +1,21 @@
+{
+  "id": "network-101",
+  "name": "network 101",
+  "category": "engineering-workflow",
+  "description": "This skill should be used when the user asks to \"set up a web server\", \"configure HTTP or HTTPS\", \"perform SNMP enumeration\", \"configure SMB shares\", \"test network services\", or needs guidance on configuring and testing network services for penetration testing labs.",
+  "tags": [
+    "network",
+    "101"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "zebbern/claude-code-guide",
+    "path": "skills/network-101/SKILL.md",
+    "commit": "b50a31ad52510d148709b1eb61406952a02c3d19"
+  }
+}

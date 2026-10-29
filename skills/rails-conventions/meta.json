@@ -1,0 +1,21 @@
+{
+  "id": "rails-conventions",
+  "name": "rails conventions",
+  "category": "backend-services",
+  "description": "Modern Ruby and Rails application architecture, implementation, and review guidance for production codebases. Use when building or reviewing Ruby on Rails 8 features across models, controllers, routes, Hotwire, jobs, APIs, performance, security, and testing. Trigger for requests mentioning Rails 8, Active Record, Active Job, GoodJob, Solid Queue, Turbo/Stimulus, REST resources, migrations, code quality, naming, and production readiness.",
+  "tags": [
+    "rails",
+    "conventions"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "ethos-link/rails-conventions",
+    "path": "SKILL.md",
+    "commit": "6a19298942d849a2a4bdda41c123fd79049c5ed2"
+  }
+}

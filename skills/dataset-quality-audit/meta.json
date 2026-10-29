@@ -1,0 +1,22 @@
+{
+  "id": "dataset-quality-audit",
+  "name": "dataset quality audit",
+  "category": "engineering-workflow",
+  "description": "Run comprehensive quality checks on tabular data (CSV/Excel/TSV/JSON), detecting missing values, duplicates, outliers, format issues, and type inconsistencies to produce an overall score, grade, and actionable suggestions. Triggered when users ask to check data quality, find missing or duplicate values, detect outliers, validate formats, profile data, or clean data.",
+  "tags": [
+    "dataset",
+    "quality",
+    "audit"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "zebbern/claude-code-guide",
+    "path": "skills/dataset-quality-audit/SKILL.md",
+    "commit": "b50a31ad52510d148709b1eb61406952a02c3d19"
+  }
+}

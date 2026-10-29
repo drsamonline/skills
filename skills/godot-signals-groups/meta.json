@@ -1,0 +1,23 @@
+{
+  "id": "godot-signals-groups",
+  "name": "godot signals groups",
+  "category": "game-dev",
+  "description": "Decouple nodes with the observer pattern (signals) and act on many nodes at once (groups), instead of hard-coding references between scenes. Targets Godot 4.7.",
+  "tags": [
+    "godot",
+    "signals",
+    "groups"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/godot/godot-signals-groups/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

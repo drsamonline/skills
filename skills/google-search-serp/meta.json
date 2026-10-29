@@ -1,0 +1,22 @@
+{
+  "id": "google-search-serp",
+  "name": "google search serp",
+  "category": "browser-automation",
+  "description": "Extracts Google Search results page (SERP) data including organic results, paid ads, related searches, People Also Ask questions, AI Overview text, and total result count from google.com. Use when user mentions Google search results, SERP scraping, google search data, search engine results page, organic rankings, keyword SERP, Google SERP extraction, scrape Google search, Google search API alternative, SEO ranking data, paid search ads, PPC ads on Google, Google search monitoring, keyword research, search results export, check Google rankings, what shows up on Google, search engine scraper, google results checker.",
+  "tags": [
+    "google",
+    "search",
+    "serp"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "browser-act/skills",
+    "path": "solutions/search-research/google-search-serp/SKILL.md",
+    "commit": "11c057b03f92101642cadc9f840564574120d184"
+  }
+}

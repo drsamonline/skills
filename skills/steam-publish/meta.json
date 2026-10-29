@@ -1,0 +1,22 @@
+{
+  "id": "steam-publish",
+  "name": "steam publish",
+  "category": "game-dev",
+  "description": "Take a finished build to a live Steam store page. Two tracks run in parallel and both must be approved before release: the store page (presence) and the build (SteamPipe upload + the release checklists). This skill is the operational checklist; deep build-script, CI/CD, and troubleshooting detail lives in references/steampipe-build-scripts.md.",
+  "tags": [
+    "steam",
+    "publish"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/workflows/steam-publish/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

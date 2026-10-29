@@ -1,0 +1,20 @@
+{
+  "id": "ui-verification",
+  "name": "ui verification",
+  "category": "engineering-workflow",
+  "description": "Runs scoped browser probes for focus, hit targets, overflow, themes, request failures, and performance attribution, with evidence linked to UI rule IDs. Use when asked to \"verify this in the browser\", \"reproduce this UI finding\", \"re-measure after the UI fix\", or \"review before and after screenshots\".",
+  "tags": [
+    "verification"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "mblode/agent-skills",
+    "path": "skills/ui-verification/SKILL.md",
+    "commit": "ff92bf5ae675e8108e7d2f14b22a523fd1303e76"
+  }
+}

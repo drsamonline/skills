@@ -1,0 +1,21 @@
+{
+  "id": "vc-industry-research",
+  "name": "vc industry research",
+  "category": "engineering-workflow",
+  "description": "Generate professional primary market / venture capital industry research reports, including sector deep-dives, investment memos, and market analysis. Produces detailed PDF reports covering TMT, consumer, healthcare, and industrials. Triggered by requests to analyze an industry, create a market report, write a sector deep-dive, or generate any PE/VC-style research document in Chinese or English.",
+  "tags": [
+    "industry",
+    "research"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "zebbern/claude-code-guide",
+    "path": "skills/vc-industry-research/SKILL.md",
+    "commit": "b50a31ad52510d148709b1eb61406952a02c3d19"
+  }
+}

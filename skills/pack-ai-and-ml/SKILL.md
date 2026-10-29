@@ -10,7 +10,7 @@ metadata:
 
 # AI and ML pack
 
-124 skills, each kept as its own skill in `skills/<id>/` — this pack is the index that tells you which one to read. Drawn from 2 upstream repositories (huggingface/skills, orchestra-research/AI-research-SKILLs).
+124 skills, each kept as its own skill in `skills/<id>/` — this pack is the index that tells you which one to read. Drawn from 2 upstream repositories.
 
 ## When to use
 

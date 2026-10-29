@@ -1,0 +1,20 @@
+{
+  "id": "dx-audit",
+  "name": "dx audit",
+  "category": "engineering-workflow",
+  "description": "Audits libraries, CLIs, and SDKs using 38 rules for public contracts, package exports, piped output, errors, and configuration. Use when asked to \"audit my CLI\", \"review my SDK\", or diagnose package type resolution.",
+  "tags": [
+    "audit"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "mblode/agent-skills",
+    "path": "skills/dx-audit/SKILL.md",
+    "commit": "ff92bf5ae675e8108e7d2f14b22a523fd1303e76"
+  }
+}

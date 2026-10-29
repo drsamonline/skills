@@ -1,0 +1,22 @@
+{
+  "id": "caveman-review",
+  "name": "caveman review",
+  "category": "engineering-workflow",
+  "description": "Write code review comments terse and actionable. One line per finding. Location, problem, fix. No throat-clearing.",
+  "tags": [
+    "caveman",
+    "review"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "JuliusBrussee/caveman",
+    "path": "skills/caveman-review/SKILL.md",
+    "commit": "9b68f7ed12b05e7efaff18e65c5a3fc2849fd0a4"
+  },
+  "description_source": "derived-from-body"
+}

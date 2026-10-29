@@ -1,0 +1,21 @@
+{
+  "id": "confluence-assistant",
+  "name": "confluence assistant",
+  "category": "engineering-workflow",
+  "description": "Expert in Confluence operations using Atlassian MCP. Use when the user says \"search Confluence\", \"create a Confluence page\", \"update a page\", \"find documentation in Confluence\", \"list spaces\", or \"add a comment to a page\". Do NOT use for Jira issues, general web search, or local file creation.",
+  "tags": [
+    "confluence",
+    "assistant"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "tech-leads-club/agent-skills",
+    "path": "packages/skills-catalog/skills/(development)/confluence-assistant/SKILL.md",
+    "commit": "738451e40785750a8e8de5bce8112675f5f0df02"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "domain-identification-grouping",
+  "name": "domain identification grouping",
+  "category": "engineering-workflow",
+  "description": "Groups existing components into logical business domains to plan service-based architecture. Use when asking \"which components belong together?\", \"group these into services\", \"organize by domain\", \"component-to-domain mapping\", or planning service extraction from an existing codebase. Do NOT use for identifying new domains from scratch (use domain-analysis) or analyzing coupling (use coupling-analysis).",
+  "tags": [
+    "domain",
+    "identification",
+    "grouping"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "tech-leads-club/agent-skills",
+    "path": "packages/skills-catalog/skills/(architecture)/domain-identification-grouping/SKILL.md",
+    "commit": "738451e40785750a8e8de5bce8112675f5f0df02"
+  }
+}

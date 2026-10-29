@@ -1,0 +1,21 @@
+{
+  "id": "add-onecli",
+  "name": "add onecli",
+  "category": "engineering-workflow",
+  "description": "Install or refresh OneCLI as NanoClaw's gateway provider. Use when setup selects OneCLI, an existing OneCLI-backed install is migrated to the gateway seam, or its runtime, approval bridge, setup, and agent guidance must be restored from the in-tree package.",
+  "tags": [
+    "add",
+    "onecli"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nanocoai/nanoclaw",
+    "path": ".claude/skills/add-onecli/SKILL.md",
+    "commit": "acc2b1c8f52a954368cfaf04b61c32f9a1efc280"
+  }
+}

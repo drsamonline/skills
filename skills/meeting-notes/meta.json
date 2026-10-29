@@ -1,0 +1,21 @@
+{
+  "id": "meeting-notes",
+  "name": "meeting notes",
+  "category": "frontend-ui",
+  "description": "标题 + 出席 + 议程 + 决议 + action items + 下次",
+  "tags": [
+    "meeting",
+    "notes"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nexu-io/html-anything",
+    "path": "next/src/lib/templates/skills/meeting-notes/SKILL.md",
+    "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
+  }
+}

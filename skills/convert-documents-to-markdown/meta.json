@@ -1,0 +1,22 @@
+{
+  "id": "convert-documents-to-markdown",
+  "name": "convert documents to markdown",
+  "category": "engineering-workflow",
+  "description": "Convert an attached Word document, presentation, spreadsheet, OpenDocument file, RTF, EPUB, CSV, or text-based PDF into local Markdown. Use when a message supplies a local attachment path that must be read without uploading it to an external parser.",
+  "tags": [
+    "convert",
+    "documents",
+    "markdown"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nanocoai/nanoclaw",
+    "path": ".claude/skills/add-anydoc/container-skills/convert-documents-to-markdown/SKILL.md",
+    "commit": "acc2b1c8f52a954368cfaf04b61c32f9a1efc280"
+  }
+}

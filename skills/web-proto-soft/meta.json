@@ -1,0 +1,22 @@
+{
+  "id": "web-proto-soft",
+  "name": "web proto soft",
+  "category": "frontend-ui",
+  "description": "Apple 调: 银/奶 canvas + 双层斜面卡片 + button-in-button + spring",
+  "tags": [
+    "web",
+    "proto",
+    "soft"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nexu-io/html-anything",
+    "path": "next/src/lib/templates/skills/web-proto-soft/SKILL.md",
+    "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
+  }
+}

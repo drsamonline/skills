@@ -1,0 +1,21 @@
+{
+  "id": "gws-forms",
+  "name": "gws forms",
+  "category": "google-workspace",
+  "description": "Read and write Google Forms.",
+  "tags": [
+    "gws",
+    "forms"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "googleworkspace/cli",
+    "path": "skills/gws-forms/SKILL.md",
+    "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
+  }
+}

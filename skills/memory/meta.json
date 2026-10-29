@@ -1,0 +1,20 @@
+{
+  "id": "memory",
+  "name": "memory",
+  "category": "engineering-workflow",
+  "description": "How to maintain node memory well -- the node's persistent knowledge store.",
+  "tags": [
+    "memory"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "plasma-ai/fractal",
+    "path": "fractal/_node/skills/memory/SKILL.md",
+    "commit": "5e1c65c0a5dc367d3d4f223a997b5f010d568722"
+  }
+}

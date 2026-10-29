@@ -1,0 +1,21 @@
+{
+  "id": "create-rfc",
+  "name": "create rfc",
+  "category": "engineering-workflow",
+  "description": "Creates structured Request for Comments (RFC) documents for proposing and deciding on significant changes. Use when the user says \"write an RFC\", \"create a proposal\", \"I need to propose a change\", \"draft an RFC\", \"document a decision\", or needs stakeholder alignment before making a major technical or process decision. Do NOT use for TDDs/implementation docs (use technical-design-doc-creator instead), README files, or general documentation.",
+  "tags": [
+    "create",
+    "rfc"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "tech-leads-club/agent-skills",
+    "path": "packages/skills-catalog/skills/(creation)/create-rfc/SKILL.md",
+    "commit": "738451e40785750a8e8de5bce8112675f5f0df02"
+  }
+}

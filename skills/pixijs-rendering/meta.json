@@ -1,0 +1,22 @@
+{
+  "id": "pixijs-rendering",
+  "name": "pixijs rendering",
+  "category": "game-dev",
+  "description": "Set up and structure a PixiJS 8.22 application: the async Application, asset loading via Assets, the Container/Sprite scene graph, the ticker loop, pointer events, and render groups. Pins the 8.22 API (async init, unified Assets, eventMode).",
+  "tags": [
+    "pixijs",
+    "rendering"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/web-engines/pixijs-rendering/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

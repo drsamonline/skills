@@ -1,0 +1,22 @@
+{
+  "id": "docs-page",
+  "name": "docs page",
+  "category": "frontend-ui",
+  "description": "【模板: 技术文档页】 【意图】API / 教程文档单页, 长读体验优先。 【布局】 - Inline-start nav (sections + sticky) - Article body (含代码块, callouts, 表格) - Inline-end TOC (sticky, scroll-spy) - 顶栏 search + version + 主题切换 【设计细节】 - 代码块: 圆角 + dark + 语言标签 + 复制按钮 - callout: info / warn / danger 三色",
+  "tags": [
+    "docs",
+    "page"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nexu-io/html-anything",
+    "path": "next/src/lib/templates/skills/docs-page/SKILL.md",
+    "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
+  },
+  "description_source": "derived-from-body"
+}

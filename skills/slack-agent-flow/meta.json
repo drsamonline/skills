@@ -1,0 +1,22 @@
+{
+  "id": "slack-agent-flow",
+  "name": "slack agent flow",
+  "category": "engineering-workflow",
+  "description": "Let an existing Slack agent create new agents that arrive as their own Slack bots — provisioned app, operator DM, and a shared three-way room, hot-started without a host restart.",
+  "tags": [
+    "slack",
+    "agent",
+    "flow"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nanocoai/nanoclaw",
+    "path": ".claude/skills/slack-agent-flow/SKILL.md",
+    "commit": "acc2b1c8f52a954368cfaf04b61c32f9a1efc280"
+  }
+}

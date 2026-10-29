@@ -1,0 +1,21 @@
+{
+  "id": "domain-analysis",
+  "name": "domain analysis",
+  "category": "engineering-workflow",
+  "description": "Maps business domains and suggests service boundaries in any codebase using DDD Strategic Design. Use when asking \"what are the domains in this codebase?\", \"where should I draw service boundaries?\", \"identify bounded contexts\", \"classify subdomains\", \"DDD analysis\", or analyzing domain cohesion. Do NOT use for grouping existing components into domains (use domain-identification-grouping) or dependency analysis (use coupling-analysis).",
+  "tags": [
+    "domain",
+    "analysis"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "tech-leads-club/agent-skills",
+    "path": "packages/skills-catalog/skills/(architecture)/domain-analysis/SKILL.md",
+    "commit": "738451e40785750a8e8de5bce8112675f5f0df02"
+  }
+}

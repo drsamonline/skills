@@ -1,0 +1,22 @@
+{
+  "id": "notifications-and-recovery",
+  "name": "notifications and recovery",
+  "category": "frontend-ui",
+  "description": "Toasts, inline errors, banners and recovery paths. Use when designing error states, success confirmations, async feedback or in-place editing.",
+  "tags": [
+    "notifications",
+    "and",
+    "recovery"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "dembrandt/dembrandt-skills",
+    "path": "skills/notifications-and-recovery/SKILL.md",
+    "commit": "c4ad177dea5b864f779f8c722f28cf04f760cb22"
+  }
+}

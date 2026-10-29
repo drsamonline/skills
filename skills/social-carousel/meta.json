@@ -1,0 +1,21 @@
+{
+  "id": "social-carousel",
+  "name": "social carousel",
+  "category": "frontend-ui",
+  "description": "三张方形卡片轮播, 标题串联, 品牌 mark + 编号",
+  "tags": [
+    "social",
+    "carousel"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nexu-io/html-anything",
+    "path": "next/src/lib/templates/skills/social-carousel/SKILL.md",
+    "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
+  }
+}

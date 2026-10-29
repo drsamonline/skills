@@ -1,0 +1,22 @@
+{
+  "id": "flowai-team-dashboard",
+  "name": "flowai team dashboard",
+  "category": "frontend-ui",
+  "description": "三个 tab 的团队管理后台: 成员、详情、活动日志, 含图表 + CSV 导出",
+  "tags": [
+    "flowai",
+    "team",
+    "dashboard"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nexu-io/html-anything",
+    "path": "next/src/lib/templates/skills/flowai-team-dashboard/SKILL.md",
+    "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
+  }
+}

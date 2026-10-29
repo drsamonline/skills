@@ -1,0 +1,21 @@
+{
+  "id": "remotion-docs",
+  "name": "remotion docs",
+  "category": "media-design",
+  "description": "Search Remotion documentation",
+  "tags": [
+    "remotion",
+    "docs"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "NOASSERTION",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "remotion-dev/skills",
+    "path": "skills/remotion-docs/SKILL.md",
+    "commit": "30d4553ecd46fbc5212fd0ff006ae43af522158b"
+  }
+}

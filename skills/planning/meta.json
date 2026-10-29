@@ -1,0 +1,20 @@
+{
+  "id": "planning",
+  "name": "planning",
+  "category": "engineering-workflow",
+  "description": "Creates and reviews executable implementation plans grounded in repository evidence, with vertical slices, explicit decisions, and verification criteria. Use when asked to \"plan this feature\", \"stress-test this plan\", \"grill me\", or \"split this into tickets\". For architecture use codebase-architecture; for code review use tidy.",
+  "tags": [
+    "planning"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "mblode/agent-skills",
+    "path": "skills/planning/SKILL.md",
+    "commit": "ff92bf5ae675e8108e7d2f14b22a523fd1303e76"
+  }
+}

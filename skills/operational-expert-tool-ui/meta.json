@@ -1,0 +1,22 @@
+{
+  "id": "operational-expert-tool-ui",
+  "name": "operational expert tool ui",
+  "category": "frontend-ui",
+  "description": "Dense, linear, status-at-a-glance UI for specialists who use a tool all day. Use when designing dispatch, warehouse, logistics, scheduling or other B2B operations tools.",
+  "tags": [
+    "operational",
+    "expert",
+    "tool"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "dembrandt/dembrandt-skills",
+    "path": "skills/operational-expert-tool-ui/SKILL.md",
+    "commit": "c4ad177dea5b864f779f8c722f28cf04f760cb22"
+  }
+}

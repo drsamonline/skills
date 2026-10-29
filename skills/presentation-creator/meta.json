@@ -1,0 +1,21 @@
+{
+  "id": "presentation-creator",
+  "name": "presentation creator",
+  "category": "engineering-workflow",
+  "description": "Builds decks with a story spine, house visual system, setting-specific density, and speaker notes. Use when asked to \"create a presentation\", \"write a pitch deck\", or \"turn this doc into slides\". Defaults to Marp; use an available presentation tool for editable PowerPoint.",
+  "tags": [
+    "presentation",
+    "creator"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "mblode/agent-skills",
+    "path": "skills/presentation-creator/SKILL.md",
+    "commit": "ff92bf5ae675e8108e7d2f14b22a523fd1303e76"
+  }
+}

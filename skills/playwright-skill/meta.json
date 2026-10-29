@@ -17,5 +17,19 @@
     "repo": "testdino-hq/playwright-skill",
     "path": "SKILL.md",
     "commit": "178d1cb537604279d7b54500c4823a6db42b9de6"
-  }
+  },
+  "variants": [
+    {
+      "repo": "tech-leads-club__agent-skills",
+      "path": "packages/skills-catalog/skills/(web-automation)/playwright-skill/SKILL.md"
+    },
+    {
+      "repo": "zebbern__claude-code-guide",
+      "path": "skills/playwright/SKILL.md"
+    },
+    {
+      "repo": "LambdaTest__agent-skills",
+      "path": "playwright-skill/SKILL.md"
+    }
+  ]
 }

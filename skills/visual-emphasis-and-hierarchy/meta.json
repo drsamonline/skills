@@ -1,0 +1,23 @@
+{
+  "id": "visual-emphasis-and-hierarchy",
+  "name": "visual emphasis and hierarchy",
+  "category": "frontend-ui",
+  "description": "Size, colour, weight and position mark what matters most. Use when designing button groups, CTAs, cards, dashboards or any layout with a primary action.",
+  "tags": [
+    "visual",
+    "emphasis",
+    "and",
+    "hierarchy"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "dembrandt/dembrandt-skills",
+    "path": "skills/visual-emphasis-and-hierarchy/SKILL.md",
+    "commit": "c4ad177dea5b864f779f8c722f28cf04f760cb22"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "appium-skill",
+  "name": "appium skill",
+  "category": "testing-qa",
+  "description": "You are a senior mobile QA architect. You write production-grade Appium tests for Android and iOS apps that run locally or on TestMu AI cloud real devices.",
+  "tags": [
+    "appium",
+    "skill"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "LambdaTest/agent-skills",
+    "path": "appium-skill/SKILL.md",
+    "commit": "992638bccbc311f42c0bd8b2b3387a0d1ce6288d"
+  },
+  "description_source": "derived-from-body"
+}

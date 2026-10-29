@@ -1,0 +1,23 @@
+{
+  "id": "semantic-html-and-seo",
+  "name": "semantic html and seo",
+  "category": "frontend-ui",
+  "description": "Semantic HTML5, SEO basics, alt text, progressive enhancement and SPA concerns. Use when building web UI, reviewing markup or optimising for search.",
+  "tags": [
+    "semantic",
+    "html",
+    "and",
+    "seo"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "dembrandt/dembrandt-skills",
+    "path": "skills/semantic-html-and-seo/SKILL.md",
+    "commit": "c4ad177dea5b864f779f8c722f28cf04f760cb22"
+  }
+}

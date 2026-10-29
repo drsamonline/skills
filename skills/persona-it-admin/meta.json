@@ -1,0 +1,21 @@
+{
+  "id": "persona-it-admin",
+  "name": "persona it admin",
+  "category": "google-workspace",
+  "description": "Administer IT — monitor security and configure Workspace.",
+  "tags": [
+    "persona",
+    "admin"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "googleworkspace/cli",
+    "path": "skills/persona-it-admin/SKILL.md",
+    "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
+  }
+}

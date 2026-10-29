@@ -1,0 +1,21 @@
+{
+  "id": "webmcp-gen",
+  "name": "webmcp gen",
+  "category": "browser-automation",
+  "description": "Build and validate experimental WebMCP tools for an existing web page. Use when an agent needs to expose a site's real workflows as page tools, create webmcp.init.js, define deterministic checks, or compare WebMCP with accessibility-tree automation.",
+  "tags": [
+    "webmcp",
+    "gen"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "vercel-labs/agent-browser",
+    "path": "skill-data/webmcp-gen/SKILL.md",
+    "commit": "1453dd37a40c730fe00f592bc32198a896ff8747"
+  }
+}

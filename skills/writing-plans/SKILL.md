@@ -1,215 +1,273 @@
 ---
 name: writing-plans
-description: Use when you have a spec or requirements for a multi-step task, before touching code
+description: Use when you have an approved spec or written requirements for a multi-step task that needs a durable plan document before touching code. Small, single-owner, or fast-path tasks do not need this skill.
 license: MIT
 metadata:
   title: "writing plans"
-  origin: "obra/superpowers"
+  origin: "GanyuanRan/Aegis"
   upstream-path: "skills/writing-plans/SKILL.md"
-  upstream-commit: "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b"
-  category: "engineering-workflow"
+  upstream-commit: "0461c211e4d812f0b215fab240a68a25c1e22424"
+  category: "security-audit"
 ---
+
+<EXPLICIT-MODE-GATE>
+If activation mode is explicit (`~/.config/aegis/config.toml` has
+`activation_mode = "explicit"`, or `AEGIS_ACTIVATION_MODE=explicit` is visible
+in the environment) and the current user request did not explicitly invoke
+Aegis or this skill by name, exit back to the fast path: answer concisely
+without this workflow's checklist, ceremony, or document requirements. If the
+user explicitly named Aegis or this skill, proceed normally.
+</EXPLICIT-MODE-GATE>
+
+# Execute
+
+→ Existing parent plan/spec and a tiny execution slice? → **Use Planless Slice Lane.**
+→ Mechanical or bounded change with no durable boundary (no new owner,
+  contract, schema, public API, migration, or compat surface)? → **Use
+  Planless Slice Lane without a parent document.**
+→ Approved spec/requirements for a new workstream or an escalation trigger? →
+  **Write an implementation plan for an engineer with no prior task context.**
+
+For a durable plan: confirm scope and acceptance, map current owners/files,
+record the TDD route, decompose into executable tasks, define verification and
+retirement, self-review, save, then select the execution route. Proceed unless
+a real authorization or safety boundary requires the user.
+
+Bind tasks to the requested user outcomes: object, actions, conditions, and
+deliverables. Include the final delivery step and evidence at the user-visible
+seam, not only implementation/tests. Keep unmet needs and dependencies explicit;
+project-wide goals do not authorize work outside this request. Reuse the
+existing scope/acceptance slots; no extra goal artifact is required.
+
+Escalate from Planless Slice Lane when the work adds a new owner, contract,
+schema, public API, architecture boundary, migration, persistence,
+security/permission, distribution/release surface, or an unclear verification
+boundary.
 
 # Writing Plans
 
-## Overview
+This skill turns approved requirements into a bounded, executable plan. The
+plan must answer: what changes, why code is necessary, which existing owner and
+files change, what stays compatible, what verifies the result, what risk
+remains, and what old path is retired or deliberately retained. A plan is
+method-pack guidance; it cannot grant authoritative completion.
 
-Write implementation plans for an engineer who has not seen this codebase or this spec. Assume they write idiomatic code in the project's language once they know the exact interface and the exact test, and that they will make a reasonable choice wherever the plan leaves one open. What they cannot know is what you decided: which files, which names and signatures, which values from the spec, which tests prove each task. Document those. Give them the whole plan as bite-sized tasks. DRY. YAGNI. TDD. Frequent commits.
+## TDD Route Guard
 
-**Announce at start:** "I'm using the writing-plans skill to create the implementation plan."
+Before task decomposition, record `TDD Route` with mode (`off | auto`), decision
+(`strict | light | skipped`), authority, test posture, reason, and verification.
 
-**Context:** If working in an isolated worktree, it should have been created via the `superpowers:using-git-worktrees` skill at execution time.
+Strict RED / GREEN steps belong only to an explicit user/project TDD request or
+`TDD Route: strict`. In `off`, use `skipped` unless explicit strict authority
+overrides it. An approved plan or a risk label alone is not strict authority.
 
-**Save plans to:** `docs/superpowers/plans/YYYY-MM-DD-<feature-name>.md`
-- (User preferences for plan location override this default)
+In `auto`, select `strict` for behavior, bugfix, shared/core, contract,
+persistence, permission, migration, producer/consumer, or meaningful
+regression signals. Select `light` only when the work is tiny, low-risk,
+single-owner, has no behavior change or strict signal, and has an obvious
+focused check. Absence of an explicit user TDD request is never evidence for
+`light`; the auto decision itself must be recorded.
 
-## Scope Check
+If risk remains unknown, return to requirements, debugging, or plan review
+before task decomposition; do not infer a TDD route from uncertainty.
 
-If the spec covers multiple independent subsystems, it should have been broken into sub-project specs during brainstorming. If it wasn't, suggest breaking this into separate plans — one per subsystem. Each plan should produce working, testable software on its own.
+Only a `strict` decision with stated authority may prescribe failing-test,
+RED, GREEN, and REFACTOR steps. Otherwise plan the minimum change plus
+diagnostic reproduction or post-change regression. A missing auto decision
+returns to route selection before implementation tasks.
 
-## File Structure
+## Entry And Artifact Choice
 
-Before defining tasks, map out which files will be created or modified and what each one is responsible for. This is where decomposition decisions get locked in.
+**Announce at start:** on the plan-writing route, say that this skill is
+creating the implementation plan. On `Planless Slice Lane`, announce the lane instead and do not claim a plan is being created.
 
-- Design units with clear boundaries and well-defined interfaces. Each file should have one clear responsibility.
-- You reason best about code you can hold in context at once, and your edits are more reliable when files are focused. Prefer smaller, focused files over large ones that do too much.
-- Files that change together should live together. Split by responsibility, not by technical layer.
-- In existing codebases, follow established patterns. If the codebase uses large files, don't unilaterally restructure - but if a file you're modifying has grown unwieldy, including a split in the plan is reasonable.
+**Execution context:** Reuse the current branch/workspace by default. A branch
+needs independent history; a worktree needs concurrent checkout, blocking
+unrelated dirty state, or explicit user/repository authority.
 
-This structure informs the task decomposition. Each task should produce self-contained changes that make sense independently.
+**Input:** approved requirements, a Spec Brief, or a Design Spec.
 
-## Task Right-Sizing
+**Default plan path:** `docs/aegis/plans/YYYY-MM-DD-<feature-name>.md`. Plans do
+not go in `work/`; user and repository authority override the default.
 
-A task is the smallest unit that carries its own test cycle and is worth a
-fresh reviewer's gate. When drawing task boundaries: fold setup,
-configuration, scaffolding, and documentation steps into the task whose
-deliverable needs them; split only where a reviewer could meaningfully
-reject one task while approving its neighbor. Each task ends with an
-independently testable deliverable.
+Exception: use `Planless Slice Lane` when an existing parent plan/spec already
+owns the current tiny execution slice, or when the change is mechanical or
+bounded and needs no parent document. Do not save a new plan. Emit a compact
+`Slice Card`:
 
-## Step Granularity
-
-**Each step is one action with a checkable result:**
-- "Write the failing test" - step
-- "Run it to make sure it fails" - step
-- "Implement the minimal code to make the test pass" - step
-- "Run the tests and make sure they pass" - step
-- "Commit" - step
-
-## Plan Document Header
-
-**Every plan MUST start with this header:**
-
-```markdown
-# [Feature Name] Implementation Plan
-
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
-
-**Goal:** [One sentence describing what this builds]
-
-**Architecture:** [2-3 sentences about approach]
-
-**Tech Stack:** [Key technologies/libraries]
-
-**Spec:** [path to the spec/design doc this plan implements — the plan
-argues from the spec, so the spec travels with it; executors read both]
-
-## Global Constraints
-
-[The spec's project-wide requirements — version floors, dependency limits,
-naming and copy rules, platform requirements — one line each, with exact
-values copied verbatim from the spec. Every task's requirements implicitly
-include this section.]
-
-## Review Focus
-
-[The five input classes or failure modes the spec implies but no task's
-tests exercise that are most likely to bite a person using this software
-— one line each, naming the input or condition and the behavior a
-reasonable person would expect, most likely first. The spec is a vision
-document: it says what the software must do, not everything it will
-meet, and its silence on an input is not permission for that input to
-break the program. Write the list here, once, with the spec in front of
-you. Then, for each line, add the test that pins it to the task that
-owns the code, in that task's own step style.]
-
----
+```text
+Slice Card:
+- Goal:
+- Parent plan/spec:
+- Files:
+- Boundary:
+- Verification:
+- Stop:
 ```
 
-## Task Structure
+On the no-parent branch, `Parent plan/spec:` is `none — direct bounded request`.
 
-````markdown
-### Task N: [Component Name]
+## Aegis Project Workspace
 
-**Files:**
-- Create: `exact/path/to/file.py`
-- Modify: `exact/path/to/existing.py:123-145`
-- Test: `tests/exact/path/to/test.py`
+Workspace creation is lazy and follows project authority. The Aegis Method
+Pack repository must not create or ship a live `docs/aegis/` workspace. When a
+durable plan must initialize or update another project's workspace, read the
+workspace section of `expanded-planning-guidance.md`. It owns the
+`<aegis-workspace-helper>` and `INDEX.md` command detail, not the decision to
+create a plan.
 
-**Interfaces:**
-- Consumes: [what this task uses from earlier tasks — exact signatures]
-- Produces: [what later tasks rely on — exact function names, parameter
-  and return types. A task's implementer sees only their own task; this
-  block is how they learn the names and types neighboring tasks use.]
+## Default Plan Surface
 
-- [ ] **Step 1: Write the failing test**
+Compact output contract: express these as natural plan content, not a stack of
+cards: `Aegis Visibility`, approved scope and plan basis, required baseline
+refs, files/owners, compatibility boundary, `Change Necessity`, TDD route,
+tasks, verification, risks, and retirement. Keep conditional structures silent unless their trigger below fires.
 
-```python
-def test_specific_behavior():
-    result = function(input)
-    assert result == expected
-```
+`Aegis Visibility` is normally one sentence explaining which owner, contract,
+retirement, compatibility, or verification pressure makes a durable plan
+useful. Structured trace belongs only to audit, debug, release, long-task
+review, or explicit request.
 
-- [ ] **Step 2: Run test to verify it fails**
+Before tasks, perform a `Requirement Ready Check`: identify the approved source,
+scope, scenarios, and acceptance evidence. If any decision-changing item is
+missing, do not create implementation tasks; return the smallest gap to the
+requirement/spec owner.
 
-Run: `pytest tests/path/test.py::test_name -v`
-Expected: FAIL with "function not defined"
+Perform `Change Necessity` before any non-trivial source edit or any new source-code path. This is behavior-triggered, not prompt-triggered. State
+naturally why no-change/docs/config is insufficient and name the minimum code
+boundary. A tiny helper, guard, branch, fallback, adapter, or owner is not
+exempt. A `no-change`, `docs/config-only`, or `needs-clarification` result
+narrows or stops the code plan.
 
-- [ ] **Step 3: Implement `function(input: InputType) -> ResultType` in `exact/path/to/file.py`**
+Run `Ripple Signal Triage` before tasks when the change touches shared/core or
+cross-module behavior; a public API, schema, contract, compatibility,
+persistence, cache, export/readback, fallback, adapter, duplicate/legacy owner,
+retirement path, or both producer and consumer. If no signal fires, add no
+output. If one fires, identify the canonical owner and affected downstream consumers,
+state source-of-truth/contract/fallback/retirement risk, and carry expanded verification
+into the relevant task. A required owner/public-contract/source-of-truth change,
+retaining two owners, or adding a fallback, adapter, or compatibility branch
+returns to design or requires explicit prior alignment before implementation.
 
-One line on the approach when the signature and the test leave a choice
-(which library call, which data structure); a code block only for an
-algorithm they do not determine.
+Run a compact `Plan Pressure Test` before task decomposition: test owner / contract / retirement fit, higher-level architecture path, verification scope,
+and task executability. It may proceed, revise the plan, or return to design;
+it is not an approval authority.
 
-- [ ] **Step 4: Run test to verify it passes**
+## Conditional Detailed Guidance
 
-Run: `pytest tests/path/test.py::test_name -v`
-Expected: PASS
+For interface/interaction work, compose `ui-ux-governance` and carry the accepted
+experience criteria and corresponding checks into affected tasks. Include API
+changes that alter visible states or recovery; keep backend-only work scoped.
 
-- [ ] **Step 5: Commit**
+Read only the trigger-matched section of `expanded-planning-guidance.md`:
 
-```bash
-git add tests/path/test.py src/path/file.py
-git commit -m "feat: add specific feature"
-```
-````
+- `## Baseline And Requirement Detail` when specific baseline acknowledgement
+  needs structure or requirement readiness is incomplete/disputed;
+- `## New-Surface And Architecture Detail` when a new surface or new owner needs
+  `Existence Check`, `AEGIS_MINIMALITY_REFERENCE`, `Architecture Integrity Lens`,
+  or `first-principles-review` detail before task decomposition;
+- `## Complexity Detail` when material file-size, mixed-owner, add-in-place,
+  adapter, fallback, or shared-core pressure appears;
+- `## Execution Readiness Detail` for a long-running, handoff-prone,
+  subagent-driven, high-risk architecture/contract/compatibility/retirement handoff;
+- `## Workspace Save Detail` only when saving requires workspace initialization
+  or `INDEX.md` updates;
+- `## Execution Route Detail` only when route evidence needs a structured
+  handoff; and
+- `## Expanded Plan Review` only for an independent high-risk or handoff-heavy
+  review.
 
-## What a Step Contains
+The direct triggers cover baseline readiness, new surface or new owner,
+complexity pressure, workspace persistence, and execution handoff. The
+reference supplies detail only. This main file owns routing, plan versus
+Planless selection, task blocking, and execution handoff.
 
-A step is done when the implementer can write exactly one reasonable thing
-from it. That is the whole requirement: unambiguous, not complete. Each kind
-of step carries what makes it unambiguous and nothing more:
+For a new surface, use `Existence Check` and
+`docs/current/AEGIS_MINIMALITY_REFERENCE.md` before tasks. Reuse an existing
+owner when it is sufficient. If owner, contract, responsibility overlap,
+higher-level simplification, fallback, or retirement remains risky, use the
+`Architecture Integrity Lens` and `first-principles-review` before task
+decomposition.
 
-- **A test step:** the test's name and its assertions, as code, with the
-  spec's exact values in them.
-- **A code step:** the exact signature (name, parameters, return type), the
-  file it lives in, and the specific values the spec pins. The implementer
-  writes the body. A body appears only for an algorithm the signature and
-  tests do not determine, or for exact copy the spec fixes.
-- **A verification step:** the command to run and the output that means it
-  passed.
-- **A reference to another task:** that task's Interfaces block says what
-  to use; the plan does not repeat that task's code.
+For maintained source, screen file shape, owner fit, add-in-place risk, and a
+better boundary. With no pressure signal, a compact edit-in-place decision is
+enough. When pressure exists, load the expanded `Plan-Time Complexity Check`
+and `Complexity Budget`. An over-budget result must change the task boundary,
+add governance work, or stop for follow-up.
 
-A plan is the set of decisions the implementer cannot make alone. A plan
-longer than the code it describes has written the code instead. Lines that
-decide nothing ("TBD", "handle edge cases", "add appropriate validation",
-"write tests for the above", a type or function no task defines) are the
-opposite failure, and the self-review catches both.
+For an ordinary medium/high handoff, state Intent Lock, Scope Fence, Baseline Lock, tests, and drift stop naturally. Load the expanded `Execution Readiness View` only for the auditable handoff triggers above. Neither form is a
+`GateDecision`, `PolicySnapshot`, approval gate, or completion authority.
 
-## Self-Review
+If the plan must choose among deleting an old internal path, retaining a proven
+external compatibility boundary, or stopping for persistent-state
+confirmation, compose `anti-entropy-governance`. It does not authorize
+destructive execution.
 
-After writing the complete plan, look at the spec with fresh eyes and check the plan against it. This is a checklist you run yourself — not a subagent dispatch.
+Preserve approved ADR signal preservation, source refs, alternatives,
+compatibility, and baseline-sync questions for completion; do not create
+accepted architecture memory from an unexecuted plan.
 
-**1. Spec coverage:** Skim each section/requirement in the spec. Can you point to a task that implements it? List any gaps.
+## Planless Slice Lane
 
-**2. Step scan:** Every step must let the implementer write exactly one reasonable thing, and no step may carry more than that: a line that decides nothing is a gap, a function body the signature and tests already determine is a transcript. Fix both.
+Use `Planless Slice Lane` before writing or saving a plan when one of these
+entry conditions holds:
 
-**3. Type consistency:** Do the types, method signatures, and property names you used in later tasks match what you defined in earlier tasks? A function called `clearLayers()` in Task 3 but `clearFullLayers()` in Task 7 is a bug.
+- a parent spec or parent plan already defines the workstream, and the current
+  request is executing or refining one bounded task from that parent
+- the change is mechanical or bounded and needs no parent document (the
+  no-parent branch under `# Execute`)
 
-**4. Review Focus:** For each input class or failure mode the spec implies, is there a task whose tests exercise it? The five uncovered ones most likely to bite a person go in the Review Focus section, and each line there gets its test added to the owning task. An empty section means you checked and found none, not that you skipped the check.
+and both of these are true:
 
-**5. Proportion:** Compare the plan's length to the spec's. A plan several times longer than the spec it implements is a transcript of the program, not a plan. If code blocks are most of the document, replace bodies with signatures, test names and assertions, and check that each step is still unambiguous.
+- no new owner, contract, schema, public API, architecture boundary, migration,
+  persistence, security/permission, distribution/release surface, or unclear
+  verification boundary appears
+- the slice can be described by a `Slice Card`
 
-If you find issues, fix them inline. No need to re-review — just fix and move on. If you find a spec requirement with no task, add the task.
+The lane preserves long-task continuity without turning execution bookkeeping
+into durable planning artifacts. A parent scope or acceptance mismatch returns
+to the parent plan/spec instead of spawning a micro-plan.
+
+## Plan And Task Quality
+
+Map files before tasks. Follow existing ownership and naming. For non-trivial
+plans, passively use relevant current terms from `CONTEXT-MAP.md` or `CONTEXT.md`;
+route a real semantic conflict to `establishing-project-context`.
+
+Every durable plan starts with Goal, Architecture, Tech Stack,
+Baseline/Authority Refs, Compatibility Boundary, TDD Route, and Verification.
+Then define small, ordered tasks with exact files, purpose, minimum necessary
+change, compatibility impact, and commands/outcomes that prove the task.
+Include code excerpts only when a signature, contract, or transformation would
+otherwise remain ambiguous; do not duplicate the implementation inside the
+plan.
+
+For bug fixes, refactors, contract changes, or governance cleanup, keep Repair
+Track and Retirement Track explicit in the affected task. A retained old owner
+or fallback needs a reason and retirement trigger.
+
+Self-review once for approved-scope coverage, placeholders, owner/type
+consistency, minimum change boundary, compatibility, exact verification,
+conditional trigger handling, and retirement. Fix defects inline. Tasks are
+execution units, not Git history units: the coordinator captures
+`TaskStartSnapshot` and creates one scoped commit only after the whole Task is
+reviewed and freshly verified.
 
 ## Execution Handoff
 
-After saving and self-reviewing the plan, link it for your human partner
-to read. If they have already explicitly supplied an execution method, ask
-them to review the plan and confirm it captures what they want; wait for that
-review before implementation, then use the preserved method. Otherwise, ask
-them to review the plan and choose an execution method before implementation.
+The agent owns the execution-route decision. Select `subagent-driven` only for
+genuinely independent tasks with bounded ownership when coordination pays for
+it; otherwise select `inline`. Unavailable subagents falls back to inline execution. A dirty workspace alone does not select either route.
 
-**When no execution method has already been supplied:**
+Ask the user only for unresolved authorization, privacy, paid-resource,
+external-action, irreversible-action, scope, acceptance, or workspace-ownership
+boundaries. Otherwise proceed immediately. State the decision, evidence,
+fallback, and `User confirmation required: no | yes — <boundary>` compactly;
+load the reference only when the full `Execution Route` schema is useful.
 
-**"Plan complete and saved to `docs/superpowers/plans/<filename>.md`. Please review the plan. Which execution approach would you prefer?**
-
-- **Subagent-driven** - A fresh subagent implements each task and a fresh reviewer checks it before the next one starts, then a whole-branch review at the end. Most thorough; costs a fresh context per task and per review.
-- **Native** - I implement every task myself in this session, the way this harness runs work, then one fresh reviewer on the most capable model checks the whole branch. Cheapest and fastest; no independent review until the end. Runs well with a mid-tier session model, since the plan carries the design.
-
-**For this plan I recommend <one of the two>, because <one sentence from the plan: how much the tasks depend on each other's interfaces, how many there are, what a shipped mistake would cost>. Does the plan capture what you want, and which approach should we use?"**
-
-**When an execution method has already been supplied:**
-
-**"Plan complete and saved to `docs/superpowers/plans/<filename>.md`. Please review the plan. Does it capture what you want?"**
-
-**If Subagent-driven chosen:**
-- **REQUIRED SUB-SKILL:** Use superpowers:subagent-driven-development
-
-**If Native chosen:**
-- **REQUIRED SUB-SKILL:** Use superpowers:executing-plans
+For `subagent-driven`, use `aegis:subagent-driven-development`. For `inline`,
+use `aegis:executing-plans`.
 
 ## Provenance
 
-Imported from [obra/superpowers](https://github.com/obra/superpowers) at commit `2ce8aa1`, path `skills/writing-plans/SKILL.md`. Licensed MIT by its authors — the full text is in `LICENSE`.
+Imported from [GanyuanRan/Aegis](https://github.com/GanyuanRan/Aegis) at commit `0461c21`, path `skills/writing-plans/SKILL.md`. Licensed MIT — the full text is in `LICENSE`.

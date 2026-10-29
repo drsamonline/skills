@@ -1,0 +1,22 @@
+{
+  "id": "reqnroll-skill",
+  "name": "reqnroll skill",
+  "category": "testing-qa",
+  "description": "This skill guides QA engineers and test architects in writing production-grade Reqnroll BDD tests for web and mobile automation in C#. It covers three execution paths — Selenium 4 with manual driver management, Selenium 3 via the Reqnroll.Actions plugin, and Appium 2 for Android mobile — all targeting TestMu AI (LambdaTest) cloud infrastructure.",
+  "tags": [
+    "reqnroll",
+    "skill"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "LambdaTest/agent-skills",
+    "path": "reqnroll-skill/SKILL.md",
+    "commit": "992638bccbc311f42c0bd8b2b3387a0d1ce6288d"
+  },
+  "description_source": "derived-from-body"
+}

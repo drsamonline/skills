@@ -1,0 +1,22 @@
+{
+  "id": "xiaohongshu-search-full",
+  "name": "xiaohongshu search full",
+  "category": "browser-automation",
+  "description": "Search Xiaohongshu (XHS / RedNote) notes by keyword with full field extraction including body text, topics/tags, image list URLs, video stream URL, publish timestamp, and all engagement stats (likes, collects, comments, shares). Supports all page filter options: sort order (general, latest, most liked, most commented, most collected), note type (image-text, video), publish time range (within 1 day, 1 week, 6 months), search scope (seen, unseen, followed), and location distance (same city, nearby). Use when user mentions search xiaohongshu notes, xhs keyword search, rednote note search, search xiaohongshu posts, scrape xhs search results, xiaohongshu note discovery, rednote content search, collect xhs notes by keyword, xiaohongshu topic search, xhs note body text, xiaohongshu video notes, xiaohongshu image notes, rednote post filter, xhs search with filters, xiaohongshu full note data, xhs note details from search, extract rednote posts, xiaohongshu content monitoring, xhs search scrape.",
+  "tags": [
+    "xiaohongshu",
+    "search",
+    "full"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "browser-act/skills",
+    "path": "solutions/social-listening/xiaohongshu-search-full/SKILL.md",
+    "commit": "11c057b03f92101642cadc9f840564574120d184"
+  }
+}

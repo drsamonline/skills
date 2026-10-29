@@ -1,0 +1,21 @@
+{
+  "id": "audit-flow",
+  "name": "audit flow",
+  "category": "engineering-workflow",
+  "description": "Interactive system flow tracing across CODE, API, AUTH, DATA, NETWORK layers with SQLite persistence and Mermaid export. Use for security audits, compliance documentation, flow tracing, feature ideation, brainstorming, debugging, architecture reviews, or incident post-mortems. Triggers on audit, trace flow, document flow, security review, debug flow, brainstorm, architecture review, post-mortem, incident review.",
+  "tags": [
+    "audit",
+    "flow"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "zebbern/claude-code-guide",
+    "path": "skills/audit-flow/SKILL.md",
+    "commit": "b50a31ad52510d148709b1eb61406952a02c3d19"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "app-shell",
+  "name": "app shell",
+  "category": "frontend-ui",
+  "description": "Top bar, sidebar rail, app launcher, tenant and environment cue, status bar. Use when designing the persistent shell, a collapsible sidebar, or navigation between apps behind one login.",
+  "tags": [
+    "app",
+    "shell"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "dembrandt/dembrandt-skills",
+    "path": "skills/app-shell/SKILL.md",
+    "commit": "c4ad177dea5b864f779f8c722f28cf04f760cb22"
+  }
+}

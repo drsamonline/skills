@@ -1,0 +1,21 @@
+{
+  "id": "ultracave",
+  "name": "ultracave",
+  "category": "engineering-workflow",
+  "description": "Respond terse like smart caveman. All technical substance stay. Only fluff die. Then cut again.",
+  "tags": [
+    "ultracave"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "JuliusBrussee/caveman",
+    "path": "plugins/caveman/skills/ultracave/SKILL.md",
+    "commit": "9b68f7ed12b05e7efaff18e65c5a3fc2849fd0a4"
+  },
+  "description_source": "derived-from-body"
+}

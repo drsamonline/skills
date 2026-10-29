@@ -2,7 +2,7 @@
   "id": "frontend-slides",
   "name": "frontend slides",
   "category": "office-docs",
-  "description": "Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files.",
+  "description": "Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to web, or create slides for a talk/pitch. Helps non-designers discover their aesthetic through visual exploration rather than abstract choices.",
   "tags": [
     "frontend",
     "slides"
@@ -12,10 +12,16 @@
   "updated": "2026-10-29",
   "source_snapshot": {},
   "license": "MIT",
-  "origin": "third-party-aggregator",
+  "origin": "third-party",
   "upstream": {
-    "repo": "sickn33/agentic-awesome-skills",
-    "path": "plugins/agentic-awesome-skills-claude/skills/frontend-slides/SKILL.md",
-    "commit": "753c5f7bb64650b7d3ac0ab84d9b24892d7aed8b"
-  }
+    "repo": "zarazhangrui/frontend-slides",
+    "path": "SKILL.md",
+    "commit": "9906a34d640d2111f724544cbc50f7f130569ae1"
+  },
+  "variants": [
+    {
+      "repo": "zarazhangrui__frontend-slides",
+      "path": "SKILL.md"
+    }
+  ]
 }

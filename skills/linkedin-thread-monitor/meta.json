@@ -1,0 +1,22 @@
+{
+  "id": "linkedin-thread-monitor",
+  "name": "linkedin thread monitor",
+  "category": "marketing",
+  "description": "Track which of your LinkedIn comments earned author replies. Flags the 6-24h warm-reply window where thread momentum peaks, classifies threads as hot/warm/cool/dormant, and routes warm ones to linkedin-reply-handler for follow-up drafts. Powered by Apify, no LinkedIn login. Triggers on \\\"what threads need follow-up\\\", \\\"author replied\\\", \\\"monitor my comments\\\". Not for analyzing likers on a post (use linkedin-engager-analytics).",
+  "tags": [
+    "linkedin",
+    "thread",
+    "monitor"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "sergebulaev/linkedin-skills",
+    "path": ".codex-marketplace/linkedin-skills/skills/linkedin-thread-monitor/SKILL.md",
+    "commit": "8f8bc4b40a2d5419b2dcf898772b85712cfbdf41"
+  }
+}

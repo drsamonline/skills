@@ -1,0 +1,21 @@
+{
+  "id": "platformer",
+  "name": "platformer",
+  "category": "game-dev",
+  "description": "A playbook for 2D platformers — the run/jump controller \"feel\", level structure, hazards, and goals. This is a compositional skill: it wires an engine movement skill, a tilemap skill, and design skills into a working game. It does not re-teach physics or tilemaps; it tells you what to build and how to make jumping feel good.",
+  "tags": [
+    "platformer"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/genres/platformer/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

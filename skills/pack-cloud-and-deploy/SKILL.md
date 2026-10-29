@@ -5,12 +5,12 @@ license: see each member
 metadata:
   title: "Cloud and deploy pack"
   kind: "index pack"
-  members: "182"
+  members: "194"
 ---
 
 # Cloud and deploy pack
 
-182 skills, each kept as its own skill in `skills/<id>/` — this pack is the index that tells you which one to read. Drawn from 3 upstream repositories (addyosmani/agent-skills, google/skills, vercel-labs/agent-skills).
+194 skills, each kept as its own skill in `skills/<id>/` — this pack is the index that tells you which one to read. Drawn from 4 upstream repositories.
 
 ## When to use
 
@@ -192,6 +192,18 @@ metadata:
 | [`managed-airflow-migrations`](../managed-airflow-migrations/SKILL.md) | Provides guidance for migrating Apache Airflow DAGs in Managed Service for Apache Airflow (MSAA; formerly Cloud Composer). Covers migration to Airflow 2.11.1 (MSAA Gen 2 and 3)… | google/skills | Apache-2.0 |
 | [`managed-airflow-recommendations`](../managed-airflow-recommendations/SKILL.md) | This skill provides specialized instructions for providing recommendations, best practices, and performance-tuning for Managed Service for Apache Airflow (formerly Cloud… | google/skills | Apache-2.0 |
 | [`migrate-to-rust`](../migrate-to-rust/SKILL.md) | Act as a Systems Architect, Performance Engineer, and Rust Specialist. Your goal is to migrate legacy codebases into 100% Safe, PGO-tuned Rust while recording measured… | google/skills | Apache-2.0 |
+| [`mirrord-chaos`](../mirrord-chaos/SKILL.md) | Help users inject artificial failures and disruptions into a mirrord session's outgoing traffic, to test how their app behaves under unexpected conditions. A chaos rule pairs a… | metalbear-co/skills | MIT |
+| [`mirrord-ci`](../mirrord-ci/SKILL.md) | Help users set up mirrord in CI pipelines for testing against real Kubernetes environments. Use when users want to run end-to-end tests, integration tests, or automated tests… | metalbear-co/skills | MIT |
+| [`mirrord-config`](../mirrord-config/SKILL.md) | Helps users generate, edit, and validate mirrord.json configuration files for mirrord (MetalBear). Use when the user wants to connect their local process to a Kubernetes… | metalbear-co/skills | MIT |
+| [`mirrord-db-branching`](../mirrord-db-branching/SKILL.md) | Helps users configure mirrord.json for database branching, enabling isolated database copies for safe development and testing. Use when the user wants to set up MySQL, MariaDB,… | metalbear-co/skills | MIT |
+| [`mirrord-header-propagation`](../mirrord-header-propagation/SKILL.md) | mirrord routes traffic to a developer's session by matching a header. The convention is W3C baggage with a mirrord-session=<key entry: HTTP filters use "headerfilter":… | metalbear-co/skills | MIT |
+| [`mirrord-kafka`](../mirrord-kafka/SKILL.md) | Which CRDs? Kafka splitting is now configured with MirrordSplitConfig (which queues to split + how the app finds their names) and MirrordPropertyList (the Kafka client… | metalbear-co/skills | MIT |
+| [`mirrord-operator`](../mirrord-operator/SKILL.md) | Help users install and configure the mirrord Operator for team/enterprise environments. Use when users ask about operator setup, Helm installation, cloud API key or license… | metalbear-co/skills | MIT |
+| [`mirrord-prev-env`](../mirrord-prev-env/SKILL.md) | Help users create and manage mirrord preview environments — running a modified service as an isolated pod in a shared Kubernetes cluster, scoped by an environment key and… | metalbear-co/skills | MIT |
+| [`mirrord-propagation-discovery`](../mirrord-propagation-discovery/SKILL.md) | mirrord routes a request to a developer's local process when the request matches an HTTP filter. On a shared cluster that filter has to pick out one developer's requests at… | metalbear-co/skills | MIT |
+| [`mirrord-quickstart`](../mirrord-quickstart/SKILL.md) | Guide users from zero to their first working mirrord session — check system requirements, install mirrord via CLI, VS Code, or IntelliJ, run a first session against a… | metalbear-co/skills | MIT |
+| [`mirrord-temporal`](../mirrord-temporal/SKILL.md) | Temporal splitting is configured with MirrordSplitConfig (which task queues to split + how the worker finds their names) and MirrordPropertyList (the Temporal frontend… | metalbear-co/skills | MIT |
+| [`mirrord-up`](../mirrord-up/SKILL.md) | Help users create and run multiple concurrent mirrord sessions from one config file — think docker compose, but for mirrord — as documented in Multiple concurrent sessions… | metalbear-co/skills | MIT |
 | [`observability-and-instrumentation`](../observability-and-instrumentation/SKILL.md) | Instruments code so production behavior is visible and diagnosable. Use when adding logging, metrics, tracing, or alerting. Use when shipping any feature that runs in… | addyosmani/agent-skills | MIT |
 | [`retrieving-developer-knowledge`](../retrieving-developer-knowledge/SKILL.md) | The Developer Knowledge skill provides access to official Google developer documentation across Google Cloud, AI/ML (ai.google.dev, ADK, TensorFlow), Android, Chrome, Web,… | google/skills | Apache-2.0 |
 | [`secops-cases`](../secops-cases/SKILL.md) | Operates and manages incident cases within Google Security Operations (Google SecOps SOAR). Enables end-to-end incident lifecycle management: case creation, queue monitoring,… | google/skills | Apache-2.0 |

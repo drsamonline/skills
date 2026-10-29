@@ -1,0 +1,23 @@
+{
+  "id": "obsidian-second-brain",
+  "name": "obsidian second brain",
+  "category": "notes-knowledge",
+  "description": "Claude operates your Obsidian vault as a self-rewriting knowledge base. An evolution of Karpathy's LLM Wiki pattern(https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f): sources rewrite existing pages instead of just appending, contradictions reconcile automatically, and scheduled agents maintain the vault while you sleep. Everything worth remembering gets saved. Every update propaga",
+  "tags": [
+    "obsidian",
+    "second",
+    "brain"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "eugeniughelbur/obsidian-second-brain",
+    "path": "SKILL.md",
+    "commit": "f79c64f3f03ee25ec1660c8a30ebe7f4f8e044ff"
+  },
+  "description_source": "derived-from-body"
+}

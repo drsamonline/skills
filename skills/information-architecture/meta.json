@@ -1,0 +1,21 @@
+{
+  "id": "information-architecture",
+  "name": "information architecture",
+  "category": "frontend-ui",
+  "description": "Naming, navigation, a UI that mirrors the data model, confirms for irreversible changes. Use when structuring a large application or naming its entities.",
+  "tags": [
+    "information",
+    "architecture"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "dembrandt/dembrandt-skills",
+    "path": "skills/information-architecture/SKILL.md",
+    "commit": "c4ad177dea5b864f779f8c722f28cf04f760cb22"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "privilege-escalation-methods",
+  "name": "privilege escalation methods",
+  "category": "engineering-workflow",
+  "description": "This skill should be used when the user asks to \"escalate privileges\", \"get root access\", \"become administrator\", \"privesc techniques\", \"abuse sudo\", \"exploit SUID binaries\", \"Kerberoasting\", \"pass-the-ticket\", \"token impersonation\", or needs guidance on post-exploitation privilege escalation for Linux or Windows systems.",
+  "tags": [
+    "privilege",
+    "escalation",
+    "methods"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "zebbern/claude-code-guide",
+    "path": "skills/privilege-escalation-methods/SKILL.md",
+    "commit": "b50a31ad52510d148709b1eb61406952a02c3d19"
+  }
+}

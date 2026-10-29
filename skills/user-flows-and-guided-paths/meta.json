@@ -1,0 +1,24 @@
+{
+  "id": "user-flows-and-guided-paths",
+  "name": "user flows and guided paths",
+  "category": "frontend-ui",
+  "description": "Guided multi-step paths and wizards. Use when designing onboarding, checkout, setup sequences or any multi-step journey.",
+  "tags": [
+    "user",
+    "flows",
+    "and",
+    "guided",
+    "paths"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "dembrandt/dembrandt-skills",
+    "path": "skills/user-flows-and-guided-paths/SKILL.md",
+    "commit": "c4ad177dea5b864f779f8c722f28cf04f760cb22"
+  }
+}

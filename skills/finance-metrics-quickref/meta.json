@@ -1,0 +1,22 @@
+{
+  "id": "finance-metrics-quickref",
+  "name": "finance metrics quickref",
+  "category": "product-management",
+  "description": "Look up SaaS finance metrics, formulas, and benchmarks fast. Use when you need a quick metric definition, formula, or benchmark during analysis.",
+  "tags": [
+    "finance",
+    "metrics",
+    "quickref"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "see LICENSE",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "deanpeters/Product-Manager-Skills",
+    "path": "skills/finance-metrics-quickref/SKILL.md",
+    "commit": "cfcb697f14b8891d8b3ec43c16c3547df3e70e13"
+  }
+}

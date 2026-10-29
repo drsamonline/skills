@@ -1,0 +1,21 @@
+{
+  "id": "speech-to-text",
+  "name": "speech to text",
+  "category": "media-design",
+  "description": "Use this skill whenever the user wants to transcribe audio to text, convert speech to text, or get a transcript from an audio or video file. Triggers include: any mention of 'transcribe', 'transcription', 'speech to text', 'STT', 'convert audio to text', 'what does this audio say', 'get transcript', 'subtitle generation', or requests to extract spoken words from a file. Also use when the user wants speaker identification from audio, timestamps for captions, or multilingual transcription.",
+  "tags": [
+    "speech",
+    "text"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "NOASSERTION",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "NoizAI/skills",
+    "path": "skills/speech-to-text/SKILL.md",
+    "commit": "779f30af588ebf4dd17fc0acaa590ae147a0d3f5"
+  }
+}

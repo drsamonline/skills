@@ -1,0 +1,23 @@
+{
+  "id": "mirrord-header-propagation",
+  "name": "mirrord header propagation",
+  "category": "cloud-and-deploy",
+  "description": "mirrord routes traffic to a developer's session by matching a header. The convention is W3C baggage with a mirrord-session=<key entry: HTTP filters use \"headerfilter\": \"^baggage: .mirrord-session={{ key }}.$\", and queue splitting filters on a message header or attribute named baggage. That only works past the first hop if every service forwards baggage on every outgoing call and every message it p",
+  "tags": [
+    "mirrord",
+    "header",
+    "propagation"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "metalbear-co/skills",
+    "path": "skills/mirrord-header-propagation/SKILL.md",
+    "commit": "ff44181162fe6e76e503781a6d20bbdb4bbbcc5c"
+  },
+  "description_source": "derived-from-body"
+}

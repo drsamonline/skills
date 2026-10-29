@@ -1,0 +1,22 @@
+{
+  "id": "multi-tenant-architecture",
+  "name": "multi tenant architecture",
+  "category": "engineering-workflow",
+  "description": "Designs tenant isolation, hostname routing, custom-domain lifecycle, and plan limits on Cloudflare or Vercel. Use when asked to \"isolate tenant data\", \"support custom domains\", \"build a white-label platform\", or assess PSL registration. For general module structure use codebase-architecture; for SEO content use seo.",
+  "tags": [
+    "multi",
+    "tenant",
+    "architecture"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "mblode/agent-skills",
+    "path": "skills/multi-tenant-architecture/SKILL.md",
+    "commit": "ff92bf5ae675e8108e7d2f14b22a523fd1303e76"
+  }
+}

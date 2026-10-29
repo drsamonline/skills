@@ -1,0 +1,22 @@
+{
+  "id": "indeed-job-search",
+  "name": "indeed job search",
+  "category": "browser-automation",
+  "description": "Scrape job listings from Indeed.com by keyword, location, and country. Returns job title, company, salary, rating, description, benefits, and apply links. Use when user mentions Indeed, Indeed scraper, Indeed jobs, scrape Indeed, job search Indeed, Indeed job listings, extract Indeed data, Indeed job data, get jobs from Indeed, Indeed employment data, job market research Indeed, Indeed salary data, bulk job extraction Indeed, Indeed job scraper, monitor Indeed listings, Indeed hiring data, job postings Indeed, Indeed career search. Also applies to: job market analysis, salary benchmarking from Indeed, competitor hiring monitoring, recruitment data collection, building job databases from Indeed search results.",
+  "tags": [
+    "indeed",
+    "job",
+    "search"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "browser-act/skills",
+    "path": "solutions/lead-generation/indeed-job-search/SKILL.md",
+    "commit": "11c057b03f92101642cadc9f840564574120d184"
+  }
+}

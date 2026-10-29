@@ -1,0 +1,23 @@
+{
+  "id": "performance-and-web-vitals",
+  "name": "performance and web vitals",
+  "category": "frontend-ui",
+  "description": "Lighthouse audits and Core Web Vitals — LCP, CLS, INP. Use when optimising page load, layout shift, input delay, images, fonts or render-blocking resources.",
+  "tags": [
+    "performance",
+    "and",
+    "web",
+    "vitals"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "dembrandt/dembrandt-skills",
+    "path": "skills/performance-and-web-vitals/SKILL.md",
+    "commit": "c4ad177dea5b864f779f8c722f28cf04f760cb22"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "gws-events-renew",
+  "name": "gws events renew",
+  "category": "google-workspace",
+  "description": "Google Workspace Events: Renew/reactivate Workspace Events subscriptions.",
+  "tags": [
+    "gws",
+    "events",
+    "renew"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "googleworkspace/cli",
+    "path": "skills/gws-events-renew/SKILL.md",
+    "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
+  }
+}

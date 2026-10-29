@@ -1,0 +1,23 @@
+{
+  "id": "amazon-reviews-api-skill",
+  "name": "amazon reviews api skill",
+  "category": "browser-automation",
+  "description": "This skill helps users automatically extract Amazon product reviews via the Amazon Reviews API. Agent should proactively apply this skill when users express needs like getting reviews for Amazon product with ASIN B07TS6R1SF, analyzing customer feedback for a specific Amazon item, getting ratings and comments for a competitive product, tracking sentiment of recent Amazon reviews, extracting verified purchase reviews for quality assessment, summarizing user experiences from Amazon product pages, monitoring product performance through customer reviews, collecting reviewer profiles and links for market research, gathering review titles and descriptions for content analysis, scraping Amazon reviews without requiring a login.",
+  "tags": [
+    "amazon",
+    "reviews",
+    "api",
+    "skill"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "browser-act/skills",
+    "path": "solutions/ecommerce/amazon-reviews-api-skill/SKILL.md",
+    "commit": "11c057b03f92101642cadc9f840564574120d184"
+  }
+}

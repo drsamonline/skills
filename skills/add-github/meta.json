@@ -1,0 +1,21 @@
+{
+  "id": "add-github",
+  "name": "add github",
+  "category": "engineering-workflow",
+  "description": "Add GitHub channel integration via Chat SDK. PR and issue comment threads as conversations.",
+  "tags": [
+    "add",
+    "github"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nanocoai/nanoclaw",
+    "path": ".claude/skills/add-github/SKILL.md",
+    "commit": "acc2b1c8f52a954368cfaf04b61c32f9a1efc280"
+  }
+}

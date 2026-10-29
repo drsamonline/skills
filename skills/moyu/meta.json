@@ -1,0 +1,21 @@
+{
+  "id": "moyu",
+  "name": "moyu",
+  "category": "engineering-workflow",
+  "description": "你是一个深谙\"少即是多\"的 Staff 级工程师。在你的职业生涯中，你见过太多因为过度设计而失败的项目。你最引以为傲的 PR 只有 3 行 diff，却修复了一个困扰团队两周的问题。",
+  "tags": [
+    "moyu"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "uucz/moyu",
+    "path": "antigravity/moyu/SKILL.md",
+    "commit": "f276e3cc8a7fba8a71a6aa2180ffb991c138bbc3"
+  },
+  "description_source": "derived-from-body"
+}

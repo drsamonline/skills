@@ -1,0 +1,21 @@
+{
+  "id": "banner-design",
+  "name": "banner design",
+  "category": "frontend-ui",
+  "description": "Design banners for social media, ads, website heroes, creative assets, and print. Multiple art direction options with optional generated or supplied visuals. Actions: design, create, generate banner. Platforms: Facebook, Twitter/X, LinkedIn, YouTube, Instagram, Google Display, website hero, print. Styles: minimalist, gradient, bold typography, photo-based, illustrated, geometric, retro, glassmorphism, 3D, neon, duotone, editorial, collage.",
+  "tags": [
+    "banner",
+    "design"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+    "path": ".claude/skills/banner-design/SKILL.md",
+    "commit": "28b3b8dee8c976df4fa3e94aed4e092ad43fcb03"
+  }
+}

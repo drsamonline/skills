@@ -1,0 +1,22 @@
+{
+  "id": "n8n-node-configuration",
+  "name": "n8n node configuration",
+  "category": "engineering-workflow",
+  "description": "Operation-aware node configuration guidance. Use when configuring nodes, understanding property dependencies, determining required fields, choosing between get_node detail levels, or learning common configuration patterns by node type — including the native nodes that replace Code (Summarize, Aggregate, Split Out, Merge, Compare Datasets, Remove Duplicates, Sort, Limit, Date & Time, HTTP Request pagination, Crypto). Always use this skill when setting up node parameters — it explains which fields are required for each operation, how displayOptions control field visibility, and when to use patchNodeField for surgical edits vs full node updates.",
+  "tags": [
+    "n8n",
+    "node",
+    "configuration"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "czlonkowski/n8n-skills",
+    "path": "skills/n8n-node-configuration/SKILL.md",
+    "commit": "e037563e101749e630e6688d121d04529fe6ee7b"
+  }
+}

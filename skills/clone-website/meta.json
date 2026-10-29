@@ -1,0 +1,21 @@
+{
+  "id": "clone-website",
+  "name": "clone website",
+  "category": "frontend-ui",
+  "description": "Rebuild a live web page 1:1 from measurement into Figma, Penpot or code, then verify it. Use when reproducing a page or checking a rebuild against the original.",
+  "tags": [
+    "clone",
+    "website"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "dembrandt/dembrandt-skills",
+    "path": "skills/clone-website/SKILL.md",
+    "commit": "c4ad177dea5b864f779f8c722f28cf04f760cb22"
+  }
+}

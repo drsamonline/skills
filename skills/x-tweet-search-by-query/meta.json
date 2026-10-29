@@ -1,0 +1,22 @@
+{
+  "id": "x-tweet-search-by-query",
+  "name": "x tweet search by query",
+  "category": "browser-automation",
+  "description": "Searches X (Twitter) for tweets by free-form advanced query and returns a normalized tweet list with text, author profile, engagement counts, media, hashtags, mentions, and cursor for pagination. Use when user mentions X search, Twitter search, scrape tweets by keyword, search X by hashtag, search Twitter by hashtag, find tweets about a topic, search tweets by date range, since until search Twitter, advanced Twitter search, tweets with media, tweets with images, tweets with video, top tweets, latest tweets, X latest tab, X top tab, min_faves, min_retweets, min_replies, filter verified Twitter, filter blue verified, from user Twitter, to user Twitter, mentioning user Twitter, geocode Twitter search, near location Twitter, lang code search Twitter, exclude retweets, exclude replies, collect tweets at scale, bulk tweets export, monitor brand mentions on X, monitor brand mentions on Twitter, competitor mention monitoring, KOL tweet harvesting, twitter keyword scraper, tweet keyword scraper, search X by keyword, s",
+  "tags": [
+    "tweet",
+    "search",
+    "query"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "browser-act/skills",
+    "path": "solutions/social-listening/x-tweet-search-by-query/SKILL.md",
+    "commit": "11c057b03f92101642cadc9f840564574120d184"
+  }
+}

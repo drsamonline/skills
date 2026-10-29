@@ -1,0 +1,22 @@
+{
+  "id": "n8n-expression-syntax",
+  "name": "n8n expression syntax",
+  "category": "engineering-workflow",
+  "description": "Validate n8n expression syntax and fix common errors. Use when writing n8n expressions, using {{}} syntax, accessing $json/$node variables, troubleshooting expression errors, mapping data between nodes, or referencing webhook data in workflows. Use this skill whenever configuring node fields that reference data from previous nodes — expressions are how n8n passes data between nodes, and getting the syntax wrong is the most common source of workflow errors. Also use when asked whether a complex expression hurts performance.",
+  "tags": [
+    "n8n",
+    "expression",
+    "syntax"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "czlonkowski/n8n-skills",
+    "path": "skills/n8n-expression-syntax/SKILL.md",
+    "commit": "e037563e101749e630e6688d121d04529fe6ee7b"
+  }
+}

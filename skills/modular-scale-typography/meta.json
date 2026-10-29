@@ -1,0 +1,22 @@
+{
+  "id": "modular-scale-typography",
+  "name": "modular scale typography",
+  "category": "frontend-ui",
+  "description": "Ratio-based type scale where every size relates to the others. Use when defining font sizes or type tokens, or when typography feels arbitrary.",
+  "tags": [
+    "modular",
+    "scale",
+    "typography"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "dembrandt/dembrandt-skills",
+    "path": "skills/modular-scale-typography/SKILL.md",
+    "commit": "c4ad177dea5b864f779f8c722f28cf04f760cb22"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "vercel-deploy",
+  "name": "vercel deploy",
+  "category": "engineering-workflow",
+  "description": "Deploy applications and websites to Vercel. Use when the user requests deployment actions like \"deploy my app\", \"deploy and give me the link\", \"push this live\", or \"create a preview deployment\". Do NOT use for deploying to Netlify, Cloudflare, or Render (use their respective skills).",
+  "tags": [
+    "vercel",
+    "deploy"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "tech-leads-club/agent-skills",
+    "path": "packages/skills-catalog/skills/(cloud)/vercel-deploy/SKILL.md",
+    "commit": "738451e40785750a8e8de5bce8112675f5f0df02"
+  }
+}

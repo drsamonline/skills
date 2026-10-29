@@ -1,0 +1,21 @@
+{
+  "id": "jira-assistant",
+  "name": "jira assistant",
+  "category": "engineering-workflow",
+  "description": "Manage Jira issues via Atlassian MCP — search, create, update, transition status, and handle sprint tasks. Auto-detects workspace configuration. Use when user says \"create a Jira ticket\", \"update my sprint\", \"check Jira status\", \"transition this issue\", \"search Jira\", or \"move ticket to done\". Do NOT use for Confluence pages (use confluence-assistant).",
+  "tags": [
+    "jira",
+    "assistant"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "tech-leads-club/agent-skills",
+    "path": "packages/skills-catalog/skills/(development)/jira-assistant/SKILL.md",
+    "commit": "738451e40785750a8e8de5bce8112675f5f0df02"
+  }
+}

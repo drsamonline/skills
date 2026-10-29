@@ -1,8 +1,8 @@
 {
   "id": "writing-plans",
   "name": "writing plans",
-  "category": "engineering-workflow",
-  "description": "Use when you have a spec or requirements for a multi-step task, before touching code",
+  "category": "security-audit",
+  "description": "Use when you have an approved spec or written requirements for a multi-step task that needs a durable plan document before touching code. Small, single-owner, or fast-path tasks do not need this skill.",
   "tags": [
     "writing",
     "plans"
@@ -14,8 +14,8 @@
   "license": "MIT",
   "origin": "third-party",
   "upstream": {
-    "repo": "obra/superpowers",
+    "repo": "GanyuanRan/Aegis",
     "path": "skills/writing-plans/SKILL.md",
-    "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b"
+    "commit": "0461c211e4d812f0b215fab240a68a25c1e22424"
   }
 }

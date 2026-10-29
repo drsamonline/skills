@@ -1,0 +1,21 @@
+{
+  "id": "fixing-accessibility",
+  "name": "fixing accessibility",
+  "category": "frontend-ui",
+  "description": "Audit and fix HTML accessibility issues including ARIA labels, keyboard navigation, focus management, color contrast, and form errors. Use when adding interactive controls, forms, dialogs, or reviewing WCAG compliance.",
+  "tags": [
+    "fixing",
+    "accessibility"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "ibelick/ui-skills",
+    "path": "skills/fixing-accessibility/SKILL.md",
+    "commit": "59193a75432e5f41c6980f53b9e6a7bd56919947"
+  }
+}

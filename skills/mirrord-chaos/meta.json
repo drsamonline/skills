@@ -1,0 +1,22 @@
+{
+  "id": "mirrord-chaos",
+  "name": "mirrord chaos",
+  "category": "cloud-and-deploy",
+  "description": "Help users inject artificial failures and disruptions into a mirrord session's outgoing traffic, to test how their app behaves under unexpected conditions. A chaos rule pairs a selector (which traffic to match) with an effect (what to do to it). Rules are created and managed with the mirrord chaos CLI command, and each rule is attached to a single mirrord session: it never affects other sessions o",
+  "tags": [
+    "mirrord",
+    "chaos"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "metalbear-co/skills",
+    "path": "skills/mirrord-chaos/SKILL.md",
+    "commit": "ff44181162fe6e76e503781a6d20bbdb4bbbcc5c"
+  },
+  "description_source": "derived-from-body"
+}

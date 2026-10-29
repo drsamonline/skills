@@ -1,0 +1,22 @@
+{
+  "id": "unreal-blueprints",
+  "name": "unreal blueprints",
+  "category": "game-dev",
+  "description": "Structure gameplay logic in Unreal Engine 5 Blueprints: pick the right graph, expose data cleanly, and choose a communication method that doesn't create hard-reference spaghetti. Targets UE 5.8. (Blueprints are node graphs; the snippets below describe node flows.)",
+  "tags": [
+    "unreal",
+    "blueprints"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/unreal/unreal-blueprints/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

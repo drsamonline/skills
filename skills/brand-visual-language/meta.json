@@ -1,0 +1,22 @@
+{
+  "id": "brand-visual-language",
+  "name": "brand visual language",
+  "category": "frontend-ui",
+  "description": "Shape language across type, radius and icons carries brand personality. Use when starting a design system, picking icons or radius tokens, or reviewing visual consistency.",
+  "tags": [
+    "brand",
+    "visual",
+    "language"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "dembrandt/dembrandt-skills",
+    "path": "skills/brand-visual-language/SKILL.md",
+    "commit": "c4ad177dea5b864f779f8c722f28cf04f760cb22"
+  }
+}

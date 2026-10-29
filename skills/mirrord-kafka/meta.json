@@ -1,0 +1,22 @@
+{
+  "id": "mirrord-kafka",
+  "name": "mirrord kafka",
+  "category": "cloud-and-deploy",
+  "description": "Which CRDs? Kafka splitting is now configured with MirrordSplitConfig (which queues to split + how the app finds their names) and MirrordPropertyList (the Kafka client connection). These replace the deprecated MirrordKafkaTopicsConsumer + MirrordKafkaClientConfig, which still work for backward compatibility. Generate the new resources for any new setup. Only produce the deprecated ones if the user",
+  "tags": [
+    "mirrord",
+    "kafka"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "metalbear-co/skills",
+    "path": "skills/mirrord-kafka/SKILL.md",
+    "commit": "ff44181162fe6e76e503781a6d20bbdb4bbbcc5c"
+  },
+  "description_source": "derived-from-body"
+}

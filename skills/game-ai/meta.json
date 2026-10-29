@@ -1,0 +1,21 @@
+{
+  "id": "game-ai",
+  "name": "game ai",
+  "category": "game-dev",
+  "description": "Build believable NPC behavior from three separable layers: decide (what to do), steer (how to move there), and path (how to route around the map). Keep them decoupled — a behavior tree picks a target, the pathfinder produces waypoints, steering follows them. This skill teaches the engine-neutral algorithms; bind them to your engine via the related skills below.",
+  "tags": [
+    "game"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/disciplines/game-ai/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "coding-guidelines",
+  "name": "coding guidelines",
+  "category": "engineering-workflow",
+  "description": "Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, modifying, or reviewing code — implementation tasks, code changes, refactoring, bug fixes, or feature development. Do NOT use for architecture design, documentation, or non-code tasks.",
+  "tags": [
+    "coding",
+    "guidelines"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "tech-leads-club/agent-skills",
+    "path": "packages/skills-catalog/skills/(development)/coding-guidelines/SKILL.md",
+    "commit": "738451e40785750a8e8de5bce8112675f5f0df02"
+  }
+}

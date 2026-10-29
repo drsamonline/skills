@@ -1,0 +1,22 @@
+{
+  "id": "input-systems",
+  "name": "input systems",
+  "category": "game-dev",
+  "description": "Never wire gameplay to raw keys. Map physical inputs (a key, a button, a touch) to named actions (jump, interact, move), and let gameplay read actions. That one indirection gives you rebinding, multi-device support, and accessibility almost for free. This skill is the engine-neutral architecture; bind it to unity-input-system, unreal-enhanced-input, or Godot's InputMap.",
+  "tags": [
+    "input",
+    "systems"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/disciplines/input-systems/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

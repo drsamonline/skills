@@ -1,0 +1,22 @@
+{
+  "id": "establishing-project-context",
+  "name": "establishing project context",
+  "category": "security-audit",
+  "description": "Use when the user asks to establish shared project language, or project work exposes a conflicting, renamed, or deprecated domain term that needs active semantic modeling. Routine small tasks stay on the fast path.",
+  "tags": [
+    "establishing",
+    "project",
+    "context"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "GanyuanRan/Aegis",
+    "path": "skills/establishing-project-context/SKILL.md",
+    "commit": "0461c211e4d812f0b215fab240a68a25c1e22424"
+  }
+}

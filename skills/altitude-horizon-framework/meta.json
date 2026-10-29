@@ -1,0 +1,22 @@
+{
+  "id": "altitude-horizon-framework",
+  "name": "altitude horizon framework",
+  "category": "product-management",
+  "description": "Understand the PM-to-Director transition through altitude and horizon thinking. Use when diagnosing scope, time-horizon, or leadership-level gaps.",
+  "tags": [
+    "altitude",
+    "horizon",
+    "framework"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "see LICENSE",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "deanpeters/Product-Manager-Skills",
+    "path": "skills/altitude-horizon-framework/SKILL.md",
+    "commit": "cfcb697f14b8891d8b3ec43c16c3547df3e70e13"
+  }
+}

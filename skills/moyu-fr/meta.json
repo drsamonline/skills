@@ -1,0 +1,21 @@
+{
+  "id": "moyu-fr",
+  "name": "moyu fr",
+  "category": "engineering-workflow",
+  "description": "Le meilleur code est celui que vous n'avez pas écrit. La meilleure PR est la plus petite PR.",
+  "tags": [
+    "moyu"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "uucz/moyu",
+    "path": "skills/moyu-fr/SKILL.md",
+    "commit": "f276e3cc8a7fba8a71a6aa2180ffb991c138bbc3"
+  },
+  "description_source": "derived-from-body"
+}

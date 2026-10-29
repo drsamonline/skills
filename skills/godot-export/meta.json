@@ -1,0 +1,22 @@
+{
+  "id": "godot-export",
+  "name": "godot export",
+  "category": "game-dev",
+  "description": "Turn a project into runnable platform builds via export presets and the command line, and handle the web/dedicated-server gotchas. Targets Godot 4.7.",
+  "tags": [
+    "godot",
+    "export"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/godot/godot-export/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

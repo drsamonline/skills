@@ -1,0 +1,22 @@
+{
+  "id": "reddit-warmup",
+  "name": "reddit warmup",
+  "category": "browser-automation",
+  "description": "﻿--- name: reddit-warmup description: \"Runtime-neutral Reddit account warm-up and brand promotion skill for AI agents. Systematically grow newly registered or existing Reddit accounts into credible identities, then organically plant brand content in target subreddits to eventually promote products or tools. Use for: register or take over a Reddit account and start the full warm-up cycle, build a c",
+  "tags": [
+    "reddit",
+    "warmup"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "browser-act/skills",
+    "path": "solutions/social-listening/reddit-warmup/SKILL.md",
+    "commit": "11c057b03f92101642cadc9f840564574120d184"
+  },
+  "description_source": "derived-from-body"
+}

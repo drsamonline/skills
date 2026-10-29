@@ -1,0 +1,23 @@
+{
+  "id": "api-graphql-grpc",
+  "name": "api graphql grpc",
+  "category": "testing-qa",
+  "description": "Design schemas, resolvers, and service definitions for GraphQL and gRPC APIs.",
+  "tags": [
+    "api",
+    "graphql",
+    "grpc"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "LambdaTest/agent-skills",
+    "path": "api-skill/graphql-grpc-helper/SKILL.md",
+    "commit": "992638bccbc311f42c0bd8b2b3387a0d1ce6288d"
+  },
+  "description_source": "derived-from-body"
+}

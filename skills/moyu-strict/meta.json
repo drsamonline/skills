@@ -1,0 +1,22 @@
+{
+  "id": "moyu-strict",
+  "name": "moyu strict",
+  "category": "engineering-workflow",
+  "description": "最好的代码是你没写的代码。最好的 PR 是最小的 PR。 The best code is code you didn't write. The best PR is the smallest PR.",
+  "tags": [
+    "moyu",
+    "strict"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "uucz/moyu",
+    "path": "skills/moyu-strict/SKILL.md",
+    "commit": "f276e3cc8a7fba8a71a6aa2180ffb991c138bbc3"
+  },
+  "description_source": "derived-from-body"
+}

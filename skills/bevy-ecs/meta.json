@@ -1,0 +1,22 @@
+{
+  "id": "bevy-ecs",
+  "name": "bevy ecs",
+  "category": "game-dev",
+  "description": "Structure a Bevy game in Rust around the Entity Component System: the App and plugins, components and resources, systems with queries, scheduling, and frame-rate-independent updates. New examples target Bevy 0.20. If the project already pins another release, keep that release and use its matching migration guide.",
+  "tags": [
+    "bevy",
+    "ecs"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/other-engines/bevy-ecs/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

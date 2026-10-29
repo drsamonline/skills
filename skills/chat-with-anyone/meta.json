@@ -1,0 +1,22 @@
+{
+  "id": "chat-with-anyone",
+  "name": "chat with anyone",
+  "category": "media-design",
+  "description": "Chat with any real person or fictional character in their own voice by automatically finding their speech online, extracting a clean reference sample, and generating audio replies. Also supports generating a matching voice from an uploaded image. Use when the user says \"我想跟xxx聊天\", \"你来扮演xxx跟我说话\", \"让xxx给我讲讲这篇文章\", \"我想跟图片中的人说话\", or similar.",
+  "tags": [
+    "chat",
+    "with",
+    "anyone"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "NOASSERTION",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "NoizAI/skills",
+    "path": "skills/chat-with-anyone/SKILL.md",
+    "commit": "779f30af588ebf4dd17fc0acaa590ae147a0d3f5"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "capybara-skill",
+  "name": "capybara skill",
+  "category": "testing-qa",
+  "description": "RSpec.describe 'Login', type: :feature do it 'logs in with valid credentials' do visit '/login' fillin 'Email', with: 'user@test.com' fillin 'Password', with: 'password123' clickbutton 'Login' expect(page).to havecontent('Dashboard') expect(page).to havecurrentpath('/dashboard') end",
+  "tags": [
+    "capybara",
+    "skill"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "LambdaTest/agent-skills",
+    "path": "capybara-skill/SKILL.md",
+    "commit": "992638bccbc311f42c0bd8b2b3387a0d1ce6288d"
+  },
+  "description_source": "derived-from-body"
+}

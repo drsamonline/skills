@@ -1,0 +1,21 @@
+{
+  "id": "deck-pitch",
+  "name": "deck pitch",
+  "category": "frontend-ui",
+  "description": "10 页融资 deck, 白底 + 蓝紫渐变 hero, traction 柱状, $X.XM ask",
+  "tags": [
+    "deck",
+    "pitch"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nexu-io/html-anything",
+    "path": "next/src/lib/templates/skills/deck-pitch/SKILL.md",
+    "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
+  }
+}

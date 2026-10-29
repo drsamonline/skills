@@ -1,0 +1,21 @@
+{
+  "id": "blog-post",
+  "name": "blog post",
+  "category": "frontend-ui",
+  "description": "杂志感长文, 含 masthead、hero、figures、pull quote、作者署名",
+  "tags": [
+    "blog",
+    "post"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nexu-io/html-anything",
+    "path": "next/src/lib/templates/skills/blog-post/SKILL.md",
+    "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "mirrord-temporal",
+  "name": "mirrord temporal",
+  "category": "cloud-and-deploy",
+  "description": "Temporal splitting is configured with MirrordSplitConfig (which task queues to split + how the worker finds their names) and MirrordPropertyList (the Temporal frontend connection). Temporal has no native way to split a task queue, so the operator does it with a small gRPC proxy and virtual task queues — see \"How it works\" below. This is an alpha feature. Requires operator 3.170.0+, CLI 3.221.0+, a",
+  "tags": [
+    "mirrord",
+    "temporal"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "metalbear-co/skills",
+    "path": "skills/mirrord-temporal/SKILL.md",
+    "commit": "ff44181162fe6e76e503781a6d20bbdb4bbbcc5c"
+  },
+  "description_source": "derived-from-body"
+}

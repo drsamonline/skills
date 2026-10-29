@@ -1,0 +1,20 @@
+{
+  "id": "improve-ui",
+  "name": "improve ui",
+  "category": "frontend-ui",
+  "description": "Audit an existing product surface against its own design evidence, identify verified UI problems, and write self-contained implementation plans for another agent. Strictly read-only on product source. Use when asked to review, refine, improve, or clean up an interface without replacing its identity; investigate design-system drift; or prepare a design handoff.",
+  "tags": [
+    "improve"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "ibelick/ui-skills",
+    "path": "skills/improve-ui/SKILL.md",
+    "commit": "59193a75432e5f41c6980f53b9e6a7bd56919947"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "tidy",
+  "name": "tidy",
+  "category": "engineering-workflow",
+  "description": "Reviews a local diff, branch diff, or PR with file:line findings in confirmed and plausible tiers, gates any test the diff adds or changes, and in apply mode lands the fixes and diff-scoped simplifications. Use when asked to \"review my changes\", \"code review\", \"tidy this\", \"simplify my diff\", \"deslop this\", \"structural review\", \"security audit\", or \"audit these tests in my PR\". For the PR itself use pr-creator; for CI and review threads use pr-babysitter; for UI defects use ui-design; for repo architecture use codebase-architecture; for pruning the whole suite to a target use test-audit.",
+  "tags": [
+    "tidy"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "mblode/agent-skills",
+    "path": "skills/tidy/SKILL.md",
+    "commit": "ff92bf5ae675e8108e7d2f14b22a523fd1303e76"
+  }
+}

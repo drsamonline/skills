@@ -1,0 +1,22 @@
+{
+  "id": "xiaohongshu-note-detail",
+  "name": "xiaohongshu note detail",
+  "category": "browser-automation",
+  "description": "Fetch Xiaohongshu (RedNote / xhs) note detail and comments by note ID, returning title, description, author info, engagement stats, tags, and paginated comment list. Use when user mentions note detail xiaohongshu, get rednote post, xhs note content, xiaohongshu comment scrape, fetch post comments, scrape xhs comments, rednote note details, xiaohongshu post engagement, xiaohongshu note content, rednote post data, xhs post detail, get xiaohongshu comments, rednote comment list, xiaohongshu note metadata, xhs note scrape, fetch rednote note.",
+  "tags": [
+    "xiaohongshu",
+    "note",
+    "detail"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "browser-act/skills",
+    "path": "solutions/social-listening/xiaohongshu-note-detail/SKILL.md",
+    "commit": "11c057b03f92101642cadc9f840564574120d184"
+  }
+}

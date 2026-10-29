@@ -1,0 +1,22 @@
+{
+  "id": "instagram-profile-meta",
+  "name": "instagram profile meta",
+  "category": "browser-automation",
+  "description": "Fetches Instagram user profile metadata including bio, follower count, following count, post count, verification status and other profile details. Use when user mentions Instagram profile info, user stats, account details, follower count, bio scraping, Instagram user data, IG profile, check Instagram account, Instagram user info, how many followers does someone have on Instagram, get Instagram profile, Instagram account metadata.",
+  "tags": [
+    "instagram",
+    "profile",
+    "meta"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "browser-act/skills",
+    "path": "solutions/social-listening/instagram-profile-meta/SKILL.md",
+    "commit": "11c057b03f92101642cadc9f840564574120d184"
+  }
+}

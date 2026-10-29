@@ -1,0 +1,22 @@
+{
+  "id": "amazon-product-detail",
+  "name": "amazon product detail",
+  "category": "browser-automation",
+  "description": "Amazon product detail page scraper: extract full product data from any open Amazon product detail URL (any /dp/{asin} or /gp/product/{asin} page across all Amazon regional TLDs) — returns asin, url, title, brand, price, listPrice, stars, reviewsCount, starsBreakdown (5/4/3/2/1 star percentages), answeredQuestions, inStock, inStockText, delivery, fastestDelivery, returnPolicy, breadCrumbs, features (bullet points), description, bookDescription, thumbnailImage, highResolutionImages, galleryThumbnails, productOverview (Brand/Model/etc.), attributes (tech spec table), attributesMapped (flat key-value), bestsellerRanks (rank + category + url), variantAttributes (currently selected color/size/style), variantAsins, seller (name + id + url), isAmazonChoice, amazonChoiceText, monthlyPurchaseVolume, hasAPlusContent, hasBrandStory, aiReviewsSummary, reviewsLink, productPageReviews (sample), videosCount, locationText, loadedCountryCode. Works on amazon.com, amazon.co.uk, amazon.de, amazon.co.jp, amazon.fr, amazon.it, ama",
+  "tags": [
+    "amazon",
+    "product",
+    "detail"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "browser-act/skills",
+    "path": "solutions/ecommerce/amazon-product-detail/SKILL.md",
+    "commit": "11c057b03f92101642cadc9f840564574120d184"
+  }
+}

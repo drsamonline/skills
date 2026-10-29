@@ -1,0 +1,20 @@
+{
+  "id": "sentry",
+  "name": "sentry",
+  "category": "engineering-workflow",
+  "description": "Inspect Sentry issues, summarize production errors, and pull health data via the Sentry API (read-only). Use when user says \"check Sentry\", \"what errors in production?\", \"summarize Sentry issues\", \"recent crashes\", or \"production error report\". Requires SENTRY_AUTH_TOKEN. Do NOT use for setting up Sentry SDK, configuring alerts, or non-Sentry error monitoring.",
+  "tags": [
+    "sentry"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "tech-leads-club/agent-skills",
+    "path": "packages/skills-catalog/skills/(monitoring)/sentry/SKILL.md",
+    "commit": "738451e40785750a8e8de5bce8112675f5f0df02"
+  }
+}

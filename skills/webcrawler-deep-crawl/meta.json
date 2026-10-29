@@ -1,0 +1,22 @@
+{
+  "id": "webcrawler-deep-crawl",
+  "name": "webcrawler deep crawl",
+  "category": "browser-automation",
+  "description": "Deep-crawl any website from start URLs, return per-page LLM-ready text/markdown/HTML plus metadata (title, description, author, language, canonical URL, OG) and in-scope outbound links. Use when user mentions deep crawl website, recursive crawl, crawl a whole site, scrape entire website, scrape docs site, scrape documentation, scrape knowledge base, scrape blog, build RAG corpus, build vector database from website, knowledge base for chatbot, GPT knowledge files, llms.txt, sitemap crawl, BFS crawl, scrape with depth or page limit, include exclude URL globs, remove boilerplate, strip navigation header footer, website to markdown, website to text, multi-page extraction, bulk page scraping, clean markdown from URL, docs site to markdown corpus, site to clean corpus. Also applies to building RAG pipelines, indexing a customer site, syncing docs into a vector store, generating training corpora from any docs hub, or expanding a single start URL into a clean corpus of every reachable in-scope page.",
+  "tags": [
+    "webcrawler",
+    "deep",
+    "crawl"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "browser-act/skills",
+    "path": "solutions/search-research/webcrawler-deep-crawl/SKILL.md",
+    "commit": "11c057b03f92101642cadc9f840564574120d184"
+  }
+}

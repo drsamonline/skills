@@ -1,0 +1,22 @@
+{
+  "id": "unreal-niagara",
+  "name": "unreal niagara",
+  "category": "game-dev",
+  "description": "Build and control real-time visual effects in UE5 with Niagara: understand the System/Emitter/Module hierarchy, expose parameters you can drive from gameplay, and spawn effects at runtime. Targets UE 5.8. (Niagara replaces the legacy Cascade system.)",
+  "tags": [
+    "unreal",
+    "niagara"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/unreal/unreal-niagara/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

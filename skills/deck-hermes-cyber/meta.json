@@ -1,0 +1,22 @@
+{
+  "id": "deck-hermes-cyber",
+  "name": "deck hermes cyber",
+  "category": "frontend-ui",
+  "description": "黑底 + CRT 网格扫描线 + $ 命令行标题 + 薄荷绿大字 + 三档 tag",
+  "tags": [
+    "deck",
+    "hermes",
+    "cyber"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nexu-io/html-anything",
+    "path": "next/src/lib/templates/skills/deck-hermes-cyber/SKILL.md",
+    "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
+  }
+}

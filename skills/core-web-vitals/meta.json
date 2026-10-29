@@ -1,0 +1,22 @@
+{
+  "id": "core-web-vitals",
+  "name": "core web vitals",
+  "category": "engineering-workflow",
+  "description": "Optimize Core Web Vitals (LCP, INP, CLS) for better page experience and search ranking. Use when asked to \"improve Core Web Vitals\", \"fix LCP\", \"reduce CLS\", \"optimize INP\", \"page experience optimization\", or \"fix layout shifts\". Focuses specifically on the three Core Web Vitals metrics. Do NOT use for general web performance (use perf-web-optimization), Lighthouse audits (use perf-lighthouse), or Astro-specific optimization (use perf-astro).",
+  "tags": [
+    "core",
+    "web",
+    "vitals"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "tech-leads-club/agent-skills",
+    "path": "packages/skills-catalog/skills/(performance)/core-web-vitals/SKILL.md",
+    "commit": "738451e40785750a8e8de5bce8112675f5f0df02"
+  }
+}

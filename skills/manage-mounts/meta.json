@@ -1,0 +1,21 @@
+{
+  "id": "manage-mounts",
+  "name": "manage mounts",
+  "category": "engineering-workflow",
+  "description": "Configure which host directories agent containers can access. View, add, or remove mount allowlist entries. Triggers on \"mounts\", \"mount allowlist\", \"agent access to directories\", \"container mounts\".",
+  "tags": [
+    "manage",
+    "mounts"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nanocoai/nanoclaw",
+    "path": ".claude/skills/manage-mounts/SKILL.md",
+    "commit": "acc2b1c8f52a954368cfaf04b61c32f9a1efc280"
+  }
+}

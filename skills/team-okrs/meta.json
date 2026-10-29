@@ -1,0 +1,21 @@
+{
+  "id": "team-okrs",
+  "name": "team okrs",
+  "category": "frontend-ui",
+  "description": "季度 banner + 3 个目标 + KR 进度条 + owner + 状态 pill",
+  "tags": [
+    "team",
+    "okrs"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nexu-io/html-anything",
+    "path": "next/src/lib/templates/skills/team-okrs/SKILL.md",
+    "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "marketing-vs-product-system",
+  "name": "marketing vs product system",
+  "category": "frontend-ui",
+  "description": "A marketing site and its product may differ in density and scale but share one token layer. Use when the two drift apart, share components or need a single token owner.",
+  "tags": [
+    "marketing",
+    "product",
+    "system"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "dembrandt/dembrandt-skills",
+    "path": "skills/marketing-vs-product-system/SKILL.md",
+    "commit": "c4ad177dea5b864f779f8c722f28cf04f760cb22"
+  }
+}

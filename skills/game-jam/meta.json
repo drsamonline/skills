@@ -1,0 +1,22 @@
+{
+  "id": "game-jam",
+  "name": "game jam",
+  "category": "game-dev",
+  "description": "Turn a theme and a fixed deadline into a finished, submitted game. This is a planning and scope-control playbook, not engine code: the win condition is something submitted and playable, not the game you imagined.",
+  "tags": [
+    "game",
+    "jam"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/workflows/game-jam/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

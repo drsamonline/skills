@@ -1,0 +1,21 @@
+{
+  "id": "product-design",
+  "name": "product design",
+  "category": "engineering-workflow",
+  "description": "Specifies interaction choices, action scope, reversibility, recovery, and reachable states. Use when asked to \"design the flow\", \"should delete be undoable\", \"choose the control\", or \"review this product decision\".",
+  "tags": [
+    "product",
+    "design"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "mblode/agent-skills",
+    "path": "skills/product-design/SKILL.md",
+    "commit": "ff92bf5ae675e8108e7d2f14b22a523fd1303e76"
+  }
+}

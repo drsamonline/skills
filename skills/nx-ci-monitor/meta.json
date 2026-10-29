@@ -1,0 +1,20 @@
+{
+  "id": "nx-ci-monitor",
+  "name": "nx ci monitor",
+  "category": "engineering-workflow",
+  "description": "Monitor Nx Cloud CI pipeline status and handle self-healing fixes automatically. Use when user says \"watch CI\", \"monitor pipeline\", \"check CI status\", \"fix CI failures\", or \"self-heal CI\". Requires Nx Cloud connection. Do NOT use for local task execution (use nx-run-tasks) or general CI debugging outside Nx Cloud.",
+  "tags": [
+    "monitor"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "tech-leads-club/agent-skills",
+    "path": "packages/skills-catalog/skills/(tooling)/nx-ci-monitor/SKILL.md",
+    "commit": "738451e40785750a8e8de5bce8112675f5f0df02"
+  }
+}

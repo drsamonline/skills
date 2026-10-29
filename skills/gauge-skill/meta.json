@@ -1,0 +1,22 @@
+{
+  "id": "gauge-skill",
+  "name": "gauge skill",
+  "category": "testing-qa",
+  "description": "Login as <email with <password Verify <expected page is shown",
+  "tags": [
+    "gauge",
+    "skill"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "LambdaTest/agent-skills",
+    "path": "gauge-skill/SKILL.md",
+    "commit": "992638bccbc311f42c0bd8b2b3387a0d1ce6288d"
+  },
+  "description_source": "derived-from-body"
+}

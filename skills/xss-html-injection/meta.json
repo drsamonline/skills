@@ -1,0 +1,22 @@
+{
+  "id": "xss-html-injection",
+  "name": "xss html injection",
+  "category": "engineering-workflow",
+  "description": "This skill should be used when the user asks to \"test for XSS vulnerabilities\", \"perform cross-site scripting attacks\", \"identify HTML injection flaws\", \"exploit client-side injection vulnerabilities\", \"steal cookies via XSS\", or \"bypass content security policies\". It provides comprehensive techniques for detecting, exploiting, and understanding XSS and HTML injection attack vectors in web applications.",
+  "tags": [
+    "xss",
+    "html",
+    "injection"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "zebbern/claude-code-guide",
+    "path": "skills/xss-html-injection/SKILL.md",
+    "commit": "b50a31ad52510d148709b1eb61406952a02c3d19"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "remotion-captions",
+  "name": "remotion captions",
+  "category": "media-design",
+  "description": "Transcribing, displaying and animating captions",
+  "tags": [
+    "remotion",
+    "captions"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "NOASSERTION",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "remotion-dev/skills",
+    "path": "skills/remotion-captions/SKILL.md",
+    "commit": "30d4553ecd46fbc5212fd0ff006ae43af522158b"
+  }
+}

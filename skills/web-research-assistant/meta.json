@@ -1,0 +1,22 @@
+{
+  "id": "web-research-assistant",
+  "name": "web research assistant",
+  "category": "browser-automation",
+  "description": "AI-powered web research assistant that leverages BrowserAct API to supplement restricted web access by searching the internet for additional information. Designed for OpenClaw and Claude Code.",
+  "tags": [
+    "web",
+    "research",
+    "assistant"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "browser-act/skills",
+    "path": "solutions/search-research/web-research-assistant/SKILL.md",
+    "commit": "11c057b03f92101642cadc9f840564574120d184"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "surface-separation",
+  "name": "surface separation",
+  "category": "frontend-ui",
+  "description": "Set a surface apart by one means — border, elevation or fill — and keep opacity for state. Use when designing cards, panels, list rows, toolbars or any container.",
+  "tags": [
+    "surface",
+    "separation"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "dembrandt/dembrandt-skills",
+    "path": "skills/surface-separation/SKILL.md",
+    "commit": "c4ad177dea5b864f779f8c722f28cf04f760cb22"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "competitive-intel-watch",
+  "name": "competitive intel watch",
+  "category": "product-management",
+  "description": "Scheduled delta monitoring against a prior competitive snapshot. Use when tracking competitors on a cadence: material shifts only, cited evidence, battle-card update flags, runs unattended.",
+  "tags": [
+    "competitive",
+    "intel",
+    "watch"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "see LICENSE",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "deanpeters/Product-Manager-Skills",
+    "path": "skills/competitive-intel-watch/SKILL.md",
+    "commit": "cfcb697f14b8891d8b3ec43c16c3547df3e70e13"
+  }
+}

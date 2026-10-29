@@ -1,8 +1,8 @@
 {
   "id": "systematic-debugging",
   "name": "systematic debugging",
-  "category": "engineering-workflow",
-  "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
+  "category": "security-audit",
+  "description": "Use when encountering a bug, test failure, or unexpected behavior, before proposing fixes",
   "tags": [
     "systematic",
     "debugging"
@@ -14,8 +14,8 @@
   "license": "MIT",
   "origin": "third-party",
   "upstream": {
-    "repo": "obra/superpowers",
+    "repo": "GanyuanRan/Aegis",
     "path": "skills/systematic-debugging/SKILL.md",
-    "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b"
+    "commit": "0461c211e4d812f0b215fab240a68a25c1e22424"
   }
 }

@@ -1,0 +1,10 @@
+name: rails-conventions
+title: Rails Conventions
+description: Ruby 4.0+/Rails 8.1+ conventions, native API reuse, architecture, review, security, and testing.
+tags:
+  - rails
+  - ruby
+  - active-record
+  - hotwire
+  - testing
+  - security

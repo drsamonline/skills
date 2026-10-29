@@ -10,7 +10,7 @@ metadata:
 
 # Office documents pack
 
-15 skills, each kept as its own skill in `skills/<id>/` — this pack is the index that tells you which one to read. Drawn from 3 upstream repositories (MiniMax-AI/skills, anthropics/skills, sickn33/agentic-awesome-skills).
+15 skills, each kept as its own skill in `skills/<id>/` — this pack is the index that tells you which one to read. Drawn from 3 upstream repositories.
 
 ## When to use
 
@@ -47,4 +47,3 @@ Read the table, pick the one skill that matches the situation, then open `../<id
 
 - The licences differ inside this pack (MIT, proprietary (see LICENSE)). Each member carries its own `LICENSE` file; nothing here is relicensed.
 - These are upstream skills, imported as written. Where one assumes a tool or service you do not use, the method still applies — the commands do not.
-- Skills marked as mined from an aggregator have incomplete upstream attribution; check `meta.json` before republishing them elsewhere.

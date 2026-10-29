@@ -1,0 +1,23 @@
+{
+  "id": "youtube-channel-business-email",
+  "name": "youtube channel business email",
+  "category": "browser-automation",
+  "description": "YouTube channel business email and contact extractor: accepts a channel id (UCxxx), handle (@name), or URL; navigates the channel About view; extracts the business email from the description text plus full channel metadata (name, id, country, subscriber count, view count, video count, joined date, external links classified as social/aggregator/personal). When the description has no email, follows non-social outbound links (personal site, business site, link aggregator) and scans those pages for an email so creators who place their inquiry email on their own site are still covered. Use when user mentions youtube channel email, youtube business email, youtube creator email, youtube contact email, youtube channel contact, youtube channel scraper email, youtube email finder, youtube influencer email, youtube outreach, youtube sponsorship contact, youtube partnership email, scrape email from youtube, get email from youtube channel, find youtube creator contact, extract youtube channel emails in bulk, youtube chann",
+  "tags": [
+    "youtube",
+    "channel",
+    "business",
+    "email"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "browser-act/skills",
+    "path": "solutions/lead-generation/youtube-channel-business-email/SKILL.md",
+    "commit": "11c057b03f92101642cadc9f840564574120d184"
+  }
+}

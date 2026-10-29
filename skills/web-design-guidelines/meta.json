@@ -1,8 +1,8 @@
 {
   "id": "web-design-guidelines",
   "name": "web design guidelines",
-  "category": "frontend-ui",
-  "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\".",
+  "category": "engineering-workflow",
+  "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\". Focuses on visual design and interaction patterns. Do NOT use for performance audits (use core-web-vitals), SEO (use seo), or comprehensive site audits (use web-quality-audit).",
   "tags": [
     "web",
     "design",
@@ -12,11 +12,11 @@
   "version": "1.0.0",
   "updated": "2026-10-29",
   "source_snapshot": {},
-  "license": "NOASSERTION",
+  "license": "MIT",
   "origin": "third-party",
   "upstream": {
-    "repo": "vercel-labs/agent-skills",
-    "path": "skills/web-design-guidelines/SKILL.md",
-    "commit": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62"
+    "repo": "tech-leads-club/agent-skills",
+    "path": "packages/skills-catalog/skills/(design)/web-design-guidelines/SKILL.md",
+    "commit": "738451e40785750a8e8de5bce8112675f5f0df02"
   }
 }

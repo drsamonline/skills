@@ -1,0 +1,21 @@
+{
+  "id": "tactical-ddd",
+  "name": "tactical ddd",
+  "category": "engineering-workflow",
+  "description": "Detects anemic domain models, validates and refactors them into rich domain models, and enforces tactical DDD patterns (Entities, Value Objects, Aggregates, Domain Services, Domain Events). Use when the user asks to validate, review, or check domain models or DDD code; detect anemia; refactor domain objects; improve encapsulation; or mentions terms like \"anemic model\", \"rich domain\", \"aggregate\", \"value object\", \"domain event\", \"ubiquitous language\", \"is this good DDD\", \"does this follow DDD\", or \"check my domain\". Do NOT use for module or service boundary design, architectural decomposition, strategic DDD context mapping, or code outside the domain layer (DTOs, controllers, infrastructure adapters).",
+  "tags": [
+    "tactical",
+    "ddd"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "tech-leads-club/agent-skills",
+    "path": "packages/skills-catalog/skills/(architecture)/tactical-ddd/SKILL.md",
+    "commit": "738451e40785750a8e8de5bce8112675f5f0df02"
+  }
+}

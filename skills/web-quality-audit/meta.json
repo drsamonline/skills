@@ -1,0 +1,22 @@
+{
+  "id": "web-quality-audit",
+  "name": "web quality audit",
+  "category": "engineering-workflow",
+  "description": "Comprehensive web quality audit covering performance, accessibility, SEO, and best practices in a single review. Use when asked to \"audit my site\", \"review web quality\", \"run lighthouse audit\", \"check page quality\", or \"optimize my website\" across multiple areas at once. Orchestrates specialized skills for depth. Do NOT use for single-area audits — prefer core-web-vitals, web-accessibility, seo, or web-best-practices for focused work.",
+  "tags": [
+    "web",
+    "quality",
+    "audit"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "tech-leads-club/agent-skills",
+    "path": "packages/skills-catalog/skills/(quality)/web-quality-audit/SKILL.md",
+    "commit": "738451e40785750a8e8de5bce8112675f5f0df02"
+  }
+}

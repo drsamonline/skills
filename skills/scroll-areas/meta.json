@@ -1,0 +1,21 @@
+{
+  "id": "scroll-areas",
+  "name": "scroll areas",
+  "category": "frontend-ui",
+  "description": "Avoid inner scroll containers; when unavoidable, one axis at a time. Use when a layout, table or panel might scroll inside the page.",
+  "tags": [
+    "scroll",
+    "areas"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "dembrandt/dembrandt-skills",
+    "path": "skills/scroll-areas/SKILL.md",
+    "commit": "c4ad177dea5b864f779f8c722f28cf04f760cb22"
+  }
+}

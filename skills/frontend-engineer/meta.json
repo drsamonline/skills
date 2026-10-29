@@ -1,0 +1,21 @@
+{
+  "id": "frontend-engineer",
+  "name": "frontend engineer",
+  "category": "engineering-workflow",
+  "description": "Pro frontend engineering discipline. Enforces build-test-verify workflow for every web project. Never declare done until the site is built, tested, responsive, accessible, and visually verified in a real browser. Pairs with a deployment skill such as vercel-cli, where one is installed.",
+  "tags": [
+    "frontend",
+    "engineer"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nanocoai/nanoclaw",
+    "path": "container/skills/frontend-engineer/SKILL.md",
+    "commit": "acc2b1c8f52a954368cfaf04b61c32f9a1efc280"
+  }
+}

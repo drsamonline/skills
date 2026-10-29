@@ -1,0 +1,22 @@
+{
+  "id": "api-designer",
+  "name": "api designer",
+  "category": "testing-qa",
+  "description": "Ask the user if they want just the endpoints or complete detailed response (Enpoints Only/Detail Design). Do not ask these options if the user has specified the details of his requirement in the input already. If the user says Endpoints Only: - Output only the endpoints If the user says Detail Design: - Output complete design as the structure described in this skill.",
+  "tags": [
+    "api",
+    "designer"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "LambdaTest/agent-skills",
+    "path": "api-skill/api-designer/SKILL.md",
+    "commit": "992638bccbc311f42c0bd8b2b3387a0d1ce6288d"
+  },
+  "description_source": "derived-from-body"
+}

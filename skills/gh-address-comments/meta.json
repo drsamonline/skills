@@ -1,0 +1,21 @@
+{
+  "id": "gh-address-comments",
+  "name": "gh address comments",
+  "category": "engineering-workflow",
+  "description": "Address review and issue comments on the open GitHub PR for the current branch using gh CLI. Use when user says \"address PR comments\", \"fix review feedback\", \"respond to PR review\", or \"handle PR comments\". Verifies gh auth first and prompts to authenticate if not logged in. Do NOT use for creating PRs, CI debugging (use gh-fix-ci), or general Git operations.",
+  "tags": [
+    "address",
+    "comments"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "tech-leads-club/agent-skills",
+    "path": "packages/skills-catalog/skills/(development)/gh-address-comments/SKILL.md",
+    "commit": "738451e40785750a8e8de5bce8112675f5f0df02"
+  }
+}

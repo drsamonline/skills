@@ -1,0 +1,21 @@
+{
+  "id": "remotion-create",
+  "name": "remotion create",
+  "category": "media-design",
+  "description": "Create a new Remotion video",
+  "tags": [
+    "remotion",
+    "create"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "NOASSERTION",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "remotion-dev/skills",
+    "path": "skills/remotion-create/SKILL.md",
+    "commit": "30d4553ecd46fbc5212fd0ff006ae43af522158b"
+  }
+}

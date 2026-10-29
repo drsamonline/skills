@@ -1,0 +1,22 @@
+{
+  "id": "math-olympiad",
+  "name": "math olympiad",
+  "category": "engineering-workflow",
+  "description": "1. Strip thinking before verifying — a verifier that sees the reasoning is biased toward agreement. Fresh context, cleaned proof only. 2. \"Does this prove RH?\" — if your theorem's specialization to ζ is a famous open problem, you have a gap. Most reliable red flag. 3. Short proof → extract the general lemma — try 2×2 counterexamples. If general form is false, find what's special about THIS instanc",
+  "tags": [
+    "math",
+    "olympiad"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "anthropics/claude-plugins-official",
+    "path": "plugins/math-olympiad/skills/math-olympiad/SKILL.md",
+    "commit": "f8c5e7a1dcb71b10cb74586224b5401f3de5db28"
+  },
+  "description_source": "derived-from-body"
+}

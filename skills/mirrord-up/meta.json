@@ -1,0 +1,21 @@
+{
+  "id": "mirrord-up",
+  "name": "mirrord up",
+  "category": "cloud-and-deploy",
+  "description": "Help users create and run multiple concurrent mirrord sessions from one config file — think docker compose, but for mirrord — as documented in Multiple concurrent sessions (mirrord up)(https://metalbear.com/mirrord/docs/using-mirrord/multiple-concurrent-sessions).",
+  "tags": [
+    "mirrord"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "metalbear-co/skills",
+    "path": "skills/mirrord-up/SKILL.md",
+    "commit": "ff44181162fe6e76e503781a6d20bbdb4bbbcc5c"
+  },
+  "description_source": "derived-from-body"
+}

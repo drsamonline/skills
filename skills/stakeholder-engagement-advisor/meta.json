@@ -1,0 +1,22 @@
+{
+  "id": "stakeholder-engagement-advisor",
+  "name": "stakeholder engagement advisor",
+  "category": "product-management",
+  "description": "Plan engagement for a specific stakeholder. Use when preparing an outreach, navigating resistance, or aligning a critical relationship before a key milestone.",
+  "tags": [
+    "stakeholder",
+    "engagement",
+    "advisor"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "see LICENSE",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "deanpeters/Product-Manager-Skills",
+    "path": "skills/stakeholder-engagement-advisor/SKILL.md",
+    "commit": "cfcb697f14b8891d8b3ec43c16c3547df3e70e13"
+  }
+}

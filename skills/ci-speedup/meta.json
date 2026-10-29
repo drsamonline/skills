@@ -1,0 +1,20 @@
+{
+  "id": "ci-speedup",
+  "name": "ci speedup",
+  "category": "engineering-workflow",
+  "description": "Speeds up CI and the merge path: finds where changes wait between push and deploy, then fixes the critical path, check placement, merge queue or post-merge checks with auto-revert, flaky tests, and deploy rate. Use when \"CI is slow\", \"speed up CI\", \"do we need a merge queue\", \"main keeps going red\", \"flaky tests block merges\", agents open PRs faster than they merge, or building a self-healing merge loop.",
+  "tags": [
+    "speedup"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "mblode/agent-skills",
+    "path": "skills/ci-speedup/SKILL.md",
+    "commit": "ff92bf5ae675e8108e7d2f14b22a523fd1303e76"
+  }
+}

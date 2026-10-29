@@ -1,0 +1,21 @@
+{
+  "id": "using-aegis",
+  "name": "using aegis",
+  "category": "security-audit",
+  "description": "Use when starting a turn or checking Aegis skill routing.",
+  "tags": [
+    "using",
+    "aegis"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "GanyuanRan/Aegis",
+    "path": "skills/using-aegis/SKILL.md",
+    "commit": "0461c211e4d812f0b215fab240a68a25c1e22424"
+  }
+}

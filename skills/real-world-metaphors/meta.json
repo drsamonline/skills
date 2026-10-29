@@ -1,0 +1,22 @@
+{
+  "id": "real-world-metaphors",
+  "name": "real world metaphors",
+  "category": "frontend-ui",
+  "description": "Cards, drawers, carousels and other patterns borrowed from the physical world. Use when designing layout patterns, gestures or navigation paradigms.",
+  "tags": [
+    "real",
+    "world",
+    "metaphors"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "dembrandt/dembrandt-skills",
+    "path": "skills/real-world-metaphors/SKILL.md",
+    "commit": "c4ad177dea5b864f779f8c722f28cf04f760cb22"
+  }
+}

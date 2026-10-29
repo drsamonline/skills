@@ -1,0 +1,22 @@
+{
+  "id": "gws-sheets-read",
+  "name": "gws sheets read",
+  "category": "google-workspace",
+  "description": "Google Sheets: Read values from a spreadsheet.",
+  "tags": [
+    "gws",
+    "sheets",
+    "read"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "googleworkspace/cli",
+    "path": "skills/gws-sheets-read/SKILL.md",
+    "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
+  }
+}

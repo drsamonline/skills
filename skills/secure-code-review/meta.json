@@ -1,0 +1,22 @@
+{
+  "id": "secure-code-review",
+  "name": "secure code review",
+  "category": "engineering-workflow",
+  "description": "Systematically reviews code for SQL injection, XSS, SSRF, broken access control, cryptographic failures, and other common OWASP Top 10 vulnerabilities, providing vulnerable code examples and ready-to-use remediation guidance. Trigger this skill when users ask for a security review, vulnerability scan, or penetration testing assistance, or mention keywords like OWASP, SQL injection, XSS, code audit, or security checklist.",
+  "tags": [
+    "secure",
+    "code",
+    "review"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "zebbern/claude-code-guide",
+    "path": "skills/secure-code-review/SKILL.md",
+    "commit": "b50a31ad52510d148709b1eb61406952a02c3d19"
+  }
+}

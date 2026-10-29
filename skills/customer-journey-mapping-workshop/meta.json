@@ -1,0 +1,23 @@
+{
+  "id": "customer-journey-mapping-workshop",
+  "name": "customer journey mapping workshop",
+  "category": "product-management",
+  "description": "Run a customer journey mapping workshop with adaptive questions and outputs. Use when you need to map stages, actions, emotions, pain points, and opportunities for a persona and scenario.",
+  "tags": [
+    "customer",
+    "journey",
+    "mapping",
+    "workshop"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "see LICENSE",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "deanpeters/Product-Manager-Skills",
+    "path": "skills/customer-journey-mapping-workshop/SKILL.md",
+    "commit": "cfcb697f14b8891d8b3ec43c16c3547df3e70e13"
+  }
+}

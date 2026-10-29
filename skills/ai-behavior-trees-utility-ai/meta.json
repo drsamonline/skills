@@ -1,0 +1,23 @@
+{
+  "id": "ai-behavior-trees-utility-ai",
+  "name": "ai behavior trees utility ai",
+  "category": "game-dev",
+  "description": "Two complementary ways to structure NPC decision-making, plus how to combine them. A behavior tree (BT) expresses structured, prioritized, reactive logic as a tree that is \"ticked\" each step. Utility AI answers \"how much do I want each option right now?\" by scoring actions with normalized curves and picking the best. Ship believable agents by using a BT for structure and Utility AI where graded tr",
+  "tags": [
+    "behavior",
+    "trees",
+    "utility"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/disciplines/ai-behavior-trees-utility-ai/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

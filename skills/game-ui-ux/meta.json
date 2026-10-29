@@ -1,0 +1,21 @@
+{
+  "id": "game-ui-ux",
+  "name": "game ui ux",
+  "category": "game-dev",
+  "description": "Build HUDs and menus that stay correct on a phone, an ultrawide monitor, and a TV across a gamepad and a mouse. This skill owns the engine-neutral UI architecture — responsive layout, scaling, focus navigation, screen flow, and how UI talks to game state — and defers the concrete widget API to the engine UI skill.",
+  "tags": [
+    "game"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "skills/disciplines/game-ui-ux/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

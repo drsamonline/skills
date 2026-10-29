@@ -1,0 +1,21 @@
+{
+  "id": "xiaohongshu-search",
+  "name": "xiaohongshu search",
+  "category": "browser-automation",
+  "description": "Search Xiaohongshu (RedNote / xhs) notes by keyword and return a paginated list with title, author, engagement stats (likes, collects, comments), cover image URL, and xsecToken for detail lookup. Use when user mentions find notes on xiaohongshu, search rednote, search xhs, scrape xiaohongshu search, xiaohongshu keyword search, rednote post search, xhs search results, monitor xiaohongshu topics, KOL content discovery via xiaohongshu, xiaohongshu note list, rednote scrape, xhs data collection, collect xiaohongshu posts, xiaohongshu topic search, xiaohongshu content monitoring, rednote post list, xhs keyword scrape.",
+  "tags": [
+    "xiaohongshu",
+    "search"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "browser-act/skills",
+    "path": "solutions/social-listening/xiaohongshu-search/SKILL.md",
+    "commit": "11c057b03f92101642cadc9f840564574120d184"
+  }
+}

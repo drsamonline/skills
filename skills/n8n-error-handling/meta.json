@@ -1,0 +1,22 @@
+{
+  "id": "n8n-error-handling",
+  "name": "n8n error handling",
+  "category": "engineering-workflow",
+  "description": "Wire n8n error handling so failures are loud, structured, and recoverable. Use when building any webhook/API workflow, a scheduled or unattended workflow, or any path where a silent failure would drop user-visible work — and whenever the user mentions error handling, onError, continueErrorOutput, error branches/outputs, retries, retryOnFail, Respond to Webhook status codes, 4xx/5xx, Error Trigger, or \"my workflow fails silently\". Covers per-node error outputs and wiring, retry/self-healing, error-trigger workflows, and 4xx/5xx response shapes.",
+  "tags": [
+    "n8n",
+    "error",
+    "handling"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "czlonkowski/n8n-skills",
+    "path": "skills/n8n-error-handling/SKILL.md",
+    "commit": "e037563e101749e630e6688d121d04529fe6ee7b"
+  }
+}

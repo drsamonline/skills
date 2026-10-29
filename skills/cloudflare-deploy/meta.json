@@ -1,0 +1,21 @@
+{
+  "id": "cloudflare-deploy",
+  "name": "cloudflare deploy",
+  "category": "engineering-workflow",
+  "description": "Deploy applications and infrastructure to Cloudflare using Workers, Pages, and related platform services. Use when the user asks to deploy, host, publish, or set up a project on Cloudflare. Do NOT use for deploying to Vercel, Netlify, or Render (use their respective skills).",
+  "tags": [
+    "cloudflare",
+    "deploy"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "tech-leads-club/agent-skills",
+    "path": "packages/skills-catalog/skills/(cloud)/cloudflare-deploy/SKILL.md",
+    "commit": "738451e40785750a8e8de5bce8112675f5f0df02"
+  }
+}

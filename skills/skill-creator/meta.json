@@ -17,5 +17,11 @@
     "repo": "anthropics/skills",
     "path": "skills/skill-creator/SKILL.md",
     "commit": "ca45fc496a3436251f191354091d557da31c15b5"
-  }
+  },
+  "variants": [
+    {
+      "repo": "anthropics__claude-plugins-official",
+      "path": "plugins/skill-creator/skills/skill-creator/SKILL.md"
+    }
+  ]
 }

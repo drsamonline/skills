@@ -1,0 +1,22 @@
+{
+  "id": "deck-obsidian-claude",
+  "name": "deck obsidian claude",
+  "category": "frontend-ui",
+  "description": "GitHub-dark + 紫蓝环境光 + 三色渐变标题 + GitHub 风代码",
+  "tags": [
+    "deck",
+    "obsidian",
+    "claude"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nexu-io/html-anything",
+    "path": "next/src/lib/templates/skills/deck-obsidian-claude/SKILL.md",
+    "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
+  }
+}

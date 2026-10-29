@@ -1,0 +1,21 @@
+{
+  "id": "megacave",
+  "name": "megacave",
+  "category": "engineering-workflow",
+  "description": "Megacave is caveman in Classical Chinese. 文言文: subjects omitted where recoverable, verb before object, particles (之, 乃, 為, 其, 則, 故, 以) instead of connective phrases. Fewer characters on screen. Token savings are small and noisy; never claim them.",
+  "tags": [
+    "megacave"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "JuliusBrussee/caveman",
+    "path": "plugins/caveman/skills/megacave/SKILL.md",
+    "commit": "9b68f7ed12b05e7efaff18e65c5a3fc2849fd0a4"
+  },
+  "description_source": "derived-from-body"
+}

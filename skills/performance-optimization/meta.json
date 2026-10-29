@@ -17,5 +17,11 @@
     "repo": "addyosmani/agent-skills",
     "path": "skills/performance-optimization/SKILL.md",
     "commit": "eb07f19f52c2669f2364897aaa293e2aaddd7b1c"
-  }
+  },
+  "variants": [
+    {
+      "repo": "gamedev-skills__awesome-gamedev-agent-skills",
+      "path": "skills/disciplines/performance-optimization/SKILL.md"
+    }
+  ]
 }

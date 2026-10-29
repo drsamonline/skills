@@ -1,0 +1,21 @@
+{
+  "id": "router",
+  "name": "router",
+  "category": "game-dev",
+  "description": "The entry point for game-development work. It fingerprints the project to pick one engine, classifies the task from the request, names the minimal set of specialized skills, and tells you to read them before acting. It dispatches and composes — it does not re-teach engine APIs.",
+  "tags": [
+    "router"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "path": "router/SKILL.md",
+    "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
+  },
+  "description_source": "derived-from-body"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "selenide-skill",
+  "name": "selenide skill",
+  "category": "testing-qa",
+  "description": "java import com.codeborne.selenide.; import static com.codeborne.selenide.Selenide.; import static com.codeborne.selenide.Condition.; import org.junit.jupiter.api.Test;",
+  "tags": [
+    "selenide",
+    "skill"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "LambdaTest/agent-skills",
+    "path": "selenide-skill/SKILL.md",
+    "commit": "992638bccbc311f42c0bd8b2b3387a0d1ce6288d"
+  },
+  "description_source": "derived-from-body"
+}

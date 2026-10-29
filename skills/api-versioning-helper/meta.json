@@ -1,0 +1,23 @@
+{
+  "id": "api-versioning-helper",
+  "name": "api versioning helper",
+  "category": "testing-qa",
+  "description": "Design sustainable versioning strategies and manage API evolution without breaking clients.",
+  "tags": [
+    "api",
+    "versioning",
+    "helper"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "LambdaTest/agent-skills",
+    "path": "api-skill/api-versioning-helper/SKILL.md",
+    "commit": "992638bccbc311f42c0bd8b2b3387a0d1ce6288d"
+  },
+  "description_source": "derived-from-body"
+}

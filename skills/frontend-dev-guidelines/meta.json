@@ -1,0 +1,22 @@
+{
+  "id": "frontend-dev-guidelines",
+  "name": "frontend dev guidelines",
+  "category": "engineering-workflow",
+  "description": "Frontend development guidelines for React/TypeScript applications. Modern patterns including Suspense, lazy loading, useSuspenseQuery, file organization with features directory, MUI v7 styling, TanStack Router, performance optimization, and TypeScript best practices. Use when creating components, pages, features, fetching data, styling, routing, or working with frontend code.",
+  "tags": [
+    "frontend",
+    "dev",
+    "guidelines"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "diet103/claude-code-infrastructure-showcase",
+    "path": ".agents/skills/frontend-dev-guidelines/SKILL.md",
+    "commit": "07f75ce3c301259e857343596e7883b8ce5a9f50"
+  }
+}

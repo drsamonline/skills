@@ -1,0 +1,24 @@
+{
+  "id": "loading-states-and-perceived-performance",
+  "name": "loading states and perceived performance",
+  "category": "frontend-ui",
+  "description": "Spinners, skeletons and staggered reveals that manage wait times. Use when designing loading states, async data or the feel of a slow interface.",
+  "tags": [
+    "loading",
+    "states",
+    "and",
+    "perceived",
+    "performance"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "dembrandt/dembrandt-skills",
+    "path": "skills/loading-states-and-perceived-performance/SKILL.md",
+    "commit": "c4ad177dea5b864f779f8c722f28cf04f760cb22"
+  }
+}

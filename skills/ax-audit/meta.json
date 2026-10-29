@@ -1,0 +1,20 @@
+{
+  "id": "ax-audit",
+  "name": "ax audit",
+  "category": "engineering-workflow",
+  "description": "Audits agentic products for tool parity, authority, approval payloads, recovery, and trust using 24 rules and a ship verdict. Use when asked for an \"AX audit\", to review an agent approval flow, or whether an agent can operate the product.",
+  "tags": [
+    "audit"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "mblode/agent-skills",
+    "path": "skills/ax-audit/SKILL.md",
+    "commit": "ff92bf5ae675e8108e7d2f14b22a523fd1303e76"
+  }
+}

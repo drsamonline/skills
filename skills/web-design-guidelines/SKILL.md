@@ -1,13 +1,13 @@
 ---
 name: web-design-guidelines
-description: Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices".
-license: see LICENSE-NOTICE.md
+description: Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices". Focuses on visual design and interaction patterns. Do NOT use for performance audits (use core-web-vitals), SEO (use seo), or comprehensive site audits (use web-quality-audit).
+license: MIT
 metadata:
   title: "web design guidelines"
-  origin: "vercel-labs/agent-skills"
-  upstream-path: "skills/web-design-guidelines/SKILL.md"
-  upstream-commit: "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62"
-  category: "frontend-ui"
+  origin: "tech-leads-club/agent-skills"
+  upstream-path: "packages/skills-catalog/skills/(design)/web-design-guidelines/SKILL.md"
+  upstream-commit: "738451e40785750a8e8de5bce8112675f5f0df02"
+  category: "engineering-workflow"
 ---
 
 # Web Interface Guidelines
@@ -16,31 +16,57 @@ Review files for compliance with Web Interface Guidelines.
 
 ## How It Works
 
-1. Fetch the latest guidelines from the source URL below
+1. Read the guidelines from `#[[file:references/guideline.md]]`
 2. Read the specified files (or prompt user for files/pattern)
-3. Check against all rules in the fetched guidelines
+3. Check against all rules in the guidelines
 4. Output findings in the terse `file:line` format
 
-## Guidelines Source
+## Guidelines Reference
 
-Fetch fresh guidelines before each review:
+All rules and output format instructions are in:
 
 ```
-https://raw.githubusercontent.com/vercel-labs/web-interface-guidelines/main/command.md
+#[[file:references/guideline.md]]
 ```
 
-Use WebFetch to retrieve the latest rules. The fetched content contains all the rules and output format instructions.
+The guidelines cover:
+
+- Accessibility (ARIA, semantic HTML, keyboard navigation)
+- Focus states and keyboard interaction
+- Forms (autocomplete, validation, labels)
+- Animation (reduced motion, performance)
+- Typography (proper characters, number formatting)
+- Content handling (overflow, empty states)
+- Images (dimensions, lazy loading)
+- Performance (virtualization, DOM reads)
+- Navigation & state (URL sync, deep linking)
+- Touch & interaction (tap delays, safe areas)
+- Dark mode & theming
+- Locale & i18n
+- Hydration safety
+- Common anti-patterns to flag
 
 ## Usage
 
 When a user provides a file or pattern argument:
-1. Fetch guidelines from the source URL above
+
+1. Read the guidelines from `references/guideline.md`
 2. Read the specified files
-3. Apply all rules from the fetched guidelines
+3. Apply all rules from the guidelines
 4. Output findings using the format specified in the guidelines
 
 If no files specified, ask the user which files to review.
 
+## Output Format
+
+Follow the format in the guidelines:
+
+- Group findings by file
+- Use `file:line` format (VS Code clickable)
+- Terse, high signal-to-noise
+- State issue + location
+- Skip explanation unless fix is non-obvious
+
 ## Provenance
 
-Imported from [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) at commit `1a2c79d`, path `skills/web-design-guidelines/SKILL.md`. The upstream repository ships **no licence file**; it is included here at the repository owner's explicit direction, and all rights remain with its authors — see `LICENSE-NOTICE.md`.
+Imported from [tech-leads-club/agent-skills](https://github.com/tech-leads-club/agent-skills) at commit `738451e`, path `packages/skills-catalog/skills/(design)/web-design-guidelines/SKILL.md`. Licensed MIT — the full text is in `LICENSE`.

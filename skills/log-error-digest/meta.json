@@ -1,0 +1,22 @@
+{
+  "id": "log-error-digest",
+  "name": "log error digest",
+  "category": "engineering-workflow",
+  "description": "Analyze log files to troubleshoot errors, identify peak error periods, and produce error clustering, frequency statistics, and time distribution reports. Supports JSON, syslog, and Nginx formats with automatic detection. Use when a user uploads a .log file and asks to analyze errors, find patterns, debug issues, or get distribution stats.",
+  "tags": [
+    "log",
+    "error",
+    "digest"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "zebbern/claude-code-guide",
+    "path": "skills/log-error-digest/SKILL.md",
+    "commit": "b50a31ad52510d148709b1eb61406952a02c3d19"
+  }
+}

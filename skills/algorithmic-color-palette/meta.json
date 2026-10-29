@@ -1,0 +1,22 @@
+{
+  "id": "algorithmic-color-palette",
+  "name": "algorithmic color palette",
+  "category": "frontend-ui",
+  "description": "Derive a full UI palette from one or two brand colours — state variants, brand-tinted greys, semantic colours. Use when building or expanding a colour system.",
+  "tags": [
+    "algorithmic",
+    "color",
+    "palette"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "dembrandt/dembrandt-skills",
+    "path": "skills/algorithmic-color-palette/SKILL.md",
+    "commit": "c4ad177dea5b864f779f8c722f28cf04f760cb22"
+  }
+}

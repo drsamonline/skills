@@ -1,0 +1,21 @@
+{
+  "id": "subagent-creator",
+  "name": "subagent creator",
+  "category": "engineering-workflow",
+  "description": "Guide for creating AI subagents with isolated context for complex multi-step workflows. Use when users want to create a subagent, specialized agent, verifier, debugger, or orchestrator that requires isolated context and deep specialization. Works with any agent that supports subagent delegation. Triggers on \"create subagent\", \"new agent\", \"specialized assistant\", \"create verifier\". Do NOT use for Cursor-specific subagents (use cursor-subagent-creator instead).",
+  "tags": [
+    "subagent",
+    "creator"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "tech-leads-club/agent-skills",
+    "path": "packages/skills-catalog/skills/(creation)/subagent-creator/SKILL.md",
+    "commit": "738451e40785750a8e8de5bce8112675f5f0df02"
+  }
+}

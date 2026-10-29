@@ -1,0 +1,21 @@
+{
+  "id": "form-design",
+  "name": "form design",
+  "category": "frontend-ui",
+  "description": "Helper text, placeholders, validation and submit behaviour. Use when designing or reviewing a form, input field or data entry UI.",
+  "tags": [
+    "form",
+    "design"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "dembrandt/dembrandt-skills",
+    "path": "skills/form-design/SKILL.md",
+    "commit": "c4ad177dea5b864f779f8c722f28cf04f760cb22"
+  }
+}

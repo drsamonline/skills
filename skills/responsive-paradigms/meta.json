@@ -1,0 +1,21 @@
+{
+  "id": "responsive-paradigms",
+  "name": "responsive paradigms",
+  "category": "frontend-ui",
+  "description": "Mobile, tablet and desktop are different paradigms, not one layout scaled. Use when designing responsive layouts or deciding what each breakpoint shows.",
+  "tags": [
+    "responsive",
+    "paradigms"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "dembrandt/dembrandt-skills",
+    "path": "skills/responsive-paradigms/SKILL.md",
+    "commit": "c4ad177dea5b864f779f8c722f28cf04f760cb22"
+  }
+}

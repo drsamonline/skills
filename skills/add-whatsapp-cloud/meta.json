@@ -1,0 +1,22 @@
+{
+  "id": "add-whatsapp-cloud",
+  "name": "add whatsapp cloud",
+  "category": "engineering-workflow",
+  "description": "Add WhatsApp Business Cloud API channel via Chat SDK. Official Meta API.",
+  "tags": [
+    "add",
+    "whatsapp",
+    "cloud"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "nanocoai/nanoclaw",
+    "path": ".claude/skills/add-whatsapp-cloud/SKILL.md",
+    "commit": "acc2b1c8f52a954368cfaf04b61c32f9a1efc280"
+  }
+}
