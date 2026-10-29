@@ -1,6 +1,6 @@
 {
   "generated": "2026-10-29",
-  "count": 1616,
+  "count": 1485,
   "categories": [
     "web-app-patterns",
     "android-packaging",
@@ -5257,26 +5257,6 @@
       }
     },
     {
-      "id": "docx",
-      "name": "docx",
-      "category": "office-docs",
-      "description": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files) or Word templates (.dotx files). Triggers include: any mention of 'Word doc', 'word document', '.docx', '.dotx', or requests to produce professional documents with formatting like tables of contents, headings, page numbers, or letterheads. Also use when extracting or reorganizing content from .docx or .dotx files, inserting or replacing images in documents, performing find-and-replace in Word files, working with tracked changes or comments, or converting content into a polished Word document. If the user asks for a 'report', 'memo', 'letter', 'template', or similar deliverable as a Word or .docx file, use this skill. Do NOT use for PDFs, spreadsheets, Google Docs, or general coding tasks unrelated to document generation.",
-      "tags": [
-        "docx"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "proprietary (see LICENSE)",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "anthropics/skills",
-        "path": "skills/docx/SKILL.md",
-        "commit": "ca45fc496a3436251f191354091d557da31c15b5"
-      }
-    },
-    {
       "id": "domain-modeling",
       "name": "domain modeling",
       "category": "engineering-workflow",
@@ -8134,68 +8114,6 @@
       }
     },
     {
-      "id": "grill-me",
-      "name": "grill me",
-      "category": "engineering-workflow",
-      "description": "A relentless interview to sharpen a plan or design.",
-      "tags": [
-        "grill"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "MIT",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "mattpocock/skills",
-        "path": "skills/productivity/grill-me/SKILL.md",
-        "commit": "a496f5513d4a4cf889bc48e189e579f4b0bdf6aa"
-      }
-    },
-    {
-      "id": "grill-with-docs",
-      "name": "grill with docs",
-      "category": "engineering-workflow",
-      "description": "A relentless interview to sharpen a plan or design, which also creates docs (ADR's and glossary) as we go.",
-      "tags": [
-        "grill",
-        "with",
-        "docs"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "MIT",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "mattpocock/skills",
-        "path": "skills/engineering/grill-with-docs/SKILL.md",
-        "commit": "a496f5513d4a4cf889bc48e189e579f4b0bdf6aa"
-      }
-    },
-    {
-      "id": "grilling",
-      "name": "grilling",
-      "category": "engineering-workflow",
-      "description": "Grill the user relentlessly about a plan, decision, or idea. Use when the user wants to stress-test their thinking, or uses any 'grill' trigger phrases.",
-      "tags": [
-        "grilling"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "MIT",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "mattpocock/skills",
-        "path": "skills/productivity/grilling/SKILL.md",
-        "commit": "a496f5513d4a4cf889bc48e189e579f4b0bdf6aa"
-      }
-    },
-    {
       "id": "grpo-rl-training",
       "name": "grpo rl training",
       "category": "ai-and-ml",
@@ -10345,26 +10263,6 @@
       }
     },
     {
-      "id": "pdf",
-      "name": "pdf",
-      "category": "office-docs",
-      "description": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, extracting images, and OCR on scanned PDFs to make them searchable. If the user mentions a .pdf file or asks to produce one, use this skill.",
-      "tags": [
-        "pdf"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "proprietary (see LICENSE)",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "anthropics/skills",
-        "path": "skills/pdf/SKILL.md",
-        "commit": "ca45fc496a3436251f191354091d557da31c15b5"
-      }
-    },
-    {
       "id": "peft-fine-tuning",
       "name": "peft fine tuning",
       "category": "ai-and-ml",
@@ -10809,26 +10707,6 @@
         "repo": "MiniMax-AI/skills",
         "path": "plugins/pptx-plugin/skills/ppt-orchestra-skill/SKILL.md",
         "commit": "60aaae52bb2af8162732751a4332f62a5fef518b"
-      }
-    },
-    {
-      "id": "pptx",
-      "name": "pptx",
-      "category": "office-docs",
-      "description": "Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx or .potx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates (.potx), layouts, speaker notes, or comments. Trigger whenever the user mentions \\\"deck,\\\" \\\"slides,\\\" \\\"presentation,\\\" or references a .pptx or .potx filename, regardless of what they plan to do with the content afterward. If a .pptx or .potx file needs to be opened, created, or touched, use this skill.",
-      "tags": [
-        "pptx"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "proprietary (see LICENSE)",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "anthropics/skills",
-        "path": "skills/pptx/SKILL.md",
-        "commit": "ca45fc496a3436251f191354091d557da31c15b5"
       }
     },
     {
@@ -12692,27 +12570,6 @@
       "description_source": "derived-from-body"
     },
     {
-      "id": "wait-what",
-      "name": "wait what",
-      "category": "engineering-workflow",
-      "description": "Stop. That last message did not land: re-pitch it.",
-      "tags": [
-        "wait",
-        "what"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "MIT",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "mattpocock/skills",
-        "path": "skills/productivity/wait-what/SKILL.md",
-        "commit": "a496f5513d4a4cf889bc48e189e579f4b0bdf6aa"
-      }
-    },
-    {
       "id": "wayfinder-mattpocock",
       "name": "wayfinder",
       "category": "docs-and-planning",
@@ -13007,26 +12864,6 @@
         "repo": "obra/superpowers",
         "path": "skills/writing-skills/SKILL.md",
         "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b"
-      }
-    },
-    {
-      "id": "xlsx",
-      "name": "xlsx",
-      "category": "office-docs",
-      "description": "Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .xltx, .csv, or .tsv file (e.g., adding columns, computing formulas, formatting, charting, cleaning messy data); create a new spreadsheet from scratch or from other data sources; or convert between tabular file formats. Trigger especially when the user references a spreadsheet file by name or path — even casually (like \\\"the xlsx in my downloads\\\") — and wants something done to it or produced from it. Also trigger for cleaning or restructuring messy tabular data files (malformed rows, misplaced headers, junk data) into proper spreadsheets. The deliverable must be a spreadsheet file. Do NOT trigger when the primary deliverable is a Word document, HTML report, standalone Python script, database pipeline, or Google Sheets API integration, even if tabular data is involved.",
-      "tags": [
-        "xlsx"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "proprietary (see LICENSE)",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "anthropics/skills",
-        "path": "skills/xlsx/SKILL.md",
-        "commit": "ca45fc496a3436251f191354091d557da31c15b5"
       }
     },
     {
@@ -15665,49 +15502,6 @@
       "description_source": "derived-from-body"
     },
     {
-      "id": "article-magazine",
-      "name": "article magazine",
-      "category": "frontend-ui",
-      "description": "Substack / Medium 高级感长文排版, 适合公众号、博客发布",
-      "tags": [
-        "article",
-        "magazine"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/article-magazine/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
-      "id": "article-sketchnote-editorial",
-      "name": "article sketchnote editorial",
-      "category": "frontend-ui",
-      "description": "把一个概念铸成杂志专题档案——真问题→失败→转折→顿悟→命名, 6 个 layout 模具 + 4 字族对比 + 探案档案细节",
-      "tags": [
-        "article",
-        "sketchnote",
-        "editorial"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/article-sketchnote-editorial/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
       "id": "audio-design",
       "name": "audio design",
       "category": "game-dev",
@@ -16068,27 +15862,6 @@
         "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
       },
       "description_source": "derived-from-body"
-    },
-    {
-      "id": "blog-post",
-      "name": "blog post",
-      "category": "frontend-ui",
-      "description": "杂志感长文, 含 masthead、hero、figures、pull quote、作者署名",
-      "tags": [
-        "blog",
-        "post"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/blog-post/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
     },
     {
       "id": "brand",
@@ -16480,50 +16253,6 @@
       "description_source": "derived-from-body"
     },
     {
-      "id": "card-twitter",
-      "name": "card twitter",
-      "category": "frontend-ui",
-      "description": "【模板: Twitter 分享卡】 - 容器 w-1600px h-900px, 暗色 / 亮色二选一根据内容情绪。 - 中央一句 hero 金句 (text-6xl, font-semibold, 限 2-3 行)。 - 下方作者署名 + 头像占位 + handle。 - 左上角小标签 (类型: \"Insight\" / \"Data\" / \"Quote\")。 - 右下角品牌水印。 - 整张卡片有微妙的纹理 (grid 网格 / noise / dot pattern)。 - 截图后可直接配推文发出, 视觉简洁有力。",
-      "tags": [
-        "card",
-        "twitter"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/card-twitter/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      },
-      "description_source": "derived-from-body"
-    },
-    {
-      "id": "card-xiaohongshu",
-      "name": "card xiaohongshu",
-      "category": "frontend-ui",
-      "description": "【模板: 小红书图文卡片】 - 输出 N 张连续卡片, 每张 w-1080px h-1440px, 用 flex 纵向排列方便整体截图也方便单张截图。N 由【用户内容】信息量决定: 短内容 3-6 张起步, 长内容应更多 (小红书平台单帖最多 18 图, 通常 9 张以内最佳); 一张卡只承载一个核心观点。 - 第一张是封面: 巨大的标题 + 1 行副标题 + 一个吸引人的标签 (类似 \"干货预警\" / \"建议收藏\")。 - 中间几张展开正文, 每张一个核心观点, 配 emoji + 短句 + 1-2 个例子。 - 最后一张是总结 + 行动号召 (关注 / 收藏 / 评论)。 - 配色: 选择柔和的莫兰迪色或粉色系; 元素圆润, 大量留白。 - 字号大、行距宽、对比强（小红书在手机上看, 小字根本看不清）。 - 每张卡片右下角小水印 (作者名 / 日期)。",
-      "tags": [
-        "card",
-        "xiaohongshu"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/card-xiaohongshu/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      },
-      "description_source": "derived-from-body"
-    },
-    {
       "id": "cardputer-buddy",
       "name": "cardputer buddy",
       "category": "engineering-workflow",
@@ -16604,28 +16333,6 @@
       "upstream": {
         "repo": "JuliusBrussee/caveman",
         "path": "skills/caveman-commit/SKILL.md",
-        "commit": "9b68f7ed12b05e7efaff18e65c5a3fc2849fd0a4"
-      },
-      "description_source": "derived-from-body"
-    },
-    {
-      "id": "caveman-compress",
-      "name": "caveman compress",
-      "category": "engineering-workflow",
-      "description": "Data leaves the machine. Compression sends the file's full text to the model provider that scripts/compress.py is configured for: the claude CLI, the Anthropic API, or an OpenAI-compatible endpoint. Files whose names look like secrets (.env, credentials, secrets, .netrc, …) are refused before they are read. Don't compress a file the provider shouldn't see.",
-      "tags": [
-        "caveman",
-        "compress"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "JuliusBrussee/caveman",
-        "path": "plugins/caveman/skills/caveman-compress/SKILL.md",
         "commit": "9b68f7ed12b05e7efaff18e65c5a3fc2849fd0a4"
       },
       "description_source": "derived-from-body"
@@ -16823,28 +16530,6 @@
       "upstream": {
         "repo": "JuliusBrussee/caveman",
         "path": "skills/caveman-setup/SKILL.md",
-        "commit": "9b68f7ed12b05e7efaff18e65c5a3fc2849fd0a4"
-      },
-      "description_source": "derived-from-body"
-    },
-    {
-      "id": "caveman-stats",
-      "name": "caveman stats",
-      "category": "engineering-workflow",
-      "description": "In Claude Code, src/hooks/caveman-mode-tracker.js resolves src/hooks/caveman-stats.js next to itself and runs it on /caveman-stats. The hook does not block the prompt: it supplies the report through hookSpecificOutput.additionalContext with an instruction to print it verbatim inside a fenced code block. Do exactly that, and do not calculate, recompute or re-round the numbers yourself.",
-      "tags": [
-        "caveman",
-        "stats"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "JuliusBrussee/caveman",
-        "path": "skills/caveman-stats/SKILL.md",
         "commit": "9b68f7ed12b05e7efaff18e65c5a3fc2849fd0a4"
       },
       "description_source": "derived-from-body"
@@ -17511,27 +17196,6 @@
       }
     },
     {
-      "id": "competitive-teardown",
-      "name": "competitive teardown",
-      "category": "frontend-ui",
-      "description": "定位图 + 功能矩阵 + 价格对比 + 机会窗口, 把竞品资料转成产品决策报告",
-      "tags": [
-        "competitive",
-        "teardown"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/competitive-teardown/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
       "id": "component-canvas",
       "name": "component canvas",
       "category": "frontend-ui",
@@ -17746,28 +17410,6 @@
         "commit": "49b318b5b894d286cda891732287400d9b43cea3"
       },
       "description_source": "derived-from-body"
-    },
-    {
-      "id": "context-mode-ops",
-      "name": "context mode ops",
-      "category": "engineering-workflow",
-      "description": "Manage context-mode GitHub issues, PRs, releases, and marketing with parallel subagent army. Orchestrates 10-20 dynamic agents per task. Use when triaging issues, reviewing PRs, releasing versions, writing LinkedIn posts, announcing releases, fixing bugs, merging contributions, validating ENV vars, testing adapters, or syncing branches.",
-      "tags": [
-        "context",
-        "mode",
-        "ops"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "see LICENSE",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "mksglu/context-mode",
-        "path": ".claude/skills/context-mode-ops/SKILL.md",
-        "commit": "49b318b5b894d286cda891732287400d9b43cea3"
-      }
     },
     {
       "id": "convert-documents-to-markdown",
@@ -18004,160 +17646,6 @@
       }
     },
     {
-      "id": "ctx-doctor",
-      "name": "ctx doctor",
-      "category": "engineering-workflow",
-      "description": "Run diagnostics and display results directly in the conversation.",
-      "tags": [
-        "ctx",
-        "doctor"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "see LICENSE",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "mksglu/context-mode",
-        "path": "skills/ctx-doctor/SKILL.md",
-        "commit": "49b318b5b894d286cda891732287400d9b43cea3"
-      },
-      "description_source": "derived-from-body"
-    },
-    {
-      "id": "ctx-index",
-      "name": "ctx index",
-      "category": "engineering-workflow",
-      "description": "Index local project content for later search.",
-      "tags": [
-        "ctx",
-        "index"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "see LICENSE",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "mksglu/context-mode",
-        "path": "skills/ctx-index/SKILL.md",
-        "commit": "49b318b5b894d286cda891732287400d9b43cea3"
-      },
-      "description_source": "derived-from-body"
-    },
-    {
-      "id": "ctx-insight",
-      "name": "ctx insight",
-      "category": "engineering-workflow",
-      "description": "Open the hosted Insight dashboard in the user's default browser.",
-      "tags": [
-        "ctx",
-        "insight"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "see LICENSE",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "mksglu/context-mode",
-        "path": "skills/ctx-insight/SKILL.md",
-        "commit": "49b318b5b894d286cda891732287400d9b43cea3"
-      },
-      "description_source": "derived-from-body"
-    },
-    {
-      "id": "ctx-purge",
-      "name": "ctx purge",
-      "category": "engineering-workflow",
-      "description": "Permanently deletes session data for this project. Two scopes are supported (issue #520):",
-      "tags": [
-        "ctx",
-        "purge"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "see LICENSE",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "mksglu/context-mode",
-        "path": "skills/ctx-purge/SKILL.md",
-        "commit": "49b318b5b894d286cda891732287400d9b43cea3"
-      },
-      "description_source": "derived-from-body"
-    },
-    {
-      "id": "ctx-search",
-      "name": "ctx search",
-      "category": "engineering-workflow",
-      "description": "Search indexed content without rereading raw sources into conversation context.",
-      "tags": [
-        "ctx",
-        "search"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "see LICENSE",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "mksglu/context-mode",
-        "path": "skills/ctx-search/SKILL.md",
-        "commit": "49b318b5b894d286cda891732287400d9b43cea3"
-      },
-      "description_source": "derived-from-body"
-    },
-    {
-      "id": "ctx-stats",
-      "name": "ctx stats",
-      "category": "engineering-workflow",
-      "description": "Show context savings for the current session.",
-      "tags": [
-        "ctx",
-        "stats"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "see LICENSE",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "mksglu/context-mode",
-        "path": "skills/ctx-stats/SKILL.md",
-        "commit": "49b318b5b894d286cda891732287400d9b43cea3"
-      },
-      "description_source": "derived-from-body"
-    },
-    {
-      "id": "ctx-upgrade",
-      "name": "ctx upgrade",
-      "category": "engineering-workflow",
-      "description": "Pull latest from GitHub and reinstall the plugin.",
-      "tags": [
-        "ctx",
-        "upgrade"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "see LICENSE",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "mksglu/context-mode",
-        "path": "skills/ctx-upgrade/SKILL.md",
-        "commit": "49b318b5b894d286cda891732287400d9b43cea3"
-      },
-      "description_source": "derived-from-body"
-    },
-    {
       "id": "cucumber-skill",
       "name": "cucumber skill",
       "category": "testing-qa",
@@ -18331,26 +17819,6 @@
       }
     },
     {
-      "id": "dashboard",
-      "name": "dashboard",
-      "category": "frontend-ui",
-      "description": "固定侧栏 + 顶栏 + KPI 网格 + 1-2 张图",
-      "tags": [
-        "dashboard"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/dashboard/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
       "id": "dashmotion",
       "name": "dashmotion",
       "category": "frontend-ui",
@@ -18391,27 +17859,6 @@
         "repo": "dembrandt/dembrandt-skills",
         "path": "skills/data-display-and-selection/SKILL.md",
         "commit": "c4ad177dea5b864f779f8c722f28cf04f760cb22"
-      }
-    },
-    {
-      "id": "data-report",
-      "name": "data report",
-      "category": "frontend-ui",
-      "description": "把 CSV/Excel/JSON 数据转成漂亮的可视化报告页",
-      "tags": [
-        "data",
-        "report"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/data-report/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
       }
     },
     {
@@ -18501,27 +17948,6 @@
       }
     },
     {
-      "id": "dating-web",
-      "name": "dating web",
-      "category": "frontend-ui",
-      "description": "消费感配对仪表板: 信号 ticker + KPI + 30 天柱状 + 趋势",
-      "tags": [
-        "dating",
-        "web"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/dating-web/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
       "id": "debug",
       "name": "debug",
       "category": "engineering-workflow",
@@ -18539,466 +17965,6 @@
         "repo": "nanocoai/nanoclaw",
         "path": ".claude/skills/debug/SKILL.md",
         "commit": "acc2b1c8f52a954368cfaf04b61c32f9a1efc280"
-      }
-    },
-    {
-      "id": "deck-blueprint",
-      "name": "deck blueprint",
-      "category": "frontend-ui",
-      "description": "奶油纸 + 锈红 + 蓝图网格 mask + 黑边硬卡片 + pipeline 盒",
-      "tags": [
-        "deck",
-        "blueprint"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/deck-blueprint/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
-      "id": "deck-course-module",
-      "name": "deck course module",
-      "category": "frontend-ui",
-      "description": "暖纸背景 + Playfair, 左侧学习目标常驻, 含 MCQ 自测页",
-      "tags": [
-        "deck",
-        "course",
-        "module"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/deck-course-module/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
-      "id": "deck-dir-key-nav",
-      "name": "deck dir key nav",
-      "category": "frontend-ui",
-      "description": "8 页单色背景, 160px display + 4px accent + Mono 箭头列表",
-      "tags": [
-        "deck",
-        "dir",
-        "key",
-        "nav"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/deck-dir-key-nav/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
-      "id": "deck-graphify-dark",
-      "name": "deck graphify dark",
-      "category": "frontend-ui",
-      "description": "深夜渐变 + 漂浮 orbs + SVG 力导向图谱 + JetBrains Mono",
-      "tags": [
-        "deck",
-        "graphify",
-        "dark"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/deck-graphify-dark/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
-      "id": "deck-guizang-editorial",
-      "name": "deck guizang editorial",
-      "category": "frontend-ui",
-      "description": "电子杂志 × 电子墨水; 10 个版面 + 5 套调色板 (墨水/靛蓝瓷/森林墨/牛皮纸/沙丘)",
-      "tags": [
-        "deck",
-        "guizang",
-        "editorial"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/deck-guizang-editorial/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
-      "id": "deck-hermes-cyber",
-      "name": "deck hermes cyber",
-      "category": "frontend-ui",
-      "description": "黑底 + CRT 网格扫描线 + $ 命令行标题 + 薄荷绿大字 + 三档 tag",
-      "tags": [
-        "deck",
-        "hermes",
-        "cyber"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/deck-hermes-cyber/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
-      "id": "deck-ljg-present",
-      "name": "deck ljg present",
-      "category": "frontend-ui",
-      "description": "把 outline 1:1 铸成色块大字宣言 deck, 原文不动只做美化。三档主题 black / red / yellow",
-      "tags": [
-        "deck",
-        "ljg",
-        "present"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/deck-ljg-present/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
-      "id": "deck-magazine-web",
-      "name": "deck magazine web",
-      "category": "frontend-ui",
-      "description": "电子杂志 × 电子墨水风, WebGL 流体背景 + 衬线 display",
-      "tags": [
-        "deck",
-        "magazine",
-        "web"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/deck-magazine-web/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
-      "id": "deck-obsidian-claude",
-      "name": "deck obsidian claude",
-      "category": "frontend-ui",
-      "description": "GitHub-dark + 紫蓝环境光 + 三色渐变标题 + GitHub 风代码",
-      "tags": [
-        "deck",
-        "obsidian",
-        "claude"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/deck-obsidian-claude/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
-      "id": "deck-open-slide-canvas",
-      "name": "deck open slide canvas",
-      "category": "frontend-ui",
-      "description": "锁死 1920×1080 画布, React 组件级自由组合, 不绑模板",
-      "tags": [
-        "deck",
-        "open",
-        "slide",
-        "canvas"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/deck-open-slide-canvas/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
-      "id": "deck-pitch",
-      "name": "deck pitch",
-      "category": "frontend-ui",
-      "description": "10 页融资 deck, 白底 + 蓝紫渐变 hero, traction 柱状, $X.XM ask",
-      "tags": [
-        "deck",
-        "pitch"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/deck-pitch/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
-      "id": "deck-presenter-mode",
-      "name": "deck presenter mode",
-      "category": "frontend-ui",
-      "description": "tokyo-night 默认主题, T 切换 5 主题, S 打开提词器 popup",
-      "tags": [
-        "deck",
-        "presenter",
-        "mode"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/deck-presenter-mode/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
-      "id": "deck-product-launch",
-      "name": "deck product launch",
-      "category": "frontend-ui",
-      "description": "暗 hero + 亮内容, 橙→桃 accent, 特性卡 + 定价 + CTA",
-      "tags": [
-        "deck",
-        "product",
-        "launch"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/deck-product-launch/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
-      "id": "deck-replit",
-      "name": "deck replit",
-      "category": "frontend-ui",
-      "description": "Replit Slides 八套主题 (helix/holm/vance/bevel/world/atlas/bluehouse)",
-      "tags": [
-        "deck",
-        "replit"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/deck-replit/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
-      "id": "deck-safety-alert",
-      "name": "deck safety alert",
-      "category": "frontend-ui",
-      "description": "红琥珀警示色 + hazard 条纹 + L1/L2/L3 tier 卡片 + 删除线标题",
-      "tags": [
-        "deck",
-        "safety",
-        "alert"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/deck-safety-alert/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
-      "id": "deck-simple",
-      "name": "deck simple",
-      "category": "frontend-ui",
-      "description": "通用 horizontal-swipe HTML deck, 不要 magazine 调",
-      "tags": [
-        "deck",
-        "simple"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/deck-simple/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
-      "id": "deck-swiss-international",
-      "name": "deck swiss international",
-      "category": "frontend-ui",
-      "description": "16 列网格 + 单一饱和 accent + 22 个锁死版面 (Klein Blue / Lemon / Mint / Safety Orange)",
-      "tags": [
-        "deck",
-        "swiss",
-        "international"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/deck-swiss-international/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
-      "id": "deck-tech-sharing",
-      "name": "deck tech sharing",
-      "category": "frontend-ui",
-      "description": "GitHub-dark + JetBrains Mono + 终端代码块, 含 agenda + Q&A",
-      "tags": [
-        "deck",
-        "tech",
-        "sharing"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/deck-tech-sharing/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
-      "id": "deck-xhs-pastel",
-      "name": "deck xhs pastel",
-      "category": "frontend-ui",
-      "description": "奶油底 + 柔光 blob + 马卡龙圆角卡片 + Playfair 斜体序号",
-      "tags": [
-        "deck",
-        "xhs",
-        "pastel"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/deck-xhs-pastel/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
-      "id": "deck-xhs-post",
-      "name": "deck xhs post",
-      "category": "frontend-ui",
-      "description": "9 页 3:4 竖版图文, 暖 pastel + 虚线 sticker 卡片",
-      "tags": [
-        "deck",
-        "xhs",
-        "post"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/deck-xhs-post/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
-      "id": "deck-xhs-white",
-      "name": "deck xhs white",
-      "category": "frontend-ui",
-      "description": "纯白 + 顶部彩虹 bar + 渐变文字 + 马卡龙软卡片 + 黑底 pill",
-      "tags": [
-        "deck",
-        "xhs",
-        "white"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/deck-xhs-white/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
       }
     },
     {
@@ -19301,27 +18267,6 @@
       "description_source": "derived-from-body"
     },
     {
-      "id": "digital-eguide",
-      "name": "digital eguide",
-      "category": "frontend-ui",
-      "description": "两页跨页电子指南, 封面 + 课程页 + pull-quote + 步骤列表",
-      "tags": [
-        "digital",
-        "eguide"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/digital-eguide/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
       "id": "director-readiness-advisor",
       "name": "director readiness advisor",
       "category": "product-management",
@@ -19385,50 +18330,6 @@
         "path": "skills/discovery-process/SKILL.md",
         "commit": "cfcb697f14b8891d8b3ec43c16c3547df3e70e13"
       }
-    },
-    {
-      "id": "doc-kami-parchment",
-      "name": "doc kami parchment",
-      "category": "frontend-ui",
-      "description": "暖羊皮纸底 (#f5f4ed) + 墨蓝单色 accent (#1B365D) + 单一衬线字体, 编辑级排印",
-      "tags": [
-        "doc",
-        "kami",
-        "parchment"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/doc-kami-parchment/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
-      "id": "docs-page",
-      "name": "docs page",
-      "category": "frontend-ui",
-      "description": "【模板: 技术文档页】 【意图】API / 教程文档单页, 长读体验优先。 【布局】 - Inline-start nav (sections + sticky) - Article body (含代码块, callouts, 表格) - Inline-end TOC (sticky, scroll-spy) - 顶栏 search + version + 主题切换 【设计细节】 - 代码块: 圆角 + dark + 语言标签 + 复制按钮 - callout: info / warn / danger 三色",
-      "tags": [
-        "docs",
-        "page"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/docs-page/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      },
-      "description_source": "derived-from-body"
     },
     {
       "id": "docs-writer",
@@ -19971,48 +18872,6 @@
       }
     },
     {
-      "id": "email-marketing",
-      "name": "email marketing",
-      "category": "frontend-ui",
-      "description": "产品发布邮件, 含 masthead、hero、CTA、规格表, table-fallback",
-      "tags": [
-        "email",
-        "marketing"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/email-marketing/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
-      "id": "eng-runbook",
-      "name": "eng runbook",
-      "category": "frontend-ui",
-      "description": "服务概述 + alerts 表 + dashboards + 操作命令 + on-call + 事故清单",
-      "tags": [
-        "eng",
-        "runbook"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/eng-runbook/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
       "id": "eol-checklist",
       "name": "eol checklist",
       "category": "product-management",
@@ -20445,28 +19304,6 @@
       }
     },
     {
-      "id": "exec-briefing-memo",
-      "name": "exec briefing memo",
-      "category": "frontend-ui",
-      "description": "Decision needed + recommendation + evidence + tradeoffs, 把复杂材料压成可拍板的一页",
-      "tags": [
-        "exec",
-        "briefing",
-        "memo"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/exec-briefing-memo/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
       "id": "executive-onboarding-playbook",
       "name": "executive onboarding playbook",
       "category": "product-management",
@@ -20507,27 +19344,6 @@
         "repo": "tech-leads-club/agent-skills",
         "path": "packages/skills-catalog/skills/(gtm)/expansion-retention/SKILL.md",
         "commit": "738451e40785750a8e8de5bce8112675f5f0df02"
-      }
-    },
-    {
-      "id": "experiment-readout",
-      "name": "experiment readout",
-      "category": "frontend-ui",
-      "description": "假设 + 指标 + 结果 + 解释 + 决策, 把 A/B 或产品实验转成行动建议",
-      "tags": [
-        "experiment",
-        "readout"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/experiment-readout/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
       }
     },
     {
@@ -20774,27 +19590,6 @@
       }
     },
     {
-      "id": "finance-report",
-      "name": "finance report",
-      "category": "frontend-ui",
-      "description": "Masthead + KPI + 收入/烧钱图 + P&L 表 + 重点 + 展望",
-      "tags": [
-        "finance",
-        "report"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/finance-report/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
       "id": "first-principles-review",
       "name": "first principles review",
       "category": "security-audit",
@@ -20882,28 +19677,6 @@
       }
     },
     {
-      "id": "flowai-team-dashboard",
-      "name": "flowai team dashboard",
-      "category": "frontend-ui",
-      "description": "三个 tab 的团队管理后台: 成员、详情、活动日志, 含图表 + CSV 导出",
-      "tags": [
-        "flowai",
-        "team",
-        "dashboard"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/flowai-team-dashboard/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
       "id": "flutter-testing-skill",
       "name": "flutter testing skill",
       "category": "testing-qa",
@@ -20987,162 +19760,6 @@
         "repo": "plasma-ai/fractal",
         "path": "fractal/skills/fractal/SKILL.md",
         "commit": "5e1c65c0a5dc367d3d4f223a997b5f010d568722"
-      }
-    },
-    {
-      "id": "frame-data-chart-nyt",
-      "name": "frame data chart nyt",
-      "category": "frontend-ui",
-      "description": "NYT-newsroom 排版 + 错峰揭示动画 + 编辑级图表 (折线/柱/范围带)",
-      "tags": [
-        "frame",
-        "data",
-        "chart",
-        "nyt"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/frame-data-chart-nyt/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
-      "id": "frame-flowchart-sticky",
-      "name": "frame flowchart sticky",
-      "category": "frontend-ui",
-      "description": "SVG 曲线连接 + 便利贴节点 + 光标交互, 像白板 brainstorm",
-      "tags": [
-        "frame",
-        "flowchart",
-        "sticky"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/frame-flowchart-sticky/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
-      "id": "frame-glitch-title",
-      "name": "frame glitch title",
-      "category": "frontend-ui",
-      "description": "数字故障 / 像散偏移 / 数据腐败标题, 适合视频转场 / cyberpunk hero",
-      "tags": [
-        "frame",
-        "glitch",
-        "title"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/frame-glitch-title/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
-      "id": "frame-light-leak-cinema",
-      "name": "frame light leak cinema",
-      "category": "frontend-ui",
-      "description": "胶片漏光 + 颗粒噪点 + 16:9 letterbox + 衬线大字, 电影感开场 / 章节卡",
-      "tags": [
-        "frame",
-        "light",
-        "leak",
-        "cinema"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/frame-light-leak-cinema/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
-      "id": "frame-liquid-bg-hero",
-      "name": "frame liquid bg hero",
-      "category": "frontend-ui",
-      "description": "WebGL 风流体置换背景 + 顶部叠加金句, 适合视频片头 / landing hero / 海报",
-      "tags": [
-        "frame",
-        "liquid",
-        "hero"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/frame-liquid-bg-hero/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
-      "id": "frame-logo-outro",
-      "name": "frame logo outro",
-      "category": "frontend-ui",
-      "description": "Logo 分块组装入场 + glow bloom + tagline 揭示, 适合视频片尾 / 品牌闭幕",
-      "tags": [
-        "frame",
-        "logo",
-        "outro"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/frame-logo-outro/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
-      "id": "frame-macos-notification",
-      "name": "frame macos notification",
-      "category": "frontend-ui",
-      "description": "拟真 macOS 通知 banner + app icon + 标题正文, 适合 video overlay / 产品发布预告",
-      "tags": [
-        "frame",
-        "macos",
-        "notification"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/frame-macos-notification/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
       }
     },
     {
@@ -21294,27 +19911,6 @@
         "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
       },
       "description_source": "derived-from-body"
-    },
-    {
-      "id": "gamified-app",
-      "name": "gamified app",
-      "category": "frontend-ui",
-      "description": "三屏: 封面 / 今日任务带 XP / 任务详情, 暗色舞台",
-      "tags": [
-        "gamified",
-        "app"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/gamified-app/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
     },
     {
       "id": "gauge-skill",
@@ -23182,26 +21778,6 @@
       }
     },
     {
-      "id": "hr-onboarding",
-      "name": "hr onboarding",
-      "category": "frontend-ui",
-      "description": "首周日程 + buddy + 学习路径 + 设备 + 完成标准",
-      "tags": [
-        "onboarding"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/hr-onboarding/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
       "id": "html-injection-testing",
       "name": "html injection testing",
       "category": "engineering-workflow",
@@ -23375,27 +21951,6 @@
         "repo": "browser-act/skills",
         "path": "solutions/lead-generation/industry-key-contact-radar-api-skill/SKILL.md",
         "commit": "11c057b03f92101642cadc9f840564574120d184"
-      }
-    },
-    {
-      "id": "info-funnel",
-      "name": "info funnel",
-      "category": "frontend-ui",
-      "description": "3-6 阶递减漏斗, 突出转化率 / 筛选比例 / 流量损耗。竖图适合 IG Story / 小红书",
-      "tags": [
-        "info",
-        "funnel"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/info-funnel/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
       }
     },
     {
@@ -23660,26 +22215,6 @@
       }
     },
     {
-      "id": "invoice",
-      "name": "invoice",
-      "category": "frontend-ui",
-      "description": "标准发票: 寄件/收件 + 明细 + 税 + 总额 + 付款指引",
-      "tags": [
-        "invoice"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/invoice/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
       "id": "iron-proxy-gateway",
       "name": "iron proxy gateway",
       "category": "engineering-workflow",
@@ -23830,27 +22365,6 @@
         "commit": "992638bccbc311f42c0bd8b2b3387a0d1ce6288d"
       },
       "description_source": "derived-from-body"
-    },
-    {
-      "id": "kanban-board",
-      "name": "kanban board",
-      "category": "frontend-ui",
-      "description": "To do / In progress / In review / Done 四列, 卡片 + 头像 + 泳道",
-      "tags": [
-        "kanban",
-        "board"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/kanban-board/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
     },
     {
       "id": "kanecli-skill",
@@ -24482,27 +22996,6 @@
       }
     },
     {
-      "id": "live-dashboard",
-      "name": "live dashboard",
-      "category": "frontend-ui",
-      "description": "Notion 风团队仪表板, KPI + 7 日 sparkline + activity feed + 任务表",
-      "tags": [
-        "live",
-        "dashboard"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/live-dashboard/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
       "id": "loading-states-and-perceived-performance",
       "name": "loading states and perceived performance",
       "category": "frontend-ui",
@@ -24655,27 +23148,6 @@
       }
     },
     {
-      "id": "magazine-poster",
-      "name": "magazine poster",
-      "category": "frontend-ui",
-      "description": "Sunday-paper 风格, 大字 serif headline + 双栏正文 + 编号 sections",
-      "tags": [
-        "magazine",
-        "poster"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/magazine-poster/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
       "id": "manage-channels",
       "name": "manage channels",
       "category": "engineering-workflow",
@@ -24802,27 +23274,6 @@
         "repo": "anthropics/claude-plugins-official",
         "path": "plugins/plugin-dev/skills/mcp-integration/SKILL.md",
         "commit": "f8c5e7a1dcb71b10cb74586224b5401f3de5db28"
-      }
-    },
-    {
-      "id": "meeting-notes",
-      "name": "meeting notes",
-      "category": "frontend-ui",
-      "description": "标题 + 出席 + 议程 + 决议 + action items + 下次",
-      "tags": [
-        "meeting",
-        "notes"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/meeting-notes/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
       }
     },
     {
@@ -25316,48 +23767,6 @@
       "description_source": "derived-from-body"
     },
     {
-      "id": "mobile-app",
-      "name": "mobile app",
-      "category": "frontend-ui",
-      "description": "像素级 iPhone 15 Pro 边框, 一屏 app 截图",
-      "tags": [
-        "mobile",
-        "app"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/mobile-app/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
-      "id": "mobile-onboarding",
-      "name": "mobile onboarding",
-      "category": "frontend-ui",
-      "description": "三个手机框并排: splash / value-prop / sign-in",
-      "tags": [
-        "mobile",
-        "onboarding"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/mobile-onboarding/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
       "id": "mocha-skill",
       "name": "mocha skill",
       "category": "testing-qa",
@@ -25378,27 +23787,6 @@
         "commit": "992638bccbc311f42c0bd8b2b3387a0d1ce6288d"
       },
       "description_source": "derived-from-body"
-    },
-    {
-      "id": "mockup-device-3d",
-      "name": "mockup device 3d",
-      "category": "frontend-ui",
-      "description": "iPhone + MacBook 仿 GLTF 静态展架, 屏幕内嵌真实 HTML 内容, 玻璃镜头折射, 360° 转盘构图",
-      "tags": [
-        "mockup",
-        "device"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/mockup-device-3d/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
     },
     {
       "id": "modal-and-overlay-patterns",
@@ -25509,27 +23897,6 @@
         "repo": "dembrandt/dembrandt-skills",
         "path": "skills/motion-and-storytelling/SKILL.md",
         "commit": "c4ad177dea5b864f779f8c722f28cf04f760cb22"
-      }
-    },
-    {
-      "id": "motion-frames",
-      "name": "motion frames",
-      "category": "frontend-ui",
-      "description": "可循环 CSS 动效组合: 旋转环、地球仪、计时器、视差标签",
-      "tags": [
-        "motion",
-        "frames"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/motion-frames/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
       }
     },
     {
@@ -27458,26 +25825,6 @@
       }
     },
     {
-      "id": "pm-spec",
-      "name": "pm spec",
-      "category": "frontend-ui",
-      "description": "问题 + 成功指标 + 范围 + user stories + 设计 + 发布 + 待解决",
-      "tags": [
-        "spec"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/pm-spec/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
       "id": "pol-probe",
       "name": "pol probe",
       "category": "product-management",
@@ -27606,28 +25953,6 @@
       }
     },
     {
-      "id": "poster-hero",
-      "name": "poster hero",
-      "category": "frontend-ui",
-      "description": "【模板: 营销海报】 - 容器 w-1080px h-1920px mx-auto, 全屏渐变 / mesh 背景。 - 上部 30% 留白 + 一个大 emoji 或抽象几何图形。 - 中部主标题占视觉中心 (text-8xl, font-black), 一句话副标题。 - 下部信息卡片: 3-5 条核心要点用图标 + 短句。 - 底部右下角放品牌 / 二维码 (用 SVG 占位)。 - 使用大胆的色彩: 渐变背景 (from-violet-500 via-fuchsia-500 to-indigo-500 之类), 文字白色 + 1 个对比色高亮。 - 使用 SVG 做装饰性元素 (圆 / 三角 / 波浪 / 噪点纹理)。",
-      "tags": [
-        "poster",
-        "hero"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/poster-hero/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      },
-      "description_source": "derived-from-body"
-    },
-    {
       "id": "postman-collection-generator",
       "name": "postman collection generator",
       "category": "testing-qa",
@@ -27719,27 +26044,6 @@
         "commit": "992638bccbc311f42c0bd8b2b3387a0d1ce6288d"
       },
       "description_source": "derived-from-body"
-    },
-    {
-      "id": "ppt-keynote",
-      "name": "ppt keynote",
-      "category": "frontend-ui",
-      "description": "苹果 Keynote 级别幻灯片, 一屏一卡, 键盘左右切换",
-      "tags": [
-        "ppt",
-        "keynote"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/ppt-keynote/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
     },
     {
       "id": "pr-babysitter",
@@ -27865,28 +26169,6 @@
         "path": "skills/pricing-packaging-tracker/SKILL.md",
         "commit": "cfcb697f14b8891d8b3ec43c16c3547df3e70e13"
       }
-    },
-    {
-      "id": "pricing-page",
-      "name": "pricing page",
-      "category": "frontend-ui",
-      "description": "【模板: 定价页】 【意图】标准 SaaS 三档定价页, 一眼对齐价值与价格。 【布局】 - Header + monthly/annual 切换 - 3 档定价卡片 (Free / Pro / Enterprise), 中间档 popular 高亮 - 完整特性对比表 (✓ / – / 不同档勾) - FAQ (details/summary) - 底部 CTA",
-      "tags": [
-        "pricing",
-        "page"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/pricing-page/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      },
-      "description_source": "derived-from-body"
     },
     {
       "id": "prioritization-advisor",
@@ -28212,27 +26494,6 @@
         "commit": "19d93f97c9c1ea0f8b306e77aa81e0d3e352d3e9"
       },
       "description_source": "derived-from-body"
-    },
-    {
-      "id": "prototype-web",
-      "name": "prototype web",
-      "category": "frontend-ui",
-      "description": "可点击的功能性 Web 原型, 含导航、英雄区、特性区、CTA",
-      "tags": [
-        "prototype",
-        "web"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/prototype-web/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
     },
     {
       "id": "protractor-skill",
@@ -28595,956 +26856,6 @@
       }
     },
     {
-      "id": "recipe-backup-sheet-as-csv",
-      "name": "recipe backup sheet as csv",
-      "category": "google-workspace",
-      "description": "Export a Google Sheets spreadsheet as a CSV file for local backup or processing.",
-      "tags": [
-        "recipe",
-        "backup",
-        "sheet",
-        "csv"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-backup-sheet-as-csv/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-batch-invite-to-event",
-      "name": "recipe batch invite to event",
-      "category": "google-workspace",
-      "description": "Add a list of attendees to an existing Google Calendar event and send notifications.",
-      "tags": [
-        "recipe",
-        "batch",
-        "invite",
-        "event"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-batch-invite-to-event/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-block-focus-time",
-      "name": "recipe block focus time",
-      "category": "google-workspace",
-      "description": "Create recurring focus time blocks on Google Calendar to protect deep work hours.",
-      "tags": [
-        "recipe",
-        "block",
-        "focus",
-        "time"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-block-focus-time/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-bulk-download-folder",
-      "name": "recipe bulk download folder",
-      "category": "google-workspace",
-      "description": "List and download all files from a Google Drive folder.",
-      "tags": [
-        "recipe",
-        "bulk",
-        "download",
-        "folder"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-bulk-download-folder/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-collect-form-responses",
-      "name": "recipe collect form responses",
-      "category": "google-workspace",
-      "description": "Retrieve and review responses from a Google Form.",
-      "tags": [
-        "recipe",
-        "collect",
-        "form",
-        "responses"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-collect-form-responses/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-compare-sheet-tabs",
-      "name": "recipe compare sheet tabs",
-      "category": "google-workspace",
-      "description": "Read data from two tabs in a Google Sheet to compare and identify differences.",
-      "tags": [
-        "recipe",
-        "compare",
-        "sheet",
-        "tabs"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-compare-sheet-tabs/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-copy-sheet-for-new-month",
-      "name": "recipe copy sheet for new month",
-      "category": "google-workspace",
-      "description": "Duplicate a Google Sheets template tab for a new month of tracking.",
-      "tags": [
-        "recipe",
-        "copy",
-        "sheet",
-        "for",
-        "new",
-        "month"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-copy-sheet-for-new-month/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-create-classroom-course",
-      "name": "recipe create classroom course",
-      "category": "google-workspace",
-      "description": "Create a Google Classroom course and invite students.",
-      "tags": [
-        "recipe",
-        "create",
-        "classroom",
-        "course"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-create-classroom-course/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-create-doc-from-template",
-      "name": "recipe create doc from template",
-      "category": "google-workspace",
-      "description": "Copy a Google Docs template, fill in content, and share with collaborators.",
-      "tags": [
-        "recipe",
-        "create",
-        "doc",
-        "from",
-        "template"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-create-doc-from-template/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-create-events-from-sheet",
-      "name": "recipe create events from sheet",
-      "category": "google-workspace",
-      "description": "Read event data from a Google Sheets spreadsheet and create Google Calendar entries for each row.",
-      "tags": [
-        "recipe",
-        "create",
-        "events",
-        "from",
-        "sheet"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-create-events-from-sheet/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-create-expense-tracker",
-      "name": "recipe create expense tracker",
-      "category": "google-workspace",
-      "description": "Set up a Google Sheets spreadsheet for tracking expenses with headers and initial entries.",
-      "tags": [
-        "recipe",
-        "create",
-        "expense",
-        "tracker"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-create-expense-tracker/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-create-feedback-form",
-      "name": "recipe create feedback form",
-      "category": "google-workspace",
-      "description": "Create a Google Form for feedback and share it via Gmail.",
-      "tags": [
-        "recipe",
-        "create",
-        "feedback",
-        "form"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-create-feedback-form/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-create-gmail-filter",
-      "name": "recipe create gmail filter",
-      "category": "google-workspace",
-      "description": "Create a Gmail filter to automatically label, star, or categorize incoming messages.",
-      "tags": [
-        "recipe",
-        "create",
-        "gmail",
-        "filter"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-create-gmail-filter/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-create-meet-space",
-      "name": "recipe create meet space",
-      "category": "google-workspace",
-      "description": "Create a Google Meet meeting space and share the join link.",
-      "tags": [
-        "recipe",
-        "create",
-        "meet",
-        "space"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-create-meet-space/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-create-presentation",
-      "name": "recipe create presentation",
-      "category": "google-workspace",
-      "description": "Create a new Google Slides presentation and add initial slides.",
-      "tags": [
-        "recipe",
-        "create",
-        "presentation"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-create-presentation/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-create-shared-drive",
-      "name": "recipe create shared drive",
-      "category": "google-workspace",
-      "description": "Create a Google Shared Drive and add members with appropriate roles.",
-      "tags": [
-        "recipe",
-        "create",
-        "shared",
-        "drive"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-create-shared-drive/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-create-task-list",
-      "name": "recipe create task list",
-      "category": "google-workspace",
-      "description": "Set up a new Google Tasks list with initial tasks.",
-      "tags": [
-        "recipe",
-        "create",
-        "task",
-        "list"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-create-task-list/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-create-vacation-responder",
-      "name": "recipe create vacation responder",
-      "category": "google-workspace",
-      "description": "Enable a Gmail out-of-office auto-reply with a custom message and date range.",
-      "tags": [
-        "recipe",
-        "create",
-        "vacation",
-        "responder"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-create-vacation-responder/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-draft-email-from-doc",
-      "name": "recipe draft email from doc",
-      "category": "google-workspace",
-      "description": "Read content from a Google Doc and use it as the body of a Gmail message.",
-      "tags": [
-        "recipe",
-        "draft",
-        "email",
-        "from",
-        "doc"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-draft-email-from-doc/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-email-drive-link",
-      "name": "recipe email drive link",
-      "category": "google-workspace",
-      "description": "Share a Google Drive file and email the link with a message to recipients.",
-      "tags": [
-        "recipe",
-        "email",
-        "drive",
-        "link"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-email-drive-link/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-find-free-time",
-      "name": "recipe find free time",
-      "category": "google-workspace",
-      "description": "Query Google Calendar free/busy status for multiple users to find a meeting slot.",
-      "tags": [
-        "recipe",
-        "find",
-        "free",
-        "time"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-find-free-time/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-find-large-files",
-      "name": "recipe find large files",
-      "category": "google-workspace",
-      "description": "Identify large Google Drive files consuming storage quota.",
-      "tags": [
-        "recipe",
-        "find",
-        "large",
-        "files"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-find-large-files/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-forward-labeled-emails",
-      "name": "recipe forward labeled emails",
-      "category": "google-workspace",
-      "description": "Find Gmail messages with a specific label and forward them to another address.",
-      "tags": [
-        "recipe",
-        "forward",
-        "labeled",
-        "emails"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-forward-labeled-emails/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-generate-report-from-sheet",
-      "name": "recipe generate report from sheet",
-      "category": "google-workspace",
-      "description": "Read data from a Google Sheet and create a formatted Google Docs report.",
-      "tags": [
-        "recipe",
-        "generate",
-        "report",
-        "from",
-        "sheet"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-generate-report-from-sheet/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-label-and-archive-emails",
-      "name": "recipe label and archive emails",
-      "category": "google-workspace",
-      "description": "Apply Gmail labels to matching messages and archive them to keep your inbox clean.",
-      "tags": [
-        "recipe",
-        "label",
-        "and",
-        "archive",
-        "emails"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-label-and-archive-emails/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-log-deal-update",
-      "name": "recipe log deal update",
-      "category": "google-workspace",
-      "description": "Append a deal status update to a Google Sheets sales tracking spreadsheet.",
-      "tags": [
-        "recipe",
-        "log",
-        "deal",
-        "update"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-log-deal-update/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-organize-drive-folder",
-      "name": "recipe organize drive folder",
-      "category": "google-workspace",
-      "description": "Create a Google Drive folder structure and move files into the right locations.",
-      "tags": [
-        "recipe",
-        "organize",
-        "drive",
-        "folder"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-organize-drive-folder/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-plan-weekly-schedule",
-      "name": "recipe plan weekly schedule",
-      "category": "google-workspace",
-      "description": "Review your Google Calendar week, identify gaps, and add events to fill them.",
-      "tags": [
-        "recipe",
-        "plan",
-        "weekly",
-        "schedule"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-plan-weekly-schedule/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-post-mortem-setup",
-      "name": "recipe post mortem setup",
-      "category": "google-workspace",
-      "description": "Create a Google Docs post-mortem, schedule a Google Calendar review, and notify via Chat.",
-      "tags": [
-        "recipe",
-        "post",
-        "mortem",
-        "setup"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-post-mortem-setup/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-reschedule-meeting",
-      "name": "recipe reschedule meeting",
-      "category": "google-workspace",
-      "description": "Move a Google Calendar event to a new time and automatically notify all attendees.",
-      "tags": [
-        "recipe",
-        "reschedule",
-        "meeting"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-reschedule-meeting/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-review-meet-participants",
-      "name": "recipe review meet participants",
-      "category": "google-workspace",
-      "description": "Review who attended a Google Meet conference and for how long.",
-      "tags": [
-        "recipe",
-        "review",
-        "meet",
-        "participants"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-review-meet-participants/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-review-overdue-tasks",
-      "name": "recipe review overdue tasks",
-      "category": "google-workspace",
-      "description": "Find Google Tasks that are past due and need attention.",
-      "tags": [
-        "recipe",
-        "review",
-        "overdue",
-        "tasks"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-review-overdue-tasks/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-save-email-attachments",
-      "name": "recipe save email attachments",
-      "category": "google-workspace",
-      "description": "Find Gmail messages with attachments and save them to a Google Drive folder.",
-      "tags": [
-        "recipe",
-        "save",
-        "email",
-        "attachments"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-save-email-attachments/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-save-email-to-doc",
-      "name": "recipe save email to doc",
-      "category": "google-workspace",
-      "description": "Save a Gmail message body into a Google Doc for archival or reference.",
-      "tags": [
-        "recipe",
-        "save",
-        "email",
-        "doc"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-save-email-to-doc/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-schedule-recurring-event",
-      "name": "recipe schedule recurring event",
-      "category": "google-workspace",
-      "description": "Create a recurring Google Calendar event with attendees.",
-      "tags": [
-        "recipe",
-        "schedule",
-        "recurring",
-        "event"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-schedule-recurring-event/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-send-team-announcement",
-      "name": "recipe send team announcement",
-      "category": "google-workspace",
-      "description": "Send a team announcement via both Gmail and a Google Chat space.",
-      "tags": [
-        "recipe",
-        "send",
-        "team",
-        "announcement"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-send-team-announcement/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-share-doc-and-notify",
-      "name": "recipe share doc and notify",
-      "category": "google-workspace",
-      "description": "Share a Google Docs document with edit access and email collaborators the link.",
-      "tags": [
-        "recipe",
-        "share",
-        "doc",
-        "and",
-        "notify"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-share-doc-and-notify/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-share-event-materials",
-      "name": "recipe share event materials",
-      "category": "google-workspace",
-      "description": "Share Google Drive files with all attendees of a Google Calendar event.",
-      "tags": [
-        "recipe",
-        "share",
-        "event",
-        "materials"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-share-event-materials/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-share-folder-with-team",
-      "name": "recipe share folder with team",
-      "category": "google-workspace",
-      "description": "Share a Google Drive folder and all its contents with a list of collaborators.",
-      "tags": [
-        "recipe",
-        "share",
-        "folder",
-        "with",
-        "team"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-share-folder-with-team/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-sync-contacts-to-sheet",
-      "name": "recipe sync contacts to sheet",
-      "category": "google-workspace",
-      "description": "Export Google Contacts directory to a Google Sheets spreadsheet.",
-      "tags": [
-        "recipe",
-        "sync",
-        "contacts",
-        "sheet"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-sync-contacts-to-sheet/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
-      "id": "recipe-watch-drive-changes",
-      "name": "recipe watch drive changes",
-      "category": "google-workspace",
-      "description": "Subscribe to change notifications on a Google Drive file or folder.",
-      "tags": [
-        "recipe",
-        "watch",
-        "drive",
-        "changes"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "googleworkspace/cli",
-        "path": "skills/recipe-watch-drive-changes/SKILL.md",
-        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
-      }
-    },
-    {
       "id": "recommendation-canvas",
       "name": "recommendation canvas",
       "category": "product-management",
@@ -29868,49 +27179,6 @@
       }
     },
     {
-      "id": "remotion-multimedia",
-      "name": "remotion multimedia",
-      "category": "media-design",
-      "description": "Interacting with Mediabunny",
-      "tags": [
-        "remotion",
-        "multimedia"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "NOASSERTION",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "remotion-dev/skills",
-        "path": "skills/remotion-multimedia/SKILL.md",
-        "commit": "30d4553ecd46fbc5212fd0ff006ae43af522158b"
-      }
-    },
-    {
-      "id": "remotion-render",
-      "name": "remotion render",
-      "category": "media-design",
-      "description": "Full list of options: https://www.remotion.dev/docs/cli/render.md",
-      "tags": [
-        "remotion",
-        "render"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "NOASSERTION",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "remotion-dev/skills",
-        "path": "skills/remotion-render/SKILL.md",
-        "commit": "30d4553ecd46fbc5212fd0ff006ae43af522158b"
-      },
-      "description_source": "derived-from-body"
-    },
-    {
       "id": "remotion-saas",
       "name": "remotion saas",
       "category": "media-design",
@@ -30101,27 +27369,6 @@
         "repo": "dembrandt/dembrandt-skills",
         "path": "skills/responsive-paradigms/SKILL.md",
         "commit": "c4ad177dea5b864f779f8c722f28cf04f760cb22"
-      }
-    },
-    {
-      "id": "resume-modern",
-      "name": "resume modern",
-      "category": "frontend-ui",
-      "description": "现代极简简历, A4 单页, 适合打印或导出 PDF",
-      "tags": [
-        "resume",
-        "modern"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/resume-modern/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
       }
     },
     {
@@ -30493,27 +27740,6 @@
         "repo": "deanpeters/Product-Manager-Skills",
         "path": "skills/saas-economics-efficiency-metrics/SKILL.md",
         "commit": "cfcb697f14b8891d8b3ec43c16c3547df3e70e13"
-      }
-    },
-    {
-      "id": "saas-landing",
-      "name": "saas landing",
-      "category": "frontend-ui",
-      "description": "单页 SaaS 落地页, 含 hero/features/social-proof/pricing/CTA",
-      "tags": [
-        "saas",
-        "landing"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/saas-landing/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
       }
     },
     {
@@ -31420,49 +28646,6 @@
       }
     },
     {
-      "id": "social-carousel",
-      "name": "social carousel",
-      "category": "frontend-ui",
-      "description": "三张方形卡片轮播, 标题串联, 品牌 mark + 编号",
-      "tags": [
-        "social",
-        "carousel"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/social-carousel/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
-      "id": "social-media-dashboard",
-      "name": "social media dashboard",
-      "category": "frontend-ui",
-      "description": "平台切换 + 粉丝/互动 KPI + 增长曲线 + Top post + 热门话题",
-      "tags": [
-        "social",
-        "media",
-        "dashboard"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/social-media-dashboard/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
       "id": "social-media-finder-skill",
       "name": "social media finder skill",
       "category": "browser-automation",
@@ -31486,50 +28669,6 @@
       }
     },
     {
-      "id": "social-media-matrix",
-      "name": "social media matrix",
-      "category": "frontend-ui",
-      "description": "电影感多平台社媒分析: 互动图、悬浮洞察、区间对比、明暗主题",
-      "tags": [
-        "social",
-        "media",
-        "matrix"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/social-media-matrix/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
-      "id": "social-reddit-card",
-      "name": "social reddit card",
-      "category": "frontend-ui",
-      "description": "拟真 Reddit 帖子卡 + 上下投票 + 评论数, 适合视频叠加 / 故事分享",
-      "tags": [
-        "social",
-        "reddit",
-        "card"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/social-reddit-card/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
       "id": "social-selling",
       "name": "social selling",
       "category": "engineering-workflow",
@@ -31548,50 +28687,6 @@
         "repo": "tech-leads-club/agent-skills",
         "path": "packages/skills-catalog/skills/(gtm)/social-selling/SKILL.md",
         "commit": "738451e40785750a8e8de5bce8112675f5f0df02"
-      }
-    },
-    {
-      "id": "social-spotify-card",
-      "name": "social spotify card",
-      "category": "frontend-ui",
-      "description": "Spotify Now Playing 风格卡: 专辑封面 + 进度条 + 播放控制, 适配视频叠加 / 个人主页",
-      "tags": [
-        "social",
-        "spotify",
-        "card"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/social-spotify-card/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
-      "id": "social-x-post-card",
-      "name": "social x post card",
-      "category": "frontend-ui",
-      "description": "拟真 X 推文卡片 + 互动数据 (likes/reposts/views), 适配视频叠加或图卡分享",
-      "tags": [
-        "social",
-        "post",
-        "card"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/social-x-post-card/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
       }
     },
     {
@@ -31742,27 +28837,6 @@
         "repo": "NoizAI/skills",
         "path": "skills/speech-to-text/SKILL.md",
         "commit": "779f30af588ebf4dd17fc0acaa590ae147a0d3f5"
-      }
-    },
-    {
-      "id": "sprite-animation",
-      "name": "sprite animation",
-      "category": "frontend-ui",
-      "description": "像素美术 + kinetic 字体的解说帧, 纯 CSS 循环, 可录视频",
-      "tags": [
-        "sprite",
-        "animation"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/sprite-animation/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
       }
     },
     {
@@ -32285,27 +29359,6 @@
       }
     },
     {
-      "id": "team-okrs",
-      "name": "team okrs",
-      "category": "frontend-ui",
-      "description": "季度 banner + 3 个目标 + KR 进度条 + owner + 状态 pill",
-      "tags": [
-        "team",
-        "okrs"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/team-okrs/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
       "id": "technical-design-doc-creator",
       "name": "technical design doc creator",
       "category": "engineering-workflow",
@@ -32347,27 +29400,6 @@
         "repo": "vercel-labs/agent-browser",
         "path": ".agents/skills/technical-writer/SKILL.md",
         "commit": "1453dd37a40c730fe00f592bc32198a896ff8747"
-      }
-    },
-    {
-      "id": "template-skill",
-      "name": "template skill",
-      "category": "media-design",
-      "description": "Reusable template for authoring new Agent Skills with clear triggers, workflow, and I/O contracts.",
-      "tags": [
-        "template",
-        "skill"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "NOASSERTION",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "NoizAI/skills",
-        "path": "skills/template-skill/SKILL.md",
-        "commit": "779f30af588ebf4dd17fc0acaa590ae147a0d3f5"
       }
     },
     {
@@ -34126,49 +31158,6 @@
       }
     },
     {
-      "id": "vfx-text-cursor",
-      "name": "vfx text cursor",
-      "category": "frontend-ui",
-      "description": "光标拖光 + 彩色像散射线 + 定向光斑, 适合视频片头逐字揭示金句",
-      "tags": [
-        "vfx",
-        "text",
-        "cursor"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/vfx-text-cursor/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
-      "id": "video-hyperframes",
-      "name": "video hyperframes",
-      "category": "frontend-ui",
-      "description": "Hyperframes / Remotion 兼容的连续帧动画, 可自动播放",
-      "tags": [
-        "video",
-        "hyperframes"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/video-hyperframes/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
       "id": "video-outreach",
       "name": "video outreach",
       "category": "engineering-workflow",
@@ -34322,27 +31311,6 @@
       }
     },
     {
-      "id": "waitlist-page",
-      "name": "waitlist page",
-      "category": "frontend-ui",
-      "description": "极简产品预发布落地页, 含邮箱捕获、logo、装饰图层",
-      "tags": [
-        "waitlist",
-        "page"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/waitlist-page/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
       "id": "walmart-category-listing",
       "name": "walmart category listing",
       "category": "browser-automation",
@@ -34471,72 +31439,6 @@
         "repo": "tech-leads-club/agent-skills",
         "path": "packages/skills-catalog/skills/(design)/web-design-guidelines/SKILL.md",
         "commit": "738451e40785750a8e8de5bce8112675f5f0df02"
-      }
-    },
-    {
-      "id": "web-proto-brutalist",
-      "name": "web proto brutalist",
-      "category": "frontend-ui",
-      "description": "Swiss industrial-print 风: 单字 grotesque、巨数字、ASCII 装饰",
-      "tags": [
-        "web",
-        "proto",
-        "brutalist"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/web-proto-brutalist/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
-      "id": "web-proto-editorial",
-      "name": "web proto editorial",
-      "category": "frontend-ui",
-      "description": "Editorial-minimalist: 暖色单色 canvas + serif display + grotesque body",
-      "tags": [
-        "web",
-        "proto",
-        "editorial"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/web-proto-editorial/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
-      "id": "web-proto-soft",
-      "name": "web proto soft",
-      "category": "frontend-ui",
-      "description": "Apple 调: 银/奶 canvas + 双层斜面卡片 + button-in-button + spring",
-      "tags": [
-        "web",
-        "proto",
-        "soft"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/web-proto-soft/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
       }
     },
     {
@@ -34697,27 +31599,6 @@
       }
     },
     {
-      "id": "weekly-update",
-      "name": "weekly update",
-      "category": "frontend-ui",
-      "description": "6-8 页横向滑动周报: 已发布 / 进行中 / 阻塞 / 指标 / 求助",
-      "tags": [
-        "weekly",
-        "update"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/weekly-update/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
-      }
-    },
-    {
       "id": "welcome",
       "name": "welcome",
       "category": "engineering-workflow",
@@ -34777,27 +31658,6 @@
         "repo": "zebbern/claude-code-guide",
         "path": "skills/windows-privilege-escalation/SKILL.md",
         "commit": "b50a31ad52510d148709b1eb61406952a02c3d19"
-      }
-    },
-    {
-      "id": "wireframe-sketch",
-      "name": "wireframe sketch",
-      "category": "frontend-ui",
-      "description": "网格背景 + marker 笔触 + 多 tab + sticky note + scribble 图表",
-      "tags": [
-        "wireframe",
-        "sketch"
-      ],
-      "source_repos": [],
-      "version": "1.0.0",
-      "updated": "2026-10-29",
-      "source_snapshot": {},
-      "license": "Apache-2.0",
-      "origin": "third-party",
-      "upstream": {
-        "repo": "nexu-io/html-anything",
-        "path": "next/src/lib/templates/skills/wireframe-sketch/SKILL.md",
-        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
       }
     },
     {
@@ -35529,6 +32389,413 @@
       }
     },
     {
+      "id": "html-document-templates",
+      "name": "HTML document templates — resume, invoice, notes, OKRs, spec, runbook, article",
+      "category": "office-docs",
+      "description": "HTML document templates — resume, invoice, notes, OKRs, spec, runbook, article. Use when the task is to produce one of these variants and you need the right starting point rather than a blank page.",
+      "tags": [
+        "html",
+        "document",
+        "templates"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-10-29",
+      "source_snapshot": {},
+      "license": "Apache-2.0",
+      "origin": "third-party-merged",
+      "upstream": {
+        "repo": "nexu-io/html-anything",
+        "path": "next/src/lib/templates/skills/article-magazine/SKILL.md",
+        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
+      },
+      "merged_from": [
+        "article-magazine",
+        "article-sketchnote-editorial",
+        "blog-post",
+        "competitive-teardown",
+        "dating-web",
+        "digital-eguide",
+        "doc-kami-parchment",
+        "eng-runbook",
+        "exec-briefing-memo",
+        "experiment-readout",
+        "frame-data-chart-nyt",
+        "frame-flowchart-sticky",
+        "frame-glitch-title",
+        "frame-light-leak-cinema",
+        "frame-liquid-bg-hero",
+        "frame-logo-outro",
+        "frame-macos-notification",
+        "gamified-app",
+        "hr-onboarding",
+        "info-funnel",
+        "invoice",
+        "meeting-notes",
+        "mobile-app",
+        "mobile-onboarding",
+        "mockup-device-3d",
+        "pm-spec",
+        "resume-modern",
+        "team-okrs",
+        "vfx-text-cursor",
+        "weekly-update"
+      ]
+    },
+    {
+      "id": "html-visual-card-styles",
+      "name": "HTML card and poster styles — social cards, carousels, posters, motion frames",
+      "category": "media-design",
+      "description": "HTML card and poster styles — social cards, carousels, posters, motion frames. Use when the task is to produce one of these variants and you need the right starting point rather than a blank page.",
+      "tags": [
+        "html",
+        "visual",
+        "card",
+        "styles"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-10-29",
+      "source_snapshot": {},
+      "license": "Apache-2.0",
+      "origin": "third-party-merged",
+      "upstream": {
+        "repo": "nexu-io/html-anything",
+        "path": "next/src/lib/templates/skills/card-twitter/SKILL.md",
+        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
+      },
+      "merged_from": [
+        "card-twitter",
+        "card-xiaohongshu",
+        "email-marketing",
+        "magazine-poster",
+        "poster-hero",
+        "social-carousel",
+        "social-reddit-card",
+        "social-spotify-card",
+        "social-x-post-card",
+        "sprite-animation",
+        "video-hyperframes"
+      ]
+    },
+    {
+      "id": "html-dashboard-styles",
+      "name": "HTML dashboard styles — KPI boards, analytics and team dashboards",
+      "category": "frontend-ui",
+      "description": "HTML dashboard styles — KPI boards, analytics and team dashboards. Use when the task is to produce one of these variants and you need the right starting point rather than a blank page.",
+      "tags": [
+        "html",
+        "dashboard",
+        "styles"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-10-29",
+      "source_snapshot": {},
+      "license": "Apache-2.0",
+      "origin": "third-party-merged",
+      "upstream": {
+        "repo": "nexu-io/html-anything",
+        "path": "next/src/lib/templates/skills/dashboard/SKILL.md",
+        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
+      },
+      "merged_from": [
+        "dashboard",
+        "data-report",
+        "finance-report",
+        "flowai-team-dashboard",
+        "kanban-board",
+        "live-dashboard",
+        "social-media-dashboard",
+        "social-media-matrix"
+      ]
+    },
+    {
+      "id": "html-deck-styles",
+      "name": "HTML deck styles — 30+ art-directed slide systems",
+      "category": "office-docs",
+      "description": "HTML deck styles — 30+ art-directed slide systems. Use when the task is to produce one of these variants and you need the right starting point rather than a blank page.",
+      "tags": [
+        "html",
+        "deck",
+        "styles"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-10-29",
+      "source_snapshot": {},
+      "license": "Apache-2.0",
+      "origin": "third-party-merged",
+      "upstream": {
+        "repo": "nexu-io/html-anything",
+        "path": "next/src/lib/templates/skills/deck-blueprint/SKILL.md",
+        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
+      },
+      "merged_from": [
+        "deck-blueprint",
+        "deck-course-module",
+        "deck-dir-key-nav",
+        "deck-graphify-dark",
+        "deck-guizang-editorial",
+        "deck-hermes-cyber",
+        "deck-ljg-present",
+        "deck-magazine-web",
+        "deck-obsidian-claude",
+        "deck-open-slide-canvas",
+        "deck-pitch",
+        "deck-presenter-mode",
+        "deck-product-launch",
+        "deck-replit",
+        "deck-safety-alert",
+        "deck-simple",
+        "deck-swiss-international",
+        "deck-tech-sharing",
+        "deck-xhs-pastel",
+        "deck-xhs-post",
+        "deck-xhs-white",
+        "ppt-keynote"
+      ]
+    },
+    {
+      "id": "html-web-page-styles",
+      "name": "HTML web page styles — landing, pricing, docs, wireframe and prototype looks",
+      "category": "frontend-ui",
+      "description": "HTML web page styles — landing, pricing, docs, wireframe and prototype looks. Use when the task is to produce one of these variants and you need the right starting point rather than a blank page.",
+      "tags": [
+        "html",
+        "web",
+        "page",
+        "styles"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-10-29",
+      "source_snapshot": {},
+      "license": "Apache-2.0",
+      "origin": "third-party-merged",
+      "upstream": {
+        "repo": "nexu-io/html-anything",
+        "path": "next/src/lib/templates/skills/docs-page/SKILL.md",
+        "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
+      },
+      "merged_from": [
+        "docs-page",
+        "motion-frames",
+        "pricing-page",
+        "prototype-web",
+        "saas-landing",
+        "waitlist-page",
+        "web-proto-brutalist",
+        "web-proto-editorial",
+        "web-proto-soft",
+        "wireframe-sketch"
+      ]
+    },
+    {
+      "id": "recipe-sheets",
+      "name": "Sheets recipes — read, compare, duplicate, export, track",
+      "category": "google-workspace",
+      "description": "Sheets recipes — read, compare, duplicate, export, track. Use when the task is to produce one of these variants and you need the right starting point rather than a blank page.",
+      "tags": [
+        "recipe",
+        "sheets"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-10-29",
+      "source_snapshot": {},
+      "license": "Apache-2.0",
+      "origin": "third-party-merged",
+      "upstream": {
+        "repo": "googleworkspace/cli",
+        "path": "skills/recipe-backup-sheet-as-csv/SKILL.md",
+        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
+      },
+      "merged_from": [
+        "recipe-backup-sheet-as-csv",
+        "recipe-compare-sheet-tabs",
+        "recipe-copy-sheet-for-new-month",
+        "recipe-generate-report-from-sheet",
+        "recipe-sync-contacts-to-sheet"
+      ]
+    },
+    {
+      "id": "recipe-calendar",
+      "name": "Calendar and Meet recipes — events, free/busy, invites, conferences",
+      "category": "google-workspace",
+      "description": "Calendar and Meet recipes — events, free/busy, invites, conferences. Use when the task is to produce one of these variants and you need the right starting point rather than a blank page.",
+      "tags": [
+        "recipe",
+        "calendar"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-10-29",
+      "source_snapshot": {},
+      "license": "Apache-2.0",
+      "origin": "third-party-merged",
+      "upstream": {
+        "repo": "googleworkspace/cli",
+        "path": "skills/recipe-batch-invite-to-event/SKILL.md",
+        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
+      },
+      "merged_from": [
+        "recipe-batch-invite-to-event",
+        "recipe-create-events-from-sheet",
+        "recipe-create-meet-space",
+        "recipe-find-free-time",
+        "recipe-plan-weekly-schedule",
+        "recipe-reschedule-meeting",
+        "recipe-review-meet-participants",
+        "recipe-schedule-recurring-event",
+        "recipe-share-event-materials"
+      ]
+    },
+    {
+      "id": "recipe-workspace-admin",
+      "name": "Workspace admin recipes — tasks, forms, classroom, contacts, personas",
+      "category": "google-workspace",
+      "description": "Workspace admin recipes — tasks, forms, classroom, contacts, personas. Use when the task is to produce one of these variants and you need the right starting point rather than a blank page.",
+      "tags": [
+        "recipe",
+        "workspace",
+        "admin"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-10-29",
+      "source_snapshot": {},
+      "license": "Apache-2.0",
+      "origin": "third-party-merged",
+      "upstream": {
+        "repo": "googleworkspace/cli",
+        "path": "skills/recipe-block-focus-time/SKILL.md",
+        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
+      },
+      "merged_from": [
+        "recipe-block-focus-time",
+        "recipe-collect-form-responses",
+        "recipe-create-classroom-course",
+        "recipe-create-expense-tracker",
+        "recipe-create-feedback-form",
+        "recipe-create-task-list",
+        "recipe-log-deal-update",
+        "recipe-review-overdue-tasks",
+        "recipe-send-team-announcement"
+      ]
+    },
+    {
+      "id": "recipe-drive",
+      "name": "Drive recipes — folders, sharing, bulk download, change watches",
+      "category": "google-workspace",
+      "description": "Drive recipes — folders, sharing, bulk download, change watches. Use when the task is to produce one of these variants and you need the right starting point rather than a blank page.",
+      "tags": [
+        "recipe",
+        "drive"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-10-29",
+      "source_snapshot": {},
+      "license": "Apache-2.0",
+      "origin": "third-party-merged",
+      "upstream": {
+        "repo": "googleworkspace/cli",
+        "path": "skills/recipe-bulk-download-folder/SKILL.md",
+        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
+      },
+      "merged_from": [
+        "recipe-bulk-download-folder",
+        "recipe-create-shared-drive",
+        "recipe-find-large-files",
+        "recipe-organize-drive-folder",
+        "recipe-share-folder-with-team",
+        "recipe-watch-drive-changes"
+      ]
+    },
+    {
+      "id": "recipe-docs",
+      "name": "Docs and Slides recipes — create, template, share, report",
+      "category": "google-workspace",
+      "description": "Docs and Slides recipes — create, template, share, report. Use when the task is to produce one of these variants and you need the right starting point rather than a blank page.",
+      "tags": [
+        "recipe",
+        "docs"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-10-29",
+      "source_snapshot": {},
+      "license": "Apache-2.0",
+      "origin": "third-party-merged",
+      "upstream": {
+        "repo": "googleworkspace/cli",
+        "path": "skills/recipe-create-doc-from-template/SKILL.md",
+        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
+      },
+      "merged_from": [
+        "recipe-create-doc-from-template",
+        "recipe-create-presentation",
+        "recipe-post-mortem-setup",
+        "recipe-share-doc-and-notify"
+      ]
+    },
+    {
+      "id": "recipe-gmail",
+      "name": "Gmail recipes — label, forward, archive, draft, auto-reply",
+      "category": "google-workspace",
+      "description": "Gmail recipes — label, forward, archive, draft, auto-reply. Use when the task is to produce one of these variants and you need the right starting point rather than a blank page.",
+      "tags": [
+        "recipe",
+        "gmail"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-10-29",
+      "source_snapshot": {},
+      "license": "Apache-2.0",
+      "origin": "third-party-merged",
+      "upstream": {
+        "repo": "googleworkspace/cli",
+        "path": "skills/recipe-create-gmail-filter/SKILL.md",
+        "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
+      },
+      "merged_from": [
+        "recipe-create-gmail-filter",
+        "recipe-create-vacation-responder",
+        "recipe-draft-email-from-doc",
+        "recipe-email-drive-link",
+        "recipe-forward-labeled-emails",
+        "recipe-label-and-archive-emails",
+        "recipe-save-email-attachments",
+        "recipe-save-email-to-doc"
+      ]
+    },
+    {
+      "id": "grilling",
+      "name": "grill me",
+      "category": "engineering-workflow",
+      "description": "grill me. Use when the task is to produce one of these variants and you need the right starting point rather than a blank page.",
+      "tags": [
+        "grilling"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-10-29",
+      "source_snapshot": {},
+      "license": "MIT",
+      "origin": "third-party-merged",
+      "upstream": {
+        "repo": "mattpocock/skills",
+        "path": "skills/productivity/grill-me/SKILL.md",
+        "commit": "a496f5513d4a4cf889bc48e189e579f4b0bdf6aa"
+      },
+      "merged_from": [
+        "grill-me",
+        "grill-with-docs"
+      ]
+    },
+    {
       "id": "pack-code-quality",
       "name": "Code quality pack — review, autofix, PR gates, Bash",
       "category": "code-quality",
@@ -35727,13 +32994,10 @@
         "animation-vocabulary",
         "app-shell",
         "apple-design",
-        "article-magazine",
-        "article-sketchnote-editorial",
         "ask-sonner",
         "authentic-product-representation",
         "banner-design",
         "baseline-ui",
-        "blog-post",
         "brand",
         "brand-guidelines",
         "brand-visual-language",
@@ -35741,142 +33005,74 @@
         "buddy-sings",
         "button-states",
         "canvas-design",
-        "card-twitter",
-        "card-xiaohongshu",
         "clone-website",
         "color-font-skill",
         "color-mode-and-theme",
-        "competitive-teardown",
         "component-canvas",
         "component-family-consistency",
         "coordinated-data-views",
         "create-canvas",
         "create-design-md",
-        "dashboard",
         "dashmotion",
         "data-display-and-selection",
-        "data-report",
-        "dating-web",
-        "deck-blueprint",
-        "deck-course-module",
-        "deck-dir-key-nav",
-        "deck-graphify-dark",
-        "deck-guizang-editorial",
-        "deck-hermes-cyber",
-        "deck-ljg-present",
-        "deck-magazine-web",
-        "deck-obsidian-claude",
-        "deck-open-slide-canvas",
-        "deck-pitch",
-        "deck-presenter-mode",
-        "deck-product-launch",
-        "deck-replit",
-        "deck-safety-alert",
-        "deck-simple",
-        "deck-swiss-international",
-        "deck-tech-sharing",
-        "deck-xhs-pastel",
-        "deck-xhs-post",
-        "deck-xhs-white",
         "dembrandt",
         "design",
         "design-style-skill",
         "design-system",
-        "digital-eguide",
-        "doc-kami-parchment",
-        "docs-page",
         "domain-expert-configuration",
         "elevation-and-depth",
-        "email-marketing",
         "emil-design-eng",
-        "eng-runbook",
-        "exec-briefing-memo",
-        "experiment-readout",
         "extract-design",
-        "finance-report",
         "find-animation-opportunities",
         "fixing-accessibility",
         "fixing-metadata",
         "fixing-motion-performance",
-        "flowai-team-dashboard",
         "form-design",
-        "frame-data-chart-nyt",
-        "frame-flowchart-sticky",
-        "frame-glitch-title",
-        "frame-light-leak-cinema",
-        "frame-liquid-bg-hero",
-        "frame-logo-outro",
-        "frame-macos-notification",
         "frontend-design",
         "frontend-dev",
         "frontend-ui-engineering",
-        "gamified-app",
         "generate-ui-from-brand",
         "gestalt-ui-organisation",
         "gif-sticker-maker",
         "global-toolbar-controls",
         "hallmark",
-        "hr-onboarding",
+        "html-dashboard-styles",
+        "html-web-page-styles",
         "improve-animations",
         "improve-ui",
-        "info-funnel",
         "information-architecture",
-        "invoice",
-        "kanban-board",
         "layout-paradigms-and-consistency",
-        "live-dashboard",
         "loading-states-and-perceived-performance",
-        "magazine-poster",
         "marketing-vs-product-system",
-        "meeting-notes",
         "micro-interactions",
         "minimax-music-gen",
         "minimax-music-playlist",
         "mmx-cli",
-        "mobile-app",
         "mobile-native",
-        "mobile-onboarding",
-        "mockup-device-3d",
         "modal-and-overlay-patterns",
         "modular-scale-typography",
         "motion-and-storytelling",
-        "motion-frames",
         "nielsen-usability-heuristics",
         "notifications-and-recovery",
         "operational-expert-tool-ui",
         "performance-and-web-vitals",
         "pick-ui-library",
-        "pm-spec",
-        "poster-hero",
-        "ppt-keynote",
         "pr-review",
-        "pricing-page",
-        "prototype-web",
         "real-world-metaphors",
         "remove-animations",
         "repeated-component-alignment",
         "responsive-paradigms",
-        "resume-modern",
         "review-animations",
-        "saas-landing",
         "scroll-areas",
         "semantic-html-and-seo",
         "shader-dev",
         "sizing-units",
         "slack-gif-creator",
         "slides",
-        "social-carousel",
-        "social-media-dashboard",
-        "social-media-matrix",
-        "social-reddit-card",
-        "social-spotify-card",
-        "social-x-post-card",
-        "sprite-animation",
         "status-colors-and-errors",
         "sticky-and-fixed-elements",
         "surface-separation",
         "tab-navigation",
-        "team-okrs",
         "theme-factory",
         "ui-context-and-scope",
         "ui-density",
@@ -35887,18 +33083,10 @@
         "vercel-composition-patterns",
         "vercel-react-best-practices",
         "vercel-react-view-transitions",
-        "vfx-text-cursor",
-        "video-hyperframes",
         "vision-analysis",
         "visual-emphasis-and-hierarchy",
-        "waitlist-page",
         "wcag-accessibility",
         "web-artifacts-builder",
-        "web-proto-brutalist",
-        "web-proto-editorial",
-        "web-proto-soft",
-        "weekly-update",
-        "wireframe-sketch",
         "write-swift"
       ]
     },
@@ -36493,21 +33681,19 @@
         "commit": ""
       },
       "subskills": [
-        "docx",
         "frontend-slides",
+        "html-deck-styles",
+        "html-document-templates",
         "minimax-docx",
         "minimax-pdf",
         "minimax-xlsx",
-        "pdf",
         "pdf-conversion-router",
         "ppt-editing-skill",
         "ppt-orchestra-skill",
-        "pptx",
         "pptx-deck-creation",
         "pptx-generator",
         "slide-making-skill",
-        "spreadsheet-manual-build",
-        "xlsx"
+        "spreadsheet-manual-build"
       ]
     },
     {
@@ -36608,7 +33794,6 @@
         "cavecrew",
         "caveman",
         "caveman-commit",
-        "caveman-compress",
         "caveman-discover",
         "caveman-evidence-review",
         "caveman-explore",
@@ -36618,7 +33803,6 @@
         "caveman-optimize",
         "caveman-review",
         "caveman-setup",
-        "caveman-stats",
         "chart-image",
         "chat-history",
         "chief-of-staff",
@@ -36650,20 +33834,12 @@
         "content-to-pipeline",
         "context-engineering",
         "context-mode",
-        "context-mode-ops",
         "convert-documents-to-markdown",
         "core-web-vitals",
         "coupling-analysis",
         "create-adr",
         "create-rfc",
         "cross-examine",
-        "ctx-doctor",
-        "ctx-index",
-        "ctx-insight",
-        "ctx-purge",
-        "ctx-search",
-        "ctx-stats",
-        "ctx-upgrade",
         "cursor-subagent-creator",
         "customize",
         "cv-tailor",
@@ -36711,8 +33887,6 @@
         "gh-fix-ci",
         "ghostwriter",
         "git-workflow-and-versioning",
-        "grill-me",
-        "grill-with-docs",
         "grilling",
         "gtm-engineering",
         "gtm-metrics",
@@ -36934,7 +34108,6 @@
         "vercel-deploy",
         "verify-and-stop",
         "video-outreach",
-        "wait-what",
         "web-design-guidelines",
         "web-quality-audit",
         "welcome",
@@ -37242,47 +34415,12 @@
         "persona-researcher",
         "persona-sales-ops",
         "persona-team-lead",
-        "recipe-backup-sheet-as-csv",
-        "recipe-batch-invite-to-event",
-        "recipe-block-focus-time",
-        "recipe-bulk-download-folder",
-        "recipe-collect-form-responses",
-        "recipe-compare-sheet-tabs",
-        "recipe-copy-sheet-for-new-month",
-        "recipe-create-classroom-course",
-        "recipe-create-doc-from-template",
-        "recipe-create-events-from-sheet",
-        "recipe-create-expense-tracker",
-        "recipe-create-feedback-form",
-        "recipe-create-gmail-filter",
-        "recipe-create-meet-space",
-        "recipe-create-presentation",
-        "recipe-create-shared-drive",
-        "recipe-create-task-list",
-        "recipe-create-vacation-responder",
-        "recipe-draft-email-from-doc",
-        "recipe-email-drive-link",
-        "recipe-find-free-time",
-        "recipe-find-large-files",
-        "recipe-forward-labeled-emails",
-        "recipe-generate-report-from-sheet",
-        "recipe-label-and-archive-emails",
-        "recipe-log-deal-update",
-        "recipe-organize-drive-folder",
-        "recipe-plan-weekly-schedule",
-        "recipe-post-mortem-setup",
-        "recipe-reschedule-meeting",
-        "recipe-review-meet-participants",
-        "recipe-review-overdue-tasks",
-        "recipe-save-email-attachments",
-        "recipe-save-email-to-doc",
-        "recipe-schedule-recurring-event",
-        "recipe-send-team-announcement",
-        "recipe-share-doc-and-notify",
-        "recipe-share-event-materials",
-        "recipe-share-folder-with-team",
-        "recipe-sync-contacts-to-sheet",
-        "recipe-watch-drive-changes"
+        "recipe-calendar",
+        "recipe-docs",
+        "recipe-drive",
+        "recipe-gmail",
+        "recipe-sheets",
+        "recipe-workspace-admin"
       ]
     },
     {

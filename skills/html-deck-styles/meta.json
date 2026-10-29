@@ -1,0 +1,46 @@
+{
+  "id": "html-deck-styles",
+  "name": "HTML deck styles — 30+ art-directed slide systems",
+  "category": "office-docs",
+  "description": "HTML deck styles — 30+ art-directed slide systems. Use when the task is to produce one of these variants and you need the right starting point rather than a blank page.",
+  "tags": [
+    "html",
+    "deck",
+    "styles"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party-merged",
+  "upstream": {
+    "repo": "nexu-io/html-anything",
+    "path": "next/src/lib/templates/skills/deck-blueprint/SKILL.md",
+    "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
+  },
+  "merged_from": [
+    "deck-blueprint",
+    "deck-course-module",
+    "deck-dir-key-nav",
+    "deck-graphify-dark",
+    "deck-guizang-editorial",
+    "deck-hermes-cyber",
+    "deck-ljg-present",
+    "deck-magazine-web",
+    "deck-obsidian-claude",
+    "deck-open-slide-canvas",
+    "deck-pitch",
+    "deck-presenter-mode",
+    "deck-product-launch",
+    "deck-replit",
+    "deck-safety-alert",
+    "deck-simple",
+    "deck-swiss-international",
+    "deck-tech-sharing",
+    "deck-xhs-pastel",
+    "deck-xhs-post",
+    "deck-xhs-white",
+    "ppt-keynote"
+  ]
+}

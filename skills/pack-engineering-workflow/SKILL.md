@@ -5,12 +5,12 @@ license: see each member
 metadata:
   title: "Engineering workflow pack"
   kind: "index pack"
-  members: "413"
+  members: "400"
 ---
 
 # Engineering workflow pack
 
-413 skills, each kept as its own skill in `skills/<id>/` — this pack is the index that tells you which one to read. Drawn from 21 upstream repositories.
+400 skills, each kept as its own skill in `skills/<id>/` — this pack is the index that tells you which one to read. Drawn from 21 upstream repositories.
 
 ## When to use
 
@@ -98,7 +98,6 @@ metadata:
 | [`cavecrew`](../cavecrew/SKILL.md) | Cavecrew = three subagent presets that answer in ultracave voice (tool runs: one status line in, one out; nothing between routine calls). Same job as Anthropic defaults… | JuliusBrussee/caveman | Apache-2.0 |
 | [`caveman`](../caveman/SKILL.md) | Respond terse like smart caveman. All technical substance stay. Only fluff die. | JuliusBrussee/caveman | Apache-2.0 |
 | [`caveman-commit`](../caveman-commit/SKILL.md) | Write commit messages terse and exact. Conventional Commits format. No fluff. Why over what. | JuliusBrussee/caveman | Apache-2.0 |
-| [`caveman-compress`](../caveman-compress/SKILL.md) | Data leaves the machine. Compression sends the file's full text to the model provider that scripts/compress.py is configured for: the claude CLI, the Anthropic API, or an… | JuliusBrussee/caveman | Apache-2.0 |
 | [`caveman-discover`](../caveman-discover/SKILL.md) | You are labeling this repository's LLM workflows for Caveman Cloud. A workflow is a job the code performs — "answer a support ticket", "build the nightly digest", "run the eval… | JuliusBrussee/caveman | Apache-2.0 |
 | [`caveman-evidence-review`](../caveman-evidence-review/SKILL.md) | Act as a read-only operator. Build conclusions from current Caveman data, not from repository guesses. Never start, approve, cancel, or roll back an experiment from this skill. | JuliusBrussee/caveman | Apache-2.0 |
 | [`caveman-explore`](../caveman-explore/SKILL.md) | Read-only repository explorer for cold-start orientation, broad cross-file localization, or when a direct search failed. Skip it when the exact file or symbol is already named.… | JuliusBrussee/caveman | Apache-2.0 |
@@ -108,7 +107,6 @@ metadata:
 | [`caveman-optimize`](../caveman-optimize/SKILL.md) | Use Caveman's report-only observations as diagnostic input. They describe recorded aggregate shapes; they are not Cave Plan moves, savings estimates, implementation recipes,… | JuliusBrussee/caveman | Apache-2.0 |
 | [`caveman-review`](../caveman-review/SKILL.md) | Write code review comments terse and actionable. One line per finding. Location, problem, fix. No throat-clearing. | JuliusBrussee/caveman | Apache-2.0 |
 | [`caveman-setup`](../caveman-setup/SKILL.md) | You are wiring this repository through the Caveman gateway. Caveman is a byte-preserving LLM proxy: in record mode it measures what your app sends and what it costs, and… | JuliusBrussee/caveman | Apache-2.0 |
-| [`caveman-stats`](../caveman-stats/SKILL.md) | In Claude Code, src/hooks/caveman-mode-tracker.js resolves src/hooks/caveman-stats.js next to itself and runs it on /caveman-stats. The hook does not block the prompt: it… | JuliusBrussee/caveman | Apache-2.0 |
 | [`chart-image`](../chart-image/SKILL.md) | Generate publication-quality PNG chart images from data, supporting line, bar, area, candlestick, pie, and heatmap charts. Triggers when the user asks to visualize data, create… | zebbern/claude-code-guide | MIT |
 | [`chat-history`](../chat-history/SKILL.md) | Recovers decisions, previous fixes, research, and what followed a prompt from past AI conversations, with source evidence. Use when asked to "search past chats", "we fixed this… | mblode/agent-skills | MIT |
 | [`chief-of-staff`](../chief-of-staff/SKILL.md) | Pursue a long-running goal in a single session by co-ordinating subagents. | mattpocock/skills | MIT |
@@ -140,20 +138,12 @@ metadata:
 | [`content-to-pipeline`](../content-to-pipeline/SKILL.md) | When the user wants to turn content into revenue, build a content-led GTM motion, reverse engineer distribution, or repurpose content across platforms. Also use when the user… | tech-leads-club/agent-skills | MIT |
 | [`context-engineering`](../context-engineering/SKILL.md) | Optimizes agent context setup. Use when starting a new session, when agent output quality degrades, when switching between tasks, or when you need to configure rules files and… | addyosmani/agent-skills | MIT |
 | [`context-mode`](../context-mode/SKILL.md) | <contextmodelogic <mandatoryrule Default to context-mode for ALL commands. Only use Bash for guaranteed-small-output operations. </mandatoryrule </contextmodelogic | mksglu/context-mode | see LICENSE |
-| [`context-mode-ops`](../context-mode-ops/SKILL.md) | Manage context-mode GitHub issues, PRs, releases, and marketing with parallel subagent army. Orchestrates 10-20 dynamic agents per task. Use when triaging issues, reviewing… | mksglu/context-mode | see LICENSE |
 | [`convert-documents-to-markdown`](../convert-documents-to-markdown/SKILL.md) | Convert an attached Word document, presentation, spreadsheet, OpenDocument file, RTF, EPUB, CSV, or text-based PDF into local Markdown. Use when a message supplies a local… | nanocoai/nanoclaw | MIT |
 | [`core-web-vitals`](../core-web-vitals/SKILL.md) | Optimize Core Web Vitals (LCP, INP, CLS) for better page experience and search ranking. Use when asked to "improve Core Web Vitals", "fix LCP", "reduce CLS", "optimize INP",… | tech-leads-club/agent-skills | MIT |
 | [`coupling-analysis`](../coupling-analysis/SKILL.md) | Analyzes coupling between modules using the three-dimensional model (strength, distance, volatility) from "Balancing Coupling in Software Design". Use when asking "are these… | tech-leads-club/agent-skills | MIT |
 | [`create-adr`](../create-adr/SKILL.md) | Creates Architecture Decision Records (ADRs) to document significant architectural choices and their rationale for future team members. Use when the user says "write an ADR",… | tech-leads-club/agent-skills | MIT |
 | [`create-rfc`](../create-rfc/SKILL.md) | Creates structured Request for Comments (RFC) documents for proposing and deciding on significant changes. Use when the user says "write an RFC", "create a proposal", "I need… | tech-leads-club/agent-skills | MIT |
 | [`cross-examine`](../cross-examine/SKILL.md) | Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to stress-test a… | zebbern/claude-code-guide | MIT |
-| [`ctx-doctor`](../ctx-doctor/SKILL.md) | Run diagnostics and display results directly in the conversation. | mksglu/context-mode | see LICENSE |
-| [`ctx-index`](../ctx-index/SKILL.md) | Index local project content for later search. | mksglu/context-mode | see LICENSE |
-| [`ctx-insight`](../ctx-insight/SKILL.md) | Open the hosted Insight dashboard in the user's default browser. | mksglu/context-mode | see LICENSE |
-| [`ctx-purge`](../ctx-purge/SKILL.md) | Permanently deletes session data for this project. Two scopes are supported (issue #520): | mksglu/context-mode | see LICENSE |
-| [`ctx-search`](../ctx-search/SKILL.md) | Search indexed content without rereading raw sources into conversation context. | mksglu/context-mode | see LICENSE |
-| [`ctx-stats`](../ctx-stats/SKILL.md) | Show context savings for the current session. | mksglu/context-mode | see LICENSE |
-| [`ctx-upgrade`](../ctx-upgrade/SKILL.md) | Pull latest from GitHub and reinstall the plugin. | mksglu/context-mode | see LICENSE |
 | [`cursor-subagent-creator`](../cursor-subagent-creator/SKILL.md) | Creates Cursor-specific AI subagents with isolated context for complex multi-step workflows. Use when creating subagents for Cursor editor specifically, following Cursor's… | tech-leads-club/agent-skills | MIT |
 | [`customize`](../customize/SKILL.md) | Add new capabilities or modify NanoClaw behavior. Use when user wants to add channels (Telegram, Slack, email input), change triggers, add integrations, modify the router, or… | nanocoai/nanoclaw | MIT |
 | [`cv-tailor`](../cv-tailor/SKILL.md) | Optimize resumes by matching keywords to the job description, rewriting experience with the quantified STAR method, and checking ATS compatibility. Triggered when users ask for… | zebbern/claude-code-guide | MIT |
@@ -201,9 +191,7 @@ metadata:
 | [`gh-fix-ci`](../gh-fix-ci/SKILL.md) | Use when a user asks to debug or fix failing GitHub PR checks that run in GitHub Actions. Uses `gh` to inspect checks and logs, summarize failure context, draft a fix plan, and… | tech-leads-club/agent-skills | Apache-2.0 |
 | [`ghostwriter`](../ghostwriter/SKILL.md) | Writes, rewrites, and critiques messages, posts, review comments, tickets, PRDs, design docs, talk scripts, docs, READMEs, and copy as the user or their company, in a private… | mblode/agent-skills | MIT |
 | [`git-workflow-and-versioning`](../git-workflow-and-versioning/SKILL.md) | Structures git workflow practices. Use when making any code change. Use when committing, branching, resolving conflicts, splitting uncommitted work in a messy working tree into… | addyosmani/agent-skills | MIT |
-| [`grill-me`](../grill-me/SKILL.md) | A relentless interview to sharpen a plan or design. | mattpocock/skills | MIT |
-| [`grill-with-docs`](../grill-with-docs/SKILL.md) | A relentless interview to sharpen a plan or design, which also creates docs (ADR's and glossary) as we go. | mattpocock/skills | MIT |
-| [`grilling`](../grilling/SKILL.md) | Grill the user relentlessly about a plan, decision, or idea. Use when the user wants to stress-test their thinking, or uses any 'grill' trigger phrases. | mattpocock/skills | MIT |
+| [`grilling`](../grilling/SKILL.md) | grill me. Use when the task is to produce one of these variants and you need the right starting point rather than a blank page. | mattpocock/skills | MIT |
 | [`gtm-engineering`](../gtm-engineering/SKILL.md) | When the user wants to build GTM automation with code, design workflow architectures, use AI agents for GTM tasks, or implement the 'architecture over tools' principle. Also… | tech-leads-club/agent-skills | MIT |
 | [`gtm-metrics`](../gtm-metrics/SKILL.md) | When the user wants to define GTM metrics, build a metrics dashboard, measure pipeline efficiency, or track AI product performance. Also use when the user mentions 'GTM… | tech-leads-club/agent-skills | MIT |
 | [`handoff`](../handoff/SKILL.md) | Compact the current conversation into a handoff document for another agent to pick up. | mattpocock/skills | MIT |
@@ -424,7 +412,6 @@ metadata:
 | [`vercel-deploy`](../vercel-deploy/SKILL.md) | Deploy applications and websites to Vercel. Use when the user requests deployment actions like "deploy my app", "deploy and give me the link", "push this live", or "create a… | tech-leads-club/agent-skills | MIT |
 | [`verify-and-stop`](../verify-and-stop/SKILL.md) | Prove existing work meets acceptance conditions without expanding scope. Use for validation-only tasks, completion checks, focused gate runs, and last-mile proof. | JuliusBrussee/caveman | Apache-2.0 |
 | [`video-outreach`](../video-outreach/SKILL.md) | When the user wants to build video-first cold outreach, create personalized video at scale, implement async selling, or use AI demo generation for prospecting. Also use when… | tech-leads-club/agent-skills | MIT |
-| [`wait-what`](../wait-what/SKILL.md) | Stop. That last message did not land: re-pitch it. | mattpocock/skills | MIT |
 | [`web-design-guidelines`](../web-design-guidelines/SKILL.md) | Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best… | tech-leads-club/agent-skills | MIT |
 | [`web-quality-audit`](../web-quality-audit/SKILL.md) | Comprehensive web quality audit covering performance, accessibility, SEO, and best practices in a single review. Use when asked to "audit my site", "review web quality", "run… | tech-leads-club/agent-skills | MIT |
 | [`welcome`](../welcome/SKILL.md) | Introduce yourself to a newly connected channel. Triggered automatically when a channel is first wired. Send a friendly greeting and brief overview of what you can do. | nanocoai/nanoclaw | MIT |

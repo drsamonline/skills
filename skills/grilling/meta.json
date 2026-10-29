@@ -1,8 +1,8 @@
 {
   "id": "grilling",
-  "name": "grilling",
+  "name": "grill me",
   "category": "engineering-workflow",
-  "description": "Grill the user relentlessly about a plan, decision, or idea. Use when the user wants to stress-test their thinking, or uses any 'grill' trigger phrases.",
+  "description": "grill me. Use when the task is to produce one of these variants and you need the right starting point rather than a blank page.",
   "tags": [
     "grilling"
   ],
@@ -11,10 +11,14 @@
   "updated": "2026-10-29",
   "source_snapshot": {},
   "license": "MIT",
-  "origin": "third-party",
+  "origin": "third-party-merged",
   "upstream": {
     "repo": "mattpocock/skills",
-    "path": "skills/productivity/grilling/SKILL.md",
+    "path": "skills/productivity/grill-me/SKILL.md",
     "commit": "a496f5513d4a4cf889bc48e189e579f4b0bdf6aa"
-  }
+  },
+  "merged_from": [
+    "grill-me",
+    "grill-with-docs"
+  ]
 }

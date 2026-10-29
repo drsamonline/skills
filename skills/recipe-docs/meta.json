@@ -1,0 +1,27 @@
+{
+  "id": "recipe-docs",
+  "name": "Docs and Slides recipes — create, template, share, report",
+  "category": "google-workspace",
+  "description": "Docs and Slides recipes — create, template, share, report. Use when the task is to produce one of these variants and you need the right starting point rather than a blank page.",
+  "tags": [
+    "recipe",
+    "docs"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party-merged",
+  "upstream": {
+    "repo": "googleworkspace/cli",
+    "path": "skills/recipe-create-doc-from-template/SKILL.md",
+    "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
+  },
+  "merged_from": [
+    "recipe-create-doc-from-template",
+    "recipe-create-presentation",
+    "recipe-post-mortem-setup",
+    "recipe-share-doc-and-notify"
+  ]
+}

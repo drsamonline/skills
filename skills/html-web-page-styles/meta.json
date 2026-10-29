@@ -1,0 +1,35 @@
+{
+  "id": "html-web-page-styles",
+  "name": "HTML web page styles — landing, pricing, docs, wireframe and prototype looks",
+  "category": "frontend-ui",
+  "description": "HTML web page styles — landing, pricing, docs, wireframe and prototype looks. Use when the task is to produce one of these variants and you need the right starting point rather than a blank page.",
+  "tags": [
+    "html",
+    "web",
+    "page",
+    "styles"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party-merged",
+  "upstream": {
+    "repo": "nexu-io/html-anything",
+    "path": "next/src/lib/templates/skills/docs-page/SKILL.md",
+    "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
+  },
+  "merged_from": [
+    "docs-page",
+    "motion-frames",
+    "pricing-page",
+    "prototype-web",
+    "saas-landing",
+    "waitlist-page",
+    "web-proto-brutalist",
+    "web-proto-editorial",
+    "web-proto-soft",
+    "wireframe-sketch"
+  ]
+}

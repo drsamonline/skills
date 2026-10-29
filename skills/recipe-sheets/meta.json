@@ -1,0 +1,28 @@
+{
+  "id": "recipe-sheets",
+  "name": "Sheets recipes — read, compare, duplicate, export, track",
+  "category": "google-workspace",
+  "description": "Sheets recipes — read, compare, duplicate, export, track. Use when the task is to produce one of these variants and you need the right starting point rather than a blank page.",
+  "tags": [
+    "recipe",
+    "sheets"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party-merged",
+  "upstream": {
+    "repo": "googleworkspace/cli",
+    "path": "skills/recipe-backup-sheet-as-csv/SKILL.md",
+    "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
+  },
+  "merged_from": [
+    "recipe-backup-sheet-as-csv",
+    "recipe-compare-sheet-tabs",
+    "recipe-copy-sheet-for-new-month",
+    "recipe-generate-report-from-sheet",
+    "recipe-sync-contacts-to-sheet"
+  ]
+}

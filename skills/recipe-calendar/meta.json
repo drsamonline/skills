@@ -1,0 +1,32 @@
+{
+  "id": "recipe-calendar",
+  "name": "Calendar and Meet recipes — events, free/busy, invites, conferences",
+  "category": "google-workspace",
+  "description": "Calendar and Meet recipes — events, free/busy, invites, conferences. Use when the task is to produce one of these variants and you need the right starting point rather than a blank page.",
+  "tags": [
+    "recipe",
+    "calendar"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party-merged",
+  "upstream": {
+    "repo": "googleworkspace/cli",
+    "path": "skills/recipe-batch-invite-to-event/SKILL.md",
+    "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
+  },
+  "merged_from": [
+    "recipe-batch-invite-to-event",
+    "recipe-create-events-from-sheet",
+    "recipe-create-meet-space",
+    "recipe-find-free-time",
+    "recipe-plan-weekly-schedule",
+    "recipe-reschedule-meeting",
+    "recipe-review-meet-participants",
+    "recipe-schedule-recurring-event",
+    "recipe-share-event-materials"
+  ]
+}

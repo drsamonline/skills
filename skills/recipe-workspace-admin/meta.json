@@ -1,0 +1,33 @@
+{
+  "id": "recipe-workspace-admin",
+  "name": "Workspace admin recipes — tasks, forms, classroom, contacts, personas",
+  "category": "google-workspace",
+  "description": "Workspace admin recipes — tasks, forms, classroom, contacts, personas. Use when the task is to produce one of these variants and you need the right starting point rather than a blank page.",
+  "tags": [
+    "recipe",
+    "workspace",
+    "admin"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party-merged",
+  "upstream": {
+    "repo": "googleworkspace/cli",
+    "path": "skills/recipe-block-focus-time/SKILL.md",
+    "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
+  },
+  "merged_from": [
+    "recipe-block-focus-time",
+    "recipe-collect-form-responses",
+    "recipe-create-classroom-course",
+    "recipe-create-expense-tracker",
+    "recipe-create-feedback-form",
+    "recipe-create-task-list",
+    "recipe-log-deal-update",
+    "recipe-review-overdue-tasks",
+    "recipe-send-team-announcement"
+  ]
+}

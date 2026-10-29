@@ -1,0 +1,36 @@
+{
+  "id": "html-visual-card-styles",
+  "name": "HTML card and poster styles — social cards, carousels, posters, motion frames",
+  "category": "media-design",
+  "description": "HTML card and poster styles — social cards, carousels, posters, motion frames. Use when the task is to produce one of these variants and you need the right starting point rather than a blank page.",
+  "tags": [
+    "html",
+    "visual",
+    "card",
+    "styles"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party-merged",
+  "upstream": {
+    "repo": "nexu-io/html-anything",
+    "path": "next/src/lib/templates/skills/card-twitter/SKILL.md",
+    "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
+  },
+  "merged_from": [
+    "card-twitter",
+    "card-xiaohongshu",
+    "email-marketing",
+    "magazine-poster",
+    "poster-hero",
+    "social-carousel",
+    "social-reddit-card",
+    "social-spotify-card",
+    "social-x-post-card",
+    "sprite-animation",
+    "video-hyperframes"
+  ]
+}

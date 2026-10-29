@@ -21,20 +21,18 @@
     "commit": ""
   },
   "subskills": [
-    "docx",
     "frontend-slides",
+    "html-deck-styles",
+    "html-document-templates",
     "minimax-docx",
     "minimax-pdf",
     "minimax-xlsx",
-    "pdf",
     "pdf-conversion-router",
     "ppt-editing-skill",
     "ppt-orchestra-skill",
-    "pptx",
     "pptx-deck-creation",
     "pptx-generator",
     "slide-making-skill",
-    "spreadsheet-manual-build",
-    "xlsx"
+    "spreadsheet-manual-build"
   ]
 }

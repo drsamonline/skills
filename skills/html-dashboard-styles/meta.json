@@ -1,0 +1,32 @@
+{
+  "id": "html-dashboard-styles",
+  "name": "HTML dashboard styles — KPI boards, analytics and team dashboards",
+  "category": "frontend-ui",
+  "description": "HTML dashboard styles — KPI boards, analytics and team dashboards. Use when the task is to produce one of these variants and you need the right starting point rather than a blank page.",
+  "tags": [
+    "html",
+    "dashboard",
+    "styles"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party-merged",
+  "upstream": {
+    "repo": "nexu-io/html-anything",
+    "path": "next/src/lib/templates/skills/dashboard/SKILL.md",
+    "commit": "975fb3bcb98f1777781fb4c738902d36e32c8c46"
+  },
+  "merged_from": [
+    "dashboard",
+    "data-report",
+    "finance-report",
+    "flowai-team-dashboard",
+    "kanban-board",
+    "live-dashboard",
+    "social-media-dashboard",
+    "social-media-matrix"
+  ]
+}

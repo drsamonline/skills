@@ -53,7 +53,7 @@ There are two kinds of skill:
 - **Project skills** — one per repository: what the project is, how it is built,
   how it is released, and what makes its workflow distinctive.
 
-**Catalogue:** `1616` skills across 28 categories. The machine-readable index is [`catalog.json`](catalog.json); the landing page is <https://drsamonline.github.io/skills/>.
+**Catalogue:** `1485` skills across 28 categories. The machine-readable index is [`catalog.json`](catalog.json); the landing page is <https://drsamonline.github.io/skills/>.
 
 ## Repository layout
 
@@ -958,3 +958,24 @@ imported.
 
 New categories are listed compactly in this README: at this size the descriptions
 belong in the pack tables and `catalog.json`, not in 1,000 more README rows.
+
+### Pruning
+
+The catalogue is not a mirror. After the imports it was cut back to what does
+real work:
+
+- **142 skills removed.** The four Anthropic office skills that reserve
+  all rights (`docx`, `pdf`, `pptx`, `xlsx`); a placeholder template; two alias
+  stubs that only pointed at another skill; and the product-internal CLI wrappers
+  with no reusable method (`ctx-*`, `caveman-stats`, `caveman-compress`,
+  `remotion-render`).
+- **124 thin families merged into 12 skills.** The 81
+  `nexu-io/html-anything` style specs (median body 266 bytes) became five style
+  libraries grouped by what you are producing: deck, web page, dashboard, visual
+  card, document. The 45 `googleworkspace/cli` `recipe-*` skills became six
+  grouped recipe sets by service. The two `grilling` aliases folded into
+  `grilling`. Every original id survives as a heading inside its merged skill, so
+  nothing was lost, only indexed.
+
+Everything kept is substantive: the median body across the catalogue is several
+kilobytes, and each skill states a trigger, a method and the traps it hit.

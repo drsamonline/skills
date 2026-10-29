@@ -1,0 +1,31 @@
+{
+  "id": "recipe-gmail",
+  "name": "Gmail recipes — label, forward, archive, draft, auto-reply",
+  "category": "google-workspace",
+  "description": "Gmail recipes — label, forward, archive, draft, auto-reply. Use when the task is to produce one of these variants and you need the right starting point rather than a blank page.",
+  "tags": [
+    "recipe",
+    "gmail"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party-merged",
+  "upstream": {
+    "repo": "googleworkspace/cli",
+    "path": "skills/recipe-create-gmail-filter/SKILL.md",
+    "commit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
+  },
+  "merged_from": [
+    "recipe-create-gmail-filter",
+    "recipe-create-vacation-responder",
+    "recipe-draft-email-from-doc",
+    "recipe-email-drive-link",
+    "recipe-forward-labeled-emails",
+    "recipe-label-and-archive-emails",
+    "recipe-save-email-attachments",
+    "recipe-save-email-to-doc"
+  ]
+}

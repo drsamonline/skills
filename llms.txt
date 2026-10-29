@@ -1,7 +1,7 @@
 # drsamonline/skills
 
 A machine-consumable knowledge base of reusable skills extracted from the
-projects of Dr. Sohil Momin (github.com/drsamonline), plus 22 imported from github.com/ChrisTitusTech/titstack (MIT). 1616 skills.
+projects of Dr. Sohil Momin (github.com/drsamonline), plus 22 imported from github.com/ChrisTitusTech/titstack (MIT). 1485 skills.
 
 Catalogue (machine-readable, the single source of truth):
 https://raw.githubusercontent.com/drsamonline/skills/main/catalog.json
