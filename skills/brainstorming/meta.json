@@ -1,0 +1,20 @@
+{
+  "id": "brainstorming",
+  "name": "brainstorming",
+  "category": "engineering-workflow",
+  "description": "You MUST use this before any creative work - creating features, building components, adding functionality, modifying behavior, or planning anything new, in software or out of it (a talk, a business, a renovation).",
+  "tags": [
+    "brainstorming"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "obra/superpowers",
+    "path": "skills/brainstorming/SKILL.md",
+    "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b"
+  }
+}

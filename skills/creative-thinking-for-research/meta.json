@@ -1,0 +1,23 @@
+{
+  "id": "creative-thinking-for-research",
+  "name": "creative thinking for research",
+  "category": "ai-and-ml",
+  "description": "Applies cognitive science frameworks for creative thinking to CS and AI research ideation. Use when seeking genuinely novel research directions by leveraging combinatorial creativity, analogical reasoning, constraint manipulation, and other empirically grounded creative strategies.",
+  "tags": [
+    "creative",
+    "thinking",
+    "for",
+    "research"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "orchestra-research/AI-research-SKILLs",
+    "path": "21-research-ideation/creative-thinking-for-research/SKILL.md",
+    "commit": "773a52944ba4747a18bd4ae9ade53fff041adcbc"
+  }
+}

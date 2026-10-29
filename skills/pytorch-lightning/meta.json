@@ -1,0 +1,21 @@
+{
+  "id": "pytorch-lightning",
+  "name": "pytorch lightning",
+  "category": "ai-and-ml",
+  "description": "High-level PyTorch framework with Trainer class, automatic distributed training (DDP/FSDP/DeepSpeed), callbacks system, and minimal boilerplate. Scales from laptop to supercomputer with same code. Use when you want clean training loops with built-in best practices.",
+  "tags": [
+    "pytorch",
+    "lightning"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "orchestra-research/AI-research-SKILLs",
+    "path": "08-distributed-training/pytorch-lightning/SKILL.md",
+    "commit": "773a52944ba4747a18bd4ae9ade53fff041adcbc"
+  }
+}

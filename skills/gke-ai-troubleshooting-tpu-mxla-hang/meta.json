@@ -1,0 +1,25 @@
+{
+  "id": "gke-ai-troubleshooting-tpu-mxla-hang",
+  "name": "gke ai troubleshooting tpu mxla hang",
+  "category": "cloud-and-deploy",
+  "description": "Diagnose Cloud TPU multi-slice training hangs on Google Kubernetes Engine (GKE) by correlating Megascale HANGDETECTED logs and ML Diagnostics Workload Monitoring Megascale XLA (MXLA) Hang Analyzer reports with 1-minute multi-slice latency metrics (kubernetes.io/container/multislice/) and GKE node topology labels.",
+  "tags": [
+    "gke",
+    "troubleshooting",
+    "tpu",
+    "mxla",
+    "hang"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/gke-ai-troubleshooting-tpu-mxla-hang/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "using-superpowers",
+  "name": "using superpowers",
+  "category": "engineering-workflow",
+  "description": "Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions",
+  "tags": [
+    "using",
+    "superpowers"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "obra/superpowers",
+    "path": "skills/using-superpowers/SKILL.md",
+    "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "agent-platform-inference",
+  "name": "agent platform inference",
+  "category": "cloud-and-deploy",
+  "description": "This skill provides instructions for authenticating and connecting to Google Cloud Agent Platform to use Generative AI models. It covers:",
+  "tags": [
+    "agent",
+    "platform",
+    "inference"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/agent-platform-inference/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "constitutional-ai",
+  "name": "constitutional ai",
+  "category": "ai-and-ml",
+  "description": "Anthropic's method for training harmless AI through self-improvement. Two-phase approach - supervised learning with self-critique/revision, then RLAIF (RL from AI Feedback). Use for safety alignment, reducing harmful outputs without human labels. Powers Claude's safety system.",
+  "tags": [
+    "constitutional"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "orchestra-research/AI-research-SKILLs",
+    "path": "07-safety-alignment/constitutional-ai/SKILL.md",
+    "commit": "773a52944ba4747a18bd4ae9ade53fff041adcbc"
+  }
+}

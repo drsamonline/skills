@@ -1,0 +1,25 @@
+{
+  "id": "agent-platform-rag-engine-management",
+  "name": "agent platform rag engine management",
+  "category": "cloud-and-deploy",
+  "description": "This skill provides instructions on how to interact with Agent Platform RAG Engine using the Agent Platform Python SDK. You MUST use the vertexai Python SDK to perform RAG Engine operations, rather than raw REST calls or MCP tools, because this code is intended to be run by external clients.",
+  "tags": [
+    "agent",
+    "platform",
+    "rag",
+    "engine",
+    "management"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/agent-platform-rag-engine-management/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

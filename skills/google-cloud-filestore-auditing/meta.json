@@ -1,0 +1,24 @@
+{
+  "id": "google-cloud-filestore-auditing",
+  "name": "google cloud filestore auditing",
+  "category": "cloud-and-deploy",
+  "description": "This skill enables autonomous agents to audit, evaluate, and report the disaster recovery, security access governance, and architectural reliability posture of Filestore fleets across Google Cloud projects.",
+  "tags": [
+    "google",
+    "cloud",
+    "filestore",
+    "auditing"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/google-cloud-filestore-auditing/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

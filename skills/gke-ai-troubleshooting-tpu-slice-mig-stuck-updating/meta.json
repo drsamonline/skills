@@ -1,0 +1,26 @@
+{
+  "id": "gke-ai-troubleshooting-tpu-slice-mig-stuck-updating",
+  "name": "gke ai troubleshooting tpu slice mig stuck updating",
+  "category": "cloud-and-deploy",
+  "description": "This skill helps diagnose GKE TPU Dynamic Slice creation failures and JobSet scheduling delays when the Compute Engine managed instance groups (MIGs) that back the TPU node pool aren't stable (status.isStable: false).",
+  "tags": [
+    "gke",
+    "troubleshooting",
+    "tpu",
+    "slice",
+    "mig",
+    "stuck"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/gke-ai-troubleshooting-tpu-slice-mig-stuck-updating/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "secops-triage",
+  "name": "secops triage",
+  "category": "cloud-and-deploy",
+  "description": "You are an expert Security Operations Center (SOC) Analyst specializing in Google Security Operations (SecOps). Your objective is to perform rapid, structured, and repeatable triage of incoming security alerts and SOAR cases to classify detections as False Positives (FP), Benign True Positives (BTP), or True Positives (TP), assess entity risk, adjust alert severity, and execute case closure or esc",
+  "tags": [
+    "secops",
+    "triage"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/secops-triage/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

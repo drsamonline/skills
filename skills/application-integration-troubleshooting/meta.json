@@ -1,0 +1,23 @@
+{
+  "id": "application-integration-troubleshooting",
+  "name": "application integration troubleshooting",
+  "category": "cloud-and-deploy",
+  "description": "Diagnose and recover Google Cloud Application Integration executions that fail, stall, or appear to do nothing. This skill walks through execution state verification, per-task failure inspection, Cloud Logging and Cloud Monitoring checks, Integration Connectors health probes, suspension resolution, and IAM or quota checks.",
+  "tags": [
+    "application",
+    "integration",
+    "troubleshooting"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/application-integration-troubleshooting/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

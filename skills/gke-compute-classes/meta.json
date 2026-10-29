@@ -1,0 +1,23 @@
+{
+  "id": "gke-compute-classes",
+  "name": "gke compute classes",
+  "category": "cloud-and-deploy",
+  "description": "Guidance on configuring, optimizing, and troubleshooting GKE ComputeClasses.",
+  "tags": [
+    "gke",
+    "compute",
+    "classes"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/gke-compute-classes/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

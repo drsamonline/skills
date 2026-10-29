@@ -1,0 +1,21 @@
+{
+  "id": "huggingface-papers",
+  "name": "huggingface papers",
+  "category": "ai-and-ml",
+  "description": "Look up and read Hugging Face paper pages in markdown, and use the papers API for structured metadata such as authors, linked models/datasets/spaces, Github repo and project page. Use when the user shares a Hugging Face paper page URL, an arXiv URL or ID, or asks to summarize, explain, or analyze an AI research paper.",
+  "tags": [
+    "huggingface",
+    "papers"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "huggingface/skills",
+    "path": "skills/huggingface-papers/SKILL.md",
+    "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c"
+  }
+}

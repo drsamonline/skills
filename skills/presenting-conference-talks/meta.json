@@ -1,0 +1,22 @@
+{
+  "id": "presenting-conference-talks",
+  "name": "presenting conference talks",
+  "category": "ai-and-ml",
+  "description": "Generates conference presentation slides (Beamer LaTeX PDF and editable PPTX) from a compiled paper with speaker notes and talk script. Use when preparing oral talks, spotlight presentations, or invited talks for ML and systems conferences.",
+  "tags": [
+    "presenting",
+    "conference",
+    "talks"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "orchestra-research/AI-research-SKILLs",
+    "path": "20-ml-paper-writing/presenting-conference-talks/SKILL.md",
+    "commit": "773a52944ba4747a18bd4ae9ade53fff041adcbc"
+  }
+}

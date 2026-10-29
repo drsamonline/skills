@@ -1,0 +1,21 @@
+{
+  "id": "writing-beats",
+  "name": "writing beats",
+  "category": "docs-and-planning",
+  "description": "Writing, exploit; assemble raw material into a journey of beats, grounding each term before a beat leans on it.",
+  "tags": [
+    "writing",
+    "beats"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "mattpocock/skills",
+    "path": "skills/in-progress/writing-beats/SKILL.md",
+    "commit": "a496f5513d4a4cf889bc48e189e579f4b0bdf6aa"
+  }
+}

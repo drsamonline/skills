@@ -1,0 +1,23 @@
+{
+  "id": "gke-service-networking",
+  "name": "gke service networking",
+  "category": "cloud-and-deploy",
+  "description": "This skill provides workflows for exposing applications running on GKE securely to the internet or internal networks.",
+  "tags": [
+    "gke",
+    "service",
+    "networking"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/gke-service-networking/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "pack-notes-knowledge",
+  "name": "Notes & knowledge pack — Obsidian, Markdown and extraction",
+  "category": "notes-knowledge",
+  "description": "Work inside a Markdown knowledge base: Obsidian Flavored Markdown with wikilinks, callouts and properties, Bases views and formulas, JSON Canvas boards, the Obsidian CLI, templated rendering with Knap, and pulling clean Markdown out of any web page with Defuddle.",
+  "tags": [
+    "pack",
+    "index",
+    "notes",
+    "knowledge"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "mixed",
+  "origin": "third-party-index",
+  "upstream": {
+    "repo": "multiple",
+    "path": "skills/",
+    "commit": ""
+  },
+  "subskills": [
+    "bulletmind",
+    "defuddle",
+    "json-canvas",
+    "knap",
+    "obsidian-bases",
+    "obsidian-cli",
+    "obsidian-clipper-template-creator",
+    "obsidian-markdown",
+    "unpaid-intern"
+  ]
+}

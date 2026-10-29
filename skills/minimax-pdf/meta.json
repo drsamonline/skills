@@ -1,0 +1,22 @@
+{
+  "id": "minimax-pdf",
+  "name": "minimax pdf",
+  "category": "office-docs",
+  "description": "Rule: when in doubt between CREATE and REFORMAT, ask whether the user has an existing document to start from. If yes → REFORMAT. If no → CREATE.",
+  "tags": [
+    "minimax",
+    "pdf"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "MiniMax-AI/skills",
+    "path": "skills/minimax-pdf/SKILL.md",
+    "commit": "60aaae52bb2af8162732751a4332f62a5fef518b"
+  },
+  "description_source": "derived-from-body"
+}

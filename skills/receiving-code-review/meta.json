@@ -1,0 +1,22 @@
+{
+  "id": "receiving-code-review",
+  "name": "receiving code review",
+  "category": "engineering-workflow",
+  "description": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation",
+  "tags": [
+    "receiving",
+    "code",
+    "review"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "obra/superpowers",
+    "path": "skills/receiving-code-review/SKILL.md",
+    "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b"
+  }
+}

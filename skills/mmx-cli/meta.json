@@ -1,0 +1,21 @@
+{
+  "id": "mmx-cli",
+  "name": "mmx cli",
+  "category": "frontend-ui",
+  "description": "Use mmx to generate text, images, video, speech, and music via the MiniMax AI platform. Use when the user wants to create media content, chat with MiniMax models, perform web search, or manage MiniMax API resources from the terminal.",
+  "tags": [
+    "mmx",
+    "cli"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "MiniMax-AI/skills",
+    "path": "skills/minimax-multimodal-toolkit/SKILL.md",
+    "commit": "60aaae52bb2af8162732751a4332f62a5fef518b"
+  }
+}

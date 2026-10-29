@@ -1,0 +1,22 @@
+{
+  "id": "huggingface-best",
+  "name": "huggingface best",
+  "category": "ai-and-ml",
+  "description": "Finds the best models for a task by querying official HF benchmark leaderboards, enriching results with model size data, filtering for what fits on the user's device, and returning a comparison table with benchmark scores.",
+  "tags": [
+    "huggingface",
+    "best"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "huggingface/skills",
+    "path": "skills/huggingface-best/SKILL.md",
+    "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c"
+  },
+  "description_source": "derived-from-body"
+}

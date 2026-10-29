@@ -1,0 +1,24 @@
+{
+  "id": "google-cloud-scc-query",
+  "name": "google cloud scc query",
+  "category": "cloud-and-deploy",
+  "description": "Provides guidelines and read-only gcloud CLI command patterns for querying and retrieving security findings, external exposures, toxic combinations, vulnerabilities, threats, and sensitive data risks from Security Command Center on Google Cloud.",
+  "tags": [
+    "google",
+    "cloud",
+    "scc",
+    "query"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/google-cloud-scc-query/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

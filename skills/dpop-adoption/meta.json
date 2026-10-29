@@ -1,0 +1,22 @@
+{
+  "id": "dpop-adoption",
+  "name": "dpop adoption",
+  "category": "cloud-and-deploy",
+  "description": "Demonstrating Proof-of-Possession (DPoP, RFC 9449) secures OAuth 2.0 refresh tokens against interception and replay attacks by cryptographically binding them to a private key held exclusively by the client. In Google's OAuth 2.0 platform, DPoP binds the refresh token at the token endpoint, while access tokens issued for Google APIs are standard Bearer tokens (tokentype: \"Bearer\").",
+  "tags": [
+    "dpop",
+    "adoption"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/identity/dpop-adoption/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

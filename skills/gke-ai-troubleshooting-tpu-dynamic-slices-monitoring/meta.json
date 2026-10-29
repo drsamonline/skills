@@ -1,0 +1,26 @@
+{
+  "id": "gke-ai-troubleshooting-tpu-dynamic-slices-monitoring",
+  "name": "gke ai troubleshooting tpu dynamic slices monitoring",
+  "category": "cloud-and-deploy",
+  "description": "Monitors the status of TPU Slice custom resources, troubleshoots provisioning failures, validates workload manifests on dynamic slices, and performs cleanups.",
+  "tags": [
+    "gke",
+    "troubleshooting",
+    "tpu",
+    "dynamic",
+    "slices",
+    "monitoring"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/gke-ai-troubleshooting-tpu-dynamic-slices-monitoring/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

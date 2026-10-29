@@ -1,0 +1,22 @@
+{
+  "id": "spanner-basics",
+  "name": "spanner basics",
+  "category": "cloud-and-deploy",
+  "description": "This skill provides core workflows and guidance for administering and developing with Cloud Spanner on Google Cloud, a fully managed, mission-critical database service offering global transactional consistency and automatic, synchronous replication for high availability.",
+  "tags": [
+    "spanner",
+    "basics"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/spanner-basics/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

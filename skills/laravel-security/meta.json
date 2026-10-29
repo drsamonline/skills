@@ -1,0 +1,21 @@
+{
+  "id": "laravel-security",
+  "name": "laravel security",
+  "category": "security-audit",
+  "description": "Laravel security best practices — authentication, authorization, Eloquent safety, CSRF, XSS prevention, API security, and secure deployment configurations. Use when reviewing Laravel auth, Eloquent safety, CSRF, XSS, API security, or deployment configuration.",
+  "tags": [
+    "laravel",
+    "security"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party-aggregator",
+  "upstream": {
+    "repo": "affaan-m/ECC",
+    "path": "pi/core/skills/laravel-security/SKILL.md",
+    "commit": "25278e7d7b6cf6e6a4e7a6c8e10f14ff22f0eb5b"
+  }
+}

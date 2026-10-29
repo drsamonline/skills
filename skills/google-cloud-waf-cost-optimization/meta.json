@@ -1,0 +1,24 @@
+{
+  "id": "google-cloud-waf-cost-optimization",
+  "name": "google cloud waf cost optimization",
+  "category": "cloud-and-deploy",
+  "description": "Evaluates Google Cloud workloads for cost efficiency and FinOps alignment using the Google Cloud Well-Architected Framework Cost Optimization pillar. Use when the user asks to analyze Google Cloud spend, reduce cloud bills, rightsize resources (for example, Compute, GKE, Storage, Databases), evaluate discount options (for example, CUDs, SUDs, Spot VMs), or eliminate idle capacity. Do not use for standalone product pricing lookups or non-cost architecture design.",
+  "tags": [
+    "google",
+    "cloud",
+    "waf",
+    "cost",
+    "optimization"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/google-cloud-waf-cost-optimization/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  }
+}

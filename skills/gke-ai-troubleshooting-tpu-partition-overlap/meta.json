@@ -1,0 +1,25 @@
+{
+  "id": "gke-ai-troubleshooting-tpu-partition-overlap",
+  "name": "gke ai troubleshooting tpu partition overlap",
+  "category": "cloud-and-deploy",
+  "description": "A dynamic slice fails to form with the status reason SliceCreationFailed when, among other documented causes, any of its nodes are already used by another slice. This skill confirms the failure, rules out the other documented causes, finds the slice that uses the same nodes, and routes the fix through GKE.",
+  "tags": [
+    "gke",
+    "troubleshooting",
+    "tpu",
+    "partition",
+    "overlap"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/gke-ai-troubleshooting-tpu-partition-overlap/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

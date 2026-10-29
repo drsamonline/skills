@@ -1,0 +1,20 @@
+{
+  "id": "interview-me",
+  "name": "interview me",
+  "category": "engineering-workflow",
+  "description": "Extracts what the user actually wants instead of what they think they should want. Achieves this through one-question-at-a-time interview until ~95% confidence about the underlying intent. Use when an ask is underspecified (\"build me X\" without \"for whom\" or \"why now\"), when the user explicitly invokes (\"interview me\", \"grill me\", \"are we sure?\", \"stress-test my thinking\"), or when you catch yourself silently filling in ambiguous requirements before any plan, spec, or code exists.",
+  "tags": [
+    "interview"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "addyosmani/agent-skills",
+    "path": "skills/interview-me/SKILL.md",
+    "commit": "eb07f19f52c2669f2364897aaa293e2aaddd7b1c"
+  }
+}

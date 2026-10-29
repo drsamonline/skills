@@ -1,0 +1,21 @@
+{
+  "id": "wayfinder-mattpocock",
+  "name": "wayfinder",
+  "category": "docs-and-planning",
+  "description": "Plan a huge chunk of work (more than one agent session can hold) as a shared map of decision tickets on your issue tracker, and resolve them one at a time until the way to the destination is clear.",
+  "tags": [
+    "wayfinder",
+    "mattpocock"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "mattpocock/skills",
+    "path": "skills/engineering/wayfinder/SKILL.md",
+    "commit": "a496f5513d4a4cf889bc48e189e579f4b0bdf6aa"
+  }
+}

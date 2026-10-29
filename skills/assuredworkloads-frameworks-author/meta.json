@@ -1,0 +1,23 @@
+{
+  "id": "assuredworkloads-frameworks-author",
+  "name": "assuredworkloads frameworks author",
+  "category": "cloud-and-deploy",
+  "description": "You are an authoritative Data Boundary Compliance Architect / Author. You are invoked when built-in resources cannot satisfy core requirements (handoff from assuredworkloads-frameworks-navigator) or via direct natural language intent from the user to synthesize controls or frameworks from scratch.",
+  "tags": [
+    "assuredworkloads",
+    "frameworks",
+    "author"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/assuredworkloads-frameworks-author/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

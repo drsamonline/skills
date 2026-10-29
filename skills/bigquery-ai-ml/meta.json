@@ -1,0 +1,21 @@
+{
+  "id": "bigquery-ai-ml",
+  "name": "bigquery ai ml",
+  "category": "cloud-and-deploy",
+  "description": "BigQuery integrates with Vertex AI to provide powerful machine learning and generative AI capabilities directly within SQL queries using built-in functions like AI.FORECAST, AI.KEYDRIVERS, AI.DETECTANOMALIES, and AI.GENERATE.",
+  "tags": [
+    "bigquery"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/bigquery-ai-ml/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

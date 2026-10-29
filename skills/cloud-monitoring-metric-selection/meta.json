@@ -1,0 +1,24 @@
+{
+  "id": "cloud-monitoring-metric-selection",
+  "name": "cloud monitoring metric selection",
+  "category": "cloud-and-deploy",
+  "description": "Use this skill to identify the most relevant Cloud Monitoring metric descriptors. It queries all metric descriptors for a target service from the API and filters them locally inside the agent's context using keyword matching.",
+  "tags": [
+    "cloud",
+    "monitoring",
+    "metric",
+    "selection"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/cloud-monitoring-metric-selection/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

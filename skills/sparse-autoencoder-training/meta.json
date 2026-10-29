@@ -1,0 +1,22 @@
+{
+  "id": "sparse-autoencoder-training",
+  "name": "sparse autoencoder training",
+  "category": "ai-and-ml",
+  "description": "Provides guidance for training and analyzing Sparse Autoencoders (SAEs) using SAELens to decompose neural network activations into interpretable features. Use when discovering interpretable features, analyzing superposition, or studying monosemantic representations in language models.",
+  "tags": [
+    "sparse",
+    "autoencoder",
+    "training"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "orchestra-research/AI-research-SKILLs",
+    "path": "04-mechanistic-interpretability/saelens/SKILL.md",
+    "commit": "773a52944ba4747a18bd4ae9ade53fff041adcbc"
+  }
+}

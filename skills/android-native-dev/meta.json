@@ -1,0 +1,22 @@
+{
+  "id": "android-native-dev",
+  "name": "android native dev",
+  "category": "mobile-apps",
+  "description": "Android native application development and UI design guide. Covers Material Design 3, Kotlin/Compose development, project configuration, accessibility, and build troubleshooting. Read this before Android native application development.",
+  "tags": [
+    "android",
+    "native",
+    "dev"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "MiniMax-AI/skills",
+    "path": "skills/android-native-dev/SKILL.md",
+    "commit": "60aaae52bb2af8162732751a4332f62a5fef518b"
+  }
+}

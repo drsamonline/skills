@@ -1,0 +1,24 @@
+{
+  "id": "ima-sdk-client-side",
+  "name": "ima sdk client side",
+  "category": "cloud-and-deploy",
+  "description": "The Google IMA SDK (Interactive Media Ads) lets you load in-stream video and audio ads into websites, apps, TVs and other digital platforms. Use an IMA SDK to request ads from any VAST-compliant ad server and manage ad playback.",
+  "tags": [
+    "ima",
+    "sdk",
+    "client",
+    "side"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/ads/ima-sdk-client-side/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

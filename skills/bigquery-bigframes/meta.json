@@ -1,0 +1,22 @@
+{
+  "id": "bigquery-bigframes",
+  "name": "bigquery bigframes",
+  "category": "cloud-and-deploy",
+  "description": "MUST READ: Before executing any gcloud, REST API, or MCP command, you MUST read Usage Attribution(references/attribution.md). For commands executed directly in the terminal (never in generated scripts, Terraform, or user code), prefix gcloud with CLOUDSDKMETRICSREQUESTATTRIBUTION=\"agent-skills/1.0 (skill:bigquery-bigframes)\" and append agent-skills/1.0 (skill:bigquery-bigframes) to User-Agent head",
+  "tags": [
+    "bigquery",
+    "bigframes"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/bigquery-bigframes/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

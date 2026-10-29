@@ -1,0 +1,25 @@
+{
+  "id": "google-cloud-filestore-nfs-browser",
+  "name": "google cloud filestore nfs browser",
+  "category": "cloud-and-deploy",
+  "description": "Enables autonomous agents and cloud engineers to inspect, search, and read files located on Filestore (NFS) instances without needing local NFS client packages (nfs-common), root privileges, or manual VPC network mounting.",
+  "tags": [
+    "google",
+    "cloud",
+    "filestore",
+    "nfs",
+    "browser"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/google-cloud-filestore-nfs-browser/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

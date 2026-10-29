@@ -1,0 +1,22 @@
+{
+  "id": "ponytail-audit",
+  "name": "ponytail audit",
+  "category": "engineering-workflow",
+  "description": "Audit the whole repo like the senior developer who just inherited it and will be paged when it breaks. Order of importance: correct, safe, holds under load, tested, fast, lean. Lean still matters: every extra line must be read, tested and fixed later. This is a report the user asked for, so give it in full.",
+  "tags": [
+    "ponytail",
+    "audit"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "DietrichGebert/ponytail",
+    "path": "skills/ponytail-audit/SKILL.md",
+    "commit": "96608e078b2d5ea607c5c3b8b5a54d1c1fba6846"
+  },
+  "description_source": "derived-from-body"
+}

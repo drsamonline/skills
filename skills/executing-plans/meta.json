@@ -1,0 +1,21 @@
+{
+  "id": "executing-plans",
+  "name": "executing plans",
+  "category": "engineering-workflow",
+  "description": "Use when executing an implementation plan in the current session as the implementer yourself — your human partner chose inline execution, or no subagent tool is available",
+  "tags": [
+    "executing",
+    "plans"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "obra/superpowers",
+    "path": "skills/executing-plans/SKILL.md",
+    "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b"
+  }
+}

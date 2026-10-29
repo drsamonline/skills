@@ -1,0 +1,21 @@
+{
+  "id": "playwright-core",
+  "name": "playwright core",
+  "category": "testing-qa",
+  "description": "Battle-tested Playwright patterns for writing and debugging reliable E2E, API, component, visual, accessibility, and security tests. Use when you need locator strategy, assertions, fixtures, network mocking, auth flows, trace debugging, or framework recipes for React, Next.js, Vue, and Angular. TypeScript and JavaScript.",
+  "tags": [
+    "playwright",
+    "core"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "testdino-hq/playwright-skill",
+    "path": "core/SKILL.md",
+    "commit": "178d1cb537604279d7b54500c4823a6db42b9de6"
+  }
+}

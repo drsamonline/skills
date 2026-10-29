@@ -1,0 +1,26 @@
+{
+  "id": "google-cloud-solution-guided-gke-ai-migration",
+  "name": "google cloud solution guided gke ai migration",
+  "category": "cloud-and-deploy",
+  "description": "This skill guides agents through the end-to-end process of migrating existing AI inference workloads (e.g., from Cloud Run, Gemini API, Gemini Enterprise Agent Platform) to self-hosted inference on Google Kubernetes Engine (GKE). The agent will act as an interactive architect, using a structured 4-phase workflow to discover requirements, design a Google Cloud-native solution, execute the implement",
+  "tags": [
+    "google",
+    "cloud",
+    "solution",
+    "guided",
+    "gke",
+    "migration"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/google-cloud-solution-guided-gke-ai-migration/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "apigee-agent-gateway-governance",
+  "name": "apigee agent gateway governance",
+  "category": "cloud-and-deploy",
+  "description": "Wires an Apigee proxy in as an ext-proc callout on a GCP Agent Gateway. The proxy is a processor, not an API proxy: it has no backend, inspects the LLM request and response the gateway hands it, and returns a verdict.",
+  "tags": [
+    "apigee",
+    "agent",
+    "gateway",
+    "governance"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/apigee-agent-gateway-governance/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

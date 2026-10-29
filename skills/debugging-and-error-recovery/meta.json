@@ -1,0 +1,23 @@
+{
+  "id": "debugging-and-error-recovery",
+  "name": "debugging and error recovery",
+  "category": "engineering-workflow",
+  "description": "Guides systematic root-cause debugging. Use when tests fail, builds break, something that worked yesterday broke, behavior doesn't match expectations, or you encounter any unexpected error. Use when you need to figure out what broke and why — a systematic approach to finding and fixing the root cause rather than guessing.",
+  "tags": [
+    "debugging",
+    "and",
+    "error",
+    "recovery"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "addyosmani/agent-skills",
+    "path": "skills/debugging-and-error-recovery/SKILL.md",
+    "commit": "eb07f19f52c2669f2364897aaa293e2aaddd7b1c"
+  }
+}

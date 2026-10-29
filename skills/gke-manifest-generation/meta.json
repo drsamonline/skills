@@ -1,0 +1,23 @@
+{
+  "id": "gke-manifest-generation",
+  "name": "gke manifest generation",
+  "category": "cloud-and-deploy",
+  "description": "This skill provides guidelines, tooling integration, and templates to translate natural language descriptions or application code changes into secure, compliant, and cost-effective Kubernetes YAML manifests optimized for both GKE Autopilot and GKE Standard clusters.",
+  "tags": [
+    "gke",
+    "manifest",
+    "generation"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/gke-manifest-generation/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

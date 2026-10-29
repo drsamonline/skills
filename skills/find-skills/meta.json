@@ -1,0 +1,21 @@
+{
+  "id": "find-skills",
+  "name": "find skills",
+  "category": "engineering-workflow",
+  "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.",
+  "tags": [
+    "find",
+    "skills"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "vercel-labs/skills",
+    "path": "skills/find-skills/SKILL.md",
+    "commit": "92a9a34ac3bf88e695e468b90c7bf32f163d32c8"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "gke-node-notready",
+  "name": "gke node notready",
+  "category": "cloud-and-deploy",
+  "description": "Use this skill to systematically diagnose why one or more GKE nodes report a NotReady (or Ready: Unknown) status and to propose safe remediations. A NotReady status means the node's kubelet is not reporting to the control plane correctly, so Kubernetes stops scheduling new Pods on the node, which can reduce application capacity and cause downtime.",
+  "tags": [
+    "gke",
+    "node",
+    "notready"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/gke-node-notready/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "vercel-react-native-skills",
+  "name": "vercel react native skills",
+  "category": "mobile-apps",
+  "description": "Comprehensive best practices for React Native and Expo applications. Contains rules across multiple categories covering performance, animations, UI patterns, and platform-specific optimizations.",
+  "tags": [
+    "vercel",
+    "react",
+    "native",
+    "skills"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "NOASSERTION",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "vercel-labs/agent-skills",
+    "path": "skills/react-native-skills/SKILL.md",
+    "commit": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62"
+  },
+  "description_source": "derived-from-body"
+}

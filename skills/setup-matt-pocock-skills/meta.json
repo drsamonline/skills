@@ -1,0 +1,23 @@
+{
+  "id": "setup-matt-pocock-skills",
+  "name": "setup matt pocock skills",
+  "category": "engineering-workflow",
+  "description": "Configure this repo for the engineering skills: set up its issue tracker, triage label vocabulary, and domain doc layout. Run once before first use of the other engineering skills.",
+  "tags": [
+    "setup",
+    "matt",
+    "pocock",
+    "skills"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "mattpocock/skills",
+    "path": "skills/engineering/setup-matt-pocock-skills/SKILL.md",
+    "commit": "a496f5513d4a4cf889bc48e189e579f4b0bdf6aa"
+  }
+}

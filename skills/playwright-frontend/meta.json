@@ -1,0 +1,21 @@
+{
+  "id": "playwright-frontend",
+  "name": "playwright frontend",
+  "category": "testing-qa",
+  "description": "For frontend engineers authoring UI — how to make components reliably locatable by tests and AI agents. Covers the official Playwright locator priority, semantic/accessible markup first, and how to add valid, unique, stable `data-testid` attributes (naming convention, uniqueness in lists, stability rules) for React, Vue, Angular, and Svelte. Use when writing or reviewing components, or when an agent needs durable locators.",
+  "tags": [
+    "playwright",
+    "frontend"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "testdino-hq/playwright-skill",
+    "path": "frontend/SKILL.md",
+    "commit": "178d1cb537604279d7b54500c4823a6db42b9de6"
+  }
+}

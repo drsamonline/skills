@@ -1,0 +1,21 @@
+{
+  "id": "improve-animations",
+  "name": "improve animations",
+  "category": "frontend-ui",
+  "description": "Survey a codebase's animation and motion code as a senior motion advisor, then produce a prioritized audit and self-contained implementation plans for other agents (or cheaper models) to execute. Read-only on source code — it plans improvements, it does not apply them. Use when the user asks to \"improve the animations\", \"audit the motion\", \"make this app feel better\", or wants a roadmap of animation fixes rather than a review of a single diff.",
+  "tags": [
+    "improve",
+    "animations"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "emilkowalski/skills",
+    "path": "skills/improve-animations/SKILL.md",
+    "commit": "a81dbca07f2217b7103e510c0f13f8d5b017afc9"
+  }
+}

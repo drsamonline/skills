@@ -1,0 +1,36 @@
+{
+  "id": "pack-mobile-apps",
+  "name": "Mobile apps pack — Android, iOS, Flutter and React Native",
+  "category": "mobile-apps",
+  "description": "Native and cross-platform mobile work: Android with Kotlin, Compose and Material 3, iOS application development, Flutter, React Native and Expo animation, and Dart Genkit — including the design rules that make a mobile UI feel native rather than ported.",
+  "tags": [
+    "pack",
+    "index",
+    "mobile",
+    "apps"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "mixed",
+  "origin": "third-party-index",
+  "upstream": {
+    "repo": "multiple",
+    "path": "skills/",
+    "commit": ""
+  },
+  "subskills": [
+    "android-native-dev",
+    "animate-expo",
+    "developing-genkit-dart",
+    "flutter-dev",
+    "frontend-architecture",
+    "frontend-observability",
+    "ios-application-dev",
+    "kotlin-exposed-patterns",
+    "kotlin-testing",
+    "react-native-dev",
+    "vercel-react-native-skills"
+  ]
+}

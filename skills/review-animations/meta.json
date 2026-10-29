@@ -1,0 +1,21 @@
+{
+  "id": "review-animations",
+  "name": "review animations",
+  "category": "frontend-ui",
+  "description": "Reviews animation and motion code against a high craft bar derived from Emil Kowalski's design engineering philosophy. Default to flagging; approval is earned.",
+  "tags": [
+    "review",
+    "animations"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "emilkowalski/skills",
+    "path": "skills/review-animations/SKILL.md",
+    "commit": "a81dbca07f2217b7103e510c0f13f8d5b017afc9"
+  }
+}

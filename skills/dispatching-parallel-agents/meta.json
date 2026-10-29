@@ -1,0 +1,22 @@
+{
+  "id": "dispatching-parallel-agents",
+  "name": "dispatching parallel agents",
+  "category": "engineering-workflow",
+  "description": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
+  "tags": [
+    "dispatching",
+    "parallel",
+    "agents"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "obra/superpowers",
+    "path": "skills/dispatching-parallel-agents/SKILL.md",
+    "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b"
+  }
+}

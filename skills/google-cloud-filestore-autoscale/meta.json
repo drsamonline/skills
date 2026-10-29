@@ -1,0 +1,24 @@
+{
+  "id": "google-cloud-filestore-autoscale",
+  "name": "google cloud filestore autoscale",
+  "category": "cloud-and-deploy",
+  "description": "This skill enables agents to inspect, evaluate, and modify Filestore instance capacities across Google Cloud projects based on configured thresholds.",
+  "tags": [
+    "google",
+    "cloud",
+    "filestore",
+    "autoscale"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/google-cloud-filestore-autoscale/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

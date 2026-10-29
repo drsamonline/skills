@@ -1,0 +1,24 @@
+{
+  "id": "data-manager-api-setup",
+  "name": "data manager api setup",
+  "category": "cloud-and-deploy",
+  "description": "Refer to Set up API access(https://developers.google.com/data-manager/api/devguides/quickstart/set-up-access.md.txt) for more details.",
+  "tags": [
+    "data",
+    "manager",
+    "api",
+    "setup"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/ads/data-manager-api-setup/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

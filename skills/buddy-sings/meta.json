@@ -1,0 +1,22 @@
+{
+  "id": "buddy-sings",
+  "name": "buddy sings",
+  "category": "frontend-ui",
+  "description": "Turn your Claude Code pet into a singer. Each pet gets a unique vocal identity based on its name and personality — the same pet always sounds the same.",
+  "tags": [
+    "buddy",
+    "sings"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "MiniMax-AI/skills",
+    "path": "skills/buddy-sings/SKILL.md",
+    "commit": "60aaae52bb2af8162732751a4332f62a5fef518b"
+  },
+  "description_source": "derived-from-body"
+}

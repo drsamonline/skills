@@ -1,0 +1,34 @@
+{
+  "id": "pack-security-audit",
+  "name": "Security & audit pack — vulnerability review and hardening",
+  "category": "security-audit",
+  "description": "Security review of code, APIs, services, CLIs and libraries: vulnerability classes to look for, hardening an input handler, adversarial review of a decision before it ships, and the guardrails that stop an agent running a destructive command.",
+  "tags": [
+    "pack",
+    "index",
+    "security",
+    "audit"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "mixed",
+  "origin": "third-party-index",
+  "upstream": {
+    "repo": "multiple",
+    "path": "skills/",
+    "commit": ""
+  },
+  "subskills": [
+    "constraint-driven-development",
+    "doubt-driven-development",
+    "flutter-dart-code-review",
+    "git-guardrails-claude-code",
+    "laravel-security",
+    "mle-workflow",
+    "security-and-hardening",
+    "security-audit",
+    "zeroize-audit"
+  ]
+}

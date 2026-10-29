@@ -1,0 +1,22 @@
+{
+  "id": "firebase-basics",
+  "name": "firebase basics",
+  "category": "cloud-and-deploy",
+  "description": "MUST READ: Before executing any gcloud, REST API, or MCP command, you MUST read and follow the instructions in Usage Attribution(references/attribution.md).",
+  "tags": [
+    "firebase",
+    "basics"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/firebase-basics/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

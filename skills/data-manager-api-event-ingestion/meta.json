@@ -1,0 +1,25 @@
+{
+  "id": "data-manager-api-event-ingestion",
+  "name": "data manager api event ingestion",
+  "category": "cloud-and-deploy",
+  "description": "- Authentication & Library Installation: If you need to set up access to the Data Manager API or install the client and utility libraries, refer to the data-manager-api-setup skill.",
+  "tags": [
+    "data",
+    "manager",
+    "api",
+    "event",
+    "ingestion"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/ads/data-manager-api-event-ingestion/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "cloud-run-basics",
+  "name": "cloud run basics",
+  "category": "cloud-and-deploy",
+  "description": "Cloud Run is a fully managed application platform for running your code, function, or container on top of Google's highly scalable infrastructure. It abstracts away infrastructure management, providing three primary resource types:",
+  "tags": [
+    "cloud",
+    "run",
+    "basics"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/cloud-run-basics/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

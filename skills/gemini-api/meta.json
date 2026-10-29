@@ -1,0 +1,21 @@
+{
+  "id": "gemini-api",
+  "name": "gemini api",
+  "category": "cloud-and-deploy",
+  "description": "Use when the user asks about using Gemini in an enterprise environment or explicitly mentions Vertex AI, Google Cloud, or Agent Platform. Guides the usage of the Gemini API on Agent Platform with the Google Gen AI SDK. Covers SDK usage (Python, JS/TS, Go, Java, C#), capabilities like multimodal inputs, tools, media generation, caching, batch prediction, and Live API.",
+  "tags": [
+    "gemini",
+    "api"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/gemini-api/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  }
+}

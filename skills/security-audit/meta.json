@@ -1,0 +1,21 @@
+{
+  "id": "security-audit",
+  "name": "security audit",
+  "category": "security-audit",
+  "description": "Security guidance and vulnerability review for codebases, APIs, services, CLI tools, libraries, and daemons. Use for security questions, focused reviews, vulnerability research, security audits, or pen tests. Run the complete workflow only for explicit codebase audit or pen-test requests, full/comprehensive/end-to-end reviews, or requested report artifacts.",
+  "tags": [
+    "security",
+    "audit"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "cloudflare/security-audit-skill",
+    "path": "skills/security-audit/SKILL.md",
+    "commit": "c1c8a8c1471069fb0e188eeaff69b8e8db6564a8"
+  }
+}

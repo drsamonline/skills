@@ -1,0 +1,25 @@
+{
+  "id": "google-mobile-ads-get-started",
+  "name": "google mobile ads get started",
+  "category": "cloud-and-deploy",
+  "description": "1. Determine the user's platform: Identify if the project is Android, iOS, or Unity. If unclear, ask before proceeding.",
+  "tags": [
+    "google",
+    "mobile",
+    "ads",
+    "get",
+    "started"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/ads/google-mobile-ads-get-started/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

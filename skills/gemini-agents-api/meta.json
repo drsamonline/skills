@@ -1,0 +1,22 @@
+{
+  "id": "gemini-agents-api",
+  "name": "gemini agents api",
+  "category": "cloud-and-deploy",
+  "description": "Manages custom Agent resources on Gemini Enterprise Agent Platform. Use when the user wants to programmatically create, configure, list, update, or delete stateful, server-managed Agent resources (including mounting files, skills, and tools) before executing conversations.",
+  "tags": [
+    "gemini",
+    "agents",
+    "api"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/gemini-agents-api/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  }
+}

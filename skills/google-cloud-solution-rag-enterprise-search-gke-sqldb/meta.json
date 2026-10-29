@@ -1,0 +1,26 @@
+{
+  "id": "google-cloud-solution-rag-enterprise-search-gke-sqldb",
+  "name": "google cloud solution rag enterprise search gke sqldb",
+  "category": "cloud-and-deploy",
+  "description": "This skill provides a workflow to design and implement a secure, low-latency, and high-accuracy RAG-enabled conversational search solution for private enterprise content by using an AlloyDB database, Cloud Storage, and a Google Kubernetes Engine (GKE) cluster to host all the application components, including an open model and an open-source inference framework.",
+  "tags": [
+    "google",
+    "cloud",
+    "solution",
+    "rag",
+    "enterprise",
+    "search"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/google-cloud-solution-rag-enterprise-search-gke-sqldb/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

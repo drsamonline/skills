@@ -1,0 +1,20 @@
+{
+  "id": "tdd",
+  "name": "tdd",
+  "category": "testing-qa",
+  "description": "Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions \"red-green-refactor\", or wants integration tests.",
+  "tags": [
+    "tdd"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "mattpocock/skills",
+    "path": "skills/engineering/tdd/SKILL.md",
+    "commit": "a496f5513d4a4cf889bc48e189e579f4b0bdf6aa"
+  }
+}

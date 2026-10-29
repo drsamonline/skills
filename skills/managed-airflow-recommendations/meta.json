@@ -1,0 +1,23 @@
+{
+  "id": "managed-airflow-recommendations",
+  "name": "managed airflow recommendations",
+  "category": "cloud-and-deploy",
+  "description": "This skill provides specialized instructions for providing recommendations, best practices, and performance-tuning for Managed Service for Apache Airflow (formerly Cloud Composer) environments. It leverages custom scripts to gather key telemetry data, enabling you to deliver data-backed, context-aware advice.",
+  "tags": [
+    "managed",
+    "airflow",
+    "recommendations"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/managed-airflow-recommendations/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

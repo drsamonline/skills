@@ -1,0 +1,22 @@
+{
+  "id": "source-driven-development",
+  "name": "source driven development",
+  "category": "engineering-workflow",
+  "description": "Grounds every implementation decision in official documentation. Use when you want to verify an approach against the official docs before implementing it, or when you want authoritative, source-cited code free from outdated patterns. Use when building with any framework or library where correctness matters.",
+  "tags": [
+    "source",
+    "driven",
+    "development"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "addyosmani/agent-skills",
+    "path": "skills/source-driven-development/SKILL.md",
+    "commit": "eb07f19f52c2669f2364897aaa293e2aaddd7b1c"
+  }
+}

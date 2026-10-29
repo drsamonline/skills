@@ -1,0 +1,23 @@
+{
+  "id": "application-integration-authoring",
+  "name": "application integration authoring",
+  "category": "cloud-and-deploy",
+  "description": "Google Cloud Application Integration workflows are authored, versioned, published, and executed programmatically through the REST API (https://integrations.googleapis.com/v1/...) or the discovery-based Google API Python client (googleapiclient.discovery.build(\"integrations\", \"v1\")).",
+  "tags": [
+    "application",
+    "integration",
+    "authoring"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/application-integration-authoring/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

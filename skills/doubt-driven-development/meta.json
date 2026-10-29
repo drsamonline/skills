@@ -1,0 +1,22 @@
+{
+  "id": "doubt-driven-development",
+  "name": "doubt driven development",
+  "category": "security-audit",
+  "description": "Subjects every non-trivial decision to a fresh-context adversarial review before it stands. Use when you want every assumption cross-examined before proceeding, when stress-testing a plan for hidden failure modes, when correctness matters more than speed, when working in unfamiliar code, when stakes are high (production auth, security-sensitive logic, a high-stakes migration, irreversible operations), or any time a confident output would be cheaper to verify now than to debug later.",
+  "tags": [
+    "doubt",
+    "driven",
+    "development"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "addyosmani/agent-skills",
+    "path": "skills/doubt-driven-development/SKILL.md",
+    "commit": "eb07f19f52c2669f2364897aaa293e2aaddd7b1c"
+  }
+}

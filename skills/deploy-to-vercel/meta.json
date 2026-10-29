@@ -1,0 +1,21 @@
+{
+  "id": "deploy-to-vercel",
+  "name": "deploy to vercel",
+  "category": "cloud-and-deploy",
+  "description": "Deploy applications and websites to Vercel. Use when the user requests deployment actions like \"deploy my app\", \"deploy and give me the link\", \"push this live\", or \"create a preview deployment\".",
+  "tags": [
+    "deploy",
+    "vercel"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "NOASSERTION",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "vercel-labs/agent-skills",
+    "path": "skills/deploy-to-vercel/SKILL.md",
+    "commit": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62"
+  }
+}

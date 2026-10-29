@@ -1,0 +1,24 @@
+{
+  "id": "google-mobile-ads-interstitial",
+  "name": "google mobile ads interstitial",
+  "category": "cloud-and-deploy",
+  "description": "Interstitial ads show full-page ads for users on mobile apps. Interstitial ads are designed to be placed between content and are best placed at natural app transition points.",
+  "tags": [
+    "google",
+    "mobile",
+    "ads",
+    "interstitial"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/ads/google-mobile-ads-interstitial/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "workload-manager-basics",
+  "name": "workload manager basics",
+  "category": "cloud-and-deploy",
+  "description": "Workload Manager validates enterprise workloads against Google Cloud best practices and recommendations. The public client libraries are centered on evaluations: define a resource scope, choose built-in or custom rules, run an evaluation, then inspect results and scanned resources.",
+  "tags": [
+    "workload",
+    "manager",
+    "basics"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/workload-manager-basics/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

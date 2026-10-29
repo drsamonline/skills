@@ -1,0 +1,24 @@
+{
+  "id": "agent-platform-prompt-management",
+  "name": "agent platform prompt management",
+  "category": "cloud-and-deploy",
+  "description": "1. Execute Operations via Python: Run the Python snippets below using runcommand in the execution environment to manage prompts in Agent Platform on behalf of the user. Do not delegate execution to the user or claim lack of access once approved.",
+  "tags": [
+    "agent",
+    "platform",
+    "prompt",
+    "management"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/agent-platform-prompt-management/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

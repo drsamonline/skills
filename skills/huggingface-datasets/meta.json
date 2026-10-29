@@ -1,0 +1,21 @@
+{
+  "id": "huggingface-datasets",
+  "name": "huggingface datasets",
+  "category": "ai-and-ml",
+  "description": "Use this skill for Hugging Face Dataset Viewer API workflows that fetch subset/split metadata, paginate rows, search text, apply filters, download parquet URLs, and read size or statistics.",
+  "tags": [
+    "huggingface",
+    "datasets"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "huggingface/skills",
+    "path": "skills/huggingface-datasets/SKILL.md",
+    "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c"
+  }
+}

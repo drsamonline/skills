@@ -1,0 +1,23 @@
+{
+  "id": "gke-workload-security",
+  "name": "gke workload security",
+  "category": "cloud-and-deploy",
+  "description": "Routing Note: For Workload Identity KSA/GSA bindings, open gke-workload-identity/SKILL.md. For cluster-level security flags (--database-encryption-key, --security-posture, RBAC, Shielded Nodes, Binary Authorization), open gke-platform-security/SKILL.md.",
+  "tags": [
+    "gke",
+    "workload",
+    "security"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/gke-workload-security/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "cloud-trace-querying",
+  "name": "cloud trace querying",
+  "category": "cloud-and-deploy",
+  "description": "This skill equips the agent to interact with Cloud Trace by providing standard query patterns, diagnostic workflows for latency and errors, and tools to fetch and inspect trace hierarchies.",
+  "tags": [
+    "cloud",
+    "trace",
+    "querying"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/cloud-trace-querying/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

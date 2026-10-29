@@ -1,0 +1,38 @@
+{
+  "id": "pack-testing-qa",
+  "name": "Testing & QA pack — Playwright, E2E, TDD and verification",
+  "category": "testing-qa",
+  "description": "Test work in one place: Playwright patterns for E2E, component and API tests, page objects, CI wiring and Cypress/Selenium migration, browser testing through DevTools, test-first development, and the discipline of verifying before you claim something works.",
+  "tags": [
+    "pack",
+    "index",
+    "testing",
+    "qa"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "mixed",
+  "origin": "third-party-index",
+  "upstream": {
+    "repo": "multiple",
+    "path": "skills/",
+    "commit": ""
+  },
+  "subskills": [
+    "browser-testing-with-devtools",
+    "playwright-ci",
+    "playwright-cli",
+    "playwright-core",
+    "playwright-frontend",
+    "playwright-migration",
+    "playwright-pom",
+    "playwright-qa",
+    "playwright-skill",
+    "tdd",
+    "test-driven-development",
+    "verification-before-completion",
+    "webapp-testing"
+  ]
+}

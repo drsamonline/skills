@@ -1,0 +1,20 @@
+{
+  "id": "animate",
+  "name": "animate",
+  "category": "frontend-ui",
+  "description": "Build an animation from scratch, making the decisions in the order that determines whether it feels right — should it animate at all, what purpose, which tool, which properties, which curve and duration, how it interrupts, how it exits. Writes the implementation. Use when asked to animate something, add motion, make a component feel alive, or build a transition. For critiquing existing motion use review-animations; for auditing a whole codebase use improve-animations.",
+  "tags": [
+    "animate"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "emilkowalski/skills",
+    "path": "skills/animate/SKILL.md",
+    "commit": "a81dbca07f2217b7103e510c0f13f8d5b017afc9"
+  }
+}

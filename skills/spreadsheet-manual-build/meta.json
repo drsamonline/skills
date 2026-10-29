@@ -1,0 +1,22 @@
+{
+  "id": "spreadsheet-manual-build",
+  "name": "spreadsheet manual build",
+  "category": "office-docs",
+  "description": "Spreadsheet Manual Build: an empty Excel workbook or CSV from a confirmed field list, formatted and validated. Use for an xlsx template or a manual register.",
+  "tags": [
+    "spreadsheet",
+    "manual",
+    "build"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party-aggregator",
+  "upstream": {
+    "repo": "sickn33/agentic-awesome-skills",
+    "path": "plugins/agentic-awesome-skills-claude/skills/spreadsheet-manual-build/SKILL.md",
+    "commit": "753c5f7bb64650b7d3ac0ab84d9b24892d7aed8b"
+  }
+}

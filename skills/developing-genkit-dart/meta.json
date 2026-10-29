@@ -1,0 +1,22 @@
+{
+  "id": "developing-genkit-dart",
+  "name": "developing genkit dart",
+  "category": "mobile-apps",
+  "description": "Generates code and provides documentation for the Genkit Dart SDK. Use when the user asks to build AI agents in Dart, use Genkit flows, or integrate LLMs into Dart/Flutter applications.",
+  "tags": [
+    "developing",
+    "genkit",
+    "dart"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/developing-genkit-dart/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  }
+}

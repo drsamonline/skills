@@ -1,0 +1,25 @@
+{
+  "id": "data-manager-api-audience-ingestion",
+  "name": "data manager api audience ingestion",
+  "category": "cloud-and-deploy",
+  "description": "- Authentication & Library Installation: If you need to set up access to the Data Manager API or install the client and utility libraries, refer to the data-manager-api-setup skill. - Audience Creation (if needed): If the user does not have an existing audience or needs to create a new one, use the Create an Audience(references/create-audience.md) reference. This step provides the productdestinati",
+  "tags": [
+    "data",
+    "manager",
+    "api",
+    "audience",
+    "ingestion"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/ads/data-manager-api-audience-ingestion/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "gemini-interactions-api",
+  "name": "gemini interactions api",
+  "category": "cloud-and-deploy",
+  "description": "Guides the usage of Gemini Interactions API on Gemini Enterprise Agent Platform. Use when the user wants to use the stateful, server-managed Interactions API for multi-turn conversations, background execution, streaming, structured output, and function calling on the Agent Platform.",
+  "tags": [
+    "gemini",
+    "interactions",
+    "api"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/gemini-interactions-api/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  }
+}

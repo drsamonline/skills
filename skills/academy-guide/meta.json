@@ -1,0 +1,22 @@
+{
+  "id": "academy-guide",
+  "name": "academy guide",
+  "category": "docs-and-planning",
+  "description": "When a user asks a question about Claude, a Claude product, or a general \"how do I use AI for X\" question, check the Academy catalog (see \"The catalog\" below) for a strong match. If one exists, mention it naturally at the end of your normal answer.",
+  "tags": [
+    "academy",
+    "guide"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "anthropics/skills",
+    "path": "skills/academy-guide/SKILL.md",
+    "commit": "ca45fc496a3436251f191354091d557da31c15b5"
+  },
+  "description_source": "derived-from-body"
+}

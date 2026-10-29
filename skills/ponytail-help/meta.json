@@ -1,0 +1,22 @@
+{
+  "id": "ponytail-help",
+  "name": "ponytail help",
+  "category": "engineering-workflow",
+  "description": "Display this reference card when invoked. One-shot, do NOT change mode, write flag files, or persist anything.",
+  "tags": [
+    "ponytail",
+    "help"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "DietrichGebert/ponytail",
+    "path": "skills/ponytail-help/SKILL.md",
+    "commit": "96608e078b2d5ea607c5c3b8b5a54d1c1fba6846"
+  },
+  "description_source": "derived-from-body"
+}

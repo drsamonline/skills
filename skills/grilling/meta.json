@@ -1,0 +1,20 @@
+{
+  "id": "grilling",
+  "name": "grilling",
+  "category": "engineering-workflow",
+  "description": "Grill the user relentlessly about a plan, decision, or idea. Use when the user wants to stress-test their thinking, or uses any 'grill' trigger phrases.",
+  "tags": [
+    "grilling"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "mattpocock/skills",
+    "path": "skills/productivity/grilling/SKILL.md",
+    "commit": "a496f5513d4a4cf889bc48e189e579f4b0bdf6aa"
+  }
+}

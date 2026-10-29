@@ -1,0 +1,21 @@
+{
+  "id": "ask-matt",
+  "name": "ask matt",
+  "category": "engineering-workflow",
+  "description": "Ask which skill or flow fits your situation. A router over the skills in this repo.",
+  "tags": [
+    "ask",
+    "matt"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "mattpocock/skills",
+    "path": "skills/engineering/ask-matt/SKILL.md",
+    "commit": "a496f5513d4a4cf889bc48e189e579f4b0bdf6aa"
+  }
+}

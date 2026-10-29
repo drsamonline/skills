@@ -1,0 +1,23 @@
+{
+  "id": "cloud-logging-finops",
+  "name": "cloud logging finops",
+  "category": "cloud-and-deploy",
+  "description": "Non-interactive runs. When no user can answer (e.g. a scheduled or automated run), ask nothing: audit the project named in the request, or the active gcloud project; use --billing-mode=search; cover all five report topics (Step 2.5); and never enable an API or upgrade a log bucket. Put anything that needed a user (a disabled API, a missing role, the upgrade advisory) in the report instead.",
+  "tags": [
+    "cloud",
+    "logging",
+    "finops"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/cloud-logging-finops/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "agent-platform-deploy",
+  "name": "agent platform deploy",
+  "category": "cloud-and-deploy",
+  "description": "This skill provides instructions for deploying Open Models from Agent Platform Model Garden to endpoints, and subsequently undeploying them to clean up resources.",
+  "tags": [
+    "agent",
+    "platform",
+    "deploy"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/agent-platform-deploy/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

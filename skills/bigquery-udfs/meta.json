@@ -1,0 +1,22 @@
+{
+  "id": "bigquery-udfs",
+  "name": "bigquery udfs",
+  "category": "cloud-and-deploy",
+  "description": "BigQuery User-Defined Functions (UDFs) extend GoogleSQL with custom logic written in SQL, JavaScript, managed Python (python-3.11), or hosted externally as Remote Functions on Cloud Run and Cloud Run functions.",
+  "tags": [
+    "bigquery",
+    "udfs"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/bigquery-udfs/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "defuddle",
+  "name": "defuddle",
+  "category": "notes-knowledge",
+  "description": "Extract clean Markdown from HTML pages with Defuddle CLI.",
+  "tags": [
+    "defuddle"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "kepano/obsidian-skills",
+    "path": "skills/defuddle/SKILL.md",
+    "commit": "3ccff5338ea700537839b21900aa5358a0402c98"
+  }
+}

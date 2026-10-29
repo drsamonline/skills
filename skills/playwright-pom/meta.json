@@ -1,0 +1,21 @@
+{
+  "id": "playwright-pom",
+  "name": "playwright pom",
+  "category": "testing-qa",
+  "description": "Page Object Model patterns for Playwright — when to use POM, how to structure page objects, and when fixtures or helpers are a better fit.",
+  "tags": [
+    "playwright",
+    "pom"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "testdino-hq/playwright-skill",
+    "path": "pom/SKILL.md",
+    "commit": "178d1cb537604279d7b54500c4823a6db42b9de6"
+  }
+}

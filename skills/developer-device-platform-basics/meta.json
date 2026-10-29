@@ -1,0 +1,24 @@
+{
+  "id": "developer-device-platform-basics",
+  "name": "developer device platform basics",
+  "category": "cloud-and-deploy",
+  "description": "Developer Device Platform (DDP) is a Google fully managed, global infrastructure providing access to a wide variety of physical and virtual devices.",
+  "tags": [
+    "developer",
+    "device",
+    "platform",
+    "basics"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/developer-device-platform-basics/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

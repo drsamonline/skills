@@ -1,0 +1,22 @@
+{
+  "id": "360-feedback-system",
+  "name": "360 feedback system",
+  "category": "backend-services",
+  "description": "360 feedback register: reviewer, subject, review cycle, visibility, due date and score, as CSV, SQL, JSON Schema or Notion on request. Use for 360 reviews or peer feedback cycles.",
+  "tags": [
+    "360",
+    "feedback",
+    "system"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party-aggregator",
+  "upstream": {
+    "repo": "sickn33/agentic-awesome-skills",
+    "path": "plugins/agentic-awesome-skills-claude/skills/360-feedback-system/SKILL.md",
+    "commit": "753c5f7bb64650b7d3ac0ab84d9b24892d7aed8b"
+  }
+}

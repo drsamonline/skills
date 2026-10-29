@@ -1,0 +1,24 @@
+{
+  "id": "google-mobile-ads-banner",
+  "name": "google mobile ads banner",
+  "category": "cloud-and-deploy",
+  "description": "Banner ads are rectangular image or text ads that occupy a spot within an app's layout. They remain on screen during user interaction and can refresh automatically.",
+  "tags": [
+    "google",
+    "mobile",
+    "ads",
+    "banner"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/ads/google-mobile-ads-banner/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

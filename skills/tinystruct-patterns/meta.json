@@ -1,0 +1,21 @@
+{
+  "id": "tinystruct-patterns",
+  "name": "tinystruct patterns",
+  "category": "backend-services",
+  "description": "Expert guidance for developing with the tinystruct Java framework. Use when working on the tinystruct codebase or any project built on tinystruct — including generating the bin/dispatcher and bin/dispatcher.cmd launcher scripts when a project lacks them, creating Application classes, @Action-mapped routes, unit tests, ActionRegistry, HTTP/CLI dual-mode handling, the built-in HTTP server, the event system, JSON with Builder/Builders, database persistence with AbstractData, POJO generation, Server-Sent Events (SSE), file uploads, and outbound HTTP networking.",
+  "tags": [
+    "tinystruct",
+    "patterns"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party-aggregator",
+  "upstream": {
+    "repo": "affaan-m/ECC",
+    "path": "skills/tinystruct-patterns/SKILL.md",
+    "commit": "25278e7d7b6cf6e6a4e7a6c8e10f14ff22f0eb5b"
+  }
+}

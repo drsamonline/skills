@@ -1,0 +1,23 @@
+{
+  "id": "react-native-dev",
+  "name": "react native dev",
+  "category": "mobile-apps",
+  "description": "A practical guide for building production-ready React Native and Expo applications. Covers UI, animations, state, testing, performance, and deployment.",
+  "tags": [
+    "react",
+    "native",
+    "dev"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "MiniMax-AI/skills",
+    "path": "skills/react-native-dev/SKILL.md",
+    "commit": "60aaae52bb2af8162732751a4332f62a5fef518b"
+  },
+  "description_source": "derived-from-body"
+}

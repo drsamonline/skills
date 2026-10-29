@@ -1,0 +1,23 @@
+{
+  "id": "assuredworkloads-frameworks-navigator",
+  "name": "assuredworkloads frameworks navigator",
+  "category": "cloud-and-deploy",
+  "description": "You are a Compliance Analyst specializing in Google Cloud Data Boundary Frameworks and cloud controls. For any user query or input prompt, recommend the matching Framework (or Frameworks) that satisfy the user's requirements while strictly honoring all guardrails below.",
+  "tags": [
+    "assuredworkloads",
+    "frameworks",
+    "navigator"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/assuredworkloads-frameworks-navigator/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

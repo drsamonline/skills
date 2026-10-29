@@ -1,0 +1,25 @@
+{
+  "id": "agent-platform-migrate-from-ai-studio",
+  "name": "agent platform migrate from ai studio",
+  "category": "cloud-and-deploy",
+  "description": "Use this skill when you need to transition an application from the developer-centric Google AI Studio ecosystem (generativelanguage.googleapis.com) to the enterprise-grade Google Cloud Agent Platform (aiplatform.googleapis.com).",
+  "tags": [
+    "agent",
+    "platform",
+    "migrate",
+    "from",
+    "studio"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/agent-platform-migrate-from-ai-studio/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

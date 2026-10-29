@@ -1,0 +1,24 @@
+{
+  "id": "cloud-logging-query-generation",
+  "name": "cloud logging query generation",
+  "category": "cloud-and-deploy",
+  "description": "Use this skill to generate correct Logging Query Language (LQL) queries for Cloud Logging.",
+  "tags": [
+    "cloud",
+    "logging",
+    "query",
+    "generation"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/cloud-logging-query-generation/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "gke-workload-troubleshooting",
+  "name": "gke workload troubleshooting",
+  "category": "cloud-and-deploy",
+  "description": "Use this skill to systematically diagnose and resolve failures in application workloads deployed in GKE clusters. This skill operates non-interactively and enforces a read-only diagnostics boundary: it only proposes fixes — whether Kubernetes manifest/config patches or Google Cloud changes (for example gcloud IAM bindings or node-pool recreation) — and never executes live mutations itself.",
+  "tags": [
+    "gke",
+    "workload",
+    "troubleshooting"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/gke-workload-troubleshooting/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "linting-neostandard-eslint9",
+  "name": "linting neostandard eslint9",
+  "category": "docs-and-planning",
+  "description": "Configures ESLint v9 flat config and neostandard for JavaScript and TypeScript projects, including migrating from legacy `.eslintrc*` files or the `standard` package. Use when you need to set up or fix linting with `eslint.config.js` or `eslint.config.mjs`, troubleshoot lint errors, configure neostandard rules, migrate from `.eslintrc` to flat config, or integrate linting into CI pipelines and pre-commit hooks.",
+  "tags": [
+    "linting",
+    "neostandard",
+    "eslint9"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "mcollina/skills",
+    "path": "skills/linting-neostandard-eslint9/SKILL.md",
+    "commit": "c75d70dbfbe991d8cec42aeda0b64ff14fbb9ac7"
+  }
+}

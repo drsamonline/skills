@@ -1,0 +1,24 @@
+{
+  "id": "cloud-monitoring-promql-query",
+  "name": "cloud monitoring promql query",
+  "category": "cloud-and-deploy",
+  "description": "Use this skill to generate a valid PromQL query from any Cloud Monitoring metric type. This guide applies to all Cloud Monitoring metric types by mapping Cloud Monitoring metric and resource descriptors to PromQL structures.",
+  "tags": [
+    "cloud",
+    "monitoring",
+    "promql",
+    "query"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/cloud-monitoring-promql-query/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

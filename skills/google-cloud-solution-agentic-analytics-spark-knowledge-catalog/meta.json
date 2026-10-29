@@ -1,0 +1,26 @@
+{
+  "id": "google-cloud-solution-agentic-analytics-spark-knowledge-catalog",
+  "name": "google cloud solution agentic analytics spark knowledge catalog",
+  "category": "cloud-and-deploy",
+  "description": "This skill provides a workflow to design and implement a governed, secure pipeline for agentic analytics solution across structured and unstructured data that's distributed across Google Cloud, on-premises systems, and other cloud providers.",
+  "tags": [
+    "google",
+    "cloud",
+    "solution",
+    "agentic",
+    "analytics",
+    "spark"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/google-cloud-solution-agentic-analytics-spark-knowledge-catalog/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

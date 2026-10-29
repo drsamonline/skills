@@ -1,0 +1,25 @@
+{
+  "id": "google-cloud-slo-alert-configuration",
+  "name": "google cloud slo alert configuration",
+  "category": "cloud-and-deploy",
+  "description": "This skill guides the user through a structured conversation to configure Cloud Monitoring PromQL-based Service Level Objective (SLO) alerting policies on Google Cloud in Terraform. Your role is to act as a setup wizard that conceptually models the 4 key components of an SLO API (Service Scope, Service Level, SLI, and Alert Condition), gathers the requirements, and outputs a Terraform configuratio",
+  "tags": [
+    "google",
+    "cloud",
+    "slo",
+    "alert",
+    "configuration"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/google-cloud-slo-alert-configuration/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

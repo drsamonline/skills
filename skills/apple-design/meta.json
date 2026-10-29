@@ -1,0 +1,21 @@
+{
+  "id": "apple-design",
+  "name": "apple design",
+  "category": "frontend-ui",
+  "description": "Apple's approach to interface design and fluid, physical motion, translated for the web. Use when building or reviewing gesture-driven UI, spring animations, drag/swipe/sheet interactions, momentum and interruptible transitions, translucent materials and depth, typography (optical sizing, tracking, leading), reduced-motion, or the design foundations (feedback, spatial consistency, restraint) behind Apple-style interfaces.",
+  "tags": [
+    "apple",
+    "design"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "emilkowalski/skills",
+    "path": "skills/apple-design/SKILL.md",
+    "commit": "a81dbca07f2217b7103e510c0f13f8d5b017afc9"
+  }
+}

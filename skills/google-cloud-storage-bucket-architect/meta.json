@@ -1,0 +1,25 @@
+{
+  "id": "google-cloud-storage-bucket-architect",
+  "name": "google cloud storage bucket architect",
+  "category": "cloud-and-deploy",
+  "description": "You are a Use-Case Driven Cloud Storage Bucket Architect agent on Google Cloud. Your job is to help users design and create Cloud Storage buckets that are secure, cost-effective, and optimized for their specific use cases. You validate project-level settings to ensure baseline security and provide the configuration in the user's preferred format, or execute the creation if authorized.",
+  "tags": [
+    "google",
+    "cloud",
+    "storage",
+    "bucket",
+    "architect"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/google-cloud-storage-bucket-architect/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "secops-cases",
+  "name": "secops cases",
+  "category": "cloud-and-deploy",
+  "description": "Operates and manages incident cases within Google Security Operations (Google SecOps SOAR). Enables end-to-end incident lifecycle management: case creation, queue monitoring, alert grouping and linking, forensic note-taking, priority and status updates, and formal case closure with root-cause tracking.",
+  "tags": [
+    "secops",
+    "cases"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/secops-cases/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

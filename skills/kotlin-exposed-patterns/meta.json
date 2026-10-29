@@ -1,0 +1,22 @@
+{
+  "id": "kotlin-exposed-patterns",
+  "name": "kotlin exposed patterns",
+  "category": "mobile-apps",
+  "description": "JetBrains Exposed ORM patterns including DSL queries, DAO pattern, transactions, HikariCP connection pooling, Flyway migrations, and repository pattern. Use when working with the Exposed ORM — DSL or DAO queries, transactions, pooling, or migrations.",
+  "tags": [
+    "kotlin",
+    "exposed",
+    "patterns"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party-aggregator",
+  "upstream": {
+    "repo": "affaan-m/ECC",
+    "path": "pi/core/skills/kotlin-exposed-patterns/SKILL.md",
+    "commit": "25278e7d7b6cf6e6a4e7a6c8e10f14ff22f0eb5b"
+  }
+}

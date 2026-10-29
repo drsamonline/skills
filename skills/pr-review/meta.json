@@ -1,0 +1,21 @@
+{
+  "id": "pr-review",
+  "name": "pr review",
+  "category": "frontend-ui",
+  "description": "Review pull requests against repository standards. Two-phase process: automated validation, then manual content review.",
+  "tags": [
+    "review"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "MiniMax-AI/skills",
+    "path": ".claude/skills/pr-review/SKILL.md",
+    "commit": "60aaae52bb2af8162732751a4332f62a5fef518b"
+  },
+  "description_source": "derived-from-body"
+}

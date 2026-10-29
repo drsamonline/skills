@@ -1,0 +1,23 @@
+{
+  "id": "lambda-labs-gpu-cloud",
+  "name": "lambda labs gpu cloud",
+  "category": "ai-and-ml",
+  "description": "Reserved and on-demand GPU cloud instances for ML training and inference. Use when you need dedicated GPU instances with simple SSH access, persistent filesystems, or high-performance multi-node clusters for large-scale training.",
+  "tags": [
+    "lambda",
+    "labs",
+    "gpu",
+    "cloud"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "orchestra-research/AI-research-SKILLs",
+    "path": "09-infrastructure/lambda-labs/SKILL.md",
+    "commit": "773a52944ba4747a18bd4ae9ade53fff041adcbc"
+  }
+}

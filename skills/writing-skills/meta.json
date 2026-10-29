@@ -1,0 +1,21 @@
+{
+  "id": "writing-skills",
+  "name": "writing skills",
+  "category": "engineering-workflow",
+  "description": "Use when creating new skills, editing existing skills, or verifying skills work before deployment",
+  "tags": [
+    "writing",
+    "skills"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "obra/superpowers",
+    "path": "skills/writing-skills/SKILL.md",
+    "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b"
+  }
+}

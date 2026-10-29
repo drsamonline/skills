@@ -1,0 +1,23 @@
+{
+  "id": "ima-dai-sdk",
+  "name": "ima dai sdk",
+  "category": "cloud-and-deploy",
+  "description": "Use the IMA DAI SDK to load HLS or DASH streams into the app for:",
+  "tags": [
+    "ima",
+    "dai",
+    "sdk"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/ads/ima-dai-sdk/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

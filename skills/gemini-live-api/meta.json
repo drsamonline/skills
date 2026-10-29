@@ -1,0 +1,23 @@
+{
+  "id": "gemini-live-api",
+  "name": "gemini live api",
+  "category": "cloud-and-deploy",
+  "description": "This skill provides instructions for generating a LiveAPI client service class that connects to the Gemini Enterprise Live API over WebSockets. The generated client handles bidirectional streaming, bearer-token authentication via Application Default Credentials (ADC), transparent session resumption, and ClientMessage / ServerMessage proto exchange.",
+  "tags": [
+    "gemini",
+    "live",
+    "api"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/gemini-live-api/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

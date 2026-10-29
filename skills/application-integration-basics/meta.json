@@ -1,0 +1,23 @@
+{
+  "id": "application-integration-basics",
+  "name": "application integration basics",
+  "category": "cloud-and-deploy",
+  "description": "Application Integration is Google Cloud's serverless, auto-scaling Integration-Platform-as-a-Service (iPaaS) for connecting Google Cloud services and third-party SaaS applications. It runs event-driven workflows made of triggers, tasks, data mappings, and Integration Connectors connections without requiring you to manage servers. Use this skill to decide whether Application Integration fits a work",
+  "tags": [
+    "application",
+    "integration",
+    "basics"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/application-integration-basics/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

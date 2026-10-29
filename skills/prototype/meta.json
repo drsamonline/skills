@@ -1,0 +1,26 @@
+{
+  "id": "prototype",
+  "name": "prototype",
+  "category": "engineering-workflow",
+  "description": "Build multiple genuinely different versions of a UI piece you describe, rendered behind a visual picker so you can flip through them live and promote the one that feels right. Only runs when explicitly invoked; it does not trigger on its own.",
+  "tags": [
+    "prototype"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "emilkowalski/skills",
+    "path": "skills/prototype/SKILL.md",
+    "commit": "a81dbca07f2217b7103e510c0f13f8d5b017afc9"
+  },
+  "variants": [
+    {
+      "repo": "mattpocock/skills",
+      "path": "skills/engineering/prototype/SKILL.md"
+    }
+  ]
+}

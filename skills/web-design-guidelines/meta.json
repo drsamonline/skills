@@ -1,0 +1,22 @@
+{
+  "id": "web-design-guidelines",
+  "name": "web design guidelines",
+  "category": "frontend-ui",
+  "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\".",
+  "tags": [
+    "web",
+    "design",
+    "guidelines"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "NOASSERTION",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "vercel-labs/agent-skills",
+    "path": "skills/web-design-guidelines/SKILL.md",
+    "commit": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62"
+  }
+}

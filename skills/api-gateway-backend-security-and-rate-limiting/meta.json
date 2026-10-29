@@ -1,0 +1,26 @@
+{
+  "id": "api-gateway-backend-security-and-rate-limiting",
+  "name": "api gateway backend security and rate limiting",
+  "category": "cloud-and-deploy",
+  "description": "This skill configures client authentication, gateway-to-backend authentication, and per-project rate limits (quotas) for Google Cloud API Gateway across OpenAPI 2.0 (swagger: \"2.0\") and OpenAPI 3.0.x (openapi: 3.0.4), including gateways with Model Context Protocol (MCP) enabled (Public Preview).",
+  "tags": [
+    "api",
+    "gateway",
+    "backend",
+    "security",
+    "and",
+    "rate"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/api-gateway-backend-security-and-rate-limiting/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "kotlin-testing",
+  "name": "kotlin testing",
+  "category": "mobile-apps",
+  "description": "Patrones de pruebas Kotlin con Kotest, MockK, pruebas de coroutines, pruebas basadas en propiedades y cobertura con Kover. Sigue la metodología TDD con prácticas idiomáticas de Kotlin.",
+  "tags": [
+    "kotlin",
+    "testing"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party-aggregator",
+  "upstream": {
+    "repo": "affaan-m/ECC",
+    "path": "docs/es/skills/kotlin-testing/SKILL.md",
+    "commit": "25278e7d7b6cf6e6a4e7a6c8e10f14ff22f0eb5b"
+  }
+}

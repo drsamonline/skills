@@ -1,0 +1,21 @@
+{
+  "id": "ponytail-gain",
+  "name": "ponytail gain",
+  "category": "engineering-workflow",
+  "description": "Show ponytail measured impact as a scoreboard: less code, less cost, more speed, from the agentic benchmark averages. One-shot display.",
+  "tags": [
+    "ponytail",
+    "gain"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "DietrichGebert/ponytail",
+    "path": ".openclaw/skills/ponytail-gain/SKILL.md",
+    "commit": "96608e078b2d5ea607c5c3b8b5a54d1c1fba6846"
+  }
+}

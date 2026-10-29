@@ -1,0 +1,24 @@
+{
+  "id": "bigquery-migration-sql-translator",
+  "name": "bigquery migration sql translator",
+  "category": "cloud-and-deploy",
+  "description": "The BigQuery Migration Service (BQMS) translates legacy database SQL scripts, queries, and schemas into GoogleSQL. This skill coordinates translation workflows, Cloud Storage staging, compiler error triage, and YAML configuration.",
+  "tags": [
+    "bigquery",
+    "migration",
+    "sql",
+    "translator"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/bigquery-migration-sql-translator/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

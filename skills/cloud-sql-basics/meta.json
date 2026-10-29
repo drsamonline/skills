@@ -1,0 +1,23 @@
+{
+  "id": "cloud-sql-basics",
+  "name": "cloud sql basics",
+  "category": "cloud-and-deploy",
+  "description": "Cloud SQL is a fully managed relational database service for MySQL, PostgreSQL, and SQL Server. It automates time-consuming tasks like patches, updates, backups, and replicas, while providing high performance and availability for your applications.",
+  "tags": [
+    "cloud",
+    "sql",
+    "basics"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/cloud-sql-basics/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

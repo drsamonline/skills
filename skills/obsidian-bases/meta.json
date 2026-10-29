@@ -1,0 +1,21 @@
+{
+  "id": "obsidian-bases",
+  "name": "obsidian bases",
+  "category": "notes-knowledge",
+  "description": "Create and edit Obsidian Bases (.base files) with views, filters, formulas, and summaries. Use when working with .base files, creating database-like views of notes, or when the user mentions Bases, table views, card views, filters, or formulas in Obsidian.",
+  "tags": [
+    "obsidian",
+    "bases"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "kepano/obsidian-skills",
+    "path": "skills/obsidian-bases/SKILL.md",
+    "commit": "3ccff5338ea700537839b21900aa5358a0402c98"
+  }
+}

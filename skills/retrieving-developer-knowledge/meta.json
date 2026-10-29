@@ -1,0 +1,23 @@
+{
+  "id": "retrieving-developer-knowledge",
+  "name": "retrieving developer knowledge",
+  "category": "cloud-and-deploy",
+  "description": "The Developer Knowledge skill provides access to official Google developer documentation across Google Cloud, AI/ML (ai.google.dev, ADK, TensorFlow), Android, Chrome, Web, Flutter, Go, Firebase, and other Google developer platforms via the Developer Knowledge MCP server or REST API fallback.",
+  "tags": [
+    "retrieving",
+    "developer",
+    "knowledge"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "plugins/cloud/google-cloud-developer/skills/retrieving-developer-knowledge/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

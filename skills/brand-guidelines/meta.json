@@ -1,0 +1,21 @@
+{
+  "id": "brand-guidelines",
+  "name": "brand guidelines",
+  "category": "frontend-ui",
+  "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
+  "tags": [
+    "brand",
+    "guidelines"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "anthropics/skills",
+    "path": "skills/brand-guidelines/SKILL.md",
+    "commit": "ca45fc496a3436251f191354091d557da31c15b5"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "secops-detection-engineering",
+  "name": "secops detection engineering",
+  "category": "cloud-and-deploy",
+  "description": "This skill guides security engineers and autonomous agents through the end-to-end detection engineering lifecycle within Google Security Operations (Google SecOps). It provides comprehensive procedures for authoring, validating, testing, and deploying custom YARA-L 2.0 detection rules, as well as executing threat-intelligence-driven coverage evaluation and gap mitigation workflows.",
+  "tags": [
+    "secops",
+    "detection",
+    "engineering"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/secops-detection-engineering/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

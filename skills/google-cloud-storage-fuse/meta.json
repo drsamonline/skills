@@ -1,0 +1,24 @@
+{
+  "id": "google-cloud-storage-fuse",
+  "name": "google cloud storage fuse",
+  "category": "cloud-and-deploy",
+  "description": "Cloud Storage FUSE is a POSIX file-system adapter over Cloud Storage on Google Cloud, operated via the gcsfuse CLI tool. Mounting is a one-line command; mounting well is not: the default mount is tuned for coherency, not performance (file cache off, 60 s metadata TTL, list cache off), and object-store semantics leak through the file interface (directory renames fail or go non-atomic on flat bucket",
+  "tags": [
+    "google",
+    "cloud",
+    "storage",
+    "fuse"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/google-cloud-storage-fuse/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

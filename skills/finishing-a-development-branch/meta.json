@@ -1,0 +1,22 @@
+{
+  "id": "finishing-a-development-branch",
+  "name": "finishing a development branch",
+  "category": "engineering-workflow",
+  "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work",
+  "tags": [
+    "finishing",
+    "development",
+    "branch"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "obra/superpowers",
+    "path": "skills/finishing-a-development-branch/SKILL.md",
+    "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b"
+  }
+}

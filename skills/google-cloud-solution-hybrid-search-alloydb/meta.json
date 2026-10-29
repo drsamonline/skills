@@ -1,0 +1,26 @@
+{
+  "id": "google-cloud-solution-hybrid-search-alloydb",
+  "name": "google cloud solution hybrid search alloydb",
+  "category": "cloud-and-deploy",
+  "description": "This skill provides a workflow to design and implement secure, low-latency, and high-accuracy hybrid search solutions combining structured dataset filtering, vector search indexing, faceted metadata filtering, semantic reranking, recall evaluation, in-database AI validation, database abstraction layers, and serverless application hosting.",
+  "tags": [
+    "google",
+    "cloud",
+    "solution",
+    "hybrid",
+    "search",
+    "alloydb"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/google-cloud-solution-hybrid-search-alloydb/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

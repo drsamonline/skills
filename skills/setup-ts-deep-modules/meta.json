@@ -1,0 +1,22 @@
+{
+  "id": "setup-ts-deep-modules",
+  "name": "setup ts deep modules",
+  "category": "engineering-workflow",
+  "description": "Wire dependency-cruiser into a TypeScript repo so each package is a deep module, with implementation hidden in subfolders and reachable only through its entry-point files. User-invoked.",
+  "tags": [
+    "setup",
+    "deep",
+    "modules"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "mattpocock/skills",
+    "path": "skills/in-progress/setup-ts-deep-modules/SKILL.md",
+    "commit": "a496f5513d4a4cf889bc48e189e579f4b0bdf6aa"
+  }
+}

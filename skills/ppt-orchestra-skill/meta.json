@@ -1,0 +1,22 @@
+{
+  "id": "ppt-orchestra-skill",
+  "name": "ppt orchestra skill",
+  "category": "office-docs",
+  "description": "Plan and orchestrate multi-slide PowerPoint creation from scratch. Use before generating a full deck with subagents: classify each slide type, enforce visual variety, set typography/spacing rules, and run text-based QA to catch content issues.",
+  "tags": [
+    "ppt",
+    "orchestra",
+    "skill"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "MiniMax-AI/skills",
+    "path": "plugins/pptx-plugin/skills/ppt-orchestra-skill/SKILL.md",
+    "commit": "60aaae52bb2af8162732751a4332f62a5fef518b"
+  }
+}

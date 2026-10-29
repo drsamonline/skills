@@ -1,0 +1,21 @@
+{
+  "id": "implement-spec",
+  "name": "implement spec",
+  "category": "engineering-workflow",
+  "description": "Implement the result of /to-spec and /to-tickets in code.",
+  "tags": [
+    "implement",
+    "spec"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "mattpocock/skills",
+    "path": "skills/engineering/implement-spec/SKILL.md",
+    "commit": "a496f5513d4a4cf889bc48e189e579f4b0bdf6aa"
+  }
+}

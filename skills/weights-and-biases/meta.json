@@ -1,0 +1,22 @@
+{
+  "id": "weights-and-biases",
+  "name": "weights and biases",
+  "category": "ai-and-ml",
+  "description": "Track ML experiments with automatic logging, visualize training in real-time, optimize hyperparameters with sweeps, and manage model registry with W&B - collaborative MLOps platform",
+  "tags": [
+    "weights",
+    "and",
+    "biases"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "orchestra-research/AI-research-SKILLs",
+    "path": "13-mlops/weights-and-biases/SKILL.md",
+    "commit": "773a52944ba4747a18bd4ae9ade53fff041adcbc"
+  }
+}

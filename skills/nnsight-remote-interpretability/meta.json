@@ -1,0 +1,22 @@
+{
+  "id": "nnsight-remote-interpretability",
+  "name": "nnsight remote interpretability",
+  "category": "ai-and-ml",
+  "description": "Provides guidance for interpreting and manipulating neural network internals using nnsight with optional NDIF remote execution. Use when needing to run interpretability experiments on massive models (70B+) without local GPU resources, or when working with any PyTorch architecture.",
+  "tags": [
+    "nnsight",
+    "remote",
+    "interpretability"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "orchestra-research/AI-research-SKILLs",
+    "path": "04-mechanistic-interpretability/nnsight/SKILL.md",
+    "commit": "773a52944ba4747a18bd4ae9ade53fff041adcbc"
+  }
+}

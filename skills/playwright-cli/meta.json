@@ -1,0 +1,21 @@
+{
+  "id": "playwright-cli",
+  "name": "playwright cli",
+  "category": "testing-qa",
+  "description": "Automates browser interactions for testing and validating your own web applications using playwright-cli. Use when you need terminal-first browser control for navigation, form filling, screenshots, tracing, bound browser sessions, debugging, or generating Playwright test code. Only use against applications you own or have explicit authorization to test.",
+  "tags": [
+    "playwright",
+    "cli"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "testdino-hq/playwright-skill",
+    "path": "playwright-cli/SKILL.md",
+    "commit": "178d1cb537604279d7b54500c4823a6db42b9de6"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "hunt-graphql",
+  "name": "hunt graphql",
+  "category": "backend-services",
+  "description": "Hunting skill for graphql vulnerabilities.",
+  "tags": [
+    "hunt",
+    "graphql"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party-aggregator",
+  "upstream": {
+    "repo": "sickn33/agentic-awesome-skills",
+    "path": "plugins/agentic-awesome-skills-claude/skills/hunt-graphql/SKILL.md",
+    "commit": "753c5f7bb64650b7d3ac0ab84d9b24892d7aed8b"
+  }
+}

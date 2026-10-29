@@ -1,0 +1,23 @@
+{
+  "id": "assured-workloads-basics",
+  "name": "assured workloads basics",
+  "category": "cloud-and-deploy",
+  "description": "Validate prerequisites, create Assured Workloads V1 compliant folders, allowlist compliant services, and list, inspect, update, or delete existing workloads using gcloud and the Google Cloud Python Client Libraries (google-cloud-assured-workloads and google-api-python-client).",
+  "tags": [
+    "assured",
+    "workloads",
+    "basics"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/assured-workloads-basics/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

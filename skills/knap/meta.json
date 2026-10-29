@@ -1,0 +1,20 @@
+{
+  "id": "knap",
+  "name": "knap",
+  "category": "notes-knowledge",
+  "description": "Render Markdown from templates and structured data using Knap CLI. Use when the user asks to apply a Knap template, turn JSON or CSV data into notes, batch-generate Markdown files, or format Defuddle output into a note.",
+  "tags": [
+    "knap"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "kepano/obsidian-skills",
+    "path": "skills/knap/SKILL.md",
+    "commit": "3ccff5338ea700537839b21900aa5358a0402c98"
+  }
+}

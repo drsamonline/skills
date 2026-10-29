@@ -1,0 +1,26 @@
+{
+  "id": "google-cloud-solution-agentic-ai-data-science-workflow",
+  "name": "google cloud solution agentic ai data science workflow",
+  "category": "cloud-and-deploy",
+  "description": "This skill guides agents through the workflow to design and implement a tailored multi-product solution in the cloud for a given workload, use case, or requirement.",
+  "tags": [
+    "google",
+    "cloud",
+    "solution",
+    "agentic",
+    "data",
+    "science"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/google-cloud-solution-agentic-ai-data-science-workflow/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

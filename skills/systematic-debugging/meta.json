@@ -1,0 +1,21 @@
+{
+  "id": "systematic-debugging",
+  "name": "systematic debugging",
+  "category": "engineering-workflow",
+  "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
+  "tags": [
+    "systematic",
+    "debugging"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "obra/superpowers",
+    "path": "skills/systematic-debugging/SKILL.md",
+    "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "minimax-music-gen",
+  "name": "minimax music gen",
+  "category": "frontend-ui",
+  "description": "Generate songs (vocal or instrumental) using the MiniMax Music API. Supports two creation modes: Basic (one-sentence-in, song-out) and Advanced Control (edit lyrics, refine prompt, plan before generating).",
+  "tags": [
+    "minimax",
+    "music",
+    "gen"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "MiniMax-AI/skills",
+    "path": "skills/minimax-music-gen/SKILL.md",
+    "commit": "60aaae52bb2af8162732751a4332f62a5fef518b"
+  },
+  "description_source": "derived-from-body"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "gke-ai-troubleshooting-tpu-vm-repair-stuck",
+  "name": "gke ai troubleshooting tpu vm repair stuck",
+  "category": "cloud-and-deploy",
+  "description": "This skill checks the VM status, the host events, and the GKE repair status, and routes recovery through GKE instead of direct Compute Engine changes.",
+  "tags": [
+    "gke",
+    "troubleshooting",
+    "tpu",
+    "repair",
+    "stuck"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/gke-ai-troubleshooting-tpu-vm-repair-stuck/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

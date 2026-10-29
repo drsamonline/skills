@@ -1,0 +1,22 @@
+{
+  "id": "color-font-skill",
+  "name": "color font skill",
+  "category": "frontend-ui",
+  "description": "Choose presentation-ready color palettes and font pairings for PPT/design tasks. Use when users ask for visual theme choices, brand-safe palettes, or font recommendations. Triggers include: 配色, 色板, 字体, color palette, font, PPT配色, 字体搭配.",
+  "tags": [
+    "color",
+    "font",
+    "skill"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "MiniMax-AI/skills",
+    "path": "plugins/pptx-plugin/skills/color-font-skill/SKILL.md",
+    "commit": "60aaae52bb2af8162732751a4332f62a5fef518b"
+  }
+}

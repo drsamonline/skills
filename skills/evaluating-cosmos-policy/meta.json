@@ -1,0 +1,22 @@
+{
+  "id": "evaluating-cosmos-policy",
+  "name": "evaluating cosmos policy",
+  "category": "ai-and-ml",
+  "description": "Evaluates NVIDIA Cosmos Policy on LIBERO and RoboCasa simulation environments. Use when setting up cosmos-policy for robot manipulation evaluation, running headless GPU evaluations with EGL rendering, or profiling inference latency on cluster or local GPU machines.",
+  "tags": [
+    "evaluating",
+    "cosmos",
+    "policy"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "orchestra-research/AI-research-SKILLs",
+    "path": "18-multimodal/cosmos-policy/SKILL.md",
+    "commit": "773a52944ba4747a18bd4ae9ade53fff041adcbc"
+  }
+}

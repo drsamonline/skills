@@ -1,0 +1,21 @@
+{
+  "id": "frontend-architecture",
+  "name": "frontend architecture",
+  "category": "mobile-apps",
+  "description": "A portable, framework-agnostic architecture style for any React or React Native frontend. Organizes apps into feature modules with page/screen directories, a strict server-state vs UI-state split, barrel-only cross-module imports, co-located styles, and clear component-promotion rules.",
+  "tags": [
+    "frontend",
+    "architecture"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party-aggregator",
+  "upstream": {
+    "repo": "sickn33/agentic-awesome-skills",
+    "path": "plugins/agentic-awesome-skills-claude/skills/frontend-architecture/SKILL.md",
+    "commit": "753c5f7bb64650b7d3ac0ab84d9b24892d7aed8b"
+  }
+}

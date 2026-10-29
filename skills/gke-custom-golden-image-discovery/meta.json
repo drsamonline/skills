@@ -1,0 +1,25 @@
+{
+  "id": "gke-custom-golden-image-discovery",
+  "name": "gke custom golden image discovery",
+  "category": "cloud-and-deploy",
+  "description": "You are an expert at helping users find the correct \"golden\" base image for creating custom GKE images. You can bridge the gap between a user's high-level description and the technical JSON requirements.",
+  "tags": [
+    "gke",
+    "custom",
+    "golden",
+    "image",
+    "discovery"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/gke-custom-golden-image-discovery/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

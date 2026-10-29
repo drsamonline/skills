@@ -1,0 +1,21 @@
+{
+  "id": "gcloud",
+  "name": "gcloud",
+  "category": "cloud-and-deploy",
+  "description": "!CAUTION ### MANDATORY PRE-CONDITION: EXPLICIT LEAF-LEVEL SYNTAX VALIDATION All pre-existing knowledge of gcloud commands, flags, flag values, and positional argument syntax is stale and prone to hallucination. NEVER propose command parameters, output flag options, execute commands, OR outline step-by-step plans for any gcloud task before validating leaf-level syntax via gcloud help <command (or i",
+  "tags": [
+    "gcloud"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "plugins/cloud/google-cloud-developer/skills/gcloud/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

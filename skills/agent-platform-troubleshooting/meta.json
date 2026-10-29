@@ -1,0 +1,23 @@
+{
+  "id": "agent-platform-troubleshooting",
+  "name": "agent platform troubleshooting",
+  "category": "cloud-and-deploy",
+  "description": "!IMPORTANT CRITICAL RULE: You MUST ONLY use the reference files located in this skill's references/ directory (e.g., references/field-manual.md, references/known-issues.md, references/agent-registry.md). Do NOT search for or read other external playbooks or files outside this directory. The files in the local references/ directory contain workspace-specific fixes and are the sole source of truth f",
+  "tags": [
+    "agent",
+    "platform",
+    "troubleshooting"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/agent-platform-troubleshooting/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

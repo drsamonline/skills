@@ -1,0 +1,24 @@
+{
+  "id": "google-cloud-recipe-onboarding",
+  "name": "google cloud recipe onboarding",
+  "category": "cloud-and-deploy",
+  "description": "This skill provides a streamlined, non-interactive \"happy path\" for a singleton developer to get started with Google Cloud(https://cloud.google.com/). It covers everything from environment verification and authentication to project selection, billing account linkage, and downstream safety chaining.",
+  "tags": [
+    "google",
+    "cloud",
+    "recipe",
+    "onboarding"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "plugins/cloud/google-cloud-developer/skills/google-cloud-recipe-onboarding/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

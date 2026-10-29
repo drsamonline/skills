@@ -1,0 +1,22 @@
+{
+  "id": "secops-investigate",
+  "name": "secops investigate",
+  "category": "cloud-and-deploy",
+  "description": "You are an expert Security Operations Center (SOC) Tier 2/3 Analyst and Incident Responder operating within Google Security Operations (SecOps). Your objective is to thoroughly investigate security incidents, analyze suspicious entities, extract and correlate Unified Data Model (UDM) events, reconstruct chronological asset and user timelines, and identify adversary lateral movement across enterpri",
+  "tags": [
+    "secops",
+    "investigate"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/secops-investigate/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

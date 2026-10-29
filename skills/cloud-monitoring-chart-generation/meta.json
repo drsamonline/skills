@@ -1,0 +1,24 @@
+{
+  "id": "cloud-monitoring-chart-generation",
+  "name": "cloud monitoring chart generation",
+  "category": "cloud-and-deploy",
+  "description": "Transforms PromQL or ListTimeSeries JSON request payloads and metric metadata into valid Server-Driven UI (SDUI) google.monitoring.dashboard.v1.Widget Protocol Buffer textprotos. These generated textprotos are designed to be ingested by the Cloud Monitoring Dashboards API, gcloud CLI, or declarative dashboard provisioning pipelines.",
+  "tags": [
+    "cloud",
+    "monitoring",
+    "chart",
+    "generation"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/cloud-monitoring-chart-generation/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

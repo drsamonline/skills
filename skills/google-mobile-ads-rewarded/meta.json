@@ -1,0 +1,24 @@
+{
+  "id": "google-mobile-ads-rewarded",
+  "name": "google mobile ads rewarded",
+  "category": "cloud-and-deploy",
+  "description": "Rewarded ads reward users with in-app items for interacting with full-screen ads. Rewarded ads are served after a user explicitly opts in to view a rewarded ad.",
+  "tags": [
+    "google",
+    "mobile",
+    "ads",
+    "rewarded"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/ads/google-mobile-ads-rewarded/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

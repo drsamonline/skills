@@ -1,0 +1,25 @@
+{
+  "id": "google-mobile-ads-android-migrate-to-next-gen",
+  "name": "google mobile ads android migrate to next gen",
+  "category": "cloud-and-deploy",
+  "description": "Migrates Android applications from the old, legacy Google Mobile",
+  "tags": [
+    "google",
+    "mobile",
+    "ads",
+    "android",
+    "migrate",
+    "next"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/ads/google-mobile-ads-android-migrate-to-next-gen/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  }
+}

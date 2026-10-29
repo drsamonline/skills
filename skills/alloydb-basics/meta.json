@@ -1,0 +1,22 @@
+{
+  "id": "alloydb-basics",
+  "name": "alloydb basics",
+  "category": "cloud-and-deploy",
+  "description": "AlloyDB for PostgreSQL is a managed, PostgreSQL-compatible database service designed for enterprise-grade performance and availability. It utilizes a disaggregated compute and storage architecture to scale resources independently. It also provides AlloyDB AI, a collection of features that includes AI-powered search (vector, hybrid search, and AI functions), natural language capabilities, conversat",
+  "tags": [
+    "alloydb",
+    "basics"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/alloydb-basics/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "octocat",
+  "name": "octocat",
+  "category": "docs-and-planning",
+  "description": "Use this skill whenever the prompt contains any `github.com` URL, even if the user only pastes a link and gives no GitHub-specific keywords. Handles git and GitHub operations using the gh CLI. Triggers include any GitHub link to an issue, pull request, commit, compare page, Actions run, release, discussion, or repository. Covers creating and reviewing PRs, repository security advisories (GHSA), their comments, and fix PRs in their temporary private forks, private vulnerability report discussions, watching CI checks, interactive rebasing, branch cleanup, submodule management, and repository archaeology with git log/blame/bisect.",
+  "tags": [
+    "octocat"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "mcollina/skills",
+    "path": "skills/octocat/SKILL.md",
+    "commit": "c75d70dbfbe991d8cec42aeda0b64ff14fbb9ac7"
+  }
+}

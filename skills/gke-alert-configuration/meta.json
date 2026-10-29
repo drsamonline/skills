@@ -1,0 +1,23 @@
+{
+  "id": "gke-alert-configuration",
+  "name": "gke alert configuration",
+  "category": "cloud-and-deploy",
+  "description": "This skill provides guidelines and best practices for creating robust, high-signal alerting policies for Google Kubernetes Engine workloads using Google Cloud Managed Service for Prometheus and Terraform. It ensures comprehensive coverage of the 4 Golden Signals and key cluster health metrics while minimizing alert noise.",
+  "tags": [
+    "gke",
+    "alert",
+    "configuration"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/gke-alert-configuration/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "datalineage-bigquery-asset-impact-analysis",
+  "name": "datalineage bigquery asset impact analysis",
+  "category": "cloud-and-deploy",
+  "description": "This skill guides the agent in performing a downstream impact analysis (blast radius assessment) when a BigQuery table or view is reported as broken, stale, missing, or when a user is planning maintenance and wants to know the consequences of modifying or pausing updates to an asset.",
+  "tags": [
+    "datalineage",
+    "bigquery",
+    "asset",
+    "impact",
+    "analysis"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/datalineage-bigquery-asset-impact-analysis/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

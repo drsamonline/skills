@@ -1,0 +1,21 @@
+{
+  "id": "webapp-testing",
+  "name": "webapp testing",
+  "category": "testing-qa",
+  "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
+  "tags": [
+    "webapp",
+    "testing"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "anthropics/skills",
+    "path": "skills/webapp-testing/SKILL.md",
+    "commit": "ca45fc496a3436251f191354091d557da31c15b5"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "agent-platform-tuning",
+  "name": "agent platform tuning",
+  "category": "cloud-and-deploy",
+  "description": "This skill provides procedural knowledge for fine-tuning Large Language Models (both Open Models and Gemini Models) using Agent Platform's tuning service. It covers the entire lifecycle from environment setup and data preparation to job configuration, monitoring, and deployment.",
+  "tags": [
+    "agent",
+    "platform",
+    "tuning"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/agent-platform-tuning/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

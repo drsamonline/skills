@@ -1,0 +1,25 @@
+{
+  "id": "cloud-armor-crs-rule-upgrader",
+  "name": "cloud armor crs rule upgrader",
+  "category": "cloud-and-deploy",
+  "description": "This skill guides Network Security Agents and Google Cloud practitioners through auditing, assessing, and upgrading Google Cloud Armor security policies from legacy OWASP Core Rule Set (CRS) 3.0 or 3.3 to OWASP CRS 4.22.",
+  "tags": [
+    "cloud",
+    "armor",
+    "crs",
+    "rule",
+    "upgrader"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/cloud-armor-crs-rule-upgrader/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

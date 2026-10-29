@@ -1,0 +1,24 @@
+{
+  "id": "agent-platform-model-registry",
+  "name": "agent platform model registry",
+  "category": "cloud-and-deploy",
+  "description": "This skill provides instructions for managing machine learning models in the Agent Platform Model Registry. It covers listing models, describing model details, uploading new models or versions, updating metadata, and deleting models.",
+  "tags": [
+    "agent",
+    "platform",
+    "model",
+    "registry"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/agent-platform-model-registry/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

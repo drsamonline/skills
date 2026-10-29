@@ -1,0 +1,21 @@
+{
+  "id": "quality-playbook",
+  "name": "quality playbook",
+  "category": "code-quality",
+  "description": "Run a complete quality engineering audit on any codebase. Derives behavioral requirements from the code, generates spec-traced functional tests, runs a three-pass code review with regression tests, executes a multi-model spec audit (Council of Three), and produces a consolidated bug report with TDD-verified patches. Finds the 35% of real defects that structural code review alone cannot catch. Works with any language. Trigger on 'quality playbook', 'spec audit', 'Council of Three', 'fitness-to-purpose', or 'coverage theater'.",
+  "tags": [
+    "quality",
+    "playbook"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party-aggregator",
+  "upstream": {
+    "repo": "github/awesome-copilot",
+    "path": "skills/quality-playbook/SKILL.md",
+    "commit": "b6483db44fb602654bca6a097185fcaddb305f97"
+  }
+}

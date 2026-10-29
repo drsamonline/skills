@@ -1,0 +1,24 @@
+{
+  "id": "agent-platform-eval-flywheel",
+  "name": "agent platform eval flywheel",
+  "category": "cloud-and-deploy",
+  "description": "Help users evaluate and iteratively improve GenAI models and agents using the Agent Platform GenAI Evaluation SDK (google.genai / agentplatform).",
+  "tags": [
+    "agent",
+    "platform",
+    "eval",
+    "flywheel"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/agent-platform-eval-flywheel/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

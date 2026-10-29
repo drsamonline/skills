@@ -1,0 +1,20 @@
+{
+  "id": "documentation",
+  "name": "documentation",
+  "category": "docs-and-planning",
+  "description": "Creates, structures, and reviews technical documentation following the Diátaxis framework (tutorials, how-to guides, reference, and explanation pages). Use when a user needs to write or reorganize docs, structure a tutorial vs. a how-to guide, build reference docs or API documentation, create explanation pages, choose between Diátaxis documentation types, or improve existing documentation structure. Trigger terms include: documentation structure, Diátaxis, tutorials vs how-to guides, organize docs, user guide, reference docs, technical writing.",
+  "tags": [
+    "documentation"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "mcollina/skills",
+    "path": "skills/documentation/SKILL.md",
+    "commit": "c75d70dbfbe991d8cec42aeda0b64ff14fbb9ac7"
+  }
+}

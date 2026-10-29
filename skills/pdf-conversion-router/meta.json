@@ -1,0 +1,22 @@
+{
+  "id": "pdf-conversion-router",
+  "name": "pdf conversion router",
+  "category": "office-docs",
+  "description": "Use when converting a PDF into another format such as Markdown, HTML, text, JSON, DOCX, or structured notes and the agent must choose the best extraction route, settings, and cleanup strategy for maximum fidelity and readability.",
+  "tags": [
+    "pdf",
+    "conversion",
+    "router"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party-aggregator",
+  "upstream": {
+    "repo": "sickn33/agentic-awesome-skills",
+    "path": "plugins/agentic-awesome-skills-claude/skills/pdf-conversion-router/SKILL.md",
+    "commit": "753c5f7bb64650b7d3ac0ab84d9b24892d7aed8b"
+  }
+}

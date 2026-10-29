@@ -1,0 +1,25 @@
+{
+  "id": "google-analytics-data-api-basics",
+  "name": "google analytics data api basics",
+  "category": "cloud-and-deploy",
+  "description": "The Google Analytics Data API v1beta provides programmatic access to Google Analytics report data. It allows you to build customized dashboards, automate reporting workflows, and integrate Google Analytics data into your enterprise applications.",
+  "tags": [
+    "google",
+    "analytics",
+    "data",
+    "api",
+    "basics"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/analytics/google-analytics-data-api-basics/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

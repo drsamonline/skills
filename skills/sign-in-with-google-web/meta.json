@@ -1,0 +1,24 @@
+{
+  "id": "sign-in-with-google-web",
+  "name": "sign in with google web",
+  "category": "cloud-and-deploy",
+  "description": "This skill provides normative architectural guidelines, secure implementation contracts, and failure-prevention protocols for integrating Sign In With Google via the Google Identity Services (GIS) Web SDK (https://accounts.google.com/gsi/client).",
+  "tags": [
+    "sign",
+    "with",
+    "google",
+    "web"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/identity/sign-in-with-google-web/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

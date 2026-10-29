@@ -1,0 +1,23 @@
+{
+  "id": "flutter-dart-code-review",
+  "name": "flutter dart code review",
+  "category": "security-audit",
+  "description": "Library-agnostic Flutter/Dart code review checklist covering widget best practices, state management patterns (BLoC, Riverpod, Provider, GetX, MobX, Signals), Dart idioms, performance, accessibility, security, and clean architecture. Use when reviewing Flutter or Dart code, whatever state management library the project uses.",
+  "tags": [
+    "flutter",
+    "dart",
+    "code",
+    "review"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party-aggregator",
+  "upstream": {
+    "repo": "affaan-m/ECC",
+    "path": "pi/core/skills/flutter-dart-code-review/SKILL.md",
+    "commit": "25278e7d7b6cf6e6a4e7a6c8e10f14ff22f0eb5b"
+  }
+}

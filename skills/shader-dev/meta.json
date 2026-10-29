@@ -1,0 +1,21 @@
+{
+  "id": "shader-dev",
+  "name": "shader dev",
+  "category": "frontend-ui",
+  "description": "Comprehensive GLSL shader techniques for creating stunning visual effects — ray marching, SDF modeling, fluid simulation, particle systems, procedural generation, lighting, post-processing, and more.",
+  "tags": [
+    "shader",
+    "dev"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "MiniMax-AI/skills",
+    "path": "skills/shader-dev/SKILL.md",
+    "commit": "60aaae52bb2af8162732751a4332f62a5fef518b"
+  }
+}

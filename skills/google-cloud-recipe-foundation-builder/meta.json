@@ -1,0 +1,25 @@
+{
+  "id": "google-cloud-recipe-foundation-builder",
+  "name": "google cloud recipe foundation builder",
+  "category": "cloud-and-deploy",
+  "description": "!WARNING This skill is currently in a preview state. It will deploy a secure foundation, but does not have all advanced features. Users who want more options should visit Google Cloud Setup(https://docs.cloud.google.com/docs/enterprise/cloud-setup).",
+  "tags": [
+    "google",
+    "cloud",
+    "recipe",
+    "foundation",
+    "builder"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/google-cloud-recipe-foundation-builder/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

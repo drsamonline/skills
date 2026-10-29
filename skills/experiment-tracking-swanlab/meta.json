@@ -1,0 +1,22 @@
+{
+  "id": "experiment-tracking-swanlab",
+  "name": "experiment tracking swanlab",
+  "category": "ai-and-ml",
+  "description": "Provides guidance for experiment tracking with SwanLab. Use when you need open-source run tracking, local or self-hosted dashboards, and lightweight media logging for ML workflows.",
+  "tags": [
+    "experiment",
+    "tracking",
+    "swanlab"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "orchestra-research/AI-research-SKILLs",
+    "path": "13-mlops/swanlab/SKILL.md",
+    "commit": "773a52944ba4747a18bd4ae9ade53fff041adcbc"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "gke-ai-troubleshooting-tpu-vbar-oom",
+  "name": "gke ai troubleshooting tpu vbar oom",
+  "category": "cloud-and-deploy",
+  "description": "Use this skill to systematically diagnose and prevent vbarcontrolagent segfaults and Out-Of-Memory (OOM) errors on TPU v6e nodes.",
+  "tags": [
+    "gke",
+    "troubleshooting",
+    "tpu",
+    "vbar",
+    "oom"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/gke-ai-troubleshooting-tpu-vbar-oom/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

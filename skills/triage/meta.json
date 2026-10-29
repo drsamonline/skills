@@ -1,0 +1,26 @@
+{
+  "id": "triage",
+  "name": "triage",
+  "category": "engineering-workflow",
+  "description": "Identify focused, evidence-backed skills CLI bug fixes worth quuu's attention.",
+  "tags": [
+    "triage"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "vercel-labs/skills",
+    "path": ".automations/triage/skills/triage/SKILL.md",
+    "commit": "92a9a34ac3bf88e695e468b90c7bf32f163d32c8"
+  },
+  "variants": [
+    {
+      "repo": "mattpocock/skills",
+      "path": "skills/engineering/triage/SKILL.md"
+    }
+  ]
+}

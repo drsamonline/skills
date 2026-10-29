@@ -1,0 +1,21 @@
+{
+  "id": "huggingface-gradio",
+  "name": "huggingface gradio",
+  "category": "ai-and-ml",
+  "description": "Build Gradio web UIs and demos in Python. Use when creating or editing Gradio apps, components, event listeners, layouts, or chatbots.",
+  "tags": [
+    "huggingface",
+    "gradio"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "huggingface/skills",
+    "path": "skills/huggingface-gradio/SKILL.md",
+    "commit": "25910b3d0ba31a2ba102f901cdc9e008c278a69c"
+  }
+}

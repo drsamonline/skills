@@ -1,0 +1,25 @@
+{
+  "id": "gke-ai-troubleshooting-tpu-metrics-monitoring",
+  "name": "gke ai troubleshooting tpu metrics monitoring",
+  "category": "cloud-and-deploy",
+  "description": "This skill enables the agent to monitor GKE TPU workloads, nodes, and node pools using GKE system metrics. It helps diagnose if workload interruptions or performance issues are caused by underlying infrastructure.",
+  "tags": [
+    "gke",
+    "troubleshooting",
+    "tpu",
+    "metrics",
+    "monitoring"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/gke-ai-troubleshooting-tpu-metrics-monitoring/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

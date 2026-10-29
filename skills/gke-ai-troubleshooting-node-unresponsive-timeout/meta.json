@@ -1,0 +1,25 @@
+{
+  "id": "gke-ai-troubleshooting-node-unresponsive-timeout",
+  "name": "gke ai troubleshooting node unresponsive timeout",
+  "category": "cloud-and-deploy",
+  "description": "When the Compute Engine host of a TPU or GPU node has a fatal hardware error, kernel panic, or non-maskable interrupt (NMI) lockup, the guest OS stops responding. The kubelet can no longer send heartbeats, so the node Ready condition becomes Unknown with Reason: NodeStatusUnknown (Kubelet stopped posting node status.). If node auto-repair is disabled on the node pool, GKE doesn't repair the node. ",
+  "tags": [
+    "gke",
+    "troubleshooting",
+    "node",
+    "unresponsive",
+    "timeout"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/gke-ai-troubleshooting-node-unresponsive-timeout/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "gke-platform-security",
+  "name": "gke platform security",
+  "category": "cloud-and-deploy",
+  "description": "This reference covers platform-level security hardening and cluster configuration for Google Kubernetes Engine (GKE). For workload-level security controls (such as Workload Identity Service Account bindings, SecretProviderClass volume mounts, Network Policies, and Pod Security Standards), refer to the gke-workload-security skill.",
+  "tags": [
+    "gke",
+    "platform",
+    "security"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/gke-platform-security/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

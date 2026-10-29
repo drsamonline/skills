@@ -1,0 +1,22 @@
+{
+  "id": "requesting-code-review",
+  "name": "requesting code review",
+  "category": "engineering-workflow",
+  "description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
+  "tags": [
+    "requesting",
+    "code",
+    "review"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "obra/superpowers",
+    "path": "skills/requesting-code-review/SKILL.md",
+    "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b"
+  }
+}

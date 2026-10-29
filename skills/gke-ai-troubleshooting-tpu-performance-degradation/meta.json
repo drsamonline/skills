@@ -1,0 +1,25 @@
+{
+  "id": "gke-ai-troubleshooting-tpu-performance-degradation",
+  "name": "gke ai troubleshooting tpu performance degradation",
+  "category": "cloud-and-deploy",
+  "description": "Diagnose and mitigate Cloud TPU training throughput drops and step-time regressions (15%+ drop in TPU duty cycle) on Google Kubernetes Engine (GKE) by correlating ML Diagnostics Workload Monitoring MonitoredEvent analyzer reports with 1-minute Cloud Monitoring system metrics and GKE node topology labels.",
+  "tags": [
+    "gke",
+    "troubleshooting",
+    "tpu",
+    "performance",
+    "degradation"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/gke-ai-troubleshooting-tpu-performance-degradation/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

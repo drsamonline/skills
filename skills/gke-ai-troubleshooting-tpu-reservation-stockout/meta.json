@@ -1,0 +1,25 @@
+{
+  "id": "gke-ai-troubleshooting-tpu-reservation-stockout",
+  "name": "gke ai troubleshooting tpu reservation stockout",
+  "category": "cloud-and-deploy",
+  "description": "Use this skill to diagnose and resolve GKE TPU node pool creation or scale-up failures that fail with GCESTOCKOUT, ZONERESOURCEPOOLEXHAUSTED, or ZONERESOURCEPOOLEXHAUSTEDWITHDETAILS (or queue due to lack of capacity) even though they target a specific Compute Engine TPU reservation.",
+  "tags": [
+    "gke",
+    "troubleshooting",
+    "tpu",
+    "reservation",
+    "stockout"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/gke-ai-troubleshooting-tpu-reservation-stockout/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

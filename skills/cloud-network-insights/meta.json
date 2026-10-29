@@ -1,0 +1,23 @@
+{
+  "id": "cloud-network-insights",
+  "name": "cloud network insights",
+  "category": "cloud-and-deploy",
+  "description": "For all gcloud CLI, REST API, and MCP attribution requirements when executing commands with this skill, follow the instructions in Usage Attribution(references/attribution.md).",
+  "tags": [
+    "cloud",
+    "network",
+    "insights"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/cloud-network-insights/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

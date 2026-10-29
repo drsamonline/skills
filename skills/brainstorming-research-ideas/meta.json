@@ -1,0 +1,22 @@
+{
+  "id": "brainstorming-research-ideas",
+  "name": "brainstorming research ideas",
+  "category": "ai-and-ml",
+  "description": "Guides researchers through structured ideation frameworks to discover high-impact research directions. Use when exploring new problem spaces, pivoting between projects, or seeking novel angles on existing work.",
+  "tags": [
+    "brainstorming",
+    "research",
+    "ideas"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "orchestra-research/AI-research-SKILLs",
+    "path": "21-research-ideation/brainstorming-research-ideas/SKILL.md",
+    "commit": "773a52944ba4747a18bd4ae9ade53fff041adcbc"
+  }
+}

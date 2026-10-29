@@ -1,0 +1,22 @@
+{
+  "id": "slide-making-skill",
+  "name": "slide making skill",
+  "category": "office-docs",
+  "description": "Implement single-slide PowerPoint pages with PptxGenJS. Use when writing or fixing slide JS files: dimensions, positioning, text/image/chart APIs, styling rules, and export expectations for native .pptx output.",
+  "tags": [
+    "slide",
+    "making",
+    "skill"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "MiniMax-AI/skills",
+    "path": "plugins/pptx-plugin/skills/slide-making-skill/SKILL.md",
+    "commit": "60aaae52bb2af8162732751a4332f62a5fef518b"
+  }
+}

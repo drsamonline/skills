@@ -1,0 +1,20 @@
+{
+  "id": "to-questionnaire",
+  "name": "to questionnaire",
+  "category": "engineering-workflow",
+  "description": "Turn a decision you can't fully answer into a questionnaire for someone else to fill in.",
+  "tags": [
+    "questionnaire"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "mattpocock/skills",
+    "path": "skills/productivity/to-questionnaire/SKILL.md",
+    "commit": "a496f5513d4a4cf889bc48e189e579f4b0bdf6aa"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "vercel-composition-patterns",
+  "name": "vercel composition patterns",
+  "category": "frontend-ui",
+  "description": "Composition patterns for building flexible, maintainable React components. Avoid boolean prop proliferation by using compound components, lifting state, and composing internals. These patterns make codebases easier for both humans and AI agents to work with as they scale.",
+  "tags": [
+    "vercel",
+    "composition",
+    "patterns"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "NOASSERTION",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "vercel-labs/agent-skills",
+    "path": "skills/composition-patterns/SKILL.md",
+    "commit": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62"
+  },
+  "description_source": "derived-from-body"
+}

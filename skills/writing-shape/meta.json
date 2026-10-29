@@ -1,0 +1,21 @@
+{
+  "id": "writing-shape",
+  "name": "writing shape",
+  "category": "docs-and-planning",
+  "description": "Writing, exploit: shape raw material into an article, paragraph by paragraph.",
+  "tags": [
+    "writing",
+    "shape"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "mattpocock/skills",
+    "path": "skills/in-progress/writing-shape/SKILL.md",
+    "commit": "a496f5513d4a4cf889bc48e189e579f4b0bdf6aa"
+  }
+}

@@ -1,7 +1,7 @@
 # drsamonline/skills
 
 A machine-consumable knowledge base of reusable skills extracted from the
-projects of Dr. Sohil Momin (github.com/drsamonline), plus 22 imported from github.com/ChrisTitusTech/titstack (MIT). 94 skills.
+projects of Dr. Sohil Momin (github.com/drsamonline), plus 22 imported from github.com/ChrisTitusTech/titstack (MIT). 605 skills.
 
 Catalogue (machine-readable, the single source of truth):
 https://raw.githubusercontent.com/drsamonline/skills/main/catalog.json
@@ -15,7 +15,7 @@ https://drsamonline.github.io/skills/
   When to use / Method / Key files or entry points / Gotchas / Source projects.
 - meta.json: id, name, category, description, tags[], source_repos[], version,
   updated (ISO date), source_snapshot (repo -> commit SHA), subskills[].
-- Categories: web-app-patterns, android-packaging, windows-desktop, game-engine, data-and-schema, health-tools, landing-and-seo, ci-and-release, marketing, docs-and-planning, code-quality, linux-desktop, sysadmin-ops, media-design.
+- Categories: web-app-patterns, android-packaging, windows-desktop, game-engine, data-and-schema, health-tools, landing-and-seo, ci-and-release, marketing, docs-and-planning, code-quality, linux-desktop, sysadmin-ops, media-design, frontend-ui, backend-services, testing-qa, security-audit, cloud-and-deploy, ai-and-ml, office-docs, engineering-workflow, notes-knowledge, mobile-apps.
 
 ## How to use
 1. Fetch catalog.json and choose a skill by id / category / tags.
@@ -25,3 +25,38 @@ https://drsamonline.github.io/skills/
 ## Vendored
 - 5 `pack-*` skills merge 17 skills imported from ChrisTitusTech/titstack (MIT, commit b9b7fb0). Each carries its own LICENSE;
   meta.json records upstream.repo / path / commit and origin=third-party.
+
+## Imported
+- 501 skills + 10 index packs imported from 18 upstream
+  collections (MIT, Apache-2.0, and two with no licence). Deduplicated by
+  topic; variants listed in the skill body. meta.json carries
+  upstream.repo/path/commit and license; source_repos stays empty so the
+  weekly refresh does not resolve foreign SHAs.
+
+## Imported
+- 501 skills + 10 index packs imported from 18 upstream
+  collections (MIT, Apache-2.0, and two with no licence). Deduplicated by
+  topic; variants listed in the skill body. meta.json carries
+  upstream.repo/path/commit and license; source_repos stays empty so the
+  weekly refresh does not resolve foreign SHAs.
+
+## Imported
+- 501 skills + 10 index packs imported from 18 upstream
+  collections (MIT, Apache-2.0, and two with no licence). Deduplicated by
+  topic; variants listed in the skill body. meta.json carries
+  upstream.repo/path/commit and license; source_repos stays empty so the
+  weekly refresh does not resolve foreign SHAs.
+
+## Imported
+- 501 skills + 10 index packs imported from 18 upstream
+  collections (MIT, Apache-2.0, and two with no licence). Deduplicated by
+  topic; variants listed in the skill body. meta.json carries
+  upstream.repo/path/commit and license; source_repos stays empty so the
+  weekly refresh does not resolve foreign SHAs.
+
+## Imported
+- 501 skills + 10 index packs imported from 18 upstream
+  collections (MIT, Apache-2.0, and two with no licence). Deduplicated by
+  topic; variants listed in the skill body. meta.json carries
+  upstream.repo/path/commit and license; source_repos stays empty so the
+  weekly refresh does not resolve foreign SHAs.

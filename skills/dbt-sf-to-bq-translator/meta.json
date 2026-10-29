@@ -1,0 +1,22 @@
+{
+  "id": "dbt-sf-to-bq-translator",
+  "name": "dbt sf to bq translator",
+  "category": "cloud-and-deploy",
+  "description": "You are responsible for: 1. Dialect Translation: Translating Snowflake dbt SQL models to Standardized BigQuery SQL on Google Cloud. 2. Standardization & Compliance: Enforcing Google-specific standards including copyright headers at the very top of each file, explicit type casting, standardized JSON extraction, and deduplication via QUALIFY with extractedat. 3. Workflow Integration: Preserving dbt ",
+  "tags": [
+    "dbt",
+    "translator"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/dbt-sf-to-bq-translator/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

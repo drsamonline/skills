@@ -1,0 +1,23 @@
+{
+  "id": "design-style-skill",
+  "name": "design style skill",
+  "category": "frontend-ui",
+  "description": "同一套设计可通过调整圆角（rectRadius）和间距呈现4种不同风格。根据场景选择合适的风格配方。",
+  "tags": [
+    "design",
+    "style",
+    "skill"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "MiniMax-AI/skills",
+    "path": "plugins/pptx-plugin/skills/design-style-skill/SKILL.md",
+    "commit": "60aaae52bb2af8162732751a4332f62a5fef518b"
+  },
+  "description_source": "derived-from-body"
+}

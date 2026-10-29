@@ -1,0 +1,22 @@
+{
+  "id": "developing-genkit-python",
+  "name": "developing genkit python",
+  "category": "cloud-and-deploy",
+  "description": "Develop AI-powered applications using Genkit in Python. Use when the user asks about Genkit, AI agents, flows, or tools in Python, or when encountering Genkit errors, import issues, or API problems.",
+  "tags": [
+    "developing",
+    "genkit",
+    "python"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/developing-genkit-python/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  }
+}

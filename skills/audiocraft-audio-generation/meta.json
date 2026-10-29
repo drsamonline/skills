@@ -1,0 +1,22 @@
+{
+  "id": "audiocraft-audio-generation",
+  "name": "audiocraft audio generation",
+  "category": "ai-and-ml",
+  "description": "PyTorch library for audio generation including text-to-music (MusicGen) and text-to-sound (AudioGen). Use when you need to generate music from text descriptions, create sound effects, or perform melody-conditioned music generation.",
+  "tags": [
+    "audiocraft",
+    "audio",
+    "generation"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "orchestra-research/AI-research-SKILLs",
+    "path": "18-multimodal/audiocraft/SKILL.md",
+    "commit": "773a52944ba4747a18bd4ae9ade53fff041adcbc"
+  }
+}

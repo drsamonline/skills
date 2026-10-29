@@ -1,0 +1,24 @@
+{
+  "id": "gke-workload-scaling-troubleshooting",
+  "name": "gke workload scaling troubleshooting",
+  "category": "cloud-and-deploy",
+  "description": "Use this skill to systematically diagnose and resolve HorizontalPodAutoscaler (HPA) failures on GKE — metrics reported as <unknown, FailedGet events, missing resource requests, custom/external metrics-pipeline breakage, HPA that refuses to scale up or down, scale-to/from-zero issues, and slow HPA reaction on large clusters. This skill operates non-interactively and enforces a read-only diagnostics",
+  "tags": [
+    "gke",
+    "workload",
+    "scaling",
+    "troubleshooting"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/gke-workload-scaling-troubleshooting/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

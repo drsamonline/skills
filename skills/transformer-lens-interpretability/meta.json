@@ -1,0 +1,22 @@
+{
+  "id": "transformer-lens-interpretability",
+  "name": "transformer lens interpretability",
+  "category": "ai-and-ml",
+  "description": "Provides guidance for mechanistic interpretability research using TransformerLens to inspect and manipulate transformer internals via HookPoints and activation caching. Use when reverse-engineering model algorithms, studying attention patterns, or performing activation patching experiments.",
+  "tags": [
+    "transformer",
+    "lens",
+    "interpretability"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "orchestra-research/AI-research-SKILLs",
+    "path": "04-mechanistic-interpretability/transformer-lens/SKILL.md",
+    "commit": "773a52944ba4747a18bd4ae9ade53fff041adcbc"
+  }
+}

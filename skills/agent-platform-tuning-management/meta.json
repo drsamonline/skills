@@ -1,0 +1,24 @@
+{
+  "id": "agent-platform-tuning-management",
+  "name": "agent platform tuning management",
+  "category": "cloud-and-deploy",
+  "description": "This skill provides instructions on how to manage GenAI Tuning Jobs using the Agent Platform Python SDK. Use this skill when a user wants to check the status of their tuning runs, find an active tuning job, or cancel a job that is running too long.",
+  "tags": [
+    "agent",
+    "platform",
+    "tuning",
+    "management"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/agent-platform-tuning-management/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "vision-analysis",
+  "name": "vision analysis",
+  "category": "frontend-ui",
+  "description": "Analyze images using the MiniMax MiniMaxunderstandimage MCP tool available in the MiniMax Token Plan.",
+  "tags": [
+    "vision",
+    "analysis"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "MiniMax-AI/skills",
+    "path": "skills/vision-analysis/SKILL.md",
+    "commit": "60aaae52bb2af8162732751a4332f62a5fef518b"
+  },
+  "description_source": "derived-from-body"
+}

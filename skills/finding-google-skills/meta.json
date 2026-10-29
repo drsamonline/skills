@@ -1,0 +1,23 @@
+{
+  "id": "finding-google-skills",
+  "name": "finding google skills",
+  "category": "cloud-and-deploy",
+  "description": "Routes a request to the published Google skills that apply to it. The catalog lives outside this file and is fetched on demand, so loading this skill costs almost nothing until a lookup actually happens.",
+  "tags": [
+    "finding",
+    "google",
+    "skills"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "plugins/cloud/google-cloud-developer/skills/finding-google-skills/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "pack-office-docs",
+  "name": "Office documents pack — Word, PowerPoint, Excel and PDF",
+  "category": "office-docs",
+  "description": "Produce and edit real office files: Word documents with tracked changes and styles, PowerPoint decks built with PptxGenJS or edited XML-safely inside a template, Excel workbooks with formulas and formatting, and PDFs — read, filled, merged, split or generated.",
+  "tags": [
+    "pack",
+    "index",
+    "office",
+    "docs"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "mixed",
+  "origin": "third-party-index",
+  "upstream": {
+    "repo": "multiple",
+    "path": "skills/",
+    "commit": ""
+  },
+  "subskills": [
+    "docx",
+    "frontend-slides",
+    "minimax-docx",
+    "minimax-pdf",
+    "minimax-xlsx",
+    "pdf",
+    "pdf-conversion-router",
+    "ppt-editing-skill",
+    "ppt-orchestra-skill",
+    "pptx",
+    "pptx-deck-creation",
+    "pptx-generator",
+    "slide-making-skill",
+    "spreadsheet-manual-build",
+    "xlsx"
+  ]
+}

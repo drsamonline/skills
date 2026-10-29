@@ -1,0 +1,23 @@
+{
+  "id": "assuredworkloads-environment-assessor",
+  "name": "assuredworkloads environment assessor",
+  "category": "cloud-and-deploy",
+  "description": "This skill performs zero-risk, non-mutating compliance discovery, physical telemetry profiling, and data boundary framework recommendation across Google Cloud Folders (folders/{folderid}) and Projects (projects/{projectid}).",
+  "tags": [
+    "assuredworkloads",
+    "environment",
+    "assessor"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/assuredworkloads-environment-assessor/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

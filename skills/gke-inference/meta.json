@@ -1,0 +1,22 @@
+{
+  "id": "gke-inference",
+  "name": "gke inference",
+  "category": "cloud-and-deploy",
+  "description": "Routing Note: For migrating existing AI workloads to GKE, open google-cloud-solution-guided-gke-ai-migration/SKILL.md. For GKE RAG with Cloud SQL or AlloyDB (pgvector), open google-cloud-solution-rag-enterprise-search-gke-sqldb/SKILL.md.",
+  "tags": [
+    "gke",
+    "inference"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/gke-inference/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "playwright-migration",
+  "name": "playwright migration",
+  "category": "testing-qa",
+  "description": "Step-by-step migration guides for moving to Playwright from Cypress or Selenium/WebDriver — command mappings, architecture changes, and incremental adoption strategies.",
+  "tags": [
+    "playwright",
+    "migration"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "testdino-hq/playwright-skill",
+    "path": "migration/SKILL.md",
+    "commit": "178d1cb537604279d7b54500c4823a6db42b9de6"
+  }
+}

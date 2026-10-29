@@ -1,0 +1,21 @@
+{
+  "id": "theme-factory",
+  "name": "theme factory",
+  "category": "frontend-ui",
+  "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
+  "tags": [
+    "theme",
+    "factory"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "anthropics/skills",
+    "path": "skills/theme-factory/SKILL.md",
+    "commit": "ca45fc496a3436251f191354091d557da31c15b5"
+  }
+}

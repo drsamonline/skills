@@ -1,0 +1,23 @@
+{
+  "id": "gke-workload-identity",
+  "name": "gke workload identity",
+  "category": "cloud-and-deploy",
+  "description": "Use this skill to systematically diagnose why a Pod using Workload Identity Federation for GKE cannot authenticate to Google Cloud APIs. Typical symptoms:",
+  "tags": [
+    "gke",
+    "workload",
+    "identity"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/gke-workload-identity/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "json-canvas",
+  "name": "json canvas",
+  "category": "notes-knowledge",
+  "description": "Create and edit JSON Canvas files (.canvas) with nodes, edges, groups, and connections. Use when working with .canvas files, creating visual canvases, mind maps, flowcharts, or when the user mentions Canvas files in Obsidian.",
+  "tags": [
+    "json",
+    "canvas"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "kepano/obsidian-skills",
+    "path": "skills/json-canvas/SKILL.md",
+    "commit": "3ccff5338ea700537839b21900aa5358a0402c98"
+  }
+}

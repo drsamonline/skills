@@ -1,0 +1,22 @@
+{
+  "id": "claude-api",
+  "name": "claude api",
+  "category": "backend-services",
+  "description": "This skill helps you build LLM-powered applications with Claude. Choose the right surface based on your needs, detect the project language, then read the relevant language-specific documentation.",
+  "tags": [
+    "claude",
+    "api"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "anthropics/skills",
+    "path": "skills/claude-api/SKILL.md",
+    "commit": "ca45fc496a3436251f191354091d557da31c15b5"
+  },
+  "description_source": "derived-from-body"
+}

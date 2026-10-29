@@ -1,0 +1,23 @@
+{
+  "id": "gke-app-onboarding",
+  "name": "gke app onboarding",
+  "category": "cloud-and-deploy",
+  "description": "This reference provides workflows for containerizing and deploying applications to GKE for the first time.",
+  "tags": [
+    "gke",
+    "app",
+    "onboarding"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/gke-app-onboarding/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

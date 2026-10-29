@@ -1,0 +1,28 @@
+{
+  "id": "test-driven-development",
+  "name": "test driven development",
+  "category": "testing-qa",
+  "description": "Drives development with tests using the red-green-refactor loop. Use when implementing any logic, fixing any bug, or changing any behavior. Use when you need to prove that code works, when a bug report arrives, or when you're about to modify existing functionality. Use when asked to add tests to a function, fix a bug in it or change its behavior, even when the code is pasted inline and the request does not mention tests.",
+  "tags": [
+    "test",
+    "driven",
+    "development"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "addyosmani/agent-skills",
+    "path": "skills/test-driven-development/SKILL.md",
+    "commit": "eb07f19f52c2669f2364897aaa293e2aaddd7b1c"
+  },
+  "variants": [
+    {
+      "repo": "obra/superpowers",
+      "path": "skills/test-driven-development/SKILL.md"
+    }
+  ]
+}

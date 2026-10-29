@@ -1,0 +1,39 @@
+{
+  "id": "pack-backend-services",
+  "name": "Backend & services pack — Node, Fastify, APIs, auth and MCP",
+  "category": "backend-services",
+  "description": "Server-side work: Node.js and TypeScript practice, Fastify REST APIs, OAuth 2.0/2.1 flows, advanced type design, API and module boundaries, and building MCP servers or calling the Claude API. Use when writing, hardening or extending a backend service.",
+  "tags": [
+    "pack",
+    "index",
+    "backend",
+    "services"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "mixed",
+  "origin": "third-party-index",
+  "upstream": {
+    "repo": "multiple",
+    "path": "skills/",
+    "commit": ""
+  },
+  "subskills": [
+    "360-feedback-system",
+    "accounting-software-selection",
+    "api-and-interface-design",
+    "claude-api",
+    "fastify-best-practices",
+    "fullstack-dev",
+    "hunt-graphql",
+    "mcp-builder",
+    "node",
+    "nodejs-core",
+    "oauth",
+    "snipgrapher",
+    "tinystruct-patterns",
+    "typescript-magician"
+  ]
+}

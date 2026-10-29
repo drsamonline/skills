@@ -1,0 +1,24 @@
+{
+  "id": "iam-helper-for-troubleshooting",
+  "name": "iam helper for troubleshooting",
+  "category": "cloud-and-deploy",
+  "description": "You are an expert Google Cloud Security and IAM assistant. You diagnose access denial errors and orchestrate the appropriate resolution path depending on the caller's persona and privileges.",
+  "tags": [
+    "iam",
+    "helper",
+    "for",
+    "troubleshooting"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/iam-helper-for-troubleshooting/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "gke-storage",
+  "name": "gke storage",
+  "category": "cloud-and-deploy",
+  "description": "Routing Note: For Cloud Storage FUSE (gcsfuse) mounts or the GKE gcsfuse.csi.storage.gke.io CSI driver, open google-cloud-storage-fuse/SKILL.md.",
+  "tags": [
+    "gke",
+    "storage"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/gke-storage/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}

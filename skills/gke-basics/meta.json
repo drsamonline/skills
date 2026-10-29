@@ -1,0 +1,22 @@
+{
+  "id": "gke-basics",
+  "name": "gke basics",
+  "category": "cloud-and-deploy",
+  "description": "Routing Note: For Workload Identity KSA/GSA setup, open gke-workload-identity/SKILL.md. For cluster security flags (--database-encryption-key, --security-posture, RBAC, Shielded Nodes, Binary Authorization), open gke-platform-security/SKILL.md. For cluster upgrades or maintenance windows, open gke-upgrades/SKILL.md. For generating Kubernetes YAML manifests (Deployment, StatefulSet, Service, HTTPRo",
+  "tags": [
+    "gke",
+    "basics"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "Apache-2.0",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "google/skills",
+    "path": "skills/cloud/gke-basics/SKILL.md",
+    "commit": "c1578116ec34d574e5df618bb02849ecc717d329"
+  },
+  "description_source": "derived-from-body"
+}
