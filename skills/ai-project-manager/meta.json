@@ -1,0 +1,25 @@
+{
+  "id": "ai-project-manager",
+  "name": "AI project manager — planning documents",
+  "category": "docs-and-planning",
+  "description": "Create and maintain repository planning documents, phased implementation plans, approval checkpoints, task status, and validation evidence for AI-assisted development work.",
+  "tags": [
+    "planning",
+    "spec",
+    "roadmap",
+    "tasks",
+    "checkpoints",
+    "ai-assisted-development"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "ChrisTitusTech/titstack",
+    "path": ".agents/skills/ai-project-manager",
+    "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+  }
+}

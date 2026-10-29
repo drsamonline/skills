@@ -1,0 +1,31 @@
+{
+  "id": "pack-media-design",
+  "name": "Media pack — thumbnails and image editing",
+  "category": "media-design",
+  "description": "Cover and image work: design a restrained 16:9 YouTube thumbnail around one readable idea while keeping photographed people exactly as they are, and create, composite or export layered images through the photocraft-cli MCP server. Use when a thumbnail, logo, cover or photo composite is needed.",
+  "tags": [
+    "youtube",
+    "thumbnail",
+    "design",
+    "images",
+    "photo-editing",
+    "compositing",
+    "export",
+    "pack"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "ChrisTitusTech/titstack",
+    "path": ".agents/skills/",
+    "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+  },
+  "subskills": [
+    "youtube-thumbnail",
+    "photocraft"
+  ]
+}

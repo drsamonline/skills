@@ -1,0 +1,25 @@
+{
+  "id": "pr-readiness",
+  "name": "PR readiness and merge gates",
+  "category": "code-quality",
+  "description": "Validate changes and pull requests through merge readiness, including local gates, Codex review, CI, independent review, manual evidence, and unresolved review threads.",
+  "tags": [
+    "pull-request",
+    "merge-readiness",
+    "ci",
+    "review",
+    "validation",
+    "gates"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "ChrisTitusTech/titstack",
+    "path": ".agents/skills/pr-readiness",
+    "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+  }
+}

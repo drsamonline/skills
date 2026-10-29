@@ -1,0 +1,25 @@
+{
+  "id": "youtube-thumbnail",
+  "name": "YouTube thumbnails",
+  "category": "media-design",
+  "description": "Create, edit, or review YouTube thumbnails. Always use when a YouTube thumbnail or video cover is requested; keep the design restrained and preserve photographed people exactly.",
+  "tags": [
+    "youtube",
+    "thumbnail",
+    "design",
+    "hierarchy",
+    "16x9",
+    "cover"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "ChrisTitusTech/titstack",
+    "path": ".agents/skills/youtube-thumbnail",
+    "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+  }
+}

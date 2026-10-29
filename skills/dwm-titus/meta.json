@@ -1,0 +1,27 @@
+{
+  "id": "dwm-titus",
+  "name": "dwm-titus desktop customisation",
+  "category": "linux-desktop",
+  "description": "Customize the dwm-titus X11 desktop, including TOML keybindings, themes, window rules, panel widgets, autostart, wallpaper, picom, lock, and LightDM. Use for end-user changes, not diagnosis.",
+  "tags": [
+    "dwm",
+    "x11",
+    "fedora",
+    "keybindings",
+    "quickshell",
+    "picom",
+    "lightdm",
+    "titus"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "ChrisTitusTech/titstack",
+    "path": ".agents/skills/dwm-titus",
+    "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+  }
+}

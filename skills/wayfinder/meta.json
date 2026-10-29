@@ -1,0 +1,25 @@
+{
+  "id": "wayfinder",
+  "name": "Wayfinder — SPEC, MAP and ANSWERS",
+  "category": "docs-and-planning",
+  "description": "Create or maintain SPEC.md, MAP.md, and ANSWERS.md for large or unclear work. Invoke only with /wayfinder or $wayfinder; do not use for ordinary planning or implementation.",
+  "tags": [
+    "wayfinder",
+    "spec",
+    "map",
+    "answers",
+    "planning",
+    "explicit-only"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "ChrisTitusTech/titstack",
+    "path": ".agents/skills/wayfinder",
+    "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+  }
+}

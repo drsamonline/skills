@@ -1,0 +1,25 @@
+{
+  "id": "bash-scripting",
+  "name": "Portable Bash and POSIX sh",
+  "category": "code-quality",
+  "description": "Create, review, and debug Bash or POSIX sh scripts when portability, quoting, failure handling, or shell-specific validation matters.",
+  "tags": [
+    "bash",
+    "posix-sh",
+    "shell",
+    "quoting",
+    "portability",
+    "scripting"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "ChrisTitusTech/titstack",
+    "path": ".agents/skills/bash-scripting",
+    "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+  }
+}

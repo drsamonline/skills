@@ -1,0 +1,34 @@
+{
+  "id": "pack-code-quality",
+  "name": "Code quality pack — review, autofix, PR gates, Bash",
+  "category": "code-quality",
+  "description": "The review-to-merge loop for a change: run CodeRabbit review, fix its findings with verified patches, decide whether a PR is actually merge-ready, and write the portable Bash that runs the gates. Use when reviewing a diff, answering review feedback, or judging a PR.",
+  "tags": [
+    "code-review",
+    "coderabbit",
+    "autofix",
+    "pull-request",
+    "merge-readiness",
+    "ci",
+    "bash",
+    "shell",
+    "pack"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "ChrisTitusTech/titstack",
+    "path": ".agents/skills/",
+    "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+  },
+  "subskills": [
+    "code-review",
+    "autofix",
+    "pr-readiness",
+    "bash-scripting"
+  ]
+}

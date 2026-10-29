@@ -1,0 +1,35 @@
+{
+  "id": "pack-planning-and-docs",
+  "name": "Planning and docs pack — plans, Hugo, mdBook",
+  "category": "docs-and-planning",
+  "description": "Write the plan down and publish the documentation: repository planning documents (SPEC, ROADMAP, TASKS) for AI-assisted work, Wayfinder's SPEC/MAP/ANSWERS for foggy destinations, Hugo sites, and mdBook books or KDP manuscripts. Use when a task needs a durable plan or a documentation site.",
+  "tags": [
+    "planning",
+    "spec",
+    "roadmap",
+    "tasks",
+    "wayfinder",
+    "hugo",
+    "mdbook",
+    "kdp",
+    "documentation",
+    "pack"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "ChrisTitusTech/titstack",
+    "path": ".agents/skills/",
+    "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+  },
+  "subskills": [
+    "ai-project-manager",
+    "wayfinder",
+    "hugo",
+    "mdbook"
+  ]
+}

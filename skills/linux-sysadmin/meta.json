@@ -1,0 +1,26 @@
+{
+  "id": "linux-sysadmin",
+  "name": "Linux host administration",
+  "category": "sysadmin-ops",
+  "description": "Diagnose and operate Linux hosts, services, packages, permissions, SELinux, firewalls, and SSH. Use for host-level work that is not primarily an application-specific or container task.",
+  "tags": [
+    "linux",
+    "systemd",
+    "selinux",
+    "firewall",
+    "ssh",
+    "packages",
+    "diagnostics"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "ChrisTitusTech/titstack",
+    "path": ".agents/skills/linux-sysadmin",
+    "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+  }
+}

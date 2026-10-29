@@ -48,10 +48,11 @@ There are two kinds of skill:
   + SEO conventions, the auto-updating showcase hub, the open-data pipeline, the
   LAN single-server architecture, the theme-aware GitHub profile, optical file
   transfer, embedded-bundle feature gating, and safe repository cleanup.
+- **Vendored packs** — five packs and the seventeen skills they were merged from, imported unchanged from [ChrisTitusTech/titstack](https://github.com/ChrisTitusTech/titstack) (MIT). Each carries its own `LICENSE`; the pack is the merged reading, the individual skill is the same text on its own.
 - **Project skills** — one per repository: what the project is, how it is built,
   how it is released, and what makes its workflow distinctive.
 
-**Catalogue:** `72` skills across 9 categories. The machine-readable index is [`catalog.json`](catalog.json); the landing page is <https://drsamonline.github.io/skills/>.
+**Catalogue:** `94` skills across 14 categories. The machine-readable index is [`catalog.json`](catalog.json); the landing page is <https://drsamonline.github.io/skills/>.
 
 ## Repository layout
 
@@ -66,7 +67,7 @@ docs/                         # the landing page (its own sub-website)
 
 Skill ids are lowercase-hyphenated and stable. Categories are a fixed set:
 
-`web-app-patterns`, `android-packaging`, `windows-desktop`, `game-engine`, `data-and-schema`, `health-tools`, `landing-and-seo`, `ci-and-release`, `marketing`.
+`web-app-patterns`, `android-packaging`, `windows-desktop`, `game-engine`, `data-and-schema`, `health-tools`, `landing-and-seo`, `ci-and-release`, `marketing`, and — added with the titstack import — `linux-desktop`, `sysadmin-ops`, `code-quality`, `docs-and-planning`, `media-design`.
 
 ## The skill format
 
@@ -242,6 +243,53 @@ How a project is written about and how people find it — the discipline the sys
 | [`free-tool-marketing`](skills/free-tool-marketing/SKILL.md) | Plan and judge a free, genuinely useful tool as the way people find the paid work — engineering as marketing. |  | 1.0.0 |
 | [`product-copywriting`](skills/product-copywriting/SKILL.md) | Write honest product copy for a landing page, a README or a store listing — a headline, a value line, a CTA — that reads like a person wrote it and a competitor could not. |  | 1.0.0 |
 
+### Linux desktop (`linux-desktop`)
+
+| Skill | Description | Source repos | Ver |
+|---|---|---|---|
+| [`dwm-titus`](skills/dwm-titus/SKILL.md) | Customize the dwm-titus X11 desktop, including TOML keybindings, themes, window rules, panel widgets, autostart, wallpaper, picom, lock, and LightDM. Use for end-user changes, not diagnosis. | [ChrisTitusTech/titstack](https://github.com/ChrisTitusTech/titstack) | 1.0.0 |
+| [`dwm-titus-debug`](skills/dwm-titus-debug/SKILL.md) | Diagnose broken apps or desktop parts on dwm-titus, including startup, Quickshell panel, keybindings, window rules, autostart, portals, picom, lock, and crashes. Read-only unless asked; not host services. | [ChrisTitusTech/titstack](https://github.com/ChrisTitusTech/titstack) | 1.0.0 |
+| [`pack-linux-desktop`](skills/pack-linux-desktop/SKILL.md) | Chris Titus Tech's Fedora/X11 desktop end to end: change dwm keybindings, themes and window rules, build or lint the Quickshell panel, and diagnose a broken session read-only. Use for any change to, or failure of, a dwm-titus desktop. | [ChrisTitusTech/titstack](https://github.com/ChrisTitusTech/titstack) | 1.0.0 |
+| [`quickshell`](skills/quickshell/SKILL.md) | Build, lint, and troubleshoot Quickshell QML configurations or source builds. Use for shell.qml, Quickshell modules, qmllint setup, runtime validation, packaging, and version-matched API guidance. | [ChrisTitusTech/titstack](https://github.com/ChrisTitusTech/titstack) | 1.0.0 |
+
+### Sysadmin & ops (`sysadmin-ops`)
+
+| Skill | Description | Source repos | Ver |
+|---|---|---|---|
+| [`forgejo-maintainer`](skills/forgejo-maintainer/SKILL.md) | Administer Forgejo or Gitea installations, including upgrades, backups, migrations, repository access, and Actions runners. Use for application-specific operations, not general Linux host troubleshooting. | [ChrisTitusTech/titstack](https://github.com/ChrisTitusTech/titstack) | 1.0.0 |
+| [`homelab-admin`](skills/homelab-admin/SKILL.md) | Operate homelab infrastructure spanning networking, DNS, storage, NFS, reverse proxies, or multiple services. Use for cross-system work rather than an isolated host, application, or container problem. | [ChrisTitusTech/titstack](https://github.com/ChrisTitusTech/titstack) | 1.0.0 |
+| [`linux-sysadmin`](skills/linux-sysadmin/SKILL.md) | Diagnose and operate Linux hosts, services, packages, permissions, SELinux, firewalls, and SSH. Use for host-level work that is not primarily an application-specific or container task. | [ChrisTitusTech/titstack](https://github.com/ChrisTitusTech/titstack) | 1.0.0 |
+| [`pack-sysadmin-ops`](skills/pack-sysadmin-ops/SKILL.md) | Infrastructure administration in one pack: Linux host diagnostics (services, packages, SELinux, firewalls, SSH), Podman containers and Quadlet units, Forgejo/Gitea upgrades, backups and runners, and cross-system homelab work. Use for operations that span a host, its containers and its services. | [ChrisTitusTech/titstack](https://github.com/ChrisTitusTech/titstack) | 1.0.0 |
+| [`podman-operator`](skills/podman-operator/SKILL.md) | Build and operate Podman containers and Quadlet services, including rootless deployment, networking, volumes, systemd integration, and troubleshooting. | [ChrisTitusTech/titstack](https://github.com/ChrisTitusTech/titstack) | 1.0.0 |
+
+### Code quality (`code-quality`)
+
+| Skill | Description | Source repos | Ver |
+|---|---|---|---|
+| [`autofix`](skills/autofix/SKILL.md) | Address CodeRabbit pull-request feedback with verified fixes and validation. Run publication and repeated review cycles only within the user's authorized scope. | [ChrisTitusTech/titstack](https://github.com/ChrisTitusTech/titstack) | 1.0.0 |
+| [`bash-scripting`](skills/bash-scripting/SKILL.md) | Create, review, and debug Bash or POSIX sh scripts when portability, quoting, failure handling, or shell-specific validation matters. | [ChrisTitusTech/titstack](https://github.com/ChrisTitusTech/titstack) | 1.0.0 |
+| [`code-review`](skills/code-review/SKILL.md) | Review code with CodeRabbit when the user requests CodeRabbit or repository policy selects it. Do not replace a required Codex review. | [ChrisTitusTech/titstack](https://github.com/ChrisTitusTech/titstack) | 1.0.0 |
+| [`pack-code-quality`](skills/pack-code-quality/SKILL.md) | The review-to-merge loop for a change: run CodeRabbit review, fix its findings with verified patches, decide whether a PR is actually merge-ready, and write the portable Bash that runs the gates. Use when reviewing a diff, answering review feedback, or judging a PR. | [ChrisTitusTech/titstack](https://github.com/ChrisTitusTech/titstack) | 1.0.0 |
+| [`pr-readiness`](skills/pr-readiness/SKILL.md) | Validate changes and pull requests through merge readiness, including local gates, Codex review, CI, independent review, manual evidence, and unresolved review threads. | [ChrisTitusTech/titstack](https://github.com/ChrisTitusTech/titstack) | 1.0.0 |
+
+### Planning & docs (`docs-and-planning`)
+
+| Skill | Description | Source repos | Ver |
+|---|---|---|---|
+| [`ai-project-manager`](skills/ai-project-manager/SKILL.md) | Create and maintain repository planning documents, phased implementation plans, approval checkpoints, task status, and validation evidence for AI-assisted development work. | [ChrisTitusTech/titstack](https://github.com/ChrisTitusTech/titstack) | 1.0.0 |
+| [`hugo`](skills/hugo/SKILL.md) | Build, edit, validate, and troubleshoot Hugo sites, including content, templates, assets, taxonomies, redirects, output formats, and deployment configuration. | [ChrisTitusTech/titstack](https://github.com/ChrisTitusTech/titstack) | 1.0.0 |
+| [`mdbook`](skills/mdbook/SKILL.md) | Create, edit, validate, and publish mdBook projects or mdBook-based KDP manuscripts. Use for book.toml, SUMMARY.md, themes, preprocessors, CI, and manuscript conversion. | [ChrisTitusTech/titstack](https://github.com/ChrisTitusTech/titstack) | 1.0.0 |
+| [`pack-planning-and-docs`](skills/pack-planning-and-docs/SKILL.md) | Write the plan down and publish the documentation: repository planning documents (SPEC, ROADMAP, TASKS) for AI-assisted work, Wayfinder's SPEC/MAP/ANSWERS for foggy destinations, Hugo sites, and mdBook books or KDP manuscripts. Use when a task needs a durable plan or a documentation site. | [ChrisTitusTech/titstack](https://github.com/ChrisTitusTech/titstack) | 1.0.0 |
+| [`wayfinder`](skills/wayfinder/SKILL.md) | Create or maintain SPEC.md, MAP.md, and ANSWERS.md for large or unclear work. Invoke only with /wayfinder or $wayfinder; do not use for ordinary planning or implementation. | [ChrisTitusTech/titstack](https://github.com/ChrisTitusTech/titstack) | 1.0.0 |
+
+### Media & design (`media-design`)
+
+| Skill | Description | Source repos | Ver |
+|---|---|---|---|
+| [`pack-media-design`](skills/pack-media-design/SKILL.md) | Cover and image work: design a restrained 16:9 YouTube thumbnail around one readable idea while keeping photographed people exactly as they are, and create, composite or export layered images through the photocraft-cli MCP server. Use when a thumbnail, logo, cover or photo composite is needed. | [ChrisTitusTech/titstack](https://github.com/ChrisTitusTech/titstack) | 1.0.0 |
+| [`photocraft`](skills/photocraft/SKILL.md) | Create, inspect, edit, composite, and export images through the photocraft-cli MCP server. Use for image work, layered artwork, photo edits, logos, and thumbnail assembly; combine with task-specific design skills when applicable. | [ChrisTitusTech/titstack](https://github.com/ChrisTitusTech/titstack) | 1.0.0 |
+| [`youtube-thumbnail`](skills/youtube-thumbnail/SKILL.md) | Create, edit, or review YouTube thumbnails. Always use when a YouTube thumbnail or video cover is requested; keep the design restrained and preserve photographed people exactly. | [ChrisTitusTech/titstack](https://github.com/ChrisTitusTech/titstack) | 1.0.0 |
+
 ## How an AI agent should consume this repo
 
 1. Read **`catalog.json`** first — it is the single source of truth. It carries
@@ -283,3 +331,18 @@ The three `marketing` skills (`product-copywriting`, `directory-submissions`,
 [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)
 (MIT, © its authors); the shape and the ideas are theirs, the text and the
 situation are ours. Their PolyForm Noncommercial licence is retained.
+
+### Vendored third-party skills
+
+The five `pack-*` skills and the seventeen skills they merge are imported from
+[ChrisTitusTech/titstack](https://github.com/ChrisTitusTech/titstack) at commit
+`b9b7fb0`, under the **MIT** licence (© 2026 titstack contributors). Each of
+those directories carries the full MIT text as its own `LICENSE`, and each
+`meta.json` records the upstream repo, path and commit. MIT content is
+redistributed here with its notice intact; the repository's PolyForm
+Noncommercial terms continue to apply to the drsamonline skills around it.
+
+`source_repos` is left empty for those entries on purpose: they describe a
+repository that is not part of `drsamonline`, so the weekly refresh workflow
+must not try to resolve their commit SHAs. The pin lives in `upstream.commit`
+instead, which the refresh does not touch.

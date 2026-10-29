@@ -1,0 +1,25 @@
+{
+  "id": "photocraft",
+  "name": "PhotoCraft image editing",
+  "category": "media-design",
+  "description": "Create, inspect, edit, composite, and export images through the photocraft-cli MCP server. Use for image work, layered artwork, photo edits, logos, and thumbnail assembly; combine with task-specific design skills when applicable.",
+  "tags": [
+    "images",
+    "photo-editing",
+    "compositing",
+    "layers",
+    "export",
+    "mcp"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "ChrisTitusTech/titstack",
+    "path": ".agents/skills/photocraft",
+    "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+  }
+}

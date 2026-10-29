@@ -1,0 +1,26 @@
+{
+  "id": "homelab-admin",
+  "name": "Homelab administration",
+  "category": "sysadmin-ops",
+  "description": "Operate homelab infrastructure spanning networking, DNS, storage, NFS, reverse proxies, or multiple services. Use for cross-system work rather than an isolated host, application, or container problem.",
+  "tags": [
+    "homelab",
+    "networking",
+    "dns",
+    "storage",
+    "nfs",
+    "reverse-proxy",
+    "cross-system"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "ChrisTitusTech/titstack",
+    "path": ".agents/skills/homelab-admin",
+    "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+  }
+}

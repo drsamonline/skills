@@ -1,0 +1,25 @@
+{
+  "id": "podman-operator",
+  "name": "Podman and Quadlet operations",
+  "category": "sysadmin-ops",
+  "description": "Build and operate Podman containers and Quadlet services, including rootless deployment, networking, volumes, systemd integration, and troubleshooting.",
+  "tags": [
+    "podman",
+    "quadlet",
+    "rootless",
+    "containers",
+    "systemd",
+    "volumes"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "ChrisTitusTech/titstack",
+    "path": ".agents/skills/podman-operator",
+    "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+  }
+}

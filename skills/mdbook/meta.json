@@ -1,0 +1,26 @@
+{
+  "id": "mdbook",
+  "name": "mdBook books and KDP manuscripts",
+  "category": "docs-and-planning",
+  "description": "Create, edit, validate, and publish mdBook projects or mdBook-based KDP manuscripts. Use for book.toml, SUMMARY.md, themes, preprocessors, CI, and manuscript conversion.",
+  "tags": [
+    "mdbook",
+    "book",
+    "kdp",
+    "summary",
+    "preprocessors",
+    "mathjax",
+    "ci"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "ChrisTitusTech/titstack",
+    "path": ".agents/skills/mdbook",
+    "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+  }
+}

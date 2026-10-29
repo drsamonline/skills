@@ -1,0 +1,25 @@
+{
+  "id": "forgejo-maintainer",
+  "name": "Forgejo and Gitea administration",
+  "category": "sysadmin-ops",
+  "description": "Administer Forgejo or Gitea installations, including upgrades, backups, migrations, repository access, and Actions runners. Use for application-specific operations, not general Linux host troubleshooting.",
+  "tags": [
+    "forgejo",
+    "gitea",
+    "upgrade",
+    "backup",
+    "migration",
+    "actions-runner"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "ChrisTitusTech/titstack",
+    "path": ".agents/skills/forgejo-maintainer",
+    "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+  }
+}

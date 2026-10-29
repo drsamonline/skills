@@ -1,0 +1,26 @@
+{
+  "id": "quickshell",
+  "name": "Quickshell QML shells",
+  "category": "linux-desktop",
+  "description": "Build, lint, and troubleshoot Quickshell QML configurations or source builds. Use for shell.qml, Quickshell modules, qmllint setup, runtime validation, packaging, and version-matched API guidance.",
+  "tags": [
+    "quickshell",
+    "qml",
+    "qmllint",
+    "panel",
+    "wayland",
+    "x11",
+    "packaging"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "ChrisTitusTech/titstack",
+    "path": ".agents/skills/quickshell",
+    "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+  }
+}

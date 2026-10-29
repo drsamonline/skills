@@ -1,0 +1,26 @@
+{
+  "id": "dwm-titus-debug",
+  "name": "dwm-titus diagnosis (read-only)",
+  "category": "linux-desktop",
+  "description": "Diagnose broken apps or desktop parts on dwm-titus, including startup, Quickshell panel, keybindings, window rules, autostart, portals, picom, lock, and crashes. Read-only unless asked; not host services.",
+  "tags": [
+    "dwm",
+    "diagnosis",
+    "read-only",
+    "quickshell",
+    "portals",
+    "picom",
+    "crashes"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "ChrisTitusTech/titstack",
+    "path": ".agents/skills/dwm-titus-debug",
+    "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+  }
+}

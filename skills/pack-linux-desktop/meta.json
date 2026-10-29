@@ -1,0 +1,33 @@
+{
+  "id": "pack-linux-desktop",
+  "name": "Linux desktop pack — dwm-titus, Quickshell and diagnosis",
+  "category": "linux-desktop",
+  "description": "Chris Titus Tech's Fedora/X11 desktop end to end: change dwm keybindings, themes and window rules, build or lint the Quickshell panel, and diagnose a broken session read-only. Use for any change to, or failure of, a dwm-titus desktop.",
+  "tags": [
+    "dwm",
+    "x11",
+    "quickshell",
+    "qml",
+    "fedora",
+    "desktop",
+    "panel",
+    "diagnosis",
+    "pack"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "ChrisTitusTech/titstack",
+    "path": ".agents/skills/",
+    "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+  },
+  "subskills": [
+    "dwm-titus",
+    "dwm-titus-debug",
+    "quickshell"
+  ]
+}

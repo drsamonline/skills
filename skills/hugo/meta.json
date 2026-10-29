@@ -1,0 +1,25 @@
+{
+  "id": "hugo",
+  "name": "Hugo static sites",
+  "category": "docs-and-planning",
+  "description": "Build, edit, validate, and troubleshoot Hugo sites, including content, templates, assets, taxonomies, redirects, output formats, and deployment configuration.",
+  "tags": [
+    "hugo",
+    "static-site",
+    "templates",
+    "taxonomies",
+    "shortcodes",
+    "deployment"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "ChrisTitusTech/titstack",
+    "path": ".agents/skills/hugo",
+    "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+  }
+}

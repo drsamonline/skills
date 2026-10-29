@@ -1,6 +1,6 @@
 {
   "generated": "2026-10-29",
-  "count": 72,
+  "count": 94,
   "categories": [
     "web-app-patterns",
     "android-packaging",
@@ -10,7 +10,12 @@
     "health-tools",
     "landing-and-seo",
     "ci-and-release",
-    "marketing"
+    "marketing",
+    "docs-and-planning",
+    "code-quality",
+    "linux-desktop",
+    "sysadmin-ops",
+    "media-design"
   ],
   "skills": [
     {
@@ -2095,6 +2100,604 @@
       "subskills": [
         "mnemosyne-companion",
         "book-kit-companion"
+      ]
+    },
+    {
+      "id": "ai-project-manager",
+      "name": "AI project manager — planning documents",
+      "category": "docs-and-planning",
+      "description": "Create and maintain repository planning documents, phased implementation plans, approval checkpoints, task status, and validation evidence for AI-assisted development work.",
+      "tags": [
+        "planning",
+        "spec",
+        "roadmap",
+        "tasks",
+        "checkpoints",
+        "ai-assisted-development"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-10-29",
+      "source_snapshot": {},
+      "license": "MIT",
+      "origin": "third-party",
+      "upstream": {
+        "repo": "ChrisTitusTech/titstack",
+        "path": ".agents/skills/ai-project-manager",
+        "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+      }
+    },
+    {
+      "id": "autofix",
+      "name": "CodeRabbit autofix",
+      "category": "code-quality",
+      "description": "Address CodeRabbit pull-request feedback with verified fixes and validation. Run publication and repeated review cycles only within the user's authorized scope.",
+      "tags": [
+        "coderabbit",
+        "review-feedback",
+        "autofix",
+        "validation",
+        "scope"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-10-29",
+      "source_snapshot": {},
+      "license": "MIT",
+      "origin": "third-party",
+      "upstream": {
+        "repo": "ChrisTitusTech/titstack",
+        "path": ".agents/skills/autofix",
+        "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+      }
+    },
+    {
+      "id": "bash-scripting",
+      "name": "Portable Bash and POSIX sh",
+      "category": "code-quality",
+      "description": "Create, review, and debug Bash or POSIX sh scripts when portability, quoting, failure handling, or shell-specific validation matters.",
+      "tags": [
+        "bash",
+        "posix-sh",
+        "shell",
+        "quoting",
+        "portability",
+        "scripting"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-10-29",
+      "source_snapshot": {},
+      "license": "MIT",
+      "origin": "third-party",
+      "upstream": {
+        "repo": "ChrisTitusTech/titstack",
+        "path": ".agents/skills/bash-scripting",
+        "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+      }
+    },
+    {
+      "id": "code-review",
+      "name": "CodeRabbit code review",
+      "category": "code-quality",
+      "description": "Review code with CodeRabbit when the user requests CodeRabbit or repository policy selects it. Do not replace a required Codex review.",
+      "tags": [
+        "code-review",
+        "coderabbit",
+        "review-gate",
+        "pull-request"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-10-29",
+      "source_snapshot": {},
+      "license": "MIT",
+      "origin": "third-party",
+      "upstream": {
+        "repo": "ChrisTitusTech/titstack",
+        "path": ".agents/skills/code-review",
+        "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+      }
+    },
+    {
+      "id": "dwm-titus",
+      "name": "dwm-titus desktop customisation",
+      "category": "linux-desktop",
+      "description": "Customize the dwm-titus X11 desktop, including TOML keybindings, themes, window rules, panel widgets, autostart, wallpaper, picom, lock, and LightDM. Use for end-user changes, not diagnosis.",
+      "tags": [
+        "dwm",
+        "x11",
+        "fedora",
+        "keybindings",
+        "quickshell",
+        "picom",
+        "lightdm",
+        "titus"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-10-29",
+      "source_snapshot": {},
+      "license": "MIT",
+      "origin": "third-party",
+      "upstream": {
+        "repo": "ChrisTitusTech/titstack",
+        "path": ".agents/skills/dwm-titus",
+        "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+      }
+    },
+    {
+      "id": "dwm-titus-debug",
+      "name": "dwm-titus diagnosis (read-only)",
+      "category": "linux-desktop",
+      "description": "Diagnose broken apps or desktop parts on dwm-titus, including startup, Quickshell panel, keybindings, window rules, autostart, portals, picom, lock, and crashes. Read-only unless asked; not host services.",
+      "tags": [
+        "dwm",
+        "diagnosis",
+        "read-only",
+        "quickshell",
+        "portals",
+        "picom",
+        "crashes"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-10-29",
+      "source_snapshot": {},
+      "license": "MIT",
+      "origin": "third-party",
+      "upstream": {
+        "repo": "ChrisTitusTech/titstack",
+        "path": ".agents/skills/dwm-titus-debug",
+        "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+      }
+    },
+    {
+      "id": "forgejo-maintainer",
+      "name": "Forgejo and Gitea administration",
+      "category": "sysadmin-ops",
+      "description": "Administer Forgejo or Gitea installations, including upgrades, backups, migrations, repository access, and Actions runners. Use for application-specific operations, not general Linux host troubleshooting.",
+      "tags": [
+        "forgejo",
+        "gitea",
+        "upgrade",
+        "backup",
+        "migration",
+        "actions-runner"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-10-29",
+      "source_snapshot": {},
+      "license": "MIT",
+      "origin": "third-party",
+      "upstream": {
+        "repo": "ChrisTitusTech/titstack",
+        "path": ".agents/skills/forgejo-maintainer",
+        "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+      }
+    },
+    {
+      "id": "homelab-admin",
+      "name": "Homelab administration",
+      "category": "sysadmin-ops",
+      "description": "Operate homelab infrastructure spanning networking, DNS, storage, NFS, reverse proxies, or multiple services. Use for cross-system work rather than an isolated host, application, or container problem.",
+      "tags": [
+        "homelab",
+        "networking",
+        "dns",
+        "storage",
+        "nfs",
+        "reverse-proxy",
+        "cross-system"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-10-29",
+      "source_snapshot": {},
+      "license": "MIT",
+      "origin": "third-party",
+      "upstream": {
+        "repo": "ChrisTitusTech/titstack",
+        "path": ".agents/skills/homelab-admin",
+        "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+      }
+    },
+    {
+      "id": "hugo",
+      "name": "Hugo static sites",
+      "category": "docs-and-planning",
+      "description": "Build, edit, validate, and troubleshoot Hugo sites, including content, templates, assets, taxonomies, redirects, output formats, and deployment configuration.",
+      "tags": [
+        "hugo",
+        "static-site",
+        "templates",
+        "taxonomies",
+        "shortcodes",
+        "deployment"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-10-29",
+      "source_snapshot": {},
+      "license": "MIT",
+      "origin": "third-party",
+      "upstream": {
+        "repo": "ChrisTitusTech/titstack",
+        "path": ".agents/skills/hugo",
+        "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+      }
+    },
+    {
+      "id": "linux-sysadmin",
+      "name": "Linux host administration",
+      "category": "sysadmin-ops",
+      "description": "Diagnose and operate Linux hosts, services, packages, permissions, SELinux, firewalls, and SSH. Use for host-level work that is not primarily an application-specific or container task.",
+      "tags": [
+        "linux",
+        "systemd",
+        "selinux",
+        "firewall",
+        "ssh",
+        "packages",
+        "diagnostics"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-10-29",
+      "source_snapshot": {},
+      "license": "MIT",
+      "origin": "third-party",
+      "upstream": {
+        "repo": "ChrisTitusTech/titstack",
+        "path": ".agents/skills/linux-sysadmin",
+        "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+      }
+    },
+    {
+      "id": "mdbook",
+      "name": "mdBook books and KDP manuscripts",
+      "category": "docs-and-planning",
+      "description": "Create, edit, validate, and publish mdBook projects or mdBook-based KDP manuscripts. Use for book.toml, SUMMARY.md, themes, preprocessors, CI, and manuscript conversion.",
+      "tags": [
+        "mdbook",
+        "book",
+        "kdp",
+        "summary",
+        "preprocessors",
+        "mathjax",
+        "ci"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-10-29",
+      "source_snapshot": {},
+      "license": "MIT",
+      "origin": "third-party",
+      "upstream": {
+        "repo": "ChrisTitusTech/titstack",
+        "path": ".agents/skills/mdbook",
+        "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+      }
+    },
+    {
+      "id": "photocraft",
+      "name": "PhotoCraft image editing",
+      "category": "media-design",
+      "description": "Create, inspect, edit, composite, and export images through the photocraft-cli MCP server. Use for image work, layered artwork, photo edits, logos, and thumbnail assembly; combine with task-specific design skills when applicable.",
+      "tags": [
+        "images",
+        "photo-editing",
+        "compositing",
+        "layers",
+        "export",
+        "mcp"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-10-29",
+      "source_snapshot": {},
+      "license": "MIT",
+      "origin": "third-party",
+      "upstream": {
+        "repo": "ChrisTitusTech/titstack",
+        "path": ".agents/skills/photocraft",
+        "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+      }
+    },
+    {
+      "id": "podman-operator",
+      "name": "Podman and Quadlet operations",
+      "category": "sysadmin-ops",
+      "description": "Build and operate Podman containers and Quadlet services, including rootless deployment, networking, volumes, systemd integration, and troubleshooting.",
+      "tags": [
+        "podman",
+        "quadlet",
+        "rootless",
+        "containers",
+        "systemd",
+        "volumes"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-10-29",
+      "source_snapshot": {},
+      "license": "MIT",
+      "origin": "third-party",
+      "upstream": {
+        "repo": "ChrisTitusTech/titstack",
+        "path": ".agents/skills/podman-operator",
+        "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+      }
+    },
+    {
+      "id": "pr-readiness",
+      "name": "PR readiness and merge gates",
+      "category": "code-quality",
+      "description": "Validate changes and pull requests through merge readiness, including local gates, Codex review, CI, independent review, manual evidence, and unresolved review threads.",
+      "tags": [
+        "pull-request",
+        "merge-readiness",
+        "ci",
+        "review",
+        "validation",
+        "gates"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-10-29",
+      "source_snapshot": {},
+      "license": "MIT",
+      "origin": "third-party",
+      "upstream": {
+        "repo": "ChrisTitusTech/titstack",
+        "path": ".agents/skills/pr-readiness",
+        "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+      }
+    },
+    {
+      "id": "quickshell",
+      "name": "Quickshell QML shells",
+      "category": "linux-desktop",
+      "description": "Build, lint, and troubleshoot Quickshell QML configurations or source builds. Use for shell.qml, Quickshell modules, qmllint setup, runtime validation, packaging, and version-matched API guidance.",
+      "tags": [
+        "quickshell",
+        "qml",
+        "qmllint",
+        "panel",
+        "wayland",
+        "x11",
+        "packaging"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-10-29",
+      "source_snapshot": {},
+      "license": "MIT",
+      "origin": "third-party",
+      "upstream": {
+        "repo": "ChrisTitusTech/titstack",
+        "path": ".agents/skills/quickshell",
+        "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+      }
+    },
+    {
+      "id": "wayfinder",
+      "name": "Wayfinder — SPEC, MAP and ANSWERS",
+      "category": "docs-and-planning",
+      "description": "Create or maintain SPEC.md, MAP.md, and ANSWERS.md for large or unclear work. Invoke only with /wayfinder or $wayfinder; do not use for ordinary planning or implementation.",
+      "tags": [
+        "wayfinder",
+        "spec",
+        "map",
+        "answers",
+        "planning",
+        "explicit-only"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-10-29",
+      "source_snapshot": {},
+      "license": "MIT",
+      "origin": "third-party",
+      "upstream": {
+        "repo": "ChrisTitusTech/titstack",
+        "path": ".agents/skills/wayfinder",
+        "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+      }
+    },
+    {
+      "id": "youtube-thumbnail",
+      "name": "YouTube thumbnails",
+      "category": "media-design",
+      "description": "Create, edit, or review YouTube thumbnails. Always use when a YouTube thumbnail or video cover is requested; keep the design restrained and preserve photographed people exactly.",
+      "tags": [
+        "youtube",
+        "thumbnail",
+        "design",
+        "hierarchy",
+        "16x9",
+        "cover"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-10-29",
+      "source_snapshot": {},
+      "license": "MIT",
+      "origin": "third-party",
+      "upstream": {
+        "repo": "ChrisTitusTech/titstack",
+        "path": ".agents/skills/youtube-thumbnail",
+        "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+      }
+    },
+    {
+      "id": "pack-linux-desktop",
+      "name": "Linux desktop pack — dwm-titus, Quickshell and diagnosis",
+      "category": "linux-desktop",
+      "description": "Chris Titus Tech's Fedora/X11 desktop end to end: change dwm keybindings, themes and window rules, build or lint the Quickshell panel, and diagnose a broken session read-only. Use for any change to, or failure of, a dwm-titus desktop.",
+      "tags": [
+        "dwm",
+        "x11",
+        "quickshell",
+        "qml",
+        "fedora",
+        "desktop",
+        "panel",
+        "diagnosis",
+        "pack"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-10-29",
+      "source_snapshot": {},
+      "license": "MIT",
+      "origin": "third-party",
+      "upstream": {
+        "repo": "ChrisTitusTech/titstack",
+        "path": ".agents/skills/",
+        "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+      },
+      "subskills": [
+        "dwm-titus",
+        "dwm-titus-debug",
+        "quickshell"
+      ]
+    },
+    {
+      "id": "pack-sysadmin-ops",
+      "name": "Sysadmin pack — Linux hosts, containers, Forgejo, homelab",
+      "category": "sysadmin-ops",
+      "description": "Infrastructure administration in one pack: Linux host diagnostics (services, packages, SELinux, firewalls, SSH), Podman containers and Quadlet units, Forgejo/Gitea upgrades, backups and runners, and cross-system homelab work. Use for operations that span a host, its containers and its services.",
+      "tags": [
+        "linux",
+        "systemd",
+        "selinux",
+        "podman",
+        "quadlet",
+        "forgejo",
+        "gitea",
+        "homelab",
+        "dns",
+        "storage",
+        "pack"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-10-29",
+      "source_snapshot": {},
+      "license": "MIT",
+      "origin": "third-party",
+      "upstream": {
+        "repo": "ChrisTitusTech/titstack",
+        "path": ".agents/skills/",
+        "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+      },
+      "subskills": [
+        "linux-sysadmin",
+        "podman-operator",
+        "forgejo-maintainer",
+        "homelab-admin"
+      ]
+    },
+    {
+      "id": "pack-code-quality",
+      "name": "Code quality pack — review, autofix, PR gates, Bash",
+      "category": "code-quality",
+      "description": "The review-to-merge loop for a change: run CodeRabbit review, fix its findings with verified patches, decide whether a PR is actually merge-ready, and write the portable Bash that runs the gates. Use when reviewing a diff, answering review feedback, or judging a PR.",
+      "tags": [
+        "code-review",
+        "coderabbit",
+        "autofix",
+        "pull-request",
+        "merge-readiness",
+        "ci",
+        "bash",
+        "shell",
+        "pack"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-10-29",
+      "source_snapshot": {},
+      "license": "MIT",
+      "origin": "third-party",
+      "upstream": {
+        "repo": "ChrisTitusTech/titstack",
+        "path": ".agents/skills/",
+        "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+      },
+      "subskills": [
+        "code-review",
+        "autofix",
+        "pr-readiness",
+        "bash-scripting"
+      ]
+    },
+    {
+      "id": "pack-planning-and-docs",
+      "name": "Planning and docs pack — plans, Hugo, mdBook",
+      "category": "docs-and-planning",
+      "description": "Write the plan down and publish the documentation: repository planning documents (SPEC, ROADMAP, TASKS) for AI-assisted work, Wayfinder's SPEC/MAP/ANSWERS for foggy destinations, Hugo sites, and mdBook books or KDP manuscripts. Use when a task needs a durable plan or a documentation site.",
+      "tags": [
+        "planning",
+        "spec",
+        "roadmap",
+        "tasks",
+        "wayfinder",
+        "hugo",
+        "mdbook",
+        "kdp",
+        "documentation",
+        "pack"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-10-29",
+      "source_snapshot": {},
+      "license": "MIT",
+      "origin": "third-party",
+      "upstream": {
+        "repo": "ChrisTitusTech/titstack",
+        "path": ".agents/skills/",
+        "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+      },
+      "subskills": [
+        "ai-project-manager",
+        "wayfinder",
+        "hugo",
+        "mdbook"
+      ]
+    },
+    {
+      "id": "pack-media-design",
+      "name": "Media pack — thumbnails and image editing",
+      "category": "media-design",
+      "description": "Cover and image work: design a restrained 16:9 YouTube thumbnail around one readable idea while keeping photographed people exactly as they are, and create, composite or export layered images through the photocraft-cli MCP server. Use when a thumbnail, logo, cover or photo composite is needed.",
+      "tags": [
+        "youtube",
+        "thumbnail",
+        "design",
+        "images",
+        "photo-editing",
+        "compositing",
+        "export",
+        "pack"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-10-29",
+      "source_snapshot": {},
+      "license": "MIT",
+      "origin": "third-party",
+      "upstream": {
+        "repo": "ChrisTitusTech/titstack",
+        "path": ".agents/skills/",
+        "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+      },
+      "subskills": [
+        "youtube-thumbnail",
+        "photocraft"
       ]
     }
   ]

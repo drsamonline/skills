@@ -1,0 +1,36 @@
+{
+  "id": "pack-sysadmin-ops",
+  "name": "Sysadmin pack — Linux hosts, containers, Forgejo, homelab",
+  "category": "sysadmin-ops",
+  "description": "Infrastructure administration in one pack: Linux host diagnostics (services, packages, SELinux, firewalls, SSH), Podman containers and Quadlet units, Forgejo/Gitea upgrades, backups and runners, and cross-system homelab work. Use for operations that span a host, its containers and its services.",
+  "tags": [
+    "linux",
+    "systemd",
+    "selinux",
+    "podman",
+    "quadlet",
+    "forgejo",
+    "gitea",
+    "homelab",
+    "dns",
+    "storage",
+    "pack"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "ChrisTitusTech/titstack",
+    "path": ".agents/skills/",
+    "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+  },
+  "subskills": [
+    "linux-sysadmin",
+    "podman-operator",
+    "forgejo-maintainer",
+    "homelab-admin"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "code-review",
+  "name": "CodeRabbit code review",
+  "category": "code-quality",
+  "description": "Review code with CodeRabbit when the user requests CodeRabbit or repository policy selects it. Do not replace a required Codex review.",
+  "tags": [
+    "code-review",
+    "coderabbit",
+    "review-gate",
+    "pull-request"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-10-29",
+  "source_snapshot": {},
+  "license": "MIT",
+  "origin": "third-party",
+  "upstream": {
+    "repo": "ChrisTitusTech/titstack",
+    "path": ".agents/skills/code-review",
+    "commit": "b9b7fb03bd347e4b514c5a6ccff397dbc909b65c"
+  }
+}
