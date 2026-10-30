@@ -772,8 +772,26 @@
 (function(){
 "use strict";
 
-var LABEL = {"web-app-patterns":"Web app patterns","android-packaging":"Android packaging","windows-desktop":"Windows & desktop","game-engine":"Games & engines","data-and-schema":"Data & schema","health-tools":"Health tools","landing-and-seo":"Landing & SEO","ci-and-release":"CI & release"};
-var ORDER = ["web-app-patterns","android-packaging","windows-desktop","game-engine","data-and-schema","health-tools","landing-and-seo","ci-and-release"];
+var LABEL = {"web-app-patterns":"Web app patterns","android-packaging":"Android packaging","windows-desktop":"Windows & desktop","game-engine":"Games & engines","data-and-schema":"Data & schema","health-tools":"Health tools","landing-and-seo":"Landing & SEO","ci-and-release":"CI & release","marketing":"Marketing","linux-desktop":"Linux desktop","sysadmin-ops":"Sysadmin & ops","code-quality":"Code quality","docs-and-planning":"Planning & docs","media-design":"Media & design","frontend-ui":"Frontend & UI","backend-services":"Backend & services","testing-qa":"Testing & QA","security-audit":"Security & audit","cloud-and-deploy":"Cloud & deploy","ai-and-ml":"AI & ML","office-docs":"Office documents","engineering-workflow":"Engineering workflow","notes-knowledge":"Notes & knowledge","mobile-apps":"Mobile apps","browser-automation":"Browser automation","google-workspace":"Google Workspace","game-dev":"Game development","product-management":"Product management"};
+var ORDER = ["web-app-patterns","android-packaging","windows-desktop","game-engine","data-and-schema","health-tools","landing-and-seo","ci-and-release","marketing","linux-desktop","sysadmin-ops","code-quality","docs-and-planning","media-design","frontend-ui","backend-services","testing-qa","security-audit","cloud-and-deploy","ai-and-ml","office-docs","engineering-workflow","notes-knowledge","mobile-apps","browser-automation","google-workspace","game-dev","product-management"];
+var BASE_ORDER = ORDER.slice();
+
+/* Categories are derived from the catalogue, never hardcoded: a new category
+   appears in the chips and the groups the moment catalog.json carries it. */
+function deriveOrder(){
+  var seen=[];
+  (DATA.categories||[]).forEach(function(c){ if(seen.indexOf(c)<0) seen.push(c); });
+  (DATA.skills||[]).forEach(function(s){ if(s.category&&seen.indexOf(s.category)<0) seen.push(s.category); });
+  seen.sort(function(a,b){
+    var ia=BASE_ORDER.indexOf(a), ib=BASE_ORDER.indexOf(b);
+    if(ia<0) ia=1e6; if(ib<0) ib=1e6;
+    return (ia-ib)||a.localeCompare(b);
+  });
+  ORDER=seen;
+  ORDER.forEach(function(c){
+    if(!LABEL[c]) LABEL[c]=c.replace(/-/g," ").replace(/\b\w/g,function(m){return m.toUpperCase();});
+  });
+}
 var REPO = "https://github.com/drsamonline/skills";
 var BLOB = REPO + "/blob/main/";
 var CATALOG_URL = "https://raw.githubusercontent.com/drsamonline/skills/main/catalog.json";
@@ -906,7 +924,7 @@ function setStatus(){
   else el.innerHTML='<span class="dot snap"></span>embedded snapshot (catalog.json unreachable)';
 }
 
-function render(){ buildNameMap(); renderStats(); renderChips(); renderGroups(); setStatus(); }
+function render(){ buildNameMap(); deriveOrder(); renderStats(); renderChips(); renderGroups(); setStatus(); }
 
 function start(){
   if(!DATA||!DATA.skills||!DATA.skills.length){ DATA={skills:[],generated:"",count:0,categories:ORDER}; }
