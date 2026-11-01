@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{App}} — {{one-line promise}}</title>
+<meta name="description" content="{{one paragraph}}">
+<meta property="og:image" content="assets/app-desktop.png">
+<link rel="icon" href="play/icon.svg" type="image/svg+xml">
+<style>
+  /* Replace this palette with one drawn from THIS project. Never ship the estate's default. */
+  :root{ --ink:#14110e; --paper:#f7f2e9; --paper-2:#fffdf8; --muted:#6b6157; --line:#e2d8c8;
+         --accent:#2f6f8f; --accent-2:#b5432c;
+         --serif:ui-serif,Georgia,serif; --sans:ui-sans-serif,-apple-system,"Segoe UI",sans-serif; }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.65 var(--serif)}
+  .band{height:6px;background:linear-gradient(90deg,var(--accent),var(--paper) 50%,var(--accent-2))}
+  .wrap{max-width:64rem;margin:0 auto;padding:0 1.4rem}
+  header .wrap{padding:3.6rem 1.4rem 2.4rem}
+  h1{font-size:clamp(2.6rem,6vw,4.2rem);line-height:1.02;letter-spacing:-.025em;margin:0 0 1rem}
+  .lede{font-size:1.2rem;max-width:38rem;color:#2c2620}
+  .cta{display:flex;gap:.7rem;flex-wrap:wrap;margin:1.4rem 0}
+  .btn{font-family:var(--sans);text-decoration:none;padding:.75rem 1.15rem;border-radius:.6rem;
+       border:1px solid var(--line);background:var(--paper-2)}
+  .btn.primary{background:var(--ink);color:var(--paper)}
+  .badges img{height:20px;margin-right:.3rem}
+  figure.shot{margin:2rem 0 0;border:1px solid var(--line);border-radius:.9rem;overflow:hidden;background:var(--paper-2)}
+  figure.shot img{width:100%;display:block}
+  section{padding:3rem 0;border-top:1px solid var(--line)}
+  .cards{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr))}
+  .card{background:var(--paper-2);border:1px solid var(--line);border-radius:.8rem;padding:1.1rem}
+  footer{padding:2.4rem 0 4rem;color:var(--muted);font-size:.9rem}
+</style>
+</head>
+<body>
+<div class="band"></div>
+<header><div class="wrap">
+  <p class="eyebrow">{{an eyebrow, small caps}}</p>
+  <h1>{{App}}<br><span style="font-weight:400;font-style:italic;color:var(--muted)">{{the honest subtitle}}</span></h1>
+  <p class="lede">{{what it is, and the one thing it refuses to do}}</p>
+  <div class="cta">
+    <a class="btn primary" href="play/">Open the app →</a>
+    <a class="btn" href="{{repo}}">Read the source</a>
+  </div>
+  <div class="badges">
+    <img alt="live" src="assets/badge-live.svg"><img alt="tests" src="assets/badge-tests.svg">
+    <img alt="build" src="assets/badge-build.svg"><img alt="licence" src="assets/badge-licence.svg">
+    <img alt="offline" src="assets/badge-offline.svg"><img alt="deps" src="assets/badge-deps.svg">
+  </div>
+  <figure class="shot">
+    <img src="assets/app-desktop.png" alt="{{what the screenshot shows}}">
+    <figcaption>{{one line about what the reader is looking at}}</figcaption>
+  </figure>
+</div></header>
+<main>
+  <section><div class="wrap">
+    <h2>What it does</h2>
+    <div class="cards">
+      <div class="card"><h3>{{01}}</h3><p>{{…}}</p></div>
+      <div class="card"><h3>{{02}}</h3><p>{{…}}</p></div>
+      <div class="card"><h3>{{03}}</h3><p>{{…}}</p></div>
+    </div>
+  </div></section>
+  <section><div class="wrap">
+    <h2>What it refuses to do</h2>
+    <ul><li>{{restraint}}</li><li>{{restraint}}</li></ul>
+  </div></section>
+</main>
+<footer><div class="wrap">
+  <p><strong>{{App}}</strong> — part of the <a href="https://drsamonline.github.io/">drsamonline</a> estate.
+  {{licence}}.</p>
+</div></footer>
+</body>
+</html>
