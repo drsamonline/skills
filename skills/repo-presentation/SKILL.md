@@ -99,6 +99,12 @@ README.md                    badges → promise → links → screenshot → sub
   in `docs/` and get deployed alongside the landing page. Pass them in `deletes`.
 - **`chromium` needs `--no-sandbox --disable-gpu --hide-scrollbars`** in this sandbox, and writes
   to `/tmp` fine. `--window-size=1280,1400` is a good default; `430,860` for the phone shot.
+- **A cache-first service worker hides every release.** This is the one that made a shipped,
+  green-deployed toggle invisible: the worker answered the HTML from cache and the cache name had
+  not changed, so a returning reader kept the old app with no way to know. Serve the **HTML
+  network-first** (cache is only the offline fallback), keep assets cache-first with a background
+  refresh, **bump `CACHE` on every release**, call `registration.update()` on load, and print a
+  **build stamp** in the footer so "am I on the new one?" is answerable from the page itself.
 - **An iframe of the app needs a poster.** Same-origin `play/` works on Pages and even from
   `file://` in Chromium, but a visitor with a blocked frame should still see the product: keep the
   screenshot behind the frame and reveal the frame only after `load`.
