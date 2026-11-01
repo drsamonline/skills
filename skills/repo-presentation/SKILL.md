@@ -71,6 +71,12 @@ type and rhythm, so the two read as the same product twice. Make them different 
 | rhythm | one centred column | full-bleed bands, a light interlude, a closing CTA |
 | the product | is the interface | is shown *inside a frame* with callouts |
 
+**Neither surface may force a theme.** Light is the base palette; the system preference decides the
+first paint; a toggle in the header (landing page) and beside the title (app) overrides it, and the
+choice is remembered under *separate* keys so setting one does not silently change the other. Wire
+the whole page to the same variables — demo bands, browser frames and device mocks are where
+hardcoded dark colours hide and the light mode then looks broken.
+
 ## Key files
 
 ```
