@@ -2,7 +2,7 @@
   "id": "repo-presentation",
   "name": "repo presentation",
   "category": "ci-and-release",
-  "description": "Present a built repository the way this estate presents its apps: a designed landing page at docs/index.html, the app at docs/play/, screenshots taken with headless Chromium, local SVG badges generated rather than fetched, and a README that leads with them. Use when publishing a new build/publish repo, or when an existing one has no landing page, no screenshots, or a README with no badges.",
+  "description": "Present a built repository the way this estate presents its apps: a designed landing page at docs/index.html, the app at docs/play/, screenshots taken with headless Chromium, local SVG badges generated rather than fetched, and a README that leads with them. Use when publishing a new build/publish repo, or when an existing one has no landing page, no screenshots, or a README with no badges. Also covers making the landing page visually distinct from the app itself, and embedding the app as a live demo rather than a screenshot.",
   "tags": [
     "landing-page",
     "readme",
@@ -16,7 +16,7 @@
     "drsamonline/app-jacquard",
     "drsamonline/app-lantern"
   ],
-  "version": "1.0.0",
+  "version": "1.1.0",
   "updated": "2026-11-01",
   "source_snapshot": {},
   "license": "PolyForm-Noncommercial-1.0.0",
