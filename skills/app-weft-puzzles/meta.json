@@ -1,0 +1,26 @@
+{
+  "id": "app-weft-puzzles",
+  "name": "Weft Puzzles — six puzzles, no if statement",
+  "category": "game-engine",
+  "description": "Six small programming puzzles solved in Weft-8 assembly on a machine with no conditional: the constraint is the lesson, because you have to build the branch yourself.",
+  "tags": [
+    "puzzles",
+    "assembly",
+    "weft8",
+    "teaching",
+    "game",
+    "constraint"
+  ],
+  "source_repos": [
+    "app-weft-puzzles"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-02",
+  "source_snapshot": {
+    "app-weft-puzzles": "376e3b5451935eaab41c526379914b0ee98f544c"
+  },
+  "subskills": [
+    "weft8-kit",
+    "weft8-classroom"
+  ]
+}

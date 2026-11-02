@@ -1,0 +1,26 @@
+{
+  "id": "export-kit",
+  "name": "Export kit — getting files off the device",
+  "category": "web-app-patterns",
+  "description": "One zero-dependency file that turns bytes into a download, a Blob, a CSV or a store-only ZIP, working from file:// as well as Pages — so no app hand-rolls a save dialog or a ZIP writer again.",
+  "tags": [
+    "export",
+    "download",
+    "zip",
+    "csv",
+    "blob",
+    "zero-dependency"
+  ],
+  "source_repos": [
+    "export-kit"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-02",
+  "source_snapshot": {
+    "export-kit": "13f25c4377fc7d9a1b4f7cdb75669242c90932e3"
+  },
+  "subskills": [
+    "web-kit",
+    "compress-kit"
+  ]
+}

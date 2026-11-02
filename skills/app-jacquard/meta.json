@@ -1,0 +1,26 @@
+{
+  "id": "app-jacquard",
+  "name": "Jacquard — the loom you program",
+  "category": "game-engine",
+  "description": "A Weft-8 8-bit assembler and VM in the browser, with the clock, calendar, clipboard and accelerometer exposed as memory-mapped peripherals — automation you can read as assembly.",
+  "tags": [
+    "assembly",
+    "vm",
+    "peripherals",
+    "weft8",
+    "browser",
+    "teaching"
+  ],
+  "source_repos": [
+    "app-jacquard"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-02",
+  "source_snapshot": {
+    "app-jacquard": "667dbc25abf07b98940bf56f198dc1cd92360753"
+  },
+  "subskills": [
+    "weft8-kit",
+    "weft8-classroom"
+  ]
+}

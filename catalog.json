@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-29",
-  "count": 1485,
+  "generated": "2026-11-02",
+  "count": 1514,
   "categories": [
     "web-app-patterns",
     "android-packaging",
@@ -3784,8 +3784,8 @@
     {
       "id": "brainstorming",
       "name": "brainstorming",
-      "category": "engineering-workflow",
-      "description": "You MUST use this before any creative work - creating features, building components, adding functionality, modifying behavior, or planning anything new, in software or out of it (a talk, a business, a renovation).",
+      "category": "security-audit",
+      "description": "Use when defining ambiguous or high-complexity new features, product behavior, UI/component design, architecture choices, contract changes, or when grilling/pressure-testing a plan or design. Routine small requests stay on the fast path.",
       "tags": [
         "brainstorming"
       ],
@@ -3796,10 +3796,16 @@
       "license": "MIT",
       "origin": "third-party",
       "upstream": {
-        "repo": "obra/superpowers",
+        "repo": "GanyuanRan/Aegis",
         "path": "skills/brainstorming/SKILL.md",
-        "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b"
-      }
+        "commit": "0461c211e4d812f0b215fab240a68a25c1e22424"
+      },
+      "variants": [
+        {
+          "repo": "GanyuanRan__Aegis",
+          "path": "skills/brainstorming/SKILL.md"
+        }
+      ]
     },
     {
       "id": "brainstorming-research-ideas",
@@ -5168,7 +5174,13 @@
         "repo": "obra/superpowers",
         "path": "skills/dispatching-parallel-agents/SKILL.md",
         "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b"
-      }
+      },
+      "variants": [
+        {
+          "repo": "GanyuanRan__Aegis",
+          "path": "skills/dispatching-parallel-agents/SKILL.md"
+        }
+      ]
     },
     {
       "id": "distributed-llm-pretraining-torchtitan",
@@ -5469,7 +5481,13 @@
         "repo": "obra/superpowers",
         "path": "skills/executing-plans/SKILL.md",
         "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b"
-      }
+      },
+      "variants": [
+        {
+          "repo": "GanyuanRan__Aegis",
+          "path": "skills/executing-plans/SKILL.md"
+        }
+      ]
     },
     {
       "id": "experiment-tracking-swanlab",
@@ -5690,7 +5708,13 @@
         "repo": "obra/superpowers",
         "path": "skills/finishing-a-development-branch/SKILL.md",
         "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b"
-      }
+      },
+      "variants": [
+        {
+          "repo": "GanyuanRan__Aegis",
+          "path": "skills/finishing-a-development-branch/SKILL.md"
+        }
+      ]
     },
     {
       "id": "firebase-basics",
@@ -5755,7 +5779,17 @@
         "repo": "anthropics/skills",
         "path": "skills/frontend-design/SKILL.md",
         "commit": "ca45fc496a3436251f191354091d557da31c15b5"
-      }
+      },
+      "variants": [
+        {
+          "repo": "tech-leads-club__agent-skills",
+          "path": "packages/skills-catalog/skills/(design)/frontend-design/SKILL.md"
+        },
+        {
+          "repo": "anthropics__claude-plugins-official",
+          "path": "plugins/frontend-design/skills/frontend-design/SKILL.md"
+        }
+      ]
     },
     {
       "id": "frontend-dev",
@@ -10303,7 +10337,13 @@
         "repo": "addyosmani/agent-skills",
         "path": "skills/performance-optimization/SKILL.md",
         "commit": "eb07f19f52c2669f2364897aaa293e2aaddd7b1c"
-      }
+      },
+      "variants": [
+        {
+          "repo": "gamedev-skills__awesome-gamedev-agent-skills",
+          "path": "skills/disciplines/performance-optimization/SKILL.md"
+        }
+      ]
     },
     {
       "id": "phoenix-observability",
@@ -10408,7 +10448,13 @@
         "repo": "testdino-hq/playwright-skill",
         "path": "ci/SKILL.md",
         "commit": "178d1cb537604279d7b54500c4823a6db42b9de6"
-      }
+      },
+      "variants": [
+        {
+          "repo": "zebbern__claude-code-guide",
+          "path": "skills/playwright/ci/SKILL.md"
+        }
+      ]
     },
     {
       "id": "playwright-cli",
@@ -10429,7 +10475,13 @@
         "repo": "testdino-hq/playwright-skill",
         "path": "playwright-cli/SKILL.md",
         "commit": "178d1cb537604279d7b54500c4823a6db42b9de6"
-      }
+      },
+      "variants": [
+        {
+          "repo": "zebbern__claude-code-guide",
+          "path": "skills/playwright/playwright-cli/SKILL.md"
+        }
+      ]
     },
     {
       "id": "playwright-frontend",
@@ -10471,7 +10523,13 @@
         "repo": "testdino-hq/playwright-skill",
         "path": "migration/SKILL.md",
         "commit": "178d1cb537604279d7b54500c4823a6db42b9de6"
-      }
+      },
+      "variants": [
+        {
+          "repo": "zebbern__claude-code-guide",
+          "path": "skills/playwright/migration/SKILL.md"
+        }
+      ]
     },
     {
       "id": "playwright-pom",
@@ -10492,7 +10550,13 @@
         "repo": "testdino-hq/playwright-skill",
         "path": "pom/SKILL.md",
         "commit": "178d1cb537604279d7b54500c4823a6db42b9de6"
-      }
+      },
+      "variants": [
+        {
+          "repo": "zebbern__claude-code-guide",
+          "path": "skills/playwright/pom/SKILL.md"
+        }
+      ]
     },
     {
       "id": "playwright-qa",
@@ -10533,7 +10597,21 @@
         "repo": "testdino-hq/playwright-skill",
         "path": "SKILL.md",
         "commit": "178d1cb537604279d7b54500c4823a6db42b9de6"
-      }
+      },
+      "variants": [
+        {
+          "repo": "tech-leads-club__agent-skills",
+          "path": "packages/skills-catalog/skills/(web-automation)/playwright-skill/SKILL.md"
+        },
+        {
+          "repo": "zebbern__claude-code-guide",
+          "path": "skills/playwright/SKILL.md"
+        },
+        {
+          "repo": "LambdaTest__agent-skills",
+          "path": "playwright-skill/SKILL.md"
+        }
+      ]
     },
     {
       "id": "ponytail",
@@ -11050,7 +11128,13 @@
         "repo": "obra/superpowers",
         "path": "skills/receiving-code-review/SKILL.md",
         "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b"
-      }
+      },
+      "variants": [
+        {
+          "repo": "GanyuanRan__Aegis",
+          "path": "skills/receiving-code-review/SKILL.md"
+        }
+      ]
     },
     {
       "id": "remove-animations",
@@ -11632,7 +11716,13 @@
         "repo": "anthropics/skills",
         "path": "skills/skill-creator/SKILL.md",
         "commit": "ca45fc496a3436251f191354091d557da31c15b5"
-      }
+      },
+      "variants": [
+        {
+          "repo": "anthropics__claude-plugins-official",
+          "path": "plugins/skill-creator/skills/skill-creator/SKILL.md"
+        }
+      ]
     },
     {
       "id": "skill-optimizer",
@@ -11915,7 +12005,13 @@
         "repo": "obra/superpowers",
         "path": "skills/subagent-driven-development/SKILL.md",
         "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b"
-      }
+      },
+      "variants": [
+        {
+          "repo": "GanyuanRan__Aegis",
+          "path": "skills/subagent-driven-development/SKILL.md"
+        }
+      ]
     },
     {
       "id": "systems-paper-writing",
@@ -12044,6 +12140,10 @@
       "variants": [
         {
           "repo": "obra/superpowers",
+          "path": "skills/test-driven-development/SKILL.md"
+        },
+        {
+          "repo": "GanyuanRan__Aegis",
           "path": "skills/test-driven-development/SKILL.md"
         }
       ]
@@ -12366,7 +12466,13 @@
         "repo": "obra/superpowers",
         "path": "skills/using-git-worktrees/SKILL.md",
         "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b"
-      }
+      },
+      "variants": [
+        {
+          "repo": "GanyuanRan__Aegis",
+          "path": "skills/using-git-worktrees/SKILL.md"
+        }
+      ]
     },
     {
       "id": "using-superpowers",
@@ -12433,7 +12539,13 @@
         "path": "skills/composition-patterns/SKILL.md",
         "commit": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62"
       },
-      "description_source": "derived-from-body"
+      "description_source": "derived-from-body",
+      "variants": [
+        {
+          "repo": "zebbern__claude-code-guide",
+          "path": "skills/composition-patterns/SKILL.md"
+        }
+      ]
     },
     {
       "id": "vercel-optimize",
@@ -12477,7 +12589,13 @@
         "repo": "vercel-labs/agent-skills",
         "path": "skills/react-best-practices/SKILL.md",
         "commit": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62"
-      }
+      },
+      "variants": [
+        {
+          "repo": "zebbern__claude-code-guide",
+          "path": "skills/react-best-practices/SKILL.md"
+        }
+      ]
     },
     {
       "id": "vercel-react-native-skills",
@@ -12864,7 +12982,13 @@
         "repo": "obra/superpowers",
         "path": "skills/writing-skills/SKILL.md",
         "commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b"
-      }
+      },
+      "variants": [
+        {
+          "repo": "GanyuanRan__Aegis",
+          "path": "skills/writing-skills/SKILL.md"
+        }
+      ]
     },
     {
       "id": "quality-playbook",
@@ -13256,7 +13380,7 @@
       "id": "frontend-slides",
       "name": "frontend slides",
       "category": "office-docs",
-      "description": "Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files.",
+      "description": "Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to web, or create slides for a talk/pitch. Helps non-designers discover their aesthetic through visual exploration rather than abstract choices.",
       "tags": [
         "frontend",
         "slides"
@@ -13266,12 +13390,18 @@
       "updated": "2026-10-29",
       "source_snapshot": {},
       "license": "MIT",
-      "origin": "third-party-aggregator",
+      "origin": "third-party",
       "upstream": {
-        "repo": "sickn33/agentic-awesome-skills",
-        "path": "plugins/agentic-awesome-skills-claude/skills/frontend-slides/SKILL.md",
-        "commit": "753c5f7bb64650b7d3ac0ab84d9b24892d7aed8b"
-      }
+        "repo": "zarazhangrui/frontend-slides",
+        "path": "SKILL.md",
+        "commit": "9906a34d640d2111f724544cbc50f7f130569ae1"
+      },
+      "variants": [
+        {
+          "repo": "zarazhangrui__frontend-slides",
+          "path": "SKILL.md"
+        }
+      ]
     },
     {
       "id": "pptx-deck-creation",
@@ -34625,6 +34755,774 @@
         "voice-of-customer-miner",
         "vp-cpo-readiness-advisor",
         "workshop-facilitation"
+      ]
+    },
+    {
+      "id": "ai-bridge",
+      "name": "AI Bridge — driving a signed-in web chat from the editor",
+      "category": "ai-and-ml",
+      "description": "A VS Code extension plus bridge that attaches to an already signed-in browser tab over the Chrome DevTools Protocol and drives it from the editor — no API key, with per-site adapters and an OpenAI-compatible surface.",
+      "tags": [
+        "vscode",
+        "cdp",
+        "browser",
+        "llm",
+        "extension",
+        "typescript",
+        "adapters"
+      ],
+      "source_repos": [
+        "ai-bridge"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-02",
+      "source_snapshot": {
+        "ai-bridge": "9a1ec4a85355bb65193f039c41eeb5a9d3dc905f"
+      },
+      "subskills": []
+    },
+    {
+      "id": "app-clip-loom",
+      "name": "Clip Loom — clipboard programs you can read",
+      "category": "web-app-patterns",
+      "description": "Clipboard cleanup as five Weft-8 programs you can read in full: strip tracking parameters, tidy extracted text, rewrap a paragraph — each twenty lines of assembly on a machine in the page.",
+      "tags": [
+        "clipboard",
+        "privacy",
+        "tracking",
+        "text",
+        "weft8",
+        "offline"
+      ],
+      "source_repos": [
+        "app-clip-loom"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-02",
+      "source_snapshot": {
+        "app-clip-loom": "a9c5deb8532eed3b42252705c3322567fb39e6dc"
+      },
+      "subskills": [
+        "weft8-kit",
+        "web-kit"
+      ]
+    },
+    {
+      "id": "app-image-toolkit",
+      "name": "On-device image toolkit",
+      "category": "media-design",
+      "description": "Compress, resize, convert, crop and strip GPS metadata from photos entirely on the device — no upload, no account, with the app split into small scripts and the whole build driven by scripts.",
+      "tags": [
+        "images",
+        "canvas",
+        "exif",
+        "privacy",
+        "offline",
+        "pwa"
+      ],
+      "source_repos": [
+        "app-image-toolkit"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-02",
+      "source_snapshot": {
+        "app-image-toolkit": "c665c27bca91bca083335ba2c58f15b727c94514"
+      },
+      "subskills": [
+        "export-kit",
+        "web-kit",
+        "offline-first-single-file-web-app"
+      ]
+    },
+    {
+      "id": "app-jacquard",
+      "name": "Jacquard — the loom you program",
+      "category": "game-engine",
+      "description": "A Weft-8 8-bit assembler and VM in the browser, with the clock, calendar, clipboard and accelerometer exposed as memory-mapped peripherals — automation you can read as assembly.",
+      "tags": [
+        "assembly",
+        "vm",
+        "peripherals",
+        "weft8",
+        "browser",
+        "teaching"
+      ],
+      "source_repos": [
+        "app-jacquard"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-02",
+      "source_snapshot": {
+        "app-jacquard": "667dbc25abf07b98940bf56f198dc1cd92360753"
+      },
+      "subskills": [
+        "weft8-kit",
+        "weft8-classroom"
+      ]
+    },
+    {
+      "id": "app-lantern",
+      "name": "Lantern — a library served over the room's Wi-Fi",
+      "category": "backend-services",
+      "description": "A local content server: one device hosts a pack, everyone else opens the printed address in a plain browser and browses and searches it, with no internet at any point.",
+      "tags": [
+        "lan",
+        "offline",
+        "server",
+        "search",
+        "packs",
+        "node"
+      ],
+      "source_repos": [
+        "app-lantern"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-02",
+      "source_snapshot": {
+        "app-lantern": "686045a287b3d98ca586312b657e015af188296a"
+      },
+      "subskills": [
+        "lan-kit",
+        "search-kit"
+      ]
+    },
+    {
+      "id": "app-organon-reader",
+      "name": "Organon reader — public-domain text pipeline",
+      "category": "health-tools",
+      "description": "An offline reader for the Organon of Medicine (6th edition, Boericke 1922 translation): a three-scan extraction pipeline, full-text search, bookmarks and notes, with no network at runtime.",
+      "tags": [
+        "homeopathy",
+        "reader",
+        "extraction",
+        "ocr",
+        "offline",
+        "full-text-search"
+      ],
+      "source_repos": [
+        "app-organon-reader"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-02",
+      "source_snapshot": {
+        "app-organon-reader": "998be9df6944d1babc57be66fc586bc6cd4285aa"
+      },
+      "subskills": [
+        "offline-first-single-file-web-app",
+        "search-kit"
+      ]
+    },
+    {
+      "id": "app-thermals",
+      "name": "Thermals — quoted-source remedy comparison",
+      "category": "health-tools",
+      "description": "What each classical homeopathic source actually says about a remedy's thermal reaction, quoted in its own words with the source named, and where the sources disagree — with a documented extraction and repair pipeline.",
+      "tags": [
+        "homeopathy",
+        "sources",
+        "extraction",
+        "citations",
+        "data-pipeline",
+        "offline"
+      ],
+      "source_repos": [
+        "app-thermals"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-02",
+      "source_snapshot": {
+        "app-thermals": "f74e37408ea0fead9b8f0b4de70d3836ade9bf01"
+      },
+      "subskills": [
+        "search-kit",
+        "case-kit",
+        "web-kit"
+      ]
+    },
+    {
+      "id": "app-weft-puzzles",
+      "name": "Weft Puzzles — six puzzles, no if statement",
+      "category": "game-engine",
+      "description": "Six small programming puzzles solved in Weft-8 assembly on a machine with no conditional: the constraint is the lesson, because you have to build the branch yourself.",
+      "tags": [
+        "puzzles",
+        "assembly",
+        "weft8",
+        "teaching",
+        "game",
+        "constraint"
+      ],
+      "source_repos": [
+        "app-weft-puzzles"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-02",
+      "source_snapshot": {
+        "app-weft-puzzles": "376e3b5451935eaab41c526379914b0ee98f544c"
+      },
+      "subskills": [
+        "weft8-kit",
+        "weft8-classroom"
+      ]
+    },
+    {
+      "id": "audit",
+      "name": "Fleet audit — measured, logged, evidenced",
+      "category": "ci-and-release",
+      "description": "The change log for a multi-repo fleet: collectors that read state through the GitHub API, a dated markdown log of what was measured and fixed, and scheduled health and licence checks.",
+      "tags": [
+        "audit",
+        "fleet",
+        "github-api",
+        "reporting",
+        "licensing",
+        "health"
+      ],
+      "source_repos": [
+        "audit"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-02",
+      "source_snapshot": {
+        "audit": "3442e6ed8ce9a33c2e5955c36ebd177a8402b8eb"
+      },
+      "subskills": [
+        "safe-repo-cleanup",
+        "control-panel"
+      ]
+    },
+    {
+      "id": "backup",
+      "name": "Pre-merge repository snapshot",
+      "category": "ci-and-release",
+      "description": "Snapshot a repository before a merge replaces it: a reusable GitHub workflow plus a zero-dependency script that compresses, timestamps and rotates dumps to keep the newest hundred, with a restore test.",
+      "tags": [
+        "backup",
+        "git",
+        "workflow",
+        "rotation",
+        "restore",
+        "python"
+      ],
+      "source_repos": [
+        "backup"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-02",
+      "source_snapshot": {
+        "backup": "634a404f03686cb43f67487fa945e451355b3333"
+      },
+      "subskills": [
+        "safe-repo-cleanup"
+      ]
+    },
+    {
+      "id": "base-bench",
+      "name": "Base Bench — converters with the working shown",
+      "category": "web-app-patterns",
+      "description": "Number bases, units and timezones on one page with the arithmetic shown at every step, so the answer can be checked on paper — offline, no accounts.",
+      "tags": [
+        "converter",
+        "units",
+        "timezone",
+        "number-bases",
+        "verifiability",
+        "offline"
+      ],
+      "source_repos": [
+        "base-bench"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-02",
+      "source_snapshot": {
+        "base-bench": "37afdefb967db5da98cdc2a3c30806ceb0e41027"
+      },
+      "subskills": [
+        "web-kit",
+        "export-kit"
+      ]
+    },
+    {
+      "id": "compfactory",
+      "name": "Compfactory — the CHCE build workspace",
+      "category": "ci-and-release",
+      "description": "The development workspace that builds every CHCE engine in order: a PowerShell and shell script set to build all, bump the vendored-source pin, and sync the repositories.",
+      "tags": [
+        "build",
+        "powershell",
+        "sync",
+        "submodules",
+        "compression",
+        "workspace"
+      ],
+      "source_repos": [
+        "compfactory"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-02",
+      "source_snapshot": {
+        "compfactory": "67023770a9090777a90dd31a70229ebed0d49cb3"
+      },
+      "subskills": [
+        "ziptastic",
+        "HCS",
+        "heavenzip"
+      ]
+    },
+    {
+      "id": "control-panel",
+      "name": "Control panel — every workflow, and what calls what",
+      "category": "ci-and-release",
+      "description": "An inventory of every workflow across a repository fleet: what runs, when, what calls what, and what is connected to nothing — built by scanning the trees and served as a static page.",
+      "tags": [
+        "workflows",
+        "ci",
+        "inventory",
+        "github-actions",
+        "graph",
+        "fleet"
+      ],
+      "source_repos": [
+        "control-panel"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-02",
+      "source_snapshot": {
+        "control-panel": "61382f1fad8e77dc244dd01d21e1fc1aac26b0f5"
+      },
+      "subskills": [
+        "audit",
+        "app-builder"
+      ]
+    },
+    {
+      "id": "corefit-md",
+      "name": "CoreFit MD — clip-accurate video routine",
+      "category": "health-tools",
+      "description": "A five-minute, video-guided morning core routine as a static offline app: every set opens on the demonstration frame, a six-week progression, streaks and a trilingual UI, with no backend.",
+      "tags": [
+        "video",
+        "fitness",
+        "offline",
+        "pwa",
+        "i18n",
+        "health",
+        "static"
+      ],
+      "source_repos": [
+        "corefit-md"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-02",
+      "source_snapshot": {
+        "corefit-md": "748868cfa589d140330f1fe38c1cdf1a029b1677"
+      },
+      "subskills": [
+        "offline-first-single-file-web-app",
+        "static-landing-page-seo"
+      ]
+    },
+    {
+      "id": "dashboard",
+      "name": "Public fleet status page",
+      "category": "landing-and-seo",
+      "description": "A static, public status page for a whole repository fleet: data pre-built into JSON by a script, refreshed by a scheduled workflow, with no token in the browser and no server to run.",
+      "tags": [
+        "status-page",
+        "static",
+        "github-pages",
+        "json",
+        "monitoring",
+        "seo"
+      ],
+      "source_repos": [
+        "dashboard"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-02",
+      "source_snapshot": {
+        "dashboard": "9dadcf961d6c91895565f795330725ee8aef12ed"
+      },
+      "subskills": [
+        "static-landing-page-seo",
+        "control-panel"
+      ]
+    },
+    {
+      "id": "eon-commando",
+      "name": "Eon Commando — assembled single-file game",
+      "category": "game-engine",
+      "description": "A retro run-and-gun platformer shipped as one self-contained HTML file: the source is concatenated by a build script, and the same page runs from Pages, an EXE, an APK or a LAN server.",
+      "tags": [
+        "game",
+        "canvas",
+        "single-file",
+        "build-script",
+        "chiptune",
+        "offline"
+      ],
+      "source_repos": [
+        "eon-commando"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-02",
+      "source_snapshot": {
+        "eon-commando": "87bdc30150d4bef44095abb213306e642cde3bbd"
+      },
+      "subskills": [
+        "offline-first-single-file-web-app",
+        "app-builder",
+        "lan-kit"
+      ]
+    },
+    {
+      "id": "export-kit",
+      "name": "Export kit — getting files off the device",
+      "category": "web-app-patterns",
+      "description": "One zero-dependency file that turns bytes into a download, a Blob, a CSV or a store-only ZIP, working from file:// as well as Pages — so no app hand-rolls a save dialog or a ZIP writer again.",
+      "tags": [
+        "export",
+        "download",
+        "zip",
+        "csv",
+        "blob",
+        "zero-dependency"
+      ],
+      "source_repos": [
+        "export-kit"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-02",
+      "source_snapshot": {
+        "export-kit": "13f25c4377fc7d9a1b4f7cdb75669242c90932e3"
+      },
+      "subskills": [
+        "web-kit",
+        "compress-kit"
+      ]
+    },
+    {
+      "id": "hcs-vendored-source-vault",
+      "name": "HCS — vendored compressor source vault",
+      "category": "data-and-schema",
+      "description": "The canonical offline vault of vendored compressor, preprocessor and recompressor sources behind the CHCE engines, with a source catalogue, a submodule policy and an explicit licence-warning section.",
+      "tags": [
+        "vendoring",
+        "compression",
+        "submodules",
+        "licensing",
+        "sources",
+        "provenance"
+      ],
+      "source_repos": [
+        "HCS"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-02",
+      "source_snapshot": {
+        "HCS": "ed954d9416be39682ad85df6fb68e371b698e467"
+      },
+      "subskills": [
+        "ziptastic",
+        "heavenzip"
+      ]
+    },
+    {
+      "id": "heavenzip",
+      "name": "CHCE orchestrator scaffold",
+      "category": "data-and-schema",
+      "description": "The CHCE orchestrator that chains prebuilt compression binaries into one pipeline: profile-driven configuration, a binary-sync workflow, and the bundling, licensing and permission decisions written down before the code lands.",
+      "tags": [
+        "compression",
+        "orchestration",
+        "scaffold",
+        "licensing",
+        "binaries",
+        "configuration"
+      ],
+      "source_repos": [
+        "heavenzip"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-02",
+      "source_snapshot": {
+        "heavenzip": "88ac3d68b6142690df0211eba08d57d1a9eafd44"
+      },
+      "subskills": [
+        "ziptastic",
+        "compfactory"
+      ]
+    },
+    {
+      "id": "musicgen",
+      "name": "MusicGen — offline generative composer",
+      "category": "media-design",
+      "description": "A pocket generative composer that writes, synthesises, masters and exports a finished track in the browser from a seed — no server, no samples, with LUFS metering and a determinism lint.",
+      "tags": [
+        "audio",
+        "web-audio",
+        "generative",
+        "pwa",
+        "lufs",
+        "mastering",
+        "determinism"
+      ],
+      "source_repos": [
+        "musicgen"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-02",
+      "source_snapshot": {
+        "musicgen": "95aa38e204593ca06d5e06e86695ad817cde4f3c"
+      },
+      "subskills": [
+        "audio-kit",
+        "offline-first-single-file-web-app"
+      ]
+    },
+    {
+      "id": "neon-velocity",
+      "name": "Neon Velocity — a zero-asset Godot shooter",
+      "category": "game-dev",
+      "description": "A procedural retro side-scrolling shooter for Godot 4.3 where every sprite and sound is generated at runtime — no binary assets in the repository at all.",
+      "tags": [
+        "godot",
+        "gdscript",
+        "procedural",
+        "zero-assets",
+        "shooter",
+        "pwa"
+      ],
+      "source_repos": [
+        "neon-velocity"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-02",
+      "source_snapshot": {
+        "neon-velocity": "85bd57cc3f0dcf9854f94bc730b41021b9e9eea8"
+      },
+      "subskills": [
+        "art-kit",
+        "audio-kit"
+      ]
+    },
+    {
+      "id": "repo-presentation",
+      "name": "repo presentation",
+      "category": "ci-and-release",
+      "description": "Present a built repository the way this estate presents its apps: a designed landing page at docs/index.html, the app at docs/play/, screenshots taken with headless Chromium, local SVG badges generated rather than fetched, and a README that leads with them. Use when publishing a new build/publish repo, or when an existing one has no landing page, no screenshots, or a README with no badges. Also covers making the landing page visually distinct from the app itself, and embedding the app as a live demo rather than a screenshot. Every page it produces is light by default with a remembered dark toggle. Also covers the service-worker trap that hides shipped updates.",
+      "tags": [
+        "landing-page",
+        "readme",
+        "badges",
+        "screenshots",
+        "publishing",
+        "offline-first"
+      ],
+      "source_repos": [
+        "app-thermals",
+        "app-jacquard",
+        "app-lantern"
+      ],
+      "version": "1.3.0",
+      "updated": "2026-11-01",
+      "source_snapshot": {
+        "app-thermals": "f74e37408ea0fead9b8f0b4de70d3836ade9bf01",
+        "app-jacquard": "667dbc25abf07b98940bf56f198dc1cd92360753",
+        "app-lantern": "686045a287b3d98ca586312b657e015af188296a"
+      },
+      "license": "PolyForm-Noncommercial-1.0.0",
+      "origin": "estate",
+      "subskills": [
+        "static-landing-page-seo",
+        "offline-first-single-file-web-app"
+      ]
+    },
+    {
+      "id": "shared-kit-vendoring",
+      "name": "Vendoring a shared kit into an app",
+      "category": "web-app-patterns",
+      "description": "How the fleet ships a shared kit inside a no-build app: copy the kit file into the app, pin the version you copied, and know which copies have already drifted.",
+      "tags": [
+        "kits",
+        "vendoring",
+        "versioning",
+        "no-build",
+        "drift",
+        "single-file"
+      ],
+      "source_repos": [
+        "web-kit",
+        "export-kit",
+        "lan-kit",
+        "frame-kit"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-02",
+      "source_snapshot": {
+        "web-kit": "740b96e8a6ec61c2ed9d82130852330b8605597e",
+        "export-kit": "13f25c4377fc7d9a1b4f7cdb75669242c90932e3",
+        "lan-kit": "3076707c835911fa62ab76c2d6ca27f0336ffb4d",
+        "frame-kit": "2ca6e9668c813e164a4cf2e35da66adc1d30b8b1"
+      },
+      "subskills": [
+        "web-kit",
+        "export-kit",
+        "lan-kit",
+        "frame-kit"
+      ]
+    },
+    {
+      "id": "today-card",
+      "name": "Today Card — one card for the day",
+      "category": "notes-knowledge",
+      "description": "A minimal single-page daily card: the date, one intention, one task and a streak, stored locally, shipped as one HTML file on top of the shared runtime.",
+      "tags": [
+        "daily",
+        "habits",
+        "streak",
+        "offline",
+        "minimal",
+        "single-file"
+      ],
+      "source_repos": [
+        "today-card"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-02",
+      "source_snapshot": {
+        "today-card": "086a8fc650d2acd76f44b5ba06ac32a87000077b"
+      },
+      "subskills": [
+        "web-kit",
+        "offline-first-single-file-web-app"
+      ]
+    },
+    {
+      "id": "weft8-classroom",
+      "name": "Weft-8 Classroom — nine exercises that start broken",
+      "category": "docs-and-planning",
+      "description": "A teacher's pack for teaching how a computer works: nine exercises on the Weft-8, each starting incomplete so the class can see what the machine does and then fix it, with a teacher's guide.",
+      "tags": [
+        "teaching",
+        "curriculum",
+        "assembly",
+        "weft8",
+        "exercises",
+        "classroom"
+      ],
+      "source_repos": [
+        "weft8-classroom"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-02",
+      "source_snapshot": {
+        "weft8-classroom": "a26aebb0b5896fb56f223e789ffcda2c514b9f14"
+      },
+      "subskills": [
+        "weft8-kit"
+      ]
+    },
+    {
+      "id": "weft8-compare",
+      "name": "Weft-8 Compare — the same job in three machines",
+      "category": "docs-and-planning",
+      "description": "Five small jobs written three times — for the Weft-8, for x86-64 and for AArch64 — laid side by side so the question of what a computer really is stops being abstract.",
+      "tags": [
+        "teaching",
+        "assembly",
+        "x86",
+        "arm",
+        "comparison",
+        "weft8"
+      ],
+      "source_repos": [
+        "weft8-compare"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-02",
+      "source_snapshot": {
+        "weft8-compare": "e1494969415616b9324b640ea10699d68b8f6125"
+      },
+      "subskills": [
+        "weft8-kit"
+      ]
+    },
+    {
+      "id": "weft8-hardware",
+      "name": "Weft-8 in C — a parity harness for one machine",
+      "category": "testing-qa",
+      "description": "The Loom's 8-bit machine written a second time in about 180 lines of C, held against the JavaScript implementation by a generated corpus, so the two must agree on every case.",
+      "tags": [
+        "parity",
+        "testing",
+        "c",
+        "corpus",
+        "emulator",
+        "weft8"
+      ],
+      "source_repos": [
+        "weft8-hardware"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-02",
+      "source_snapshot": {
+        "weft8-hardware": "632403abd187d5b03a4343356876f20de723e61b"
+      },
+      "subskills": [
+        "weft8-kit",
+        "weft8-compare"
+      ]
+    },
+    {
+      "id": "weft8-kit",
+      "name": "Weft-8 kit — a rule engine small enough to sign off",
+      "category": "code-quality",
+      "description": "An auditable, step-limited rule engine on the Weft-8 8-bit machine: a rule is an assembly program with a contract — inputs in the ports, one verdict byte out — so a decision can be read, bounded and reviewed.",
+      "tags": [
+        "rule-engine",
+        "assembly",
+        "auditable",
+        "bounded",
+        "weft8",
+        "policy"
+      ],
+      "source_repos": [
+        "weft8-kit"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-02",
+      "source_snapshot": {
+        "weft8-kit": "65d566438a51c150ae9c81130c12ce37cc2145d6"
+      },
+      "subskills": [
+        "game-kit"
+      ]
+    },
+    {
+      "id": "ziptastic",
+      "name": "Ziptastic — single-binary CHCE engine",
+      "category": "data-and-schema",
+      "description": "The CHCE native compression engine as one self-contained C++ binary: preprocessors, a dual-resolution match finder, a joint optimal parser and per-block entropy backends in a single stream format, built with CMake against vendored sources.",
+      "tags": [
+        "compression",
+        "cpp",
+        "cmake",
+        "vendoring",
+        "archive",
+        "entropy-coding"
+      ],
+      "source_repos": [
+        "ziptastic"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-02",
+      "source_snapshot": {
+        "ziptastic": "fb0214106c4226174416b77aff3878ebfc87a014"
+      },
+      "subskills": [
+        "lexora",
+        "compress-kit"
       ]
     }
   ]

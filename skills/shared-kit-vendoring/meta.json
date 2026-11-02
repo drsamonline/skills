@@ -1,0 +1,34 @@
+{
+  "id": "shared-kit-vendoring",
+  "name": "Vendoring a shared kit into an app",
+  "category": "web-app-patterns",
+  "description": "How the fleet ships a shared kit inside a no-build app: copy the kit file into the app, pin the version you copied, and know which copies have already drifted.",
+  "tags": [
+    "kits",
+    "vendoring",
+    "versioning",
+    "no-build",
+    "drift",
+    "single-file"
+  ],
+  "source_repos": [
+    "web-kit",
+    "export-kit",
+    "lan-kit",
+    "frame-kit"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-02",
+  "source_snapshot": {
+    "web-kit": "740b96e8a6ec61c2ed9d82130852330b8605597e",
+    "export-kit": "13f25c4377fc7d9a1b4f7cdb75669242c90932e3",
+    "lan-kit": "3076707c835911fa62ab76c2d6ca27f0336ffb4d",
+    "frame-kit": "2ca6e9668c813e164a4cf2e35da66adc1d30b8b1"
+  },
+  "subskills": [
+    "web-kit",
+    "export-kit",
+    "lan-kit",
+    "frame-kit"
+  ]
+}

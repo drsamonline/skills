@@ -1,0 +1,27 @@
+{
+  "id": "eon-commando",
+  "name": "Eon Commando — assembled single-file game",
+  "category": "game-engine",
+  "description": "A retro run-and-gun platformer shipped as one self-contained HTML file: the source is concatenated by a build script, and the same page runs from Pages, an EXE, an APK or a LAN server.",
+  "tags": [
+    "game",
+    "canvas",
+    "single-file",
+    "build-script",
+    "chiptune",
+    "offline"
+  ],
+  "source_repos": [
+    "eon-commando"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-02",
+  "source_snapshot": {
+    "eon-commando": "87bdc30150d4bef44095abb213306e642cde3bbd"
+  },
+  "subskills": [
+    "offline-first-single-file-web-app",
+    "app-builder",
+    "lan-kit"
+  ]
+}

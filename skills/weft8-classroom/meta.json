@@ -1,0 +1,25 @@
+{
+  "id": "weft8-classroom",
+  "name": "Weft-8 Classroom — nine exercises that start broken",
+  "category": "docs-and-planning",
+  "description": "A teacher's pack for teaching how a computer works: nine exercises on the Weft-8, each starting incomplete so the class can see what the machine does and then fix it, with a teacher's guide.",
+  "tags": [
+    "teaching",
+    "curriculum",
+    "assembly",
+    "weft8",
+    "exercises",
+    "classroom"
+  ],
+  "source_repos": [
+    "weft8-classroom"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-02",
+  "source_snapshot": {
+    "weft8-classroom": "a26aebb0b5896fb56f223e789ffcda2c514b9f14"
+  },
+  "subskills": [
+    "weft8-kit"
+  ]
+}

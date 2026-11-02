@@ -1,0 +1,27 @@
+{
+  "id": "musicgen",
+  "name": "MusicGen — offline generative composer",
+  "category": "media-design",
+  "description": "A pocket generative composer that writes, synthesises, masters and exports a finished track in the browser from a seed — no server, no samples, with LUFS metering and a determinism lint.",
+  "tags": [
+    "audio",
+    "web-audio",
+    "generative",
+    "pwa",
+    "lufs",
+    "mastering",
+    "determinism"
+  ],
+  "source_repos": [
+    "musicgen"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-02",
+  "source_snapshot": {
+    "musicgen": "95aa38e204593ca06d5e06e86695ad817cde4f3c"
+  },
+  "subskills": [
+    "audio-kit",
+    "offline-first-single-file-web-app"
+  ]
+}

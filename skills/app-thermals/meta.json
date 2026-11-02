@@ -1,0 +1,27 @@
+{
+  "id": "app-thermals",
+  "name": "Thermals — quoted-source remedy comparison",
+  "category": "health-tools",
+  "description": "What each classical homeopathic source actually says about a remedy's thermal reaction, quoted in its own words with the source named, and where the sources disagree — with a documented extraction and repair pipeline.",
+  "tags": [
+    "homeopathy",
+    "sources",
+    "extraction",
+    "citations",
+    "data-pipeline",
+    "offline"
+  ],
+  "source_repos": [
+    "app-thermals"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-02",
+  "source_snapshot": {
+    "app-thermals": "f74e37408ea0fead9b8f0b4de70d3836ade9bf01"
+  },
+  "subskills": [
+    "search-kit",
+    "case-kit",
+    "web-kit"
+  ]
+}

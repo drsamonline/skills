@@ -1,0 +1,25 @@
+{
+  "id": "weft8-kit",
+  "name": "Weft-8 kit — a rule engine small enough to sign off",
+  "category": "code-quality",
+  "description": "An auditable, step-limited rule engine on the Weft-8 8-bit machine: a rule is an assembly program with a contract — inputs in the ports, one verdict byte out — so a decision can be read, bounded and reviewed.",
+  "tags": [
+    "rule-engine",
+    "assembly",
+    "auditable",
+    "bounded",
+    "weft8",
+    "policy"
+  ],
+  "source_repos": [
+    "weft8-kit"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-02",
+  "source_snapshot": {
+    "weft8-kit": "65d566438a51c150ae9c81130c12ce37cc2145d6"
+  },
+  "subskills": [
+    "game-kit"
+  ]
+}

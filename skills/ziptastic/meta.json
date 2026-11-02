@@ -1,0 +1,26 @@
+{
+  "id": "ziptastic",
+  "name": "Ziptastic — single-binary CHCE engine",
+  "category": "data-and-schema",
+  "description": "The CHCE native compression engine as one self-contained C++ binary: preprocessors, a dual-resolution match finder, a joint optimal parser and per-block entropy backends in a single stream format, built with CMake against vendored sources.",
+  "tags": [
+    "compression",
+    "cpp",
+    "cmake",
+    "vendoring",
+    "archive",
+    "entropy-coding"
+  ],
+  "source_repos": [
+    "ziptastic"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-02",
+  "source_snapshot": {
+    "ziptastic": "fb0214106c4226174416b77aff3878ebfc87a014"
+  },
+  "subskills": [
+    "lexora",
+    "compress-kit"
+  ]
+}

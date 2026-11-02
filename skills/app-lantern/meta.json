@@ -1,0 +1,26 @@
+{
+  "id": "app-lantern",
+  "name": "Lantern — a library served over the room's Wi-Fi",
+  "category": "backend-services",
+  "description": "A local content server: one device hosts a pack, everyone else opens the printed address in a plain browser and browses and searches it, with no internet at any point.",
+  "tags": [
+    "lan",
+    "offline",
+    "server",
+    "search",
+    "packs",
+    "node"
+  ],
+  "source_repos": [
+    "app-lantern"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-02",
+  "source_snapshot": {
+    "app-lantern": "686045a287b3d98ca586312b657e015af188296a"
+  },
+  "subskills": [
+    "lan-kit",
+    "search-kit"
+  ]
+}

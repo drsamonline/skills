@@ -1,0 +1,26 @@
+{
+  "id": "weft8-hardware",
+  "name": "Weft-8 in C — a parity harness for one machine",
+  "category": "testing-qa",
+  "description": "The Loom's 8-bit machine written a second time in about 180 lines of C, held against the JavaScript implementation by a generated corpus, so the two must agree on every case.",
+  "tags": [
+    "parity",
+    "testing",
+    "c",
+    "corpus",
+    "emulator",
+    "weft8"
+  ],
+  "source_repos": [
+    "weft8-hardware"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-02",
+  "source_snapshot": {
+    "weft8-hardware": "632403abd187d5b03a4343356876f20de723e61b"
+  },
+  "subskills": [
+    "weft8-kit",
+    "weft8-compare"
+  ]
+}

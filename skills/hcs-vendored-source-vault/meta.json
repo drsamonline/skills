@@ -1,0 +1,26 @@
+{
+  "id": "hcs-vendored-source-vault",
+  "name": "HCS — vendored compressor source vault",
+  "category": "data-and-schema",
+  "description": "The canonical offline vault of vendored compressor, preprocessor and recompressor sources behind the CHCE engines, with a source catalogue, a submodule policy and an explicit licence-warning section.",
+  "tags": [
+    "vendoring",
+    "compression",
+    "submodules",
+    "licensing",
+    "sources",
+    "provenance"
+  ],
+  "source_repos": [
+    "HCS"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-02",
+  "source_snapshot": {
+    "HCS": "ed954d9416be39682ad85df6fb68e371b698e467"
+  },
+  "subskills": [
+    "ziptastic",
+    "heavenzip"
+  ]
+}

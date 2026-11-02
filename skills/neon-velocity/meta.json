@@ -1,0 +1,26 @@
+{
+  "id": "neon-velocity",
+  "name": "Neon Velocity — a zero-asset Godot shooter",
+  "category": "game-dev",
+  "description": "A procedural retro side-scrolling shooter for Godot 4.3 where every sprite and sound is generated at runtime — no binary assets in the repository at all.",
+  "tags": [
+    "godot",
+    "gdscript",
+    "procedural",
+    "zero-assets",
+    "shooter",
+    "pwa"
+  ],
+  "source_repos": [
+    "neon-velocity"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-02",
+  "source_snapshot": {
+    "neon-velocity": "85bd57cc3f0dcf9854f94bc730b41021b9e9eea8"
+  },
+  "subskills": [
+    "art-kit",
+    "audio-kit"
+  ]
+}

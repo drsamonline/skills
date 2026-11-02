@@ -1,0 +1,25 @@
+{
+  "id": "weft8-compare",
+  "name": "Weft-8 Compare — the same job in three machines",
+  "category": "docs-and-planning",
+  "description": "Five small jobs written three times — for the Weft-8, for x86-64 and for AArch64 — laid side by side so the question of what a computer really is stops being abstract.",
+  "tags": [
+    "teaching",
+    "assembly",
+    "x86",
+    "arm",
+    "comparison",
+    "weft8"
+  ],
+  "source_repos": [
+    "weft8-compare"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-02",
+  "source_snapshot": {
+    "weft8-compare": "e1494969415616b9324b640ea10699d68b8f6125"
+  },
+  "subskills": [
+    "weft8-kit"
+  ]
+}

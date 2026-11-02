@@ -1,0 +1,24 @@
+{
+  "id": "ai-bridge",
+  "name": "AI Bridge — driving a signed-in web chat from the editor",
+  "category": "ai-and-ml",
+  "description": "A VS Code extension plus bridge that attaches to an already signed-in browser tab over the Chrome DevTools Protocol and drives it from the editor — no API key, with per-site adapters and an OpenAI-compatible surface.",
+  "tags": [
+    "vscode",
+    "cdp",
+    "browser",
+    "llm",
+    "extension",
+    "typescript",
+    "adapters"
+  ],
+  "source_repos": [
+    "ai-bridge"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-02",
+  "source_snapshot": {
+    "ai-bridge": "9a1ec4a85355bb65193f039c41eeb5a9d3dc905f"
+  },
+  "subskills": []
+}

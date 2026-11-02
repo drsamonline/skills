@@ -1,0 +1,26 @@
+{
+  "id": "today-card",
+  "name": "Today Card — one card for the day",
+  "category": "notes-knowledge",
+  "description": "A minimal single-page daily card: the date, one intention, one task and a streak, stored locally, shipped as one HTML file on top of the shared runtime.",
+  "tags": [
+    "daily",
+    "habits",
+    "streak",
+    "offline",
+    "minimal",
+    "single-file"
+  ],
+  "source_repos": [
+    "today-card"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-02",
+  "source_snapshot": {
+    "today-card": "086a8fc650d2acd76f44b5ba06ac32a87000077b"
+  },
+  "subskills": [
+    "web-kit",
+    "offline-first-single-file-web-app"
+  ]
+}

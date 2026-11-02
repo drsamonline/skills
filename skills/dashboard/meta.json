@@ -1,0 +1,26 @@
+{
+  "id": "dashboard",
+  "name": "Public fleet status page",
+  "category": "landing-and-seo",
+  "description": "A static, public status page for a whole repository fleet: data pre-built into JSON by a script, refreshed by a scheduled workflow, with no token in the browser and no server to run.",
+  "tags": [
+    "status-page",
+    "static",
+    "github-pages",
+    "json",
+    "monitoring",
+    "seo"
+  ],
+  "source_repos": [
+    "dashboard"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-02",
+  "source_snapshot": {
+    "dashboard": "9dadcf961d6c91895565f795330725ee8aef12ed"
+  },
+  "subskills": [
+    "static-landing-page-seo",
+    "control-panel"
+  ]
+}

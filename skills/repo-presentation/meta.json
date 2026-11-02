@@ -12,13 +12,21 @@
     "offline-first"
   ],
   "source_repos": [
-    "drsamonline/app-thermals",
-    "drsamonline/app-jacquard",
-    "drsamonline/app-lantern"
+    "app-thermals",
+    "app-jacquard",
+    "app-lantern"
   ],
   "version": "1.3.0",
   "updated": "2026-11-01",
-  "source_snapshot": {},
+  "source_snapshot": {
+    "app-thermals": "f74e37408ea0fead9b8f0b4de70d3836ade9bf01",
+    "app-jacquard": "667dbc25abf07b98940bf56f198dc1cd92360753",
+    "app-lantern": "686045a287b3d98ca586312b657e015af188296a"
+  },
   "license": "PolyForm-Noncommercial-1.0.0",
-  "origin": "estate"
+  "origin": "estate",
+  "subskills": [
+    "static-landing-page-seo",
+    "offline-first-single-file-web-app"
+  ]
 }

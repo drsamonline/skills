@@ -1,0 +1,26 @@
+{
+  "id": "audit",
+  "name": "Fleet audit — measured, logged, evidenced",
+  "category": "ci-and-release",
+  "description": "The change log for a multi-repo fleet: collectors that read state through the GitHub API, a dated markdown log of what was measured and fixed, and scheduled health and licence checks.",
+  "tags": [
+    "audit",
+    "fleet",
+    "github-api",
+    "reporting",
+    "licensing",
+    "health"
+  ],
+  "source_repos": [
+    "audit"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-02",
+  "source_snapshot": {
+    "audit": "3442e6ed8ce9a33c2e5955c36ebd177a8402b8eb"
+  },
+  "subskills": [
+    "safe-repo-cleanup",
+    "control-panel"
+  ]
+}

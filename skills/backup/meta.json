@@ -1,0 +1,25 @@
+{
+  "id": "backup",
+  "name": "Pre-merge repository snapshot",
+  "category": "ci-and-release",
+  "description": "Snapshot a repository before a merge replaces it: a reusable GitHub workflow plus a zero-dependency script that compresses, timestamps and rotates dumps to keep the newest hundred, with a restore test.",
+  "tags": [
+    "backup",
+    "git",
+    "workflow",
+    "rotation",
+    "restore",
+    "python"
+  ],
+  "source_repos": [
+    "backup"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-02",
+  "source_snapshot": {
+    "backup": "634a404f03686cb43f67487fa945e451355b3333"
+  },
+  "subskills": [
+    "safe-repo-cleanup"
+  ]
+}

@@ -53,7 +53,7 @@ There are two kinds of skill:
 - **Project skills** — one per repository: what the project is, how it is built,
   how it is released, and what makes its workflow distinctive.
 
-**Catalogue:** `1485` skills across 28 categories. The machine-readable index is [`catalog.json`](catalog.json); the landing page is <https://drsamonline.github.io/skills/>.
+**Catalogue:** `1514` skills across 28 categories. The machine-readable index is [`catalog.json`](catalog.json); the landing page is <https://drsamonline.github.io/skills/>.
 
 ## Repository layout
 
@@ -127,26 +127,30 @@ matches the code it describes.
 
 Every skill in the repository, by category, with the one line that tells you whether to open it. The id is the directory: `skills/<id>/SKILL.md` holds the method, `meta.json` its provenance, its licence and its upstream commit. Where a category has an index pack, the pack is named first — it is the routing table for that category.
 
-`1485` skills across 28 categories. The descriptions here are one-line summaries; the full trigger text is the `description` field in `meta.json` and at the top of each `SKILL.md`.
+`1514` skills across 28 categories. The descriptions here are one-line summaries; the full trigger text is the `description` field in `meta.json` and at the top of each `SKILL.md`.
 
-### Web app patterns (`web-app-patterns`) — 19 skills
+### Web app patterns (`web-app-patterns`) — 23 skills
 
 | Skill | What it does | Licence |
 |---|---|---|
 | [`ambient-sound-studio`](skills/ambient-sound-studio/SKILL.md) | A private, offline ambient sound mixer in a single HTML file: 25 synthesised layers, 36 presets, EN/HI/GU, WAV and Opus export,… | — |
+| [`app-clip-loom`](skills/app-clip-loom/SKILL.md) | Clipboard cleanup as five Weft-8 programs you can read in full: strip tracking parameters, tidy extracted text, rewrap a paragraph… | — |
 | [`astro-kit-panchang`](skills/astro-kit-panchang/SKILL.md) | Sun and moon longitude (Meeus), Lahiri ayanamsa, sunrise/sunset/transit and the derived tithi, nakshatra, yoga and karana — the… | — |
+| [`base-bench`](skills/base-bench/SKILL.md) | Number bases, units and timezones on one page with the arithmetic shown at every step, so the answer can be checked on paper —… | — |
 | [`blinkcode-ai-spectracode`](skills/blinkcode-ai-spectracode/SKILL.md) | Optical file transfer as a vanilla-JS PWA: a file becomes a 'File DNA' container painted as SpectraCode colour matrices, decoded… | — |
 | [`blinktransfer-animated-qr`](skills/blinktransfer-animated-qr/SKILL.md) | Offline file transfer over animated QR codes at ~20 FPS: a Vite-built PWA compresses files, renders a header plus a data stream… | — |
 | [`book-kit-companion`](skills/book-kit-companion/SKILL.md) | The companion-app-from-a-book pattern in one zero-dependency file: chapters, key points, practices, flashcards, in-book search… | — |
 | [`compress-kit-streams`](skills/compress-kit-streams/SKILL.md) | gzip, deflate and deflate-raw over the platform's Compression Streams, with byte and base64 helpers — the browser counterpart to… | — |
 | [`conqueror-os-workspace`](skills/conqueror-os-workspace/SKILL.md) | A private, offline resilience workspace in a single HTML file — read, reflect, journal, track and review — with no server, no… | — |
 | [`crypto-kit-aes-gcm`](skills/crypto-kit-aes-gcm/SKILL.md) | AES-256-GCM encryption with PBKDF2-SHA256 passphrase keys, a sealed envelope and a one-time-view helper on the Web Crypto API —… | — |
+| [`export-kit`](skills/export-kit/SKILL.md) | One zero-dependency file that turns bytes into a download, a Blob, a CSV or a store-only ZIP, working from file:// as well as Pages… | — |
 | [`lan-kit-sse-room`](skills/lan-kit-sse-room/SKILL.md) | A LAN room in the browser: a client over Server-Sent Events for server-to-client and POST for client-to-server, with a host URL… | — |
 | [`lan-single-server-architecture`](skills/lan-single-server-architecture/SKILL.md) | A multi-user system that runs entirely on a hospital LAN: a Python server owns the SQLite database, a vanilla-JS UI runs in a… | — |
 | [`offline-first-single-file-web-app`](skills/offline-first-single-file-web-app/SKILL.md) | Build a whole app as one self-contained index.html — inline CSS/JS, no CDN, no build step — that runs from file:// or GitHub… | — |
 | [`optical-file-transfer`](skills/optical-file-transfer/SKILL.md) | Move a file between two devices with no network, Bluetooth or cable, by rendering it as animated QR codes or colour-matrix frames… | — |
 | [`optical-kit-fountain`](skills/optical-kit-fountain/SKILL.md) | A systematic LT fountain code with self-describing frames and a pluggable codec — the shared optical-transfer core behind the QR… | — |
 | [`qr-code-encoder`](skills/qr-code-encoder/SKILL.md) | A QR encoder in one dependency-free file: byte mode, ECC L/M/Q/H, versions 1-40, Reed-Solomon over GF(256) and the ISO/IEC 18004… | — |
+| [`shared-kit-vendoring`](skills/shared-kit-vendoring/SKILL.md) | How the fleet ships a shared kit inside a no-build app: copy the kit file into the app, pin the version you copied, and know which… | — |
 | [`smartbill-app`](skills/smartbill-app/SKILL.md) | A fast, serverless single-page billing and invoicing app for Indian businesses: GST-ready (HSN/SAC, CGST/SGST, state codes,… | — |
 | [`smartnotes-ai-notes`](skills/smartnotes-ai-notes/SKILL.md) | An AI-powered note capture, categorisation and reminder-scheduling app with a brutalist UI: write in plain English and an LLM… | — |
 | [`srs-kit-sm2`](skills/srs-kit-sm2/SKILL.md) | Schedule flashcards with SM-2 in one zero-dependency file: ease, interval, reps, lapses, due cards, stats and a configurable… | — |
@@ -173,16 +177,19 @@ Every skill in the repository, by category, with the one line that tells you whe
 | [`the-browser-aetheris`](skills/the-browser-aetheris/SKILL.md) | An experimental C++20 browser engine derived from Ladybird/SerenityOS, built with CMake + vcpkg and tested with CTest; explicitly… | — |
 | [`ultimate-windows-optimizer`](skills/ultimate-windows-optimizer/SKILL.md) | A PowerShell + batch toolkit that applies documented, fully reversible Windows 10/11 debloat and performance tweaks, with real… | — |
 
-### Games & engines (`game-engine`) — 12 skills
+### Games & engines (`game-engine`) — 15 skills
 
 | Skill | What it does | Licence |
 |---|---|---|
 | [`aethelgard-engine-rpg`](skills/aethelgard-engine-rpg/SKILL.md) | The vanilla-JavaScript engine behind Aethelgard: Chronicles of Fate — small modules loaded in script order behind one global… | — |
 | [`aethelgard-games-deployment`](skills/aethelgard-games-deployment/SKILL.md) | A deployment repo holding the built, playable copies of two Aethelgard browser games — The Books (a 36-chapter visual novel) and… | — |
 | [`aethelgardvn-saga-engine`](skills/aethelgardvn-saga-engine/SKILL.md) | Saga: a small, dependency-free visual-novel engine for the browser — plain JavaScript, one stylesheet, no build step, works… | — |
+| [`app-jacquard`](skills/app-jacquard/SKILL.md) | A Weft-8 8-bit assembler and VM in the browser, with the clock, calendar, clipboard and accelerometer exposed as memory-mapped… | — |
+| [`app-weft-puzzles`](skills/app-weft-puzzles/SKILL.md) | Six small programming puzzles solved in Weft-8 assembly on a machine with no conditional: the constraint is the lesson, because you… | — |
 | [`art-kit`](skills/art-kit/SKILL.md) | The art primitives for offline apps — an indexed palette, a pixel canvas with nearest-neighbour scaling, draw ops, a delta undo… | — |
 | [`audio-kit`](skills/audio-kit/SKILL.md) | Synthesis, theory, patterns and notation for offline apps — a pure ADSR envelope, oscillator voices, filters, noise and a mixer;… | — |
 | [`dance-fight-rhythm-game`](skills/dance-fight-rhythm-game/SKILL.md) | A single-file browser rhythm game where every fight move is a dance move: the track's beat is analysed up front into an offline… | — |
+| [`eon-commando`](skills/eon-commando/SKILL.md) | A retro run-and-gun platformer shipped as one self-contained HTML file: the source is concatenated by a build script, and the same… | — |
 | [`game-kit-fixed-timestep`](skills/game-kit-fixed-timestep/SKILL.md) | A fixed-timestep game loop with input, scenes and save/load in one dependency-free file — the shared game core the browser games… | — |
 | [`idle-city-ages-of-growth`](skills/idle-city-ages-of-growth/SKILL.md) | A single-file idle city-builder that grows from a Stone Age village to a Fusion Age world-city: roads, zoning, power and… | — |
 | [`neon-engine-open-world`](skills/neon-engine-open-world/SKILL.md) | A code-only WebGL engine for open-world browser shooters: no asset files, every texture/mesh/sound generated at runtime, ES… | — |
@@ -190,23 +197,29 @@ Every skill in the repository, by category, with the one line that tells you whe
 | [`neon-runner-auto-fire-shooter`](skills/neon-runner-auto-fire-shooter/SKILL.md) | A retro auto-fire side-scrolling shooter in one self-contained HTML file (vanilla JS + canvas): move, jump, duck — the gun fires… | — |
 | [`retro-strike-software-3d`](skills/retro-strike-software-3d/SKILL.md) | A complete retro third-person shooter in one HTML file with a custom software 3D renderer, a live chiptune synth and procedural… | — |
 
-### Data & schema (`data-and-schema`) — 5 skills
+### Data & schema (`data-and-schema`) — 8 skills
 
 | Skill | What it does | Licence |
 |---|---|---|
+| [`hcs-vendored-source-vault`](skills/hcs-vendored-source-vault/SKILL.md) | The canonical offline vault of vendored compressor, preprocessor and recompressor sources behind the CHCE engines, with a source… | — |
+| [`heavenzip`](skills/heavenzip/SKILL.md) | The CHCE orchestrator that chains prebuilt compression binaries into one pipeline: profile-driven configuration, a binary-sync… | — |
 | [`homoeopathic-materia-medica-repertory-json`](skills/homoeopathic-materia-medica-repertory-json/SKILL.md) | 13 public-domain homoeopathic classics (1840–1906, ~108k rubrics) extracted into clean, app-ready, verbatim JSON with a… | — |
 | [`materia-medica-builder`](skills/materia-medica-builder/SKILL.md) | An offline, no-dependency PWA that lets a practitioner build a personal materia medica and repertory — remedies, symptoms,… | — |
 | [`ml-kit`](skills/ml-kit/SKILL.md) | The classic ML algorithms from scratch for offline features — tf-idf ranking, Naive Bayes, k-NN, k-means, PCA, ID3, linear… | — |
 | [`open-data-extraction-pipeline`](skills/open-data-extraction-pipeline/SKILL.md) | Turn raw OCR'd source texts into clean, app-ready JSON with a verbatim-fidelity rule: nothing invented, unknowns null, per-book… | — |
 | [`search-kit-ranked-search`](skills/search-kit-ranked-search/SKILL.md) | Ranked search over a big corpus in one zero-dependency file: an inverted index with prefix and fuzzy matching, scored hits and a… | — |
+| [`ziptastic`](skills/ziptastic/SKILL.md) | The CHCE native compression engine as one self-contained C++ binary: preprocessors, a dual-resolution match finder, a joint optimal… | — |
 
-### Health tools (`health-tools`) — 14 skills
+### Health tools (`health-tools`) — 17 skills
 
 | Skill | What it does | Licence |
 |---|---|---|
+| [`app-organon-reader`](skills/app-organon-reader/SKILL.md) | An offline reader for the Organon of Medicine (6th edition, Boericke 1922 translation): a three-scan extraction pipeline, full-text… | — |
+| [`app-thermals`](skills/app-thermals/SKILL.md) | What each classical homeopathic source actually says about a remedy's thermal reaction, quoted in its own words with the source… | — |
 | [`bmi-bmr-tdee-macros-fluid-calculator`](skills/bmi-bmr-tdee-macros-fluid-calculator/SKILL.md) | A single-file, offline clinical calculator for adult outpatients: BMI, BMR (Mifflin-St Jeor), TDEE, macros, fluid requirement and… | — |
 | [`boericke-repertory`](skills/boericke-repertory/SKILL.md) | A free, offline digital edition of Boericke's Repertory in one HTML file: instant search across 6,110 rubrics, a repertorisation… | — |
 | [`case-kit-clinical`](skills/case-kit-clinical/SKILL.md) | Clinical case tracking in one zero-dependency file: sections, dated symptoms with severity, follow-ups with remedy and response,… | — |
+| [`corefit-md`](skills/corefit-md/SKILL.md) | A five-minute, video-guided morning core routine as a static offline app: every set opens on the demonstration frame, a six-week… | — |
 | [`gentle-pediatrics-companion`](skills/gentle-pediatrics-companion/SKILL.md) | A triage-first offline companion app for a parent at the cot side: nine common childhood situations, an always-visible red-flag… | — |
 | [`hms-hospital-management`](skills/hms-hospital-management/SKILL.md) | HHMS: a LAN-based hospital management system for homeopathic hospitals — a Python server owns the SQLite database, a WebView2… | — |
 | [`mnemosyne-companion`](skills/mnemosyne-companion/SKILL.md) | A single offline HTML study companion for Mnemosyne Materia Medica: 100 polycrest remedies as poetic pearls, keynotes and… | — |
@@ -219,22 +232,28 @@ Every skill in the repository, by category, with the one line that tells you whe
 | [`unstoppable-mind-companion`](skills/unstoppable-mind-companion/SKILL.md) | An offline companion app to The Unstoppable Mind: the book's key points and exercises, a 7-day challenge and flashcards — in a… | — |
 | [`whispering-body-first-aid`](skills/whispering-body-first-aid/SKILL.md) | A free, offline home first-aid companion (EN/HI/GU) with 30 commonly used homeopathic first-aid remedies, a plain-language… | — |
 
-### Landing & SEO (`landing-and-seo`) — 5 skills
+### Landing & SEO (`landing-and-seo`) — 6 skills
 
 | Skill | What it does | Licence |
 |---|---|---|
 | [`auto-updating-showcase-hub`](skills/auto-updating-showcase-hub/SKILL.md) | A single static page that lists every repository by reading the GitHub API at runtime, with an embedded JSON snapshot fallback, a… | — |
+| [`dashboard`](skills/dashboard/SKILL.md) | A static, public status page for a whole repository fleet: data pre-built into JSON by a script, refreshed by a scheduled workflow… | — |
 | [`matneo-storefront`](skills/matneo-storefront/SKILL.md) | A static storefront served from docs/ with no build step: a single data file (docs/data/products.json) drives the catalogue, so… | — |
 | [`profile-kit`](skills/profile-kit/SKILL.md) | A small, reusable kit for a theme-aware, self-updating GitHub profile — a hero banner, a metrics card and a README generator —… | — |
 | [`static-landing-page-seo`](skills/static-landing-page-seo/SKILL.md) | The house landing-page recipe: a bespoke self-contained docs/index.html with a distinct theme, a full SEO head (canonical, OG,… | — |
 | [`theme-aware-github-profile`](skills/theme-aware-github-profile/SKILL.md) | A professional, self-updating GitHub profile README — a bespoke light/dark hero served through <picture>, a lowlighter/metrics… | — |
 
-### CI & release (`ci-and-release`) — 4 skills
+### CI & release (`ci-and-release`) — 9 skills
 
 | Skill | What it does | Licence |
 |---|---|---|
 | [`app-builder-kit`](skills/app-builder-kit/SKILL.md) | The shared kit that turns a static web app into a single-file portable Windows EXE (PyInstaller) and an Android WebView APK… | — |
+| [`audit`](skills/audit/SKILL.md) | The change log for a multi-repo fleet: collectors that read state through the GitHub API, a dated markdown log of what was measured… | — |
+| [`backup`](skills/backup/SKILL.md) | Snapshot a repository before a merge replaces it: a reusable GitHub workflow plus a zero-dependency script that compresses… | — |
+| [`compfactory`](skills/compfactory/SKILL.md) | The development workspace that builds every CHCE engine in order: a PowerShell and shell script set to build all, bump the… | — |
+| [`control-panel`](skills/control-panel/SKILL.md) | An inventory of every workflow across a repository fleet: what runs, when, what calls what, and what is connected to nothing —… | — |
 | [`kit-adoption-audit`](skills/kit-adoption-audit/SKILL.md) | Measure which apps actually consume each shared kit and which hand-roll the same capability, from repository trees and blob SHAs… | — |
+| [`repo-presentation`](skills/repo-presentation/SKILL.md) | Present a built repository the way this estate presents its apps: a designed landing page at docs/index.html, the app at… | — |
 | [`reusable-build-release-workflow`](skills/reusable-build-release-workflow/SKILL.md) | One GitHub Actions workflow per app repo builds the portable EXE and Android APK, publishes them to a fixed-tag release, and… | — |
 | [`safe-repo-cleanup`](skills/safe-repo-cleanup/SKILL.md) | An audit-first procedure for removing build junk, caches, temp files, stale archives and duplicated README content from a… | — |
 
@@ -259,7 +278,7 @@ Every skill in the repository, by category, with the one line that tells you whe
 | [`linkedin-thread-monitor`](skills/linkedin-thread-monitor/SKILL.md) | Track which of your LinkedIn comments earned author replies. | MIT |
 | [`product-copywriting`](skills/product-copywriting/SKILL.md) | Write honest product copy for a landing page, a README or a store listing — a headline, a value line, a CTA — that reads like a… | — |
 
-### Planning & docs (`docs-and-planning`) — 32 skills
+### Planning & docs (`docs-and-planning`) — 34 skills
 
 | Skill | What it does | Licence |
 |---|---|---|
@@ -290,13 +309,15 @@ Every skill in the repository, by category, with the one line that tells you whe
 | [`planning-with-files-zht`](skills/planning-with-files-zht/SKILL.md) | 用於多步驟 AI 代理工作的持久化檔案規劃。將 task_plan.md、findings.md 與 progress.md 保存在磁碟上，生命週期鉤子會注入選定的專案規劃內容。自動恢復只讀取專案規劃檔案；只有明確執行 session-catchup.py… | MIT |
 | [`wayfinder`](skills/wayfinder/SKILL.md) | Create or maintain SPEC.md, MAP.md, and ANSWERS.md for large or unclear work. | MIT |
 | [`wayfinder-mattpocock`](skills/wayfinder-mattpocock/SKILL.md) | Plan a huge chunk of work (more than one agent session can hold) as a shared map of decision tickets on your issue tracker, and… | MIT |
+| [`weft8-classroom`](skills/weft8-classroom/SKILL.md) | A teacher's pack for teaching how a computer works: nine exercises on the Weft-8, each starting incomplete so the class can see… | — |
+| [`weft8-compare`](skills/weft8-compare/SKILL.md) | Five small jobs written three times — for the Weft-8, for x86-64 and for AArch64 — laid side by side so the question of what a… | — |
 | [`writing-beats`](skills/writing-beats/SKILL.md) | Writing, exploit; assemble raw material into a journey of beats, grounding each term before a beat leans on it. | MIT |
 | [`writing-for-agents`](skills/writing-for-agents/SKILL.md) | Writing documents for agents. | MIT |
 | [`writing-fragments`](skills/writing-fragments/SKILL.md) | Writing, explore: mine raw fragments, no structure yet. | MIT |
 | [`writing-guidelines`](skills/writing-guidelines/SKILL.md) | Review docs/prose for Writing Guidelines compliance. | NOASSERTION |
 | [`writing-shape`](skills/writing-shape/SKILL.md) | Writing, exploit: shape raw material into an article, paragraph by paragraph. | MIT |
 
-### Code quality (`code-quality`) — 10 skills
+### Code quality (`code-quality`) — 11 skills
 
 Index pack: [`pack-code-quality`](skills/pack-code-quality/SKILL.md).
 
@@ -312,6 +333,7 @@ Index pack: [`pack-code-quality`](skills/pack-code-quality/SKILL.md).
 | [`quality-playbook`](skills/quality-playbook/SKILL.md) | Run a complete quality engineering audit on any codebase. | Apache-2.0 |
 | [`runaway-guard`](skills/runaway-guard/SKILL.md) | Cost-safety discipline for paid AI / inference APIs: treat $-cost as a third complexity dimension alongside time and space. | MIT |
 | [`tdd-workflow`](skills/tdd-workflow/SKILL.md) | Test-driven development workflow: write a failing test first, watch it fail, implement the smallest change to green, then… | MIT |
+| [`weft8-kit`](skills/weft8-kit/SKILL.md) | An auditable, step-limited rule engine on the Weft-8 8-bit machine: a rule is an assembly program with a contract — inputs in the… | — |
 
 ### Linux desktop (`linux-desktop`) — 4 skills
 
@@ -336,18 +358,20 @@ Index pack: [`pack-sysadmin-ops`](skills/pack-sysadmin-ops/SKILL.md).
 | [`pack-sysadmin-ops`](skills/pack-sysadmin-ops/SKILL.md) | Infrastructure administration in one pack: Linux host diagnostics (services, packages, SELinux, firewalls, SSH), Podman… | MIT |
 | [`podman-operator`](skills/podman-operator/SKILL.md) | Build and operate Podman containers and Quadlet services, including rootless deployment, networking, volumes, systemd… | MIT |
 
-### Media & design (`media-design`) — 24 skills
+### Media & design (`media-design`) — 26 skills
 
 Index pack: [`pack-media-design`](skills/pack-media-design/SKILL.md).
 
 | Skill | What it does | Licence |
 |---|---|---|
+| [`app-image-toolkit`](skills/app-image-toolkit/SKILL.md) | Compress, resize, convert, crop and strip GPS metadata from photos entirely on the device — no upload, no account, with the app… | — |
 | [`characteristic-voice`](skills/characteristic-voice/SKILL.md) | Use this skill whenever the user wants speech to sound more human, companion-like, or emotionally expressive. | NOASSERTION |
 | [`chat-with-anyone`](skills/chat-with-anyone/SKILL.md) | Chat with any real person or fictional character in their own voice by automatically finding their speech online, extracting a… | NOASSERTION |
 | [`daily-news-caster`](skills/daily-news-caster/SKILL.md) | Fetches the latest news using news-aggregator-skill, formats it into a podcast script in Markdown format, and uses the tts skill… | NOASSERTION |
 | [`html-visual-card-styles`](skills/html-visual-card-styles/SKILL.md) | HTML card and poster styles — social cards, carousels, posters, motion frames. | Apache-2.0 |
 | [`logo-design`](skills/logo-design/SKILL.md) | Professional logo and brand-mark design, from brief to production files. | MIT |
 | [`music-video`](skills/music-video/SKILL.md) | Build a music video from an existing song and lyrics, either as p5.js/p5.brush animation or by assembling local images and clips. | NOASSERTION |
+| [`musicgen`](skills/musicgen/SKILL.md) | A pocket generative composer that writes, synthesises, masters and exports a finished track in the browser from a seed — no server… | — |
 | [`pack-media-design`](skills/pack-media-design/SKILL.md) | Cover and image work: design a restrained 16:9 YouTube thumbnail around one readable idea while keeping photographed people… | MIT |
 | [`photocraft`](skills/photocraft/SKILL.md) | Create, inspect, edit, composite, and export images through the photocraft-cli MCP server. | MIT |
 | [`remotion-best-practices`](skills/remotion-best-practices/SKILL.md) | Router for all Remotion skills | NOASSERTION |
@@ -476,7 +500,7 @@ Index pack: [`pack-frontend-ui`](skills/pack-frontend-ui/SKILL.md).
 | [`web-artifacts-builder`](skills/web-artifacts-builder/SKILL.md) | Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React,… | Apache-2.0 |
 | [`write-swift`](skills/write-swift/SKILL.md) | How to write modern Swift well — modeling with value types, Swift 6 data-race safety and approachable concurrency (@concurrent,… | MIT |
 
-### Backend & services (`backend-services`) — 16 skills
+### Backend & services (`backend-services`) — 17 skills
 
 Index pack: [`pack-backend-services`](skills/pack-backend-services/SKILL.md).
 
@@ -485,6 +509,7 @@ Index pack: [`pack-backend-services`](skills/pack-backend-services/SKILL.md).
 | [`360-feedback-system`](skills/360-feedback-system/SKILL.md) | 360 feedback register: reviewer, subject, review cycle, visibility, due date and score, as CSV, SQL, JSON Schema or Notion on… | MIT |
 | [`accounting-software-selection`](skills/accounting-software-selection/SKILL.md) | Scores shortlisted accounting packages against 57 evidence-backed fields, emitted as CSV, SQL, JSON Schema or Notion on request. | MIT |
 | [`api-and-interface-design`](skills/api-and-interface-design/SKILL.md) | Guides stable API and interface design. | MIT |
+| [`app-lantern`](skills/app-lantern/SKILL.md) | A local content server: one device hosts a pack, everyone else opens the printed address in a plain browser and browses and… | — |
 | [`claude-api`](skills/claude-api/SKILL.md) | This skill helps you build LLM-powered applications with Claude. | Apache-2.0 |
 | [`fastify-best-practices`](skills/fastify-best-practices/SKILL.md) | Guides development of Fastify Node.js backend servers and REST APIs using TypeScript or JavaScript. | MIT |
 | [`fullstack-dev`](skills/fullstack-dev/SKILL.md) | When this skill is triggered, you MUST follow this workflow before writing any code. | MIT |
@@ -499,7 +524,7 @@ Index pack: [`pack-backend-services`](skills/pack-backend-services/SKILL.md).
 | [`tinystruct-patterns`](skills/tinystruct-patterns/SKILL.md) | Expert guidance for developing with the tinystruct Java framework. | MIT |
 | [`typescript-magician`](skills/typescript-magician/SKILL.md) | Designs complex generic types, refactors `any` types to strict alternatives, creates type guards and utility types, and resolves… | MIT |
 
-### Testing & QA (`testing-qa`) — 85 skills
+### Testing & QA (`testing-qa`) — 86 skills
 
 Index pack: [`pack-testing-qa`](skills/pack-testing-qa/SKILL.md).
 
@@ -588,10 +613,11 @@ Index pack: [`pack-testing-qa`](skills/pack-testing-qa/SKILL.md).
 | [`vitest-skill`](skills/vitest-skill/SKILL.md) | typescript import { describe, it, expect, vi, beforeEach } from 'vitest'; import { Calculator } from './calculator'; | MIT |
 | [`webapp-testing`](skills/webapp-testing/SKILL.md) | Toolkit for interacting with and testing local web applications using Playwright. | Apache-2.0 |
 | [`webdriverio-skill`](skills/webdriverio-skill/SKILL.md) | Default local. If mentions "cloud", "TestMu", "LambdaTest" → cloud via WDIO LambdaTest service. | MIT |
+| [`weft8-hardware`](skills/weft8-hardware/SKILL.md) | The Loom's 8-bit machine written a second time in about 180 lines of C, held against the JavaScript implementation by a generated… | — |
 | [`xcuitest-skill`](skills/xcuitest-skill/SKILL.md) | You are a senior iOS QA engineer specializing in XCUITest. | MIT |
 | [`xunit-skill`](skills/xunit-skill/SKILL.md) | public class CalculatorTests { private readonly Calculator calc = new(); | MIT |
 
-### Security & audit (`security-audit`) — 25 skills
+### Security & audit (`security-audit`) — 26 skills
 
 Index pack: [`pack-security-audit`](skills/pack-security-audit/SKILL.md).
 
@@ -825,13 +851,14 @@ Index pack: [`pack-cloud-and-deploy`](skills/pack-cloud-and-deploy/SKILL.md).
 | [`vercel-optimize`](skills/vercel-optimize/SKILL.md) | Use for Vercel cost and performance optimization on deployed projects, especially Next.js, SvelteKit, Nuxt, and limited Astro… | NOASSERTION |
 | [`workload-manager-basics`](skills/workload-manager-basics/SKILL.md) | Workload Manager validates enterprise workloads against Google Cloud best practices and recommendations. | Apache-2.0 |
 
-### AI & ML (`ai-and-ml`) — 125 skills
+### AI & ML (`ai-and-ml`) — 126 skills
 
 Index pack: [`pack-ai-and-ml`](skills/pack-ai-and-ml/SKILL.md).
 
 | Skill | What it does | Licence |
 |---|---|---|
 | [`academic-plotting`](skills/academic-plotting/SKILL.md) | Generates publication-quality figures for ML papers from research context. | MIT |
+| [`ai-bridge`](skills/ai-bridge/SKILL.md) | A VS Code extension plus bridge that attaches to an already signed-in browser tab over the Chrome DevTools Protocol and drives it… | — |
 | [`ara-compiler`](skills/ara-compiler/SKILL.md) | Compiles any research input — PDF papers, GitHub repositories, experiment logs, code directories, or raw notes — into a complete… | MIT |
 | [`ara-research-manager`](skills/ara-research-manager/SKILL.md) | Records research provenance as a post-task epilogue, scanning conversation history at the end of a coding or research session to… | MIT |
 | [`ara-rigor-reviewer`](skills/ara-rigor-reviewer/SKILL.md) | Performs ARA Seal Level 2 semantic epistemic review on Agent-Native Research Artifacts, scoring six dimensions (evidence… | MIT |
@@ -978,7 +1005,7 @@ Index pack: [`pack-office-docs`](skills/pack-office-docs/SKILL.md).
 | [`slide-making-skill`](skills/slide-making-skill/SKILL.md) | Implement single-slide PowerPoint pages with PptxGenJS. | MIT |
 | [`spreadsheet-manual-build`](skills/spreadsheet-manual-build/SKILL.md) | Spreadsheet Manual Build: an empty Excel workbook or CSV from a confirmed field list, formatted and validated. | MIT |
 
-### Engineering workflow (`engineering-workflow`) — 401 skills
+### Engineering workflow (`engineering-workflow`) — 400 skills
 
 Index pack: [`pack-engineering-workflow`](skills/pack-engineering-workflow/SKILL.md).
 
@@ -1386,7 +1413,7 @@ Index pack: [`pack-engineering-workflow`](skills/pack-engineering-workflow/SKILL
 | [`writing-skills`](skills/writing-skills/SKILL.md) | Use when creating new skills, editing existing skills, or verifying skills work before deployment | MIT |
 | [`xss-html-injection`](skills/xss-html-injection/SKILL.md) | This skill should be used when the user asks to "test for XSS vulnerabilities", "perform cross-site scripting attacks", "identify… | MIT |
 
-### Notes & knowledge (`notes-knowledge`) — 12 skills
+### Notes & knowledge (`notes-knowledge`) — 13 skills
 
 Index pack: [`pack-notes-knowledge`](skills/pack-notes-knowledge/SKILL.md).
 
@@ -1403,6 +1430,7 @@ Index pack: [`pack-notes-knowledge`](skills/pack-notes-knowledge/SKILL.md).
 | [`obsidian-markdown`](skills/obsidian-markdown/SKILL.md) | Create and edit Obsidian Flavored Markdown with wikilinks, embeds, callouts, properties, and other Obsidian-specific syntax. | MIT |
 | [`obsidian-second-brain`](skills/obsidian-second-brain/SKILL.md) | Claude operates your Obsidian vault as a self-rewriting knowledge base. | MIT |
 | [`pack-notes-knowledge`](skills/pack-notes-knowledge/SKILL.md) | Work inside a Markdown knowledge base: Obsidian Flavored Markdown with wikilinks, callouts and properties, Bases views and… | mixed |
+| [`today-card`](skills/today-card/SKILL.md) | A minimal single-page daily card: the date, one intention, one task and a streak, stored locally, shipped as one HTML file on top… | — |
 | [`unpaid-intern`](skills/unpaid-intern/SKILL.md) | A free second brain for work in plain markdown files the user owns. | MIT |
 
 ### Mobile apps (`mobile-apps`) — 12 skills
@@ -1620,7 +1648,7 @@ Index pack: [`pack-google-workspace`](skills/pack-google-workspace/SKILL.md).
 | [`recipe-sheets`](skills/recipe-sheets/SKILL.md) | Sheets recipes — read, compare, duplicate, export, track. | Apache-2.0 |
 | [`recipe-workspace-admin`](skills/recipe-workspace-admin/SKILL.md) | Workspace admin recipes — tasks, forms, classroom, contacts, personas. | Apache-2.0 |
 
-### Game development (`game-dev`) — 78 skills
+### Game development (`game-dev`) — 79 skills
 
 Index pack: [`pack-game-dev`](skills/pack-game-dev/SKILL.md).
 
@@ -1660,6 +1688,7 @@ Index pack: [`pack-game-dev`](skills/pack-game-dev/SKILL.md).
 | [`itch-publish`](skills/itch-publish/SKILL.md) | Get a build onto an itch.io page and keep it updated. | Apache-2.0 |
 | [`level-design`](skills/level-design/SKILL.md) | A level is a sequence of intentional experiences delivered through space. | Apache-2.0 |
 | [`love2d-core`](skills/love2d-core/SKILL.md) | Set up and debug the foundation of a LÖVE game in Lua: the callback loop, frame-rate- independent movement, input, and screen… | Apache-2.0 |
+| [`neon-velocity`](skills/neon-velocity/SKILL.md) | A procedural retro side-scrolling shooter for Godot 4.3 where every sprite and sound is generated at runtime — no binary assets in… | — |
 | [`pack-game-dev`](skills/pack-game-dev/SKILL.md) | Game work in one pack: core loop and feel, level and systems design, engine and language choices, art and audio pipelines,… | mixed |
 | [`phaser-arcade-physics`](skills/phaser-arcade-physics/SKILL.md) | Add movement and collision to a Phaser game with the lightweight Arcade Physics engine (AABB rectangles and circles only). | Apache-2.0 |
 | [`phaser-core`](skills/phaser-core/SKILL.md) | Set up the foundation of a Phaser game: the Game config, the Scene lifecycle, asset loading, cameras, and passing data between… | Apache-2.0 |

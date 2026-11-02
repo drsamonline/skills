@@ -1,0 +1,27 @@
+{
+  "id": "app-image-toolkit",
+  "name": "On-device image toolkit",
+  "category": "media-design",
+  "description": "Compress, resize, convert, crop and strip GPS metadata from photos entirely on the device — no upload, no account, with the app split into small scripts and the whole build driven by scripts.",
+  "tags": [
+    "images",
+    "canvas",
+    "exif",
+    "privacy",
+    "offline",
+    "pwa"
+  ],
+  "source_repos": [
+    "app-image-toolkit"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-02",
+  "source_snapshot": {
+    "app-image-toolkit": "c665c27bca91bca083335ba2c58f15b727c94514"
+  },
+  "subskills": [
+    "export-kit",
+    "web-kit",
+    "offline-first-single-file-web-app"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "control-panel",
+  "name": "Control panel — every workflow, and what calls what",
+  "category": "ci-and-release",
+  "description": "An inventory of every workflow across a repository fleet: what runs, when, what calls what, and what is connected to nothing — built by scanning the trees and served as a static page.",
+  "tags": [
+    "workflows",
+    "ci",
+    "inventory",
+    "github-actions",
+    "graph",
+    "fleet"
+  ],
+  "source_repos": [
+    "control-panel"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-02",
+  "source_snapshot": {
+    "control-panel": "61382f1fad8e77dc244dd01d21e1fc1aac26b0f5"
+  },
+  "subskills": [
+    "audit",
+    "app-builder"
+  ]
+}

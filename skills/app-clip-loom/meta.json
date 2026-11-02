@@ -1,0 +1,26 @@
+{
+  "id": "app-clip-loom",
+  "name": "Clip Loom — clipboard programs you can read",
+  "category": "web-app-patterns",
+  "description": "Clipboard cleanup as five Weft-8 programs you can read in full: strip tracking parameters, tidy extracted text, rewrap a paragraph — each twenty lines of assembly on a machine in the page.",
+  "tags": [
+    "clipboard",
+    "privacy",
+    "tracking",
+    "text",
+    "weft8",
+    "offline"
+  ],
+  "source_repos": [
+    "app-clip-loom"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-02",
+  "source_snapshot": {
+    "app-clip-loom": "a9c5deb8532eed3b42252705c3322567fb39e6dc"
+  },
+  "subskills": [
+    "weft8-kit",
+    "web-kit"
+  ]
+}

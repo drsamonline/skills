@@ -1,0 +1,26 @@
+{
+  "id": "app-organon-reader",
+  "name": "Organon reader — public-domain text pipeline",
+  "category": "health-tools",
+  "description": "An offline reader for the Organon of Medicine (6th edition, Boericke 1922 translation): a three-scan extraction pipeline, full-text search, bookmarks and notes, with no network at runtime.",
+  "tags": [
+    "homeopathy",
+    "reader",
+    "extraction",
+    "ocr",
+    "offline",
+    "full-text-search"
+  ],
+  "source_repos": [
+    "app-organon-reader"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-02",
+  "source_snapshot": {
+    "app-organon-reader": "998be9df6944d1babc57be66fc586bc6cd4285aa"
+  },
+  "subskills": [
+    "offline-first-single-file-web-app",
+    "search-kit"
+  ]
+}

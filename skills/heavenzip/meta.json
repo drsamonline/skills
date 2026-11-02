@@ -1,0 +1,26 @@
+{
+  "id": "heavenzip",
+  "name": "CHCE orchestrator scaffold",
+  "category": "data-and-schema",
+  "description": "The CHCE orchestrator that chains prebuilt compression binaries into one pipeline: profile-driven configuration, a binary-sync workflow, and the bundling, licensing and permission decisions written down before the code lands.",
+  "tags": [
+    "compression",
+    "orchestration",
+    "scaffold",
+    "licensing",
+    "binaries",
+    "configuration"
+  ],
+  "source_repos": [
+    "heavenzip"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-02",
+  "source_snapshot": {
+    "heavenzip": "88ac3d68b6142690df0211eba08d57d1a9eafd44"
+  },
+  "subskills": [
+    "ziptastic",
+    "compfactory"
+  ]
+}

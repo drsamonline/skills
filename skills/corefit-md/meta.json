@@ -1,0 +1,27 @@
+{
+  "id": "corefit-md",
+  "name": "CoreFit MD — clip-accurate video routine",
+  "category": "health-tools",
+  "description": "A five-minute, video-guided morning core routine as a static offline app: every set opens on the demonstration frame, a six-week progression, streaks and a trilingual UI, with no backend.",
+  "tags": [
+    "video",
+    "fitness",
+    "offline",
+    "pwa",
+    "i18n",
+    "health",
+    "static"
+  ],
+  "source_repos": [
+    "corefit-md"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-02",
+  "source_snapshot": {
+    "corefit-md": "748868cfa589d140330f1fe38c1cdf1a029b1677"
+  },
+  "subskills": [
+    "offline-first-single-file-web-app",
+    "static-landing-page-seo"
+  ]
+}

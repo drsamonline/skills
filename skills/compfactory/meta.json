@@ -1,0 +1,27 @@
+{
+  "id": "compfactory",
+  "name": "Compfactory — the CHCE build workspace",
+  "category": "ci-and-release",
+  "description": "The development workspace that builds every CHCE engine in order: a PowerShell and shell script set to build all, bump the vendored-source pin, and sync the repositories.",
+  "tags": [
+    "build",
+    "powershell",
+    "sync",
+    "submodules",
+    "compression",
+    "workspace"
+  ],
+  "source_repos": [
+    "compfactory"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-02",
+  "source_snapshot": {
+    "compfactory": "67023770a9090777a90dd31a70229ebed0d49cb3"
+  },
+  "subskills": [
+    "ziptastic",
+    "HCS",
+    "heavenzip"
+  ]
+}
