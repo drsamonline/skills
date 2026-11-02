@@ -16,9 +16,9 @@
     "read-live-transform-app"
   ],
   "version": "1.0.0",
-  "updated": "2026-10-29",
+  "updated": "2026-11-02",
   "source_snapshot": {
-    "read-live-transform-app": "b03ca31acb76ff95f13b69e2e14f41faac1283d8"
+    "read-live-transform-app": "264338ad9240b59f70003144aa02346da2b61818"
   },
   "subskills": [
     "offline-first-single-file-web-app",

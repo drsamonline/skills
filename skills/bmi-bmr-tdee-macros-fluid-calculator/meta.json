@@ -18,9 +18,9 @@
     "bmi-bmr-tdee-macros-fluid-calculator"
   ],
   "version": "1.0.0",
-  "updated": "2026-10-29",
+  "updated": "2026-11-02",
   "source_snapshot": {
-    "bmi-bmr-tdee-macros-fluid-calculator": "77b4f536d8d46a9c1bcd8b1855c67a9e0d9ae650"
+    "bmi-bmr-tdee-macros-fluid-calculator": "283df5e0fa07fb0e0bf595fb93eb3bf6fc0ad94b"
   },
   "subskills": [
     "offline-first-single-file-web-app",

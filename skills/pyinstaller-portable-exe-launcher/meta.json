@@ -18,10 +18,10 @@
     "All4ONE"
   ],
   "version": "1.0.0",
-  "updated": "2026-10-29",
+  "updated": "2026-11-02",
   "source_snapshot": {
-    "app-builder": "a9a8c000276b365af20f253a81fd60bacc9af61d",
-    "All4ONE": "9eac2b895879bac5f6fe326c096d56d49800f39e"
+    "app-builder": "aa727deec70003ba44de36295eca9be80e91f8f1",
+    "All4ONE": "2e9791fab414a627e83541e5ff1d79842f01e2c8"
   },
   "subskills": [
     "reusable-build-release-workflow",

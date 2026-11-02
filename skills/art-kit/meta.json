@@ -16,9 +16,9 @@
     "game-kit"
   ],
   "version": "1.0.0",
-  "updated": "2026-10-29",
+  "updated": "2026-11-02",
   "source_snapshot": {
-    "art-kit": "285fbc54eab1e5f777848f7fa0aab6bd5e0a4ec1",
-    "game-kit": "de4754cfaf8abe57c5adb1f5f3bda4bdfbe91b74"
+    "art-kit": "48153d04cdc3dca74da3269f1693e898e0dda43f",
+    "game-kit": "6ced36b264416c5d5fffd3bdaef9e4f9f8a450fb"
   }
 }

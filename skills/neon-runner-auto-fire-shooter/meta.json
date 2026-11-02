@@ -17,9 +17,9 @@
     "neon-runner"
   ],
   "version": "1.0.0",
-  "updated": "2026-10-29",
+  "updated": "2026-11-02",
   "source_snapshot": {
-    "neon-runner": "e0de1119d5f5cf539b59e72bb789bbe6acf81aea"
+    "neon-runner": "9d700fe21f72cf9ed8cd948730e610f68d3b2ee8"
   },
   "subskills": [
     "offline-first-single-file-web-app",

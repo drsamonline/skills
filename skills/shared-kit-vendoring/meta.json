@@ -21,8 +21,8 @@
   "updated": "2026-11-02",
   "source_snapshot": {
     "web-kit": "740b96e8a6ec61c2ed9d82130852330b8605597e",
-    "export-kit": "13f25c4377fc7d9a1b4f7cdb75669242c90932e3",
-    "lan-kit": "3076707c835911fa62ab76c2d6ca27f0336ffb4d",
+    "export-kit": "ac11da4e7bd8ec7cc79aa99f87e2da195e8947cd",
+    "lan-kit": "d9fc260fb4e3311d8223048e509da7e04651f283",
     "frame-kit": "2ca6e9668c813e164a4cf2e35da66adc1d30b8b1"
   },
   "subskills": [

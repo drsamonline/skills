@@ -18,9 +18,9 @@
     "HMS"
   ],
   "version": "1.0.0",
-  "updated": "2026-10-29",
+  "updated": "2026-11-02",
   "source_snapshot": {
-    "HMS": "1110a354971d5d222dc191968a50102e9e737a63"
+    "HMS": "863c51b3bccd0ae07d230161860cd7af1b0f5ae1"
   },
   "subskills": [
     "reusable-build-release-workflow"

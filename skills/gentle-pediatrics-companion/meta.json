@@ -16,9 +16,9 @@
     "gentle-pediatrics-companion"
   ],
   "version": "1.0.0",
-  "updated": "2026-10-29",
+  "updated": "2026-11-02",
   "source_snapshot": {
-    "gentle-pediatrics-companion": "842f5cb172a5dc6692b04fdc0b7792124bf4e2a9"
+    "gentle-pediatrics-companion": "e9a9f30488f5bbe97fef106ff9c9e611a4b80ec7"
   },
   "subskills": [
     "offline-first-single-file-web-app",

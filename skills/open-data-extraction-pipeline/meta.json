@@ -19,10 +19,10 @@
     "MATERIA-MEDICA-BUILDER"
   ],
   "version": "1.0.0",
-  "updated": "2026-10-29",
+  "updated": "2026-11-02",
   "source_snapshot": {
-    "homoeopathic-materia-medica-repertory-json": "4f4fe70499b92b0b2812bed4e6d9871344dbe637",
-    "MATERIA-MEDICA-BUILDER": "19b459bc2a4965be5b409120728309391747eb45"
+    "homoeopathic-materia-medica-repertory-json": "648d670e79521fe104a9f7e747a193bc5926ba97",
+    "MATERIA-MEDICA-BUILDER": "8d8c2f6b6503ed8f8befc921b2d6b51dc76c8fc4"
   },
   "subskills": [
     "offline-first-single-file-web-app"

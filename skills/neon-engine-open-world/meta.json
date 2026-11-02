@@ -16,9 +16,9 @@
     "neon-engine"
   ],
   "version": "1.0.0",
-  "updated": "2026-10-29",
+  "updated": "2026-11-02",
   "source_snapshot": {
-    "neon-engine": "73b434c6cada2f58372fbd3b0866e90dd4488d26"
+    "neon-engine": "3aab58589f16b6f65f71173ef18c012a198ad36a"
   },
   "subskills": [
     "neon-games-arcade"
