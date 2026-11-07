@@ -1,0 +1,28 @@
+{
+  "id": "web-research-and-scraping",
+  "name": "Web research and scraping",
+  "category": "browser-automation",
+  "description": "Get content out of the web reliably: pick a fetcher, scrape pages and structured data, get past Cloudflare/WAF protections, handle logged-in pages, parse existing HTML, batch many pages — and read specific platforms (Xiaohongshu, Bilibili, X/Twitter, Reddit, YouTube transcripts, GitHub, V2EX, Instagram, Facebook, podcasts, job boards, stock quotes) when ordinary search cannot reach the body.",
+  "tags": [
+    "scraping",
+    "crawling",
+    "web-research",
+    "cloudflare",
+    "transcripts",
+    "social-platforms",
+    "read-only"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-11-07",
+  "merged_from": [
+    "scrapling",
+    "agent-reach"
+  ],
+  "upstream": {
+    "kind": "uploaded skill pack",
+    "archive": "s.zip",
+    "imported": "2026-11-07",
+    "note": "merged from the owner's own skill collection; each source is preserved under references/"
+  }
+}

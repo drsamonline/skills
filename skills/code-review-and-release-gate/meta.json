@@ -1,0 +1,27 @@
+{
+  "id": "code-review-and-release-gate",
+  "name": "Code review and release gate",
+  "category": "code-quality",
+  "description": "Review a diff, pull request or release candidate and produce a prioritised, evidence-backed verdict: bugs, security issues, N+1 queries, code smells, architectural concerns, documentation coverage, and a ship-or-block call. Use for pull-request review, a code-quality audit, a pre-merge check, or deciding whether a release candidate is safe to ship.",
+  "tags": [
+    "code-review",
+    "pull-request",
+    "security",
+    "release",
+    "verdict",
+    "quality-gate"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-11-07",
+  "merged_from": [
+    "code-reviewer",
+    "final-release-review"
+  ],
+  "upstream": {
+    "kind": "uploaded skill pack",
+    "archive": "s.zip",
+    "imported": "2026-11-07",
+    "note": "merged from the owner's own skill collection; each source is preserved under references/"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "symbolic-math",
+  "name": "Symbolic mathematics with SymPy",
+  "category": "data-and-schema",
+  "description": "Exact symbolic mathematics in Python: algebra, calculus, equation solving, symbolic linear algebra, physics, plus lambdify and LaTeX generation. Use when a task needs symbolic results, explicit assumptions or exact arithmetic, and use NumPy or SciPy when the workload is purely numerical.",
+  "tags": [
+    "sympy",
+    "symbolic-math",
+    "algebra",
+    "calculus",
+    "exact-arithmetic",
+    "latex",
+    "python"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-11-07",
+  "merged_from": [
+    "sympy"
+  ],
+  "upstream": {
+    "kind": "uploaded skill pack",
+    "archive": "s.zip",
+    "imported": "2026-11-07",
+    "note": "merged from the owner's own skill collection; each source is preserved under references/"
+  }
+}

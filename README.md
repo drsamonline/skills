@@ -50,10 +50,11 @@ There are two kinds of skill:
   transfer, embedded-bundle feature gating, and safe repository cleanup.
 - **Imported first-party skills** — 501 skills from eighteen upstream skill collections (Anthropic, Google, Vercel, Hugging Face, Cloudflare, MiniMax, Addy Osmani, Matt Pocock, Matteo Collina, Jesse Vincent, Emil Kowalski, Steph Ango, Seth Hobson and others), deduplicated by topic and kept under their own licences.
 - **Vendored packs** — five packs and the seventeen skills they were merged from, imported unchanged from [ChrisTitusTech/titstack](https://github.com/ChrisTitusTech/titstack) (MIT). Each carries its own `LICENSE`; the pack is the merged reading, the individual skill is the same text on its own.
+- **Merged pack** — 31 skills built by merging 64 uploaded skills from the owner's own collection (2026-11-07). Duplicates were collapsed, near-duplicates merged into one skill per job with a routing table, and every source is preserved verbatim under `references/` inside the skill that absorbed it. 70 unique skills became 31.
 - **Project skills** — one per repository: what the project is, how it is built,
   how it is released, and what makes its workflow distinctive.
 
-**Catalogue:** `1514` skills across 28 categories. The machine-readable index is [`catalog.json`](catalog.json); the landing page is <https://drsamonline.github.io/skills/>.
+**Catalogue:** `1545` skills across 28 categories. The machine-readable index is [`catalog.json`](catalog.json); the landing page is <https://drsamonline.github.io/skills/>.
 
 ## Repository layout
 
@@ -127,7 +128,7 @@ matches the code it describes.
 
 Every skill in the repository, by category, with the one line that tells you whether to open it. The id is the directory: `skills/<id>/SKILL.md` holds the method, `meta.json` its provenance, its licence and its upstream commit. Where a category has an index pack, the pack is named first — it is the routing table for that category.
 
-`1514` skills across 28 categories. The descriptions here are one-line summaries; the full trigger text is the `description` field in `meta.json` and at the top of each `SKILL.md`.
+`1545` skills across 28 categories. The descriptions here are one-line summaries; the full trigger text is the `description` field in `meta.json` and at the top of each `SKILL.md`.
 
 ### Web app patterns (`web-app-patterns`) — 23 skills
 
@@ -197,17 +198,21 @@ Every skill in the repository, by category, with the one line that tells you whe
 | [`neon-runner-auto-fire-shooter`](skills/neon-runner-auto-fire-shooter/SKILL.md) | A retro auto-fire side-scrolling shooter in one self-contained HTML file (vanilla JS + canvas): move, jump, duck — the gun fires… | — |
 | [`retro-strike-software-3d`](skills/retro-strike-software-3d/SKILL.md) | A complete retro third-person shooter in one HTML file with a custom software 3D renderer, a live chiptune synth and procedural… | — |
 
-### Data & schema (`data-and-schema`) — 8 skills
+### Data & schema (`data-and-schema`) — 12 skills
 
 | Skill | What it does | Licence |
 |---|---|---|
+| [`charts-and-dashboards`](skills/charts-and-dashboards/SKILL.md) | Turn data into a chart that explains it and a dashboard that can be read: statistical plots in Seaborn and self-contained… | per source |
+| [`database-querying`](skills/database-querying/SKILL.md) | Query documented public database APIs — scientific, regulatory, financial, chemical, biomedical — with explicit endpoints… | per source |
 | [`hcs-vendored-source-vault`](skills/hcs-vendored-source-vault/SKILL.md) | The canonical offline vault of vendored compressor, preprocessor and recompressor sources behind the CHCE engines, with a source… | — |
 | [`heavenzip`](skills/heavenzip/SKILL.md) | The CHCE orchestrator that chains prebuilt compression binaries into one pipeline: profile-driven configuration, a binary-sync… | — |
 | [`homoeopathic-materia-medica-repertory-json`](skills/homoeopathic-materia-medica-repertory-json/SKILL.md) | 13 public-domain homoeopathic classics (1840–1906, ~108k rubrics) extracted into clean, app-ready, verbatim JSON with a… | — |
 | [`materia-medica-builder`](skills/materia-medica-builder/SKILL.md) | An offline, no-dependency PWA that lets a practitioner build a personal materia medica and repertory — remedies, symptoms,… | — |
 | [`ml-kit`](skills/ml-kit/SKILL.md) | The classic ML algorithms from scratch for offline features — tf-idf ranking, Naive Bayes, k-NN, k-means, PCA, ID3, linear… | — |
+| [`omm-json-builder`](skills/omm-json-builder/SKILL.md) | Convert raw homeopathic source texts — OCR text, DjVu XML, or a typed transcription — into clean, app-ready JSON, one file… | per source |
 | [`open-data-extraction-pipeline`](skills/open-data-extraction-pipeline/SKILL.md) | Turn raw OCR'd source texts into clean, app-ready JSON with a verbatim-fidelity rule: nothing invented, unknowns null, per-book… | — |
 | [`search-kit-ranked-search`](skills/search-kit-ranked-search/SKILL.md) | Ranked search over a big corpus in one zero-dependency file: an inverted index with prefix and fuzzy matching, scored hits and a… | — |
+| [`symbolic-math`](skills/symbolic-math/SKILL.md) | Exact symbolic mathematics in Python: algebra, calculus, equation solving, symbolic linear algebra, physics, plus lambdify… | per source |
 | [`ziptastic`](skills/ziptastic/SKILL.md) | The CHCE native compression engine as one self-contained C++ binary: preprocessors, a dual-resolution match finder, a joint optimal… | — |
 
 ### Health tools (`health-tools`) — 17 skills
@@ -243,7 +248,7 @@ Every skill in the repository, by category, with the one line that tells you whe
 | [`static-landing-page-seo`](skills/static-landing-page-seo/SKILL.md) | The house landing-page recipe: a bespoke self-contained docs/index.html with a distinct theme, a full SEO head (canonical, OG,… | — |
 | [`theme-aware-github-profile`](skills/theme-aware-github-profile/SKILL.md) | A professional, self-updating GitHub profile README — a bespoke light/dark hero served through <picture>, a lowlighter/metrics… | — |
 
-### CI & release (`ci-and-release`) — 9 skills
+### CI & release (`ci-and-release`) — 10 skills
 
 | Skill | What it does | Licence |
 |---|---|---|
@@ -252,6 +257,7 @@ Every skill in the repository, by category, with the one line that tells you whe
 | [`backup`](skills/backup/SKILL.md) | Snapshot a repository before a merge replaces it: a reusable GitHub workflow plus a zero-dependency script that compresses… | — |
 | [`compfactory`](skills/compfactory/SKILL.md) | The development workspace that builds every CHCE engine in order: a PowerShell and shell script set to build all, bump the… | — |
 | [`control-panel`](skills/control-panel/SKILL.md) | An inventory of every workflow across a repository fleet: what runs, when, what calls what, and what is connected to nothing —… | — |
+| [`git-and-release-automation`](skills/git-and-release-automation/SKILL.md) | The commit-to-release path: split and stage changes, write a Conventional Commit, gate on lint and tests, push safely, run… | per source |
 | [`kit-adoption-audit`](skills/kit-adoption-audit/SKILL.md) | Measure which apps actually consume each shared kit and which hand-roll the same capability, from repository trees and blob SHAs… | — |
 | [`repo-presentation`](skills/repo-presentation/SKILL.md) | Present a built repository the way this estate presents its apps: a designed landing page at docs/index.html, the app at… | — |
 | [`reusable-build-release-workflow`](skills/reusable-build-release-workflow/SKILL.md) | One GitHub Actions workflow per app repo builds the portable EXE and Android APK, publishes them to a fixed-tag release, and… | — |
@@ -278,12 +284,13 @@ Every skill in the repository, by category, with the one line that tells you whe
 | [`linkedin-thread-monitor`](skills/linkedin-thread-monitor/SKILL.md) | Track which of your LinkedIn comments earned author replies. | MIT |
 | [`product-copywriting`](skills/product-copywriting/SKILL.md) | Write honest product copy for a landing page, a README or a store listing — a headline, a value line, a CTA — that reads like a… | — |
 
-### Planning & docs (`docs-and-planning`) — 34 skills
+### Planning & docs (`docs-and-planning`) — 37 skills
 
 | Skill | What it does | Licence |
 |---|---|---|
 | [`academy-guide`](skills/academy-guide/SKILL.md) | When a user asks a question about Claude, a Claude product, or a general "how do I use AI for X" question, check the Academy… | Apache-2.0 |
 | [`ai-project-manager`](skills/ai-project-manager/SKILL.md) | Create and maintain repository planning documents, phased implementation plans, approval checkpoints, task status, and validation… | MIT |
+| [`code-and-project-documentation`](skills/code-and-project-documentation/SKILL.md) | Write the documentation a codebase actually needs: docstrings, API references (OpenAPI/Swagger, JSDoc), documentation sites… | per source |
 | [`discernment-nudge`](skills/discernment-nudge/SKILL.md) | People often take an AI answer at face value, especially when it's confidently written and well-structured. | Apache-2.0 |
 | [`doc-coauthoring`](skills/doc-coauthoring/SKILL.md) | Guide users through a structured workflow for co-authoring documentation. | NOASSERTION |
 | [`documentation`](skills/documentation/SKILL.md) | Creates, structures, and reviews technical documentation following the Diátaxis framework (tutorials, how-to guides, reference,… | MIT |
@@ -295,9 +302,11 @@ Every skill in the repository, by category, with the one line that tells you whe
 | [`egm-review`](skills/egm-review/SKILL.md) | When running in Codex or ChatGPT Work, first read Codex integration(../../docs/codex.md). | Apache-2.0 |
 | [`egm-review-loop`](skills/egm-review-loop/SKILL.md) | When running in Codex or ChatGPT Work, first read Codex integration(../../docs/codex.md). | Apache-2.0 |
 | [`hugo`](skills/hugo/SKILL.md) | Build, edit, validate, and troubleshoot Hugo sites, including content, templates, assets, taxonomies, redirects, output formats,… | MIT |
+| [`human-writing-style`](skills/human-writing-style/SKILL.md) | Edit prose so it reads like a person wrote it, or detect the patterns that make it read as machine output: not-X-but-Y… | per source |
 | [`init`](skills/init/SKILL.md) | Creates, updates, or optimizes an AGENTS.md file for a repository with minimal, high-signal instructions covering… | MIT |
 | [`internal-comms`](skills/internal-comms/SKILL.md) | A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. | Apache-2.0 |
 | [`linting-neostandard-eslint9`](skills/linting-neostandard-eslint9/SKILL.md) | Configures ESLint v9 flat config and neostandard for JavaScript and TypeScript projects, including migrating from legacy… | MIT |
+| [`long-form-writing`](skills/long-form-writing/SKILL.md) | Take a brief to a finished long-form artefact: a designed multi-language book or series with source-grounded drafting… | per source |
 | [`mdbook`](skills/mdbook/SKILL.md) | Create, edit, validate, and publish mdBook projects or mdBook-based KDP manuscripts. | MIT |
 | [`octocat`](skills/octocat/SKILL.md) | Use this skill whenever the prompt contains any `github.com` URL, even if the user only pastes a link and gives no… | MIT |
 | [`pack-planning-and-docs`](skills/pack-planning-and-docs/SKILL.md) | Write the plan down and publish the documentation: repository planning documents (SPEC, ROADMAP, TASKS) for AI-assisted work,… | MIT |
@@ -317,7 +326,7 @@ Every skill in the repository, by category, with the one line that tells you whe
 | [`writing-guidelines`](skills/writing-guidelines/SKILL.md) | Review docs/prose for Writing Guidelines compliance. | NOASSERTION |
 | [`writing-shape`](skills/writing-shape/SKILL.md) | Writing, exploit: shape raw material into an article, paragraph by paragraph. | MIT |
 
-### Code quality (`code-quality`) — 11 skills
+### Code quality (`code-quality`) — 14 skills
 
 Index pack: [`pack-code-quality`](skills/pack-code-quality/SKILL.md).
 
@@ -327,12 +336,15 @@ Index pack: [`pack-code-quality`](skills/pack-code-quality/SKILL.md).
 | [`bash-scripting`](skills/bash-scripting/SKILL.md) | Create, review, and debug Bash or POSIX sh scripts when portability, quoting, failure handling, or shell-specific validation… | MIT |
 | [`clean-code-guard`](skills/clean-code-guard/SKILL.md) | Review generated or changed production code with Clean Code, SOLID, DRY, KISS, YAGNI, and LLM-specific failure-mode checks. | MIT |
 | [`code-review`](skills/code-review/SKILL.md) | Review code with CodeRabbit when the user requests CodeRabbit or repository policy selects it. | MIT |
+| [`code-review-and-release-gate`](skills/code-review-and-release-gate/SKILL.md) | Review a diff, pull request or release candidate and produce a prioritised, evidence-backed verdict: bugs, security issues… | per source |
 | [`code-review-mattpocock`](skills/code-review-mattpocock/SKILL.md) | Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes: Standards (does the code follow this… | MIT |
+| [`debugging-and-recovery`](skills/debugging-and-recovery/SKILL.md) | Find the root cause of a failure instead of guessing: reproduce, localise, reduce, fix the cause, guard against recurrence… | per source |
 | [`pack-code-quality`](skills/pack-code-quality/SKILL.md) | The review-to-merge loop for a change: run CodeRabbit review, fix its findings with verified patches, decide whether a PR is… | MIT |
 | [`pr-readiness`](skills/pr-readiness/SKILL.md) | Validate changes and pull requests through merge readiness, including local gates, Codex review, CI, independent review, manual… | MIT |
 | [`quality-playbook`](skills/quality-playbook/SKILL.md) | Run a complete quality engineering audit on any codebase. | Apache-2.0 |
 | [`runaway-guard`](skills/runaway-guard/SKILL.md) | Cost-safety discipline for paid AI / inference APIs: treat $-cost as a third complexity dimension alongside time and space. | MIT |
 | [`tdd-workflow`](skills/tdd-workflow/SKILL.md) | Test-driven development workflow: write a failing test first, watch it fail, implement the smallest change to green, then… | MIT |
+| [`vscode-extension-localization`](skills/vscode-extension-localization/SKILL.md) | Localise a VS Code extension the way the platform expects: the three localization approaches (package manifest strings, the… | per source |
 | [`weft8-kit`](skills/weft8-kit/SKILL.md) | An auditable, step-limited rule engine on the Weft-8 8-bit machine: a rule is an assembly program with a contract — inputs in the… | — |
 
 ### Linux desktop (`linux-desktop`) — 4 skills
@@ -346,30 +358,37 @@ Index pack: [`pack-linux-desktop`](skills/pack-linux-desktop/SKILL.md).
 | [`pack-linux-desktop`](skills/pack-linux-desktop/SKILL.md) | Chris Titus Tech's Fedora/X11 desktop end to end: change dwm keybindings, themes and window rules, build or lint the Quickshell… | MIT |
 | [`quickshell`](skills/quickshell/SKILL.md) | Build, lint, and troubleshoot Quickshell QML configurations or source builds. | MIT |
 
-### Sysadmin & ops (`sysadmin-ops`) — 5 skills
+### Sysadmin & ops (`sysadmin-ops`) — 6 skills
 
 Index pack: [`pack-sysadmin-ops`](skills/pack-sysadmin-ops/SKILL.md).
 
 | Skill | What it does | Licence |
 |---|---|---|
+| [`file-organizer-taxonomy`](skills/file-organizer-taxonomy/SKILL.md) | Classification, naming and recording rules for sorting a drive: bucket assignment from the owner's real folders, linked-file… | per source |
 | [`forgejo-maintainer`](skills/forgejo-maintainer/SKILL.md) | Administer Forgejo or Gitea installations, including upgrades, backups, migrations, repository access, and Actions runners. | MIT |
 | [`homelab-admin`](skills/homelab-admin/SKILL.md) | Operate homelab infrastructure spanning networking, DNS, storage, NFS, reverse proxies, or multiple services. | MIT |
 | [`linux-sysadmin`](skills/linux-sysadmin/SKILL.md) | Diagnose and operate Linux hosts, services, packages, permissions, SELinux, firewalls, and SSH. | MIT |
 | [`pack-sysadmin-ops`](skills/pack-sysadmin-ops/SKILL.md) | Infrastructure administration in one pack: Linux host diagnostics (services, packages, SELinux, firewalls, SSH), Podman… | MIT |
 | [`podman-operator`](skills/podman-operator/SKILL.md) | Build and operate Podman containers and Quadlet services, including rootless deployment, networking, volumes, systemd… | MIT |
 
-### Media & design (`media-design`) — 26 skills
+### Media & design (`media-design`) — 33 skills
 
 Index pack: [`pack-media-design`](skills/pack-media-design/SKILL.md).
 
 | Skill | What it does | Licence |
 |---|---|---|
+| [`ai-video-generation`](skills/ai-video-generation/SKILL.md) | Generate a video clip with the muapi.ai model stack: character sheets, storyboards, image-to-video, UGC ads, product ads… | per source |
 | [`app-image-toolkit`](skills/app-image-toolkit/SKILL.md) | Compress, resize, convert, crop and strip GPS metadata from photos entirely on the device — no upload, no account, with the app… | — |
 | [`characteristic-voice`](skills/characteristic-voice/SKILL.md) | Use this skill whenever the user wants speech to sound more human, companion-like, or emotionally expressive. | NOASSERTION |
 | [`chat-with-anyone`](skills/chat-with-anyone/SKILL.md) | Chat with any real person or fictional character in their own voice by automatically finding their speech online, extracting a… | NOASSERTION |
 | [`daily-news-caster`](skills/daily-news-caster/SKILL.md) | Fetches the latest news using news-aggregator-skill, formats it into a podcast script in Markdown format, and uses the tts skill… | NOASSERTION |
+| [`diagram-generator`](skills/diagram-generator/SKILL.md) | Turn a description into an Excalidraw `.excalidraw` JSON diagram: flowcharts, system architecture, relationship maps, mind… | per source |
+| [`html-video-production`](skills/html-video-production/SKILL.md) | Build editable, scene-based HTML videos and render them to MP4 with HyperFrames: GSAP timelines, kinetic typography… | per source |
 | [`html-visual-card-styles`](skills/html-visual-card-styles/SKILL.md) | HTML card and poster styles — social cards, carousels, posters, motion frames. | Apache-2.0 |
+| [`image-editing-imagemagick`](skills/image-editing-imagemagick/SKILL.md) | Process and manipulate images from the command line with ImageMagick: resize, crop, convert formats, compose, batch-process… | per source |
 | [`logo-design`](skills/logo-design/SKILL.md) | Professional logo and brand-mark design, from brief to production files. | MIT |
+| [`math-animation-videos`](skills/math-animation-videos/SKILL.md) | Produce code-driven explanatory animation and precise vector graphics with the Manim engine: mathematical visualisations… | per source |
+| [`music-and-audio-generation`](skills/music-and-audio-generation/SKILL.md) | Generate music, songs and soundtracks — instrumentals, vocals from lyrics, covers and style transfer, stem extraction… | per source |
 | [`music-video`](skills/music-video/SKILL.md) | Build a music video from an existing song and lyrics, either as p5.js/p5.brush animation or by assembling local images and clips. | NOASSERTION |
 | [`musicgen`](skills/musicgen/SKILL.md) | A pocket generative composer that writes, synthesises, masters and exports a finished track in the browser from a seed — no server… | — |
 | [`pack-media-design`](skills/pack-media-design/SKILL.md) | Cover and image work: design a restrained 16:9 YouTube thumbnail around one readable idea while keeping photographed people… | MIT |
@@ -388,10 +407,11 @@ Index pack: [`pack-media-design`](skills/pack-media-design/SKILL.md).
 | [`speech-to-text`](skills/speech-to-text/SKILL.md) | Use this skill whenever the user wants to transcribe audio to text, convert speech to text, or get a transcript from an audio or… | NOASSERTION |
 | [`text-to-music`](skills/text-to-music/SKILL.md) | Use this skill whenever the user wants to generate a song or music with vocals from a text description and/or lyrics, or cover an… | NOASSERTION |
 | [`tts`](skills/tts/SKILL.md) | Use this skill whenever the user wants to convert text into speech, generate audio from text, or produce voiceovers. | NOASSERTION |
+| [`video-clip-finder`](skills/video-clip-finder/SKILL.md) | Find the compelling moments in a long video — funny dialogue or repeated impact actions such as chops, hits, throws… | per source |
 | [`video-translation`](skills/video-translation/SKILL.md) | Translate and dub videos from one language to another, replacing the original audio with TTS while keeping the video intact. | NOASSERTION |
 | [`youtube-thumbnail`](skills/youtube-thumbnail/SKILL.md) | Create, edit, or review YouTube thumbnails. | MIT |
 
-### Frontend & UI (`frontend-ui`) — 102 skills
+### Frontend & UI (`frontend-ui`) — 105 skills
 
 Index pack: [`pack-frontend-ui`](skills/pack-frontend-ui/SKILL.md).
 
@@ -440,11 +460,13 @@ Index pack: [`pack-frontend-ui`](skills/pack-frontend-ui/SKILL.md).
 | [`form-design`](skills/form-design/SKILL.md) | Helper text, placeholders, validation and submit behaviour. | MIT |
 | [`frontend-design`](skills/frontend-design/SKILL.md) | Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. | Apache-2.0 |
 | [`frontend-dev`](skills/frontend-dev/SKILL.md) | Build complete, production-ready frontend pages by orchestrating 5 specialized capabilities: design engineering, motion systems,… | MIT |
+| [`frontend-engineering`](skills/frontend-engineering/SKILL.md) | Build a modern web front end properly: pick the stack and scaffold it, declare a design system and design tokens before… | per source |
 | [`frontend-ui-engineering`](skills/frontend-ui-engineering/SKILL.md) | Builds production-quality, accessible, responsive user-facing UIs. | MIT |
 | [`generate-ui-from-brand`](skills/generate-ui-from-brand/SKILL.md) | Pipeline from a URL or DESIGN.md to tokens, decisions and a UI spec. | MIT |
 | [`gestalt-ui-organisation`](skills/gestalt-ui-organisation/SKILL.md) | Group controls with Gestalt principles so users see what belongs together. | MIT |
 | [`gif-sticker-maker`](skills/gif-sticker-maker/SKILL.md) | Convert user photos into 4 animated GIF stickers (Funko Pop / Pop Mart style). | MIT |
 | [`global-toolbar-controls`](skills/global-toolbar-controls/SKILL.md) | Currency, language, region and unit selectors live in a low-profile header or footer spot. | MIT |
+| [`gsap-web-animation`](skills/gsap-web-animation/SKILL.md) | Animate the DOM and SVG with GSAP: tweens, timelines, easing, stagger, ScrollTrigger-family scrolling, Flip, Draggable… | per source |
 | [`hallmark`](skills/hallmark/SKILL.md) | Design skill for websites and new pages that look designed, not generated. | MIT |
 | [`html-dashboard-styles`](skills/html-dashboard-styles/SKILL.md) | HTML dashboard styles — KPI boards, analytics and team dashboards. | Apache-2.0 |
 | [`html-web-page-styles`](skills/html-web-page-styles/SKILL.md) | HTML web page styles — landing, pricing, docs, wireframe and prototype looks. | Apache-2.0 |
@@ -487,6 +509,7 @@ Index pack: [`pack-frontend-ui`](skills/pack-frontend-ui/SKILL.md).
 | [`theme-factory`](skills/theme-factory/SKILL.md) | Toolkit for styling artifacts with a theme. | Apache-2.0 |
 | [`ui-context-and-scope`](skills/ui-context-and-scope/SKILL.md) | Show where the user is and what their actions affect — breadcrumbs, regions, scope labels. | MIT |
 | [`ui-density`](skills/ui-density/SKILL.md) | Match information density to platform and user type. | MIT |
+| [`ui-design-critique`](skills/ui-design-critique/SKILL.md) | Critique a UI screenshot, mockup or design against Apple's Human Interface Guidelines and UX writing principles. Use whenever… | per source |
 | [`ui-skills-root`](skills/ui-skills-root/SKILL.md) | Use before UI-related work to select the smallest useful UI Skills context through the ui-skills CLI. | MIT |
 | [`ui-styling`](skills/ui-styling/SKILL.md) | Create beautiful, accessible user interfaces with shadcn/ui components (built on Radix UI + Tailwind), Tailwind CSS utility-first… | Apache-2.0 |
 | [`ui-ux-pro-max`](skills/ui-ux-pro-max/SKILL.md) | UI/UX design intelligence for web, mobile, and desktop. | MIT |
@@ -617,7 +640,7 @@ Index pack: [`pack-testing-qa`](skills/pack-testing-qa/SKILL.md).
 | [`xcuitest-skill`](skills/xcuitest-skill/SKILL.md) | You are a senior iOS QA engineer specializing in XCUITest. | MIT |
 | [`xunit-skill`](skills/xunit-skill/SKILL.md) | public class CalculatorTests { private readonly Calculator calc = new(); | MIT |
 
-### Security & audit (`security-audit`) — 26 skills
+### Security & audit (`security-audit`) — 27 skills
 
 Index pack: [`pack-security-audit`](skills/pack-security-audit/SKILL.md).
 
@@ -640,6 +663,7 @@ Index pack: [`pack-security-audit`](skills/pack-security-audit/SKILL.md).
 | [`requesting-code-review`](skills/requesting-code-review/SKILL.md) | Use when requesting independent code review, after implementation slices, before merging high-risk work, or when verification… | MIT |
 | [`security-and-hardening`](skills/security-and-hardening/SKILL.md) | Hardens code against vulnerabilities. | MIT |
 | [`security-audit`](skills/security-audit/SKILL.md) | Security guidance and vulnerability review for codebases, APIs, services, CLI tools, libraries, and daemons. | MIT |
+| [`sox-audit-support`](skills/sox-audit-support/SKILL.md) | Support SOX 404 compliance: control testing methodology, scoping, sample selection, testing workpapers, evidence standards… | per source |
 | [`systematic-debugging`](skills/systematic-debugging/SKILL.md) | Use when encountering a bug, test failure, or unexpected behavior, before proposing fixes | MIT |
 | [`ui-ux-governance`](skills/ui-ux-governance/SKILL.md) | Use when designing, changing, or reviewing user-facing interfaces or interaction flows, including API changes that alter visible… | MIT |
 | [`update-aegis`](skills/update-aegis/SKILL.md) | Use when the user says `aegis:update`, asks to update or upgrade an installed Aegis method-pack, wants the latest Aegis version,… | MIT |
@@ -851,7 +875,7 @@ Index pack: [`pack-cloud-and-deploy`](skills/pack-cloud-and-deploy/SKILL.md).
 | [`vercel-optimize`](skills/vercel-optimize/SKILL.md) | Use for Vercel cost and performance optimization on deployed projects, especially Next.js, SvelteKit, Nuxt, and limited Astro… | NOASSERTION |
 | [`workload-manager-basics`](skills/workload-manager-basics/SKILL.md) | Workload Manager validates enterprise workloads against Google Cloud best practices and recommendations. | Apache-2.0 |
 
-### AI & ML (`ai-and-ml`) — 126 skills
+### AI & ML (`ai-and-ml`) — 128 skills
 
 Index pack: [`pack-ai-and-ml`](skills/pack-ai-and-ml/SKILL.md).
 
@@ -888,6 +912,7 @@ Index pack: [`pack-ai-and-ml`](skills/pack-ai-and-ml/SKILL.md).
 | [`fine-tuning-with-trl`](skills/fine-tuning-with-trl/SKILL.md) | Fine-tune LLMs using reinforcement learning with TRL - SFT for instruction tuning, DPO for preference alignment, PPO/GRPO for… | MIT |
 | [`gguf-quantization`](skills/gguf-quantization/SKILL.md) | GGUF format and llama.cpp quantization for efficient CPU/GPU inference. | MIT |
 | [`gptq`](skills/gptq/SKILL.md) | Post-training 4-bit quantization for LLMs with minimal accuracy loss. | MIT |
+| [`graph-neural-networks`](skills/graph-neural-networks/SKILL.md) | Build graph neural networks with PyTorch Geometric: node, link and graph classification; message passing with GCN, GAT… | per source |
 | [`grpo-rl-training`](skills/grpo-rl-training/SKILL.md) | Expert guidance for GRPO/RL fine-tuning with TRL for reasoning and task-specific model training | MIT |
 | [`guidance`](skills/guidance/SKILL.md) | Control LLM output with regex and grammars, guarantee valid JSON/XML/code generation, enforce structured formats, and build… | MIT |
 | [`hf-cli`](skills/hf-cli/SKILL.md) | Hugging Face Hub CLI (`hf`) for downloading, uploading, and managing models, datasets, spaces, buckets, repos, papers, jobs, and… | Apache-2.0 |
@@ -934,6 +959,7 @@ Index pack: [`pack-ai-and-ml`](skills/pack-ai-and-ml/SKILL.md).
 | [`ml-training-recipes`](skills/ml-training-recipes/SKILL.md) | Battle-tested PyTorch training recipes for all domains — LLMs, vision, diffusion, medical imaging, protein/drug discovery,… | MIT |
 | [`mlflow`](skills/mlflow/SKILL.md) | Track ML experiments, manage model registry with versioning, deploy models to production, and reproduce experiments with MLflow -… | MIT |
 | [`modal-serverless-gpu`](skills/modal-serverless-gpu/SKILL.md) | Serverless GPU cloud platform for running ML workloads. | MIT |
+| [`model-explainability`](skills/model-explainability/SKILL.md) | Explain and audit machine-learning predictions with SHAP: choose the explainer and masker, compute and validate feature… | per source |
 | [`model-merging`](skills/model-merging/SKILL.md) | Merge multiple fine-tuned models using mergekit to combine capabilities without retraining. | MIT |
 | [`model-pruning`](skills/model-pruning/SKILL.md) | Reduce LLM size and accelerate inference using pruning techniques like Wanda and SparseGPT. | MIT |
 | [`moe-training`](skills/moe-training/SKILL.md) | Train Mixture of Experts (MoE) models using DeepSpeed or HuggingFace. | MIT |
@@ -984,12 +1010,14 @@ Index pack: [`pack-ai-and-ml`](skills/pack-ai-and-ml/SKILL.md).
 | [`weights-and-biases`](skills/weights-and-biases/SKILL.md) | Track ML experiments with automatic logging, visualize training in real-time, optimize hyperparameters with sweeps, and manage… | MIT |
 | [`whisper`](skills/whisper/SKILL.md) | OpenAI's general-purpose speech recognition model. | MIT |
 
-### Office documents (`office-docs`) — 14 skills
+### Office documents (`office-docs`) — 16 skills
 
 Index pack: [`pack-office-docs`](skills/pack-office-docs/SKILL.md).
 
 | Skill | What it does | Licence |
 |---|---|---|
+| [`document-output-formats`](skills/document-output-formats/SKILL.md) | Produce the finished artefact from written content: a print-ready PDF via Typst, a Marp slide deck, or a styled HTML page… | per source |
+| [`excel-workbooks`](skills/excel-workbooks/SKILL.md) | Route any spreadsheet job by the workbook state that must survive: create, clean, extract, analyse, build a dashboard, audit… | per source |
 | [`frontend-slides`](skills/frontend-slides/SKILL.md) | Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. | MIT |
 | [`html-deck-styles`](skills/html-deck-styles/SKILL.md) | HTML deck styles — 30+ art-directed slide systems. | Apache-2.0 |
 | [`html-document-templates`](skills/html-document-templates/SKILL.md) | HTML document templates — resume, invoice, notes, OKRs, spec, runbook, article. | Apache-2.0 |
@@ -1005,7 +1033,7 @@ Index pack: [`pack-office-docs`](skills/pack-office-docs/SKILL.md).
 | [`slide-making-skill`](skills/slide-making-skill/SKILL.md) | Implement single-slide PowerPoint pages with PptxGenJS. | MIT |
 | [`spreadsheet-manual-build`](skills/spreadsheet-manual-build/SKILL.md) | Spreadsheet Manual Build: an empty Excel workbook or CSV from a confirmed field list, formatted and validated. | MIT |
 
-### Engineering workflow (`engineering-workflow`) — 400 skills
+### Engineering workflow (`engineering-workflow`) — 402 skills
 
 Index pack: [`pack-engineering-workflow`](skills/pack-engineering-workflow/SKILL.md).
 
@@ -1055,6 +1083,7 @@ Index pack: [`pack-engineering-workflow`](skills/pack-engineering-workflow/SKILL
 | [`add-whatsapp-cloud`](skills/add-whatsapp-cloud/SKILL.md) | Add WhatsApp Business Cloud API channel via Chat SDK. | MIT |
 | [`agent-browser`](skills/agent-browser/SKILL.md) | Browse the web for any task — research topics, read articles, interact with web apps, fill forms, take screenshots, extract data,… | MIT |
 | [`agent-development`](skills/agent-development/SKILL.md) | This skill should be used when the user asks to "create an agent", "add an agent", "write a subagent", "agent frontmatter", "when… | Apache-2.0 |
+| [`agent-operating-discipline`](skills/agent-operating-discipline/SKILL.md) | How to work rather than what to build: split work into independent tasks and dispatch them in parallel with focused context… | per source |
 | [`agent-ready`](skills/agent-ready/SKILL.md) | Implements agent-readiness on public sites and docs from Mintlify Agent Score, AFDocs, Is Agentic, Is It Agent Ready, or… | MIT |
 | [`agent-skills-creator`](skills/agent-skills-creator/SKILL.md) | Creates and improves portable Agent Skills with a validator, routing scenarios, and evidence-based keep, cut, merge, or retire… | MIT |
 | [`agents-md`](skills/agents-md/SKILL.md) | Audits and edits agent instruction files, verifies repository commands, and migrates repositories to AGENTS.md as the single… | MIT |
@@ -1179,6 +1208,7 @@ Index pack: [`pack-engineering-workflow`](skills/pack-engineering-workflow/SKILL
 | [`gh-fix-ci`](skills/gh-fix-ci/SKILL.md) | Use when a user asks to debug or fix failing GitHub PR checks that run in GitHub Actions. | Apache-2.0 |
 | [`ghostwriter`](skills/ghostwriter/SKILL.md) | Writes, rewrites, and critiques messages, posts, review comments, tickets, PRDs, design docs, talk scripts, docs, READMEs, and… | MIT |
 | [`git-workflow-and-versioning`](skills/git-workflow-and-versioning/SKILL.md) | Structures git workflow practices. | MIT |
+| [`github-repo-discovery-and-audit`](skills/github-repo-discovery-and-audit/SKILL.md) | Two directions on GitHub: find a battle-tested open-source project that already solves the problem instead of reinventing it… | per source |
 | [`grilling`](skills/grilling/SKILL.md) | grill me. Use when the task is to produce one of these variants and you need the right starting point rather than a blank page. | MIT |
 | [`gtm-engineering`](skills/gtm-engineering/SKILL.md) | When the user wants to build GTM automation with code, design workflow architectures, use AI agents for GTM tasks, or implement… | MIT |
 | [`gtm-metrics`](skills/gtm-metrics/SKILL.md) | When the user wants to define GTM metrics, build a metrics dashboard, measure pipeline efficiency, or track AI product… | MIT |
@@ -1413,7 +1443,7 @@ Index pack: [`pack-engineering-workflow`](skills/pack-engineering-workflow/SKILL
 | [`writing-skills`](skills/writing-skills/SKILL.md) | Use when creating new skills, editing existing skills, or verifying skills work before deployment | MIT |
 | [`xss-html-injection`](skills/xss-html-injection/SKILL.md) | This skill should be used when the user asks to "test for XSS vulnerabilities", "perform cross-site scripting attacks", "identify… | MIT |
 
-### Notes & knowledge (`notes-knowledge`) — 13 skills
+### Notes & knowledge (`notes-knowledge`) — 14 skills
 
 Index pack: [`pack-notes-knowledge`](skills/pack-notes-knowledge/SKILL.md).
 
@@ -1423,6 +1453,7 @@ Index pack: [`pack-notes-knowledge`](skills/pack-notes-knowledge/SKILL.md).
 | [`defuddle`](skills/defuddle/SKILL.md) | Extract clean Markdown from HTML pages with Defuddle CLI. | MIT |
 | [`json-canvas`](skills/json-canvas/SKILL.md) | Create and edit JSON Canvas files (.canvas) with nodes, edges, groups, and connections. | MIT |
 | [`knap`](skills/knap/SKILL.md) | Render Markdown from templates and structured data using Knap CLI. | MIT |
+| [`knowledge-capture-and-recall`](skills/knowledge-capture-and-recall/SKILL.md) | Synthesise many sources into one attributed answer, and recall what was decided before. Use when combining search results… | per source |
 | [`notebooklm`](skills/notebooklm/SKILL.md) | Use this skill to query your Google NotebookLM notebooks directly from Claude Code for source-grounded, citation-backed answers… | MIT |
 | [`obsidian-bases`](skills/obsidian-bases/SKILL.md) | Create and edit Obsidian Bases (.base files) with views, filters, formulas, and summaries. | MIT |
 | [`obsidian-cli`](skills/obsidian-cli/SKILL.md) | Interact with Obsidian vaults using the Obsidian CLI to read, create, search, and manage notes, tasks, properties, and more. | MIT |
@@ -1452,7 +1483,7 @@ Index pack: [`pack-mobile-apps`](skills/pack-mobile-apps/SKILL.md).
 | [`react-native-dev`](skills/react-native-dev/SKILL.md) | A practical guide for building production-ready React Native and Expo applications. | MIT |
 | [`vercel-react-native-skills`](skills/vercel-react-native-skills/SKILL.md) | Comprehensive best practices for React Native and Expo applications. | NOASSERTION |
 
-### Browser automation (`browser-automation`) — 121 skills
+### Browser automation (`browser-automation`) — 122 skills
 
 Index pack: [`pack-browser-automation`](skills/pack-browser-automation/SKILL.md).
 
@@ -1549,6 +1580,7 @@ Index pack: [`pack-browser-automation`](skills/pack-browser-automation/SKILL.md)
 | [`walmart-keyword-search`](skills/walmart-keyword-search/SKILL.md) | Walmart keyword search scraper: input a search keyword and page number, navigate to walmart.com search results, extract paginated… | MIT |
 | [`walmart-product-detail`](skills/walmart-product-detail/SKILL.md) | Walmart product detail page extractor: given a walmart.com product URL (walmart.com/ip/...), extract full product data including… | MIT |
 | [`walmart-product-reviews`](skills/walmart-product-reviews/SKILL.md) | Walmart product reviews scraper: given a walmart.com product item ID, navigate to the reviews page and extract paginated customer… | MIT |
+| [`web-research-and-scraping`](skills/web-research-and-scraping/SKILL.md) | Get content out of the web reliably: pick a fetcher, scrape pages and structured data, get past Cloudflare/WAF protections… | per source |
 | [`web-research-assistant`](skills/web-research-assistant/SKILL.md) | AI-powered web research assistant that leverages BrowserAct API to supplement restricted web access by searching the internet for… | MIT |
 | [`web-search-scraper-api-skill`](skills/web-search-scraper-api-skill/SKILL.md) | This skill helps users automatically extract complete Markdown content from any website via the BrowserAct Web Search Scraper API. | MIT |
 | [`webcrawler-deep-crawl`](skills/webcrawler-deep-crawl/SKILL.md) | Deep-crawl any website from start URLs, return per-page LLM-ready text/markdown/HTML plus metadata (title, description, author,… | MIT |
@@ -1874,6 +1906,23 @@ Noncommercial terms continue to apply to the drsamonline skills around it.
 repository that is not part of `drsamonline`, so the weekly refresh workflow
 must not try to resolve their commit SHAs. The pin lives in `upstream.commit`
 instead, which the refresh does not touch.
+
+### The merged pack
+
+31 skills in this repository are merges of 64 skills uploaded as a single
+archive on 2026-11-07 from the owner's own collection. The archive held 85
+entries: 70 distinct skills, 13 byte-identical duplicates of those, and two
+files that were not skills at all (a Windows archiver and a probe-results
+folder), which were dropped.
+
+The merge is by **job**, not by name. Skills that solved the same problem from
+different angles became one skill with a routing table; skills that merely
+shared a topic stayed apart, because a skill that answers two unrelated
+questions retrieves badly for both. Each merged skill keeps every source
+verbatim in `references/<source>/`, including that source's `LICENSE` where it
+shipped one, and its `meta.json` lists `merged_from` so nothing is silently
+lost. `source_repos` is empty for these entries so the weekly refresh does not
+try to resolve a SHA for a skill that has no upstream repository.
 
 ### The multi-repo import
 

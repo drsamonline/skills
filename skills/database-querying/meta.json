@@ -1,0 +1,27 @@
+{
+  "id": "database-querying",
+  "name": "Scientific and public database lookup",
+  "category": "data-and-schema",
+  "description": "Query documented public database APIs — scientific, regulatory, financial, chemical, biomedical — with explicit endpoints, filters, pagination and provenance, so a database-backed fact is retrieved reproducibly from a named source instead of inferred. Use when a claim must come from PubChem, Reactome or a similar named database, or an identifier must be resolved.",
+  "tags": [
+    "database",
+    "api",
+    "provenance",
+    "pubchem",
+    "reactome",
+    "identifiers",
+    "reproducibility"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-11-07",
+  "merged_from": [
+    "database-lookup"
+  ],
+  "upstream": {
+    "kind": "uploaded skill pack",
+    "archive": "s.zip",
+    "imported": "2026-11-07",
+    "note": "merged from the owner's own skill collection; each source is preserved under references/"
+  }
+}

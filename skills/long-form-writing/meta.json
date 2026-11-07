@@ -1,0 +1,28 @@
+{
+  "id": "long-form-writing",
+  "name": "Long-form writing (books and content)",
+  "category": "docs-and-planning",
+  "description": "Take a brief to a finished long-form artefact: a designed multi-language book or series with source-grounded drafting, adversarial fact audit and a deduplication registry, or blog posts, newsletters and social copy through channel playbooks. Use when writing or revising marketing and content copy, or when building, translating, restyling or packaging a book.",
+  "tags": [
+    "writing",
+    "books",
+    "content",
+    "newsletters",
+    "blog",
+    "translation",
+    "fact-audit"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-11-07",
+  "merged_from": [
+    "book-writing",
+    "content-drafting"
+  ],
+  "upstream": {
+    "kind": "uploaded skill pack",
+    "archive": "s.zip",
+    "imported": "2026-11-07",
+    "note": "merged from the owner's own skill collection; each source is preserved under references/"
+  }
+}

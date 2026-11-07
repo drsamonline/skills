@@ -1,0 +1,26 @@
+{
+  "id": "file-organizer-taxonomy",
+  "name": "File organizer taxonomy",
+  "category": "sysadmin-ops",
+  "description": "Classification, naming and recording rules for sorting a drive: bucket assignment from the owner's real folders, linked-file protection, duplicate handling, and the two artefacts — a location map and a sorted files index. Use on every run before any file is moved, and whenever a file-sorting or Drive-cleanup agent needs its rules.",
+  "tags": [
+    "files",
+    "google-drive",
+    "taxonomy",
+    "deduplication",
+    "naming",
+    "organizing"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-11-07",
+  "merged_from": [
+    "file-triage-taxonomy"
+  ],
+  "upstream": {
+    "kind": "uploaded skill pack",
+    "archive": "s.zip",
+    "imported": "2026-11-07",
+    "note": "merged from the owner's own skill collection; each source is preserved under references/"
+  }
+}

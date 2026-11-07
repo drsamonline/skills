@@ -1,0 +1,27 @@
+{
+  "id": "video-clip-finder",
+  "name": "Find and cut short clips from long video",
+  "category": "media-design",
+  "description": "Find the compelling moments in a long video — funny dialogue or repeated impact actions such as chops, hits, throws, drumbeats — cut them as standalone clips, reformat 16:9 to 9:16, time-warp a reveal, and burn word-by-word captions. Use for 'make shorts from this', 'find funny moments', 'cut on each chop', 'action montage', or any clipify request. Not for generating new footage.",
+  "tags": [
+    "video-editing",
+    "shorts",
+    "ffmpeg",
+    "captions",
+    "whisper",
+    "9:16",
+    "clipify"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-11-07",
+  "merged_from": [
+    "clipify"
+  ],
+  "upstream": {
+    "kind": "uploaded skill pack",
+    "archive": "s.zip",
+    "imported": "2026-11-07",
+    "note": "merged from the owner's own skill collection; each source is preserved under references/"
+  }
+}

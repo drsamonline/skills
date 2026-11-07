@@ -1,0 +1,27 @@
+{
+  "id": "math-animation-videos",
+  "name": "Math and algorithm animation (Manim)",
+  "category": "media-design",
+  "description": "Produce code-driven explanatory animation and precise vector graphics with the Manim engine: mathematical visualisations, algorithm walkthroughs, derivations with LaTeX, 3Blue1Brown-style scenes. Use when the user mentions Manim, ManimCE or ManimGL, or wants an animated explanation rather than a generated clip. Not for photoreal video or ordinary screen recording.",
+  "tags": [
+    "manim",
+    "animation",
+    "math",
+    "explainer",
+    "latex",
+    "python",
+    "video"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-11-07",
+  "merged_from": [
+    "manim-animator"
+  ],
+  "upstream": {
+    "kind": "uploaded skill pack",
+    "archive": "s.zip",
+    "imported": "2026-11-07",
+    "note": "merged from the owner's own skill collection; each source is preserved under references/"
+  }
+}

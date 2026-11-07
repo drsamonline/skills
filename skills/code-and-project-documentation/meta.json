@@ -1,0 +1,29 @@
+{
+  "id": "code-and-project-documentation",
+  "name": "Code and project documentation",
+  "category": "docs-and-planning",
+  "description": "Write the documentation a codebase actually needs: docstrings, API references (OpenAPI/Swagger, JSDoc), documentation sites, READMEs matched to their audience, and lean AGENTS.md/CLAUDE.md instruction files. Use when documenting functions or APIs, building a docs site, writing or fixing a README, or refactoring a bloated agent instruction file into linked progressive-disclosure docs.",
+  "tags": [
+    "documentation",
+    "readme",
+    "docstrings",
+    "openapi",
+    "jsdoc",
+    "agents-md",
+    "progressive-disclosure"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-11-07",
+  "merged_from": [
+    "code-documenter",
+    "crafting-effective-readmes",
+    "agent-md-refactor"
+  ],
+  "upstream": {
+    "kind": "uploaded skill pack",
+    "archive": "s.zip",
+    "imported": "2026-11-07",
+    "note": "merged from the owner's own skill collection; each source is preserved under references/"
+  }
+}

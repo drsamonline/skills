@@ -1,0 +1,202 @@
+/* ============================================================
+   Shared interior stylesheet (Unlearning pack)
+   Byte-identical across English / Hindi / Gujarati editions.
+   A4 at 96dpi. Body 17px / 1.62. Every colour is a CSS custom
+   property, so a theme (see themes.py) recolours the whole book.
+   ============================================================ */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+:root{
+  --paper:#fbf7f0;
+  --paper-edge:#f3ece0;
+  --ink:#241c14;
+  --ink-soft:#4b4034;
+  --ink-faint:#7d7059;
+  --maroon:#6e1f2a;
+  --maroon-deep:#571722;
+  --gold:#b8862b;
+  --gold-soft:#d8b45c;
+  --marigold:#dd8a1c;
+  --marigold-soft:#f0b45a;
+  --rule:#e4d9c7;
+  --rule-strong:#cbb98f;
+  --zebra:#f4ede0;
+  --page-bg:#dcd3c4;
+  --watermark:#241c14;
+  --foot:#9a8b72;
+  --panel:#f7f1e4;
+  --panel-2:#faf4e8;
+  --th-text:#f8f1e3;
+  --mobile-bg:#f4eee2;
+  --cover-1:#5d1a24;
+  --cover-2:#6e1f2a;
+  --cover-3:#3f1016;
+  --backcover-1:#3f1016;
+  --backcover-2:#6e1f2a;
+  --backcover-3:#571722;
+  --on-dark:#f7efe1;
+  --on-dark-title:#fbf3e6;
+  --on-dark-sub:#f0e2c8;
+  --on-dark-author:#f6ecd8;
+  --on-dark-gold:#d9b45c;
+  --font-body:'EB Garamond','Noto Sans Devanagari','Noto Sans Gujarati',Georgia,'Times New Roman',serif;
+  --font-label:'Inter','Noto Sans Devanagari','Noto Sans Gujarati',Arial,sans-serif;
+}
+
+html, body{ margin:0; padding:0; background:var(--page-bg); }
+body{ font-family:var(--font-body); color:var(--ink); -webkit-font-smoothing:antialiased; }
+
+/* ---------- A4 sheet ---------- */
+.sheet-a4{
+  position:relative;
+  width:793.7px;              /* 210mm @96dpi */
+  height:1122.5px;            /* 297mm @96dpi */
+  background:var(--paper);
+  margin:0 auto 26px;
+  overflow:hidden;
+  -webkit-print-color-adjust:exact;
+  print-color-adjust:exact;
+  box-shadow:0 2px 14px rgba(40,30,15,0.14);
+}
+.sheet-a4 > .page-content{
+  position:relative;
+  z-index:1;
+  height:100%;
+  padding:70px 72px 86px;
+  display:flex;
+  flex-direction:column;
+}
+/* watermark — a small boxed author name in the footer of every interior page.
+   It is NOT a large diagonal background mark. The name is filled by build_any.py
+   (meta["author"]); the box lives in the page footer beside the page number. */
+.page-foot .wm{
+  font-family:var(--font-label); font-size:8px; letter-spacing:0.2em;
+  text-transform:uppercase; color:var(--maroon);
+  border:1px solid var(--rule-strong); border-radius:2px;
+  padding:2px 7px; margin:0 12px; white-space:nowrap;
+  background:var(--panel-2);
+}
+
+/* ---------- footers ---------- */
+.page-foot{
+  position:absolute; left:72px; right:72px; bottom:40px;
+  display:flex; align-items:center; justify-content:space-between;
+  font-family:var(--font-label); font-size:10.5px; letter-spacing:0.16em;
+  text-transform:uppercase; color:var(--foot); z-index:3;
+}
+.page-foot .rule{ flex:1; height:1px; background:var(--rule); margin:0 14px; }
+.page-foot .pg{ color:var(--maroon); font-weight:600; letter-spacing:0.08em; }
+
+/* ---------- generic type ---------- */
+p{ margin:0 0 14px; font-size:17px; line-height:1.62; text-align:justify; hyphens:auto; }
+p.first{ text-indent:0; }
+.lead{ font-size:19px; line-height:1.55; color:var(--ink-soft); }
+h1,h2,h3{ font-family:var(--font-body); color:var(--maroon); margin:0; font-weight:600; }
+em{ font-style:italic; }
+strong{ font-weight:600; color:var(--maroon-deep); }
+a{ color:var(--maroon); text-decoration:none; }
+
+/* ---------- chapter opener ---------- */
+.chapter-open{ margin-bottom:26px; border-bottom:1px solid var(--rule); padding-bottom:18px; }
+.chapter-kicker{
+  font-family:var(--font-label); font-size:11px; letter-spacing:0.34em;
+  text-transform:uppercase; color:var(--gold); margin-bottom:12px;
+}
+.chapter-open h1{ font-size:40px; line-height:1.1; letter-spacing:-0.01em; }
+.chapter-open .chap-num{
+  font-family:var(--font-label); font-weight:600; font-size:13px;
+  letter-spacing:0.2em; color:var(--maroon); display:block; margin-bottom:6px;
+}
+
+h2{ font-size:25px; line-height:1.2; margin:22px 0 12px; }
+h3{ font-size:20px; line-height:1.25; margin:18px 0 8px; color:var(--maroon-deep); }
+
+/* ---------- front matter ---------- */
+.center-page{ flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; }
+.cover{ background:linear-gradient(160deg,var(--cover-1) 0%,var(--cover-2) 46%,var(--cover-3) 100%); color:var(--on-dark); }
+.cover .page-content{ align-items:center; justify-content:center; text-align:center; }
+.cover .sheet-rule{ width:120px; height:2px; background:var(--gold-soft); margin:26px auto; }
+.cover .bigname{ font-family:var(--font-label); font-size:12px; letter-spacing:0.5em; text-transform:uppercase; color:var(--gold-soft); }
+.cover h1{ font-size:74px; line-height:0.98; color:var(--on-dark-title); letter-spacing:-0.02em; }
+.cover .subtitle{ font-size:21px; font-style:italic; color:var(--on-dark-sub); margin-top:22px; max-width:520px; }
+.cover .author{ font-family:var(--font-label); font-size:15px; letter-spacing:0.32em; text-transform:uppercase; color:var(--on-dark-author); margin-top:56px; }
+.cover .imprint{ font-family:var(--font-label); font-size:10px; letter-spacing:0.34em; text-transform:uppercase; color:var(--on-dark-gold); margin-top:14px; }
+.title-page h1{ font-size:52px; line-height:1.02; margin-bottom:18px; }
+.title-page .subtitle{ font-size:22px; font-style:italic; color:var(--ink-soft); margin-bottom:34px; }
+.title-page .author{ font-family:var(--font-label); font-size:14px; letter-spacing:0.3em; text-transform:uppercase; color:var(--maroon); }
+.title-page .imprint{ font-family:var(--font-label); font-size:11px; letter-spacing:0.3em; text-transform:uppercase; color:var(--ink-faint); margin-top:40px; }
+.dedication p{ font-size:20px; font-style:italic; text-align:center; color:var(--ink-soft); }
+.front-h{ font-family:var(--font-label); font-size:13px; letter-spacing:0.34em; text-transform:uppercase; color:var(--maroon); margin-bottom:22px; }
+.copy-page{ font-size:14px; line-height:1.7; color:var(--ink-soft); }
+.copy-page p{ font-size:14px; text-align:left; }
+
+/* ---------- about the author ---------- */
+.author-body p{ text-align:left; }
+
+/* ---------- TOC ---------- */
+.toc h1{ font-size:34px; margin-bottom:20px; }
+.toc-list{ list-style:none; margin:0; padding:0; }
+.toc-list li{ display:flex; align-items:baseline; font-size:16px; padding:6px 0; border-bottom:1px dotted var(--rule); }
+.toc-list .t{ color:var(--ink); }
+.toc-list .dots{ flex:1; border-bottom:1px dotted var(--rule-strong); margin:0 8px; transform:translateY(-3px); }
+.toc-list .pg{ font-family:var(--font-label); font-size:13px; color:var(--maroon); font-weight:600; }
+.toc-list li.lvl2{ padding-left:22px; font-size:15px; color:var(--ink-soft); }
+
+/* ---------- glossary / index / biblio ---------- */
+.entry{ margin-bottom:12px; }
+.entry .term{ font-weight:600; color:var(--maroon-deep); }
+.idx{ column-count:2; column-gap:40px; font-size:14.5px; line-height:1.5; }
+.idx .letter{ font-family:var(--font-label); font-weight:600; color:var(--maroon); margin:10px 0 4px; font-size:13px; letter-spacing:0.1em; }
+.idx .item{ margin-bottom:2px; break-inside:avoid; }
+.biblio .ref{ font-size:15px; line-height:1.5; margin-bottom:12px; padding-left:26px; text-indent:-26px; text-align:left; }
+
+/* ---------- vignette / callouts ---------- */
+.vignette{ background:var(--panel); border-left:3px solid var(--gold); padding:16px 20px; margin:18px 0; }
+.vignette .vlabel{ font-family:var(--font-label); font-size:10.5px; letter-spacing:0.26em; text-transform:uppercase; color:var(--maroon); margin-bottom:8px; }
+.vignette p{ font-size:16px; margin-bottom:8px; }
+.callout{ border:1px solid var(--rule-strong); border-radius:4px; padding:14px 18px; margin:16px 0; background:var(--panel-2); }
+.callout .clabel{ font-family:var(--font-label); font-size:10.5px; letter-spacing:0.24em; text-transform:uppercase; color:var(--gold); margin-bottom:6px; }
+.callout p{ font-size:16px; margin-bottom:6px; }
+
+/* ---------- tables ---------- */
+table.data{ width:100%; border-collapse:collapse; margin:18px 0; font-size:14.5px; }
+table.data caption{ font-family:var(--font-label); font-size:10.5px; letter-spacing:0.2em; text-transform:uppercase; color:var(--ink-faint); text-align:left; margin-bottom:8px; }
+table.data th{ background:var(--maroon); color:var(--th-text); font-family:var(--font-label); font-weight:600; font-size:11.5px; letter-spacing:0.06em; text-transform:uppercase; text-align:left; padding:9px 11px; }
+table.data td{ padding:9px 11px; border-bottom:1px solid var(--rule); vertical-align:top; line-height:1.42; }
+table.data tr:nth-child(even) td{ background:var(--zebra); }
+
+/* ---------- figures ---------- */
+figure.fig{ margin:20px 0; page-break-inside:avoid; }
+figure.fig svg, figure.fig img{ display:block; width:100%; height:auto; }
+figure.fig figcaption{ font-family:var(--font-label); font-size:10.5px; letter-spacing:0.14em; text-transform:uppercase; color:var(--ink-faint); margin-top:8px; text-align:center; }
+figure.fig .figtitle{ font-family:var(--font-label); font-size:11px; letter-spacing:0.16em; text-transform:uppercase; color:var(--maroon); text-align:center; margin-bottom:6px; }
+
+/* ---------- poem ---------- */
+.poem{ text-align:center; }
+.poem h1{ font-size:30px; margin-bottom:26px; }
+.poem .stanza{ margin-bottom:24px; }
+.poem .line{ font-size:18px; line-height:1.7; font-style:italic; color:var(--ink-soft); }
+
+/* ---------- back cover ---------- */
+.backcover{ background:linear-gradient(160deg,var(--backcover-1) 0%,var(--backcover-2) 60%,var(--backcover-3) 100%); color:var(--on-dark); }
+.backcover .page-content{ justify-content:center; }
+.backcover h2{ color:var(--on-dark-title); font-size:26px; margin-bottom:14px; }
+.backcover p{ color:var(--on-dark-sub); font-size:16px; text-align:left; }
+.backcover .series-line{ font-family:var(--font-label); font-size:11px; letter-spacing:0.28em; text-transform:uppercase; color:var(--gold-soft); margin-top:24px; }
+
+/* ---------- also-in-series ---------- */
+.series h1{ font-size:32px; margin-bottom:10px; }
+.series .intro{ color:var(--ink-soft); margin-bottom:20px; }
+.series-card{ border:1px solid var(--rule-strong); border-radius:4px; padding:16px 18px; margin-bottom:14px; background:var(--panel-2); }
+.series-card .sc-title{ font-size:21px; color:var(--maroon); font-weight:600; }
+.series-card .sc-sub{ font-family:var(--font-label); font-size:10.5px; letter-spacing:0.16em; text-transform:uppercase; color:var(--gold); margin:4px 0 8px; }
+.series-card p{ font-size:15px; margin:0; }
+
+/* ---------- print ---------- */
+@page{ size:A4; margin:0; }
+@media print{
+  html,body{ background:#fff; }
+  .sheet-a4{ margin:0; box-shadow:none; page-break-after:always; break-after:page; }
+  .sheet-a4:last-child{ page-break-after:auto; break-after:auto; }
+}

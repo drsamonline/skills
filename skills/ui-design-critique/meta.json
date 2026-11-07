@@ -1,0 +1,26 @@
+{
+  "id": "ui-design-critique",
+  "name": "UI design critique (Apple HIG and UX writing)",
+  "category": "frontend-ui",
+  "description": "Critique a UI screenshot, mockup or design against Apple's Human Interface Guidelines and UX writing principles. Use whenever a screenshot or design of an interface is shared — desktop, web or mobile — even if feedback was not explicitly requested. Default output is a short, well-formed quick read; a full section breakdown only when asked.",
+  "tags": [
+    "design-critique",
+    "apple-hig",
+    "ux-writing",
+    "accessibility",
+    "screenshots",
+    "heuristics"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-11-07",
+  "merged_from": [
+    "ui-design-critique"
+  ],
+  "upstream": {
+    "kind": "uploaded skill pack",
+    "archive": "s.zip",
+    "imported": "2026-11-07",
+    "note": "merged from the owner's own skill collection; each source is preserved under references/"
+  }
+}

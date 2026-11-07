@@ -1,0 +1,21 @@
+{
+  "OF": "Offline / no network at runtime",
+  "PWA": "Installable (service worker)",
+  "SF": "Single-file deliverable",
+  "ZD": "Zero runtime dependencies",
+  "I18N": "Multilingual UI",
+  "LAN": "LAN / room / multi-device",
+  "CR": "Encryption & key handling",
+  "EX": "Data export",
+  "SE": "Indexed / ranked search",
+  "CL": "Clinical decision support",
+  "CA": "Longitudinal case records",
+  "ME": "Media / PDF / audio processing",
+  "GA": "Game / interactive simulation",
+  "EN": "Reusable engine or kit",
+  "TO": "Build / CI / meta tooling",
+  "CO": "Bundled reference corpus",
+  "OP": "Optical transfer",
+  "UT": "General utility / toolbox",
+  "ED": "Teaching / curriculum"
+}

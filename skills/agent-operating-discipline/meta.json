@@ -1,0 +1,27 @@
+{
+  "id": "agent-operating-discipline",
+  "name": "Agent operating discipline",
+  "category": "engineering-workflow",
+  "description": "How to work rather than what to build: split work into independent tasks and dispatch them in parallel with focused context, and refuse to claim anything is done until a verification command has actually run and its output read. Use before starting multi-part work, when several independent tasks could run concurrently, or whenever you are about to say a task is complete, fixed or passing.",
+  "tags": [
+    "agents",
+    "delegation",
+    "parallelism",
+    "verification",
+    "evidence",
+    "discipline"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-11-07",
+  "merged_from": [
+    "dispatching-parallel-agents",
+    "verification-before-completion"
+  ],
+  "upstream": {
+    "kind": "uploaded skill pack",
+    "archive": "s.zip",
+    "imported": "2026-11-07",
+    "note": "merged from the owner's own skill collection; each source is preserved under references/"
+  }
+}

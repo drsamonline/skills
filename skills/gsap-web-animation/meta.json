@@ -1,0 +1,28 @@
+{
+  "id": "gsap-web-animation",
+  "name": "GSAP web animation",
+  "category": "frontend-ui",
+  "description": "Animate the DOM and SVG with GSAP: tweens, timelines, easing, stagger, ScrollTrigger-family scrolling, Flip, Draggable, SplitText, SVG drawing and morphing, and plugin registration. Use when the user wants a JavaScript animation library, scroll-driven or timeline animation, split-text reveals, draggable interfaces, or responsive and reduced-motion-aware motion.",
+  "tags": [
+    "gsap",
+    "animation",
+    "javascript",
+    "scrolltrigger",
+    "svg",
+    "timeline",
+    "splittext"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-11-07",
+  "merged_from": [
+    "gsap-core",
+    "gsap-plugins"
+  ],
+  "upstream": {
+    "kind": "uploaded skill pack",
+    "archive": "s.zip",
+    "imported": "2026-11-07",
+    "note": "merged from the owner's own skill collection; each source is preserved under references/"
+  }
+}

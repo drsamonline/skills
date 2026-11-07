@@ -1,0 +1,27 @@
+{
+  "id": "graph-neural-networks",
+  "name": "Graph neural networks with PyTorch Geometric",
+  "category": "ai-and-ml",
+  "description": "Build graph neural networks with PyTorch Geometric: node, link and graph classification; message passing with GCN, GAT, GraphSAGE, GIN; heterogeneous graphs; neighbour sampling for large graphs; custom datasets and transforms. Use when working with `torch_geometric`, not for general NetworkX analytics or non-graph PyTorch models.",
+  "tags": [
+    "pyg",
+    "gnn",
+    "graph-learning",
+    "pytorch",
+    "message-passing",
+    "heterogeneous",
+    "sampling"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-11-07",
+  "merged_from": [
+    "torch-geometric"
+  ],
+  "upstream": {
+    "kind": "uploaded skill pack",
+    "archive": "s.zip",
+    "imported": "2026-11-07",
+    "note": "merged from the owner's own skill collection; each source is preserved under references/"
+  }
+}

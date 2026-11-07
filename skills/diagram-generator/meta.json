@@ -1,0 +1,26 @@
+{
+  "id": "diagram-generator",
+  "name": "Diagram generator (Excalidraw)",
+  "category": "media-design",
+  "description": "Turn a description into an Excalidraw `.excalidraw` JSON diagram: flowcharts, system architecture, relationship maps, mind maps, org and process diagrams. Use when asked to 'create a diagram', 'draw a flowchart', 'visualise this process', or to output a file that opens directly in Excalidraw.",
+  "tags": [
+    "diagrams",
+    "excalidraw",
+    "flowchart",
+    "architecture",
+    "mind-map",
+    "json"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-11-07",
+  "merged_from": [
+    "excalidraw-diagram-generator"
+  ],
+  "upstream": {
+    "kind": "uploaded skill pack",
+    "archive": "s.zip",
+    "imported": "2026-11-07",
+    "note": "merged from the owner's own skill collection; each source is preserved under references/"
+  }
+}

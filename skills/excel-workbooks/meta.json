@@ -1,0 +1,28 @@
+{
+  "id": "excel-workbooks",
+  "name": "Excel and spreadsheet playbooks",
+  "category": "office-docs",
+  "description": "Route any spreadsheet job by the workbook state that must survive: create, clean, extract, analyse, build a dashboard, audit, repair, or automate — in Excel, WPS, LibreOffice Calc or Numbers. Use when the user asks what can be done with a spreadsheet, hands over a workbook, or needs formulas, a pivot, a template or a repair.",
+  "tags": [
+    "excel",
+    "spreadsheet",
+    "xlsx",
+    "formulas",
+    "pivot",
+    "libreoffice",
+    "audit",
+    "automation"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-11-07",
+  "merged_from": [
+    "excel-playbooks"
+  ],
+  "upstream": {
+    "kind": "uploaded skill pack",
+    "archive": "s.zip",
+    "imported": "2026-11-07",
+    "note": "merged from the owner's own skill collection; each source is preserved under references/"
+  }
+}

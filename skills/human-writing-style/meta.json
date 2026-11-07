@@ -1,0 +1,28 @@
+{
+  "id": "human-writing-style",
+  "name": "Human writing style (remove AI tells)",
+  "category": "docs-and-planning",
+  "description": "Edit prose so it reads like a person wrote it, or detect the patterns that make it read as machine output: not-X-but-Y contrasts, one-line closers, staged openers, forced triads, dash overuse, inflated significance, vague attribution, stock AI vocabulary, bold labels, chat leftovers. Use when a draft should be clearer, more direct, more opinionated or less AI-sounding, or when asked whether writing reads as AI.",
+  "tags": [
+    "editing",
+    "writing",
+    "ai-tells",
+    "voice",
+    "plain-language",
+    "style"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-11-07",
+  "merged_from": [
+    "humanizer",
+    "humanizer-variant",
+    "no-ai-slop"
+  ],
+  "upstream": {
+    "kind": "uploaded skill pack",
+    "archive": "s.zip",
+    "imported": "2026-11-07",
+    "note": "merged from the owner's own skill collection; each source is preserved under references/"
+  }
+}

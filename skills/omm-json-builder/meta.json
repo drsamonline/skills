@@ -1,0 +1,28 @@
+{
+  "id": "omm-json-builder",
+  "name": "OMM JSON builder (materia medica and repertory extraction)",
+  "category": "data-and-schema",
+  "description": "Convert raw homeopathic source texts — OCR text, DjVu XML, or a typed transcription — into clean, app-ready JSON, one file per book, for a materia medica / repertory reader. Use to add a book to the OMM collection, rebuild a volume whose headings OCR destroyed, validate or repair an extraction, or work with the homeopathy JSON schema. It structures text that already exists; it never generates homeopathic content.",
+  "tags": [
+    "homeopathy",
+    "json",
+    "ocr",
+    "djvu",
+    "materia-medica",
+    "repertory",
+    "extraction",
+    "public-domain"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-11-07",
+  "merged_from": [
+    "omm-json-builder"
+  ],
+  "upstream": {
+    "kind": "uploaded skill pack",
+    "archive": "s.zip",
+    "imported": "2026-11-07",
+    "note": "merged from the owner's own skill collection; each source is preserved under references/"
+  }
+}

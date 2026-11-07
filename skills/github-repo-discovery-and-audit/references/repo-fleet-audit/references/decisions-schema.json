@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Fleet audit decisions",
+  "description": "The four analyses recorded as data. One object per recommendation. A recommendation that cannot be written as one of these objects is not yet a finding.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["analysis", "name", "why", "effort"],
+    "properties": {
+      "analysis": {
+        "enum": ["improvement-pair", "suite", "merge", "new-product"]
+      },
+      "name": {
+        "type": "string",
+        "description": "The pair, the suite, the merged product, or the new product."
+      },
+      "rank": {
+        "type": "integer",
+        "description": "Position in the value / effort ordering. 1 is done first."
+      },
+      "from": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "Improvement pairs: the donor repository."
+      },
+      "to": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "Improvement pairs: the receiving repository."
+      },
+      "components": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "Suites, merges and products: the repositories that supply a part."
+      },
+      "parts": {
+        "type": "object",
+        "additionalProperties": { "type": "string" },
+        "description": "New products: component name to the repository that already supplies it."
+      },
+      "what": {
+        "type": "string",
+        "description": "The specific thing that moves, named at the level of a function, format or algorithm. Never 'the crypto'."
+      },
+      "spine": {
+        "type": "string",
+        "description": "Suites: the shared model in one sentence, and which repository owns it or that it must be created."
+      },
+      "why": {
+        "type": "string",
+        "description": "Why it matters to a user, not to a maintainer."
+      },
+      "effort": {
+        "enum": ["days", "1-2 weeks", "3-6 weeks", "months"]
+      },
+      "risk": {
+        "type": "string",
+        "description": "The one real risk, not a list."
+      },
+      "do_nothing": {
+        "type": "boolean",
+        "description": "True for the explicit do-nothing list. Naming what not to touch is part of the answer."
+      }
+    }
+  }
+}

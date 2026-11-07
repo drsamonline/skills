@@ -1,0 +1,29 @@
+{
+  "id": "charts-and-dashboards",
+  "name": "Charts and dashboards",
+  "category": "data-and-schema",
+  "description": "Turn data into a chart that explains it and a dashboard that can be read: statistical plots in Seaborn and self-contained interactive HTML dashboards with KPI cards, filters and Chart.js. Use for distributions, relationships, categorical comparisons, regression displays, heatmaps, executive overviews, monitoring snapshots, or a shareable one-file report.",
+  "tags": [
+    "charts",
+    "dashboard",
+    "seaborn",
+    "chartjs",
+    "kpi",
+    "visualization",
+    "html-report",
+    "pandas"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-11-07",
+  "merged_from": [
+    "build-dashboard",
+    "seaborn"
+  ],
+  "upstream": {
+    "kind": "uploaded skill pack",
+    "archive": "s.zip",
+    "imported": "2026-11-07",
+    "note": "merged from the owner's own skill collection; each source is preserved under references/"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "music-and-audio-generation",
+  "name": "Music and audio generation",
+  "category": "media-design",
+  "description": "Generate music, songs and soundtracks — instrumentals, vocals from lyrics, covers and style transfer, stem extraction, repainting a weak section, continuation — and craft the prompt that gets them. Use for background music, a jingle, a soundtrack for a video, or any request that reaches a music generation model. Covers prompt structure, the nine dimensions, and multi-clip continuity.",
+  "tags": [
+    "music",
+    "audio",
+    "ace-step",
+    "soundtrack",
+    "prompting",
+    "stems",
+    "jingles"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-11-07",
+  "merged_from": [
+    "acestep",
+    "music-prompter"
+  ],
+  "upstream": {
+    "kind": "uploaded skill pack",
+    "archive": "s.zip",
+    "imported": "2026-11-07",
+    "note": "merged from the owner's own skill collection; each source is preserved under references/"
+  }
+}

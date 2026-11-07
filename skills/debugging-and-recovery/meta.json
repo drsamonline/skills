@@ -1,0 +1,26 @@
+{
+  "id": "debugging-and-recovery",
+  "name": "Debugging and error recovery",
+  "category": "code-quality",
+  "description": "Find the root cause of a failure instead of guessing: reproduce, localise, reduce, fix the cause, guard against recurrence, verify end to end. Use when a test fails, a build breaks, something that worked yesterday stopped working, behaviour does not match expectations, or an unexpected error appears.",
+  "tags": [
+    "debugging",
+    "root-cause",
+    "tests",
+    "bisect",
+    "triage",
+    "recovery"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-11-07",
+  "merged_from": [
+    "debugging-and-error-recovery"
+  ],
+  "upstream": {
+    "kind": "uploaded skill pack",
+    "archive": "s.zip",
+    "imported": "2026-11-07",
+    "note": "merged from the owner's own skill collection; each source is preserved under references/"
+  }
+}

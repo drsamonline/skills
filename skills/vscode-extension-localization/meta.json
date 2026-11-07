@@ -1,0 +1,26 @@
+{
+  "id": "vscode-extension-localization",
+  "name": "VS Code extension localization",
+  "category": "code-quality",
+  "description": "Localise a VS Code extension the way the platform expects: the three localization approaches (package manifest strings, the `vscode-nls` runtime bundle, and the language-pack/bundle mechanism), when to use each, and how to keep them consistent as new resources appear. Use when an extension must support multiple languages or its strings need externalising.",
+  "tags": [
+    "vscode",
+    "localization",
+    "i18n",
+    "nls",
+    "extensions",
+    "typescript"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-11-07",
+  "merged_from": [
+    "vscode-ext-localization"
+  ],
+  "upstream": {
+    "kind": "uploaded skill pack",
+    "archive": "s.zip",
+    "imported": "2026-11-07",
+    "note": "merged from the owner's own skill collection; each source is preserved under references/"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "ai-video-generation",
+  "name": "AI video generation (Muapi model stack)",
+  "category": "media-design",
+  "description": "Generate a video clip with the muapi.ai model stack: character sheets, storyboards, image-to-video, UGC ads, product ads, music videos, cartoon dance and UI mockups. Use when the user wants an AI-generated video or ad from a photo, a brief, a lyric or a storyboard, or names Seedance, Nano-Banana, GPT-Image-2 or muapi. Not for editing footage that already exists (use video-clip-finder) or for code-driven motion graphics (use html-video-production).",
+  "tags": [
+    "ai-video",
+    "image-to-video",
+    "seedance",
+    "storyboard",
+    "ugc-ads",
+    "product-video",
+    "muapi"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-11-07",
+  "merged_from": [
+    "muapi-ai-fight-scene",
+    "muapi-animal-video-generator",
+    "muapi-cartoon-dance-animation",
+    "muapi-music-video",
+    "muapi-product-video-ad-maker",
+    "muapi-social-media-video",
+    "muapi-ugc-video-factory",
+    "muapi-ui-design"
+  ],
+  "upstream": {
+    "kind": "uploaded skill pack",
+    "archive": "s.zip",
+    "imported": "2026-11-07",
+    "note": "merged from the owner's own skill collection; each source is preserved under references/"
+  }
+}

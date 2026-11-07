@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-02",
-  "count": 1514,
+  "generated": "2026-11-07",
+  "count": 1545,
   "categories": [
     "web-app-patterns",
     "android-packaging",
@@ -35524,6 +35524,872 @@
         "lexora",
         "compress-kit"
       ]
+    },
+    {
+      "id": "agent-operating-discipline",
+      "name": "Agent operating discipline",
+      "category": "engineering-workflow",
+      "description": "How to work rather than what to build: split work into independent tasks and dispatch them in parallel with focused context, and refuse to claim anything is done until a verification command has actually run and its output read. Use before starting multi-part work, when several independent tasks could run concurrently, or whenever you are about to say a task is complete, fixed or passing.",
+      "tags": [
+        "agents",
+        "delegation",
+        "parallelism",
+        "verification",
+        "evidence",
+        "discipline"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-11-07",
+      "merged_from": [
+        "dispatching-parallel-agents",
+        "verification-before-completion"
+      ],
+      "upstream": {
+        "kind": "uploaded skill pack",
+        "archive": "s.zip",
+        "imported": "2026-11-07",
+        "note": "merged from the owner's own skill collection; each source is preserved under references/"
+      }
+    },
+    {
+      "id": "ai-video-generation",
+      "name": "AI video generation (Muapi model stack)",
+      "category": "media-design",
+      "description": "Generate a video clip with the muapi.ai model stack: character sheets, storyboards, image-to-video, UGC ads, product ads, music videos, cartoon dance and UI mockups. Use when the user wants an AI-generated video or ad from a photo, a brief, a lyric or a storyboard, or names Seedance, Nano-Banana, GPT-Image-2 or muapi. Not for editing footage that already exists (use video-clip-finder) or for code-driven motion graphics (use html-video-production).",
+      "tags": [
+        "ai-video",
+        "image-to-video",
+        "seedance",
+        "storyboard",
+        "ugc-ads",
+        "product-video",
+        "muapi"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-11-07",
+      "merged_from": [
+        "muapi-ai-fight-scene",
+        "muapi-animal-video-generator",
+        "muapi-cartoon-dance-animation",
+        "muapi-music-video",
+        "muapi-product-video-ad-maker",
+        "muapi-social-media-video",
+        "muapi-ugc-video-factory",
+        "muapi-ui-design"
+      ],
+      "upstream": {
+        "kind": "uploaded skill pack",
+        "archive": "s.zip",
+        "imported": "2026-11-07",
+        "note": "merged from the owner's own skill collection; each source is preserved under references/"
+      }
+    },
+    {
+      "id": "charts-and-dashboards",
+      "name": "Charts and dashboards",
+      "category": "data-and-schema",
+      "description": "Turn data into a chart that explains it and a dashboard that can be read: statistical plots in Seaborn and self-contained interactive HTML dashboards with KPI cards, filters and Chart.js. Use for distributions, relationships, categorical comparisons, regression displays, heatmaps, executive overviews, monitoring snapshots, or a shareable one-file report.",
+      "tags": [
+        "charts",
+        "dashboard",
+        "seaborn",
+        "chartjs",
+        "kpi",
+        "visualization",
+        "html-report",
+        "pandas"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-11-07",
+      "merged_from": [
+        "build-dashboard",
+        "seaborn"
+      ],
+      "upstream": {
+        "kind": "uploaded skill pack",
+        "archive": "s.zip",
+        "imported": "2026-11-07",
+        "note": "merged from the owner's own skill collection; each source is preserved under references/"
+      }
+    },
+    {
+      "id": "code-and-project-documentation",
+      "name": "Code and project documentation",
+      "category": "docs-and-planning",
+      "description": "Write the documentation a codebase actually needs: docstrings, API references (OpenAPI/Swagger, JSDoc), documentation sites, READMEs matched to their audience, and lean AGENTS.md/CLAUDE.md instruction files. Use when documenting functions or APIs, building a docs site, writing or fixing a README, or refactoring a bloated agent instruction file into linked progressive-disclosure docs.",
+      "tags": [
+        "documentation",
+        "readme",
+        "docstrings",
+        "openapi",
+        "jsdoc",
+        "agents-md",
+        "progressive-disclosure"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-11-07",
+      "merged_from": [
+        "code-documenter",
+        "crafting-effective-readmes",
+        "agent-md-refactor"
+      ],
+      "upstream": {
+        "kind": "uploaded skill pack",
+        "archive": "s.zip",
+        "imported": "2026-11-07",
+        "note": "merged from the owner's own skill collection; each source is preserved under references/"
+      }
+    },
+    {
+      "id": "code-review-and-release-gate",
+      "name": "Code review and release gate",
+      "category": "code-quality",
+      "description": "Review a diff, pull request or release candidate and produce a prioritised, evidence-backed verdict: bugs, security issues, N+1 queries, code smells, architectural concerns, documentation coverage, and a ship-or-block call. Use for pull-request review, a code-quality audit, a pre-merge check, or deciding whether a release candidate is safe to ship.",
+      "tags": [
+        "code-review",
+        "pull-request",
+        "security",
+        "release",
+        "verdict",
+        "quality-gate"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-11-07",
+      "merged_from": [
+        "code-reviewer",
+        "final-release-review"
+      ],
+      "upstream": {
+        "kind": "uploaded skill pack",
+        "archive": "s.zip",
+        "imported": "2026-11-07",
+        "note": "merged from the owner's own skill collection; each source is preserved under references/"
+      }
+    },
+    {
+      "id": "database-querying",
+      "name": "Scientific and public database lookup",
+      "category": "data-and-schema",
+      "description": "Query documented public database APIs — scientific, regulatory, financial, chemical, biomedical — with explicit endpoints, filters, pagination and provenance, so a database-backed fact is retrieved reproducibly from a named source instead of inferred. Use when a claim must come from PubChem, Reactome or a similar named database, or an identifier must be resolved.",
+      "tags": [
+        "database",
+        "api",
+        "provenance",
+        "pubchem",
+        "reactome",
+        "identifiers",
+        "reproducibility"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-11-07",
+      "merged_from": [
+        "database-lookup"
+      ],
+      "upstream": {
+        "kind": "uploaded skill pack",
+        "archive": "s.zip",
+        "imported": "2026-11-07",
+        "note": "merged from the owner's own skill collection; each source is preserved under references/"
+      }
+    },
+    {
+      "id": "debugging-and-recovery",
+      "name": "Debugging and error recovery",
+      "category": "code-quality",
+      "description": "Find the root cause of a failure instead of guessing: reproduce, localise, reduce, fix the cause, guard against recurrence, verify end to end. Use when a test fails, a build breaks, something that worked yesterday stopped working, behaviour does not match expectations, or an unexpected error appears.",
+      "tags": [
+        "debugging",
+        "root-cause",
+        "tests",
+        "bisect",
+        "triage",
+        "recovery"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-11-07",
+      "merged_from": [
+        "debugging-and-error-recovery"
+      ],
+      "upstream": {
+        "kind": "uploaded skill pack",
+        "archive": "s.zip",
+        "imported": "2026-11-07",
+        "note": "merged from the owner's own skill collection; each source is preserved under references/"
+      }
+    },
+    {
+      "id": "diagram-generator",
+      "name": "Diagram generator (Excalidraw)",
+      "category": "media-design",
+      "description": "Turn a description into an Excalidraw `.excalidraw` JSON diagram: flowcharts, system architecture, relationship maps, mind maps, org and process diagrams. Use when asked to 'create a diagram', 'draw a flowchart', 'visualise this process', or to output a file that opens directly in Excalidraw.",
+      "tags": [
+        "diagrams",
+        "excalidraw",
+        "flowchart",
+        "architecture",
+        "mind-map",
+        "json"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-11-07",
+      "merged_from": [
+        "excalidraw-diagram-generator"
+      ],
+      "upstream": {
+        "kind": "uploaded skill pack",
+        "archive": "s.zip",
+        "imported": "2026-11-07",
+        "note": "merged from the owner's own skill collection; each source is preserved under references/"
+      }
+    },
+    {
+      "id": "document-output-formats",
+      "name": "Document output formats (PDF, slides, HTML)",
+      "category": "office-docs",
+      "description": "Produce the finished artefact from written content: a print-ready PDF via Typst, a Marp slide deck, or a styled HTML page from Markdown. Use when a report, paper, resume, handout, deck or web page must come out of Markdown or structured text with real typography and page layout. Not for editing an existing Word file or a spreadsheet.",
+      "tags": [
+        "pdf",
+        "typst",
+        "marp",
+        "slides",
+        "markdown",
+        "html",
+        "pandoc",
+        "typesetting"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-11-07",
+      "merged_from": [
+        "typst-pdf-maker",
+        "marp-slide",
+        "markdown-to-html"
+      ],
+      "upstream": {
+        "kind": "uploaded skill pack",
+        "archive": "s.zip",
+        "imported": "2026-11-07",
+        "note": "merged from the owner's own skill collection; each source is preserved under references/"
+      }
+    },
+    {
+      "id": "excel-workbooks",
+      "name": "Excel and spreadsheet playbooks",
+      "category": "office-docs",
+      "description": "Route any spreadsheet job by the workbook state that must survive: create, clean, extract, analyse, build a dashboard, audit, repair, or automate — in Excel, WPS, LibreOffice Calc or Numbers. Use when the user asks what can be done with a spreadsheet, hands over a workbook, or needs formulas, a pivot, a template or a repair.",
+      "tags": [
+        "excel",
+        "spreadsheet",
+        "xlsx",
+        "formulas",
+        "pivot",
+        "libreoffice",
+        "audit",
+        "automation"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-11-07",
+      "merged_from": [
+        "excel-playbooks"
+      ],
+      "upstream": {
+        "kind": "uploaded skill pack",
+        "archive": "s.zip",
+        "imported": "2026-11-07",
+        "note": "merged from the owner's own skill collection; each source is preserved under references/"
+      }
+    },
+    {
+      "id": "file-organizer-taxonomy",
+      "name": "File organizer taxonomy",
+      "category": "sysadmin-ops",
+      "description": "Classification, naming and recording rules for sorting a drive: bucket assignment from the owner's real folders, linked-file protection, duplicate handling, and the two artefacts — a location map and a sorted files index. Use on every run before any file is moved, and whenever a file-sorting or Drive-cleanup agent needs its rules.",
+      "tags": [
+        "files",
+        "google-drive",
+        "taxonomy",
+        "deduplication",
+        "naming",
+        "organizing"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-11-07",
+      "merged_from": [
+        "file-triage-taxonomy"
+      ],
+      "upstream": {
+        "kind": "uploaded skill pack",
+        "archive": "s.zip",
+        "imported": "2026-11-07",
+        "note": "merged from the owner's own skill collection; each source is preserved under references/"
+      }
+    },
+    {
+      "id": "frontend-engineering",
+      "name": "Frontend engineering (design system, scaffold, performance)",
+      "category": "frontend-ui",
+      "description": "Build a modern web front end properly: pick the stack and scaffold it, declare a design system and design tokens before writing UI, keep the visual craft high, and hold the performance budget. Use for a new web app or dashboard, a design-system or token pass, a React/shadcn/Tailwind build, a single-file interactive playground, or a 'why is my site slow' audit. Not for back-end work or non-visual coding.",
+      "tags": [
+        "frontend",
+        "design-system",
+        "tailwind",
+        "react",
+        "shadcn",
+        "performance",
+        "scaffold",
+        "playground"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-11-07",
+      "merged_from": [
+        "web-design-engineer",
+        "tailwind-design-system",
+        "spark-app-template",
+        "performance",
+        "playground"
+      ],
+      "upstream": {
+        "kind": "uploaded skill pack",
+        "archive": "s.zip",
+        "imported": "2026-11-07",
+        "note": "merged from the owner's own skill collection; each source is preserved under references/"
+      }
+    },
+    {
+      "id": "git-and-release-automation",
+      "name": "Git, CI and release automation",
+      "category": "ci-and-release",
+      "description": "The commit-to-release path: split and stage changes, write a Conventional Commit, gate on lint and tests, push safely, run the CI pipeline with quality gates, and produce the user-facing changelog report from merged PRs. Use when committing, pushing, setting up or fixing CI/CD, adding a quality gate, choosing a deployment strategy, or publishing a changelog.",
+      "tags": [
+        "git",
+        "conventional-commits",
+        "ci-cd",
+        "github-actions",
+        "changelog",
+        "deployment",
+        "release"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-11-07",
+      "merged_from": [
+        "git-commit",
+        "push-to-github",
+        "ci-cd-and-automation",
+        "changelog-report"
+      ],
+      "upstream": {
+        "kind": "uploaded skill pack",
+        "archive": "s.zip",
+        "imported": "2026-11-07",
+        "note": "merged from the owner's own skill collection; each source is preserved under references/"
+      }
+    },
+    {
+      "id": "github-repo-discovery-and-audit",
+      "name": "GitHub repo discovery and fleet audit",
+      "category": "engineering-workflow",
+      "description": "Two directions on GitHub: find a battle-tested open-source project that already solves the problem instead of reinventing it, or audit an entire account's repository fleet into a decision-grade capability matrix with merge and product recommendations. Use for 'is there a library for this', 'find me a tool that does X', 'scan all my repos', or 'what should I merge or build next'.",
+      "tags": [
+        "github",
+        "open-source",
+        "audit",
+        "capability-matrix",
+        "discovery",
+        "repo-fleet",
+        "licensing"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-11-07",
+      "merged_from": [
+        "repo-fleet-audit",
+        "github-gem-seeker"
+      ],
+      "upstream": {
+        "kind": "uploaded skill pack",
+        "archive": "s.zip",
+        "imported": "2026-11-07",
+        "note": "merged from the owner's own skill collection; each source is preserved under references/"
+      }
+    },
+    {
+      "id": "graph-neural-networks",
+      "name": "Graph neural networks with PyTorch Geometric",
+      "category": "ai-and-ml",
+      "description": "Build graph neural networks with PyTorch Geometric: node, link and graph classification; message passing with GCN, GAT, GraphSAGE, GIN; heterogeneous graphs; neighbour sampling for large graphs; custom datasets and transforms. Use when working with `torch_geometric`, not for general NetworkX analytics or non-graph PyTorch models.",
+      "tags": [
+        "pyg",
+        "gnn",
+        "graph-learning",
+        "pytorch",
+        "message-passing",
+        "heterogeneous",
+        "sampling"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-11-07",
+      "merged_from": [
+        "torch-geometric"
+      ],
+      "upstream": {
+        "kind": "uploaded skill pack",
+        "archive": "s.zip",
+        "imported": "2026-11-07",
+        "note": "merged from the owner's own skill collection; each source is preserved under references/"
+      }
+    },
+    {
+      "id": "gsap-web-animation",
+      "name": "GSAP web animation",
+      "category": "frontend-ui",
+      "description": "Animate the DOM and SVG with GSAP: tweens, timelines, easing, stagger, ScrollTrigger-family scrolling, Flip, Draggable, SplitText, SVG drawing and morphing, and plugin registration. Use when the user wants a JavaScript animation library, scroll-driven or timeline animation, split-text reveals, draggable interfaces, or responsive and reduced-motion-aware motion.",
+      "tags": [
+        "gsap",
+        "animation",
+        "javascript",
+        "scrolltrigger",
+        "svg",
+        "timeline",
+        "splittext"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-11-07",
+      "merged_from": [
+        "gsap-core",
+        "gsap-plugins"
+      ],
+      "upstream": {
+        "kind": "uploaded skill pack",
+        "archive": "s.zip",
+        "imported": "2026-11-07",
+        "note": "merged from the owner's own skill collection; each source is preserved under references/"
+      }
+    },
+    {
+      "id": "html-video-production",
+      "name": "HTML video production (HyperFrames)",
+      "category": "media-design",
+      "description": "Build editable, scene-based HTML videos and render them to MP4 with HyperFrames: GSAP timelines, kinetic typography, data-driven motion graphics, transitions, captions, lower thirds. Use when the video must be reproducible and editable from structured sources (PDF, repo, CSV, deck, design doc, URL, music track), or when the user mentions HyperFrames, GSAP timeline video, cut-the-curve, or a motion template. Not for photoreal generated footage (use ai-video-generation).",
+      "tags": [
+        "video",
+        "html-to-video",
+        "hyperframes",
+        "gsap",
+        "motion-graphics",
+        "kinetic-typography",
+        "mp4"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-11-07",
+      "merged_from": [
+        "html-video-production",
+        "hyperframes-registry",
+        "cut-the-curve",
+        "review-animations",
+        "video-template-frame-light-leak-cinema"
+      ],
+      "upstream": {
+        "kind": "uploaded skill pack",
+        "archive": "s.zip",
+        "imported": "2026-11-07",
+        "note": "merged from the owner's own skill collection; each source is preserved under references/"
+      }
+    },
+    {
+      "id": "human-writing-style",
+      "name": "Human writing style (remove AI tells)",
+      "category": "docs-and-planning",
+      "description": "Edit prose so it reads like a person wrote it, or detect the patterns that make it read as machine output: not-X-but-Y contrasts, one-line closers, staged openers, forced triads, dash overuse, inflated significance, vague attribution, stock AI vocabulary, bold labels, chat leftovers. Use when a draft should be clearer, more direct, more opinionated or less AI-sounding, or when asked whether writing reads as AI.",
+      "tags": [
+        "editing",
+        "writing",
+        "ai-tells",
+        "voice",
+        "plain-language",
+        "style"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-11-07",
+      "merged_from": [
+        "humanizer",
+        "humanizer-variant",
+        "no-ai-slop"
+      ],
+      "upstream": {
+        "kind": "uploaded skill pack",
+        "archive": "s.zip",
+        "imported": "2026-11-07",
+        "note": "merged from the owner's own skill collection; each source is preserved under references/"
+      }
+    },
+    {
+      "id": "image-editing-imagemagick",
+      "name": "Image editing with ImageMagick",
+      "category": "media-design",
+      "description": "Process and manipulate images from the command line with ImageMagick: resize, crop, convert formats, compose, batch-process folders, strip metadata, and read image information. Use when a task involves thumbnails, wallpapers, format conversion, or bulk image operations. Not for generative editing.",
+      "tags": [
+        "imagemagick",
+        "images",
+        "resize",
+        "batch",
+        "thumbnails",
+        "metadata",
+        "cli"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-11-07",
+      "merged_from": [
+        "image-manipulation-image-magick"
+      ],
+      "upstream": {
+        "kind": "uploaded skill pack",
+        "archive": "s.zip",
+        "imported": "2026-11-07",
+        "note": "merged from the owner's own skill collection; each source is preserved under references/"
+      }
+    },
+    {
+      "id": "knowledge-capture-and-recall",
+      "name": "Knowledge capture and recall",
+      "category": "notes-knowledge",
+      "description": "Synthesise many sources into one attributed answer, and recall what was decided before. Use when combining search results across sources, deduplicating overlapping findings, scoring confidence from freshness and authority, or when a question needs historical context — 'what did we decide about X', 'why did we do Y', 'have I seen this before'.",
+      "tags": [
+        "research",
+        "synthesis",
+        "citations",
+        "confidence",
+        "memory",
+        "recall",
+        "deduplication"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-11-07",
+      "merged_from": [
+        "knowledge-synthesis",
+        "memory-recall"
+      ],
+      "upstream": {
+        "kind": "uploaded skill pack",
+        "archive": "s.zip",
+        "imported": "2026-11-07",
+        "note": "merged from the owner's own skill collection; each source is preserved under references/"
+      }
+    },
+    {
+      "id": "long-form-writing",
+      "name": "Long-form writing (books and content)",
+      "category": "docs-and-planning",
+      "description": "Take a brief to a finished long-form artefact: a designed multi-language book or series with source-grounded drafting, adversarial fact audit and a deduplication registry, or blog posts, newsletters and social copy through channel playbooks. Use when writing or revising marketing and content copy, or when building, translating, restyling or packaging a book.",
+      "tags": [
+        "writing",
+        "books",
+        "content",
+        "newsletters",
+        "blog",
+        "translation",
+        "fact-audit"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-11-07",
+      "merged_from": [
+        "book-writing",
+        "content-drafting"
+      ],
+      "upstream": {
+        "kind": "uploaded skill pack",
+        "archive": "s.zip",
+        "imported": "2026-11-07",
+        "note": "merged from the owner's own skill collection; each source is preserved under references/"
+      }
+    },
+    {
+      "id": "math-animation-videos",
+      "name": "Math and algorithm animation (Manim)",
+      "category": "media-design",
+      "description": "Produce code-driven explanatory animation and precise vector graphics with the Manim engine: mathematical visualisations, algorithm walkthroughs, derivations with LaTeX, 3Blue1Brown-style scenes. Use when the user mentions Manim, ManimCE or ManimGL, or wants an animated explanation rather than a generated clip. Not for photoreal video or ordinary screen recording.",
+      "tags": [
+        "manim",
+        "animation",
+        "math",
+        "explainer",
+        "latex",
+        "python",
+        "video"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-11-07",
+      "merged_from": [
+        "manim-animator"
+      ],
+      "upstream": {
+        "kind": "uploaded skill pack",
+        "archive": "s.zip",
+        "imported": "2026-11-07",
+        "note": "merged from the owner's own skill collection; each source is preserved under references/"
+      }
+    },
+    {
+      "id": "model-explainability",
+      "name": "Model explainability with SHAP",
+      "category": "ai-and-ml",
+      "description": "Explain and audit machine-learning predictions with SHAP: choose the explainer and masker, compute and validate feature attributions, handle multi-output and multiclass explanations, and produce local or global visualisations. Use for feature importance, model auditing, subgroup and fairness analysis, or explaining an individual prediction.",
+      "tags": [
+        "shap",
+        "explainability",
+        "feature-importance",
+        "fairness",
+        "ml-audit",
+        "python"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-11-07",
+      "merged_from": [
+        "shap"
+      ],
+      "upstream": {
+        "kind": "uploaded skill pack",
+        "archive": "s.zip",
+        "imported": "2026-11-07",
+        "note": "merged from the owner's own skill collection; each source is preserved under references/"
+      }
+    },
+    {
+      "id": "music-and-audio-generation",
+      "name": "Music and audio generation",
+      "category": "media-design",
+      "description": "Generate music, songs and soundtracks — instrumentals, vocals from lyrics, covers and style transfer, stem extraction, repainting a weak section, continuation — and craft the prompt that gets them. Use for background music, a jingle, a soundtrack for a video, or any request that reaches a music generation model. Covers prompt structure, the nine dimensions, and multi-clip continuity.",
+      "tags": [
+        "music",
+        "audio",
+        "ace-step",
+        "soundtrack",
+        "prompting",
+        "stems",
+        "jingles"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-11-07",
+      "merged_from": [
+        "acestep",
+        "music-prompter"
+      ],
+      "upstream": {
+        "kind": "uploaded skill pack",
+        "archive": "s.zip",
+        "imported": "2026-11-07",
+        "note": "merged from the owner's own skill collection; each source is preserved under references/"
+      }
+    },
+    {
+      "id": "omm-json-builder",
+      "name": "OMM JSON builder (materia medica and repertory extraction)",
+      "category": "data-and-schema",
+      "description": "Convert raw homeopathic source texts — OCR text, DjVu XML, or a typed transcription — into clean, app-ready JSON, one file per book, for a materia medica / repertory reader. Use to add a book to the OMM collection, rebuild a volume whose headings OCR destroyed, validate or repair an extraction, or work with the homeopathy JSON schema. It structures text that already exists; it never generates homeopathic content.",
+      "tags": [
+        "homeopathy",
+        "json",
+        "ocr",
+        "djvu",
+        "materia-medica",
+        "repertory",
+        "extraction",
+        "public-domain"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-11-07",
+      "merged_from": [
+        "omm-json-builder"
+      ],
+      "upstream": {
+        "kind": "uploaded skill pack",
+        "archive": "s.zip",
+        "imported": "2026-11-07",
+        "note": "merged from the owner's own skill collection; each source is preserved under references/"
+      }
+    },
+    {
+      "id": "sox-audit-support",
+      "name": "SOX 404 audit support",
+      "category": "security-audit",
+      "description": "Support SOX 404 compliance: control testing methodology, scoping, sample selection, testing workpapers, evidence standards, and deficiency classification. Use when preparing or reviewing internal-control testing, selecting audit samples, documenting control effectiveness, or classifying a deficiency as a deficiency, significant deficiency or material weakness.",
+      "tags": [
+        "sox",
+        "audit",
+        "internal-controls",
+        "sampling",
+        "workpapers",
+        "compliance",
+        "deficiencies"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-11-07",
+      "merged_from": [
+        "audit-support"
+      ],
+      "upstream": {
+        "kind": "uploaded skill pack",
+        "archive": "s.zip",
+        "imported": "2026-11-07",
+        "note": "merged from the owner's own skill collection; each source is preserved under references/"
+      }
+    },
+    {
+      "id": "symbolic-math",
+      "name": "Symbolic mathematics with SymPy",
+      "category": "data-and-schema",
+      "description": "Exact symbolic mathematics in Python: algebra, calculus, equation solving, symbolic linear algebra, physics, plus lambdify and LaTeX generation. Use when a task needs symbolic results, explicit assumptions or exact arithmetic, and use NumPy or SciPy when the workload is purely numerical.",
+      "tags": [
+        "sympy",
+        "symbolic-math",
+        "algebra",
+        "calculus",
+        "exact-arithmetic",
+        "latex",
+        "python"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-11-07",
+      "merged_from": [
+        "sympy"
+      ],
+      "upstream": {
+        "kind": "uploaded skill pack",
+        "archive": "s.zip",
+        "imported": "2026-11-07",
+        "note": "merged from the owner's own skill collection; each source is preserved under references/"
+      }
+    },
+    {
+      "id": "ui-design-critique",
+      "name": "UI design critique (Apple HIG and UX writing)",
+      "category": "frontend-ui",
+      "description": "Critique a UI screenshot, mockup or design against Apple's Human Interface Guidelines and UX writing principles. Use whenever a screenshot or design of an interface is shared — desktop, web or mobile — even if feedback was not explicitly requested. Default output is a short, well-formed quick read; a full section breakdown only when asked.",
+      "tags": [
+        "design-critique",
+        "apple-hig",
+        "ux-writing",
+        "accessibility",
+        "screenshots",
+        "heuristics"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-11-07",
+      "merged_from": [
+        "ui-design-critique"
+      ],
+      "upstream": {
+        "kind": "uploaded skill pack",
+        "archive": "s.zip",
+        "imported": "2026-11-07",
+        "note": "merged from the owner's own skill collection; each source is preserved under references/"
+      }
+    },
+    {
+      "id": "video-clip-finder",
+      "name": "Find and cut short clips from long video",
+      "category": "media-design",
+      "description": "Find the compelling moments in a long video — funny dialogue or repeated impact actions such as chops, hits, throws, drumbeats — cut them as standalone clips, reformat 16:9 to 9:16, time-warp a reveal, and burn word-by-word captions. Use for 'make shorts from this', 'find funny moments', 'cut on each chop', 'action montage', or any clipify request. Not for generating new footage.",
+      "tags": [
+        "video-editing",
+        "shorts",
+        "ffmpeg",
+        "captions",
+        "whisper",
+        "9:16",
+        "clipify"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-11-07",
+      "merged_from": [
+        "clipify"
+      ],
+      "upstream": {
+        "kind": "uploaded skill pack",
+        "archive": "s.zip",
+        "imported": "2026-11-07",
+        "note": "merged from the owner's own skill collection; each source is preserved under references/"
+      }
+    },
+    {
+      "id": "vscode-extension-localization",
+      "name": "VS Code extension localization",
+      "category": "code-quality",
+      "description": "Localise a VS Code extension the way the platform expects: the three localization approaches (package manifest strings, the `vscode-nls` runtime bundle, and the language-pack/bundle mechanism), when to use each, and how to keep them consistent as new resources appear. Use when an extension must support multiple languages or its strings need externalising.",
+      "tags": [
+        "vscode",
+        "localization",
+        "i18n",
+        "nls",
+        "extensions",
+        "typescript"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-11-07",
+      "merged_from": [
+        "vscode-ext-localization"
+      ],
+      "upstream": {
+        "kind": "uploaded skill pack",
+        "archive": "s.zip",
+        "imported": "2026-11-07",
+        "note": "merged from the owner's own skill collection; each source is preserved under references/"
+      }
+    },
+    {
+      "id": "web-research-and-scraping",
+      "name": "Web research and scraping",
+      "category": "browser-automation",
+      "description": "Get content out of the web reliably: pick a fetcher, scrape pages and structured data, get past Cloudflare/WAF protections, handle logged-in pages, parse existing HTML, batch many pages — and read specific platforms (Xiaohongshu, Bilibili, X/Twitter, Reddit, YouTube transcripts, GitHub, V2EX, Instagram, Facebook, podcasts, job boards, stock quotes) when ordinary search cannot reach the body.",
+      "tags": [
+        "scraping",
+        "crawling",
+        "web-research",
+        "cloudflare",
+        "transcripts",
+        "social-platforms",
+        "read-only"
+      ],
+      "source_repos": [],
+      "version": "1.0.0",
+      "updated": "2026-11-07",
+      "merged_from": [
+        "scrapling",
+        "agent-reach"
+      ],
+      "upstream": {
+        "kind": "uploaded skill pack",
+        "archive": "s.zip",
+        "imported": "2026-11-07",
+        "note": "merged from the owner's own skill collection; each source is preserved under references/"
+      }
     }
   ]
 }

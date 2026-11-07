@@ -1,0 +1,26 @@
+{
+  "id": "model-explainability",
+  "name": "Model explainability with SHAP",
+  "category": "ai-and-ml",
+  "description": "Explain and audit machine-learning predictions with SHAP: choose the explainer and masker, compute and validate feature attributions, handle multi-output and multiclass explanations, and produce local or global visualisations. Use for feature importance, model auditing, subgroup and fairness analysis, or explaining an individual prediction.",
+  "tags": [
+    "shap",
+    "explainability",
+    "feature-importance",
+    "fairness",
+    "ml-audit",
+    "python"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-11-07",
+  "merged_from": [
+    "shap"
+  ],
+  "upstream": {
+    "kind": "uploaded skill pack",
+    "archive": "s.zip",
+    "imported": "2026-11-07",
+    "note": "merged from the owner's own skill collection; each source is preserved under references/"
+  }
+}

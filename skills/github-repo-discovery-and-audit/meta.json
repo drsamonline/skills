@@ -1,0 +1,28 @@
+{
+  "id": "github-repo-discovery-and-audit",
+  "name": "GitHub repo discovery and fleet audit",
+  "category": "engineering-workflow",
+  "description": "Two directions on GitHub: find a battle-tested open-source project that already solves the problem instead of reinventing it, or audit an entire account's repository fleet into a decision-grade capability matrix with merge and product recommendations. Use for 'is there a library for this', 'find me a tool that does X', 'scan all my repos', or 'what should I merge or build next'.",
+  "tags": [
+    "github",
+    "open-source",
+    "audit",
+    "capability-matrix",
+    "discovery",
+    "repo-fleet",
+    "licensing"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-11-07",
+  "merged_from": [
+    "repo-fleet-audit",
+    "github-gem-seeker"
+  ],
+  "upstream": {
+    "kind": "uploaded skill pack",
+    "archive": "s.zip",
+    "imported": "2026-11-07",
+    "note": "merged from the owner's own skill collection; each source is preserved under references/"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "_note": "Defaults for the objective convention flags in 05_classify.py. These are one estate's house layout; override with --conformance if yours differs.",
+  "landing": ["docs/index.html", "index.html"],
+  "play_prefix": ["docs/play/"]
+}

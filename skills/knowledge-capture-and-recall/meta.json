@@ -1,0 +1,28 @@
+{
+  "id": "knowledge-capture-and-recall",
+  "name": "Knowledge capture and recall",
+  "category": "notes-knowledge",
+  "description": "Synthesise many sources into one attributed answer, and recall what was decided before. Use when combining search results across sources, deduplicating overlapping findings, scoring confidence from freshness and authority, or when a question needs historical context — 'what did we decide about X', 'why did we do Y', 'have I seen this before'.",
+  "tags": [
+    "research",
+    "synthesis",
+    "citations",
+    "confidence",
+    "memory",
+    "recall",
+    "deduplication"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-11-07",
+  "merged_from": [
+    "knowledge-synthesis",
+    "memory-recall"
+  ],
+  "upstream": {
+    "kind": "uploaded skill pack",
+    "archive": "s.zip",
+    "imported": "2026-11-07",
+    "note": "merged from the owner's own skill collection; each source is preserved under references/"
+  }
+}

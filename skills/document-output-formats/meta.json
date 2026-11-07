@@ -1,0 +1,30 @@
+{
+  "id": "document-output-formats",
+  "name": "Document output formats (PDF, slides, HTML)",
+  "category": "office-docs",
+  "description": "Produce the finished artefact from written content: a print-ready PDF via Typst, a Marp slide deck, or a styled HTML page from Markdown. Use when a report, paper, resume, handout, deck or web page must come out of Markdown or structured text with real typography and page layout. Not for editing an existing Word file or a spreadsheet.",
+  "tags": [
+    "pdf",
+    "typst",
+    "marp",
+    "slides",
+    "markdown",
+    "html",
+    "pandoc",
+    "typesetting"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-11-07",
+  "merged_from": [
+    "typst-pdf-maker",
+    "marp-slide",
+    "markdown-to-html"
+  ],
+  "upstream": {
+    "kind": "uploaded skill pack",
+    "archive": "s.zip",
+    "imported": "2026-11-07",
+    "note": "merged from the owner's own skill collection; each source is preserved under references/"
+  }
+}

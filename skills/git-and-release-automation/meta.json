@@ -1,0 +1,30 @@
+{
+  "id": "git-and-release-automation",
+  "name": "Git, CI and release automation",
+  "category": "ci-and-release",
+  "description": "The commit-to-release path: split and stage changes, write a Conventional Commit, gate on lint and tests, push safely, run the CI pipeline with quality gates, and produce the user-facing changelog report from merged PRs. Use when committing, pushing, setting up or fixing CI/CD, adding a quality gate, choosing a deployment strategy, or publishing a changelog.",
+  "tags": [
+    "git",
+    "conventional-commits",
+    "ci-cd",
+    "github-actions",
+    "changelog",
+    "deployment",
+    "release"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-11-07",
+  "merged_from": [
+    "git-commit",
+    "push-to-github",
+    "ci-cd-and-automation",
+    "changelog-report"
+  ],
+  "upstream": {
+    "kind": "uploaded skill pack",
+    "archive": "s.zip",
+    "imported": "2026-11-07",
+    "note": "merged from the owner's own skill collection; each source is preserved under references/"
+  }
+}

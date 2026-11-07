@@ -1,0 +1,32 @@
+{
+  "id": "frontend-engineering",
+  "name": "Frontend engineering (design system, scaffold, performance)",
+  "category": "frontend-ui",
+  "description": "Build a modern web front end properly: pick the stack and scaffold it, declare a design system and design tokens before writing UI, keep the visual craft high, and hold the performance budget. Use for a new web app or dashboard, a design-system or token pass, a React/shadcn/Tailwind build, a single-file interactive playground, or a 'why is my site slow' audit. Not for back-end work or non-visual coding.",
+  "tags": [
+    "frontend",
+    "design-system",
+    "tailwind",
+    "react",
+    "shadcn",
+    "performance",
+    "scaffold",
+    "playground"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-11-07",
+  "merged_from": [
+    "web-design-engineer",
+    "tailwind-design-system",
+    "spark-app-template",
+    "performance",
+    "playground"
+  ],
+  "upstream": {
+    "kind": "uploaded skill pack",
+    "archive": "s.zip",
+    "imported": "2026-11-07",
+    "note": "merged from the owner's own skill collection; each source is preserved under references/"
+  }
+}

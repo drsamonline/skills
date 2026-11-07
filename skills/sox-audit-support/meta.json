@@ -1,0 +1,27 @@
+{
+  "id": "sox-audit-support",
+  "name": "SOX 404 audit support",
+  "category": "security-audit",
+  "description": "Support SOX 404 compliance: control testing methodology, scoping, sample selection, testing workpapers, evidence standards, and deficiency classification. Use when preparing or reviewing internal-control testing, selecting audit samples, documenting control effectiveness, or classifying a deficiency as a deficiency, significant deficiency or material weakness.",
+  "tags": [
+    "sox",
+    "audit",
+    "internal-controls",
+    "sampling",
+    "workpapers",
+    "compliance",
+    "deficiencies"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-11-07",
+  "merged_from": [
+    "audit-support"
+  ],
+  "upstream": {
+    "kind": "uploaded skill pack",
+    "archive": "s.zip",
+    "imported": "2026-11-07",
+    "note": "merged from the owner's own skill collection; each source is preserved under references/"
+  }
+}

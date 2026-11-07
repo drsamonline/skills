@@ -1,0 +1,27 @@
+{
+  "id": "image-editing-imagemagick",
+  "name": "Image editing with ImageMagick",
+  "category": "media-design",
+  "description": "Process and manipulate images from the command line with ImageMagick: resize, crop, convert formats, compose, batch-process folders, strip metadata, and read image information. Use when a task involves thumbnails, wallpapers, format conversion, or bulk image operations. Not for generative editing.",
+  "tags": [
+    "imagemagick",
+    "images",
+    "resize",
+    "batch",
+    "thumbnails",
+    "metadata",
+    "cli"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-11-07",
+  "merged_from": [
+    "image-manipulation-image-magick"
+  ],
+  "upstream": {
+    "kind": "uploaded skill pack",
+    "archive": "s.zip",
+    "imported": "2026-11-07",
+    "note": "merged from the owner's own skill collection; each source is preserved under references/"
+  }
+}

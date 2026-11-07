@@ -1,0 +1,31 @@
+{
+  "id": "html-video-production",
+  "name": "HTML video production (HyperFrames)",
+  "category": "media-design",
+  "description": "Build editable, scene-based HTML videos and render them to MP4 with HyperFrames: GSAP timelines, kinetic typography, data-driven motion graphics, transitions, captions, lower thirds. Use when the video must be reproducible and editable from structured sources (PDF, repo, CSV, deck, design doc, URL, music track), or when the user mentions HyperFrames, GSAP timeline video, cut-the-curve, or a motion template. Not for photoreal generated footage (use ai-video-generation).",
+  "tags": [
+    "video",
+    "html-to-video",
+    "hyperframes",
+    "gsap",
+    "motion-graphics",
+    "kinetic-typography",
+    "mp4"
+  ],
+  "source_repos": [],
+  "version": "1.0.0",
+  "updated": "2026-11-07",
+  "merged_from": [
+    "html-video-production",
+    "hyperframes-registry",
+    "cut-the-curve",
+    "review-animations",
+    "video-template-frame-light-leak-cinema"
+  ],
+  "upstream": {
+    "kind": "uploaded skill pack",
+    "archive": "s.zip",
+    "imported": "2026-11-07",
+    "note": "merged from the owner's own skill collection; each source is preserved under references/"
+  }
+}
