@@ -1,0 +1,134 @@
+/* ============================================================
+   Default interior stylesheet for the amazon-kdp-publishing skill.
+
+   Deliberately plain and print-first: one column, warm paper, a serif
+   body at book density, and the block classes the builder emits.
+   Replace the :root tokens to rebrand; keep the structure.
+
+   The builder appends the trim geometry (page size, mirrored padding)
+   after this file, so do not set page size or .page-content padding here.
+   ============================================================ */
+
+:root{
+  --paper:#fbf7f0;
+  --ink:#241c14;
+  --ink-soft:#4b4034;
+  --ink-faint:#7d7059;
+  --accent:#6e1f2a;
+  --accent-deep:#571722;
+  --gold:#b8862b;
+  --rule:#e4d9c7;
+  --rule-strong:#cbb98f;
+  --zebra:#f4ede0;
+  --serif:Georgia,'Times New Roman',serif;
+  --sans:'Helvetica Neue',Arial,sans-serif;
+}
+
+*,*::before,*::after{box-sizing:border-box;}
+html,body{margin:0;padding:0;background:#dcd3c4;}
+body{font-family:var(--serif);color:var(--ink);-webkit-font-smoothing:antialiased;}
+
+/* ---------- the sheet ---------- */
+.sheet{background:var(--paper);-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+.page-content{display:flex;flex-direction:column;}
+
+/* ---------- type ---------- */
+p{margin:0 0 6px;font-size:13.6px;line-height:1.33;text-align:justify;hyphens:auto;}
+p.lead{font-size:14.5px;line-height:1.3;color:var(--ink-soft);margin-bottom:7px;}
+h1,h2,h3{margin:0;font-weight:600;color:var(--accent);}
+h2{font-size:13.5px;line-height:1.2;margin:8px 0 3px;}
+h3{font-size:11.5px;line-height:1.22;margin:6px 0 2px;color:var(--accent-deep);}
+strong{font-weight:600;color:var(--accent-deep);}
+em{font-style:italic;}
+a{color:inherit;text-decoration:none;}
+
+/* ---------- chapter opener ---------- */
+.chapter-open{margin-bottom:8px;padding-bottom:6px;border-bottom:1px solid var(--rule);}
+.chapter-open h1{font-size:20px;line-height:1.12;}
+.chapter-open .chap-num{
+  display:block;font-family:var(--sans);font-size:8.5px;font-weight:600;
+  letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin-bottom:2px;
+}
+
+/* ---------- tables ---------- */
+table.data{width:100%;border-collapse:collapse;margin:5px 0;font-size:9px;}
+table.data th{
+  background:var(--accent);color:#f8f1e3;font-family:var(--sans);font-weight:600;
+  font-size:7.8px;letter-spacing:.04em;text-transform:uppercase;text-align:left;
+  padding:2.5px 4px;
+}
+table.data td{padding:2.5px 4px;border-bottom:1px solid var(--rule);
+  vertical-align:top;line-height:1.26;}
+table.data tr:nth-child(even) td{background:var(--zebra);}
+
+/* ---------- boxes ---------- */
+.vignette{background:#f7f1e4;border-left:3px solid var(--gold);padding:6px 9px;margin:5px 0;}
+.vignette .vlabel{font-family:var(--sans);font-size:7.8px;letter-spacing:.2em;
+  text-transform:uppercase;color:var(--accent);margin-bottom:2px;}
+.vignette p{font-size:12px;line-height:1.3;margin-bottom:2px;}
+.callout{border:1px solid var(--rule-strong);border-radius:3px;padding:5px 8px;
+  margin:5px 0;background:#faf4e8;}
+.callout .clabel{font-family:var(--sans);font-size:7.8px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--gold);margin-bottom:2px;}
+.callout p{font-size:12px;line-height:1.3;margin-bottom:2px;}
+
+/* ---------- figures ---------- */
+figure.fig{margin:3px 0 5px;text-align:center;}
+figure.fig svg{width:28px;height:28px;color:var(--accent);display:inline-block;}
+figure.fig figcaption{margin-top:2px;}
+figure.fig .fig-n{display:block;font-family:var(--sans);font-size:7.5px;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--gold);}
+figure.fig .fig-s{display:block;font-size:8.5px;font-style:italic;color:var(--ink-faint);}
+
+/* ---------- contents ---------- */
+.toc-list{list-style:none;margin:0;padding:0;}
+.toc-list li{display:flex;align-items:baseline;font-size:10.5px;padding:2.5px 0;
+  border-bottom:1px dotted var(--rule);}
+.toc-list .t{color:var(--ink);}
+.toc-list .dots{flex:1;border-bottom:1px dotted var(--rule-strong);margin:0 8px;
+  transform:translateY(-3px);}
+.toc-list .pg{font-family:var(--sans);font-size:9.5px;color:var(--accent);font-weight:600;}
+
+/* ---------- glossary / index / bibliography ---------- */
+.entry{margin-bottom:6px;font-size:11.5px;line-height:1.35;}
+.entry .term{font-weight:600;color:var(--accent-deep);}
+.idx{column-count:2;column-gap:24px;font-size:10px;line-height:1.35;}
+.idx .letter{font-family:var(--sans);font-weight:600;color:var(--accent);
+  margin:6px 0 2px;font-size:9.5px;letter-spacing:.1em;}
+.idx .item{margin-bottom:1px;break-inside:avoid;}
+.biblio .ref{font-size:11px;line-height:1.4;margin-bottom:7px;padding-left:18px;
+  text-indent:-18px;text-align:left;}
+
+/* ---------- poem ---------- */
+.poem{text-align:center;}
+.poem .stanza{margin-bottom:14px;}
+.poem .line{font-size:14px;line-height:1.7;font-style:italic;color:var(--ink-soft);}
+
+/* ---------- front matter ---------- */
+.center-page{flex:1;display:flex;flex-direction:column;align-items:center;
+  justify-content:center;text-align:center;}
+.front-h{font-family:var(--sans);font-size:10px;letter-spacing:.34em;
+  text-transform:uppercase;color:var(--accent);margin-bottom:12px;}
+.title-page h1{font-size:34px;line-height:1.1;}
+.title-page .subtitle{font-size:15px;font-style:italic;color:var(--ink-soft);margin-top:12px;}
+.title-page .author{font-family:var(--sans);font-size:11px;letter-spacing:.3em;
+  text-transform:uppercase;color:var(--accent);margin-top:28px;}
+.title-page .imprint{font-family:var(--sans);font-size:9px;letter-spacing:.3em;
+  text-transform:uppercase;color:var(--ink-faint);margin-top:14px;}
+.copy-page{font-size:11px;line-height:1.55;color:var(--ink-soft);max-width:340px;}
+.copy-page p{font-size:11px;line-height:1.55;text-align:left;}
+.author-body p{font-size:12.5px;line-height:1.42;text-align:left;}
+.dedication p{font-size:13px;line-height:1.6;}
+
+/* ---------- app / promotional page ---------- */
+.appbox{display:flex;align-items:center;gap:16px;border:1px solid var(--rule-strong);
+  border-radius:3px;padding:12px 14px;margin:12px 0;background:#faf4e8;}
+.appqr{flex:0 0 auto;width:118px;height:118px;background:#fff;padding:4px;}
+.appqr svg,.appqr img{width:110px;height:110px;display:block;}
+.apptext{flex:1;}
+.applabel{font-family:var(--sans);font-size:8px;letter-spacing:.24em;
+  text-transform:uppercase;color:var(--gold);margin-bottom:4px;}
+.appurl{font-size:13px;font-weight:600;color:var(--accent);line-height:1.25;margin-bottom:5px;}
+.appsmall{font-size:10.5px;line-height:1.35;color:var(--ink-soft);}
+.appfoot{font-size:11px;color:var(--ink-faint);text-align:center;margin-top:12px;
+  font-style:italic;}

@@ -1,0 +1,59 @@
+{
+  "_comment": "Copy this next to your content module and edit. Paths in 'css' may be absolute. Run: python3 scripts/kdp_build.py --spec book.json",
+  "module": "content_book",
+  "title": "Open Materia Medica",
+  "subtitle": "The classical materia medica, in plain language",
+  "author": "Dr. Sohil Momin",
+  "imprint": "MATNEO",
+  "year": "2026",
+  "contact": "",
+  "css": [
+    "assets/book.css"
+  ],
+  "trim": [
+    6,
+    9
+  ],
+  "paper": "white",
+  "binding": "paperback",
+  "build_bindings": [
+    "paperback"
+  ],
+  "margins": {
+    "_comment": "The gutter is computed from the final page count and overrides anything here. Top/bottom/outside must each clear 0.25 in (0.375 in with bleed).",
+    "top": 0.66,
+    "bottom": 0.75,
+    "outside": 0.75
+  },
+  "workdir": ".",
+  "out": "Book_KDP.zip",
+  "file_stem": "Book",
+  "author_bio_html": "<p>A short biography of the author, two or three sentences.</p>",
+  "cover": {
+    "title": "Open Materia Medica",
+    "subtitle": "The classical materia medica, in plain language",
+    "author": "Dr. Sohil Momin",
+    "imprint": "MATNEO",
+    "kicker": "A Reference Volume",
+    "blurb": [
+      "<strong>The first sentence a reader would recognise as their own situation.</strong> Then what the book is, concretely — scope, count, structure.",
+      "What makes it different from the competing book. Then who it is for."
+    ],
+    "poem": [
+      "Prove all things."
+    ],
+    "poem_attr": "— after 1 Thessalonians 5:21",
+    "photo": "author.jpg",
+    "author_bio": "One line of biography under the portrait.",
+    "legal": "Educational reference only — not medical advice.",
+    "colors": {
+      "ground_d": "#073b34",
+      "ground": "#0e6b5c",
+      "ground_l": "#12796a",
+      "accent": "#d8b45c",
+      "text": "#f7f1e4",
+      "text_soft": "#e6dcc4"
+    }
+  },
+  "metadata_md": "# Metadata\n\nFill in the title, blurb, three BISAC categories, seven keywords, ISBN decision and list price. See references/metadata-and-rights.md.\n"
+}
