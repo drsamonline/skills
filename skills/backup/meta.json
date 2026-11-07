@@ -15,9 +15,9 @@
     "backup"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-02",
+  "updated": "2026-11-07",
   "source_snapshot": {
-    "backup": "634a404f03686cb43f67487fa945e451355b3333"
+    "backup": "63c53f3a8dcf94574963c6859b4f7078fa2ee89c"
   },
   "subskills": [
     "safe-repo-cleanup"

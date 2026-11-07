@@ -16,9 +16,9 @@
     "musicgen"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-02",
+  "updated": "2026-11-07",
   "source_snapshot": {
-    "musicgen": "5beb7459dc9b6cb48ab18da4a4deaaef7297ffb2"
+    "musicgen": "10fe396d56dead3c62bdadc5d3163c8597d0c4a7"
   },
   "subskills": [
     "audio-kit",

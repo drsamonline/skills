@@ -16,9 +16,9 @@
     "game-kit"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-02",
+  "updated": "2026-11-07",
   "source_snapshot": {
-    "audio-kit": "e03641d4d8ec62aa43868f52e260bcf7214acd26",
-    "game-kit": "6ced36b264416c5d5fffd3bdaef9e4f9f8a450fb"
+    "audio-kit": "ff553539f0356961ca158e8b5eb93969f14838dc",
+    "game-kit": "89c8e2fdc65d5770c1bb948b83e421d4f1f25adc"
   }
 }

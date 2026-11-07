@@ -15,9 +15,9 @@
     "app-image-toolkit"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-02",
+  "updated": "2026-11-07",
   "source_snapshot": {
-    "app-image-toolkit": "c665c27bca91bca083335ba2c58f15b727c94514"
+    "app-image-toolkit": "9092520b610734a2a290583f9fc2a8f83cd5f7c2"
   },
   "subskills": [
     "export-kit",

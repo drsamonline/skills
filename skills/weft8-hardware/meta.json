@@ -15,9 +15,9 @@
     "weft8-hardware"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-02",
+  "updated": "2026-11-07",
   "source_snapshot": {
-    "weft8-hardware": "632403abd187d5b03a4343356876f20de723e61b"
+    "weft8-hardware": "6eb654ca1ba5f4c8ffb973526f3f349129da4677"
   },
   "subskills": [
     "weft8-kit",

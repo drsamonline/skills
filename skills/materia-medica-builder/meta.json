@@ -17,9 +17,9 @@
     "MATERIA-MEDICA-BUILDER"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-02",
+  "updated": "2026-11-07",
   "source_snapshot": {
-    "MATERIA-MEDICA-BUILDER": "8d8c2f6b6503ed8f8befc921b2d6b51dc76c8fc4"
+    "MATERIA-MEDICA-BUILDER": "704b5d7bece03492855cbf7f2597ded4d4e8b488"
   },
   "subskills": [
     "open-data-extraction-pipeline",

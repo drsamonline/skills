@@ -15,9 +15,9 @@
     "control-panel"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-02",
+  "updated": "2026-11-07",
   "source_snapshot": {
-    "control-panel": "61382f1fad8e77dc244dd01d21e1fc1aac26b0f5"
+    "control-panel": "ee0c5a9181cd28def95675db737811c539fce0df"
   },
   "subskills": [
     "audit",

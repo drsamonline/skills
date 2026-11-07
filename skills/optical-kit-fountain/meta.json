@@ -21,13 +21,13 @@
     "helioprism"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-02",
+  "updated": "2026-11-07",
   "source_snapshot": {
-    "optical-kit": "ca1572efa952ffd2dc0b734963eb79521dd09aaa",
-    "frame-kit": "2ca6e9668c813e164a4cf2e35da66adc1d30b8b1",
-    "BLINKTRANSFER": "7416f623bf7f3c77814b59dcf0c0aeb5193dcfe5",
-    "blinkcode-ai": "b38da7b706bb1c5b38b331228d91c45300588cb8",
-    "helioprism": "9621b6b8fc6045ffcb1526c133f22346fe818e0f"
+    "optical-kit": "e1a73ecb70a92813b70d9c7f2efbd56c60a6c01a",
+    "frame-kit": "01f308595e1d7db9b1a4055e2724a467377b31e9",
+    "BLINKTRANSFER": "602843248806c6ab866b3b27cd92d59d0f001d3f",
+    "blinkcode-ai": "237a6f2dd0e5cba5f44f495785c5893708836b76",
+    "helioprism": "ff899fbae5a06a9405f43f93ff2f69ca3d556f83"
   },
   "subskills": [
     "optical-file-transfer",

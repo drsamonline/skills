@@ -17,9 +17,9 @@
     "dance-fight"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-02",
+  "updated": "2026-11-07",
   "source_snapshot": {
-    "dance-fight": "d664659bad92cd1e789585a8242f5eb2e44bef55"
+    "dance-fight": "17a99bac9ab6fdb51a626494df74870ec7e37b00"
   },
   "subskills": [
     "offline-first-single-file-web-app",

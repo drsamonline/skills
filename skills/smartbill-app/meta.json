@@ -18,9 +18,9 @@
     "smartbill-app"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-02",
+  "updated": "2026-11-07",
   "source_snapshot": {
-    "smartbill-app": "b9855c32709967a749cb2bbb2375598e836b580d"
+    "smartbill-app": "7d93e200412c55f04452ae12e74d1a9dbe828955"
   },
   "subskills": [
     "offline-first-single-file-web-app",

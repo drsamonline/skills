@@ -1,6 +1,6 @@
 {
   "generated": "2026-11-07",
-  "count": 1545,
+  "count": 1546,
   "categories": [
     "web-app-patterns",
     "android-packaging",
@@ -56,15 +56,15 @@
         "idle-city-ages-of-growth"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "conqueror-os": "8b6b9605c988d83aba51907a15044420b8715d77",
-        "ambient-sound-studio": "4ebfe564bd3913624f6c480b8ffd6c367a567a4c",
-        "neon-runner": "9d700fe21f72cf9ed8cd948730e610f68d3b2ee8",
-        "boericke-repertory": "895062dd23f5726cbe6a299b33e2c20d18f19398",
-        "bmi-bmr-tdee-macros-fluid-calculator": "283df5e0fa07fb0e0bf595fb93eb3bf6fc0ad94b",
-        "retro-strike": "ccf1bd26a598536f66c25702c8804c4bb084f0f3",
-        "idle-city-ages-of-growth": "1bac16da9e17be00bd7e23745e2b6b17f8e403e9"
+        "conqueror-os": "0d4897389f5d5c3f115229b28a604e1d01a84526",
+        "ambient-sound-studio": "9c85f703b75b61d7a01bbc21774e8f5aa6577430",
+        "neon-runner": "a7de65e84bc77e24a6d12c89271a3e606a9f6a16",
+        "boericke-repertory": "b74dc7927b338ba8170ddabe0478b801f4e1bef5",
+        "bmi-bmr-tdee-macros-fluid-calculator": "902387f5f0a6ebf1303e4a016b51993baecc9a02",
+        "retro-strike": "4ded015bfae6c8aa6a8792dc84242b1bce00f2de",
+        "idle-city-ages-of-growth": "96c09c4377b24af527b33fa20e2d3b52ddd13845"
       },
       "subskills": [
         "static-landing-page-seo",
@@ -92,10 +92,10 @@
         "open-materia-medica"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "app-builder": "aa727deec70003ba44de36295eca9be80e91f8f1",
-        "open-materia-medica": "24bd1c63bae4d527d3da42ac310f7e25ea149d7e"
+        "app-builder": "bbef0db943e11f1a280ac8a063b79e66b7f6d9db",
+        "open-materia-medica": "4cc491e2c983468c977983da28ab7cde6443f83e"
       },
       "subskills": [
         "reusable-build-release-workflow",
@@ -122,10 +122,10 @@
         "All4ONE"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "app-builder": "aa727deec70003ba44de36295eca9be80e91f8f1",
-        "All4ONE": "2e9791fab414a627e83541e5ff1d79842f01e2c8"
+        "app-builder": "bbef0db943e11f1a280ac8a063b79e66b7f6d9db",
+        "All4ONE": "c0dae254e7345e5e408afabc6ded7cc8228d9f69"
       },
       "subskills": [
         "reusable-build-release-workflow",
@@ -151,10 +151,10 @@
         "HMS"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "app-builder": "aa727deec70003ba44de36295eca9be80e91f8f1",
-        "HMS": "863c51b3bccd0ae07d230161860cd7af1b0f5ae1"
+        "app-builder": "bbef0db943e11f1a280ac8a063b79e66b7f6d9db",
+        "HMS": "2ee5c831973aab60db6e64ba4cba7d4ab3ff33b0"
       },
       "subskills": [
         "pyinstaller-portable-exe-launcher",
@@ -183,12 +183,12 @@
         "conqueror-os"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "app-builder": "aa727deec70003ba44de36295eca9be80e91f8f1",
-        "homoeopathic-materia-medica-repertory-json": "648d670e79521fe104a9f7e747a193bc5926ba97",
-        "neon-runner": "9d700fe21f72cf9ed8cd948730e610f68d3b2ee8",
-        "conqueror-os": "8b6b9605c988d83aba51907a15044420b8715d77"
+        "app-builder": "bbef0db943e11f1a280ac8a063b79e66b7f6d9db",
+        "homoeopathic-materia-medica-repertory-json": "9d278c5521d3f72f53940359365d37dfcfde849e",
+        "neon-runner": "a7de65e84bc77e24a6d12c89271a3e606a9f6a16",
+        "conqueror-os": "0d4897389f5d5c3f115229b28a604e1d01a84526"
       },
       "subskills": [
         "auto-updating-showcase-hub",
@@ -213,9 +213,9 @@
         "drsamonline.github.io"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "drsamonline.github.io": "9e5fe675c8427210b21f7dab61ecf09206f70738"
+        "drsamonline.github.io": "cd6102cfd233b24a8db903453ca23aeb769acac1"
       },
       "subskills": [
         "static-landing-page-seo"
@@ -242,10 +242,10 @@
         "MATERIA-MEDICA-BUILDER"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "homoeopathic-materia-medica-repertory-json": "648d670e79521fe104a9f7e747a193bc5926ba97",
-        "MATERIA-MEDICA-BUILDER": "8d8c2f6b6503ed8f8befc921b2d6b51dc76c8fc4"
+        "homoeopathic-materia-medica-repertory-json": "9d278c5521d3f72f53940359365d37dfcfde849e",
+        "MATERIA-MEDICA-BUILDER": "704b5d7bece03492855cbf7f2597ded4d4e8b488"
       },
       "subskills": [
         "offline-first-single-file-web-app"
@@ -271,9 +271,9 @@
         "HMS"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "HMS": "863c51b3bccd0ae07d230161860cd7af1b0f5ae1"
+        "HMS": "2ee5c831973aab60db6e64ba4cba7d4ab3ff33b0"
       },
       "subskills": [
         "reusable-build-release-workflow"
@@ -300,10 +300,10 @@
         "blinkcode-ai"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "BLINKTRANSFER": "7416f623bf7f3c77814b59dcf0c0aeb5193dcfe5",
-        "blinkcode-ai": "b38da7b706bb1c5b38b331228d91c45300588cb8"
+        "BLINKTRANSFER": "602843248806c6ab866b3b27cd92d59d0f001d3f",
+        "blinkcode-ai": "237a6f2dd0e5cba5f44f495785c5893708836b76"
       },
       "subskills": [
         "offline-first-single-file-web-app"
@@ -333,9 +333,9 @@
         "All4ONE"
       ],
       "version": "2.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "All4ONE": "2e9791fab414a627e83541e5ff1d79842f01e2c8"
+        "All4ONE": "c0dae254e7345e5e408afabc6ded7cc8228d9f69"
       },
       "subskills": [
         "pyinstaller-portable-exe-launcher",
@@ -362,9 +362,9 @@
         "ULTIMATE-WINDOWS-OPTIMIZER"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "ULTIMATE-WINDOWS-OPTIMIZER": "f1fc70f3b4e68b193ec3b8742e07d7463515b202"
+        "ULTIMATE-WINDOWS-OPTIMIZER": "f8c812b9d85826fbd784651738c1fb62316b5a38"
       },
       "subskills": [
         "static-landing-page-seo"
@@ -389,9 +389,9 @@
         "TTB"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "TTB": "e5967f7f836a03066e0e072607992448240f3c89"
+        "TTB": "63bfcd82c719993acfc317a247d48f4ec60f2a1b"
       },
       "subskills": [
         "offline-first-single-file-web-app"
@@ -416,9 +416,9 @@
         "CLDR"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "CLDR": "808c05a5267de1f1e67f6c6d6ae734fe8c191993"
+        "CLDR": "958cbab789f1f68903f3ed7d60d6c8dab451286f"
       },
       "subskills": [
         "static-landing-page-seo"
@@ -443,9 +443,9 @@
         "lockhtml"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "lockhtml": "c15f8653bec24532ccfaf04c53ccae991fbf1cb1"
+        "lockhtml": "96f4c10db2e327fdefd9717f497ba770cf1462d6"
       },
       "subskills": [
         "offline-first-single-file-web-app",
@@ -470,9 +470,9 @@
         "lexora"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "lexora": "ad57991bfd1d7f8d8e88592ad4dba16e40e8e836"
+        "lexora": "bc6e58bcaf9b266318fa195a31b49f0ff0162cb2"
       },
       "subskills": [
         "static-landing-page-seo"
@@ -498,9 +498,9 @@
         "BLINKTRANSFER"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "BLINKTRANSFER": "7416f623bf7f3c77814b59dcf0c0aeb5193dcfe5"
+        "BLINKTRANSFER": "602843248806c6ab866b3b27cd92d59d0f001d3f"
       },
       "subskills": [
         "optical-file-transfer",
@@ -526,9 +526,9 @@
         "blinkcode-ai"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "blinkcode-ai": "b38da7b706bb1c5b38b331228d91c45300588cb8"
+        "blinkcode-ai": "237a6f2dd0e5cba5f44f495785c5893708836b76"
       },
       "subskills": [
         "optical-file-transfer",
@@ -554,9 +554,9 @@
         "The_Browser"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "The_Browser": "35d915c418bbe2c999a542beae16667e2a61378a"
+        "The_Browser": "184680f3e53eba246d9e8fb52333f0a2ac754481"
       },
       "subskills": [
         "static-landing-page-seo"
@@ -581,9 +581,9 @@
         "NEO"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "NEO": "4d507e75924146e0a41e17d54a1387838c274ca2"
+        "NEO": "caab29fd5700c21302a4a4e907c396816eae79eb"
       },
       "subskills": [
         "static-landing-page-seo"
@@ -608,9 +608,9 @@
         "neon-runner"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "neon-runner": "9d700fe21f72cf9ed8cd948730e610f68d3b2ee8"
+        "neon-runner": "a7de65e84bc77e24a6d12c89271a3e606a9f6a16"
       },
       "subskills": [
         "offline-first-single-file-web-app",
@@ -636,9 +636,9 @@
         "neon-games"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "neon-games": "49b7bc92caaf03529c3800c25a751e3aca049ce8"
+        "neon-games": "2fd941f8711eb71a43ca5fe29dc65d5266274a5d"
       },
       "subskills": [
         "neon-engine-open-world",
@@ -663,9 +663,9 @@
         "retro-strike"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "retro-strike": "ccf1bd26a598536f66c25702c8804c4bb084f0f3"
+        "retro-strike": "4ded015bfae6c8aa6a8792dc84242b1bce00f2de"
       },
       "subskills": [
         "offline-first-single-file-web-app",
@@ -691,9 +691,9 @@
         "dance-fight"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "dance-fight": "d664659bad92cd1e789585a8242f5eb2e44bef55"
+        "dance-fight": "17a99bac9ab6fdb51a626494df74870ec7e37b00"
       },
       "subskills": [
         "offline-first-single-file-web-app",
@@ -719,9 +719,9 @@
         "idle-city-ages-of-growth"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "idle-city-ages-of-growth": "1bac16da9e17be00bd7e23745e2b6b17f8e403e9"
+        "idle-city-ages-of-growth": "96c09c4377b24af527b33fa20e2d3b52ddd13845"
       },
       "subskills": [
         "offline-first-single-file-web-app",
@@ -746,9 +746,9 @@
         "aethelgard-games"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "aethelgard-games": "188e4831a75916638ca341969ed338d283f5f5ff"
+        "aethelgard-games": "c89c3b48e6e4a4c72ae6ce15273df38ff8bb774b"
       },
       "subskills": [
         "aethelgard-engine-rpg",
@@ -801,9 +801,9 @@
         "neon-engine"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "neon-engine": "3aab58589f16b6f65f71173ef18c012a198ad36a"
+        "neon-engine": "32d66a8d45f31da9b4c3dd1fb1b3b267c2e404be"
       },
       "subskills": [
         "neon-games-arcade"
@@ -855,9 +855,9 @@
         "open-materia-medica"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "open-materia-medica": "24bd1c63bae4d527d3da42ac310f7e25ea149d7e"
+        "open-materia-medica": "4cc491e2c983468c977983da28ab7cde6443f83e"
       },
       "subskills": [
         "android-webview-apk-packaging",
@@ -882,9 +882,9 @@
         "boericke-repertory"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "boericke-repertory": "895062dd23f5726cbe6a299b33e2c20d18f19398"
+        "boericke-repertory": "b74dc7927b338ba8170ddabe0478b801f4e1bef5"
       },
       "subskills": [
         "offline-first-single-file-web-app",
@@ -910,9 +910,9 @@
         "MATERIA-MEDICA-BUILDER"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "MATERIA-MEDICA-BUILDER": "8d8c2f6b6503ed8f8befc921b2d6b51dc76c8fc4"
+        "MATERIA-MEDICA-BUILDER": "704b5d7bece03492855cbf7f2597ded4d4e8b488"
       },
       "subskills": [
         "open-data-extraction-pipeline",
@@ -938,9 +938,9 @@
         "homoeopathic-materia-medica-repertory-json"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "homoeopathic-materia-medica-repertory-json": "648d670e79521fe104a9f7e747a193bc5926ba97"
+        "homoeopathic-materia-medica-repertory-json": "9d278c5521d3f72f53940359365d37dfcfde849e"
       },
       "subskills": [
         "open-data-extraction-pipeline"
@@ -965,9 +965,9 @@
         "remedy-relationship-explorer"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "remedy-relationship-explorer": "3e707d8292fec7fe5f501a0de65e275a651de6d0"
+        "remedy-relationship-explorer": "284ed9ad525fb762468a0be5fc3b517cf34784c6"
       },
       "subskills": [
         "offline-first-single-file-web-app",
@@ -992,9 +992,9 @@
         "gentle-pediatrics-companion"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "gentle-pediatrics-companion": "e9a9f30488f5bbe97fef106ff9c9e611a4b80ec7"
+        "gentle-pediatrics-companion": "601a93e7d29a692dac50ee017901589ace01bf8d"
       },
       "subskills": [
         "offline-first-single-file-web-app",
@@ -1020,9 +1020,9 @@
         "skin-case-tracker"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "skin-case-tracker": "5c638227d754e8d29b5fa1ef5cc36d4f4d424a38"
+        "skin-case-tracker": "5087655b16b301456edb6bd7c753d117c09915ff"
       },
       "subskills": [
         "offline-first-single-file-web-app",
@@ -1048,9 +1048,9 @@
         "whispering-body-first-aid"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "whispering-body-first-aid": "356e9df3736cdc37d8b5cec607e5257ef8ebe4d4"
+        "whispering-body-first-aid": "6f27cabbe5ffeb85eed346afead78f4b24d4fcf7"
       },
       "subskills": [
         "offline-first-single-file-web-app",
@@ -1076,9 +1076,9 @@
         "HMS"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "HMS": "863c51b3bccd0ae07d230161860cd7af1b0f5ae1"
+        "HMS": "2ee5c831973aab60db6e64ba4cba7d4ab3ff33b0"
       },
       "subskills": [
         "lan-single-server-architecture",
@@ -1105,9 +1105,9 @@
         "bmi-bmr-tdee-macros-fluid-calculator"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "bmi-bmr-tdee-macros-fluid-calculator": "283df5e0fa07fb0e0bf595fb93eb3bf6fc0ad94b"
+        "bmi-bmr-tdee-macros-fluid-calculator": "902387f5f0a6ebf1303e4a016b51993baecc9a02"
       },
       "subskills": [
         "offline-first-single-file-web-app",
@@ -1133,9 +1133,9 @@
         "conqueror-os"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "conqueror-os": "8b6b9605c988d83aba51907a15044420b8715d77"
+        "conqueror-os": "0d4897389f5d5c3f115229b28a604e1d01a84526"
       },
       "subskills": [
         "offline-first-single-file-web-app",
@@ -1160,9 +1160,9 @@
         "mnemosyne-companion"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "mnemosyne-companion": "6b164c64f25872e5b312c3df4bed3f3b9bad941a"
+        "mnemosyne-companion": "c5e9026405f4d19e99bd2266483f76e2d97d1582"
       },
       "subskills": [
         "offline-first-single-file-web-app",
@@ -1187,9 +1187,9 @@
         "the-symphony-companion"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "the-symphony-companion": "1df16f180dba928291df5b2f7febf4125262cd9a"
+        "the-symphony-companion": "c07da1bf17b04b8ed2909d5c0658d92a6233756d"
       },
       "subskills": [
         "offline-first-single-file-web-app",
@@ -1214,9 +1214,9 @@
         "unstoppable-mind-companion"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "unstoppable-mind-companion": "98a0e1528f08e9f5e968bdb4c77bb33af6ef405e"
+        "unstoppable-mind-companion": "da4457b3dc71d21f2f70c990518d9b8dcb852600"
       },
       "subskills": [
         "offline-first-single-file-web-app",
@@ -1241,9 +1241,9 @@
         "read-live-transform-app"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "read-live-transform-app": "264338ad9240b59f70003144aa02346da2b61818"
+        "read-live-transform-app": "cd87686c42c88871786caf853131ba3f1258e9ac"
       },
       "subskills": [
         "offline-first-single-file-web-app",
@@ -1269,9 +1269,9 @@
         "SmartNotes"
       ],
       "version": "1.0.0",
-      "updated": "2026-10-29",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "SmartNotes": "152db404a6fbd5587ce66d28584e84a05e8cc538"
+        "SmartNotes": "ec7ff010791b8b9d882871317aba2acc445b6e29"
       },
       "subskills": [
         "static-landing-page-seo"
@@ -1297,9 +1297,9 @@
         "ambient-sound-studio"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "ambient-sound-studio": "4ebfe564bd3913624f6c480b8ffd6c367a567a4c"
+        "ambient-sound-studio": "9c85f703b75b61d7a01bbc21774e8f5aa6577430"
       },
       "subskills": [
         "offline-first-single-file-web-app",
@@ -1326,9 +1326,9 @@
         "smartbill-app"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "smartbill-app": "b9855c32709967a749cb2bbb2375598e836b580d"
+        "smartbill-app": "7d93e200412c55f04452ae12e74d1a9dbe828955"
       },
       "subskills": [
         "offline-first-single-file-web-app",
@@ -1353,9 +1353,9 @@
         "Matneo"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "Matneo": "531338892b6fa4fea7687217fb902aa8ccbc1d1c"
+        "Matneo": "52d8c60f5fa260e018440dcdfa6cafb632de3193"
       },
       "subskills": [
         "static-landing-page-seo"
@@ -1382,9 +1382,9 @@
         "app-builder"
       ],
       "version": "1.1.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "app-builder": "aa727deec70003ba44de36295eca9be80e91f8f1"
+        "app-builder": "bbef0db943e11f1a280ac8a063b79e66b7f6d9db"
       },
       "subskills": [
         "pyinstaller-portable-exe-launcher",
@@ -1411,9 +1411,9 @@
         "profile-kit"
       ],
       "version": "1.0.0",
-      "updated": "2026-10-29",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "profile-kit": "ed8013e748ed84ed0d00ac725fd91896e30e119c"
+        "profile-kit": "90ea02b7f710f83de2ec028255d2b7ef33764bbd"
       },
       "subskills": [
         "theme-aware-github-profile",
@@ -1442,11 +1442,11 @@
         "profile-kit"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "drsamonline": "f67b2252a6c5b13b2d802113ffa435b6ca8cc1c8",
-        "drsamonline.github.io": "9e5fe675c8427210b21f7dab61ecf09206f70738",
-        "profile-kit": "ed8013e748ed84ed0d00ac725fd91896e30e119c"
+        "drsamonline": "07dc661520fc1d6948723d9ee5c6acc6d06bd1e7",
+        "drsamonline.github.io": "cd6102cfd233b24a8db903453ca23aeb769acac1",
+        "profile-kit": "90ea02b7f710f83de2ec028255d2b7ef33764bbd"
       },
       "subskills": [
         "profile-kit",
@@ -1480,17 +1480,17 @@
         "SmartNotes"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "skills": "9c944352660b78dc4653db8699fdf07c8a0d5459",
-        "NEO": "4d507e75924146e0a41e17d54a1387838c274ca2",
-        "HMS": "863c51b3bccd0ae07d230161860cd7af1b0f5ae1",
-        "BLINKTRANSFER": "7416f623bf7f3c77814b59dcf0c0aeb5193dcfe5",
-        "conqueror-os": "8b6b9605c988d83aba51907a15044420b8715d77",
-        "mnemosyne-companion": "6b164c64f25872e5b312c3df4bed3f3b9bad941a",
-        "retro-strike": "ccf1bd26a598536f66c25702c8804c4bb084f0f3",
-        "idle-city-ages-of-growth": "1bac16da9e17be00bd7e23745e2b6b17f8e403e9",
-        "SmartNotes": "152db404a6fbd5587ce66d28584e84a05e8cc538"
+        "skills": "c8d8577ebeef502c002c2a333132a21080e3c47b",
+        "NEO": "caab29fd5700c21302a4a4e907c396816eae79eb",
+        "HMS": "2ee5c831973aab60db6e64ba4cba7d4ab3ff33b0",
+        "BLINKTRANSFER": "602843248806c6ab866b3b27cd92d59d0f001d3f",
+        "conqueror-os": "0d4897389f5d5c3f115229b28a604e1d01a84526",
+        "mnemosyne-companion": "c5e9026405f4d19e99bd2266483f76e2d97d1582",
+        "retro-strike": "4ded015bfae6c8aa6a8792dc84242b1bce00f2de",
+        "idle-city-ages-of-growth": "96c09c4377b24af527b33fa20e2d3b52ddd13845",
+        "SmartNotes": "ec7ff010791b8b9d882871317aba2acc445b6e29"
       },
       "subskills": [
         "reusable-build-release-workflow",
@@ -1517,9 +1517,9 @@
         "All4ONE"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "All4ONE": "2e9791fab414a627e83541e5ff1d79842f01e2c8"
+        "All4ONE": "c0dae254e7345e5e408afabc6ded7cc8228d9f69"
       },
       "subskills": [
         "all4one-utility-suite",
@@ -1602,10 +1602,10 @@
         "search-kit"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "ml-kit": "8f24dfc0c94c4a5a023c72f1459b8472a77a3363",
-        "search-kit": "4343473f26b77429017a0868ab3e1ee710542341"
+        "ml-kit": "b4efc548ef40be85258a467f5184c7e3cbe1b4d3",
+        "search-kit": "97fe6ddd4bccf64c66909ba271d7b91dd968f2cb"
       }
     },
     {
@@ -1626,10 +1626,10 @@
         "game-kit"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "art-kit": "48153d04cdc3dca74da3269f1693e898e0dda43f",
-        "game-kit": "6ced36b264416c5d5fffd3bdaef9e4f9f8a450fb"
+        "art-kit": "a8531a14cc6edb55092862e79cd4147ff9eda1da",
+        "game-kit": "89c8e2fdc65d5770c1bb948b83e421d4f1f25adc"
       }
     },
     {
@@ -1650,10 +1650,10 @@
         "game-kit"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "audio-kit": "e03641d4d8ec62aa43868f52e260bcf7214acd26",
-        "game-kit": "6ced36b264416c5d5fffd3bdaef9e4f9f8a450fb"
+        "audio-kit": "ff553539f0356961ca158e8b5eb93969f14838dc",
+        "game-kit": "89c8e2fdc65d5770c1bb948b83e421d4f1f25adc"
       }
     },
     {
@@ -1674,10 +1674,10 @@
         "web-kit"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "ui-kit": "011972dab339e32623565c8a9303d33e760134b3",
-        "web-kit": "740b96e8a6ec61c2ed9d82130852330b8605597e"
+        "ui-kit": "d9f534dee164fec5c37d95f06a0f23d74052a306",
+        "web-kit": "8d4bec169b35ddcc2890d24b0e9d80bcc27c3693"
       }
     },
     {
@@ -1700,10 +1700,10 @@
         "app-panchang"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "astro-kit": "8acc46f311f8269ca4a1bbf57910a15da95454f6",
-        "app-panchang": "767000b10636bdb8627f85804f4bd3407216b79c"
+        "astro-kit": "b9b9fe12d8a4d34c0c7ca0b38cfdfa36e6ca2db3",
+        "app-panchang": "3121b78d065164238284eecb63dec4cb4a407a41"
       },
       "subskills": [
         "offline-first-single-file-web-app"
@@ -1732,14 +1732,14 @@
         "read-live-transform-app"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "book-kit": "06c722e2fada12e9dfec71af587f467cd3846058",
-        "whispering-body-first-aid": "356e9df3736cdc37d8b5cec607e5257ef8ebe4d4",
-        "gentle-pediatrics-companion": "e9a9f30488f5bbe97fef106ff9c9e611a4b80ec7",
-        "the-symphony-companion": "1df16f180dba928291df5b2f7febf4125262cd9a",
-        "unstoppable-mind-companion": "98a0e1528f08e9f5e968bdb4c77bb33af6ef405e",
-        "read-live-transform-app": "264338ad9240b59f70003144aa02346da2b61818"
+        "book-kit": "0239e47d60c7045f23ad66984e4410e5d1e22d43",
+        "whispering-body-first-aid": "6f27cabbe5ffeb85eed346afead78f4b24d4fcf7",
+        "gentle-pediatrics-companion": "601a93e7d29a692dac50ee017901589ace01bf8d",
+        "the-symphony-companion": "c07da1bf17b04b8ed2909d5c0658d92a6233756d",
+        "unstoppable-mind-companion": "da4457b3dc71d21f2f70c990518d9b8dcb852600",
+        "read-live-transform-app": "cd87686c42c88871786caf853131ba3f1258e9ac"
       },
       "subskills": [
         "srs-kit-sm2",
@@ -1767,12 +1767,12 @@
         "HMS"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "case-kit": "6a4bb957ae89aa85a14a25180948f06deacb2f07",
-        "skin-case-tracker": "5c638227d754e8d29b5fa1ef5cc36d4f4d424a38",
-        "app-encrypted-case-log": "a6091ae68ba72ee87920b34caea98033930ada44",
-        "HMS": "863c51b3bccd0ae07d230161860cd7af1b0f5ae1"
+        "case-kit": "3b0b8672ccf0dcd9e84c92006e2f0bfee4d31720",
+        "skin-case-tracker": "5087655b16b301456edb6bd7c753d117c09915ff",
+        "app-encrypted-case-log": "a7c3cbb48a3cbd53b4a055c93d48c4abd13a4f9c",
+        "HMS": "2ee5c831973aab60db6e64ba4cba7d4ab3ff33b0"
       },
       "subskills": [
         "crypto-kit-aes-gcm",
@@ -1799,12 +1799,12 @@
         "offline-pdf-toolkit"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "compress-kit": "987cbfccc645cd69b5f4497b6569f6745905a309",
-        "lexora": "ad57991bfd1d7f8d8e88592ad4dba16e40e8e836",
+        "compress-kit": "4c25ffb7d0cc73dccd87e5fff166c7662f8a745e",
+        "lexora": "bc6e58bcaf9b266318fa195a31b49f0ff0162cb2",
         "kent-repertory-explorer": "43a4d9ff2c144e820bdd81a382c3676000afa4e0",
-        "offline-pdf-toolkit": "50d0cb6e04950759dd63b07f47b5ae85cbd55a2f"
+        "offline-pdf-toolkit": "fd1cacf99a7f2b99c9b600017067ded463c79722"
       },
       "subskills": [
         "offline-first-single-file-web-app"
@@ -1831,12 +1831,12 @@
         "seance"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "crypto-kit": "50b37c0833d37200b1f17af2fde42f56053f15ec",
-        "lockhtml": "c15f8653bec24532ccfaf04c53ccae991fbf1cb1",
-        "app-encrypted-case-log": "a6091ae68ba72ee87920b34caea98033930ada44",
-        "seance": "8dab17cdea1e5e98291908144a29864b2f6bced0"
+        "crypto-kit": "b9ab991a8b881f55fb1f1f99d11aa4bc529fc2c7",
+        "lockhtml": "96f4c10db2e327fdefd9717f497ba770cf1462d6",
+        "app-encrypted-case-log": "a7c3cbb48a3cbd53b4a055c93d48c4abd13a4f9c",
+        "seance": "192feaf98f36b7bf96e18ea0e50ed6f95c7f325a"
       },
       "subskills": [
         "offline-first-single-file-web-app",
@@ -1867,15 +1867,15 @@
         "neon-games"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "game-kit": "6ced36b264416c5d5fffd3bdaef9e4f9f8a450fb",
-        "neon-runner": "9d700fe21f72cf9ed8cd948730e610f68d3b2ee8",
-        "retro-strike": "ccf1bd26a598536f66c25702c8804c4bb084f0f3",
-        "dance-fight": "d664659bad92cd1e789585a8242f5eb2e44bef55",
-        "Scrap-and-Gun": "9d092fce19e1b493bd335be2bb521c58c3a9f748",
-        "idle-city-ages-of-growth": "1bac16da9e17be00bd7e23745e2b6b17f8e403e9",
-        "neon-games": "49b7bc92caaf03529c3800c25a751e3aca049ce8"
+        "game-kit": "89c8e2fdc65d5770c1bb948b83e421d4f1f25adc",
+        "neon-runner": "a7de65e84bc77e24a6d12c89271a3e606a9f6a16",
+        "retro-strike": "4ded015bfae6c8aa6a8792dc84242b1bce00f2de",
+        "dance-fight": "17a99bac9ab6fdb51a626494df74870ec7e37b00",
+        "Scrap-and-Gun": "1b2839febdd403494a579224aaad94bf1a2c8975",
+        "idle-city-ages-of-growth": "96c09c4377b24af527b33fa20e2d3b52ddd13845",
+        "neon-games": "2fd941f8711eb71a43ca5fe29dc65d5266274a5d"
       },
       "subskills": [
         "art-kit",
@@ -1904,13 +1904,13 @@
         "srs-kit"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "skills": "9c944352660b78dc4653db8699fdf07c8a0d5459",
-        "web-kit": "740b96e8a6ec61c2ed9d82130852330b8605597e",
+        "skills": "c8d8577ebeef502c002c2a333132a21080e3c47b",
+        "web-kit": "8d4bec169b35ddcc2890d24b0e9d80bcc27c3693",
         "forge": "926d6c8f38a423153556746c403b215a3ca1abe2",
-        "repertory-kit": "04d1df9416781ac55c7774a8d3cb57ed7560a032",
-        "srs-kit": "8b766ff9ccceefd665587427c3b92de7daa4e967"
+        "repertory-kit": "676fe50515b1a3a627c7e3ae1c0b33de62cf19ec",
+        "srs-kit": "396957958a7d79e6ee6844212c006a6a5e10aff3"
       },
       "subskills": [
         "safe-repo-cleanup",
@@ -1938,12 +1938,12 @@
         "app-companion-forge"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "lan-kit": "d9fc260fb4e3311d8223048e509da7e04651f283",
-        "canteen-lan": "b7536160abb600e4e6886cfd8e0cdeca0bfe343b",
-        "chalk-lan": "adc54b57e9512b6e0211b035aed5bcd62a6bef92",
-        "app-companion-forge": "3efb68bf30b6edc680548bf887c1590f33690669"
+        "lan-kit": "4d05a80c0124660eb6e4f979893a5c07a134c1fd",
+        "canteen-lan": "4ff451b6d5b3b842d39148dd29a039dc0f568e37",
+        "chalk-lan": "32b91bab7dc6e420c27e5e869ea4da14db6ba2da",
+        "app-companion-forge": "ea0758d48c1ce5cd9816c72eb75fcd2ea85a1345"
       },
       "subskills": [
         "lan-single-server-architecture",
@@ -1973,13 +1973,13 @@
         "helioprism"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "optical-kit": "ca1572efa952ffd2dc0b734963eb79521dd09aaa",
-        "frame-kit": "2ca6e9668c813e164a4cf2e35da66adc1d30b8b1",
-        "BLINKTRANSFER": "7416f623bf7f3c77814b59dcf0c0aeb5193dcfe5",
-        "blinkcode-ai": "b38da7b706bb1c5b38b331228d91c45300588cb8",
-        "helioprism": "9621b6b8fc6045ffcb1526c133f22346fe818e0f"
+        "optical-kit": "e1a73ecb70a92813b70d9c7f2efbd56c60a6c01a",
+        "frame-kit": "01f308595e1d7db9b1a4055e2724a467377b31e9",
+        "BLINKTRANSFER": "602843248806c6ab866b3b27cd92d59d0f001d3f",
+        "blinkcode-ai": "237a6f2dd0e5cba5f44f495785c5893708836b76",
+        "helioprism": "ff899fbae5a06a9405f43f93ff2f69ca3d556f83"
       },
       "subskills": [
         "optical-file-transfer",
@@ -2007,12 +2007,12 @@
         "optical-kit"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "TTB": "e5967f7f836a03066e0e072607992448240f3c89",
-        "BLINKTRANSFER": "7416f623bf7f3c77814b59dcf0c0aeb5193dcfe5",
-        "helioprism": "9621b6b8fc6045ffcb1526c133f22346fe818e0f",
-        "optical-kit": "ca1572efa952ffd2dc0b734963eb79521dd09aaa"
+        "TTB": "63bfcd82c719993acfc317a247d48f4ec60f2a1b",
+        "BLINKTRANSFER": "602843248806c6ab866b3b27cd92d59d0f001d3f",
+        "helioprism": "ff899fbae5a06a9405f43f93ff2f69ca3d556f83",
+        "optical-kit": "e1a73ecb70a92813b70d9c7f2efbd56c60a6c01a"
       },
       "subskills": [
         "optical-kit-fountain",
@@ -2040,12 +2040,12 @@
         "homoeopathic-materia-medica-repertory-json"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "repertory-kit": "04d1df9416781ac55c7774a8d3cb57ed7560a032",
-        "boericke-repertory": "895062dd23f5726cbe6a299b33e2c20d18f19398",
+        "repertory-kit": "676fe50515b1a3a627c7e3ae1c0b33de62cf19ec",
+        "boericke-repertory": "b74dc7927b338ba8170ddabe0478b801f4e1bef5",
         "kent-repertory-explorer": "43a4d9ff2c144e820bdd81a382c3676000afa4e0",
-        "homoeopathic-materia-medica-repertory-json": "648d670e79521fe104a9f7e747a193bc5926ba97"
+        "homoeopathic-materia-medica-repertory-json": "9d278c5521d3f72f53940359365d37dfcfde849e"
       },
       "subskills": [
         "open-data-extraction-pipeline",
@@ -2073,12 +2073,12 @@
         "open-materia-medica"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "search-kit": "4343473f26b77429017a0868ab3e1ee710542341",
-        "app-poets-studio": "fcd2e2ccf4b7a15c784f003457233ef3c3a34e73",
-        "app-encrypted-case-log": "a6091ae68ba72ee87920b34caea98033930ada44",
-        "open-materia-medica": "24bd1c63bae4d527d3da42ac310f7e25ea149d7e"
+        "search-kit": "97fe6ddd4bccf64c66909ba271d7b91dd968f2cb",
+        "app-poets-studio": "b0dd99cc010e2d063bd80d28809d748606f60167",
+        "app-encrypted-case-log": "a7c3cbb48a3cbd53b4a055c93d48c4abd13a4f9c",
+        "open-materia-medica": "4cc491e2c983468c977983da28ab7cde6443f83e"
       },
       "subskills": [
         "ml-kit",
@@ -2105,11 +2105,11 @@
         "mnemosyne-companion"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "srs-kit": "8b766ff9ccceefd665587427c3b92de7daa4e967",
-        "conqueror-os": "8b6b9605c988d83aba51907a15044420b8715d77",
-        "mnemosyne-companion": "6b164c64f25872e5b312c3df4bed3f3b9bad941a"
+        "srs-kit": "396957958a7d79e6ee6844212c006a6a5e10aff3",
+        "conqueror-os": "0d4897389f5d5c3f115229b28a604e1d01a84526",
+        "mnemosyne-companion": "c5e9026405f4d19e99bd2266483f76e2d97d1582"
       },
       "subskills": [
         "mnemosyne-companion",
@@ -34775,9 +34775,9 @@
         "ai-bridge"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "ai-bridge": "9a1ec4a85355bb65193f039c41eeb5a9d3dc905f"
+        "ai-bridge": "efb8f602e48d3cc0c2593d6c59fb8ad6b39447ba"
       },
       "subskills": []
     },
@@ -34798,9 +34798,9 @@
         "app-clip-loom"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "app-clip-loom": "a9c5deb8532eed3b42252705c3322567fb39e6dc"
+        "app-clip-loom": "4eb4f875723100e47eaed7302d4b2aa43933c299"
       },
       "subskills": [
         "weft8-kit",
@@ -34824,9 +34824,9 @@
         "app-image-toolkit"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "app-image-toolkit": "c665c27bca91bca083335ba2c58f15b727c94514"
+        "app-image-toolkit": "9092520b610734a2a290583f9fc2a8f83cd5f7c2"
       },
       "subskills": [
         "export-kit",
@@ -34851,9 +34851,9 @@
         "app-jacquard"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "app-jacquard": "667dbc25abf07b98940bf56f198dc1cd92360753"
+        "app-jacquard": "22a7fa0bb29c756aeccfd6f05a661829b0f661f5"
       },
       "subskills": [
         "weft8-kit",
@@ -34877,9 +34877,9 @@
         "app-lantern"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "app-lantern": "686045a287b3d98ca586312b657e015af188296a"
+        "app-lantern": "4b59826be8399738158f2c2e5ed55e5cd69821a6"
       },
       "subskills": [
         "lan-kit",
@@ -34903,9 +34903,9 @@
         "app-organon-reader"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "app-organon-reader": "2e76bc1d97d1429b99739268d25772f888a9796b"
+        "app-organon-reader": "040692b0b4195a415da670d3b793b565645d9b9d"
       },
       "subskills": [
         "offline-first-single-file-web-app",
@@ -34929,9 +34929,9 @@
         "app-thermals"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "app-thermals": "f74e37408ea0fead9b8f0b4de70d3836ade9bf01"
+        "app-thermals": "88d8aa35e5eba9ddcd3cf4518631b5f5d81d24c3"
       },
       "subskills": [
         "search-kit",
@@ -34956,9 +34956,9 @@
         "app-weft-puzzles"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "app-weft-puzzles": "376e3b5451935eaab41c526379914b0ee98f544c"
+        "app-weft-puzzles": "0cee1f23fa24058b130ed1201e592debe2531f90"
       },
       "subskills": [
         "weft8-kit",
@@ -34982,9 +34982,9 @@
         "audit"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "audit": "3442e6ed8ce9a33c2e5955c36ebd177a8402b8eb"
+        "audit": "adbdcf5ac6163be4d00f8a7d9fac91db3e4bd7d8"
       },
       "subskills": [
         "safe-repo-cleanup",
@@ -35008,9 +35008,9 @@
         "backup"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "backup": "634a404f03686cb43f67487fa945e451355b3333"
+        "backup": "63c53f3a8dcf94574963c6859b4f7078fa2ee89c"
       },
       "subskills": [
         "safe-repo-cleanup"
@@ -35033,9 +35033,9 @@
         "base-bench"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "base-bench": "37afdefb967db5da98cdc2a3c30806ceb0e41027"
+        "base-bench": "3a9e25b25b8570d8d4ea05442b5a73556e0b5a69"
       },
       "subskills": [
         "web-kit",
@@ -35059,9 +35059,9 @@
         "compfactory"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "compfactory": "67023770a9090777a90dd31a70229ebed0d49cb3"
+        "compfactory": "febda61c667549903b53356c2f28273f1215f333"
       },
       "subskills": [
         "ziptastic",
@@ -35086,9 +35086,9 @@
         "control-panel"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "control-panel": "61382f1fad8e77dc244dd01d21e1fc1aac26b0f5"
+        "control-panel": "ee0c5a9181cd28def95675db737811c539fce0df"
       },
       "subskills": [
         "audit",
@@ -35113,9 +35113,9 @@
         "corefit-md"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "corefit-md": "747a4bbe71e09f5195293f2896afce5826150d31"
+        "corefit-md": "8c1ad7b9e1e648992205176973f76dbce35145cd"
       },
       "subskills": [
         "offline-first-single-file-web-app",
@@ -35139,9 +35139,9 @@
         "dashboard"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "dashboard": "412f0a769678e9bc556b6195bcdc73781bf2d698"
+        "dashboard": "1ac84f081c4a9e6b7bd9eab640761df2d7051983"
       },
       "subskills": [
         "static-landing-page-seo",
@@ -35165,9 +35165,9 @@
         "eon-commando"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "eon-commando": "87bdc30150d4bef44095abb213306e642cde3bbd"
+        "eon-commando": "45221e4df9575f5a58948a62d021a68eb6676176"
       },
       "subskills": [
         "offline-first-single-file-web-app",
@@ -35192,9 +35192,9 @@
         "export-kit"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "export-kit": "ac11da4e7bd8ec7cc79aa99f87e2da195e8947cd"
+        "export-kit": "2cbb04849e718f5a7b9975c18e952fcdc6e87cce"
       },
       "subskills": [
         "web-kit",
@@ -35218,9 +35218,9 @@
         "HCS"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "HCS": "ed954d9416be39682ad85df6fb68e371b698e467"
+        "HCS": "7c4b67afac292e7a70b760049d34031d8d80d73f"
       },
       "subskills": [
         "ziptastic",
@@ -35244,9 +35244,9 @@
         "heavenzip"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "heavenzip": "88ac3d68b6142690df0211eba08d57d1a9eafd44"
+        "heavenzip": "c80c83d8a364a3307c50e66e1a6168d0b97861d6"
       },
       "subskills": [
         "ziptastic",
@@ -35271,9 +35271,9 @@
         "musicgen"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "musicgen": "5beb7459dc9b6cb48ab18da4a4deaaef7297ffb2"
+        "musicgen": "10fe396d56dead3c62bdadc5d3163c8597d0c4a7"
       },
       "subskills": [
         "audio-kit",
@@ -35297,9 +35297,9 @@
         "neon-velocity"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "neon-velocity": "85bd57cc3f0dcf9854f94bc730b41021b9e9eea8"
+        "neon-velocity": "34965838a62ed00f7674f854863e2a22b79cbdb4"
       },
       "subskills": [
         "art-kit",
@@ -35325,11 +35325,11 @@
         "app-lantern"
       ],
       "version": "1.3.0",
-      "updated": "2026-11-01",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "app-thermals": "f74e37408ea0fead9b8f0b4de70d3836ade9bf01",
-        "app-jacquard": "667dbc25abf07b98940bf56f198dc1cd92360753",
-        "app-lantern": "686045a287b3d98ca586312b657e015af188296a"
+        "app-thermals": "88d8aa35e5eba9ddcd3cf4518631b5f5d81d24c3",
+        "app-jacquard": "22a7fa0bb29c756aeccfd6f05a661829b0f661f5",
+        "app-lantern": "4b59826be8399738158f2c2e5ed55e5cd69821a6"
       },
       "license": "PolyForm-Noncommercial-1.0.0",
       "origin": "estate",
@@ -35358,12 +35358,12 @@
         "frame-kit"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "web-kit": "740b96e8a6ec61c2ed9d82130852330b8605597e",
-        "export-kit": "ac11da4e7bd8ec7cc79aa99f87e2da195e8947cd",
-        "lan-kit": "d9fc260fb4e3311d8223048e509da7e04651f283",
-        "frame-kit": "2ca6e9668c813e164a4cf2e35da66adc1d30b8b1"
+        "web-kit": "8d4bec169b35ddcc2890d24b0e9d80bcc27c3693",
+        "export-kit": "2cbb04849e718f5a7b9975c18e952fcdc6e87cce",
+        "lan-kit": "4d05a80c0124660eb6e4f979893a5c07a134c1fd",
+        "frame-kit": "01f308595e1d7db9b1a4055e2724a467377b31e9"
       },
       "subskills": [
         "web-kit",
@@ -35389,9 +35389,9 @@
         "today-card"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "today-card": "3d8029c42598583501f650cbdf93dda72a9b8307"
+        "today-card": "9c4cf00276724c638cc041c4837376f14cc018d7"
       },
       "subskills": [
         "web-kit",
@@ -35415,9 +35415,9 @@
         "weft8-classroom"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "weft8-classroom": "a26aebb0b5896fb56f223e789ffcda2c514b9f14"
+        "weft8-classroom": "5c11ccc4000cafb321de6286e66836b395b288ca"
       },
       "subskills": [
         "weft8-kit"
@@ -35440,9 +35440,9 @@
         "weft8-compare"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "weft8-compare": "e1494969415616b9324b640ea10699d68b8f6125"
+        "weft8-compare": "1b728d1ba5d8756088cf9e719b9597f42c0ddcda"
       },
       "subskills": [
         "weft8-kit"
@@ -35465,9 +35465,9 @@
         "weft8-hardware"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "weft8-hardware": "632403abd187d5b03a4343356876f20de723e61b"
+        "weft8-hardware": "6eb654ca1ba5f4c8ffb973526f3f349129da4677"
       },
       "subskills": [
         "weft8-kit",
@@ -35491,9 +35491,9 @@
         "weft8-kit"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "weft8-kit": "65d566438a51c150ae9c81130c12ce37cc2145d6"
+        "weft8-kit": "4686e8939662f8f71606ed21fc83983c0f8751b9"
       },
       "subskills": [
         "game-kit"
@@ -35516,9 +35516,9 @@
         "ziptastic"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-02",
+      "updated": "2026-11-07",
       "source_snapshot": {
-        "ziptastic": "b5f9efd343927508906d1b04caae208b55ebb54b"
+        "ziptastic": "908eca3633d705bd2e0a38e2c1bbeddc2095ee43"
       },
       "subskills": [
         "lexora",
@@ -36390,6 +36390,38 @@
         "imported": "2026-11-07",
         "note": "merged from the owner's own skill collection; each source is preserved under references/"
       }
+    },
+    {
+      "id": "amazon-kdp-publishing",
+      "name": "Amazon KDP publishing",
+      "category": "office-docs",
+      "description": "Produce a print-ready Amazon KDP book — interior PDF, full cover spread for paperback or case-laminate hardcover, editable DOCX with a live table of contents, metadata sheet and a pre-upload QA report — all in one zip. Use whenever a book is headed for Amazon, KDP, self-publishing or print-on-demand, including choosing a trim size, fixing a \"KDP rejected my file for page count\" error, working out spine width or cover size, making a paperback cover that wraps correctly, making a hardcover case wrap with hinges, setting gutter margins, adding bleed, preparing a manuscript for paperback or hardcover, or packaging a publication set. Trigger on KDP, Kindle Direct Publishing, paperback, hardcover, case laminate, trim size, spine width, gutter, bleed, print-ready PDF, ISBN, or \"publish my book on Amazon\".",
+      "tags": [
+        "kdp",
+        "amazon",
+        "self-publishing",
+        "print-on-demand",
+        "paperback",
+        "hardcover",
+        "case-laminate",
+        "trim-size",
+        "spine-width",
+        "gutter",
+        "bleed",
+        "pdf",
+        "docx",
+        "isbn",
+        "cover-design"
+      ],
+      "source_repos": [
+        "open-materia-medica"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-07",
+      "source_snapshot": {
+        "open-materia-medica": "4cc491e2c983468c977983da28ab7cde6443f83e"
+      },
+      "subskills": []
     }
   ]
 }

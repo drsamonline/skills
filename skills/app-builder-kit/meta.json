@@ -19,9 +19,9 @@
     "app-builder"
   ],
   "version": "1.1.0",
-  "updated": "2026-11-02",
+  "updated": "2026-11-07",
   "source_snapshot": {
-    "app-builder": "aa727deec70003ba44de36295eca9be80e91f8f1"
+    "app-builder": "bbef0db943e11f1a280ac8a063b79e66b7f6d9db"
   },
   "subskills": [
     "pyinstaller-portable-exe-launcher",

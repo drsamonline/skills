@@ -19,12 +19,12 @@
     "seance"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-02",
+  "updated": "2026-11-07",
   "source_snapshot": {
-    "crypto-kit": "50b37c0833d37200b1f17af2fde42f56053f15ec",
-    "lockhtml": "c15f8653bec24532ccfaf04c53ccae991fbf1cb1",
-    "app-encrypted-case-log": "a6091ae68ba72ee87920b34caea98033930ada44",
-    "seance": "8dab17cdea1e5e98291908144a29864b2f6bced0"
+    "crypto-kit": "b9ab991a8b881f55fb1f1f99d11aa4bc529fc2c7",
+    "lockhtml": "96f4c10db2e327fdefd9717f497ba770cf1462d6",
+    "app-encrypted-case-log": "a7c3cbb48a3cbd53b4a055c93d48c4abd13a4f9c",
+    "seance": "192feaf98f36b7bf96e18ea0e50ed6f95c7f325a"
   },
   "subskills": [
     "offline-first-single-file-web-app",
