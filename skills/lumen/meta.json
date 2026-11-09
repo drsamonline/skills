@@ -1,0 +1,24 @@
+{
+  "id": "lumen",
+  "name": "Lumen — an offline photo library with a strictly one-directional core",
+  "category": "mobile-apps",
+  "description": "Structure a local-first photo library so the engine is testable without a render surface: Flutter for the UI, Riverpod for state, SQLite for the index, and a core layer that never imports a widget.",
+  "tags": [
+    "flutter",
+    "dart",
+    "offline",
+    "photo-library",
+    "sqlite",
+    "layering",
+    "lan"
+  ],
+  "source_repos": [
+    "lumen"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-09",
+  "source_snapshot": {
+    "lumen": "f432ce98a0d3b20541d0a79972bba017ad65787c"
+  },
+  "subskills": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "repertory-reader",
+  "name": "Repertory Desk — a reader that shows the book and refuses to score it",
+  "category": "health-tools",
+  "description": "Read a large open corpus the way it was printed — chapters in printed order, remedies beside their rubrics, treatises rendered as prose — and be explicit that a reader which starts guessing stops being evidence.",
+  "tags": [
+    "reader",
+    "corpus",
+    "offline",
+    "indexeddb",
+    "service-worker",
+    "provenance",
+    "homoeopathy"
+  ],
+  "source_repos": [
+    "repertory-reader"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-09",
+  "source_snapshot": {
+    "repertory-reader": "f62130ffb0cdaf09b695805f46f8b9a350087fcc"
+  },
+  "subskills": []
+}

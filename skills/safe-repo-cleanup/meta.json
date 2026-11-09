@@ -22,10 +22,16 @@
     "mnemosyne-companion",
     "retro-strike",
     "idle-city-ages-of-growth",
-    "SmartNotes"
+    "SmartNotes",
+    "dashboard",
+    "kitbox",
+    "accent-oracle",
+    "drsamonline",
+    "HCS",
+    "ziptastic"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-07",
+  "updated": "2026-11-09",
   "source_snapshot": {
     "skills": "c8d8577ebeef502c002c2a333132a21080e3c47b",
     "NEO": "caab29fd5700c21302a4a4e907c396816eae79eb",
@@ -35,7 +41,13 @@
     "mnemosyne-companion": "c5e9026405f4d19e99bd2266483f76e2d97d1582",
     "retro-strike": "4ded015bfae6c8aa6a8792dc84242b1bce00f2de",
     "idle-city-ages-of-growth": "96c09c4377b24af527b33fa20e2d3b52ddd13845",
-    "SmartNotes": "ec7ff010791b8b9d882871317aba2acc445b6e29"
+    "SmartNotes": "ec7ff010791b8b9d882871317aba2acc445b6e29",
+    "dashboard": "d0c539169efc38d966528e81e5a11f10ef342d40",
+    "kitbox": "8c6e40b7a6f473cd1eea2c994679a45ea3c69600",
+    "accent-oracle": "13658d6793f3fcfe983b8fd73168d5a26dcf8e1e",
+    "drsamonline": "ed7049267ed921f7a24fa5fb66a4a5bb9573ff60",
+    "HCS": "208a02fe63b36a50144c963e3a20b9779611705c",
+    "ziptastic": "22be47fbde94292aa6a2df0f6c43555e56fbfcf2"
   },
   "subskills": [
     "reusable-build-release-workflow",

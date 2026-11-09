@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-07",
-  "count": 1546,
+  "generated": "2026-11-09",
+  "count": 1557,
   "categories": [
     "web-app-patterns",
     "android-packaging",
@@ -1477,10 +1477,16 @@
         "mnemosyne-companion",
         "retro-strike",
         "idle-city-ages-of-growth",
-        "SmartNotes"
+        "SmartNotes",
+        "dashboard",
+        "kitbox",
+        "accent-oracle",
+        "drsamonline",
+        "HCS",
+        "ziptastic"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-07",
+      "updated": "2026-11-09",
       "source_snapshot": {
         "skills": "c8d8577ebeef502c002c2a333132a21080e3c47b",
         "NEO": "caab29fd5700c21302a4a4e907c396816eae79eb",
@@ -1490,7 +1496,13 @@
         "mnemosyne-companion": "c5e9026405f4d19e99bd2266483f76e2d97d1582",
         "retro-strike": "4ded015bfae6c8aa6a8792dc84242b1bce00f2de",
         "idle-city-ages-of-growth": "96c09c4377b24af527b33fa20e2d3b52ddd13845",
-        "SmartNotes": "ec7ff010791b8b9d882871317aba2acc445b6e29"
+        "SmartNotes": "ec7ff010791b8b9d882871317aba2acc445b6e29",
+        "dashboard": "d0c539169efc38d966528e81e5a11f10ef342d40",
+        "kitbox": "8c6e40b7a6f473cd1eea2c994679a45ea3c69600",
+        "accent-oracle": "13658d6793f3fcfe983b8fd73168d5a26dcf8e1e",
+        "drsamonline": "ed7049267ed921f7a24fa5fb66a4a5bb9573ff60",
+        "HCS": "208a02fe63b36a50144c963e3a20b9779611705c",
+        "ziptastic": "22be47fbde94292aa6a2df0f6c43555e56fbfcf2"
       },
       "subskills": [
         "reusable-build-release-workflow",
@@ -36420,6 +36432,282 @@
       "updated": "2026-11-07",
       "source_snapshot": {
         "open-materia-medica": "4cc491e2c983468c977983da28ab7cde6443f83e"
+      },
+      "subskills": []
+    },
+    {
+      "id": "accent-oracle",
+      "name": "Accent Oracle — an on-device accent guess with a confidence band",
+      "category": "ai-and-ml",
+      "description": "Ship an on-device speech classifier as a browser app: four seconds of audio, a named accent with the region it is heard in, an explicit confidence band, and a card that teaches rather than judges.",
+      "tags": [
+        "on-device",
+        "speech",
+        "classification",
+        "uncertainty",
+        "privacy",
+        "offline",
+        "browser"
+      ],
+      "source_repos": [
+        "accent-oracle"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-09",
+      "source_snapshot": {
+        "accent-oracle": "13658d6793f3fcfe983b8fd73168d5a26dcf8e1e"
+      },
+      "subskills": [
+        "offline-first-single-file-web-app",
+        "static-landing-page-seo"
+      ]
+    },
+    {
+      "id": "aethelgard-rpg-engine",
+      "name": "Aethelgard RPG Engine — a vanilla-JS RPG engine behind one global",
+      "category": "game-engine",
+      "description": "Build a deep single-player browser RPG with no build step and no dependencies: small modules loaded in script order behind window.Game, with the story and artwork kept out of the engine repository.",
+      "tags": [
+        "rpg",
+        "game-engine",
+        "vanilla-js",
+        "no-build",
+        "offline",
+        "mods",
+        "licence-split"
+      ],
+      "source_repos": [
+        "aethelgard-rpg-engine"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-09",
+      "source_snapshot": {
+        "aethelgard-rpg-engine": "d2ff57d3e8d31283e037fae10d6876d4a7178405"
+      },
+      "subskills": [
+        "repo-presentation",
+        "static-landing-page-seo"
+      ]
+    },
+    {
+      "id": "feather",
+      "name": "Feather — prove the engine path before writing the window",
+      "category": "windows-desktop",
+      "description": "Structure a small portable document viewer in Rust as one crate per format plus a core, and gate the GUI work on a measured answer to the only question that matters: how long does it take to open a document and draw page one.",
+      "tags": [
+        "rust",
+        "desktop",
+        "document-viewer",
+        "crates",
+        "performance",
+        "packaging"
+      ],
+      "source_repos": [
+        "feather"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-09",
+      "source_snapshot": {
+        "feather": "e05e3fb9a49dcf18b5a08ef9dcb6cfa580d3b459"
+      },
+      "subskills": []
+    },
+    {
+      "id": "kitbox",
+      "name": "Kitbox — 493 tools in one HTML file, with the checks that make that claim true",
+      "category": "web-app-patterns",
+      "description": "Assemble a large offline utility suite as a single HTML file: one template, one build, and a test suite that fuzzes, checks accessibility, exercises interaction and verifies the minified build is the same app.",
+      "tags": [
+        "single-file",
+        "offline",
+        "utility-suite",
+        "build",
+        "testing",
+        "accessibility",
+        "no-network"
+      ],
+      "source_repos": [
+        "kitbox"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-09",
+      "source_snapshot": {
+        "kitbox": "8c6e40b7a6f473cd1eea2c994679a45ea3c69600"
+      },
+      "subskills": [
+        "offline-first-single-file-web-app",
+        "static-landing-page-seo"
+      ]
+    },
+    {
+      "id": "knowledge",
+      "name": "Knowledge — a black box for every run log and every resolved problem",
+      "category": "notes-knowledge",
+      "description": "Keep an indexed, searchable record of what every run did and why every failure was fixed, with a retention rule that keeps failures forever and successes for ninety days.",
+      "tags": [
+        "logging",
+        "incident-record",
+        "index",
+        "retention",
+        "search",
+        "operations"
+      ],
+      "source_repos": [
+        "knowledge"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-09",
+      "source_snapshot": {
+        "knowledge": "bdd5269bf2e91b05dc99005d47dfd320bd9f04f2"
+      },
+      "subskills": []
+    },
+    {
+      "id": "lumen",
+      "name": "Lumen — an offline photo library with a strictly one-directional core",
+      "category": "mobile-apps",
+      "description": "Structure a local-first photo library so the engine is testable without a render surface: Flutter for the UI, Riverpod for state, SQLite for the index, and a core layer that never imports a widget.",
+      "tags": [
+        "flutter",
+        "dart",
+        "offline",
+        "photo-library",
+        "sqlite",
+        "layering",
+        "lan"
+      ],
+      "source_repos": [
+        "lumen"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-09",
+      "source_snapshot": {
+        "lumen": "f432ce98a0d3b20541d0a79972bba017ad65787c"
+      },
+      "subskills": []
+    },
+    {
+      "id": "registry",
+      "name": "Registry — the machine-readable truth a dashboard and an agent both read",
+      "category": "data-and-schema",
+      "description": "Keep the estate's facts in versioned JSON files that a dashboard and an agent read from the same place, with each file's producer named and every definition of \"built\" measured rather than inferred.",
+      "tags": [
+        "registry",
+        "metadata",
+        "json",
+        "metrics",
+        "dashboards",
+        "definitions",
+        "provenance"
+      ],
+      "source_repos": [
+        "registry"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-09",
+      "source_snapshot": {
+        "registry": "32b1d51e34bbc3acdda85923717e58c5c20328a9"
+      },
+      "subskills": []
+    },
+    {
+      "id": "repertorium-publicum",
+      "name": "Repertorium Publicum Explorer — a repertory you can search like a ledger",
+      "category": "health-tools",
+      "description": "Turn a GPL-licensed printed repertory into one offline HTML app with its printed grades intact — 74,480 rubrics, 735,460 graded remedy links and grade-weighted repertorisation, built by a reproducible pipeline rather than a hand-made page.",
+      "tags": [
+        "repertory",
+        "homoeopathy",
+        "single-file",
+        "grades",
+        "pipeline",
+        "data-provenance",
+        "offline"
+      ],
+      "source_repos": [
+        "Repertorium-Publicum"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-09",
+      "source_snapshot": {
+        "Repertorium-Publicum": "38e718da7e0f89fea8ed1845b525575cc5543322"
+      },
+      "subskills": [
+        "repertory-kit-repertorisation",
+        "open-data-extraction-pipeline",
+        "offline-first-single-file-web-app"
+      ]
+    },
+    {
+      "id": "repertory-reader",
+      "name": "Repertory Desk — a reader that shows the book and refuses to score it",
+      "category": "health-tools",
+      "description": "Read a large open corpus the way it was printed — chapters in printed order, remedies beside their rubrics, treatises rendered as prose — and be explicit that a reader which starts guessing stops being evidence.",
+      "tags": [
+        "reader",
+        "corpus",
+        "offline",
+        "indexeddb",
+        "service-worker",
+        "provenance",
+        "homoeopathy"
+      ],
+      "source_repos": [
+        "repertory-reader"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-09",
+      "source_snapshot": {
+        "repertory-reader": "f62130ffb0cdaf09b695805f46f8b9a350087fcc"
+      },
+      "subskills": []
+    },
+    {
+      "id": "saga-vn-engine",
+      "name": "Saga — a visual-novel engine that reads plain-text scene files",
+      "category": "game-engine",
+      "description": "Build a browser visual novel with no build step: a small set of plain-JS modules, scenes authored as `.scene` text, and the story kept out of the engine repository so the two can be licensed separately.",
+      "tags": [
+        "visual-novel",
+        "game-engine",
+        "vanilla-js",
+        "scenes",
+        "no-build",
+        "offline",
+        "licence-split"
+      ],
+      "source_repos": [
+        "saga-vn-engine"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-09",
+      "source_snapshot": {
+        "saga-vn-engine": "eb7826f69bc425b171e3b16dc2cadd60192259c4"
+      },
+      "subskills": []
+    },
+    {
+      "id": "smartnote-scheduler",
+      "name": "SmartNote Scheduler — notes that classify and date themselves",
+      "category": "notes-knowledge",
+      "description": "Turn a free-text note into a classified, prioritised, dated reminder with a server that survives restarts: model-assigned categories, a heartbeat that processes due reminders, and a delivery log you can audit.",
+      "tags": [
+        "notes",
+        "scheduling",
+        "reminders",
+        "trpc",
+        "drizzle",
+        "mysql",
+        "llm",
+        "audit"
+      ],
+      "source_repos": [
+        "smartnote-scheduler"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-09",
+      "source_snapshot": {
+        "smartnote-scheduler": "80b0c194411ff26ecdd2ecbf63cde03a157e5379"
       },
       "subskills": []
     }

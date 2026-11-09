@@ -1,0 +1,24 @@
+{
+  "id": "registry",
+  "name": "Registry — the machine-readable truth a dashboard and an agent both read",
+  "category": "data-and-schema",
+  "description": "Keep the estate's facts in versioned JSON files that a dashboard and an agent read from the same place, with each file's producer named and every definition of \"built\" measured rather than inferred.",
+  "tags": [
+    "registry",
+    "metadata",
+    "json",
+    "metrics",
+    "dashboards",
+    "definitions",
+    "provenance"
+  ],
+  "source_repos": [
+    "registry"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-09",
+  "source_snapshot": {
+    "registry": "32b1d51e34bbc3acdda85923717e58c5c20328a9"
+  },
+  "subskills": []
+}

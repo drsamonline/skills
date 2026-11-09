@@ -1,0 +1,27 @@
+{
+  "id": "accent-oracle",
+  "name": "Accent Oracle — an on-device accent guess with a confidence band",
+  "category": "ai-and-ml",
+  "description": "Ship an on-device speech classifier as a browser app: four seconds of audio, a named accent with the region it is heard in, an explicit confidence band, and a card that teaches rather than judges.",
+  "tags": [
+    "on-device",
+    "speech",
+    "classification",
+    "uncertainty",
+    "privacy",
+    "offline",
+    "browser"
+  ],
+  "source_repos": [
+    "accent-oracle"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-09",
+  "source_snapshot": {
+    "accent-oracle": "13658d6793f3fcfe983b8fd73168d5a26dcf8e1e"
+  },
+  "subskills": [
+    "offline-first-single-file-web-app",
+    "static-landing-page-seo"
+  ]
+}

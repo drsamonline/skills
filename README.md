@@ -48,13 +48,19 @@ There are two kinds of skill:
   + SEO conventions, the auto-updating showcase hub, the open-data pipeline, the
   LAN single-server architecture, the theme-aware GitHub profile, optical file
   transfer, embedded-bundle feature gating, and safe repository cleanup.
-- **Imported first-party skills** — 501 skills from eighteen upstream skill collections (Anthropic, Google, Vercel, Hugging Face, Cloudflare, MiniMax, Addy Osmani, Matt Pocock, Matteo Collina, Jesse Vincent, Emil Kowalski, Steph Ango, Seth Hobson and others), deduplicated by topic and kept under their own licences.
-- **Vendored packs** — five packs and the seventeen skills they were merged from, imported unchanged from [ChrisTitusTech/titstack](https://github.com/ChrisTitusTech/titstack) (MIT). Each carries its own `LICENSE`; the pack is the merged reading, the individual skill is the same text on its own.
-- **Merged pack** — 31 skills built by merging 64 uploaded skills from the owner's own collection (2026-11-07). Duplicates were collapsed, near-duplicates merged into one skill per job with a routing table, and every source is preserved verbatim under `references/` inside the skill that absorbed it. 70 unique skills became 31.
-- **Project skills** — one per repository: what the project is, how it is built,
-  how it is released, and what makes its workflow distinctive.
+- **Imported first-party skills** — 1,399 skills carry `upstream` provenance naming one of 61 public
+  collections (Google, Anthropic, Vercel Labs, Hugging Face, Cloudflare, MiniMax, LambdaTest,
+  Browser-ACT and others), deduplicated by topic and kept under their own licences. Fourteen more
+  record several sources at once, and 31 record none because they arrived as an uploaded pack.
+- **Vendored packs** — 22 skills imported unchanged from [ChrisTitusTech/titstack](https://github.com/ChrisTitusTech/titstack) (MIT): 19 `pack-*` category readings and the individual skills behind them. Each carries its own `LICENSE`.
+- **Merged pack** — 43 skills record `merged_from` sources (188 source skills between them) from the
+  owner's own collection. Duplicates were collapsed, near-duplicates merged into one skill per job
+  with a routing table, and every source is preserved verbatim under `references/` inside the skill
+  that absorbed it.
+- **Project skills** — 110 skills name one or more drsamonline repositories in `source_repos`: what
+  the project is, how it is built, how it is released, and what makes its workflow distinctive.
 
-**Catalogue:** `1545` skills across 28 categories. The machine-readable index is [`catalog.json`](catalog.json); the landing page is <https://drsamonline.github.io/skills/>.
+**Catalogue:** `1557` skills across 28 categories. The machine-readable index is [`catalog.json`](catalog.json); the landing page is <https://drsamonline.github.io/skills/>.
 
 ## Repository layout
 
@@ -128,9 +134,9 @@ matches the code it describes.
 
 Every skill in the repository, by category, with the one line that tells you whether to open it. The id is the directory: `skills/<id>/SKILL.md` holds the method, `meta.json` its provenance, its licence and its upstream commit. Where a category has an index pack, the pack is named first — it is the routing table for that category.
 
-`1545` skills across 28 categories. The descriptions here are one-line summaries; the full trigger text is the `description` field in `meta.json` and at the top of each `SKILL.md`.
+`1557` skills across 28 categories. The descriptions here are one-line summaries; the full trigger text is the `description` field in `meta.json` and at the top of each `SKILL.md`.
 
-### Web app patterns (`web-app-patterns`) — 23 skills
+### Web app patterns (`web-app-patterns`) — 24 skills
 
 | Skill | What it does | Licence |
 |---|---|---|
@@ -145,6 +151,7 @@ Every skill in the repository, by category, with the one line that tells you whe
 | [`conqueror-os-workspace`](skills/conqueror-os-workspace/SKILL.md) | A private, offline resilience workspace in a single HTML file — read, reflect, journal, track and review — with no server, no… | — |
 | [`crypto-kit-aes-gcm`](skills/crypto-kit-aes-gcm/SKILL.md) | AES-256-GCM encryption with PBKDF2-SHA256 passphrase keys, a sealed envelope and a one-time-view helper on the Web Crypto API —… | — |
 | [`export-kit`](skills/export-kit/SKILL.md) | One zero-dependency file that turns bytes into a download, a Blob, a CSV or a store-only ZIP, working from file:// as well as Pages… | — |
+| [`kitbox`](skills/kitbox/SKILL.md) | Assemble a large offline utility suite as a single HTML file: one template, one build, and a test suite that fuzzes, checks… | — |
 | [`lan-kit-sse-room`](skills/lan-kit-sse-room/SKILL.md) | A LAN room in the browser: a client over Server-Sent Events for server-to-client and POST for client-to-server, with a host URL… | — |
 | [`lan-single-server-architecture`](skills/lan-single-server-architecture/SKILL.md) | A multi-user system that runs entirely on a hospital LAN: a Python server owns the SQLite database, a vanilla-JS UI runs in a… | — |
 | [`offline-first-single-file-web-app`](skills/offline-first-single-file-web-app/SKILL.md) | Build a whole app as one self-contained index.html — inline CSS/JS, no CDN, no build step — that runs from file:// or GitHub… | — |
@@ -164,13 +171,14 @@ Every skill in the repository, by category, with the one line that tells you whe
 |---|---|---|
 | [`android-webview-apk-packaging`](skills/android-webview-apk-packaging/SKILL.md) | Wrap a static single-file web app into a dependency-free Android WebView APK (platform framework only, no AndroidX), signed with… | — |
 
-### Windows & desktop (`windows-desktop`) — 9 skills
+### Windows & desktop (`windows-desktop`) — 10 skills
 
 | Skill | What it does | Licence |
 |---|---|---|
 | [`all4one-utility-suite`](skills/all4one-utility-suite/SKILL.md) | 551 Windows tools across 45 plugin packs compiled into one self-contained portable utility_suite.exe (Python, tkinter GUI + CLI)… | — |
 | [`cldr-command-launcher`](skills/cldr-command-launcher/SKILL.md) | A single dependency-free Rust binary that sits in the system tray, pops up on a hotkey, and routes whatever you type — maths,… | — |
 | [`embedded-bundle-feature-gating`](skills/embedded-bundle-feature-gating/SKILL.md) | Ship many features in one self-contained binary, compile them into a single embedded archive, and let users turn each feature on… | — |
+| [`feather`](skills/feather/SKILL.md) | Structure a small portable document viewer in Rust as one crate per format plus a core, and gate the GUI work on a measured… | — |
 | [`lexora-exact-compression`](skills/lexora-exact-compression/SKILL.md) | A text-cleaning and exact-compression system: canonicalize documents conservatively, then compress with guaranteed byte-exact… | — |
 | [`lockhtml-file-encryption`](skills/lockhtml-file-encryption/SKILL.md) | Encrypt any file into a single self-contained .html that asks for a PIN (AES-256-GCM + Argon2id), with one-time view, expiry,… | — |
 | [`neo-nova-compiler`](skills/neo-nova-compiler/SKILL.md) | A statically-typed compiled systems language: a Rust compiler lowers NOVA through lexer, parser, semantic analyser, SIR and a… | — |
@@ -178,12 +186,13 @@ Every skill in the repository, by category, with the one line that tells you whe
 | [`the-browser-aetheris`](skills/the-browser-aetheris/SKILL.md) | An experimental C++20 browser engine derived from Ladybird/SerenityOS, built with CMake + vcpkg and tested with CTest; explicitly… | — |
 | [`ultimate-windows-optimizer`](skills/ultimate-windows-optimizer/SKILL.md) | A PowerShell + batch toolkit that applies documented, fully reversible Windows 10/11 debloat and performance tweaks, with real… | — |
 
-### Games & engines (`game-engine`) — 15 skills
+### Games & engines (`game-engine`) — 17 skills
 
 | Skill | What it does | Licence |
 |---|---|---|
 | [`aethelgard-engine-rpg`](skills/aethelgard-engine-rpg/SKILL.md) | The vanilla-JavaScript engine behind Aethelgard: Chronicles of Fate — small modules loaded in script order behind one global… | — |
 | [`aethelgard-games-deployment`](skills/aethelgard-games-deployment/SKILL.md) | A deployment repo holding the built, playable copies of two Aethelgard browser games — The Books (a 36-chapter visual novel) and… | — |
+| [`aethelgard-rpg-engine`](skills/aethelgard-rpg-engine/SKILL.md) | Build a deep single-player browser RPG with no build step and no dependencies: small modules loaded in script order behind… | — |
 | [`aethelgardvn-saga-engine`](skills/aethelgardvn-saga-engine/SKILL.md) | Saga: a small, dependency-free visual-novel engine for the browser — plain JavaScript, one stylesheet, no build step, works… | — |
 | [`app-jacquard`](skills/app-jacquard/SKILL.md) | A Weft-8 8-bit assembler and VM in the browser, with the clock, calendar, clipboard and accelerometer exposed as memory-mapped… | — |
 | [`app-weft-puzzles`](skills/app-weft-puzzles/SKILL.md) | Six small programming puzzles solved in Weft-8 assembly on a machine with no conditional: the constraint is the lesson, because you… | — |
@@ -197,8 +206,9 @@ Every skill in the repository, by category, with the one line that tells you whe
 | [`neon-games-arcade`](skills/neon-games-arcade/SKILL.md) | A deployment repo holding two open-world games built on the Neon Engine — Dead Zone (zombie survival) and Neon Police (crime… | — |
 | [`neon-runner-auto-fire-shooter`](skills/neon-runner-auto-fire-shooter/SKILL.md) | A retro auto-fire side-scrolling shooter in one self-contained HTML file (vanilla JS + canvas): move, jump, duck — the gun fires… | — |
 | [`retro-strike-software-3d`](skills/retro-strike-software-3d/SKILL.md) | A complete retro third-person shooter in one HTML file with a custom software 3D renderer, a live chiptune synth and procedural… | — |
+| [`saga-vn-engine`](skills/saga-vn-engine/SKILL.md) | Build a browser visual novel with no build step: a small set of plain-JS modules, scenes authored as `.scene` text, and the… | — |
 
-### Data & schema (`data-and-schema`) — 12 skills
+### Data & schema (`data-and-schema`) — 13 skills
 
 | Skill | What it does | Licence |
 |---|---|---|
@@ -211,11 +221,12 @@ Every skill in the repository, by category, with the one line that tells you whe
 | [`ml-kit`](skills/ml-kit/SKILL.md) | The classic ML algorithms from scratch for offline features — tf-idf ranking, Naive Bayes, k-NN, k-means, PCA, ID3, linear… | — |
 | [`omm-json-builder`](skills/omm-json-builder/SKILL.md) | Convert raw homeopathic source texts — OCR text, DjVu XML, or a typed transcription — into clean, app-ready JSON, one file… | per source |
 | [`open-data-extraction-pipeline`](skills/open-data-extraction-pipeline/SKILL.md) | Turn raw OCR'd source texts into clean, app-ready JSON with a verbatim-fidelity rule: nothing invented, unknowns null, per-book… | — |
+| [`registry`](skills/registry/SKILL.md) | Keep the estate's facts in versioned JSON files that a dashboard and an agent read from the same place, with each file's… | — |
 | [`search-kit-ranked-search`](skills/search-kit-ranked-search/SKILL.md) | Ranked search over a big corpus in one zero-dependency file: an inverted index with prefix and fuzzy matching, scored hits and a… | — |
 | [`symbolic-math`](skills/symbolic-math/SKILL.md) | Exact symbolic mathematics in Python: algebra, calculus, equation solving, symbolic linear algebra, physics, plus lambdify… | per source |
 | [`ziptastic`](skills/ziptastic/SKILL.md) | The CHCE native compression engine as one self-contained C++ binary: preprocessors, a dual-resolution match finder, a joint optimal… | — |
 
-### Health tools (`health-tools`) — 17 skills
+### Health tools (`health-tools`) — 19 skills
 
 | Skill | What it does | Licence |
 |---|---|---|
@@ -231,7 +242,9 @@ Every skill in the repository, by category, with the one line that tells you whe
 | [`open-materia-medica`](skills/open-materia-medica/SKILL.md) | A plain-language homeopathic materia medica — 344 remedy portraits, each beside the substance's real pharmacology and toxicology… | — |
 | [`read-live-transform-app`](skills/read-live-transform-app/SKILL.md) | An offline PWA companion to the book Read. | — |
 | [`remedy-relationship-explorer`](skills/remedy-relationship-explorer/SKILL.md) | An offline single-file explorer for homeopathic remedy relationships — 686 remedies, 7,786 links from four public-domain materia… | — |
+| [`repertorium-publicum`](skills/repertorium-publicum/SKILL.md) | Turn a GPL-licensed printed repertory into one offline HTML app with its printed grades intact — 74,480 rubrics, 735,460… | — |
 | [`repertory-kit-repertorisation`](skills/repertory-kit-repertorisation/SKILL.md) | Grade-weighted homeopathic repertorisation in one zero-dependency file: rubric grading 1/2/3, remedy scoring, must-have and… | — |
+| [`repertory-reader`](skills/repertory-reader/SKILL.md) | Read a large open corpus the way it was printed — chapters in printed order, remedies beside their rubrics, treatises rendered… | — |
 | [`skin-case-tracker`](skills/skin-case-tracker/SKILL.md) | A private, offline PWA that tracks a skin case over time on the HHMS model — History, Habits, Mapping, Symptoms logged daily and… | — |
 | [`the-symphony-companion`](skills/the-symphony-companion/SKILL.md) | A pocket PWA companion to The Symphony of the Present: the book's ideas as cards, its practices as a checklist, a breathing… | — |
 | [`unstoppable-mind-companion`](skills/unstoppable-mind-companion/SKILL.md) | An offline companion app to The Unstoppable Mind: the book's key points and exercises, a 7-day challenge and flashcards — in a… | — |
@@ -875,13 +888,14 @@ Index pack: [`pack-cloud-and-deploy`](skills/pack-cloud-and-deploy/SKILL.md).
 | [`vercel-optimize`](skills/vercel-optimize/SKILL.md) | Use for Vercel cost and performance optimization on deployed projects, especially Next.js, SvelteKit, Nuxt, and limited Astro… | NOASSERTION |
 | [`workload-manager-basics`](skills/workload-manager-basics/SKILL.md) | Workload Manager validates enterprise workloads against Google Cloud best practices and recommendations. | Apache-2.0 |
 
-### AI & ML (`ai-and-ml`) — 128 skills
+### AI & ML (`ai-and-ml`) — 129 skills
 
 Index pack: [`pack-ai-and-ml`](skills/pack-ai-and-ml/SKILL.md).
 
 | Skill | What it does | Licence |
 |---|---|---|
 | [`academic-plotting`](skills/academic-plotting/SKILL.md) | Generates publication-quality figures for ML papers from research context. | MIT |
+| [`accent-oracle`](skills/accent-oracle/SKILL.md) | Ship an on-device speech classifier as a browser app: four seconds of audio, a named accent with the region it is heard in, an… | — |
 | [`ai-bridge`](skills/ai-bridge/SKILL.md) | A VS Code extension plus bridge that attaches to an already signed-in browser tab over the Chrome DevTools Protocol and drives it… | — |
 | [`ara-compiler`](skills/ara-compiler/SKILL.md) | Compiles any research input — PDF papers, GitHub repositories, experiment logs, code directories, or raw notes — into a complete… | MIT |
 | [`ara-research-manager`](skills/ara-research-manager/SKILL.md) | Records research provenance as a post-task epilogue, scanning conversation history at the end of a coding or research session to… | MIT |
@@ -1010,12 +1024,13 @@ Index pack: [`pack-ai-and-ml`](skills/pack-ai-and-ml/SKILL.md).
 | [`weights-and-biases`](skills/weights-and-biases/SKILL.md) | Track ML experiments with automatic logging, visualize training in real-time, optimize hyperparameters with sweeps, and manage… | MIT |
 | [`whisper`](skills/whisper/SKILL.md) | OpenAI's general-purpose speech recognition model. | MIT |
 
-### Office documents (`office-docs`) — 16 skills
+### Office documents (`office-docs`) — 17 skills
 
 Index pack: [`pack-office-docs`](skills/pack-office-docs/SKILL.md).
 
 | Skill | What it does | Licence |
 |---|---|---|
+| [`amazon-kdp-publishing`](skills/amazon-kdp-publishing/SKILL.md) | Produce a print-ready Amazon KDP book — interior PDF, full cover spread for paperback or case-laminate hardcover, editable… | — |
 | [`document-output-formats`](skills/document-output-formats/SKILL.md) | Produce the finished artefact from written content: a print-ready PDF via Typst, a Marp slide deck, or a styled HTML page… | per source |
 | [`excel-workbooks`](skills/excel-workbooks/SKILL.md) | Route any spreadsheet job by the workbook state that must survive: create, clean, extract, analyse, build a dashboard, audit… | per source |
 | [`frontend-slides`](skills/frontend-slides/SKILL.md) | Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. | MIT |
@@ -1443,7 +1458,7 @@ Index pack: [`pack-engineering-workflow`](skills/pack-engineering-workflow/SKILL
 | [`writing-skills`](skills/writing-skills/SKILL.md) | Use when creating new skills, editing existing skills, or verifying skills work before deployment | MIT |
 | [`xss-html-injection`](skills/xss-html-injection/SKILL.md) | This skill should be used when the user asks to "test for XSS vulnerabilities", "perform cross-site scripting attacks", "identify… | MIT |
 
-### Notes & knowledge (`notes-knowledge`) — 14 skills
+### Notes & knowledge (`notes-knowledge`) — 16 skills
 
 Index pack: [`pack-notes-knowledge`](skills/pack-notes-knowledge/SKILL.md).
 
@@ -1453,6 +1468,7 @@ Index pack: [`pack-notes-knowledge`](skills/pack-notes-knowledge/SKILL.md).
 | [`defuddle`](skills/defuddle/SKILL.md) | Extract clean Markdown from HTML pages with Defuddle CLI. | MIT |
 | [`json-canvas`](skills/json-canvas/SKILL.md) | Create and edit JSON Canvas files (.canvas) with nodes, edges, groups, and connections. | MIT |
 | [`knap`](skills/knap/SKILL.md) | Render Markdown from templates and structured data using Knap CLI. | MIT |
+| [`knowledge`](skills/knowledge/SKILL.md) | Keep an indexed, searchable record of what every run did and why every failure was fixed, with a retention rule that keeps… | — |
 | [`knowledge-capture-and-recall`](skills/knowledge-capture-and-recall/SKILL.md) | Synthesise many sources into one attributed answer, and recall what was decided before. Use when combining search results… | per source |
 | [`notebooklm`](skills/notebooklm/SKILL.md) | Use this skill to query your Google NotebookLM notebooks directly from Claude Code for source-grounded, citation-backed answers… | MIT |
 | [`obsidian-bases`](skills/obsidian-bases/SKILL.md) | Create and edit Obsidian Bases (.base files) with views, filters, formulas, and summaries. | MIT |
@@ -1461,10 +1477,11 @@ Index pack: [`pack-notes-knowledge`](skills/pack-notes-knowledge/SKILL.md).
 | [`obsidian-markdown`](skills/obsidian-markdown/SKILL.md) | Create and edit Obsidian Flavored Markdown with wikilinks, embeds, callouts, properties, and other Obsidian-specific syntax. | MIT |
 | [`obsidian-second-brain`](skills/obsidian-second-brain/SKILL.md) | Claude operates your Obsidian vault as a self-rewriting knowledge base. | MIT |
 | [`pack-notes-knowledge`](skills/pack-notes-knowledge/SKILL.md) | Work inside a Markdown knowledge base: Obsidian Flavored Markdown with wikilinks, callouts and properties, Bases views and… | mixed |
+| [`smartnote-scheduler`](skills/smartnote-scheduler/SKILL.md) | Turn a free-text note into a classified, prioritised, dated reminder with a server that survives restarts: model-assigned… | — |
 | [`today-card`](skills/today-card/SKILL.md) | A minimal single-page daily card: the date, one intention, one task and a streak, stored locally, shipped as one HTML file on top… | — |
 | [`unpaid-intern`](skills/unpaid-intern/SKILL.md) | A free second brain for work in plain markdown files the user owns. | MIT |
 
-### Mobile apps (`mobile-apps`) — 12 skills
+### Mobile apps (`mobile-apps`) — 13 skills
 
 Index pack: [`pack-mobile-apps`](skills/pack-mobile-apps/SKILL.md).
 
@@ -1479,6 +1496,7 @@ Index pack: [`pack-mobile-apps`](skills/pack-mobile-apps/SKILL.md).
 | [`ios-application-dev`](skills/ios-application-dev/SKILL.md) | A practical guide for building iOS applications using UIKit, SnapKit, and SwiftUI. | MIT |
 | [`kotlin-exposed-patterns`](skills/kotlin-exposed-patterns/SKILL.md) | JetBrains Exposed ORM patterns including DSL queries, DAO pattern, transactions, HikariCP connection pooling, Flyway migrations,… | MIT |
 | [`kotlin-testing`](skills/kotlin-testing/SKILL.md) | Patrones de pruebas Kotlin con Kotest, MockK, pruebas de coroutines, pruebas basadas en propiedades y cobertura con Kover. | MIT |
+| [`lumen`](skills/lumen/SKILL.md) | Structure a local-first photo library so the engine is testable without a render surface: Flutter for the UI, Riverpod for… | — |
 | [`pack-mobile-apps`](skills/pack-mobile-apps/SKILL.md) | Native and cross-platform mobile work: Android with Kotlin, Compose and Material 3, iOS application development, Flutter, React… | mixed |
 | [`react-native-dev`](skills/react-native-dev/SKILL.md) | A practical guide for building production-ready React Native and Expo applications. | MIT |
 | [`vercel-react-native-skills`](skills/vercel-react-native-skills/SKILL.md) | Comprehensive best practices for React Native and Expo applications. | NOASSERTION |
@@ -1909,11 +1927,12 @@ instead, which the refresh does not touch.
 
 ### The merged pack
 
-31 skills in this repository are merges of 64 skills uploaded as a single
-archive on 2026-11-07 from the owner's own collection. The archive held 85
-entries: 70 distinct skills, 13 byte-identical duplicates of those, and two
-files that were not skills at all (a Windows archiver and a probe-results
-folder), which were dropped.
+43 skills in this repository record `merged_from` sources — 188 source skills
+between them. One such pass, on 2026-11-07, merged 64 skills uploaded as a
+single archive from the owner's own collection. The archive held 85 entries: 70
+distinct skills, 13 byte-identical duplicates of those, and two files that were
+not skills at all (a Windows archiver and a probe-results folder), which were
+dropped.
 
 The merge is by **job**, not by name. Skills that solved the same problem from
 different angles became one skill with a routing table; skills that merely
@@ -1926,8 +1945,8 @@ try to resolve a SHA for a skill that has no upstream repository.
 
 ### The multi-repo import
 
-501 skills and 10 index packs were imported from eighteen first-party skill
-collections in one pass, at the commits recorded in each `meta.json`. The
+1,399 skills carry `upstream` provenance naming one of 61 public skill
+collections, at the commits recorded in each `meta.json`. The
 import is a **deduplicated** one: where two repositories shipped the same topic
 the fullest version is kept and the others are listed under *Upstream variants*
 inside that skill, so nothing is silently dropped and no two entries claim the

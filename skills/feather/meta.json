@@ -1,0 +1,23 @@
+{
+  "id": "feather",
+  "name": "Feather — prove the engine path before writing the window",
+  "category": "windows-desktop",
+  "description": "Structure a small portable document viewer in Rust as one crate per format plus a core, and gate the GUI work on a measured answer to the only question that matters: how long does it take to open a document and draw page one.",
+  "tags": [
+    "rust",
+    "desktop",
+    "document-viewer",
+    "crates",
+    "performance",
+    "packaging"
+  ],
+  "source_repos": [
+    "feather"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-09",
+  "source_snapshot": {
+    "feather": "e05e3fb9a49dcf18b5a08ef9dcb6cfa580d3b459"
+  },
+  "subskills": []
+}

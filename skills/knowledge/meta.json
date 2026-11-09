@@ -1,0 +1,23 @@
+{
+  "id": "knowledge",
+  "name": "Knowledge — a black box for every run log and every resolved problem",
+  "category": "notes-knowledge",
+  "description": "Keep an indexed, searchable record of what every run did and why every failure was fixed, with a retention rule that keeps failures forever and successes for ninety days.",
+  "tags": [
+    "logging",
+    "incident-record",
+    "index",
+    "retention",
+    "search",
+    "operations"
+  ],
+  "source_repos": [
+    "knowledge"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-09",
+  "source_snapshot": {
+    "knowledge": "bdd5269bf2e91b05dc99005d47dfd320bd9f04f2"
+  },
+  "subskills": []
+}

@@ -77,3 +77,8 @@ A repository that has been built and rebuilt for years collects two kinds of mes
 - [retro-strike](https://github.com/drsamonline/retro-strike) — `dist/` audited and kept (referenced by a README badge/link).
 - [idle-city-ages-of-growth](https://github.com/drsamonline/idle-city-ages-of-growth) — `build/` audited and kept (`build/build.js` is a source script).
 - [SmartNotes](https://github.com/drsamonline/SmartNotes) — a committed `node_modules/` removed.
+- [dashboard](https://github.com/drsamonline/dashboard) — a committed `node_modules/` (1,802 files) removed, restored by the workflow's `npm ci || npm install`.
+- [kitbox](https://github.com/drsamonline/kitbox) — a committed `tools/__pycache__/` removed, and its `MANIFEST.json` entries dropped so the gate reads clean.
+- [accent-oracle](https://github.com/drsamonline/accent-oracle) — a committed `tools/__pycache__/` removed.
+- [drsamonline](https://github.com/drsamonline/drsamonline) — a committed `.github/scripts/__pycache__/` removed.
+- [HCS](https://github.com/drsamonline/HCS) and [ziptastic](https://github.com/drsamonline/ziptastic) — build logs under the vendored `old/parmar-main/logs/` removed in both the tree and its `vendor/hcs/` copy.

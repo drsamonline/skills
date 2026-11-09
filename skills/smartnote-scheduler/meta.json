@@ -1,0 +1,25 @@
+{
+  "id": "smartnote-scheduler",
+  "name": "SmartNote Scheduler — notes that classify and date themselves",
+  "category": "notes-knowledge",
+  "description": "Turn a free-text note into a classified, prioritised, dated reminder with a server that survives restarts: model-assigned categories, a heartbeat that processes due reminders, and a delivery log you can audit.",
+  "tags": [
+    "notes",
+    "scheduling",
+    "reminders",
+    "trpc",
+    "drizzle",
+    "mysql",
+    "llm",
+    "audit"
+  ],
+  "source_repos": [
+    "smartnote-scheduler"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-09",
+  "source_snapshot": {
+    "smartnote-scheduler": "80b0c194411ff26ecdd2ecbf63cde03a157e5379"
+  },
+  "subskills": []
+}

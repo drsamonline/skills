@@ -1,0 +1,27 @@
+{
+  "id": "aethelgard-rpg-engine",
+  "name": "Aethelgard RPG Engine — a vanilla-JS RPG engine behind one global",
+  "category": "game-engine",
+  "description": "Build a deep single-player browser RPG with no build step and no dependencies: small modules loaded in script order behind window.Game, with the story and artwork kept out of the engine repository.",
+  "tags": [
+    "rpg",
+    "game-engine",
+    "vanilla-js",
+    "no-build",
+    "offline",
+    "mods",
+    "licence-split"
+  ],
+  "source_repos": [
+    "aethelgard-rpg-engine"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-09",
+  "source_snapshot": {
+    "aethelgard-rpg-engine": "d2ff57d3e8d31283e037fae10d6876d4a7178405"
+  },
+  "subskills": [
+    "repo-presentation",
+    "static-landing-page-seo"
+  ]
+}

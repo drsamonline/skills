@@ -1,0 +1,24 @@
+{
+  "id": "saga-vn-engine",
+  "name": "Saga — a visual-novel engine that reads plain-text scene files",
+  "category": "game-engine",
+  "description": "Build a browser visual novel with no build step: a small set of plain-JS modules, scenes authored as `.scene` text, and the story kept out of the engine repository so the two can be licensed separately.",
+  "tags": [
+    "visual-novel",
+    "game-engine",
+    "vanilla-js",
+    "scenes",
+    "no-build",
+    "offline",
+    "licence-split"
+  ],
+  "source_repos": [
+    "saga-vn-engine"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-09",
+  "source_snapshot": {
+    "saga-vn-engine": "eb7826f69bc425b171e3b16dc2cadd60192259c4"
+  },
+  "subskills": []
+}

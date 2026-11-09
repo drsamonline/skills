@@ -1,0 +1,27 @@
+{
+  "id": "kitbox",
+  "name": "Kitbox — 493 tools in one HTML file, with the checks that make that claim true",
+  "category": "web-app-patterns",
+  "description": "Assemble a large offline utility suite as a single HTML file: one template, one build, and a test suite that fuzzes, checks accessibility, exercises interaction and verifies the minified build is the same app.",
+  "tags": [
+    "single-file",
+    "offline",
+    "utility-suite",
+    "build",
+    "testing",
+    "accessibility",
+    "no-network"
+  ],
+  "source_repos": [
+    "kitbox"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-09",
+  "source_snapshot": {
+    "kitbox": "8c6e40b7a6f473cd1eea2c994679a45ea3c69600"
+  },
+  "subskills": [
+    "offline-first-single-file-web-app",
+    "static-landing-page-seo"
+  ]
+}
