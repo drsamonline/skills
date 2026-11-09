@@ -60,7 +60,7 @@ There are two kinds of skill:
 - **Project skills** — 110 skills name one or more drsamonline repositories in `source_repos`: what
   the project is, how it is built, how it is released, and what makes its workflow distinctive.
 
-**Catalogue:** `1557` skills across 28 categories. The machine-readable index is [`catalog.json`](catalog.json); the landing page is <https://drsamonline.github.io/skills/>.
+**Catalogue:** `1558` skills across 28 categories. The machine-readable index is [`catalog.json`](catalog.json); the landing page is <https://drsamonline.github.io/skills/>.
 
 ## Repository layout
 
@@ -134,7 +134,7 @@ matches the code it describes.
 
 Every skill in the repository, by category, with the one line that tells you whether to open it. The id is the directory: `skills/<id>/SKILL.md` holds the method, `meta.json` its provenance, its licence and its upstream commit. Where a category has an index pack, the pack is named first — it is the routing table for that category.
 
-`1557` skills across 28 categories. The descriptions here are one-line summaries; the full trigger text is the `description` field in `meta.json` and at the top of each `SKILL.md`.
+`1558` skills across 28 categories. The descriptions here are one-line summaries; the full trigger text is the `description` field in `meta.json` and at the top of each `SKILL.md`.
 
 ### Web app patterns (`web-app-patterns`) — 24 skills
 

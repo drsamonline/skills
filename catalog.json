@@ -1,6 +1,6 @@
 {
   "generated": "2026-11-09",
-  "count": 1557,
+  "count": 1558,
   "categories": [
     "web-app-patterns",
     "android-packaging",
@@ -36710,6 +36710,49 @@
         "smartnote-scheduler": "80b0c194411ff26ecdd2ecbf63cde03a157e5379"
       },
       "subskills": []
+    },
+    {
+      "id": "repo-legal-docs",
+      "name": "Repo legal docs — the paperwork a repository owes its users",
+      "category": "docs-and-planning",
+      "description": "Write and audit the legal documentation a repository needs — LICENSE and third-party notices, PRIVACY policy, TERMS of use, medical and AI disclaimers, SECURITY policy, EULA — grounded in Indian law (Copyright Act 1957, IT Act 2000 with IT Rules 2021, DPDP Act 2023 with DPDP Rules 2025, Consumer Protection Act 2019, Drugs and Magic Remedies Act 1954).",
+      "tags": [
+        "legal",
+        "licensing",
+        "privacy",
+        "dpdp",
+        "disclaimer",
+        "attribution",
+        "compliance",
+        "documentation",
+        "india"
+      ],
+      "source_repos": [],
+      "upstream": [
+        "mihirkavi/indian-law-official-sources",
+        "rohasnagpal/legal-ai-skills",
+        "lawve-ai/awesome-legal-skills",
+        "sheevu/indian-law-training-dataset-2026",
+        "civictech-India/Indian-Law-Penal-Code-Json",
+        "raivivek/open-bns",
+        "shashionline/indian-law-plugin",
+        "judicialmind/legal-skills"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-09",
+      "source_snapshot": {
+        "mihirkavi/indian-law-official-sources": "f7ede2374a8d8293ee1e3a7f28902dd4fb91a6e4",
+        "rohasnagpal/legal-ai-skills": "ad5df1934e981f9aa1c2c163da02590d8ae0504c",
+        "lawve-ai/awesome-legal-skills": "f9f28cdccbeb98bbdde010042ea9f525ca427c72",
+        "sheevu/indian-law-training-dataset-2026": "fe0f5e019590b5a120d3d1e970b00dbc063b7b90",
+        "civictech-India/Indian-Law-Penal-Code-Json": "6602cf81d5534d193d467b0b132420cfb3bfb239",
+        "raivivek/open-bns": "272890a53803ba3eaad748528b3b54ec0318b543",
+        "shashionline/indian-law-plugin": "879fc4d263170838abd14f9a9a234c7f52dc1a8b",
+        "judicialmind/legal-skills": "916ec5a4328a893cc57b4e0ecb9958b761901ca1"
+      },
+      "subskills": [
+        "documentation"
+      ]
     }
   ]
 }
