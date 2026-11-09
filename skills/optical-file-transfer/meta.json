@@ -19,10 +19,10 @@
     "blinkcode-ai"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-07",
+  "updated": "2026-11-09",
   "source_snapshot": {
-    "BLINKTRANSFER": "602843248806c6ab866b3b27cd92d59d0f001d3f",
-    "blinkcode-ai": "237a6f2dd0e5cba5f44f495785c5893708836b76"
+    "BLINKTRANSFER": "71b804c5655fc0c956f80bd5c7687dd2ec0844c9",
+    "blinkcode-ai": "b2518968b795a9bbda09f2a3d72903100b06b61b"
   },
   "subskills": [
     "offline-first-single-file-web-app"

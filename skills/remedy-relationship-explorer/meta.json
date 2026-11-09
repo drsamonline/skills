@@ -17,9 +17,9 @@
     "remedy-relationship-explorer"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-07",
+  "updated": "2026-11-09",
   "source_snapshot": {
-    "remedy-relationship-explorer": "284ed9ad525fb762468a0be5fc3b517cf34784c6"
+    "remedy-relationship-explorer": "cec110637ae1a9bf7890a1b32f6d71b88989b696"
   },
   "subskills": [
     "offline-first-single-file-web-app",

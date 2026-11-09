@@ -15,9 +15,9 @@
     "app-jacquard"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-07",
+  "updated": "2026-11-09",
   "source_snapshot": {
-    "app-jacquard": "22a7fa0bb29c756aeccfd6f05a661829b0f661f5"
+    "app-jacquard": "0bd1deebef9c08d275339b05df89c628ea2cb1a8"
   },
   "subskills": [
     "weft8-kit",

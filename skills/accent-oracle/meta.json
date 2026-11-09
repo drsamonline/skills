@@ -18,7 +18,7 @@
   "version": "1.0.0",
   "updated": "2026-11-09",
   "source_snapshot": {
-    "accent-oracle": "13658d6793f3fcfe983b8fd73168d5a26dcf8e1e"
+    "accent-oracle": "8fe761b8fbbc05effd5a78851420d74fd13aeccd"
   },
   "subskills": [
     "offline-first-single-file-web-app",

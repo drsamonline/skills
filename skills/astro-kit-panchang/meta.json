@@ -18,10 +18,10 @@
     "app-panchang"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-07",
+  "updated": "2026-11-09",
   "source_snapshot": {
-    "astro-kit": "b9b9fe12d8a4d34c0c7ca0b38cfdfa36e6ca2db3",
-    "app-panchang": "3121b78d065164238284eecb63dec4cb4a407a41"
+    "astro-kit": "7e8e93f5e6100811cafa5079e06629ec85340ef1",
+    "app-panchang": "1a46fa5bcd357fe77f9ffa492d7f0d9bd6bfe11d"
   },
   "subskills": [
     "offline-first-single-file-web-app"

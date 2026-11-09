@@ -15,9 +15,9 @@
     "weft8-compare"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-07",
+  "updated": "2026-11-09",
   "source_snapshot": {
-    "weft8-compare": "1b728d1ba5d8756088cf9e719b9597f42c0ddcda"
+    "weft8-compare": "faca50c3db272431129139ae8533b6cb67b2f882"
   },
   "subskills": [
     "weft8-kit"

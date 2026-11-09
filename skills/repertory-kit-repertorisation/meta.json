@@ -19,12 +19,12 @@
     "homoeopathic-materia-medica-repertory-json"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-07",
+  "updated": "2026-11-09",
   "source_snapshot": {
-    "repertory-kit": "676fe50515b1a3a627c7e3ae1c0b33de62cf19ec",
-    "boericke-repertory": "b74dc7927b338ba8170ddabe0478b801f4e1bef5",
+    "repertory-kit": "07df12786f3cac8f93d8667dedcf3a57abf16125",
+    "boericke-repertory": "e6c921806a0ebbd7deba2b27c3053ceaff934cc7",
     "kent-repertory-explorer": "43a4d9ff2c144e820bdd81a382c3676000afa4e0",
-    "homoeopathic-materia-medica-repertory-json": "9d278c5521d3f72f53940359365d37dfcfde849e"
+    "homoeopathic-materia-medica-repertory-json": "01644c088e8ddfefecfeb11a341e843f64552e78"
   },
   "subskills": [
     "open-data-extraction-pipeline",

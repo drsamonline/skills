@@ -16,9 +16,9 @@
     "web-kit"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-07",
+  "updated": "2026-11-09",
   "source_snapshot": {
-    "ui-kit": "d9f534dee164fec5c37d95f06a0f23d74052a306",
-    "web-kit": "8d4bec169b35ddcc2890d24b0e9d80bcc27c3693"
+    "ui-kit": "a809907528700f6e4d4b73766b1d84fc8b2117df",
+    "web-kit": "c8af379e49320d5fc59ab68a6314155906e2f913"
   }
 }

@@ -21,14 +21,14 @@
     "read-live-transform-app"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-07",
+  "updated": "2026-11-09",
   "source_snapshot": {
-    "book-kit": "0239e47d60c7045f23ad66984e4410e5d1e22d43",
-    "whispering-body-first-aid": "6f27cabbe5ffeb85eed346afead78f4b24d4fcf7",
-    "gentle-pediatrics-companion": "601a93e7d29a692dac50ee017901589ace01bf8d",
-    "the-symphony-companion": "c07da1bf17b04b8ed2909d5c0658d92a6233756d",
-    "unstoppable-mind-companion": "da4457b3dc71d21f2f70c990518d9b8dcb852600",
-    "read-live-transform-app": "cd87686c42c88871786caf853131ba3f1258e9ac"
+    "book-kit": "ca116b126a5fa5f7dc82b74dba1e66f8609e6123",
+    "whispering-body-first-aid": "bb4ecce31ec1eb1d691c5f7889faaf343411d583",
+    "gentle-pediatrics-companion": "ea618ccbd9d5e47c2092cae6480d5c94050947c3",
+    "the-symphony-companion": "d087e41c15a8cceffa0775309cb0789198922275",
+    "unstoppable-mind-companion": "c42803faebee8910387962c5b99824b1a8358f03",
+    "read-live-transform-app": "a66fbd8b478103e45ae421fac564ee8deea70e8f"
   },
   "subskills": [
     "srs-kit-sm2",

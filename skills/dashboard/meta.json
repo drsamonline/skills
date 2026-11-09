@@ -15,9 +15,9 @@
     "dashboard"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-07",
+  "updated": "2026-11-09",
   "source_snapshot": {
-    "dashboard": "1ac84f081c4a9e6b7bd9eab640761df2d7051983"
+    "dashboard": "a733bdbf97a348c237482cd1ecfcbf59cbdfd1b3"
   },
   "subskills": [
     "static-landing-page-seo",
