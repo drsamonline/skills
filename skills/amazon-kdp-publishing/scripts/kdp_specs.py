@@ -94,6 +94,21 @@ def outside_margin(bleed: bool = False) -> float:
     return 0.375 if bleed else 0.25
 
 
+# A margin set to exactly the minimum fails in practice. Rendering rounds, a
+# table can overhang its column by a hair, and KDP measures the ink, not the CSS.
+# Add a buffer so the measured margin lands safely above the requirement.
+MARGIN_SAFETY = 0.012          # inches
+
+
+def safe_gutter(pages: int) -> float:
+    """Gutter to actually design with: KDP's minimum plus the safety buffer."""
+    return round(gutter(pages) + MARGIN_SAFETY, 4)
+
+
+def safe_outside(bleed: bool = False) -> float:
+    return round(outside_margin(bleed) + MARGIN_SAFETY, 4)
+
+
 SPINE_TEXT_MIN_PAGES = 79
 SPINE_TEXT_CLEARANCE = 0.0625
 BARCODE_W, BARCODE_H = 2.0, 1.2

@@ -199,7 +199,7 @@ def run(spec_path):
                               extra_sections=None, front_sheets=None,
                               workdir=work)
         pages = res["total_pages"]
-        need = S.gutter(pages)
+        need = S.safe_gutter(pages)
         history.append((attempt, guess, pages, need))
         print(f"  pass {attempt}: gutter {guess} -> {pages} pages -> needs {need}")
         if abs(need - guess) < 1e-9:
@@ -220,7 +220,7 @@ def run(spec_path):
     res = BI.build_master(spec["module"], css, g, "_interior.html",
                           front_sheets=front, workdir=work)
     pages = res["total_pages"]
-    need = S.gutter(pages)
+    need = S.safe_gutter(pages)
     if need != guess:                       # front matter shifted the count
         spec["gutter"] = need
         g = BI.geometry(trim, need, g_in["outside"], g_in["top"], g_in["bottom"])

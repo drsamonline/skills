@@ -131,6 +131,8 @@ CSS, and `fc-match` must resolve your family rather than a fallback.
 
 ```bash
 python3 scripts/fontaudit.py build/          # audit every PDF in a folder
+python3 scripts/fontfix.py --css book.css    # pin static instances, strip @font-face
+python3 scripts/printrender.py --html book.html --out book.pdf
 ```
 
 Full method in `references/font-embedding.md`. The companion skill
@@ -173,6 +175,10 @@ Full method in `references/font-embedding.md`. The companion skill
 | `scripts/build_docx.py` | DOCX with a live `TOC` field and mirrored margins. |
 | `scripts/kdp_build.py` | Orchestrates everything into the single zip, and gates on fonts. |
 | `scripts/fontaudit.py` | Reads a PDF's fonts; exits non-zero on Type 3 or missing embedding. |
+| `scripts/fontfix.py` | Pins variable fonts to static instances, installs them, strips `@font-face`. |
+| `scripts/printrender.py` | HTML to PDF with the font environment, verified before it exits. |
+| `scripts/inkcheck.py` | Measures where ink actually lands on the page and compares it with the trim. |
+| `assets/fonts.conf` | Minimal fontconfig pointing at a font directory. |
 
 Start with `kdp_build.py --spec book.json`. It validates the spec, refuses a
 page count outside the trim's range, and tells you what to change.
