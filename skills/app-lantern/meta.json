@@ -15,9 +15,9 @@
     "app-lantern"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "source_snapshot": {
-    "app-lantern": "bd88e9e952edf0efc6194d8a753fe79b8551ab24"
+    "app-lantern": "acd2cae747e4cda20d18842a0c58b27c794a8a95"
   },
   "subskills": [
     "lan-kit",

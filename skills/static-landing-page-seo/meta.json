@@ -20,9 +20,9 @@
     "conqueror-os"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "source_snapshot": {
-    "app-builder": "9900b74fbaccf39b36f75cfa5b4549cd6433ddbb",
+    "app-builder": "170a7ea4f99ef52cb86650869a468ee57fffb4e1",
     "homoeopathic-materia-medica-repertory-json": "01644c088e8ddfefecfeb11a341e843f64552e78",
     "neon-runner": "d069c6716a0f17cb3a260ddc7a301b6c9da35fc1",
     "conqueror-os": "f8cadb203a60fb45841bfd0e3dd2eec952dd9c5e"

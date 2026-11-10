@@ -18,12 +18,12 @@
     "frame-kit"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "source_snapshot": {
-    "web-kit": "c8af379e49320d5fc59ab68a6314155906e2f913",
-    "export-kit": "cadbfa548e4baddc1a1129873e478fb28b5eba45",
-    "lan-kit": "b0dd6bfaff86c2efe83b960144f0dd5e3df0593d",
-    "frame-kit": "461130995fc85853982215f412e022ef8164eba6"
+    "web-kit": "eadf3662d964b1d80ecc123fd5b048f2be1a76fc",
+    "export-kit": "135e16ad44adfce5ea6e35b353303d5f61020575",
+    "lan-kit": "fc5e91131d7b143159c3ba3064e89ea22fd1e785",
+    "frame-kit": "f72afdf17d30e48cc982938a4cac55aa3b801a6e"
   },
   "subskills": [
     "web-kit",

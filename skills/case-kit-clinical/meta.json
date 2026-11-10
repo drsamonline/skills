@@ -19,11 +19,11 @@
     "HMS"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "source_snapshot": {
-    "case-kit": "a5eb752bdd2284081a13e7379ed9c9f022d3fb05",
+    "case-kit": "24c1e7d2dc454ab9b23e90c9e7d4841991f5febd",
     "skin-case-tracker": "43d7180b149742a3404282fc364797b6ad9165c1",
-    "app-encrypted-case-log": "f57235d262fb2e371d3d6638abdb4d59eb138fe4",
+    "app-encrypted-case-log": "b4abb5c080ec3a3537135a92362e94fc42f12ad5",
     "HMS": "62f8abb0e24c5e26f37b3bfe25281e7c9a731124"
   },
   "subskills": [

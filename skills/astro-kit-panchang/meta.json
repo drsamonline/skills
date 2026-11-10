@@ -18,9 +18,9 @@
     "app-panchang"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "source_snapshot": {
-    "astro-kit": "7e8e93f5e6100811cafa5079e06629ec85340ef1",
+    "astro-kit": "dc6429fc7bffbdd4aea8d6cee49dd25b2e4e856a",
     "app-panchang": "1a46fa5bcd357fe77f9ffa492d7f0d9bd6bfe11d"
   },
   "subskills": [

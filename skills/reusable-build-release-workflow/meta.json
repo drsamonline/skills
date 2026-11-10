@@ -17,9 +17,9 @@
     "HMS"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "source_snapshot": {
-    "app-builder": "9900b74fbaccf39b36f75cfa5b4549cd6433ddbb",
+    "app-builder": "170a7ea4f99ef52cb86650869a468ee57fffb4e1",
     "HMS": "62f8abb0e24c5e26f37b3bfe25281e7c9a731124"
   },
   "subskills": [

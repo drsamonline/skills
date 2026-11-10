@@ -21,10 +21,10 @@
     "helioprism"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "source_snapshot": {
-    "optical-kit": "d6c4399926b877e8b87bd2d76359ad9caf2b9d8c",
-    "frame-kit": "461130995fc85853982215f412e022ef8164eba6",
+    "optical-kit": "5b6b73427fb3a71626fb90ad013b83fe8645357f",
+    "frame-kit": "f72afdf17d30e48cc982938a4cac55aa3b801a6e",
     "BLINKTRANSFER": "71b804c5655fc0c956f80bd5c7687dd2ec0844c9",
     "blinkcode-ai": "b2518968b795a9bbda09f2a3d72903100b06b61b",
     "helioprism": "64b9e9d77a46ff085e5181686abee40e367f8752"

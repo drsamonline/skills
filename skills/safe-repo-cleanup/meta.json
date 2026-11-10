@@ -31,9 +31,9 @@
     "ziptastic"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "source_snapshot": {
-    "skills": "9dede4cef4ac1bdfbb9f97d28125c06e181f0e4f",
+    "skills": "4d9884a0a36cf426e0bc6b924082f9ac9444db05",
     "NEO": "4c2ace950eedb3563ba5f0a6bb82b51446bb85a5",
     "HMS": "62f8abb0e24c5e26f37b3bfe25281e7c9a731124",
     "BLINKTRANSFER": "71b804c5655fc0c956f80bd5c7687dd2ec0844c9",
@@ -42,12 +42,12 @@
     "retro-strike": "8d3bd16953ba94d4c9bb8f47118f9bc9fc8373ca",
     "idle-city-ages-of-growth": "f7918f6addf516b600cb3201d3c1dd5fb09c6cbe",
     "SmartNotes": "461a7f55bd83d139023aaa28d3f9b7f5192d3fb6",
-    "dashboard": "a733bdbf97a348c237482cd1ecfcbf59cbdfd1b3",
+    "dashboard": "77ba1169296750b379fc68654ba9d1ee3ee4cb6f",
     "kitbox": "de7493fa1905d6e2f6f0e70c314ab09a521f7680",
     "accent-oracle": "8fe761b8fbbc05effd5a78851420d74fd13aeccd",
     "drsamonline": "0da75ee6445d86eb25fc2dc9dfa0da1a36f44182",
-    "HCS": "4554f0875ca3b2a6877be5c23631a6efc667e1a2",
-    "ziptastic": "b85e25df838f5f1e47c3d9b007418a51f111ff86"
+    "HCS": "1fcc7ec03cf234b8b07de5fff23db67afaf7068c",
+    "ziptastic": "1e5c9eaeea04afd87f10642501962a4c483e4e08"
   },
   "subskills": [
     "reusable-build-release-workflow",

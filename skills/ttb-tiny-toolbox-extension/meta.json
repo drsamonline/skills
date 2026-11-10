@@ -17,9 +17,9 @@
     "TTB"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "source_snapshot": {
-    "TTB": "68c9c87d07f85438d26ee69f65cea6385f1ab4c9"
+    "TTB": "9588709ad4abef36bf085cc78ecd86a50a485f99"
   },
   "subskills": [
     "offline-first-single-file-web-app"

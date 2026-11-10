@@ -19,9 +19,9 @@
     "app-companion-forge"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "source_snapshot": {
-    "lan-kit": "b0dd6bfaff86c2efe83b960144f0dd5e3df0593d",
+    "lan-kit": "fc5e91131d7b143159c3ba3064e89ea22fd1e785",
     "canteen-lan": "80cd4ba291df800d14a314528c6fec3743bc8e4f",
     "chalk-lan": "3831498e7e4f1884267aea0426b3b93ef2bef076",
     "app-companion-forge": "970b6ed3d2b38598e9df1929c059638a426f0b7b"

@@ -22,9 +22,9 @@
     "neon-games"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "source_snapshot": {
-    "game-kit": "aaf35a464cbc8a72118cbf7a13e8f54e030f8568",
+    "game-kit": "21b3c6ed93f160f24b80ae19e58ddd6651e53f62",
     "neon-runner": "d069c6716a0f17cb3a260ddc7a301b6c9da35fc1",
     "retro-strike": "8d3bd16953ba94d4c9bb8f47118f9bc9fc8373ca",
     "dance-fight": "3653e33d35728275242a9d88511f0e6ef451b558",

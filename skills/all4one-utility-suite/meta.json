@@ -22,9 +22,9 @@
     "All4ONE"
   ],
   "version": "2.0.0",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "source_snapshot": {
-    "All4ONE": "4ddc0d04f8a025f1337b6e3ba89a7415b97978f5"
+    "All4ONE": "8ebe98887b8f83107fbd8b074b516d743c947c81"
   },
   "subskills": [
     "pyinstaller-portable-exe-launcher",

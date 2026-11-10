@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-09",
+  "generated": "2026-11-10",
   "count": 1558,
   "categories": [
     "web-app-patterns",
@@ -92,9 +92,9 @@
         "open-materia-medica"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "app-builder": "9900b74fbaccf39b36f75cfa5b4549cd6433ddbb",
+        "app-builder": "170a7ea4f99ef52cb86650869a468ee57fffb4e1",
         "open-materia-medica": "08df2723f58679999d07aab0b36687d04870e53f"
       },
       "subskills": [
@@ -122,10 +122,10 @@
         "All4ONE"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "app-builder": "9900b74fbaccf39b36f75cfa5b4549cd6433ddbb",
-        "All4ONE": "4ddc0d04f8a025f1337b6e3ba89a7415b97978f5"
+        "app-builder": "170a7ea4f99ef52cb86650869a468ee57fffb4e1",
+        "All4ONE": "8ebe98887b8f83107fbd8b074b516d743c947c81"
       },
       "subskills": [
         "reusable-build-release-workflow",
@@ -151,9 +151,9 @@
         "HMS"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "app-builder": "9900b74fbaccf39b36f75cfa5b4549cd6433ddbb",
+        "app-builder": "170a7ea4f99ef52cb86650869a468ee57fffb4e1",
         "HMS": "62f8abb0e24c5e26f37b3bfe25281e7c9a731124"
       },
       "subskills": [
@@ -183,9 +183,9 @@
         "conqueror-os"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "app-builder": "9900b74fbaccf39b36f75cfa5b4549cd6433ddbb",
+        "app-builder": "170a7ea4f99ef52cb86650869a468ee57fffb4e1",
         "homoeopathic-materia-medica-repertory-json": "01644c088e8ddfefecfeb11a341e843f64552e78",
         "neon-runner": "d069c6716a0f17cb3a260ddc7a301b6c9da35fc1",
         "conqueror-os": "f8cadb203a60fb45841bfd0e3dd2eec952dd9c5e"
@@ -213,9 +213,9 @@
         "drsamonline.github.io"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "drsamonline.github.io": "68eca95b41e752707488517dab28e158e2d436cc"
+        "drsamonline.github.io": "854b0860014be7600f9fa16105528ae36459462e"
       },
       "subskills": [
         "static-landing-page-seo"
@@ -333,9 +333,9 @@
         "All4ONE"
       ],
       "version": "2.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "All4ONE": "4ddc0d04f8a025f1337b6e3ba89a7415b97978f5"
+        "All4ONE": "8ebe98887b8f83107fbd8b074b516d743c947c81"
       },
       "subskills": [
         "pyinstaller-portable-exe-launcher",
@@ -362,9 +362,9 @@
         "ULTIMATE-WINDOWS-OPTIMIZER"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "ULTIMATE-WINDOWS-OPTIMIZER": "4b16674a418402b2a9286fb327e4f9b96d5ad7c7"
+        "ULTIMATE-WINDOWS-OPTIMIZER": "59103443de70cdf62a386fafcf597ff38a40449d"
       },
       "subskills": [
         "static-landing-page-seo"
@@ -389,9 +389,9 @@
         "TTB"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "TTB": "68c9c87d07f85438d26ee69f65cea6385f1ab4c9"
+        "TTB": "9588709ad4abef36bf085cc78ecd86a50a485f99"
       },
       "subskills": [
         "offline-first-single-file-web-app"
@@ -416,9 +416,9 @@
         "CLDR"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "CLDR": "aea29630885136f5d0d5f51361fca1c57324dd12"
+        "CLDR": "4a75c0c9c9d37ab95bc7d24a9c0dac3047608f4e"
       },
       "subskills": [
         "static-landing-page-seo"
@@ -470,9 +470,9 @@
         "lexora"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "lexora": "1d4fefbec20e8cc212e8e0414f85dfafbaf8b9ea"
+        "lexora": "55b5a10fdabc855183af522562dbcdae7769b1bd"
       },
       "subskills": [
         "static-landing-page-seo"
@@ -554,9 +554,9 @@
         "The_Browser"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "The_Browser": "159a5a139eee972662cd8f7475000a57b5bc1ad9"
+        "The_Browser": "9aca1834067b289af428f09360174736dd564a13"
       },
       "subskills": [
         "static-landing-page-seo"
@@ -965,9 +965,9 @@
         "remedy-relationship-explorer"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "remedy-relationship-explorer": "cec110637ae1a9bf7890a1b32f6d71b88989b696"
+        "remedy-relationship-explorer": "d13b4fa51d7ab7aaf6d3340e95d091b074aec560"
       },
       "subskills": [
         "offline-first-single-file-web-app",
@@ -1326,9 +1326,9 @@
         "smartbill-app"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "smartbill-app": "f259929d11e8d3aa25217d88146659b78dd1e723"
+        "smartbill-app": "99fae59f3e5fe37719046d331b2688613463cf23"
       },
       "subskills": [
         "offline-first-single-file-web-app",
@@ -1382,9 +1382,9 @@
         "app-builder"
       ],
       "version": "1.1.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "app-builder": "9900b74fbaccf39b36f75cfa5b4549cd6433ddbb"
+        "app-builder": "170a7ea4f99ef52cb86650869a468ee57fffb4e1"
       },
       "subskills": [
         "pyinstaller-portable-exe-launcher",
@@ -1411,9 +1411,9 @@
         "profile-kit"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "profile-kit": "7b36f2970a7f460b770fa1ffe8b272ba3b363e32"
+        "profile-kit": "407e6534f8732ffaf1b1281f200dc53d585c206b"
       },
       "subskills": [
         "theme-aware-github-profile",
@@ -1442,11 +1442,11 @@
         "profile-kit"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
         "drsamonline": "0da75ee6445d86eb25fc2dc9dfa0da1a36f44182",
-        "drsamonline.github.io": "68eca95b41e752707488517dab28e158e2d436cc",
-        "profile-kit": "7b36f2970a7f460b770fa1ffe8b272ba3b363e32"
+        "drsamonline.github.io": "854b0860014be7600f9fa16105528ae36459462e",
+        "profile-kit": "407e6534f8732ffaf1b1281f200dc53d585c206b"
       },
       "subskills": [
         "profile-kit",
@@ -1486,9 +1486,9 @@
         "ziptastic"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "skills": "9dede4cef4ac1bdfbb9f97d28125c06e181f0e4f",
+        "skills": "4d9884a0a36cf426e0bc6b924082f9ac9444db05",
         "NEO": "4c2ace950eedb3563ba5f0a6bb82b51446bb85a5",
         "HMS": "62f8abb0e24c5e26f37b3bfe25281e7c9a731124",
         "BLINKTRANSFER": "71b804c5655fc0c956f80bd5c7687dd2ec0844c9",
@@ -1497,12 +1497,12 @@
         "retro-strike": "8d3bd16953ba94d4c9bb8f47118f9bc9fc8373ca",
         "idle-city-ages-of-growth": "f7918f6addf516b600cb3201d3c1dd5fb09c6cbe",
         "SmartNotes": "461a7f55bd83d139023aaa28d3f9b7f5192d3fb6",
-        "dashboard": "a733bdbf97a348c237482cd1ecfcbf59cbdfd1b3",
+        "dashboard": "77ba1169296750b379fc68654ba9d1ee3ee4cb6f",
         "kitbox": "de7493fa1905d6e2f6f0e70c314ab09a521f7680",
         "accent-oracle": "8fe761b8fbbc05effd5a78851420d74fd13aeccd",
         "drsamonline": "0da75ee6445d86eb25fc2dc9dfa0da1a36f44182",
-        "HCS": "4554f0875ca3b2a6877be5c23631a6efc667e1a2",
-        "ziptastic": "b85e25df838f5f1e47c3d9b007418a51f111ff86"
+        "HCS": "1fcc7ec03cf234b8b07de5fff23db67afaf7068c",
+        "ziptastic": "1e5c9eaeea04afd87f10642501962a4c483e4e08"
       },
       "subskills": [
         "reusable-build-release-workflow",
@@ -1529,9 +1529,9 @@
         "All4ONE"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "All4ONE": "4ddc0d04f8a025f1337b6e3ba89a7415b97978f5"
+        "All4ONE": "8ebe98887b8f83107fbd8b074b516d743c947c81"
       },
       "subskills": [
         "all4one-utility-suite",
@@ -1614,10 +1614,10 @@
         "search-kit"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "ml-kit": "b12c942e063101522fde41d72d1cbf551a1ec7b2",
-        "search-kit": "d68f800fbf63540b46258f37b87572ca22d06a82"
+        "ml-kit": "bc86010a711532cc07f199cc682b29e5c121bbfd",
+        "search-kit": "004a455d5708a6dc9ab2c25073788ce190b654d7"
       }
     },
     {
@@ -1638,10 +1638,10 @@
         "game-kit"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "art-kit": "adab0dd0a8b3fe023ae0d021a1226f8fceb97e10",
-        "game-kit": "aaf35a464cbc8a72118cbf7a13e8f54e030f8568"
+        "art-kit": "c89eb98f144abad1bcf1b9930db5442f2642f60f",
+        "game-kit": "21b3c6ed93f160f24b80ae19e58ddd6651e53f62"
       }
     },
     {
@@ -1662,10 +1662,10 @@
         "game-kit"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
         "audio-kit": "543ef429bf084360155d0c9a8f10969b7f5c90e6",
-        "game-kit": "aaf35a464cbc8a72118cbf7a13e8f54e030f8568"
+        "game-kit": "21b3c6ed93f160f24b80ae19e58ddd6651e53f62"
       }
     },
     {
@@ -1686,10 +1686,10 @@
         "web-kit"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
         "ui-kit": "a809907528700f6e4d4b73766b1d84fc8b2117df",
-        "web-kit": "c8af379e49320d5fc59ab68a6314155906e2f913"
+        "web-kit": "eadf3662d964b1d80ecc123fd5b048f2be1a76fc"
       }
     },
     {
@@ -1712,9 +1712,9 @@
         "app-panchang"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "astro-kit": "7e8e93f5e6100811cafa5079e06629ec85340ef1",
+        "astro-kit": "dc6429fc7bffbdd4aea8d6cee49dd25b2e4e856a",
         "app-panchang": "1a46fa5bcd357fe77f9ffa492d7f0d9bd6bfe11d"
       },
       "subskills": [
@@ -1744,9 +1744,9 @@
         "read-live-transform-app"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "book-kit": "ca116b126a5fa5f7dc82b74dba1e66f8609e6123",
+        "book-kit": "281a1b64c42bca19c3ed303cc30e7ab1a8a4d696",
         "whispering-body-first-aid": "bb4ecce31ec1eb1d691c5f7889faaf343411d583",
         "gentle-pediatrics-companion": "ea618ccbd9d5e47c2092cae6480d5c94050947c3",
         "the-symphony-companion": "d087e41c15a8cceffa0775309cb0789198922275",
@@ -1779,11 +1779,11 @@
         "HMS"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "case-kit": "a5eb752bdd2284081a13e7379ed9c9f022d3fb05",
+        "case-kit": "24c1e7d2dc454ab9b23e90c9e7d4841991f5febd",
         "skin-case-tracker": "43d7180b149742a3404282fc364797b6ad9165c1",
-        "app-encrypted-case-log": "f57235d262fb2e371d3d6638abdb4d59eb138fe4",
+        "app-encrypted-case-log": "b4abb5c080ec3a3537135a92362e94fc42f12ad5",
         "HMS": "62f8abb0e24c5e26f37b3bfe25281e7c9a731124"
       },
       "subskills": [
@@ -1811,12 +1811,12 @@
         "offline-pdf-toolkit"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "compress-kit": "951d6b9f73dcb649a01004eac5a0a3fd393c1efb",
-        "lexora": "1d4fefbec20e8cc212e8e0414f85dfafbaf8b9ea",
+        "compress-kit": "6be52617201d73506109792639738a288a5ccb81",
+        "lexora": "55b5a10fdabc855183af522562dbcdae7769b1bd",
         "kent-repertory-explorer": "43a4d9ff2c144e820bdd81a382c3676000afa4e0",
-        "offline-pdf-toolkit": "825e4be42bcc98e191153ede60343c436426ec3b"
+        "offline-pdf-toolkit": "d0cf17d7ddd469d44a106df58cf20caca74298f7"
       },
       "subskills": [
         "offline-first-single-file-web-app"
@@ -1843,11 +1843,11 @@
         "seance"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "crypto-kit": "599c40451c79b5c6647b161c09de1ed7c711beb9",
+        "crypto-kit": "457fa601c08916c528fdc724d75d18a291bf3974",
         "lockhtml": "da922174a0ea240896938b481510c7f0902a1bbd",
-        "app-encrypted-case-log": "f57235d262fb2e371d3d6638abdb4d59eb138fe4",
+        "app-encrypted-case-log": "b4abb5c080ec3a3537135a92362e94fc42f12ad5",
         "seance": "a550bcbad09bc283c99088bafde4f5ceefe28908"
       },
       "subskills": [
@@ -1879,9 +1879,9 @@
         "neon-games"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "game-kit": "aaf35a464cbc8a72118cbf7a13e8f54e030f8568",
+        "game-kit": "21b3c6ed93f160f24b80ae19e58ddd6651e53f62",
         "neon-runner": "d069c6716a0f17cb3a260ddc7a301b6c9da35fc1",
         "retro-strike": "8d3bd16953ba94d4c9bb8f47118f9bc9fc8373ca",
         "dance-fight": "3653e33d35728275242a9d88511f0e6ef451b558",
@@ -1916,13 +1916,13 @@
         "srs-kit"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "skills": "9dede4cef4ac1bdfbb9f97d28125c06e181f0e4f",
-        "web-kit": "c8af379e49320d5fc59ab68a6314155906e2f913",
+        "skills": "4d9884a0a36cf426e0bc6b924082f9ac9444db05",
+        "web-kit": "eadf3662d964b1d80ecc123fd5b048f2be1a76fc",
         "forge": "926d6c8f38a423153556746c403b215a3ca1abe2",
-        "repertory-kit": "07df12786f3cac8f93d8667dedcf3a57abf16125",
-        "srs-kit": "471c97af570e3d81a64a7f1555a1a81864986f93"
+        "repertory-kit": "0d992b323a978145d825d49833c12710ac21d45e",
+        "srs-kit": "c291d2c0a58058d6fa6341b3a1c61e9764482c10"
       },
       "subskills": [
         "safe-repo-cleanup",
@@ -1950,9 +1950,9 @@
         "app-companion-forge"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "lan-kit": "b0dd6bfaff86c2efe83b960144f0dd5e3df0593d",
+        "lan-kit": "fc5e91131d7b143159c3ba3064e89ea22fd1e785",
         "canteen-lan": "80cd4ba291df800d14a314528c6fec3743bc8e4f",
         "chalk-lan": "3831498e7e4f1884267aea0426b3b93ef2bef076",
         "app-companion-forge": "970b6ed3d2b38598e9df1929c059638a426f0b7b"
@@ -1985,10 +1985,10 @@
         "helioprism"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "optical-kit": "d6c4399926b877e8b87bd2d76359ad9caf2b9d8c",
-        "frame-kit": "461130995fc85853982215f412e022ef8164eba6",
+        "optical-kit": "5b6b73427fb3a71626fb90ad013b83fe8645357f",
+        "frame-kit": "f72afdf17d30e48cc982938a4cac55aa3b801a6e",
         "BLINKTRANSFER": "71b804c5655fc0c956f80bd5c7687dd2ec0844c9",
         "blinkcode-ai": "b2518968b795a9bbda09f2a3d72903100b06b61b",
         "helioprism": "64b9e9d77a46ff085e5181686abee40e367f8752"
@@ -2019,12 +2019,12 @@
         "optical-kit"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "TTB": "68c9c87d07f85438d26ee69f65cea6385f1ab4c9",
+        "TTB": "9588709ad4abef36bf085cc78ecd86a50a485f99",
         "BLINKTRANSFER": "71b804c5655fc0c956f80bd5c7687dd2ec0844c9",
         "helioprism": "64b9e9d77a46ff085e5181686abee40e367f8752",
-        "optical-kit": "d6c4399926b877e8b87bd2d76359ad9caf2b9d8c"
+        "optical-kit": "5b6b73427fb3a71626fb90ad013b83fe8645357f"
       },
       "subskills": [
         "optical-kit-fountain",
@@ -2052,9 +2052,9 @@
         "homoeopathic-materia-medica-repertory-json"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "repertory-kit": "07df12786f3cac8f93d8667dedcf3a57abf16125",
+        "repertory-kit": "0d992b323a978145d825d49833c12710ac21d45e",
         "boericke-repertory": "e6c921806a0ebbd7deba2b27c3053ceaff934cc7",
         "kent-repertory-explorer": "43a4d9ff2c144e820bdd81a382c3676000afa4e0",
         "homoeopathic-materia-medica-repertory-json": "01644c088e8ddfefecfeb11a341e843f64552e78"
@@ -2085,11 +2085,11 @@
         "open-materia-medica"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "search-kit": "d68f800fbf63540b46258f37b87572ca22d06a82",
+        "search-kit": "004a455d5708a6dc9ab2c25073788ce190b654d7",
         "app-poets-studio": "d12fb47f0f2fb57eac3d3c7eea48f8fd3bc7ca9b",
-        "app-encrypted-case-log": "f57235d262fb2e371d3d6638abdb4d59eb138fe4",
+        "app-encrypted-case-log": "b4abb5c080ec3a3537135a92362e94fc42f12ad5",
         "open-materia-medica": "08df2723f58679999d07aab0b36687d04870e53f"
       },
       "subskills": [
@@ -2117,9 +2117,9 @@
         "mnemosyne-companion"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "srs-kit": "471c97af570e3d81a64a7f1555a1a81864986f93",
+        "srs-kit": "c291d2c0a58058d6fa6341b3a1c61e9764482c10",
         "conqueror-os": "f8cadb203a60fb45841bfd0e3dd2eec952dd9c5e",
         "mnemosyne-companion": "ea57ba8a838db11fa7b93b00f896ea89a77b8630"
       },
@@ -34787,9 +34787,9 @@
         "ai-bridge"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "ai-bridge": "3d515ab958f8909022f900a1f0db0e5c505afbe0"
+        "ai-bridge": "f5db71f886991538f47b66cff6f5f92e96ed0dbf"
       },
       "subskills": []
     },
@@ -34836,9 +34836,9 @@
         "app-image-toolkit"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "app-image-toolkit": "e5bff5077ef5bb16d40b39243133213e874ce681"
+        "app-image-toolkit": "67bffb61fa55c419094f2d616f785e2bd6595a46"
       },
       "subskills": [
         "export-kit",
@@ -34889,9 +34889,9 @@
         "app-lantern"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "app-lantern": "bd88e9e952edf0efc6194d8a753fe79b8551ab24"
+        "app-lantern": "acd2cae747e4cda20d18842a0c58b27c794a8a95"
       },
       "subskills": [
         "lan-kit",
@@ -34941,9 +34941,9 @@
         "app-thermals"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "app-thermals": "613a0359036be27d14c4057c7921a0947240e795"
+        "app-thermals": "7157a2499947b53dadde6202a7c664c317d3df55"
       },
       "subskills": [
         "search-kit",
@@ -34994,9 +34994,9 @@
         "audit"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "audit": "89c2f0f34a0ff2689f26cb978802f9ea07878b59"
+        "audit": "4af4f4bf024d721b4446fb98026a538d7c502c59"
       },
       "subskills": [
         "safe-repo-cleanup",
@@ -35020,9 +35020,9 @@
         "backup"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "backup": "fe4260c23f0ad8266e9faf2f9ec05b5f10990afe"
+        "backup": "5a71a674bd3b4ab30d7983e2f1b36f52f02c1786"
       },
       "subskills": [
         "safe-repo-cleanup"
@@ -35071,9 +35071,9 @@
         "compfactory"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "compfactory": "aafb55fde56c2f3d82f451e0f1991486d4cb7c63"
+        "compfactory": "b3505773e57bc134ee2d072b09b7d3315e010773"
       },
       "subskills": [
         "ziptastic",
@@ -35151,9 +35151,9 @@
         "dashboard"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "dashboard": "a733bdbf97a348c237482cd1ecfcbf59cbdfd1b3"
+        "dashboard": "77ba1169296750b379fc68654ba9d1ee3ee4cb6f"
       },
       "subskills": [
         "static-landing-page-seo",
@@ -35204,9 +35204,9 @@
         "export-kit"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "export-kit": "cadbfa548e4baddc1a1129873e478fb28b5eba45"
+        "export-kit": "135e16ad44adfce5ea6e35b353303d5f61020575"
       },
       "subskills": [
         "web-kit",
@@ -35230,9 +35230,9 @@
         "HCS"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "HCS": "4554f0875ca3b2a6877be5c23631a6efc667e1a2"
+        "HCS": "1fcc7ec03cf234b8b07de5fff23db67afaf7068c"
       },
       "subskills": [
         "ziptastic",
@@ -35256,9 +35256,9 @@
         "heavenzip"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "heavenzip": "6aa5f355c3e4b56f7b4d7530fbbf02a02c90734b"
+        "heavenzip": "fde9210253c56b32b71b52e439f75800b97c95b0"
       },
       "subskills": [
         "ziptastic",
@@ -35337,11 +35337,11 @@
         "app-lantern"
       ],
       "version": "1.3.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "app-thermals": "613a0359036be27d14c4057c7921a0947240e795",
+        "app-thermals": "7157a2499947b53dadde6202a7c664c317d3df55",
         "app-jacquard": "0bd1deebef9c08d275339b05df89c628ea2cb1a8",
-        "app-lantern": "bd88e9e952edf0efc6194d8a753fe79b8551ab24"
+        "app-lantern": "acd2cae747e4cda20d18842a0c58b27c794a8a95"
       },
       "license": "PolyForm-Noncommercial-1.0.0",
       "origin": "estate",
@@ -35370,12 +35370,12 @@
         "frame-kit"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "web-kit": "c8af379e49320d5fc59ab68a6314155906e2f913",
-        "export-kit": "cadbfa548e4baddc1a1129873e478fb28b5eba45",
-        "lan-kit": "b0dd6bfaff86c2efe83b960144f0dd5e3df0593d",
-        "frame-kit": "461130995fc85853982215f412e022ef8164eba6"
+        "web-kit": "eadf3662d964b1d80ecc123fd5b048f2be1a76fc",
+        "export-kit": "135e16ad44adfce5ea6e35b353303d5f61020575",
+        "lan-kit": "fc5e91131d7b143159c3ba3064e89ea22fd1e785",
+        "frame-kit": "f72afdf17d30e48cc982938a4cac55aa3b801a6e"
       },
       "subskills": [
         "web-kit",
@@ -35528,9 +35528,9 @@
         "ziptastic"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "ziptastic": "b85e25df838f5f1e47c3d9b007418a51f111ff86"
+        "ziptastic": "1e5c9eaeea04afd87f10642501962a4c483e4e08"
       },
       "subskills": [
         "lexora",
@@ -36407,29 +36407,17 @@
       "id": "amazon-kdp-publishing",
       "name": "Amazon KDP publishing",
       "category": "office-docs",
-      "description": "Produce a print-ready Amazon KDP book — interior PDF, full cover spread for paperback or case-laminate hardcover, editable DOCX with a live table of contents, metadata sheet and a pre-upload QA report — all in one zip. Use whenever a book is headed for Amazon, KDP, self-publishing or print-on-demand, including choosing a trim size, fixing a \"KDP rejected my file for page count\" error, working out spine width or cover size, making a paperback cover that wraps correctly, making a hardcover case wrap with hinges, setting gutter margins, adding bleed, preparing a manuscript for paperback or hardcover, or packaging a publication set. Trigger on KDP, Kindle Direct Publishing, paperback, hardcover, case laminate, trim size, spine width, gutter, bleed, print-ready PDF, ISBN, or \"publish my book on Amazon\".",
+      "description": "Produce a print-ready Amazon KDP book — interior PDF, full cover spread (paperback and case-laminate hardcover), editable DOCX with a live table of contents, metadata sheet and a pre-upload QA report — all in one zip. Use this whenever a book is headed for Amazon, KDP, self-publishing or print-on-demand, including choosing a trim size, fixing \"KDP rejected my file for page count\", working out spine width or cover size, making a paperback cover that wraps correctly, making a hardcover case wrap with hinges, setting gutter margins, adding bleed, preparing a manuscript for paperback or hardcover, or packaging a publication set. Trigger on KDP, Kindle Direct Publishing, paperback, hardcover, case laminate, trim size, spine width, gutter, bleed, print-ready PDF, ISBN, or \"publish my book on Amazon\".",
       "tags": [
-        "kdp",
-        "amazon",
-        "self-publishing",
-        "print-on-demand",
-        "paperback",
-        "hardcover",
-        "case-laminate",
-        "trim-size",
-        "spine-width",
-        "gutter",
-        "bleed",
-        "pdf",
-        "docx",
-        "isbn",
-        "cover-design"
+        "font-embedding",
+        "type-3-fonts",
+        "print-preflight"
       ],
       "source_repos": [
         "open-materia-medica"
       ],
-      "version": "1.0.0",
-      "updated": "2026-11-09",
+      "version": "1.1.0",
+      "updated": "2026-11-10",
       "source_snapshot": {
         "open-materia-medica": "08df2723f58679999d07aab0b36687d04870e53f"
       },
@@ -36506,9 +36494,9 @@
         "feather"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "feather": "e0cee2b97aa6e40aa5ca4f7f0b32ffec786107ac"
+        "feather": "009ab37ff57002607a97967116dfed0192b1cbf5"
       },
       "subskills": []
     },
@@ -36580,9 +36568,9 @@
         "lumen"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "lumen": "b1093f7c274e3140c79bbf876705a2b3e84dc92d"
+        "lumen": "b6bad38ebb4ac27e4008bbc07911abd90f6035fd"
       },
       "subskills": []
     },
@@ -36628,9 +36616,9 @@
         "Repertorium-Publicum"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "Repertorium-Publicum": "2704c447892e55577c871c9d073184f9815ccb76"
+        "Repertorium-Publicum": "44645648fe38da03d2461996928f20b9526d6c3f"
       },
       "subskills": [
         "repertory-kit-repertorisation",
@@ -36656,9 +36644,9 @@
         "repertory-reader"
       ],
       "version": "1.0.0",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "source_snapshot": {
-        "repertory-reader": "2b4862b95ec93992bbbac146a55a923482a41355"
+        "repertory-reader": "828f7b92e3b63d4c302c72be2444fd611fddbfc8"
       },
       "subskills": []
     },

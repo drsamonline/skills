@@ -19,12 +19,12 @@
     "optical-kit"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "source_snapshot": {
-    "TTB": "68c9c87d07f85438d26ee69f65cea6385f1ab4c9",
+    "TTB": "9588709ad4abef36bf085cc78ecd86a50a485f99",
     "BLINKTRANSFER": "71b804c5655fc0c956f80bd5c7687dd2ec0844c9",
     "helioprism": "64b9e9d77a46ff085e5181686abee40e367f8752",
-    "optical-kit": "d6c4399926b877e8b87bd2d76359ad9caf2b9d8c"
+    "optical-kit": "5b6b73427fb3a71626fb90ad013b83fe8645357f"
   },
   "subskills": [
     "optical-kit-fountain",
