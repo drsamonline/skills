@@ -2,31 +2,19 @@
   "id": "amazon-kdp-publishing",
   "name": "Amazon KDP publishing",
   "category": "office-docs",
-  "description": "Produce a print-ready Amazon KDP book — interior PDF, full cover spread for paperback or case-laminate hardcover, editable DOCX with a live table of contents, metadata sheet and a pre-upload QA report — all in one zip. Use whenever a book is headed for Amazon, KDP, self-publishing or print-on-demand, including choosing a trim size, fixing a \"KDP rejected my file for page count\" error, working out spine width or cover size, making a paperback cover that wraps correctly, making a hardcover case wrap with hinges, setting gutter margins, adding bleed, preparing a manuscript for paperback or hardcover, or packaging a publication set. Trigger on KDP, Kindle Direct Publishing, paperback, hardcover, case laminate, trim size, spine width, gutter, bleed, print-ready PDF, ISBN, or \"publish my book on Amazon\".",
+  "description": "Produce a print-ready Amazon KDP book — interior PDF, full cover spread (paperback and case-laminate hardcover), editable DOCX with a live table of contents, metadata sheet and a pre-upload QA report — all in one zip. Use this whenever a book is headed for Amazon, KDP, self-publishing or print-on-demand, including choosing a trim size, fixing \"KDP rejected my file for page count\", working out spine width or cover size, making a paperback cover that wraps correctly, making a hardcover case wrap with hinges, setting gutter margins, adding bleed, preparing a manuscript for paperback or hardcover, or packaging a publication set. Trigger on KDP, Kindle Direct Publishing, paperback, hardcover, case laminate, trim size, spine width, gutter, bleed, print-ready PDF, ISBN, or \"publish my book on Amazon\".",
   "tags": [
-    "kdp",
-    "amazon",
-    "self-publishing",
-    "print-on-demand",
-    "paperback",
-    "hardcover",
-    "case-laminate",
-    "trim-size",
-    "spine-width",
-    "gutter",
-    "bleed",
-    "pdf",
-    "docx",
-    "isbn",
-    "cover-design"
+    "font-embedding",
+    "type-3-fonts",
+    "print-preflight"
   ],
   "source_repos": [
     "open-materia-medica"
   ],
-  "version": "1.0.0",
-  "updated": "2026-11-09",
+  "version": "1.1.0",
+  "updated": "2026-11-10",
   "source_snapshot": {
-    "open-materia-medica": "08df2723f58679999d07aab0b36687d04870e53f"
+    "open-materia-medica": "4cc491e2c983468c977983da28ab7cde6443f83e"
   },
   "subskills": []
 }

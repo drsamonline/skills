@@ -22,6 +22,9 @@ observation that settles it, so the answer is evidence rather than opinion.
 - [ ] Layout is mirrored: gutter left on recto, right on verso
 - [ ] Top, bottom and outside margins each clear their minimum
 - [ ] No content inside the trim variance (0.25 in clear of every cut edge)
+- [ ] **No Type 3 fonts** — run `python3 scripts/fontaudit.py interior.pdf`;
+      every row must be `emb = yes` and `CID TrueType` / `TrueType` / `Type 1`
+- [ ] Every font is embedded (a missing font is substituted silently at print)
 - [ ] Headings are not orphaned at the foot of a page
 - [ ] Contents page numbers match the actual pages
 - [ ] Index page references resolve to real pages
@@ -50,6 +53,10 @@ observation that settles it, so the answer is evidence rather than opinion.
 - [ ] Spine text present only if > 79 pages, with 0.0625 in fold clearance
 - [ ] Barcode area clear: 2 × 1.2 in, lower-right of the back cover (LTR)
 - [ ] Front, spine and back all carry the correct title and author
+- [ ] **No Type 3 fonts in the cover** — check it separately; it is a different
+      render and a different font stack
+- [ ] The cover uses the typeface you intended, not a fallback — a stack like
+      `Georgia, serif` silently falls back on a machine without Georgia
 - [ ] Text on the spine reads the right way round (top-to-bottom, not mirrored)
 
 ## 5. DOCX master
@@ -82,7 +89,17 @@ observation that settles it, so the answer is evidence rather than opinion.
 - [ ] Limitations stated to the user: DOCX reflow, greyscale rasterisation if
       used, hardcover spine being approximate
 
-## 8. What cannot be checked here
+## 8. Fonts — the silent rejection
+
+- [ ] `pdffonts` on interior **and** cover shows no `Type 3`
+- [ ] `fc-match "<your family>"` names your font, not a fallback
+- [ ] If the font is variable, it has been pinned to a static instance
+- [ ] `@font-face` is absent from the CSS handed to the renderer
+
+See `references/font-embedding.md`. A file can pass every other check and still
+be rejected for this alone.
+
+## 9. What cannot be checked here
 
 Be honest about these rather than implying they passed:
 

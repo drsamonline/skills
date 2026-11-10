@@ -15,7 +15,7 @@ took.
 """
 
 from __future__ import annotations
-import argparse, importlib, json, os, shutil, subprocess, sys, zipfile
+import argparse, importlib, json, os, re, shutil, subprocess, sys, zipfile
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
@@ -87,6 +87,32 @@ def check_margins(spec, pages, g):
     return out
 
 
+def font_gate(pdf):
+    """Type 3 fonts are rejected by print engines. Check the file, do not assume.
+
+    Chromium embeds a *variable* font as Type 3, and it exits 0 either way, so
+    the PDF itself is the only trustworthy signal.
+    """
+    try:
+        r = subprocess.run([sys.executable, os.path.join(HERE, "fontaudit.py"), pdf],
+                           capture_output=True, text=True, timeout=180)
+    except Exception as e:
+        return False, f"font audit could not run ({type(e).__name__})"
+    out = r.stdout or ""
+    n = re.search(r"fonts: (\d+)", out)
+    n = n.group(1) if n else "?"
+    if r.returncode == 0:
+        names = re.search(r"PASS\s+all embedded, no Type 3 \u2014 (.+)", out)
+        detail = f"{n} fonts, all embedded, no Type 3"
+        if names:
+            detail += f" ({names.group(1)[:70]})"
+        return True, detail
+    t3 = re.search(r"FAIL\s+(\d+) Type 3", out)
+    if t3:
+        return False, f"{t3.group(1)} Type 3 font(s) — print engines reject these"
+    return False, "unembedded or Type 3 fonts present"
+
+
 def qa_md(spec, pages, g, margins, info, results):
     lines = ["# QA report", "",
              f"Generated for **{spec['title']}** — {spec['binding']}, "
@@ -102,6 +128,16 @@ def qa_md(spec, pages, g, margins, info, results):
               "| Margin | Used (in) | Minimum (in) | Pass |", "|---|---|---|---|"]
     for name, used, need, ok in margins:
         lines.append(f"| {name} | {used} | {need} | {'yes' if ok else '**NO**'} |")
+    fonts = [r for r in results if r[0].startswith("Fonts")]
+    lines += ["", "## Font embedding", "",
+              "Print engines reject Type 3 fonts. Chromium produces them for any",
+              "*variable* font, and exits 0 while doing it.", ""]
+    for name, ok, detail in fonts:
+        lines.append(f"- {'PASS' if ok else '**FAIL**'} — {name}: {detail}")
+    if fonts and not all(f[1] for f in fonts):
+        lines += ["", "> **Do not upload this.** Run the font fix in",
+                  "> `references/font-embedding.md`: pin static font instances,",
+                  "> strip `@font-face` from the CSS, and re-render."]
     lines += ["", "## Files", ""]
     for name, ok, detail in results:
         lines.append(f"- [{'x' if ok else ' '}] **{name}** — {detail}")
@@ -214,12 +250,16 @@ def run(spec_path):
     pi = BI.pdf_info(interior)
     results.append(("Interior (greyscale)", pi.get("Pages") == str(pages),
                     f"{pi.get('Pages')} pages, {pi.get('Page size')}"))
+    fok, fdet = font_gate(interior)
+    results.append(("Fonts (interior)", fok, fdet))
 
     colour = os.path.join(outdir, f"02_Interior_{trim_tag}_{paper}_colour.pdf")
     BI.render_pdf("_interior.html", colour, gray=False)
     pc = BI.pdf_info(colour)
     results.append(("Interior (colour)", pc.get("Pages") == str(pages),
                     f"{pc.get('Pages')} pages"))
+    cok, cdet = font_gate(colour)
+    results.append(("Fonts (colour interior)", cok, cdet))
 
     # covers: paperback, hardcover, or both
     bindings = spec.get("build_bindings") or [binding]
@@ -238,6 +278,8 @@ def run(spec_path):
             ci = BI.pdf_info(cpdf)
             ok = (ci.get("Pages") == "1" and
                   abs(float(ci["Page size"].split(" x ")[0]) - S.to_points(cg["width"])) < 1)
+            cvok, cvdet = font_gate(cpdf)
+            results.append((f"Fonts (cover {b})", cvok, cvdet))
             results.append((f"Cover ({b})", ok,
                             f"1 page, {ci.get('Page size')} (expected "
                             f"{S.to_points(cg['width'])} x {S.to_points(cg['height'])} pt)"))

@@ -9,7 +9,7 @@ the file, not the words.
 |---|---|
 | Page size | Exactly the trim (or trim + bleed). One size for the whole file. |
 | Pages | One book page per PDF page. No spreads. |
-| Fonts | Embedded. All of them, including the ones you forgot. |
+| Fonts | Embedded, and **not Type 3** — see `font-embedding.md`. Check with `pdffonts`. |
 | Images | 300 DPI at final printed size; 150 DPI absolute minimum. |
 | Colour | RGB is accepted and converted; supply greyscale for B&W interiors. |
 | Transparency | Flattened. Live transparency can drop shadows and blends. |
@@ -117,5 +117,20 @@ pdfinfo -f 1 -l 999 interior.pdf | grep "Page.*size" | sort -u
 | Margin violation | Gutter too narrow for the page count, or content in the bleed. |
 | Cover dimensions incorrect | Spine computed from a stale page count, or wrong paper thickness. |
 | Font not embedded | A webfont or a system font the renderer never fetched. |
+| **Type 3 font** | A *variable* font flattened by the renderer. Pin a static instance and strip `@font-face` — see `font-embedding.md`. |
 | Low-resolution images | Scaled up after placement; 300 DPI at final size is the test. |
 | Text cut off at the edge | Content inside the trim variance — needs 0.25 in clear. |
+
+## The one font failure that hides
+
+A PDF can report every font as embedded and still be rejected, because
+**Type 3 counts as embedded**. Chromium writes Type 3 for any *variable* font,
+and it exits 0 while doing it. Check the type column, not just the `emb` column:
+
+```bash
+pdffonts interior.pdf     # type must be CID TrueType / TrueType / Type 1
+```
+
+Three things must all be true to avoid it: the font is a static instance, the
+`@font-face` blocks are gone from the CSS, and `fc-match` resolves your family
+rather than a fallback. Details and the fix are in `references/font-embedding.md`.
