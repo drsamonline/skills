@@ -1,5 +1,7 @@
 # skills
 
+
+![Screenshot](docs/shot.png)
 **A machine-consumable knowledge base of the working methods behind the drsamonline projects.**
 
 [![Landing page](https://img.shields.io/badge/landing%20page-open-2e7d32?style=flat-square)](https://drsamonline.github.io/skills/)
