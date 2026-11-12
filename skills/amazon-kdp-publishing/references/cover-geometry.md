@@ -140,3 +140,32 @@ pdfinfo Cover.pdf | grep "Page size"
 For 6 × 9 paperback at 752 pages the answer must be `1003.92 x 666 pts`
 (13.9435 × 9.25 in × 72). If it says `612 x 792` you have silently exported a
 US Letter page — usually because the HTML had no `@page` rule.
+
+## The barcode area — the most common cover rejection
+
+KDP prints its own barcode on the back cover. You must leave it a clear area:
+
+| Property | Requirement |
+|---|---|
+| Size | **2 in x 1.2 in** (50.8 x 30.5 mm) |
+| Position | lower-right of the **back** cover, 0.25 in in from the trim |
+| Contents | **none** — no text, no image, no design element |
+| Colour | **light and solid**, so the barcode scans |
+
+The failure is quiet. A dark background, or a legal line or author bio drifting
+into that corner, and KDP refuses the file with *"We are unable to place a
+barcode on your file"* — after everything else has passed.
+
+Two mistakes worth naming, because both happened in practice:
+
+1. **Reserving the box but not painting it.** An empty `div` reserves layout
+   space and nothing else; the dark cover ground shows straight through. The
+   area must be painted a light, solid colour.
+2. **Letting text flow underneath it.** The barcode box is absolutely
+   positioned, so it does not push content aside. Give the back panel a
+   `padding-bottom` equal to the band height so nothing can drift in.
+
+The builder now paints a light band across the bottom of the back cover, moves
+the legal line into it in dark ink, and keeps every element clear of the zone.
+If you customise the back cover, re-check that the 2 x 1.2 in area is one solid
+light colour with nothing in it.

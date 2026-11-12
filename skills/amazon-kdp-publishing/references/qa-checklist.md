@@ -53,6 +53,8 @@ observation that settles it, so the answer is evidence rather than opinion.
 - [ ] Spine text present only if > 79 pages, with 0.0625 in fold clearance
 - [ ] Barcode area clear: 2 × 1.2 in, lower-right of the back cover (LTR)
 - [ ] Front, spine and back all carry the correct title and author
+- [ ] **The barcode area is clear and light** — 2 × 1.2 in at the lower right of
+      the back cover, 0.25 in in from the trim, no text or image, solid light fill
 - [ ] **No Type 3 fonts in the cover** — check it separately; it is a different
       render and a different font stack
 - [ ] The cover uses the typeface you intended, not a fallback — a stack like

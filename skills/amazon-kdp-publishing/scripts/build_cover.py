@@ -55,11 +55,13 @@ def _css(g, spec):
                  f'.hinge{{width:0;}}'
                  f'.spine{{width:{g["spine"]}in;}}')
     safe = g["safe_margin"]
+    bleed = g["bleed"]
+    band = round(1.2 + safe + bleed + 0.12, 3)   # barcode + clearance
     return f"""
 @page {{ size: {g['width']}in {g['height']}in; margin:0; }}
 *{{box-sizing:border-box;margin:0;padding:0;}}
 html,body{{width:{g['width']}in;height:{g['height']}in;}}
-body{{font-family:Georgia,'Times New Roman',serif;
+body{{font-family:'EB Garamond',Georgia,'Times New Roman',serif;
   background:linear-gradient(155deg,{c['ground_d']} 0%,{c['ground']} 46%,{c['ground_l']} 62%,{c['ground_d']} 100%);
   color:{c['text']};}}
 .sheet{{display:flex;width:{g['width']}in;height:{g['height']}in;}}
@@ -95,8 +97,21 @@ h1{{font-size:40pt;line-height:1.03;font-weight:600;margin-top:.12in;}}
 .ab-bio{{font-size:8.2pt;line-height:1.38;color:{c['text_soft']};margin-top:.045in;}}
 .legal{{margin-top:.13in;font-size:6.7pt;line-height:1.38;color:{c['text_soft']};opacity:.7;}}
 .brand{{margin-top:.08in;font-size:7.5pt;letter-spacing:.3em;text-transform:uppercase;color:{c['accent']};}}
-/* reserve the barcode box on the back cover */
-.barcode{{position:absolute;right:{safe}in;bottom:{safe}in;width:2in;height:1.2in;}}
+/* KDP places its own barcode in the lower-right of the back cover: a 2 x 1.2 in
+   area that must be free of text, images and design elements, and light and
+   solid so it scans. Reserve a light band and keep every element out of it. */
+.backband{{position:absolute;left:0;right:0;bottom:0;height:{band}in;
+  background:{c['text']};z-index:0;}}
+.back .inner{{padding-bottom:{band}in;z-index:1;}}
+.backlegal{{position:absolute;left:{safe}in;right:{safe + 2.25}in;
+  bottom:{bleed + safe}in;font-size:6.7pt;line-height:1.38;
+  color:{c['ground_d']};z-index:2;}}
+/* the band is light, so anything inside it must be dark — the base .legal and
+   .brand colours are chosen for the dark ground and vanish here */
+.backlegal .legal{{color:{c['ground_d']};opacity:.82;margin-top:0;}}
+.backlegal .brand{{color:{c['ground_d']};opacity:.9;margin-top:.06in;}}
+.barcode{{position:absolute;right:{safe}in;bottom:{bleed + safe}in;
+  width:2in;height:1.2in;background:{c['text']};z-index:3;}}
 """
 
 
@@ -129,10 +144,14 @@ def build(spec, trim, pages, paper, binding, out_html, css_extra=""):
     html = f"""<!DOCTYPE html><html><head><meta charset="utf-8">
 <style>{_css(g, s)}{css_extra}</style></head><body><div class="sheet">
   <div class="panel wrap"></div>
-  <div class="panel back"><div class="inner">
-    {blurb}{poem}{authorblock}{legal}{brand}
+  <div class="panel back">
+    <div class="backband"></div>
+    <div class="inner">
+      {blurb}{poem}{authorblock}
+    </div>
+    <div class="backlegal">{legal}{brand}</div>
     <div class="barcode"></div>
-  </div></div>
+  </div>
   {hinge}
   <div class="panel spine"><div class="inner">
     <div class="txt">{s['title']}{' · ' + s['author'] if s['author'] else ''}</div>
