@@ -1,0 +1,27 @@
+{
+  "id": "form-kit",
+  "name": "Form kit \u2014 24 controls with one validation pass",
+  "category": "frontend-ui",
+  "description": "The form controls every app in this fleet hand-rolls \u2014 inputs, selects, a date picker, OTP boxes, uploads, checkboxes, switches, sliders, rating, toggles, colour swatches \u2014 behind one API (`wrap`, `value()`, `set()`, `on()`) and one validation pass, in a single dependency-free file.",
+  "tags": [
+    "form-kit",
+    "forms",
+    "validation",
+    "date-picker",
+    "otp",
+    "two-way-binding",
+    "zero-dependency"
+  ],
+  "source_repos": [
+    "form-kit"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-16",
+  "source_snapshot": {
+    "form-kit": "0456875ed192d846c85317f0da1d181198ae026c"
+  },
+  "subskills": [
+    "ui-kit",
+    "widgets-kit"
+  ]
+}

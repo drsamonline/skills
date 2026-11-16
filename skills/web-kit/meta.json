@@ -1,0 +1,36 @@
+{
+  "id": "web-kit",
+  "name": "Web kit \u2014 the shared offline-first runtime",
+  "category": "web-app-patterns",
+  "description": "The one-file runtime every offline app in the fleet kept re-writing: namespaced localStorage plus a small IndexedDB wrapper, English/Hindi/Gujarati strings, CSV out, light/dark tokens, focus trap and announcements, PWA registration, SEO meta and JSON-LD, and a DOM helper \u2014 as a single global `Loom`, working from file:// as well as Pages.",
+  "tags": [
+    "web-kit",
+    "loom",
+    "storage",
+    "i18n",
+    "theme",
+    "a11y",
+    "pwa",
+    "seo",
+    "offline-first",
+    "zero-dependency"
+  ],
+  "source_repos": [
+    "web-kit",
+    "app-jacquard",
+    "app-clip-loom",
+    "app-endpoints",
+    "base-bench",
+    "conqueror-os"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-16",
+  "source_snapshot": {
+    "web-kit": "2acc9714087280982d1bef7f41b478403e5ed5c7"
+  },
+  "subskills": [
+    "export-kit",
+    "shared-kit-vendoring",
+    "offline-first-single-file-web-app"
+  ]
+}

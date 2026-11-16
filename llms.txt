@@ -1,7 +1,7 @@
 # drsamonline/skills
 
 A machine-consumable knowledge base of reusable skills extracted from the
-projects of Dr. Sohil Momin (github.com/drsamonline), plus 22 imported from github.com/ChrisTitusTech/titstack (MIT). 1558 skills.
+projects of Dr. Sohil Momin (github.com/drsamonline), plus 22 imported from github.com/ChrisTitusTech/titstack (MIT). 1571 skills.
 
 Catalogue (machine-readable, the single source of truth):
 https://raw.githubusercontent.com/drsamonline/skills/main/catalog.json
@@ -31,7 +31,7 @@ https://drsamonline.github.io/skills/
 
 
 ## Imported
-- 1,399 skills imported from 61 upstream collections (MIT, Apache-2.0, and two
+- 1445 skills imported from 63 upstream collections (MIT, Apache-2.0, and two
   with no licence). Deduplicated by topic; variants listed in the skill body.
   meta.json carries upstream.repo/path/commit and license; source_repos stays
   empty so the weekly refresh does not resolve foreign SHAs.

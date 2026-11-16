@@ -1,0 +1,27 @@
+{
+  "id": "kiln-spec-to-app-compiler",
+  "name": "KILN \u2014 spec in, finished app out",
+  "category": "engineering-workflow",
+  "description": "A deterministic compiler that turns a small specification into a complete offline application as one HTML file: no model in the loop, no network, nothing to install. `python3 -m kiln pipeline` writes, builds and verifies in one command; a generated app is about 50 KB.",
+  "tags": [
+    "kiln",
+    "compiler",
+    "code-generation",
+    "deterministic",
+    "single-file",
+    "offline",
+    "python"
+  ],
+  "source_repos": [
+    "KILN"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-16",
+  "source_snapshot": {
+    "KILN": "4ab0fd08454ee49421ad9aa1ea284ce3f5db3520"
+  },
+  "subskills": [
+    "offline-first-single-file-web-app",
+    "app-builder-kit"
+  ]
+}

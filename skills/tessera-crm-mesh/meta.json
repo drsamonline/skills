@@ -1,0 +1,29 @@
+{
+  "id": "tessera-crm-mesh",
+  "name": "TESSERA \u2014 the mosaic layer above every CRM",
+  "category": "backend-services",
+  "description": "Every system a team already runs becomes a node; the mesh presents one customer view across them, routes work to whichever node should handle it, and writes every action in every system to a single hash-chained ledger \u2014 with a native node that is the system of record when there is no CRM at all. Under development: published to be inspected, not adopted.",
+  "tags": [
+    "tessera",
+    "crm",
+    "federation",
+    "hash-chained-ledger",
+    "reconciliation",
+    "python",
+    "under-development"
+  ],
+  "source_repos": [
+    "tessera",
+    "tessera-app"
+  ],
+  "version": "1.46.0",
+  "updated": "2026-11-16",
+  "source_snapshot": {
+    "tessera": "1cc0acb7cbc2bc1102a443e601362fa797fcd5b7",
+    "tessera-app": "e79d97eb06b397f981d7e360bb2688a1b90bd551"
+  },
+  "subskills": [
+    "app-opd-register",
+    "lan-single-server-architecture"
+  ]
+}

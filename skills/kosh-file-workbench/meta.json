@@ -1,0 +1,28 @@
+{
+  "id": "kosh-file-workbench",
+  "name": "Kosh \u2014 the file workbench that drives engines across a process boundary",
+  "category": "sysadmin-ops",
+  "description": "Split, squeeze, archive, verify and inspect files through one engine, a CLI and a local web UI \u2014 and where a CHCE compression engine is installed, drive it across a process boundary instead of reimplementing its format.",
+  "tags": [
+    "kosh",
+    "chce",
+    "compression",
+    "archive",
+    "recipes",
+    "cli",
+    "verify"
+  ],
+  "source_repos": [
+    "kosh",
+    "heavenzip"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-16",
+  "source_snapshot": {
+    "kosh": "0da9148481d1f47acb631e11c80834bf7c0820b6"
+  },
+  "subskills": [
+    "heavenzip",
+    "safe-repo-cleanup"
+  ]
+}

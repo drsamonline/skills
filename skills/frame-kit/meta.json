@@ -1,0 +1,32 @@
+{
+  "id": "frame-kit",
+  "name": "Frame kit \u2014 the shared transfer core",
+  "category": "web-app-patterns",
+  "description": "The whole optical-transfer path in one file: a 22-byte self-describing frame with a payload CRC-32 and a header CRC-16, strict validation of bytes that arrive from a camera, a rateless LT fountain collector that tolerates duplicates and restarts on a new transfer id, and the byte/CRC/PRNG helpers underneath. Absorbed optical-kit on 2026-11-12.",
+  "tags": [
+    "frame-kit",
+    "optical-transfer",
+    "fountain-code",
+    "crc32",
+    "crc16",
+    "qr",
+    "offline-transfer",
+    "zero-dependency"
+  ],
+  "source_repos": [
+    "frame-kit",
+    "helioprism",
+    "blinkcode-ai",
+    "BLINKTRANSFER"
+  ],
+  "version": "2.0.0",
+  "updated": "2026-11-16",
+  "source_snapshot": {
+    "frame-kit": "de16e6d44f5fe09ba3a9d111de252deaaa3b1eff"
+  },
+  "subskills": [
+    "optical-file-transfer",
+    "optical-kit-fountain",
+    "shared-kit-vendoring"
+  ]
+}

@@ -50,19 +50,19 @@ There are two kinds of skill:
   + SEO conventions, the auto-updating showcase hub, the open-data pipeline, the
   LAN single-server architecture, the theme-aware GitHub profile, optical file
   transfer, embedded-bundle feature gating, and safe repository cleanup.
-- **Imported first-party skills** — 1,399 skills carry `upstream` provenance naming one of 61 public
+- **Imported first-party skills** — 1445 skills carry `upstream` provenance naming one of 63 public
   collections (Google, Anthropic, Vercel Labs, Hugging Face, Cloudflare, MiniMax, LambdaTest,
-  Browser-ACT and others), deduplicated by topic and kept under their own licences. Fourteen more
-  record several sources at once, and 31 record none because they arrived as an uploaded pack.
+  Browser-ACT and others), deduplicated by topic and kept under their own licences. The remaining
+  126 record no upstream: they are the merged pack, the vendored packs and the owner's own skills.
 - **Vendored packs** — 22 skills imported unchanged from [ChrisTitusTech/titstack](https://github.com/ChrisTitusTech/titstack) (MIT): 19 `pack-*` category readings and the individual skills behind them. Each carries its own `LICENSE`.
 - **Merged pack** — 43 skills record `merged_from` sources (188 source skills between them) from the
   owner's own collection. Duplicates were collapsed, near-duplicates merged into one skill per job
   with a routing table, and every source is preserved verbatim under `references/` inside the skill
   that absorbed it.
-- **Project skills** — 110 skills name one or more drsamonline repositories in `source_repos`: what
+- **Project skills** — 121 skills name one or more drsamonline repositories in `source_repos`: what
   the project is, how it is built, how it is released, and what makes its workflow distinctive.
 
-**Catalogue:** `1558` skills across 28 categories. The machine-readable index is [`catalog.json`](catalog.json); the landing page is <https://drsamonline.github.io/skills/>.
+**Catalogue:** `1571` skills across 28 categories. The machine-readable index is [`catalog.json`](catalog.json); the landing page is <https://drsamonline.github.io/skills/>.
 
 ## Repository layout
 
@@ -136,9 +136,9 @@ matches the code it describes.
 
 Every skill in the repository, by category, with the one line that tells you whether to open it. The id is the directory: `skills/<id>/SKILL.md` holds the method, `meta.json` its provenance, its licence and its upstream commit. Where a category has an index pack, the pack is named first — it is the routing table for that category.
 
-`1558` skills across 28 categories. The descriptions here are one-line summaries; the full trigger text is the `description` field in `meta.json` and at the top of each `SKILL.md`.
+`1571` skills across 28 categories. The descriptions here are one-line summaries; the full trigger text is the `description` field in `meta.json` and at the top of each `SKILL.md`.
 
-### Web app patterns (`web-app-patterns`) — 24 skills
+### Web app patterns (`web-app-patterns`) — 26 skills
 
 | Skill | What it does | Licence |
 |---|---|---|
@@ -153,6 +153,7 @@ Every skill in the repository, by category, with the one line that tells you whe
 | [`conqueror-os-workspace`](skills/conqueror-os-workspace/SKILL.md) | A private, offline resilience workspace in a single HTML file — read, reflect, journal, track and review — with no server, no… | — |
 | [`crypto-kit-aes-gcm`](skills/crypto-kit-aes-gcm/SKILL.md) | AES-256-GCM encryption with PBKDF2-SHA256 passphrase keys, a sealed envelope and a one-time-view helper on the Web Crypto API —… | — |
 | [`export-kit`](skills/export-kit/SKILL.md) | One zero-dependency file that turns bytes into a download, a Blob, a CSV or a store-only ZIP, working from file:// as well as Pages… | — |
+| [`frame-kit`](skills/frame-kit/SKILL.md) | The whole optical-transfer path in one file: a 22-byte self-describing frame with a payload CRC-32 and a header CRC-16, strict validation of bytes that arrive from a camera, a rateless LT fountain collector that tolerates duplicates and restarts on a new transfer id, and the byte/CRC/PRNG helpers underneath. Absorbed optical-kit on 2026-11-12. | — |
 | [`kitbox`](skills/kitbox/SKILL.md) | Assemble a large offline utility suite as a single HTML file: one template, one build, and a test suite that fuzzes, checks… | — |
 | [`lan-kit-sse-room`](skills/lan-kit-sse-room/SKILL.md) | A LAN room in the browser: a client over Server-Sent Events for server-to-client and POST for client-to-server, with a host URL… | — |
 | [`lan-single-server-architecture`](skills/lan-single-server-architecture/SKILL.md) | A multi-user system that runs entirely on a hospital LAN: a Python server owns the SQLite database, a vanilla-JS UI runs in a… | — |
@@ -166,6 +167,7 @@ Every skill in the repository, by category, with the one line that tells you whe
 | [`srs-kit-sm2`](skills/srs-kit-sm2/SKILL.md) | Schedule flashcards with SM-2 in one zero-dependency file: ease, interval, reps, lapses, due cards, stats and a configurable… | — |
 | [`ttb-tiny-toolbox-extension`](skills/ttb-tiny-toolbox-extension/SKILL.md) | A Manifest V3 browser extension bundling 590 small utilities across 18 categories into one offline-first popup, with one source… | — |
 | [`ui-kit`](skills/ui-kit/SKILL.md) | A reactive UI layer small enough for a single file — signals, computed, reactive effects, hyperscript, a keyed list, events, a… | — |
+| [`web-kit`](skills/web-kit/SKILL.md) | The one-file runtime every offline app in the fleet kept re-writing: namespaced localStorage plus a small IndexedDB wrapper, English/Hindi/Gujarati strings, CSV out, light/dark tokens, focus trap and announcements, PWA registration, SEO meta and JSON-LD, and a DOM helper — as a single global `Loom`, working from file:// as well as Pages. | — |
 
 ### Android packaging (`android-packaging`) — 1 skills
 
@@ -210,7 +212,7 @@ Every skill in the repository, by category, with the one line that tells you whe
 | [`retro-strike-software-3d`](skills/retro-strike-software-3d/SKILL.md) | A complete retro third-person shooter in one HTML file with a custom software 3D renderer, a live chiptune synth and procedural… | — |
 | [`saga-vn-engine`](skills/saga-vn-engine/SKILL.md) | Build a browser visual novel with no build step: a small set of plain-JS modules, scenes authored as `.scene` text, and the… | — |
 
-### Data & schema (`data-and-schema`) — 13 skills
+### Data & schema (`data-and-schema`) — 14 skills
 
 | Skill | What it does | Licence |
 |---|---|---|
@@ -226,6 +228,7 @@ Every skill in the repository, by category, with the one line that tells you whe
 | [`registry`](skills/registry/SKILL.md) | Keep the estate's facts in versioned JSON files that a dashboard and an agent read from the same place, with each file's… | — |
 | [`search-kit-ranked-search`](skills/search-kit-ranked-search/SKILL.md) | Ranked search over a big corpus in one zero-dependency file: an inverted index with prefix and fuzzy matching, scored hits and a… | — |
 | [`symbolic-math`](skills/symbolic-math/SKILL.md) | Exact symbolic mathematics in Python: algebra, calculus, equation solving, symbolic linear algebra, physics, plus lambdify… | per source |
+| [`toolworks-merged-catalogue`](skills/toolworks-merged-catalogue/SKILL.md) | One offline index over two independently built toolboxes — 565 tools from the TTB browser extension and 404 from the All4ONE Windows binary, 969 rows with search and a source on every entry — built by reading both catalogues and modifying neither repository. | — |
 | [`ziptastic`](skills/ziptastic/SKILL.md) | The CHCE native compression engine as one self-contained C++ binary: preprocessors, a dual-resolution match finder, a joint optimal… | — |
 
 ### Health tools (`health-tools`) — 19 skills
@@ -299,7 +302,7 @@ Every skill in the repository, by category, with the one line that tells you whe
 | [`linkedin-thread-monitor`](skills/linkedin-thread-monitor/SKILL.md) | Track which of your LinkedIn comments earned author replies. | MIT |
 | [`product-copywriting`](skills/product-copywriting/SKILL.md) | Write honest product copy for a landing page, a README or a store listing — a headline, a value line, a CTA — that reads like a… | — |
 
-### Planning & docs (`docs-and-planning`) — 37 skills
+### Planning & docs (`docs-and-planning`) — 38 skills
 
 | Skill | What it does | Licence |
 |---|---|---|
@@ -373,7 +376,7 @@ Index pack: [`pack-linux-desktop`](skills/pack-linux-desktop/SKILL.md).
 | [`pack-linux-desktop`](skills/pack-linux-desktop/SKILL.md) | Chris Titus Tech's Fedora/X11 desktop end to end: change dwm keybindings, themes and window rules, build or lint the Quickshell… | MIT |
 | [`quickshell`](skills/quickshell/SKILL.md) | Build, lint, and troubleshoot Quickshell QML configurations or source builds. | MIT |
 
-### Sysadmin & ops (`sysadmin-ops`) — 6 skills
+### Sysadmin & ops (`sysadmin-ops`) — 8 skills
 
 Index pack: [`pack-sysadmin-ops`](skills/pack-sysadmin-ops/SKILL.md).
 
@@ -382,8 +385,10 @@ Index pack: [`pack-sysadmin-ops`](skills/pack-sysadmin-ops/SKILL.md).
 | [`file-organizer-taxonomy`](skills/file-organizer-taxonomy/SKILL.md) | Classification, naming and recording rules for sorting a drive: bucket assignment from the owner's real folders, linked-file… | per source |
 | [`forgejo-maintainer`](skills/forgejo-maintainer/SKILL.md) | Administer Forgejo or Gitea installations, including upgrades, backups, migrations, repository access, and Actions runners. | MIT |
 | [`homelab-admin`](skills/homelab-admin/SKILL.md) | Operate homelab infrastructure spanning networking, DNS, storage, NFS, reverse proxies, or multiple services. | MIT |
+| [`kosh-file-workbench`](skills/kosh-file-workbench/SKILL.md) | Split, squeeze, archive, verify and inspect files through one engine, a CLI and a local web UI — and where a CHCE compression engine is installed, drive it across a process boundary instead of reimplementing its format. | — |
 | [`linux-sysadmin`](skills/linux-sysadmin/SKILL.md) | Diagnose and operate Linux hosts, services, packages, permissions, SELinux, firewalls, and SSH. | MIT |
 | [`pack-sysadmin-ops`](skills/pack-sysadmin-ops/SKILL.md) | Infrastructure administration in one pack: Linux host diagnostics (services, packages, SELinux, firewalls, SSH), Podman… | MIT |
+| [`pico-automation-engine`](skills/pico-automation-engine/SKILL.md) | 114 rules, four risk tiers, universal undo, slot dialogue, replay from snapshots and a trigger DSL on the Python standard library alone — with an optional model that is only ever allowed to propose a command string, never run one. Deleting the model pack loses no capability, only phrasing convenience. | — |
 | [`podman-operator`](skills/podman-operator/SKILL.md) | Build and operate Podman containers and Quadlet services, including rootless deployment, networking, volumes, systemd… | MIT |
 
 ### Media & design (`media-design`) — 33 skills
@@ -426,7 +431,7 @@ Index pack: [`pack-media-design`](skills/pack-media-design/SKILL.md).
 | [`video-translation`](skills/video-translation/SKILL.md) | Translate and dub videos from one language to another, replacing the original audio with TTS while keeping the video intact. | NOASSERTION |
 | [`youtube-thumbnail`](skills/youtube-thumbnail/SKILL.md) | Create, edit, or review YouTube thumbnails. | MIT |
 
-### Frontend & UI (`frontend-ui`) — 105 skills
+### Frontend & UI (`frontend-ui`) — 110 skills
 
 Index pack: [`pack-frontend-ui`](skills/pack-frontend-ui/SKILL.md).
 
@@ -451,6 +456,7 @@ Index pack: [`pack-frontend-ui`](skills/pack-frontend-ui/SKILL.md).
 | [`button-states`](skills/button-states/SKILL.md) | Rest, hover, active, focus, disabled and loading states, derived from the base colour. | MIT |
 | [`canvas-design`](skills/canvas-design/SKILL.md) | Create beautiful visual art in .png and .pdf documents using design philosophy. | Apache-2.0 |
 | [`clone-website`](skills/clone-website/SKILL.md) | Rebuild a live web page 1:1 from measurement into Figma, Penpot or code, then verify it. | MIT |
+| [`code-kit`](skills/code-kit/SKILL.md) | A QR encoder in one dependency-free file — byte mode, versions 1-40, all four error levels, all eight masks, the symbol as a boolean matrix so a canvas, an SVG or a terminal can draw it — plus syntax highlighting and copyable code blocks. The encoder is verified by a QR reader written inside the test file and against segno as an independent implementation. | — |
 | [`color-font-skill`](skills/color-font-skill/SKILL.md) | Choose presentation-ready color palettes and font pairings for PPT/design tasks. | MIT |
 | [`color-mode-and-theme`](skills/color-mode-and-theme/SKILL.md) | Light, dark or both, and when a theme selector is worth it. | MIT |
 | [`component-canvas`](skills/component-canvas/SKILL.md) | Build a full-screen, interactive canvas to explore existing UI components and their variants with pan and zoom. | MIT |
@@ -473,6 +479,7 @@ Index pack: [`pack-frontend-ui`](skills/pack-frontend-ui/SKILL.md).
 | [`fixing-metadata`](skills/fixing-metadata/SKILL.md) | 1. Identify pages with missing or incorrect metadata (titles, descriptions, canonical, OG tags) 2. Audit against the priority… | MIT |
 | [`fixing-motion-performance`](skills/fixing-motion-performance/SKILL.md) | Audit and fix animation performance issues including layout thrashing, compositor properties, scroll-linked motion, and blur… | MIT |
 | [`form-design`](skills/form-design/SKILL.md) | Helper text, placeholders, validation and submit behaviour. | MIT |
+| [`form-kit`](skills/form-kit/SKILL.md) | The form controls every app in this fleet hand-rolls — inputs, selects, a date picker, OTP boxes, uploads, checkboxes, switches, sliders, rating, toggles, colour swatches — behind one API (`wrap`, `value()`, `set()`, `on()`) and one validation pass, in a single dependency-free file. | — |
 | [`frontend-design`](skills/frontend-design/SKILL.md) | Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. | Apache-2.0 |
 | [`frontend-dev`](skills/frontend-dev/SKILL.md) | Build complete, production-ready frontend pages by orchestrating 5 specialized capabilities: design engineering, motion systems,… | MIT |
 | [`frontend-engineering`](skills/frontend-engineering/SKILL.md) | Build a modern web front end properly: pick the stack and scaffold it, declare a design system and design tokens before… | per source |
@@ -490,6 +497,7 @@ Index pack: [`pack-frontend-ui`](skills/pack-frontend-ui/SKILL.md).
 | [`information-architecture`](skills/information-architecture/SKILL.md) | Naming, navigation, a UI that mirrors the data model, confirms for irreversible changes. | MIT |
 | [`layout-paradigms-and-consistency`](skills/layout-paradigms-and-consistency/SKILL.md) | Choose a layout paradigm (feed, board, table, canvas, master-detail, dashboard) and reuse it across screens. | MIT |
 | [`loading-states-and-perceived-performance`](skills/loading-states-and-perceived-performance/SKILL.md) | Spinners, skeletons and staggered reveals that manage wait times. | MIT |
+| [`markdown-kit`](skills/markdown-kit/SKILL.md) | CommonMark's core plus the GitHub extensions (tables, task lists, alerts), safe by default — source HTML is escaped, a javascript: link and a data: image are refused — and a streaming mode that renders what is finished and holds back what a language model may still be in the middle of writing. | — |
 | [`marketing-vs-product-system`](skills/marketing-vs-product-system/SKILL.md) | A marketing site and its product may differ in density and scale but share one token layer. | MIT |
 | [`micro-interactions`](skills/micro-interactions/SKILL.md) | Small purposeful animations — toggles, animated icons, success moments. | MIT |
 | [`minimax-music-gen`](skills/minimax-music-gen/SKILL.md) | Generate songs (vocal or instrumental) using the MiniMax Music API. | MIT |
@@ -522,6 +530,7 @@ Index pack: [`pack-frontend-ui`](skills/pack-frontend-ui/SKILL.md).
 | [`surface-separation`](skills/surface-separation/SKILL.md) | Set a surface apart by one means — border, elevation or fill — and keep opacity for state. | MIT |
 | [`tab-navigation`](skills/tab-navigation/SKILL.md) | Tabs swap views under a shared context. | MIT |
 | [`theme-factory`](skills/theme-factory/SKILL.md) | Toolkit for styling artifacts with a theme. | Apache-2.0 |
+| [`tokens-kit`](skills/tokens-kit/SKILL.md) | A design token set as data: 121 colour names and 187 values per mode, a 19-field size scale, three elevations with their rings, WCAG contrast and premultiplied mixing — plus the springs, easings and transition presets absorbed from motion-kit on 2026-11-12. Opt-in only: importing it touches no element, no document and no storage. | — |
 | [`ui-context-and-scope`](skills/ui-context-and-scope/SKILL.md) | Show where the user is and what their actions affect — breadcrumbs, regions, scope labels. | MIT |
 | [`ui-density`](skills/ui-density/SKILL.md) | Match information density to platform and user type. | MIT |
 | [`ui-design-critique`](skills/ui-design-critique/SKILL.md) | Critique a UI screenshot, mockup or design against Apple's Human Interface Guidelines and UX writing principles. Use whenever… | per source |
@@ -536,9 +545,10 @@ Index pack: [`pack-frontend-ui`](skills/pack-frontend-ui/SKILL.md).
 | [`visual-emphasis-and-hierarchy`](skills/visual-emphasis-and-hierarchy/SKILL.md) | Size, colour, weight and position mark what matters most. | MIT |
 | [`wcag-accessibility`](skills/wcag-accessibility/SKILL.md) | WCAG 2.2 AA compliance as required by the European Accessibility Act. | MIT |
 | [`web-artifacts-builder`](skills/web-artifacts-builder/SKILL.md) | Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React,… | Apache-2.0 |
+| [`widgets-kit`](skills/widgets-kit/SKILL.md) | Buttons, tags, avatars, badges, alerts, progress, modals, drawers, toasts, tooltips, popovers, menus, tabs, accordion, pagination, breadcrumbs, steps, skeletons, grids and headers in one dependency-free file — with the behaviours that matter implemented: a real focus trap, focus restoration, Escape and backdrop close, a live region for toasts, and keyed lists that reuse the same node so a re-render keeps focus. | — |
 | [`write-swift`](skills/write-swift/SKILL.md) | How to write modern Swift well — modeling with value types, Swift 6 data-race safety and approachable concurrency (@concurrent,… | MIT |
 
-### Backend & services (`backend-services`) — 17 skills
+### Backend & services (`backend-services`) — 18 skills
 
 Index pack: [`pack-backend-services`](skills/pack-backend-services/SKILL.md).
 
@@ -559,6 +569,7 @@ Index pack: [`pack-backend-services`](skills/pack-backend-services/SKILL.md).
 | [`pack-backend-services`](skills/pack-backend-services/SKILL.md) | Server-side work: Node.js and TypeScript practice, Fastify REST APIs, OAuth 2.0/2.1 flows, advanced type design, API and module… | mixed |
 | [`rails-conventions`](skills/rails-conventions/SKILL.md) | Modern Ruby and Rails application architecture, implementation, and review guidance for production codebases. | MIT |
 | [`snipgrapher`](skills/snipgrapher/SKILL.md) | Configures and uses snipgrapher to generate polished code snippet images, including syntax-highlighted PNGs, SVGs, and WebP… | MIT |
+| [`tessera-crm-mesh`](skills/tessera-crm-mesh/SKILL.md) | Every system a team already runs becomes a node; the mesh presents one customer view across them, routes work to whichever node should handle it, and writes every action in every system to a single hash-chained ledger — with a native node that is the system of record when there is no CRM at all. Under development: published to be inspected, not adopted. | — |
 | [`tinystruct-patterns`](skills/tinystruct-patterns/SKILL.md) | Expert guidance for developing with the tinystruct Java framework. | MIT |
 | [`typescript-magician`](skills/typescript-magician/SKILL.md) | Designs complex generic types, refactors `any` types to strict alternatives, creates type guards and utility types, and resolves… | MIT |
 
@@ -890,7 +901,7 @@ Index pack: [`pack-cloud-and-deploy`](skills/pack-cloud-and-deploy/SKILL.md).
 | [`vercel-optimize`](skills/vercel-optimize/SKILL.md) | Use for Vercel cost and performance optimization on deployed projects, especially Next.js, SvelteKit, Nuxt, and limited Astro… | NOASSERTION |
 | [`workload-manager-basics`](skills/workload-manager-basics/SKILL.md) | Workload Manager validates enterprise workloads against Google Cloud best practices and recommendations. | Apache-2.0 |
 
-### AI & ML (`ai-and-ml`) — 129 skills
+### AI & ML (`ai-and-ml`) — 130 skills
 
 Index pack: [`pack-ai-and-ml`](skills/pack-ai-and-ml/SKILL.md).
 
@@ -1012,6 +1023,7 @@ Index pack: [`pack-ai-and-ml`](skills/pack-ai-and-ml/SKILL.md).
 | [`sparse-autoencoder-training`](skills/sparse-autoencoder-training/SKILL.md) | Provides guidance for training and analyzing Sparse Autoencoders (SAEs) using SAELens to decompose neural network activations… | MIT |
 | [`speculative-decoding`](skills/speculative-decoding/SKILL.md) | Accelerate LLM inference using speculative decoding, Medusa multiple heads, and lookahead decoding techniques. | MIT |
 | [`stable-diffusion-image-generation`](skills/stable-diffusion-image-generation/SKILL.md) | State-of-the-art text-to-image generation with Stable Diffusion models via HuggingFace Diffusers. | MIT |
+| [`sui-free-route-gateway`](skills/sui-free-route-gateway/SKILL.md) | Every free model route is probed, policy-checked and scored before it can answer a prompt; every escalation is traced; paid credentials are not read at all unless the gate is opened — with fifteen invariants kept as data, each naming the module that enforces it and the test that proves it. | — |
 | [`systems-paper-writing`](skills/systems-paper-writing/SKILL.md) | Comprehensive guide for writing systems papers targeting OSDI, SOSP, ASPLOS, NSDI, and EuroSys. | MIT |
 | [`tensorboard`](skills/tensorboard/SKILL.md) | Visualize training metrics, debug models with histograms, compare experiments, visualize model graphs, and profile performance… | MIT |
 | [`tensorrt-llm`](skills/tensorrt-llm/SKILL.md) | Optimizes LLM inference with NVIDIA TensorRT for maximum throughput and lowest latency. | MIT |
@@ -1050,7 +1062,7 @@ Index pack: [`pack-office-docs`](skills/pack-office-docs/SKILL.md).
 | [`slide-making-skill`](skills/slide-making-skill/SKILL.md) | Implement single-slide PowerPoint pages with PptxGenJS. | MIT |
 | [`spreadsheet-manual-build`](skills/spreadsheet-manual-build/SKILL.md) | Spreadsheet Manual Build: an empty Excel workbook or CSV from a confirmed field list, formatted and validated. | MIT |
 
-### Engineering workflow (`engineering-workflow`) — 402 skills
+### Engineering workflow (`engineering-workflow`) — 403 skills
 
 Index pack: [`pack-engineering-workflow`](skills/pack-engineering-workflow/SKILL.md).
 
@@ -1245,6 +1257,7 @@ Index pack: [`pack-engineering-workflow`](skills/pack-engineering-workflow/SKILL
 | [`investigate-first`](skills/investigate-first/SKILL.md) | Diagnose ambiguous failures before editing. | Apache-2.0 |
 | [`iron-proxy-gateway`](skills/iron-proxy-gateway/SKILL.md) | Use Iron Proxy for external accounts and APIs, including GitHub through gh. | MIT |
 | [`jira-assistant`](skills/jira-assistant/SKILL.md) | Manage Jira issues via Atlassian MCP — search, create, update, transition status, and handle sprint tasks. | MIT |
+| [`kiln-spec-to-app-compiler`](skills/kiln-spec-to-app-compiler/SKILL.md) | A deterministic compiler that turns a small specification into a complete offline application as one HTML file: no model in the loop, no network, nothing to install. `python3 -m kiln pipeline` writes, builds and verifies in one command; a generated app is about 50 KB. | — |
 | [`lead-enrichment`](skills/lead-enrichment/SKILL.md) | When the user wants to build data enrichment workflows, score leads against ICP, set up Clay waterfalls, or improve contact data… | MIT |
 | [`lean-build`](skills/lean-build/SKILL.md) | Build feature work with high overbuilding risk. | Apache-2.0 |
 | [`learn`](skills/learn/SKILL.md) | Distill a reusable skill from anything — a directory, a URL, pasted notes, or what you just did together — or refine an existing… | MIT |
@@ -1960,7 +1973,7 @@ try to resolve a SHA for a skill that has no upstream repository.
 
 ### The multi-repo import
 
-1,399 skills carry `upstream` provenance naming one of 61 public skill
+1445 skills carry `upstream` provenance naming one of 63 public skill
 collections, at the commits recorded in each `meta.json`. The
 import is a **deduplicated** one: where two repositories shipped the same topic
 the fullest version is kept and the others are listed under *Upstream variants*

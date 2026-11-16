@@ -1,0 +1,28 @@
+{
+  "id": "sui-free-route-gateway",
+  "name": "Sui \u2014 a verification-first free-route AI gateway",
+  "category": "ai-and-ml",
+  "description": "Every free model route is probed, policy-checked and scored before it can answer a prompt; every escalation is traced; paid credentials are not read at all unless the gate is opened \u2014 with fifteen invariants kept as data, each naming the module that enforces it and the test that proves it.",
+  "tags": [
+    "sui",
+    "ai-gateway",
+    "routing",
+    "invariants",
+    "privacy",
+    "failover",
+    "circuit-breaker",
+    "node"
+  ],
+  "source_repos": [
+    "sui"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-16",
+  "source_snapshot": {
+    "sui": "50ca209308da299ad0e70982ff4e6e15d9020886"
+  },
+  "subskills": [
+    "ai-bridge",
+    "ml-kit"
+  ]
+}

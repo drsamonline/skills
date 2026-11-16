@@ -1,0 +1,29 @@
+{
+  "id": "widgets-kit",
+  "name": "Widgets kit \u2014 the component layer for offline apps",
+  "category": "frontend-ui",
+  "description": "Buttons, tags, avatars, badges, alerts, progress, modals, drawers, toasts, tooltips, popovers, menus, tabs, accordion, pagination, breadcrumbs, steps, skeletons, grids and headers in one dependency-free file \u2014 with the behaviours that matter implemented: a real focus trap, focus restoration, Escape and backdrop close, a live region for toasts, and keyed lists that reuse the same node so a re-render keeps focus.",
+  "tags": [
+    "widgets-kit",
+    "ui-components",
+    "accessibility",
+    "focus-trap",
+    "toast",
+    "modal",
+    "keyed-list",
+    "zero-dependency"
+  ],
+  "source_repos": [
+    "widgets-kit"
+  ],
+  "version": "1.2.0",
+  "updated": "2026-11-16",
+  "source_snapshot": {
+    "widgets-kit": "4403ac174a81e1cf283577a6f667340e549f4a01"
+  },
+  "subskills": [
+    "ui-kit",
+    "form-kit",
+    "tokens-kit"
+  ]
+}

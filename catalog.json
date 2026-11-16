@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-10",
-  "count": 1558,
+  "generated": "2026-11-16",
+  "count": 1571,
   "categories": [
     "web-app-patterns",
     "android-packaging",
@@ -35367,21 +35367,26 @@
         "web-kit",
         "export-kit",
         "lan-kit",
-        "frame-kit"
+        "frame-kit",
+        "tokens-kit",
+        "forge"
       ],
-      "version": "1.0.0",
-      "updated": "2026-11-10",
+      "version": "1.1.0",
+      "updated": "2026-11-16",
       "source_snapshot": {
-        "web-kit": "eadf3662d964b1d80ecc123fd5b048f2be1a76fc",
+        "web-kit": "2acc9714087280982d1bef7f41b478403e5ed5c7",
         "export-kit": "135e16ad44adfce5ea6e35b353303d5f61020575",
         "lan-kit": "fc5e91131d7b143159c3ba3064e89ea22fd1e785",
-        "frame-kit": "f72afdf17d30e48cc982938a4cac55aa3b801a6e"
+        "frame-kit": "de16e6d44f5fe09ba3a9d111de252deaaa3b1eff",
+        "tokens-kit": "c59e6a8eaa72f07953833d31aae59e8ca986c56f",
+        "forge": "f6b269fb4e540c23c5e25a70252ffd6d89974bdd"
       },
       "subskills": [
         "web-kit",
         "export-kit",
         "lan-kit",
-        "frame-kit"
+        "frame-kit",
+        "kit-adoption-audit"
       ]
     },
     {
@@ -36731,6 +36736,382 @@
       "source_snapshot": {},
       "subskills": [
         "documentation"
+      ]
+    },
+    {
+      "id": "web-kit",
+      "name": "Web kit — the shared offline-first runtime",
+      "category": "web-app-patterns",
+      "description": "The one-file runtime every offline app in the fleet kept re-writing: namespaced localStorage plus a small IndexedDB wrapper, English/Hindi/Gujarati strings, CSV out, light/dark tokens, focus trap and announcements, PWA registration, SEO meta and JSON-LD, and a DOM helper — as a single global `Loom`, working from file:// as well as Pages.",
+      "tags": [
+        "web-kit",
+        "loom",
+        "storage",
+        "i18n",
+        "theme",
+        "a11y",
+        "pwa",
+        "seo",
+        "offline-first",
+        "zero-dependency"
+      ],
+      "source_repos": [
+        "web-kit",
+        "app-jacquard",
+        "app-clip-loom",
+        "app-endpoints",
+        "base-bench",
+        "conqueror-os"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-16",
+      "source_snapshot": {
+        "web-kit": "2acc9714087280982d1bef7f41b478403e5ed5c7"
+      },
+      "subskills": [
+        "export-kit",
+        "shared-kit-vendoring",
+        "offline-first-single-file-web-app"
+      ]
+    },
+    {
+      "id": "frame-kit",
+      "name": "Frame kit — the shared transfer core",
+      "category": "web-app-patterns",
+      "description": "The whole optical-transfer path in one file: a 22-byte self-describing frame with a payload CRC-32 and a header CRC-16, strict validation of bytes that arrive from a camera, a rateless LT fountain collector that tolerates duplicates and restarts on a new transfer id, and the byte/CRC/PRNG helpers underneath. Absorbed optical-kit on 2026-11-12.",
+      "tags": [
+        "frame-kit",
+        "optical-transfer",
+        "fountain-code",
+        "crc32",
+        "crc16",
+        "qr",
+        "offline-transfer",
+        "zero-dependency"
+      ],
+      "source_repos": [
+        "frame-kit",
+        "helioprism",
+        "blinkcode-ai",
+        "BLINKTRANSFER"
+      ],
+      "version": "2.0.0",
+      "updated": "2026-11-16",
+      "source_snapshot": {
+        "frame-kit": "de16e6d44f5fe09ba3a9d111de252deaaa3b1eff"
+      },
+      "subskills": [
+        "optical-file-transfer",
+        "optical-kit-fountain",
+        "shared-kit-vendoring"
+      ]
+    },
+    {
+      "id": "tokens-kit",
+      "name": "Tokens kit — the design tokens, and their motion",
+      "category": "frontend-ui",
+      "description": "A design token set as data: 121 colour names and 187 values per mode, a 19-field size scale, three elevations with their rings, WCAG contrast and premultiplied mixing — plus the springs, easings and transition presets absorbed from motion-kit on 2026-11-12. Opt-in only: importing it touches no element, no document and no storage.",
+      "tags": [
+        "tokens-kit",
+        "design-tokens",
+        "colour",
+        "contrast",
+        "motion",
+        "css-variables",
+        "zero-dependency"
+      ],
+      "source_repos": [
+        "tokens-kit",
+        "sui"
+      ],
+      "version": "2.1.0",
+      "updated": "2026-11-16",
+      "source_snapshot": {
+        "tokens-kit": "c59e6a8eaa72f07953833d31aae59e8ca986c56f"
+      },
+      "subskills": [
+        "ui-kit",
+        "widgets-kit",
+        "shared-kit-vendoring"
+      ]
+    },
+    {
+      "id": "widgets-kit",
+      "name": "Widgets kit — the component layer for offline apps",
+      "category": "frontend-ui",
+      "description": "Buttons, tags, avatars, badges, alerts, progress, modals, drawers, toasts, tooltips, popovers, menus, tabs, accordion, pagination, breadcrumbs, steps, skeletons, grids and headers in one dependency-free file — with the behaviours that matter implemented: a real focus trap, focus restoration, Escape and backdrop close, a live region for toasts, and keyed lists that reuse the same node so a re-render keeps focus.",
+      "tags": [
+        "widgets-kit",
+        "ui-components",
+        "accessibility",
+        "focus-trap",
+        "toast",
+        "modal",
+        "keyed-list",
+        "zero-dependency"
+      ],
+      "source_repos": [
+        "widgets-kit"
+      ],
+      "version": "1.2.0",
+      "updated": "2026-11-16",
+      "source_snapshot": {
+        "widgets-kit": "4403ac174a81e1cf283577a6f667340e549f4a01"
+      },
+      "subskills": [
+        "ui-kit",
+        "form-kit",
+        "tokens-kit"
+      ]
+    },
+    {
+      "id": "markdown-kit",
+      "name": "Markdown kit — rendering, and a streaming reveal",
+      "category": "frontend-ui",
+      "description": "CommonMark's core plus the GitHub extensions (tables, task lists, alerts), safe by default — source HTML is escaped, a javascript: link and a data: image are refused — and a streaming mode that renders what is finished and holds back what a language model may still be in the middle of writing.",
+      "tags": [
+        "markdown-kit",
+        "markdown",
+        "streaming",
+        "sanitiser",
+        "commonmark",
+        "llm-output",
+        "zero-dependency"
+      ],
+      "source_repos": [
+        "markdown-kit"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-16",
+      "source_snapshot": {
+        "markdown-kit": "38ea2902d90d72da20bbbc7cfa834ef8e02b3c20"
+      },
+      "subskills": [
+        "widgets-kit",
+        "web-kit"
+      ]
+    },
+    {
+      "id": "code-kit",
+      "name": "Code kit — QR encoding, highlighting and copyable blocks",
+      "category": "frontend-ui",
+      "description": "A QR encoder in one dependency-free file — byte mode, versions 1-40, all four error levels, all eight masks, the symbol as a boolean matrix so a canvas, an SVG or a terminal can draw it — plus syntax highlighting and copyable code blocks. The encoder is verified by a QR reader written inside the test file and against segno as an independent implementation.",
+      "tags": [
+        "code-kit",
+        "qr-code",
+        "reed-solomon",
+        "syntax-highlighting",
+        "iso-18004",
+        "zero-dependency"
+      ],
+      "source_repos": [
+        "code-kit",
+        "frame-kit"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-16",
+      "source_snapshot": {
+        "code-kit": "514f8c904120a9e698696ca3a0448689bcda0f53"
+      },
+      "subskills": [
+        "qr-code-encoder",
+        "frame-kit",
+        "optical-file-transfer"
+      ]
+    },
+    {
+      "id": "form-kit",
+      "name": "Form kit — 24 controls with one validation pass",
+      "category": "frontend-ui",
+      "description": "The form controls every app in this fleet hand-rolls — inputs, selects, a date picker, OTP boxes, uploads, checkboxes, switches, sliders, rating, toggles, colour swatches — behind one API (`wrap`, `value()`, `set()`, `on()`) and one validation pass, in a single dependency-free file.",
+      "tags": [
+        "form-kit",
+        "forms",
+        "validation",
+        "date-picker",
+        "otp",
+        "two-way-binding",
+        "zero-dependency"
+      ],
+      "source_repos": [
+        "form-kit"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-16",
+      "source_snapshot": {
+        "form-kit": "0456875ed192d846c85317f0da1d181198ae026c"
+      },
+      "subskills": [
+        "ui-kit",
+        "widgets-kit"
+      ]
+    },
+    {
+      "id": "pico-automation-engine",
+      "name": "pico — a personal automation engine on the standard library",
+      "category": "sysadmin-ops",
+      "description": "114 rules, four risk tiers, universal undo, slot dialogue, replay from snapshots and a trigger DSL on the Python standard library alone — with an optional model that is only ever allowed to propose a command string, never run one. Deleting the model pack loses no capability, only phrasing convenience.",
+      "tags": [
+        "pico",
+        "automation",
+        "rule-engine",
+        "risk-tiers",
+        "undo",
+        "offline",
+        "stdlib-only",
+        "privacy"
+      ],
+      "source_repos": [
+        "pico"
+      ],
+      "version": "1.40.1",
+      "updated": "2026-11-16",
+      "source_snapshot": {
+        "pico": "ef5f85465fccf9a42e137a85b2fdf5b8f053dc9b"
+      },
+      "subskills": [
+        "web-kit",
+        "kosh-file-workbench"
+      ]
+    },
+    {
+      "id": "kosh-file-workbench",
+      "name": "Kosh — the file workbench that drives engines across a process boundary",
+      "category": "sysadmin-ops",
+      "description": "Split, squeeze, archive, verify and inspect files through one engine, a CLI and a local web UI — and where a CHCE compression engine is installed, drive it across a process boundary instead of reimplementing its format.",
+      "tags": [
+        "kosh",
+        "chce",
+        "compression",
+        "archive",
+        "recipes",
+        "cli",
+        "verify"
+      ],
+      "source_repos": [
+        "kosh",
+        "heavenzip"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-16",
+      "source_snapshot": {
+        "kosh": "0da9148481d1f47acb631e11c80834bf7c0820b6"
+      },
+      "subskills": [
+        "heavenzip",
+        "safe-repo-cleanup"
+      ]
+    },
+    {
+      "id": "tessera-crm-mesh",
+      "name": "TESSERA — the mosaic layer above every CRM",
+      "category": "backend-services",
+      "description": "Every system a team already runs becomes a node; the mesh presents one customer view across them, routes work to whichever node should handle it, and writes every action in every system to a single hash-chained ledger — with a native node that is the system of record when there is no CRM at all. Under development: published to be inspected, not adopted.",
+      "tags": [
+        "tessera",
+        "crm",
+        "federation",
+        "hash-chained-ledger",
+        "reconciliation",
+        "python",
+        "under-development"
+      ],
+      "source_repos": [
+        "tessera",
+        "tessera-app"
+      ],
+      "version": "1.46.0",
+      "updated": "2026-11-16",
+      "source_snapshot": {
+        "tessera": "1cc0acb7cbc2bc1102a443e601362fa797fcd5b7",
+        "tessera-app": "e79d97eb06b397f981d7e360bb2688a1b90bd551"
+      },
+      "subskills": [
+        "app-opd-register",
+        "lan-single-server-architecture"
+      ]
+    },
+    {
+      "id": "sui-free-route-gateway",
+      "name": "Sui — a verification-first free-route AI gateway",
+      "category": "ai-and-ml",
+      "description": "Every free model route is probed, policy-checked and scored before it can answer a prompt; every escalation is traced; paid credentials are not read at all unless the gate is opened — with fifteen invariants kept as data, each naming the module that enforces it and the test that proves it.",
+      "tags": [
+        "sui",
+        "ai-gateway",
+        "routing",
+        "invariants",
+        "privacy",
+        "failover",
+        "circuit-breaker",
+        "node"
+      ],
+      "source_repos": [
+        "sui"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-16",
+      "source_snapshot": {
+        "sui": "50ca209308da299ad0e70982ff4e6e15d9020886"
+      },
+      "subskills": [
+        "ai-bridge",
+        "ml-kit"
+      ]
+    },
+    {
+      "id": "kiln-spec-to-app-compiler",
+      "name": "KILN — spec in, finished app out",
+      "category": "engineering-workflow",
+      "description": "A deterministic compiler that turns a small specification into a complete offline application as one HTML file: no model in the loop, no network, nothing to install. `python3 -m kiln pipeline` writes, builds and verifies in one command; a generated app is about 50 KB.",
+      "tags": [
+        "kiln",
+        "compiler",
+        "code-generation",
+        "deterministic",
+        "single-file",
+        "offline",
+        "python"
+      ],
+      "source_repos": [
+        "KILN"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-16",
+      "source_snapshot": {
+        "KILN": "4ab0fd08454ee49421ad9aa1ea284ce3f5db3520"
+      },
+      "subskills": [
+        "offline-first-single-file-web-app",
+        "app-builder-kit"
+      ]
+    },
+    {
+      "id": "toolworks-merged-catalogue",
+      "name": "Toolworks — merging two catalogues without touching either",
+      "category": "data-and-schema",
+      "description": "One offline index over two independently built toolboxes — 565 tools from the TTB browser extension and 404 from the All4ONE Windows binary, 969 rows with search and a source on every entry — built by reading both catalogues and modifying neither repository.",
+      "tags": [
+        "toolworks",
+        "catalogue",
+        "merge",
+        "provenance",
+        "offline-index",
+        "search"
+      ],
+      "source_repos": [
+        "TOOLWORKS",
+        "TTB",
+        "All4ONE"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-16",
+      "source_snapshot": {
+        "TOOLWORKS": "e79d97eb06b397f981d7e360bb2688a1b90bd551"
+      },
+      "subskills": [
+        "kitbox",
+        "dashboard"
       ]
     }
   ]

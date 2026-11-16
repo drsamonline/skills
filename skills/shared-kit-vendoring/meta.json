@@ -15,20 +15,25 @@
     "web-kit",
     "export-kit",
     "lan-kit",
-    "frame-kit"
+    "frame-kit",
+    "tokens-kit",
+    "forge"
   ],
-  "version": "1.0.0",
-  "updated": "2026-11-10",
+  "version": "1.1.0",
+  "updated": "2026-11-16",
   "source_snapshot": {
-    "web-kit": "eadf3662d964b1d80ecc123fd5b048f2be1a76fc",
+    "web-kit": "2acc9714087280982d1bef7f41b478403e5ed5c7",
     "export-kit": "135e16ad44adfce5ea6e35b353303d5f61020575",
     "lan-kit": "fc5e91131d7b143159c3ba3064e89ea22fd1e785",
-    "frame-kit": "f72afdf17d30e48cc982938a4cac55aa3b801a6e"
+    "frame-kit": "de16e6d44f5fe09ba3a9d111de252deaaa3b1eff",
+    "tokens-kit": "c59e6a8eaa72f07953833d31aae59e8ca986c56f",
+    "forge": "f6b269fb4e540c23c5e25a70252ffd6d89974bdd"
   },
   "subskills": [
     "web-kit",
     "export-kit",
     "lan-kit",
-    "frame-kit"
+    "frame-kit",
+    "kit-adoption-audit"
   ]
 }
