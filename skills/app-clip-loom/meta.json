@@ -15,9 +15,9 @@
     "app-clip-loom"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-09",
+  "updated": "2026-11-16",
   "source_snapshot": {
-    "app-clip-loom": "3d53f1b06ce6c1c0dd284911bd2edc8281ab1129"
+    "app-clip-loom": "1a1b091aa3719b57dd7b22bfd07941b6bd45910e"
   },
   "subskills": [
     "weft8-kit",

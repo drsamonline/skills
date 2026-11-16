@@ -18,12 +18,12 @@
     "offline-pdf-toolkit"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-10",
+  "updated": "2026-11-16",
   "source_snapshot": {
-    "compress-kit": "6be52617201d73506109792639738a288a5ccb81",
-    "lexora": "55b5a10fdabc855183af522562dbcdae7769b1bd",
+    "compress-kit": "9335d0fa4976d3850e4bb0b99d5dee565a48ba2b",
+    "lexora": "17e3bab94288578129c962fd168c1bdca8bb33e3",
     "kent-repertory-explorer": "43a4d9ff2c144e820bdd81a382c3676000afa4e0",
-    "offline-pdf-toolkit": "d0cf17d7ddd469d44a106df58cf20caca74298f7"
+    "offline-pdf-toolkit": "adf018dc52fbde70e2a0804527ff328baa121455"
   },
   "subskills": [
     "offline-first-single-file-web-app"

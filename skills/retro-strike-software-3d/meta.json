@@ -16,9 +16,9 @@
     "retro-strike"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-09",
+  "updated": "2026-11-16",
   "source_snapshot": {
-    "retro-strike": "8d3bd16953ba94d4c9bb8f47118f9bc9fc8373ca"
+    "retro-strike": "ad5ce70da1986f2e92dc863d780ac93085c48b97"
   },
   "subskills": [
     "offline-first-single-file-web-app",

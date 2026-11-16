@@ -20,13 +20,13 @@
     "srs-kit"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-10",
+  "updated": "2026-11-16",
   "source_snapshot": {
-    "skills": "4d9884a0a36cf426e0bc6b924082f9ac9444db05",
-    "web-kit": "eadf3662d964b1d80ecc123fd5b048f2be1a76fc",
+    "skills": "d0a4d657eb72f87cc1e44f3442beb4fc4de60312",
+    "web-kit": "2acc9714087280982d1bef7f41b478403e5ed5c7",
     "forge": "926d6c8f38a423153556746c403b215a3ca1abe2",
-    "repertory-kit": "0d992b323a978145d825d49833c12710ac21d45e",
-    "srs-kit": "c291d2c0a58058d6fa6341b3a1c61e9764482c10"
+    "repertory-kit": "75d56543c29daf8dc11ef425437079ca823c6a16",
+    "srs-kit": "f29e94bba0bb58f4dd60b51013bd8fe6229946a4"
   },
   "subskills": [
     "safe-repo-cleanup",

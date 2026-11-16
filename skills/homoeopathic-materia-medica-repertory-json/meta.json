@@ -17,9 +17,9 @@
     "homoeopathic-materia-medica-repertory-json"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-09",
+  "updated": "2026-11-16",
   "source_snapshot": {
-    "homoeopathic-materia-medica-repertory-json": "01644c088e8ddfefecfeb11a341e843f64552e78"
+    "homoeopathic-materia-medica-repertory-json": "41b2e2e4954c483e3215bd028a348ccb73c5b647"
   },
   "subskills": [
     "open-data-extraction-pipeline"

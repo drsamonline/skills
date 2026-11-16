@@ -16,9 +16,9 @@
     "aethelgard-rpg-engine"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-09",
+  "updated": "2026-11-16",
   "source_snapshot": {
-    "aethelgard-rpg-engine": "a56fe2db8f72f07a2310b03f77b3249d60ac6c50"
+    "aethelgard-rpg-engine": "a60fb477ce9366fc5285ad95918c8d642cd7e0cb"
   },
   "subskills": [
     "repo-presentation",

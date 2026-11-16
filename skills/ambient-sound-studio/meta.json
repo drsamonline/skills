@@ -18,9 +18,9 @@
     "ambient-sound-studio"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-09",
+  "updated": "2026-11-16",
   "source_snapshot": {
-    "ambient-sound-studio": "4d2f8466d3221f63d3d64ded089e4f34eb40f877"
+    "ambient-sound-studio": "a564a5e5610aa89f4bba930c314fd62418cbeb63"
   },
   "subskills": [
     "offline-first-single-file-web-app",

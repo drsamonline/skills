@@ -17,9 +17,9 @@
     "idle-city-ages-of-growth"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-09",
+  "updated": "2026-11-16",
   "source_snapshot": {
-    "idle-city-ages-of-growth": "f7918f6addf516b600cb3201d3c1dd5fb09c6cbe"
+    "idle-city-ages-of-growth": "78eee96dae76fa2f130b615a64cb8c34b6ef2367"
   },
   "subskills": [
     "offline-first-single-file-web-app",

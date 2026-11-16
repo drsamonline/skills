@@ -16,9 +16,9 @@
     "lexora"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-10",
+  "updated": "2026-11-16",
   "source_snapshot": {
-    "lexora": "55b5a10fdabc855183af522562dbcdae7769b1bd"
+    "lexora": "17e3bab94288578129c962fd168c1bdca8bb33e3"
   },
   "subskills": [
     "static-landing-page-seo"

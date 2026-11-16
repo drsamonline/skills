@@ -16,9 +16,9 @@
     "kitbox"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-09",
+  "updated": "2026-11-16",
   "source_snapshot": {
-    "kitbox": "de7493fa1905d6e2f6f0e70c314ab09a521f7680"
+    "kitbox": "efadf63f35bc5eb6221cb1987b2e387697d540a8"
   },
   "subskills": [
     "offline-first-single-file-web-app",

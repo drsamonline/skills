@@ -16,9 +16,9 @@
     "ai-bridge"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-10",
+  "updated": "2026-11-16",
   "source_snapshot": {
-    "ai-bridge": "f5db71f886991538f47b66cff6f5f92e96ed0dbf"
+    "ai-bridge": "cd244cad760264daa5a977329caa337aa0d00d1c"
   },
   "subskills": []
 }

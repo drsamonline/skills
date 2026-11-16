@@ -17,9 +17,9 @@
     "skin-case-tracker"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-09",
+  "updated": "2026-11-16",
   "source_snapshot": {
-    "skin-case-tracker": "43d7180b149742a3404282fc364797b6ad9165c1"
+    "skin-case-tracker": "f1898e56f0a27a3535f47d2eeb162ce6a4fe0c87"
   },
   "subskills": [
     "offline-first-single-file-web-app",

@@ -15,9 +15,9 @@
     "neon-velocity"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-09",
+  "updated": "2026-11-16",
   "source_snapshot": {
-    "neon-velocity": "9f727bdb94c704a37cfa2f305c8afc10446fb6b8"
+    "neon-velocity": "d077f2ec29ce93167fd64cc7cd04911dff12947b"
   },
   "subskills": [
     "art-kit",

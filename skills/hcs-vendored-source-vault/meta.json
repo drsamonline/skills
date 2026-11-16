@@ -15,9 +15,9 @@
     "HCS"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-10",
+  "updated": "2026-11-16",
   "source_snapshot": {
-    "HCS": "1fcc7ec03cf234b8b07de5fff23db67afaf7068c"
+    "HCS": "e6d6ed8070cc7dbcfcb391a4215c283c9fd95175"
   },
   "subskills": [
     "ziptastic",

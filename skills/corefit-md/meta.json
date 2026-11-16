@@ -16,9 +16,9 @@
     "corefit-md"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-09",
+  "updated": "2026-11-16",
   "source_snapshot": {
-    "corefit-md": "1d6c433c3a3d822e1aca628265a7f245d064d62e"
+    "corefit-md": "ce8dad61896fd6c632819ce436ee1b4be25049ba"
   },
   "subskills": [
     "offline-first-single-file-web-app",

@@ -1,8 +1,8 @@
 {
   "id": "toolworks-merged-catalogue",
-  "name": "Toolworks \u2014 merging two catalogues without touching either",
+  "name": "Toolworks — merging two catalogues without touching either",
   "category": "data-and-schema",
-  "description": "One offline index over two independently built toolboxes \u2014 565 tools from the TTB browser extension and 404 from the All4ONE Windows binary, 969 rows with search and a source on every entry \u2014 built by reading both catalogues and modifying neither repository.",
+  "description": "One offline index over two independently built toolboxes — 565 tools from the TTB browser extension and 404 from the All4ONE Windows binary, 969 rows with search and a source on every entry — built by reading both catalogues and modifying neither repository.",
   "tags": [
     "toolworks",
     "catalogue",
@@ -19,7 +19,9 @@
   "version": "1.0.0",
   "updated": "2026-11-16",
   "source_snapshot": {
-    "TOOLWORKS": "e79d97eb06b397f981d7e360bb2688a1b90bd551"
+    "TOOLWORKS": "e79d97eb06b397f981d7e360bb2688a1b90bd551",
+    "TTB": "da7eee5fb46b9add5d01260dc10accf1e322d205",
+    "All4ONE": "07a4c4f886bbb2f29dfe08d6ca09477dfea4c757"
   },
   "subskills": [
     "kitbox",

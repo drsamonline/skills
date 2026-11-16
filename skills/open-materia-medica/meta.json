@@ -16,9 +16,9 @@
     "open-materia-medica"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-09",
+  "updated": "2026-11-16",
   "source_snapshot": {
-    "open-materia-medica": "08df2723f58679999d07aab0b36687d04870e53f"
+    "open-materia-medica": "b517699da27984f88362db891b0cf7598145b5d2"
   },
   "subskills": [
     "android-webview-apk-packaging",

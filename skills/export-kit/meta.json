@@ -15,9 +15,9 @@
     "export-kit"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-10",
+  "updated": "2026-11-16",
   "source_snapshot": {
-    "export-kit": "135e16ad44adfce5ea6e35b353303d5f61020575"
+    "export-kit": "135b1a61d54cfe1e7a871e72be350866f3d6be52"
   },
   "subskills": [
     "web-kit",

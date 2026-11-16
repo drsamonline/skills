@@ -15,9 +15,9 @@
     "eon-commando"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-09",
+  "updated": "2026-11-16",
   "source_snapshot": {
-    "eon-commando": "0752b54fa57b4a87e3291cf717f642c35ccc4dad"
+    "eon-commando": "334239c245390de755fb0f8f500edef18004544c"
   },
   "subskills": [
     "offline-first-single-file-web-app",

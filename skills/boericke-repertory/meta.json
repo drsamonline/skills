@@ -16,9 +16,9 @@
     "boericke-repertory"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-09",
+  "updated": "2026-11-16",
   "source_snapshot": {
-    "boericke-repertory": "e6c921806a0ebbd7deba2b27c3053ceaff934cc7"
+    "boericke-repertory": "4648fe1a127ff32ae64afda8d673545323944eab"
   },
   "subskills": [
     "offline-first-single-file-web-app",

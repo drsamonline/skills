@@ -1,8 +1,8 @@
 {
   "id": "code-kit",
-  "name": "Code kit \u2014 QR encoding, highlighting and copyable blocks",
+  "name": "Code kit — QR encoding, highlighting and copyable blocks",
   "category": "frontend-ui",
-  "description": "A QR encoder in one dependency-free file \u2014 byte mode, versions 1-40, all four error levels, all eight masks, the symbol as a boolean matrix so a canvas, an SVG or a terminal can draw it \u2014 plus syntax highlighting and copyable code blocks. The encoder is verified by a QR reader written inside the test file and against segno as an independent implementation.",
+  "description": "A QR encoder in one dependency-free file — byte mode, versions 1-40, all four error levels, all eight masks, the symbol as a boolean matrix so a canvas, an SVG or a terminal can draw it — plus syntax highlighting and copyable code blocks. The encoder is verified by a QR reader written inside the test file and against segno as an independent implementation.",
   "tags": [
     "code-kit",
     "qr-code",
@@ -18,7 +18,8 @@
   "version": "1.0.0",
   "updated": "2026-11-16",
   "source_snapshot": {
-    "code-kit": "514f8c904120a9e698696ca3a0448689bcda0f53"
+    "code-kit": "514f8c904120a9e698696ca3a0448689bcda0f53",
+    "frame-kit": "de16e6d44f5fe09ba3a9d111de252deaaa3b1eff"
   },
   "subskills": [
     "qr-code-encoder",

@@ -15,9 +15,9 @@
     "app-thermals"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-10",
+  "updated": "2026-11-16",
   "source_snapshot": {
-    "app-thermals": "7157a2499947b53dadde6202a7c664c317d3df55"
+    "app-thermals": "2285ddf9468d6d552790253a41a20834eda40f0a"
   },
   "subskills": [
     "search-kit",

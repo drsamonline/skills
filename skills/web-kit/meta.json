@@ -1,8 +1,8 @@
 {
   "id": "web-kit",
-  "name": "Web kit \u2014 the shared offline-first runtime",
+  "name": "Web kit — the shared offline-first runtime",
   "category": "web-app-patterns",
-  "description": "The one-file runtime every offline app in the fleet kept re-writing: namespaced localStorage plus a small IndexedDB wrapper, English/Hindi/Gujarati strings, CSV out, light/dark tokens, focus trap and announcements, PWA registration, SEO meta and JSON-LD, and a DOM helper \u2014 as a single global `Loom`, working from file:// as well as Pages.",
+  "description": "The one-file runtime every offline app in the fleet kept re-writing: namespaced localStorage plus a small IndexedDB wrapper, English/Hindi/Gujarati strings, CSV out, light/dark tokens, focus trap and announcements, PWA registration, SEO meta and JSON-LD, and a DOM helper — as a single global `Loom`, working from file:// as well as Pages.",
   "tags": [
     "web-kit",
     "loom",
@@ -26,7 +26,12 @@
   "version": "1.0.0",
   "updated": "2026-11-16",
   "source_snapshot": {
-    "web-kit": "2acc9714087280982d1bef7f41b478403e5ed5c7"
+    "web-kit": "2acc9714087280982d1bef7f41b478403e5ed5c7",
+    "app-jacquard": "b78515e6c8ffcdd3a228a14958115d4028c3ba06",
+    "app-clip-loom": "1a1b091aa3719b57dd7b22bfd07941b6bd45910e",
+    "app-endpoints": "3af3769c30e5b84c55827764a35824a9b3e894dd",
+    "base-bench": "d7ca5c7575f8bba653c437d8478c258c88ed73e8",
+    "conqueror-os": "5009d0d3bca9d0c20418debb254d5af3032a55b6"
   },
   "subskills": [
     "export-kit",

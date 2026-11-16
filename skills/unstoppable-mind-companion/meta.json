@@ -16,9 +16,9 @@
     "unstoppable-mind-companion"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-09",
+  "updated": "2026-11-16",
   "source_snapshot": {
-    "unstoppable-mind-companion": "c42803faebee8910387962c5b99824b1a8358f03"
+    "unstoppable-mind-companion": "f519bd2aa853cab265316a62156802c0c3697508"
   },
   "subskills": [
     "offline-first-single-file-web-app",

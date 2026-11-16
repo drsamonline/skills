@@ -17,9 +17,9 @@
     "lockhtml"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-09",
+  "updated": "2026-11-16",
   "source_snapshot": {
-    "lockhtml": "da922174a0ea240896938b481510c7f0902a1bbd"
+    "lockhtml": "43dcef01937f62a1465d2c3e81a53e35bc58797c"
   },
   "subskills": [
     "offline-first-single-file-web-app",
