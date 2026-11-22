@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-16",
-  "count": 1571,
+  "generated": "2026-11-22",
+  "count": 1599,
   "categories": [
     "web-app-patterns",
     "android-packaging",
@@ -37143,6 +37143,780 @@
         "kitbox",
         "dashboard"
       ]
+    },
+    {
+      "name": "Music page — a manifest-driven album shelf",
+      "category": "media-design",
+      "description": "Build an album-wise music page that hosts no audio at all: a generated manifest points every track at the platform that hosts it, the page plays through that platform's own player, and adding a track is one line in a link list plus a rebuild.",
+      "tags": [
+        "manifest",
+        "crawl",
+        "static-site",
+        "audio",
+        "soundcloud",
+        "no-hosting",
+        "github-actions"
+      ],
+      "source_repos": [
+        "music"
+      ],
+      "subskills": [
+        "static-landing-page-seo",
+        "reusable-build-release-workflow"
+      ],
+      "id": "album-music-page",
+      "version": "1.0.0",
+      "updated": "2026-11-22",
+      "source_snapshot": {
+        "music": "de4ba380a675ee1016416665a9d2ff1f02405091"
+      }
+    },
+    {
+      "name": "app-story-engine — the state is the story",
+      "category": "web-app-patterns",
+      "description": "Build a choose-your-own-adventure reader where the carried state decides which doors are still open and the trail records every passage in order — offline, no accounts, with the engine tested headlessly against the real book.",
+      "tags": [
+        "interactive-fiction",
+        "state-machine",
+        "branching-narrative",
+        "save-load",
+        "offline",
+        "engine"
+      ],
+      "source_repos": [
+        "app-story-engine"
+      ],
+      "subskills": [
+        "aethelgardvn-saga-engine",
+        "offline-first-single-file-web-app"
+      ],
+      "id": "branching-story-engine",
+      "version": "1.0.0",
+      "updated": "2026-11-22",
+      "source_snapshot": {
+        "app-story-engine": "3a783cdfb71285f9ee4b60e682350880acd52ca2"
+      }
+    },
+    {
+      "name": "NEONBOOM — a beat workstation in a browser tab",
+      "category": "media-design",
+      "description": "Build a browser beat workstation where every loop is synthesised on device at boot: a hardware-style pad grid, a canvas arrangement, a mixer with sends and master FX, automation and scenes, and WAV/stem export — one 192 KB file, zero dependencies.",
+      "tags": [
+        "web-audio",
+        "drum-machine",
+        "sequencer",
+        "canvas",
+        "wav-export",
+        "pwa",
+        "synthesis",
+        "offline"
+      ],
+      "source_repos": [
+        "neonboom"
+      ],
+      "subskills": [
+        "audio-kit",
+        "audio-design",
+        "lofi-beat-machine"
+      ],
+      "id": "browser-beat-workstation",
+      "version": "1.0.0",
+      "updated": "2026-11-22",
+      "source_snapshot": {
+        "neonboom": "0ef98e3649938108149e6f13b4afca3061a5a07c"
+      }
+    },
+    {
+      "name": "Faztest — a Brotli front end with claims that can be checked",
+      "category": "code-quality",
+      "description": "Ship a compression tool whose README numbers are generated from a measured corpus and fail the build when they drift — Brotli in a WebAssembly worker and a portable CLI, with the honest table that says where it loses.",
+      "tags": [
+        "brotli",
+        "wasm",
+        "compression",
+        "benchmark",
+        "honest-claims",
+        "cli",
+        "privacy"
+      ],
+      "source_repos": [
+        "faztest-fast-file-forge"
+      ],
+      "subskills": [
+        "reusable-build-release-workflow"
+      ],
+      "id": "browser-compression-with-measured-claims",
+      "version": "1.0.0",
+      "updated": "2026-11-22",
+      "source_snapshot": {
+        "faztest-fast-file-forge": "5f6a8f1ce875eab404a43f098d5708aa4ca2ae47"
+      }
+    },
+    {
+      "name": "Nodus — one browser core, many frontends",
+      "category": "browser-automation",
+      "description": "Turn a browser engine into a library with frontends on top instead of a monolith behind build flags — a pinned NetSurf fork exposing one interface to framebuffer, GTK, headless and text clients that share the same parser, layout and network code.",
+      "tags": [
+        "netsurf",
+        "browser-engine",
+        "library",
+        "frontends",
+        "c",
+        "headless",
+        "text-mode",
+        "fork"
+      ],
+      "source_repos": [
+        "nodus"
+      ],
+      "subskills": [
+        "the-browser-aetheris"
+      ],
+      "id": "browser-core-as-library",
+      "version": "1.0.0",
+      "updated": "2026-11-22",
+      "source_snapshot": {
+        "nodus": "efe46a7074524365c5fa7bef26222bf44d63b452"
+      }
+    },
+    {
+      "name": "OPD Register — the clinic day, at typing speed",
+      "category": "health-tools",
+      "description": "Build a daily outpatient register that lays out the whole month ready to type into, updates counts and department splits as you write, prints for the file, exports to Excel, and keeps several centres apart — offline with no network request at all.",
+      "tags": [
+        "clinic",
+        "register",
+        "offline",
+        "print",
+        "excel-export",
+        "multi-centre",
+        "health"
+      ],
+      "source_repos": [
+        "app-opd-register"
+      ],
+      "subskills": [
+        "offline-first-single-file-web-app",
+        "export-kit"
+      ],
+      "id": "clinic-register-on-one-page",
+      "version": "1.0.0",
+      "updated": "2026-11-22",
+      "source_snapshot": {
+        "app-opd-register": "b8ad75b6dc248c86f83663b7f4f65152de8485a9"
+      }
+    },
+    {
+      "name": "Cobble — a private city built from small things",
+      "category": "web-app-patterns",
+      "description": "Turn a personal journal into something you can walk through: each saved moment becomes a building, colour encodes what kind of moment it was and height encodes how much it mattered, offline and private with an encrypted share.",
+      "tags": [
+        "journal",
+        "visualisation",
+        "data-as-place",
+        "offline",
+        "encrypted-share",
+        "export",
+        "single-file"
+      ],
+      "source_repos": [
+        "Cobble"
+      ],
+      "subskills": [
+        "offline-first-single-file-web-app"
+      ],
+      "id": "cobble-a-city-from-small-things",
+      "version": "1.0.0",
+      "updated": "2026-11-22",
+      "source_snapshot": {
+        "Cobble": "0e03bd87790dd2793993a0eabbeba606f45b9c10"
+      }
+    },
+    {
+      "name": "Single-file web app directories — curating a list people submit to",
+      "category": "web-app-patterns",
+      "description": "Run a curated directory of single-file, local-first web apps: a submission path that does not rot, one criterion applied literally (one HTML file, dependencies embedded), and enough structure that a reader can tell a maintained list from an abandoned one.",
+      "tags": [
+        "awesome-list",
+        "curation",
+        "submissions",
+        "single-file",
+        "local-first",
+        "directory",
+        "community"
+      ],
+      "source_repos": [
+        "awesome-singlefile-tools",
+        "iamsingle-sfwa-directory",
+        "Single-File-Web-Apps",
+        "local-first-tools"
+      ],
+      "subskills": [
+        "auto-updating-showcase-hub",
+        "static-landing-page-seo"
+      ],
+      "id": "curated-list-directory",
+      "version": "1.0.0",
+      "updated": "2026-11-22",
+      "source_snapshot": {
+        "awesome-singlefile-tools": "ef9d7a64667689f53186da516f96b201fc1dae27",
+        "iamsingle-sfwa-directory": "33a80b959dd0bcf6aa104813c968c412327274c2",
+        "Single-File-Web-Apps": "2b8fca0597abd0c08dea4aa4dd102cde040fe353",
+        "local-first-tools": "bc8f9360dc2821d5987199204d67d4fe2c9e57bb"
+      }
+    },
+    {
+      "name": "DayDoc — decision-first office notes",
+      "category": "notes-knowledge",
+      "description": "Store decisions rather than notes: an atomic DR-NNNN record with a lifecycle and a supersession chain, notes that serve as evidence for it, procedures that emerged from repetition, and tasks derived from decisions — so the office can answer why, not just what.",
+      "tags": [
+        "decisions",
+        "adr",
+        "lifecycle",
+        "supersession",
+        "evidence",
+        "sop",
+        "office",
+        "notes"
+      ],
+      "source_repos": [
+        "DayDoc"
+      ],
+      "subskills": [
+        "knowledge-capture-and-recall",
+        "reusable-build-release-workflow"
+      ],
+      "id": "decision-first-notes",
+      "version": "1.0.0",
+      "updated": "2026-11-22",
+      "source_snapshot": {
+        "DayDoc": "edef9f8fbc280137f85d5ee7096df3debf123eb8"
+      }
+    },
+    {
+      "name": "NTET Homoeopathy — an offline exam console with a question bank",
+      "category": "health-tools",
+      "description": "Build an offline exam-preparation console: a 15-day guided plan over a fixed unit blueprint, a glossary, a question bank with rationales, a full-length NTA-style CBT simulator and unit diagnostics — one HTML file, zero network at runtime.",
+      "tags": [
+        "exam-prep",
+        "cbt-simulator",
+        "question-bank",
+        "offline",
+        "pwa",
+        "diagnostics",
+        "education"
+      ],
+      "source_repos": [
+        "ntet-homoeopathy-cbt"
+      ],
+      "subskills": [
+        "offline-first-single-file-web-app",
+        "srs-kit-sm2"
+      ],
+      "id": "exam-prep-console",
+      "version": "1.0.0",
+      "updated": "2026-11-22",
+      "source_snapshot": {
+        "ntet-homoeopathy-cbt": "5a5cf54250288c994f9f2971b5c87c528a037ed5"
+      }
+    },
+    {
+      "name": "Sorex — a featherweight GUI browser for old machines",
+      "category": "browser-automation",
+      "description": "Build a graphical browser for machines the modern web forgot — 2 GB netbooks, Pentium M laptops, 512 MB Raspberry Pis — as a hardened Dillo fork with no JavaScript engine, a scriptable surface, and a 15-30 MB budget.",
+      "tags": [
+        "dillo",
+        "fltk",
+        "browser",
+        "low-memory",
+        "no-javascript",
+        "scriptable",
+        "c++",
+        "fork"
+      ],
+      "source_repos": [
+        "sorex"
+      ],
+      "subskills": [
+        "the-browser-aetheris"
+      ],
+      "id": "featherweight-graphical-browser",
+      "version": "1.0.0",
+      "updated": "2026-11-22",
+      "source_snapshot": {
+        "sorex": "b71a0f8035feaae13aea318718dfd05b0a724f9d"
+      }
+    },
+    {
+      "name": "motion-kit — folding a kit into another, and leaving a readable shim",
+      "category": "engineering-workflow",
+      "description": "Merge one library into another without breaking anyone who vendors it: move the code, keep a frozen shim repository that still resolves, repoint the docs at the new path, and say plainly in the README that it is no longer maintained.",
+      "tags": [
+        "merge",
+        "deprecation",
+        "shim",
+        "vendoring",
+        "semver",
+        "docs",
+        "fleet-maintenance"
+      ],
+      "source_repos": [
+        "motion-kit"
+      ],
+      "subskills": [
+        "reusable-build-release-workflow"
+      ],
+      "id": "frozen-kit-merge",
+      "version": "1.0.0",
+      "updated": "2026-11-22",
+      "source_snapshot": {
+        "motion-kit": "aa82d0d0bdca6464ddd7b2c0d019c4420cade0f3"
+      }
+    },
+    {
+      "name": "Hellgate — a procedural 2.5D arena FPS with zero external assets",
+      "category": "game-dev",
+      "description": "Build a Doom-style 2.5D shooter in a browser tab where every texture, mesh and sound is generated at runtime from a seed string — sector maps, three weapons, two enemy types, no images, no models, no audio files, no build step.",
+      "tags": [
+        "three.js",
+        "procedural",
+        "fps",
+        "raycasting",
+        "web-audio",
+        "zero-assets",
+        "game",
+        "canvas-textures"
+      ],
+      "source_repos": [
+        "Hellgate"
+      ],
+      "subskills": [
+        "neon-engine-open-world",
+        "game-kit-fixed-timestep"
+      ],
+      "id": "hellgate-procedural-arena-fps",
+      "version": "1.0.0",
+      "updated": "2026-11-22",
+      "source_snapshot": {
+        "Hellgate": "da7d1d1010b04634ad0a2424280928d29fdf48b3"
+      }
+    },
+    {
+      "name": "Kinemorph — an animation studio that exports real video",
+      "category": "media-design",
+      "description": "Build a browser animation studio that turns a paragraph into a scored, styled show and exports frame-exact MP4 through WebCodecs — React + TypeScript over PixiJS, a GSAP timeline, a Tone.js generative score, and a committed build.",
+      "tags": [
+        "webcodecs",
+        "mp4-export",
+        "pixijs",
+        "gsap",
+        "tone.js",
+        "react",
+        "typescript",
+        "video",
+        "animation"
+      ],
+      "source_repos": [
+        "kinemorph"
+      ],
+      "subskills": [
+        "kinemotif-single-file-animation-studio"
+      ],
+      "id": "kinemorph-video-animation-studio",
+      "version": "1.0.0",
+      "updated": "2026-11-22",
+      "source_snapshot": {
+        "kinemorph": "67b5e152606fe9c69a0baff976c95fd9c2dd0b31"
+      }
+    },
+    {
+      "name": "Kinemotif — a paragraph into a scored show, in one HTML file",
+      "category": "media-design",
+      "description": "Turn a paragraph into a moving, scored presentation inside a single dependency-free HTML file — six art styles, real shape morphing, a synthesised soundtrack, and an export that is one offline file.",
+      "tags": [
+        "canvas-2d",
+        "web-audio",
+        "single-file",
+        "animation",
+        "shape-morphing",
+        "offline",
+        "presentation"
+      ],
+      "source_repos": [
+        "kinemotif"
+      ],
+      "subskills": [
+        "offline-first-single-file-web-app",
+        "kinemorph-video-animation-studio"
+      ],
+      "id": "kinemotif-single-file-animation-studio",
+      "version": "1.0.0",
+      "updated": "2026-11-22",
+      "source_snapshot": {
+        "kinemotif": "c2056de0e806be944d6c21487923c09bf023d061"
+      }
+    },
+    {
+      "name": "Lofi Studio Pro — a sample-free lofi machine with a live tape chain",
+      "category": "media-design",
+      "description": "Build a lofi beat machine with six tracks, sixteen steps, nine ambience layers and a live tape chain — everything synthesised on the fly, offline-first, no samples, no account, no server.",
+      "tags": [
+        "lofi",
+        "web-audio",
+        "sequencer",
+        "tape",
+        "ambience",
+        "pwa",
+        "synthesis",
+        "offline"
+      ],
+      "source_repos": [
+        "lofi-studio-pro"
+      ],
+      "subskills": [
+        "audio-kit",
+        "audio-design",
+        "browser-beat-workstation"
+      ],
+      "id": "lofi-beat-machine",
+      "version": "1.0.0",
+      "updated": "2026-11-22",
+      "source_snapshot": {
+        "lofi-studio-pro": "38c604fdb1f35ccadf301e41e33071aa2f57c13b"
+      }
+    },
+    {
+      "name": "INDIA — monuments rebuilt in code",
+      "category": "media-design",
+      "description": "Rebuild twenty-four monuments as live 3D miniatures in the browser with no photographs, no downloaded meshes and no build step — every dome, bracket and lattice screen generated from code, lit by a physical sky, and paired with the history behind it.",
+      "tags": [
+        "three.js",
+        "procedural-3d",
+        "architecture",
+        "history",
+        "no-assets",
+        "webgl",
+        "india"
+      ],
+      "source_repos": [
+        "INDIA"
+      ],
+      "subskills": [
+        "hellgate-procedural-arena-fps",
+        "static-landing-page-seo"
+      ],
+      "id": "monuments-generated-in-code",
+      "version": "1.0.0",
+      "updated": "2026-11-22",
+      "source_snapshot": {
+        "INDIA": "2ba73c58c9399a30800ea2ddca1b949d4a046423"
+      }
+    },
+    {
+      "name": "Mood Mixer — three sliders to a coordinated palette",
+      "category": "frontend-ui",
+      "description": "Build a colour playground where three mood sliders produce a coordinated four-colour palette, with six harmony schemes, WCAG contrast checks and CSS/JSON/Tailwind/PNG export — private, offline, no network calls.",
+      "tags": [
+        "colour",
+        "hsl",
+        "harmony",
+        "wcag-contrast",
+        "export",
+        "playground",
+        "offline",
+        "pwa"
+      ],
+      "source_repos": [
+        "mood-mixer"
+      ],
+      "subskills": [
+        "offline-first-single-file-web-app",
+        "algorithmic-color-palette"
+      ],
+      "id": "mood-to-palette-playground",
+      "version": "1.0.0",
+      "updated": "2026-11-22",
+      "source_snapshot": {
+        "mood-mixer": "e8b25cf3a3486b40daecb7eef26eedd0381712c3"
+      }
+    },
+    {
+      "name": "Sorta — an offline document sorter with a budget",
+      "category": "sysadmin-ops",
+      "description": "Build an ultra-light semantic file sorter as one Rust binary: drop a file or a folder and it lands somewhere you can predict, with a log entry that explains why — local embeddings, no service, no telemetry, and a stated size/RAM/startup budget.",
+      "tags": [
+        "rust",
+        "file-sorting",
+        "embeddings",
+        "offline",
+        "single-binary",
+        "budget",
+        "logging"
+      ],
+      "source_repos": [
+        "Sorta"
+      ],
+      "subskills": [
+        "offline-first-single-file-web-app"
+      ],
+      "id": "offline-document-sorter",
+      "version": "1.0.0",
+      "updated": "2026-11-22",
+      "source_snapshot": {
+        "Sorta": "6b3877d3a45f557568bcc7b3bdea9907c17602f8"
+      }
+    },
+    {
+      "name": "Planner Pro — a planner that behaves like a tool, not a website",
+      "category": "web-app-patterns",
+      "description": "Build an offline-first planner with day, week, month and year views, multiple PIN-locked profiles and zero networking code — a tool that feels local, ships as a PWA and a desktop release, and never phones home.",
+      "tags": [
+        "planner",
+        "offline",
+        "pwa",
+        "pin-lock",
+        "multi-profile",
+        "vanilla-js",
+        "no-network",
+        "e2e"
+      ],
+      "source_repos": [
+        "planner-pro"
+      ],
+      "subskills": [
+        "offline-first-single-file-web-app",
+        "android-webview-apk-packaging"
+      ],
+      "id": "offline-planner-with-profiles",
+      "version": "1.0.0",
+      "updated": "2026-11-22",
+      "source_snapshot": {
+        "planner-pro": "acd4404e458effb386cbecb298c5d72c7bdf61d3"
+      }
+    },
+    {
+      "name": "Corpus Extendum — the public domain, properly shelved",
+      "category": "notes-knowledge",
+      "description": "Run a public-domain library where every title is cleared for both India and the United States, each record says on what basis, one book is one card across PDF/EPUB/text, and the storage is split across repositories because Pages caps a site at 1 GB.",
+      "tags": [
+        "public-domain",
+        "copyright",
+        "library",
+        "pdf",
+        "epub",
+        "dedupe",
+        "pagination",
+        "static-hosting"
+      ],
+      "source_repos": [
+        "corpus-extendum",
+        "corpus-extendum-vault-01"
+      ],
+      "subskills": [
+        "offline-first-single-file-web-app"
+      ],
+      "id": "public-domain-library",
+      "version": "1.0.0",
+      "updated": "2026-11-22",
+      "source_snapshot": {
+        "corpus-extendum": "710ff2d0d906911b8cdb6e6bc068b6e974857aba",
+        "corpus-extendum-vault-01": "6c02add08c23acfa2e203caaa98bd840898b6156"
+      }
+    },
+    {
+      "name": "raylib-starter — the C answer to game-kit",
+      "category": "game-engine",
+      "description": "Write a one-file C game starter on raylib with the same contract as the browser kit: fixed timestep, scenes, an ECS and a CRC-checked save — inside a 10 MB ceiling, as one binary for Windows, macOS, Linux, web, Android and a Raspberry Pi.",
+      "tags": [
+        "raylib",
+        "c",
+        "fixed-timestep",
+        "ecs",
+        "scenes",
+        "save",
+        "crc",
+        "cross-platform",
+        "10mb"
+      ],
+      "source_repos": [
+        "raylib-starter"
+      ],
+      "subskills": [
+        "game-kit-fixed-timestep"
+      ],
+      "id": "raylib-c-game-starter",
+      "version": "1.0.0",
+      "updated": "2026-11-22",
+      "source_snapshot": {
+        "raylib-starter": "b8f15ce4f34e84c5e5f038f80846b5654339bbba"
+      }
+    },
+    {
+      "name": "Remedy Finder — a repertory workbench, not a search box",
+      "category": "health-tools",
+      "description": "Build an offline homeopathic repertory workbench: a symptom picker beside a ranked remedy list, 178 remedies and 634 symptoms with 30,412 graded links, mobile-first sheets and bottom tabs — single-file HTML, PWA, no account, no tracking.",
+      "tags": [
+        "homoeopathy",
+        "repertory",
+        "grading",
+        "ranking",
+        "offline",
+        "mobile-first",
+        "pwa",
+        "health"
+      ],
+      "source_repos": [
+        "remedy-finder"
+      ],
+      "subskills": [
+        "repertory-kit-repertorisation",
+        "offline-first-single-file-web-app"
+      ],
+      "id": "repertory-workbench",
+      "version": "1.0.0",
+      "updated": "2026-11-22",
+      "source_snapshot": {
+        "remedy-finder": "16311b36461f5aab2f2e6378e06812314845fbc0"
+      }
+    },
+    {
+      "name": "lm-kit — small, schema-locked models for a fleet",
+      "category": "ai-and-ml",
+      "description": "Harvest a training corpus from your own repositories, train a tiny transformer, export int8 and ship it beside the app — one file per stage, standard library only, no network, no API key, and the model output locked to a schema.",
+      "tags": [
+        "llm",
+        "transformer",
+        "training",
+        "int8",
+        "corpus",
+        "standard-library",
+        "offline",
+        "schema"
+      ],
+      "source_repos": [
+        "lm-kit"
+      ],
+      "subskills": [
+        "offline-first-single-file-web-app",
+        "ml-kit"
+      ],
+      "id": "small-schema-locked-language-models",
+      "version": "1.0.0",
+      "updated": "2026-11-22",
+      "source_snapshot": {
+        "lm-kit": "d935ab235831e40be064972ce841f9314d788cd8"
+      }
+    },
+    {
+      "name": "LARGE_GLOBE — a sourced archive of hidden-world claims",
+      "category": "notes-knowledge",
+      "description": "Publish a large archive of contested claims without endorsing them: every claim attributed to the person who made it, every source linked, every test shown next to the thing it tested, plus a reading guide, search and a single-volume print edition.",
+      "tags": [
+        "reference",
+        "provenance",
+        "contested-claims",
+        "archive",
+        "print-edition",
+        "search",
+        "feed"
+      ],
+      "source_repos": [
+        "LARGE_GLOBE"
+      ],
+      "subskills": [
+        "static-landing-page-seo",
+        "knowledge-capture-and-recall"
+      ],
+      "id": "sourced-claims-archive",
+      "version": "1.0.0",
+      "updated": "2026-11-22",
+      "source_snapshot": {
+        "LARGE_GLOBE": "233094b290d74b21f34deb6f3e90cb80ca763213"
+      }
+    },
+    {
+      "name": "Volumen — the web as text, with deterministic dumps",
+      "category": "browser-automation",
+      "description": "Fork a text browser into two jobs: reading without distraction, and turning pages into deterministic markdown or JSON for scripts and models — with a size tier of the browser family that fits in 5-8 MB.",
+      "tags": [
+        "lynx",
+        "text-browser",
+        "dump",
+        "markdown",
+        "json",
+        "deterministic",
+        "automation",
+        "c"
+      ],
+      "source_repos": [
+        "volumen"
+      ],
+      "subskills": [
+        "the-browser-aetheris"
+      ],
+      "id": "text-browser-with-machine-output",
+      "version": "1.0.0",
+      "updated": "2026-11-22",
+      "source_snapshot": {
+        "volumen": "2d2ef9c43b4c8323de294955aa78ede18be8afb0"
+      }
+    },
+    {
+      "name": "Holistic — eight traditions in one quiet app",
+      "category": "web-app-patterns",
+      "description": "Combine several divination and self-reflection traditions — numerology, sun-sign astrology, lunar phase, biorhythm, tarot, runes and I Ching — into one offline app with a single Today screen, without ranking them or pretending they are science.",
+      "tags": [
+        "numerology",
+        "astrology",
+        "tarot",
+        "i-ching",
+        "runes",
+        "biorhythm",
+        "offline",
+        "framing",
+        "single-file"
+      ],
+      "source_repos": [
+        "holistic"
+      ],
+      "subskills": [
+        "offline-first-single-file-web-app",
+        "astro-kit-panchang"
+      ],
+      "id": "traditions-in-one-quiet-app",
+      "version": "1.0.0",
+      "updated": "2026-11-22",
+      "source_snapshot": {
+        "holistic": "159e7913f30012a14fdfd7212cbe289da5b3bb96"
+      }
+    },
+    {
+      "name": "UniRep — one search surface over several repertories",
+      "category": "health-tools",
+      "description": "Index several classical homeopathic repertories into one search surface: normalise the books into a common record shape, keep the policy documents in the repository, and run the app where it can actually be hosted.",
+      "tags": [
+        "homoeopathy",
+        "repertory",
+        "index",
+        "normalisation",
+        "search",
+        "policy",
+        "replit",
+        "health"
+      ],
+      "source_repos": [
+        "UniRep"
+      ],
+      "subskills": [
+        "repertory-kit-repertorisation",
+        "search-kit-ranked-search"
+      ],
+      "id": "universal-repertory-index",
+      "version": "1.0.0",
+      "updated": "2026-11-22",
+      "source_snapshot": {
+        "UniRep": "90b3f5e9d52f5810bfdaa8898d0bd2e44448db8c"
+      }
     }
   ]
 }

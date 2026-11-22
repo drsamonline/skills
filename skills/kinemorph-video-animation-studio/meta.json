@@ -1,0 +1,28 @@
+{
+  "name": "Kinemorph — an animation studio that exports real video",
+  "category": "media-design",
+  "description": "Build a browser animation studio that turns a paragraph into a scored, styled show and exports frame-exact MP4 through WebCodecs — React + TypeScript over PixiJS, a GSAP timeline, a Tone.js generative score, and a committed build.",
+  "tags": [
+    "webcodecs",
+    "mp4-export",
+    "pixijs",
+    "gsap",
+    "tone.js",
+    "react",
+    "typescript",
+    "video",
+    "animation"
+  ],
+  "source_repos": [
+    "kinemorph"
+  ],
+  "subskills": [
+    "kinemotif-single-file-animation-studio"
+  ],
+  "id": "kinemorph-video-animation-studio",
+  "version": "1.0.0",
+  "updated": "2026-11-22",
+  "source_snapshot": {
+    "kinemorph": "67b5e152606fe9c69a0baff976c95fd9c2dd0b31"
+  }
+}

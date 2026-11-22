@@ -1,0 +1,28 @@
+{
+  "name": "Hellgate — a procedural 2.5D arena FPS with zero external assets",
+  "category": "game-dev",
+  "description": "Build a Doom-style 2.5D shooter in a browser tab where every texture, mesh and sound is generated at runtime from a seed string — sector maps, three weapons, two enemy types, no images, no models, no audio files, no build step.",
+  "tags": [
+    "three.js",
+    "procedural",
+    "fps",
+    "raycasting",
+    "web-audio",
+    "zero-assets",
+    "game",
+    "canvas-textures"
+  ],
+  "source_repos": [
+    "Hellgate"
+  ],
+  "subskills": [
+    "neon-engine-open-world",
+    "game-kit-fixed-timestep"
+  ],
+  "id": "hellgate-procedural-arena-fps",
+  "version": "1.0.0",
+  "updated": "2026-11-22",
+  "source_snapshot": {
+    "Hellgate": "da7d1d1010b04634ad0a2424280928d29fdf48b3"
+  }
+}

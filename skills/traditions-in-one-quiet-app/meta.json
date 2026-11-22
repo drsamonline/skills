@@ -1,0 +1,29 @@
+{
+  "name": "Holistic — eight traditions in one quiet app",
+  "category": "web-app-patterns",
+  "description": "Combine several divination and self-reflection traditions — numerology, sun-sign astrology, lunar phase, biorhythm, tarot, runes and I Ching — into one offline app with a single Today screen, without ranking them or pretending they are science.",
+  "tags": [
+    "numerology",
+    "astrology",
+    "tarot",
+    "i-ching",
+    "runes",
+    "biorhythm",
+    "offline",
+    "framing",
+    "single-file"
+  ],
+  "source_repos": [
+    "holistic"
+  ],
+  "subskills": [
+    "offline-first-single-file-web-app",
+    "astro-kit-panchang"
+  ],
+  "id": "traditions-in-one-quiet-app",
+  "version": "1.0.0",
+  "updated": "2026-11-22",
+  "source_snapshot": {
+    "holistic": "159e7913f30012a14fdfd7212cbe289da5b3bb96"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "app-story-engine — the state is the story",
+  "category": "web-app-patterns",
+  "description": "Build a choose-your-own-adventure reader where the carried state decides which doors are still open and the trail records every passage in order — offline, no accounts, with the engine tested headlessly against the real book.",
+  "tags": [
+    "interactive-fiction",
+    "state-machine",
+    "branching-narrative",
+    "save-load",
+    "offline",
+    "engine"
+  ],
+  "source_repos": [
+    "app-story-engine"
+  ],
+  "subskills": [
+    "aethelgardvn-saga-engine",
+    "offline-first-single-file-web-app"
+  ],
+  "id": "branching-story-engine",
+  "version": "1.0.0",
+  "updated": "2026-11-22",
+  "source_snapshot": {
+    "app-story-engine": "3a783cdfb71285f9ee4b60e682350880acd52ca2"
+  }
+}

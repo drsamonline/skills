@@ -1,0 +1,28 @@
+{
+  "name": "UniRep — one search surface over several repertories",
+  "category": "health-tools",
+  "description": "Index several classical homeopathic repertories into one search surface: normalise the books into a common record shape, keep the policy documents in the repository, and run the app where it can actually be hosted.",
+  "tags": [
+    "homoeopathy",
+    "repertory",
+    "index",
+    "normalisation",
+    "search",
+    "policy",
+    "replit",
+    "health"
+  ],
+  "source_repos": [
+    "UniRep"
+  ],
+  "subskills": [
+    "repertory-kit-repertorisation",
+    "search-kit-ranked-search"
+  ],
+  "id": "universal-repertory-index",
+  "version": "1.0.0",
+  "updated": "2026-11-22",
+  "source_snapshot": {
+    "UniRep": "90b3f5e9d52f5810bfdaa8898d0bd2e44448db8c"
+  }
+}

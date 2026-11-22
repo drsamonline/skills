@@ -1,0 +1,26 @@
+{
+  "name": "Sorta — an offline document sorter with a budget",
+  "category": "sysadmin-ops",
+  "description": "Build an ultra-light semantic file sorter as one Rust binary: drop a file or a folder and it lands somewhere you can predict, with a log entry that explains why — local embeddings, no service, no telemetry, and a stated size/RAM/startup budget.",
+  "tags": [
+    "rust",
+    "file-sorting",
+    "embeddings",
+    "offline",
+    "single-binary",
+    "budget",
+    "logging"
+  ],
+  "source_repos": [
+    "Sorta"
+  ],
+  "subskills": [
+    "offline-first-single-file-web-app"
+  ],
+  "id": "offline-document-sorter",
+  "version": "1.0.0",
+  "updated": "2026-11-22",
+  "source_snapshot": {
+    "Sorta": "6b3877d3a45f557568bcc7b3bdea9907c17602f8"
+  }
+}

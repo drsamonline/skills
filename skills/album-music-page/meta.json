@@ -1,0 +1,27 @@
+{
+  "name": "Music page — a manifest-driven album shelf",
+  "category": "media-design",
+  "description": "Build an album-wise music page that hosts no audio at all: a generated manifest points every track at the platform that hosts it, the page plays through that platform's own player, and adding a track is one line in a link list plus a rebuild.",
+  "tags": [
+    "manifest",
+    "crawl",
+    "static-site",
+    "audio",
+    "soundcloud",
+    "no-hosting",
+    "github-actions"
+  ],
+  "source_repos": [
+    "music"
+  ],
+  "subskills": [
+    "static-landing-page-seo",
+    "reusable-build-release-workflow"
+  ],
+  "id": "album-music-page",
+  "version": "1.0.0",
+  "updated": "2026-11-22",
+  "source_snapshot": {
+    "music": "de4ba380a675ee1016416665a9d2ff1f02405091"
+  }
+}

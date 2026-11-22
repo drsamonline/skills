@@ -1,0 +1,28 @@
+{
+  "name": "Remedy Finder — a repertory workbench, not a search box",
+  "category": "health-tools",
+  "description": "Build an offline homeopathic repertory workbench: a symptom picker beside a ranked remedy list, 178 remedies and 634 symptoms with 30,412 graded links, mobile-first sheets and bottom tabs — single-file HTML, PWA, no account, no tracking.",
+  "tags": [
+    "homoeopathy",
+    "repertory",
+    "grading",
+    "ranking",
+    "offline",
+    "mobile-first",
+    "pwa",
+    "health"
+  ],
+  "source_repos": [
+    "remedy-finder"
+  ],
+  "subskills": [
+    "repertory-kit-repertorisation",
+    "offline-first-single-file-web-app"
+  ],
+  "id": "repertory-workbench",
+  "version": "1.0.0",
+  "updated": "2026-11-22",
+  "source_snapshot": {
+    "remedy-finder": "16311b36461f5aab2f2e6378e06812314845fbc0"
+  }
+}

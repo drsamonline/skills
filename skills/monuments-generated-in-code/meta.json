@@ -1,0 +1,27 @@
+{
+  "name": "INDIA — monuments rebuilt in code",
+  "category": "media-design",
+  "description": "Rebuild twenty-four monuments as live 3D miniatures in the browser with no photographs, no downloaded meshes and no build step — every dome, bracket and lattice screen generated from code, lit by a physical sky, and paired with the history behind it.",
+  "tags": [
+    "three.js",
+    "procedural-3d",
+    "architecture",
+    "history",
+    "no-assets",
+    "webgl",
+    "india"
+  ],
+  "source_repos": [
+    "INDIA"
+  ],
+  "subskills": [
+    "hellgate-procedural-arena-fps",
+    "static-landing-page-seo"
+  ],
+  "id": "monuments-generated-in-code",
+  "version": "1.0.0",
+  "updated": "2026-11-22",
+  "source_snapshot": {
+    "INDIA": "2ba73c58c9399a30800ea2ddca1b949d4a046423"
+  }
+}

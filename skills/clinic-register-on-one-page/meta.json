@@ -1,0 +1,27 @@
+{
+  "name": "OPD Register — the clinic day, at typing speed",
+  "category": "health-tools",
+  "description": "Build a daily outpatient register that lays out the whole month ready to type into, updates counts and department splits as you write, prints for the file, exports to Excel, and keeps several centres apart — offline with no network request at all.",
+  "tags": [
+    "clinic",
+    "register",
+    "offline",
+    "print",
+    "excel-export",
+    "multi-centre",
+    "health"
+  ],
+  "source_repos": [
+    "app-opd-register"
+  ],
+  "subskills": [
+    "offline-first-single-file-web-app",
+    "export-kit"
+  ],
+  "id": "clinic-register-on-one-page",
+  "version": "1.0.0",
+  "updated": "2026-11-22",
+  "source_snapshot": {
+    "app-opd-register": "b8ad75b6dc248c86f83663b7f4f65152de8485a9"
+  }
+}

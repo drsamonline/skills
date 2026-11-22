@@ -1,0 +1,28 @@
+{
+  "name": "raylib-starter — the C answer to game-kit",
+  "category": "game-engine",
+  "description": "Write a one-file C game starter on raylib with the same contract as the browser kit: fixed timestep, scenes, an ECS and a CRC-checked save — inside a 10 MB ceiling, as one binary for Windows, macOS, Linux, web, Android and a Raspberry Pi.",
+  "tags": [
+    "raylib",
+    "c",
+    "fixed-timestep",
+    "ecs",
+    "scenes",
+    "save",
+    "crc",
+    "cross-platform",
+    "10mb"
+  ],
+  "source_repos": [
+    "raylib-starter"
+  ],
+  "subskills": [
+    "game-kit-fixed-timestep"
+  ],
+  "id": "raylib-c-game-starter",
+  "version": "1.0.0",
+  "updated": "2026-11-22",
+  "source_snapshot": {
+    "raylib-starter": "b8f15ce4f34e84c5e5f038f80846b5654339bbba"
+  }
+}

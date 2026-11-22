@@ -1,0 +1,26 @@
+{
+  "name": "motion-kit — folding a kit into another, and leaving a readable shim",
+  "category": "engineering-workflow",
+  "description": "Merge one library into another without breaking anyone who vendors it: move the code, keep a frozen shim repository that still resolves, repoint the docs at the new path, and say plainly in the README that it is no longer maintained.",
+  "tags": [
+    "merge",
+    "deprecation",
+    "shim",
+    "vendoring",
+    "semver",
+    "docs",
+    "fleet-maintenance"
+  ],
+  "source_repos": [
+    "motion-kit"
+  ],
+  "subskills": [
+    "reusable-build-release-workflow"
+  ],
+  "id": "frozen-kit-merge",
+  "version": "1.0.0",
+  "updated": "2026-11-22",
+  "source_snapshot": {
+    "motion-kit": "aa82d0d0bdca6464ddd7b2c0d019c4420cade0f3"
+  }
+}

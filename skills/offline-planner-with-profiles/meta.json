@@ -1,0 +1,28 @@
+{
+  "name": "Planner Pro — a planner that behaves like a tool, not a website",
+  "category": "web-app-patterns",
+  "description": "Build an offline-first planner with day, week, month and year views, multiple PIN-locked profiles and zero networking code — a tool that feels local, ships as a PWA and a desktop release, and never phones home.",
+  "tags": [
+    "planner",
+    "offline",
+    "pwa",
+    "pin-lock",
+    "multi-profile",
+    "vanilla-js",
+    "no-network",
+    "e2e"
+  ],
+  "source_repos": [
+    "planner-pro"
+  ],
+  "subskills": [
+    "offline-first-single-file-web-app",
+    "android-webview-apk-packaging"
+  ],
+  "id": "offline-planner-with-profiles",
+  "version": "1.0.0",
+  "updated": "2026-11-22",
+  "source_snapshot": {
+    "planner-pro": "acd4404e458effb386cbecb298c5d72c7bdf61d3"
+  }
+}

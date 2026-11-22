@@ -1,0 +1,27 @@
+{
+  "name": "LARGE_GLOBE — a sourced archive of hidden-world claims",
+  "category": "notes-knowledge",
+  "description": "Publish a large archive of contested claims without endorsing them: every claim attributed to the person who made it, every source linked, every test shown next to the thing it tested, plus a reading guide, search and a single-volume print edition.",
+  "tags": [
+    "reference",
+    "provenance",
+    "contested-claims",
+    "archive",
+    "print-edition",
+    "search",
+    "feed"
+  ],
+  "source_repos": [
+    "LARGE_GLOBE"
+  ],
+  "subskills": [
+    "static-landing-page-seo",
+    "knowledge-capture-and-recall"
+  ],
+  "id": "sourced-claims-archive",
+  "version": "1.0.0",
+  "updated": "2026-11-22",
+  "source_snapshot": {
+    "LARGE_GLOBE": "233094b290d74b21f34deb6f3e90cb80ca763213"
+  }
+}

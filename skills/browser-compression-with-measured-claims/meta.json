@@ -1,0 +1,26 @@
+{
+  "name": "Faztest — a Brotli front end with claims that can be checked",
+  "category": "code-quality",
+  "description": "Ship a compression tool whose README numbers are generated from a measured corpus and fail the build when they drift — Brotli in a WebAssembly worker and a portable CLI, with the honest table that says where it loses.",
+  "tags": [
+    "brotli",
+    "wasm",
+    "compression",
+    "benchmark",
+    "honest-claims",
+    "cli",
+    "privacy"
+  ],
+  "source_repos": [
+    "faztest-fast-file-forge"
+  ],
+  "subskills": [
+    "reusable-build-release-workflow"
+  ],
+  "id": "browser-compression-with-measured-claims",
+  "version": "1.0.0",
+  "updated": "2026-11-22",
+  "source_snapshot": {
+    "faztest-fast-file-forge": "5f6a8f1ce875eab404a43f098d5708aa4ca2ae47"
+  }
+}

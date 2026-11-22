@@ -1,0 +1,27 @@
+{
+  "name": "Volumen — the web as text, with deterministic dumps",
+  "category": "browser-automation",
+  "description": "Fork a text browser into two jobs: reading without distraction, and turning pages into deterministic markdown or JSON for scripts and models — with a size tier of the browser family that fits in 5-8 MB.",
+  "tags": [
+    "lynx",
+    "text-browser",
+    "dump",
+    "markdown",
+    "json",
+    "deterministic",
+    "automation",
+    "c"
+  ],
+  "source_repos": [
+    "volumen"
+  ],
+  "subskills": [
+    "the-browser-aetheris"
+  ],
+  "id": "text-browser-with-machine-output",
+  "version": "1.0.0",
+  "updated": "2026-11-22",
+  "source_snapshot": {
+    "volumen": "2d2ef9c43b4c8323de294955aa78ede18be8afb0"
+  }
+}

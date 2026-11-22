@@ -1,0 +1,27 @@
+{
+  "name": "Kinemotif — a paragraph into a scored show, in one HTML file",
+  "category": "media-design",
+  "description": "Turn a paragraph into a moving, scored presentation inside a single dependency-free HTML file — six art styles, real shape morphing, a synthesised soundtrack, and an export that is one offline file.",
+  "tags": [
+    "canvas-2d",
+    "web-audio",
+    "single-file",
+    "animation",
+    "shape-morphing",
+    "offline",
+    "presentation"
+  ],
+  "source_repos": [
+    "kinemotif"
+  ],
+  "subskills": [
+    "offline-first-single-file-web-app",
+    "kinemorph-video-animation-studio"
+  ],
+  "id": "kinemotif-single-file-animation-studio",
+  "version": "1.0.0",
+  "updated": "2026-11-22",
+  "source_snapshot": {
+    "kinemotif": "c2056de0e806be944d6c21487923c09bf023d061"
+  }
+}

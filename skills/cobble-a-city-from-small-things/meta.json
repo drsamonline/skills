@@ -1,0 +1,26 @@
+{
+  "name": "Cobble — a private city built from small things",
+  "category": "web-app-patterns",
+  "description": "Turn a personal journal into something you can walk through: each saved moment becomes a building, colour encodes what kind of moment it was and height encodes how much it mattered, offline and private with an encrypted share.",
+  "tags": [
+    "journal",
+    "visualisation",
+    "data-as-place",
+    "offline",
+    "encrypted-share",
+    "export",
+    "single-file"
+  ],
+  "source_repos": [
+    "Cobble"
+  ],
+  "subskills": [
+    "offline-first-single-file-web-app"
+  ],
+  "id": "cobble-a-city-from-small-things",
+  "version": "1.0.0",
+  "updated": "2026-11-22",
+  "source_snapshot": {
+    "Cobble": "0e03bd87790dd2793993a0eabbeba606f45b9c10"
+  }
+}

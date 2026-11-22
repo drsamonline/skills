@@ -1,0 +1,27 @@
+{
+  "name": "Nodus — one browser core, many frontends",
+  "category": "browser-automation",
+  "description": "Turn a browser engine into a library with frontends on top instead of a monolith behind build flags — a pinned NetSurf fork exposing one interface to framebuffer, GTK, headless and text clients that share the same parser, layout and network code.",
+  "tags": [
+    "netsurf",
+    "browser-engine",
+    "library",
+    "frontends",
+    "c",
+    "headless",
+    "text-mode",
+    "fork"
+  ],
+  "source_repos": [
+    "nodus"
+  ],
+  "subskills": [
+    "the-browser-aetheris"
+  ],
+  "id": "browser-core-as-library",
+  "version": "1.0.0",
+  "updated": "2026-11-22",
+  "source_snapshot": {
+    "nodus": "efe46a7074524365c5fa7bef26222bf44d63b452"
+  }
+}

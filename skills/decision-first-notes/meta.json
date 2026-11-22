@@ -1,0 +1,28 @@
+{
+  "name": "DayDoc — decision-first office notes",
+  "category": "notes-knowledge",
+  "description": "Store decisions rather than notes: an atomic DR-NNNN record with a lifecycle and a supersession chain, notes that serve as evidence for it, procedures that emerged from repetition, and tasks derived from decisions — so the office can answer why, not just what.",
+  "tags": [
+    "decisions",
+    "adr",
+    "lifecycle",
+    "supersession",
+    "evidence",
+    "sop",
+    "office",
+    "notes"
+  ],
+  "source_repos": [
+    "DayDoc"
+  ],
+  "subskills": [
+    "knowledge-capture-and-recall",
+    "reusable-build-release-workflow"
+  ],
+  "id": "decision-first-notes",
+  "version": "1.0.0",
+  "updated": "2026-11-22",
+  "source_snapshot": {
+    "DayDoc": "edef9f8fbc280137f85d5ee7096df3debf123eb8"
+  }
+}

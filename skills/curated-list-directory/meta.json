@@ -1,0 +1,33 @@
+{
+  "name": "Single-file web app directories — curating a list people submit to",
+  "category": "web-app-patterns",
+  "description": "Run a curated directory of single-file, local-first web apps: a submission path that does not rot, one criterion applied literally (one HTML file, dependencies embedded), and enough structure that a reader can tell a maintained list from an abandoned one.",
+  "tags": [
+    "awesome-list",
+    "curation",
+    "submissions",
+    "single-file",
+    "local-first",
+    "directory",
+    "community"
+  ],
+  "source_repos": [
+    "awesome-singlefile-tools",
+    "iamsingle-sfwa-directory",
+    "Single-File-Web-Apps",
+    "local-first-tools"
+  ],
+  "subskills": [
+    "auto-updating-showcase-hub",
+    "static-landing-page-seo"
+  ],
+  "id": "curated-list-directory",
+  "version": "1.0.0",
+  "updated": "2026-11-22",
+  "source_snapshot": {
+    "awesome-singlefile-tools": "ef9d7a64667689f53186da516f96b201fc1dae27",
+    "iamsingle-sfwa-directory": "33a80b959dd0bcf6aa104813c968c412327274c2",
+    "Single-File-Web-Apps": "2b8fca0597abd0c08dea4aa4dd102cde040fe353",
+    "local-first-tools": "bc8f9360dc2821d5987199204d67d4fe2c9e57bb"
+  }
+}

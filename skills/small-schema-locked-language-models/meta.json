@@ -1,0 +1,28 @@
+{
+  "name": "lm-kit — small, schema-locked models for a fleet",
+  "category": "ai-and-ml",
+  "description": "Harvest a training corpus from your own repositories, train a tiny transformer, export int8 and ship it beside the app — one file per stage, standard library only, no network, no API key, and the model output locked to a schema.",
+  "tags": [
+    "llm",
+    "transformer",
+    "training",
+    "int8",
+    "corpus",
+    "standard-library",
+    "offline",
+    "schema"
+  ],
+  "source_repos": [
+    "lm-kit"
+  ],
+  "subskills": [
+    "offline-first-single-file-web-app",
+    "ml-kit"
+  ],
+  "id": "small-schema-locked-language-models",
+  "version": "1.0.0",
+  "updated": "2026-11-22",
+  "source_snapshot": {
+    "lm-kit": "d935ab235831e40be064972ce841f9314d788cd8"
+  }
+}

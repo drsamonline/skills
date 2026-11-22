@@ -1,0 +1,27 @@
+{
+  "name": "Sorex — a featherweight GUI browser for old machines",
+  "category": "browser-automation",
+  "description": "Build a graphical browser for machines the modern web forgot — 2 GB netbooks, Pentium M laptops, 512 MB Raspberry Pis — as a hardened Dillo fork with no JavaScript engine, a scriptable surface, and a 15-30 MB budget.",
+  "tags": [
+    "dillo",
+    "fltk",
+    "browser",
+    "low-memory",
+    "no-javascript",
+    "scriptable",
+    "c++",
+    "fork"
+  ],
+  "source_repos": [
+    "sorex"
+  ],
+  "subskills": [
+    "the-browser-aetheris"
+  ],
+  "id": "featherweight-graphical-browser",
+  "version": "1.0.0",
+  "updated": "2026-11-22",
+  "source_snapshot": {
+    "sorex": "b71a0f8035feaae13aea318718dfd05b0a724f9d"
+  }
+}

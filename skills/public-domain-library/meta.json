@@ -1,0 +1,29 @@
+{
+  "name": "Corpus Extendum — the public domain, properly shelved",
+  "category": "notes-knowledge",
+  "description": "Run a public-domain library where every title is cleared for both India and the United States, each record says on what basis, one book is one card across PDF/EPUB/text, and the storage is split across repositories because Pages caps a site at 1 GB.",
+  "tags": [
+    "public-domain",
+    "copyright",
+    "library",
+    "pdf",
+    "epub",
+    "dedupe",
+    "pagination",
+    "static-hosting"
+  ],
+  "source_repos": [
+    "corpus-extendum",
+    "corpus-extendum-vault-01"
+  ],
+  "subskills": [
+    "offline-first-single-file-web-app"
+  ],
+  "id": "public-domain-library",
+  "version": "1.0.0",
+  "updated": "2026-11-22",
+  "source_snapshot": {
+    "corpus-extendum": "710ff2d0d906911b8cdb6e6bc068b6e974857aba",
+    "corpus-extendum-vault-01": "6c02add08c23acfa2e203caaa98bd840898b6156"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Lofi Studio Pro — a sample-free lofi machine with a live tape chain",
+  "category": "media-design",
+  "description": "Build a lofi beat machine with six tracks, sixteen steps, nine ambience layers and a live tape chain — everything synthesised on the fly, offline-first, no samples, no account, no server.",
+  "tags": [
+    "lofi",
+    "web-audio",
+    "sequencer",
+    "tape",
+    "ambience",
+    "pwa",
+    "synthesis",
+    "offline"
+  ],
+  "source_repos": [
+    "lofi-studio-pro"
+  ],
+  "subskills": [
+    "audio-kit",
+    "audio-design",
+    "browser-beat-workstation"
+  ],
+  "id": "lofi-beat-machine",
+  "version": "1.0.0",
+  "updated": "2026-11-22",
+  "source_snapshot": {
+    "lofi-studio-pro": "38c604fdb1f35ccadf301e41e33071aa2f57c13b"
+  }
+}

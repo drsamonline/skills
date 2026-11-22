@@ -1,0 +1,28 @@
+{
+  "name": "Mood Mixer — three sliders to a coordinated palette",
+  "category": "frontend-ui",
+  "description": "Build a colour playground where three mood sliders produce a coordinated four-colour palette, with six harmony schemes, WCAG contrast checks and CSS/JSON/Tailwind/PNG export — private, offline, no network calls.",
+  "tags": [
+    "colour",
+    "hsl",
+    "harmony",
+    "wcag-contrast",
+    "export",
+    "playground",
+    "offline",
+    "pwa"
+  ],
+  "source_repos": [
+    "mood-mixer"
+  ],
+  "subskills": [
+    "offline-first-single-file-web-app",
+    "algorithmic-color-palette"
+  ],
+  "id": "mood-to-palette-playground",
+  "version": "1.0.0",
+  "updated": "2026-11-22",
+  "source_snapshot": {
+    "mood-mixer": "e8b25cf3a3486b40daecb7eef26eedd0381712c3"
+  }
+}

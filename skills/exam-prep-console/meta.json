@@ -1,0 +1,27 @@
+{
+  "name": "NTET Homoeopathy — an offline exam console with a question bank",
+  "category": "health-tools",
+  "description": "Build an offline exam-preparation console: a 15-day guided plan over a fixed unit blueprint, a glossary, a question bank with rationales, a full-length NTA-style CBT simulator and unit diagnostics — one HTML file, zero network at runtime.",
+  "tags": [
+    "exam-prep",
+    "cbt-simulator",
+    "question-bank",
+    "offline",
+    "pwa",
+    "diagnostics",
+    "education"
+  ],
+  "source_repos": [
+    "ntet-homoeopathy-cbt"
+  ],
+  "subskills": [
+    "offline-first-single-file-web-app",
+    "srs-kit-sm2"
+  ],
+  "id": "exam-prep-console",
+  "version": "1.0.0",
+  "updated": "2026-11-22",
+  "source_snapshot": {
+    "ntet-homoeopathy-cbt": "5a5cf54250288c994f9f2971b5c87c528a037ed5"
+  }
+}
