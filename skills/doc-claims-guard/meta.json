@@ -1,0 +1,25 @@
+{
+  "name": "Prose that nothing recomputes",
+  "category": "docs-and-planning",
+  "description": "Keep a repository's prose from lying about the code — make every status, ratio, release and 'not yet' a claim a command re-derives, and fail the build when it drifts. Use when docs, READMEs, roadmaps or requirement registers have gone stale, when a benchmark number has no artifact behind it, or when setting up guards so a project's documents cannot silently decay again.",
+  "tags": [
+    "documentation",
+    "drift",
+    "guards",
+    "benchmarks",
+    "honest-claims",
+    "requirements",
+    "mutation-testing"
+  ],
+  "source_repos": [
+    "lexora",
+    "audit",
+    "knowledge"
+  ],
+  "subskills": [
+    "browser-compression-with-measured-claims"
+  ],
+  "id": "doc-claims-guard",
+  "version": "1.0.0",
+  "updated": "2026-11-23"
+}
