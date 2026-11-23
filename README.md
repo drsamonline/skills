@@ -1941,6 +1941,23 @@ It does **not** rewrite the skill prose. That split is deliberate:
 - **Prose update (human/AI, separate)** — the `When to use`, `Method`, `Key
   files`, `Gotchas` and `Source projects` text. Rewriting a method from a diff
   is a judgement call, so it is never done by the scheduled workflow.
+- **Status block (automated, from the source)** — the facts a source repository
+  publishes about itself. A skill whose `meta.json` declares
+
+      "status_source": { "repo": "NEO", "path": "docs/status.json", "branch": "master" }
+
+  gets whatever sits between `<!-- status:begin -->` and `<!-- status:end -->` in
+  its `SKILL.md` rewritten by `scripts/refresh_status.py`, which the weekly job
+  runs. Nothing else in the file is touched, and a skill without the markers is
+  left alone — where the block goes is an editorial decision.
+
+  This exists because copying numbers into prose is how the NEO skill came to
+  claim v0.6.0 for a week after v0.7.0 shipped. The version, size and counts now
+  come from the repository that knows them. Test counts and coverage are
+  deliberately not in that file: they move on every commit and would drift, so
+  they stay in the source's own handover document.
+
+  Check it without writing: `python3 scripts/refresh_status.py --check`.
 
 <!-- support:sweep -->
 ## Support

@@ -3,16 +3,29 @@ name: neo-nova-compiler
 description: A statically-typed compiled systems language (NOVA) whose Rust compiler lowers through one semantic IR to four backends — C, JavaScript, Rust and WebAssembly. Use when adding a language feature that must touch the whole pipeline, when changing the type system, or when you need a reference multi-backend compiler with real gates around it.
 metadata:
   title: "NEO — NOVA language and compiler"
-  version: "1.1.0"
+  version: "1.2.0"
 ---
 
 # NEO — NOVA language and compiler
 
 NOVA is a statically-typed, compiled systems language. Its Rust compiler lowers source
 through lexer → parser → semantic analyser → SIR (Semantic Intermediate Representation) →
-lowerer → one of four backends: C (the reference), JavaScript, Rust and WebAssembly. About
-12,400 lines in `compiler/src` and 28,700 across the workspace, plus a runtime, package
-manager, language server and debugger.
+lowerer → one of four backends: C (the reference), JavaScript, Rust and WebAssembly. A
+runtime, package manager, language server and debugger ship alongside.
+
+<!-- status:begin -->
+| | |
+|---|---|
+| Version | `0.7.0` |
+| Rust | 12,356 lines in `compiler/src`, 28,609 across the workspace |
+| ADRs | 9 |
+| Gates (no toolchain) | `diagnostic`, `docs`, `error-code`, `example`, `extension`, `grammar`, `stdlib`, `type-name` |
+| Standard library | 4 modules, 0 listed as not compiling |
+<!-- status:end -->
+
+That block is generated from [`docs/status.json`](https://github.com/drsamonline/NEO/blob/master/docs/status.json)
+by `scripts/refresh_status.py` — do not edit it by hand. Test counts and coverage are **not**
+in it: they move on every commit and would drift, so they live in `docs/HANDOVER.md`.
 
 **Read `docs/HANDOVER.md` first, every session.** It is the authoritative state document:
 what is done, what is next in order, and the gotchas that will each cost a CI cycle. It is
@@ -42,14 +55,15 @@ kept current deliberately — a stale handover is treated as a defect.
      currently empty, and the file stays because the check is what notices the first module
      that stops compiling.
 4. **Gates run without a toolchain**: `tools/docs-check.py`, `stdlib-check.py`,
-   `grammar-check.py`, `example-check.py`, `type-name-check.py`. Run all five before pushing;
-   they take seconds and each catches a class of drift that no compiler run would.
+   `grammar-check.py`, `example-check.py`, `type-name-check.py`, `status.py --check`. Run
+   them before pushing; they take seconds and each catches a class of drift that no compiler
+   run would.
 5. **The accuracy gate compiles and runs every program under `examples/` and
    `tests/parity/` with ASan and UBSan.** It is the cheapest signal for codegen that is
    valid C but wrong, and it has caught real regressions within a minute.
 6. **Every hard decision gets an ADR** in `docs/adr/`, indexed from `docs/README.md` —
-   `tools/docs-check.py` enforces the link. Nine exist; read 0006, 0007 and 0008 before
-   touching arrays, strings or casts.
+   `tools/docs-check.py` enforces the link. Read 0006, 0007 and 0008 before touching arrays,
+   strings or casts.
 7. **When you find a defect, ask what check would have caught it** and add that check. More
    bugs in this repository were found by gates than by reading.
 
@@ -61,7 +75,7 @@ kept current deliberately — a stale handover is treated as a defect.
 - `stdlib/` — `core`, `io`, `math`, `text`, each with its own README.
 - `compiler/tests/` — `end_to_end.rs`, `stdlib.rs`, `format.rs`, `item_tree.rs`,
   `stdlib_parse.rs`; `README.md` in that directory says what each covers.
-- `docs/HANDOVER.md`, `DEV_PLAN.md`, `docs/adr/`, `docs/tooling.md`.
+- `docs/HANDOVER.md`, `docs/status.json`, `DEV_PLAN.md`, `docs/adr/`, `docs/tooling.md`.
 
 ## Gotchas
 
@@ -104,5 +118,3 @@ the binaries, and `zig cc` alone compiles emitted C to reproduce a C-level failu
 ## Source projects
 
 - [NEO](https://github.com/drsamonline/NEO) — Rust, NOVA language, `master` branch, v0.7.0.
-  Snapshot `e9f27d7`: 285 tests passing, 0 ignored, coverage 68.59%, nine ADRs, and all four
-  standard-library modules compiling.
