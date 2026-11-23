@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-22",
-  "count": 1599,
+  "generated": "2026-11-23",
+  "count": 1601,
   "categories": [
     "web-app-patterns",
     "android-packaging",
@@ -1923,8 +1923,8 @@
         "repertory-kit",
         "srs-kit"
       ],
-      "version": "1.0.0",
-      "updated": "2026-11-16",
+      "version": "1.1.0",
+      "updated": "2026-11-23",
       "source_snapshot": {
         "skills": "d0a4d657eb72f87cc1e44f3442beb4fc4de60312",
         "web-kit": "2acc9714087280982d1bef7f41b478403e5ed5c7",
@@ -35379,8 +35379,8 @@
         "tokens-kit",
         "forge"
       ],
-      "version": "1.1.0",
-      "updated": "2026-11-16",
+      "version": "1.2.0",
+      "updated": "2026-11-23",
       "source_snapshot": {
         "web-kit": "2acc9714087280982d1bef7f41b478403e5ed5c7",
         "export-kit": "135b1a61d54cfe1e7a871e72be350866f3d6be52",
@@ -37925,6 +37925,81 @@
       "source_snapshot": {
         "UniRep": "90b3f5e9d52f5810bfdaa8898d0bd2e44448db8c"
       }
+    },
+    {
+      "id": "repo-provenance-manifest",
+      "name": "Per-file provenance with MANIFEST.json",
+      "category": "ci-and-release",
+      "description": "Record and check per-file provenance with tools/manifest.py — the MANIFEST.json gate that decides, from three blob SHAs, whether a file is safe for a generator to overwrite. Use when a workflow writes into a repository, when a generated file has to be told apart from a hand-written one, or when a build must refuse to clobber source.",
+      "tags": [
+        "provenance",
+        "manifest",
+        "git-blob-sha",
+        "generator-gate",
+        "ci",
+        "fleet",
+        "fail-closed"
+      ],
+      "source_repos": [
+        "forge",
+        "registry",
+        "control-panel",
+        "All4ONE",
+        "HCS",
+        "HMS",
+        "app-thermals"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-23",
+      "source_snapshot": {
+        "forge": "d940798d558ce052792e450affb147689bd9b924",
+        "registry": "88291792794bf70bfff12ff72357be0ddd149144",
+        "control-panel": "22e9b3cd9be8d4a1a5120067c4f47227a5c06c61",
+        "All4ONE": "70bcd2a5b2be39e0d4f9f45675ab6e396fbea8d2",
+        "HCS": "285a2a3e4b1057f3763ba23db42392850747db30",
+        "HMS": "5b8d24fb310b384be0a4d698f8189e9dcb86206d",
+        "app-thermals": "2285ddf9468d6d552790253a41a20834eda40f0a"
+      },
+      "subskills": [
+        "safe-repo-cleanup",
+        "kit-adoption-audit"
+      ]
+    },
+    {
+      "id": "repo-self-checks",
+      "name": "The check-* self-check family",
+      "category": "code-quality",
+      "description": "The tools/check-*.mjs family a no-build repository runs on itself — links that resolve, a version that matches its changelog, exported symbols that carry JSDoc, a README test count that is true, and assets that declare their licence. Use when adding CI to a static site, when a README number drifts, or when a repository needs a cheap honest gate.",
+      "tags": [
+        "ci",
+        "static-site",
+        "link-check",
+        "claims",
+        "jsdoc",
+        "assets",
+        "licence",
+        "no-build"
+      ],
+      "source_repos": [
+        "Hellgate",
+        "art-kit",
+        "code-kit",
+        "game-kit",
+        "weft8-kit"
+      ],
+      "version": "1.0.0",
+      "updated": "2026-11-23",
+      "source_snapshot": {
+        "Hellgate": "0355c41e0eb630aa3033df80c530aa72b70efff5",
+        "art-kit": "1f381398e28e2ef92a7ddcf43627269574201892",
+        "code-kit": "514f8c904120a9e698696ca3a0448689bcda0f53",
+        "game-kit": "79ab0a74bf22d2ebca37799478a17e73f3f6d39a",
+        "weft8-kit": "7d7717ca2e851bbb7d2272f9cd055de8802a63cf"
+      },
+      "subskills": [
+        "repo-provenance-manifest",
+        "browser-compression-with-measured-claims"
+      ]
     }
   ]
 }

@@ -61,6 +61,18 @@ kit should be created, updated, adopted — or retired.
   keys a user has already saved. That is a kit gap, not an app fault.
 - Do not count a kit's own demo page as an adopter, and do not count the kit
   repo itself.
+- **Duplication is not always in a kit's shape.** Measured 2026-11-23: the largest
+  repeated file in the estate is not an app capability at all — `tools/manifest.py`
+  is byte-identical in 68 of the 153 repositories scanned, and the `check-*`
+  family (`check-links.mjs` 13 repos, `check-meta.mjs` 9, `check-claims.js` 8,
+  `check-assets.mjs` 5, `check-docs.mjs` 4) is the same kind of copy. An audit that
+  only looks for `*-kit.js` files reports none of it.
+- **A kit can be live and unconsumed.** `registry/deps.json` on 2026-11-23 records
+  `motion-kit`, `tokens-kit`, `markdown-kit`, `code-kit`, `form-kit` and
+  `widgets-kit` with an empty consumer list, and two of those are deliberate:
+  `tokens-kit` is opt-in always (a fleet-wide palette swap would rebrand 90 apps)
+  and `motion-kit` was folded into `tokens-kit` as `T.motion.*`. Zero adopters is a
+  question, not yet a verdict.
 
 ## Source projects
 

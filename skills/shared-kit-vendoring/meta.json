@@ -19,8 +19,8 @@
     "tokens-kit",
     "forge"
   ],
-  "version": "1.1.0",
-  "updated": "2026-11-16",
+  "version": "1.2.0",
+  "updated": "2026-11-23",
   "source_snapshot": {
     "web-kit": "2acc9714087280982d1bef7f41b478403e5ed5c7",
     "export-kit": "135b1a61d54cfe1e7a871e72be350866f3d6be52",

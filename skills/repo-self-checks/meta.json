@@ -1,0 +1,36 @@
+{
+  "id": "repo-self-checks",
+  "name": "The check-* self-check family",
+  "category": "code-quality",
+  "description": "The tools/check-*.mjs family a no-build repository runs on itself — links that resolve, a version that matches its changelog, exported symbols that carry JSDoc, a README test count that is true, and assets that declare their licence. Use when adding CI to a static site, when a README number drifts, or when a repository needs a cheap honest gate.",
+  "tags": [
+    "ci",
+    "static-site",
+    "link-check",
+    "claims",
+    "jsdoc",
+    "assets",
+    "licence",
+    "no-build"
+  ],
+  "source_repos": [
+    "Hellgate",
+    "art-kit",
+    "code-kit",
+    "game-kit",
+    "weft8-kit"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-23",
+  "source_snapshot": {
+    "Hellgate": "0355c41e0eb630aa3033df80c530aa72b70efff5",
+    "art-kit": "1f381398e28e2ef92a7ddcf43627269574201892",
+    "code-kit": "514f8c904120a9e698696ca3a0448689bcda0f53",
+    "game-kit": "79ab0a74bf22d2ebca37799478a17e73f3f6d39a",
+    "weft8-kit": "7d7717ca2e851bbb7d2272f9cd055de8802a63cf"
+  },
+  "subskills": [
+    "repo-provenance-manifest",
+    "browser-compression-with-measured-claims"
+  ]
+}

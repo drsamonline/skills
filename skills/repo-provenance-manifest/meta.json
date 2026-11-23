@@ -1,0 +1,39 @@
+{
+  "id": "repo-provenance-manifest",
+  "name": "Per-file provenance with MANIFEST.json",
+  "category": "ci-and-release",
+  "description": "Record and check per-file provenance with tools/manifest.py — the MANIFEST.json gate that decides, from three blob SHAs, whether a file is safe for a generator to overwrite. Use when a workflow writes into a repository, when a generated file has to be told apart from a hand-written one, or when a build must refuse to clobber source.",
+  "tags": [
+    "provenance",
+    "manifest",
+    "git-blob-sha",
+    "generator-gate",
+    "ci",
+    "fleet",
+    "fail-closed"
+  ],
+  "source_repos": [
+    "forge",
+    "registry",
+    "control-panel",
+    "All4ONE",
+    "HCS",
+    "HMS",
+    "app-thermals"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-23",
+  "source_snapshot": {
+    "forge": "d940798d558ce052792e450affb147689bd9b924",
+    "registry": "88291792794bf70bfff12ff72357be0ddd149144",
+    "control-panel": "22e9b3cd9be8d4a1a5120067c4f47227a5c06c61",
+    "All4ONE": "70bcd2a5b2be39e0d4f9f45675ab6e396fbea8d2",
+    "HCS": "285a2a3e4b1057f3763ba23db42392850747db30",
+    "HMS": "5b8d24fb310b384be0a4d698f8189e9dcb86206d",
+    "app-thermals": "2285ddf9468d6d552790253a41a20834eda40f0a"
+  },
+  "subskills": [
+    "safe-repo-cleanup",
+    "kit-adoption-audit"
+  ]
+}

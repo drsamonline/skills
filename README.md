@@ -62,7 +62,7 @@ There are two kinds of skill:
 - **Project skills** — 121 skills name one or more drsamonline repositories in `source_repos`: what
   the project is, how it is built, how it is released, and what makes its workflow distinctive.
 
-**Catalogue:** `1599` skills across 28 categories. The machine-readable index is [`catalog.json`](catalog.json); the landing page is <https://drsamonline.github.io/skills/>.
+**Catalogue:** `1601` skills across 28 categories. The machine-readable index is [`catalog.json`](catalog.json); the landing page is <https://drsamonline.github.io/skills/>.
 
 ## Repository layout
 
@@ -136,7 +136,7 @@ matches the code it describes.
 
 Every skill in the repository, by category, with the one line that tells you whether to open it. The id is the directory: `skills/<id>/SKILL.md` holds the method, `meta.json` its provenance, its licence and its upstream commit. Where a category has an index pack, the pack is named first — it is the routing table for that category.
 
-`1599` skills across 28 categories. The descriptions here are one-line summaries; the full trigger text is the `description` field in `meta.json` and at the top of each `SKILL.md`.
+`1601` skills across 28 categories. The descriptions here are one-line summaries; the full trigger text is the `description` field in `meta.json` and at the top of each `SKILL.md`.
 
 ### Web app patterns (`web-app-patterns`) — 31 skills
 
@@ -276,7 +276,7 @@ Every skill in the repository, by category, with the one line that tells you whe
 | [`static-landing-page-seo`](skills/static-landing-page-seo/SKILL.md) | The house landing-page recipe: a bespoke self-contained docs/index.html with a distinct theme, a full SEO head (canonical, OG,… | — |
 | [`theme-aware-github-profile`](skills/theme-aware-github-profile/SKILL.md) | A professional, self-updating GitHub profile README — a bespoke light/dark hero served through <picture>, a lowlighter/metrics… | — |
 
-### CI & release (`ci-and-release`) — 10 skills
+### CI & release (`ci-and-release`) — 11 skills
 
 | Skill | What it does | Licence |
 |---|---|---|
@@ -287,6 +287,7 @@ Every skill in the repository, by category, with the one line that tells you whe
 | [`control-panel`](skills/control-panel/SKILL.md) | An inventory of every workflow across a repository fleet: what runs, when, what calls what, and what is connected to nothing —… | — |
 | [`git-and-release-automation`](skills/git-and-release-automation/SKILL.md) | The commit-to-release path: split and stage changes, write a Conventional Commit, gate on lint and tests, push safely, run… | per source |
 | [`kit-adoption-audit`](skills/kit-adoption-audit/SKILL.md) | Measure which apps actually consume each shared kit and which hand-roll the same capability, from repository trees and blob SHAs… | — |
+| [`repo-provenance-manifest`](skills/repo-provenance-manifest/SKILL.md) | Record and check per-file provenance with tools/manifest.py: MANIFEST.json plus a three-way blob-SHA comparison that decides whether a generator may overwrite a file, and fails closed on any error. | — |
 | [`repo-presentation`](skills/repo-presentation/SKILL.md) | Present a built repository the way this estate presents its apps: a designed landing page at docs/index.html, the app at… | — |
 | [`reusable-build-release-workflow`](skills/reusable-build-release-workflow/SKILL.md) | One GitHub Actions workflow per app repo builds the portable EXE and Android APK, publishes them to a fixed-tag release, and… | — |
 | [`safe-repo-cleanup`](skills/safe-repo-cleanup/SKILL.md) | An audit-first procedure for removing build junk, caches, temp files, stale archives and duplicated README content from a… | — |
@@ -354,7 +355,7 @@ Every skill in the repository, by category, with the one line that tells you whe
 | [`writing-guidelines`](skills/writing-guidelines/SKILL.md) | Review docs/prose for Writing Guidelines compliance. | NOASSERTION |
 | [`writing-shape`](skills/writing-shape/SKILL.md) | Writing, exploit: shape raw material into an article, paragraph by paragraph. | MIT |
 
-### Code quality (`code-quality`) — 15 skills
+### Code quality (`code-quality`) — 16 skills
 
 Index pack: [`pack-code-quality`](skills/pack-code-quality/SKILL.md).
 
@@ -371,6 +372,7 @@ Index pack: [`pack-code-quality`](skills/pack-code-quality/SKILL.md).
 | [`pack-code-quality`](skills/pack-code-quality/SKILL.md) | The review-to-merge loop for a change: run CodeRabbit review, fix its findings with verified patches, decide whether a PR is… | MIT |
 | [`pr-readiness`](skills/pr-readiness/SKILL.md) | Validate changes and pull requests through merge readiness, including local gates, Codex review, CI, independent review, manual… | MIT |
 | [`quality-playbook`](skills/quality-playbook/SKILL.md) | Run a complete quality engineering audit on any codebase. | Apache-2.0 |
+| [`repo-self-checks`](skills/repo-self-checks/SKILL.md) | The tools/check-*.mjs family a no-build repository runs on itself: links that resolve, a version that matches its changelog, exported symbols with JSDoc, a README test count that is true, and assets that declare their licence. | — |
 | [`runaway-guard`](skills/runaway-guard/SKILL.md) | Cost-safety discipline for paid AI / inference APIs: treat $-cost as a third complexity dimension alongside time and space. | MIT |
 | [`tdd-workflow`](skills/tdd-workflow/SKILL.md) | Test-driven development workflow: write a failing test first, watch it fail, implement the smallest change to green, then… | MIT |
 | [`vscode-extension-localization`](skills/vscode-extension-localization/SKILL.md) | Localise a VS Code extension the way the platform expects: the three localization approaches (package manifest strings, the… | per source |
