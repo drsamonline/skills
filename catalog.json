@@ -583,14 +583,19 @@
       "source_repos": [
         "NEO"
       ],
-      "version": "1.1.0",
+      "version": "1.2.0",
       "updated": "2026-11-23",
       "source_snapshot": {
         "NEO": "e9f27d751ba1b474f73330f088a272c418b82a32"
       },
       "subskills": [
         "static-landing-page-seo"
-      ]
+      ],
+      "status_source": {
+        "repo": "NEO",
+        "path": "docs/status.json",
+        "branch": "master"
+      }
     },
     {
       "id": "neon-runner-auto-fire-shooter",

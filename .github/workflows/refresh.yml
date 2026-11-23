@@ -185,6 +185,14 @@ jobs:
               print("embedded snapshot already current")
           PY
 
+      # A skill's prose is a judgement call and this job never touches it. But the
+      # handful of facts a source repository publishes itself — version, size, counts —
+      # are mechanical, and copying them by hand is how the NEO skill claimed v0.6.0 for
+      # a week after v0.7.0 shipped. Any skill whose meta.json declares a
+      # `status_source` gets its marked block rewritten from that file.
+      - name: Refresh generated status blocks
+        run: python3 scripts/refresh_status.py
+
       - name: Commit the refresh (only if something changed)
         run: |
           if git diff --quiet; then
