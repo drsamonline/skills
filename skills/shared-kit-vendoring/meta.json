@@ -22,11 +22,11 @@
   "version": "1.2.0",
   "updated": "2026-11-23",
   "source_snapshot": {
-    "web-kit": "2acc9714087280982d1bef7f41b478403e5ed5c7",
+    "web-kit": "a9edf9bf7ffe85be6cfd3ebcdae3ec83a28fadd5",
     "export-kit": "135b1a61d54cfe1e7a871e72be350866f3d6be52",
     "lan-kit": "021774cf23a0506621ebcb4eeb419152732f02c2",
     "frame-kit": "de16e6d44f5fe09ba3a9d111de252deaaa3b1eff",
-    "tokens-kit": "c59e6a8eaa72f07953833d31aae59e8ca986c56f",
+    "tokens-kit": "bd7a2aab2d91190571aa6700db5ea8ba39a9f1a1",
     "forge": "f6b269fb4e540c23c5e25a70252ffd6d89974bdd"
   },
   "subskills": [

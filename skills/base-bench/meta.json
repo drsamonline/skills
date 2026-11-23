@@ -15,9 +15,9 @@
     "base-bench"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-16",
+  "updated": "2026-11-23",
   "source_snapshot": {
-    "base-bench": "d7ca5c7575f8bba653c437d8478c258c88ed73e8"
+    "base-bench": "be157bec3806c62b8aa05a9c58e316ef84747b94"
   },
   "subskills": [
     "web-kit",

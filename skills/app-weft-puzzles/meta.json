@@ -15,9 +15,9 @@
     "app-weft-puzzles"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-16",
+  "updated": "2026-11-23",
   "source_snapshot": {
-    "app-weft-puzzles": "0dbc19d962ef7204740d6763eabcc5dc314616e1"
+    "app-weft-puzzles": "4ce224092d0173de12832c6377faa8d51efa7654"
   },
   "subskills": [
     "weft8-kit",

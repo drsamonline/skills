@@ -20,12 +20,12 @@
     "BLINKTRANSFER"
   ],
   "version": "2.0.0",
-  "updated": "2026-11-16",
+  "updated": "2026-11-23",
   "source_snapshot": {
     "frame-kit": "de16e6d44f5fe09ba3a9d111de252deaaa3b1eff",
-    "helioprism": "687f88114270045558c44bd1bd50c1099cf2eeef",
-    "blinkcode-ai": "7d4c4553468212871d7e3be4c034608ed2c3054f",
-    "BLINKTRANSFER": "598fb984fe80377c6121f8c2dee4e091c510d71e"
+    "helioprism": "2cd870377fc5ed7a279a8494eaa72e4d46f878b3",
+    "blinkcode-ai": "c7cfa7d5ca3b03ed3eeee33d549b0eaca7d406f5",
+    "BLINKTRANSFER": "192e017b269d7308d59c605411a7fc28fdce75dc"
   },
   "subskills": [
     "optical-file-transfer",

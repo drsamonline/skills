@@ -19,12 +19,12 @@
     "HMS"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-16",
+  "updated": "2026-11-23",
   "source_snapshot": {
     "case-kit": "bfdc22bed059c0738d1041e2fbe979f47f2aaabe",
-    "skin-case-tracker": "f1898e56f0a27a3535f47d2eeb162ce6a4fe0c87",
-    "app-encrypted-case-log": "30b5dd9886a98376d190efa6b99477bfe333eadc",
-    "HMS": "f304200231dcbd91beeef1b024de23c24d921e39"
+    "skin-case-tracker": "ceef290c1ac5aca2866acbd0f38545e694c9799d",
+    "app-encrypted-case-log": "c99c751a5cb27ec102132e88f9f4c4f2ce2c56bd",
+    "HMS": "5b8d24fb310b384be0a4d698f8189e9dcb86206d"
   },
   "subskills": [
     "crypto-kit-aes-gcm",

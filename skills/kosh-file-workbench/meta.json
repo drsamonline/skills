@@ -17,10 +17,10 @@
     "heavenzip"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-16",
+  "updated": "2026-11-23",
   "source_snapshot": {
-    "kosh": "0da9148481d1f47acb631e11c80834bf7c0820b6",
-    "heavenzip": "576342b4f75fe4e8707ea57a709615bb682d22d7"
+    "kosh": "36986c501a88524854bfc3b89a4d460ee36e5e80",
+    "heavenzip": "0adba4ff3eee1355a862b46dc7b1d79c62f65e75"
   },
   "subskills": [
     "heavenzip",

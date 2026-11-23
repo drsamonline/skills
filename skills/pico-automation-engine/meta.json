@@ -1,8 +1,8 @@
 {
   "id": "pico-automation-engine",
-  "name": "pico \u2014 a personal automation engine on the standard library",
+  "name": "pico — a personal automation engine on the standard library",
   "category": "sysadmin-ops",
-  "description": "114 rules, four risk tiers, universal undo, slot dialogue, replay from snapshots and a trigger DSL on the Python standard library alone \u2014 with an optional model that is only ever allowed to propose a command string, never run one. Deleting the model pack loses no capability, only phrasing convenience.",
+  "description": "114 rules, four risk tiers, universal undo, slot dialogue, replay from snapshots and a trigger DSL on the Python standard library alone — with an optional model that is only ever allowed to propose a command string, never run one. Deleting the model pack loses no capability, only phrasing convenience.",
   "tags": [
     "pico",
     "automation",
@@ -17,9 +17,9 @@
     "pico"
   ],
   "version": "1.40.1",
-  "updated": "2026-11-16",
+  "updated": "2026-11-23",
   "source_snapshot": {
-    "pico": "ef5f85465fccf9a42e137a85b2fdf5b8f053dc9b"
+    "pico": "1a472289ffe337ef9a3aca0dcc98f64476f8aa2e"
   },
   "subskills": [
     "web-kit",

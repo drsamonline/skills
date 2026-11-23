@@ -17,10 +17,10 @@
     "sui"
   ],
   "version": "2.1.0",
-  "updated": "2026-11-16",
+  "updated": "2026-11-23",
   "source_snapshot": {
-    "tokens-kit": "c59e6a8eaa72f07953833d31aae59e8ca986c56f",
-    "sui": "73899722b24955d183be817eac55216ab7426de9"
+    "tokens-kit": "bd7a2aab2d91190571aa6700db5ea8ba39a9f1a1",
+    "sui": "bd65f43a08dcddeb2f6639d52c8e6b9c13b64d3e"
   },
   "subskills": [
     "ui-kit",

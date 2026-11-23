@@ -15,9 +15,9 @@
     "app-organon-reader"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-16",
+  "updated": "2026-11-23",
   "source_snapshot": {
-    "app-organon-reader": "8dcae5af85ac4088b1b572eb7524c72cd8d24125"
+    "app-organon-reader": "ec716f07fc22e36163bcef48507d9be5884f10d5"
   },
   "subskills": [
     "offline-first-single-file-web-app",

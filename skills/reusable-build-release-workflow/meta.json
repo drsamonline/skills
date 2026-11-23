@@ -17,10 +17,10 @@
     "HMS"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-16",
+  "updated": "2026-11-23",
   "source_snapshot": {
-    "app-builder": "85949b5b7ef6a47a40731cc01e8c2cd65ceeda4c",
-    "HMS": "f304200231dcbd91beeef1b024de23c24d921e39"
+    "app-builder": "e741a775b630a34b5da99af794565f95920a7b3c",
+    "HMS": "5b8d24fb310b384be0a4d698f8189e9dcb86206d"
   },
   "subskills": [
     "pyinstaller-portable-exe-launcher",

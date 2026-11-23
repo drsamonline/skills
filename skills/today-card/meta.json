@@ -15,9 +15,9 @@
     "today-card"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-16",
+  "updated": "2026-11-23",
   "source_snapshot": {
-    "today-card": "b91d0d7425b946e1f5c2999b80eb444b90cad4b0"
+    "today-card": "ec6e51cb2d0cb1b02ff39270b15059232fa5ec44"
   },
   "subskills": [
     "web-kit",

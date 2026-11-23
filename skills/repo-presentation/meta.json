@@ -17,11 +17,11 @@
     "app-lantern"
   ],
   "version": "1.3.0",
-  "updated": "2026-11-16",
+  "updated": "2026-11-23",
   "source_snapshot": {
     "app-thermals": "2285ddf9468d6d552790253a41a20834eda40f0a",
     "app-jacquard": "b78515e6c8ffcdd3a228a14958115d4028c3ba06",
-    "app-lantern": "4e3f21c5b02987eddd926d6fda7a5d1e0ebfaff0"
+    "app-lantern": "1abcfb4a84fcd33498e23beb0c5afde654806f45"
   },
   "license": "PolyForm-Noncommercial-1.0.0",
   "origin": "estate",

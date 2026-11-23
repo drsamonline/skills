@@ -17,9 +17,9 @@
     "sui"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-16",
+  "updated": "2026-11-23",
   "source_snapshot": {
-    "sui": "73899722b24955d183be817eac55216ab7426de9"
+    "sui": "bd65f43a08dcddeb2f6639d52c8e6b9c13b64d3e"
   },
   "subskills": [
     "ai-bridge",

@@ -21,8 +21,8 @@
   ],
   "id": "small-schema-locked-language-models",
   "version": "1.0.0",
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "source_snapshot": {
-    "lm-kit": "d935ab235831e40be064972ce841f9314d788cd8"
+    "lm-kit": "e283746b32b7c339138bbc78ae222bc082591cb6"
   }
 }

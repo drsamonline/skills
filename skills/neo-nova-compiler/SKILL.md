@@ -17,8 +17,8 @@ runtime, package manager, language server and debugger ship alongside.
 | | |
 |---|---|
 | Version | `0.7.0` |
-| Rust | 12,356 lines in `compiler/src`, 28,609 across the workspace |
-| ADRs | 9 |
+| Rust | 13,445 lines in `compiler/src`, 31,306 across the workspace |
+| ADRs | 14 |
 | Gates (no toolchain) | `diagnostic`, `docs`, `error-code`, `example`, `extension`, `grammar`, `stdlib`, `type-name` |
 | Standard library | 4 modules, 0 listed as not compiling |
 <!-- status:end -->

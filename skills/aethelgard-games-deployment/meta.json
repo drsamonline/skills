@@ -16,9 +16,9 @@
     "aethelgard-games"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-16",
+  "updated": "2026-11-23",
   "source_snapshot": {
-    "aethelgard-games": "8be956e47a380367d6f97b09c02cb8a5d0acc502"
+    "aethelgard-games": "d20f9448e5bbe132bbdf1aefb1471fd64e209070"
   },
   "subskills": [
     "aethelgard-engine-rpg",

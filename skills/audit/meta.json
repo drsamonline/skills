@@ -15,9 +15,9 @@
     "audit"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-16",
+  "updated": "2026-11-23",
   "source_snapshot": {
-    "audit": "c8c5601eb710b5ac87273a8422adc8aaabcb10a5"
+    "audit": "6be31a56e1deb917de5e3bf930151d9aab105946"
   },
   "subskills": [
     "safe-repo-cleanup",

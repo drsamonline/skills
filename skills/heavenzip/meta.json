@@ -15,9 +15,9 @@
     "heavenzip"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-16",
+  "updated": "2026-11-23",
   "source_snapshot": {
-    "heavenzip": "576342b4f75fe4e8707ea57a709615bb682d22d7"
+    "heavenzip": "0adba4ff3eee1355a862b46dc7b1d79c62f65e75"
   },
   "subskills": [
     "ziptastic",

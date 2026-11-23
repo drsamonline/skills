@@ -19,12 +19,12 @@
     "open-materia-medica"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-16",
+  "updated": "2026-11-23",
   "source_snapshot": {
     "search-kit": "32675b6f974268266d9efcb46b095a5b82f1b30b",
-    "app-poets-studio": "4d477c7f4bddc481cd4da0269e78648f1f40e371",
-    "app-encrypted-case-log": "30b5dd9886a98376d190efa6b99477bfe333eadc",
-    "open-materia-medica": "b517699da27984f88362db891b0cf7598145b5d2"
+    "app-poets-studio": "7cd6582cf6b646da842e2312dea982746a34d666",
+    "app-encrypted-case-log": "c99c751a5cb27ec102132e88f9f4c4f2ce2c56bd",
+    "open-materia-medica": "5568be8964ac6fbcc1833c9b303d8e543ae62ad7"
   },
   "subskills": [
     "ml-kit",

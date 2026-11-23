@@ -17,10 +17,10 @@
     "tessera-app"
   ],
   "version": "1.46.0",
-  "updated": "2026-11-16",
+  "updated": "2026-11-23",
   "source_snapshot": {
-    "tessera": "1cc0acb7cbc2bc1102a443e601362fa797fcd5b7",
-    "tessera-app": "7af39875e373cd7a0188cf9ec9879499173e619f"
+    "tessera": "839d9ad7bcabe17dfda3572f3b2820c3e34e34a1",
+    "tessera-app": "18416963d8ae85d983be6121e4c6320b9198ba18"
   },
   "subskills": [
     "app-opd-register",

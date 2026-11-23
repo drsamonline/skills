@@ -24,14 +24,14 @@
     "conqueror-os"
   ],
   "version": "1.0.0",
-  "updated": "2026-11-16",
+  "updated": "2026-11-23",
   "source_snapshot": {
-    "web-kit": "2acc9714087280982d1bef7f41b478403e5ed5c7",
+    "web-kit": "a9edf9bf7ffe85be6cfd3ebcdae3ec83a28fadd5",
     "app-jacquard": "b78515e6c8ffcdd3a228a14958115d4028c3ba06",
-    "app-clip-loom": "1a1b091aa3719b57dd7b22bfd07941b6bd45910e",
+    "app-clip-loom": "3806dc76791b0542c193907d34bf7025550fef0a",
     "app-endpoints": "3af3769c30e5b84c55827764a35824a9b3e894dd",
-    "base-bench": "d7ca5c7575f8bba653c437d8478c258c88ed73e8",
-    "conqueror-os": "5009d0d3bca9d0c20418debb254d5af3032a55b6"
+    "base-bench": "be157bec3806c62b8aa05a9c58e316ef84747b94",
+    "conqueror-os": "7f3d583f8cc03e3333f1a6290b8c596fc5d37e1f"
   },
   "subskills": [
     "export-kit",
