@@ -249,3 +249,8 @@ jobs:
         with:
           fetch-depth: 1
       - run: python3 scripts/validate.py
+
+      # The catalogue is generated on a schedule, so a skill added today is
+      # invisible to it until the next refresh. This makes that visible
+      # immediately instead of a week later.
+      - run: python3 scripts/check_catalog.py
