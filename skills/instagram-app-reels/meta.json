@@ -1,0 +1,27 @@
+{
+  "id": "instagram-app-reels",
+  "name": "Instagram app reels",
+  "category": "media-design",
+  "description": "Record a running web app into vertical Instagram Reels: drive it headlessly at a phone viewport, capture each step, and compose 1080x1920 clips with burned-in captions, a step counter and an optional buy/CTA end card. Includes the dry-run visibility check, the ffmpeg encode that keeps exact timing, and the traps hit in practice.",
+  "tags": [
+    "instagram",
+    "reels",
+    "shorts",
+    "video",
+    "screen-recording",
+    "playwright",
+    "headless-chromium",
+    "ffmpeg",
+    "captions",
+    "safe-area",
+    "product-demo"
+  ],
+  "source_repos": [
+    "ntet-homoeopathy-cbt"
+  ],
+  "version": "1.0.0",
+  "updated": "2026-11-28",
+  "source_snapshot": {
+    "ntet-homoeopathy-cbt": "5a5cf54250288c994f9f2971b5c87c528a037ed5"
+  }
+}
